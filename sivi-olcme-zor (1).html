@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matematik 4 — Sıvı Ölçme (Zor)</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0f172a;--card:#1e293b;--card2:#263348;
+  --text:#e2e8f0;--text-dim:#94a3b8;--text-muted:#64748b;
+  --accent:#3b82f6;--accent-hover:#60a5fa;
+  --green:#22c55e;--green-bg:rgba(34,197,94,.12);--green-border:#16a34a;
+  --red:#ef4444;--red-bg:rgba(239,68,68,.12);--red-border:#dc2626;
+  --yellow:#eab308;--yellow-bg:rgba(234,179,8,.1);
+  --radius:12px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,-apple-system,sans-serif;min-height:100vh;line-height:1.6}
+
+.header{background:var(--card);border-bottom:1px solid rgba(255,255,255,.06);padding:1rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:50;backdrop-filter:blur(12px)}
+.header-title{font-size:1.1rem;font-weight:700;display:flex;align-items:center;gap:.6rem}
+.header-title .icon{width:32px;height:32px;background:var(--accent);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.header-right{display:flex;align-items:center;gap:1.2rem;font-size:.85rem}
+.score-badge{display:flex;align-items:center;gap:.4rem;padding:.35rem .8rem;border-radius:20px;font-weight:600;font-size:.78rem}
+.score-correct{background:var(--green-bg);color:var(--green)}
+.score-wrong{background:var(--red-bg);color:var(--red)}
+.progress-text{color:var(--text-muted);font-weight:500}
+
+.progress-bar-container{height:4px;background:rgba(255,255,255,.06)}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--accent),#818cf8);transition:width .5s ease;border-radius:0 2px 2px 0}
+
+.main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem 4rem}
+
+.question-card{background:var(--card);border-radius:var(--radius);border:1px solid rgba(255,255,255,.06);overflow:hidden;animation:fadeIn .4s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.question-header{padding:1.5rem 2rem;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between}
+.question-number{font-size:.8rem;font-weight:700;color:var(--accent);letter-spacing:.05em}
+.question-points{font-size:.75rem;color:var(--text-muted);background:rgba(255,255,255,.05);padding:.3rem .7rem;border-radius:6px}
+.question-body{padding:2rem}
+.question-text{font-size:1rem;line-height:1.8;margin-bottom:.8rem;color:var(--text)}
+.question-statements{margin:1rem 0 1.5rem;padding-left:.2rem}
+.question-statements p{margin-bottom:.4rem;color:var(--text-dim);font-size:.95rem;line-height:1.7}
+
+.q-table{width:100%;max-width:560px;margin:1rem auto 1.5rem;border-collapse:collapse;font-size:.9rem}
+.q-table th{background:var(--accent);color:#fff;padding:.65rem 1rem;text-align:left;font-weight:600}
+.q-table td{padding:.6rem 1rem;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text-dim)}
+.q-table tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+
+.answers{display:flex;flex-direction:column;gap:.6rem;margin-top:1.2rem}
+.answer-btn{display:flex;align-items:center;gap:1rem;width:100%;padding:1rem 1.4rem;background:var(--card2);border:2px solid rgba(255,255,255,.06);border-radius:10px;color:var(--text);font-size:.92rem;cursor:pointer;transition:all .25s;text-align:left;font-family:inherit;line-height:1.5}
+.answer-btn:hover:not(.disabled){border-color:var(--accent);background:rgba(59,130,246,.08);transform:translateX(4px)}
+.answer-btn .letter{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;flex-shrink:0;transition:all .25s}
+.answer-btn:hover:not(.disabled) .letter{background:var(--accent);color:#fff}
+.answer-btn.correct{border-color:var(--green);background:var(--green-bg)}
+.answer-btn.correct .letter{background:var(--green);color:#fff}
+.answer-btn.wrong{border-color:var(--red);background:var(--red-bg)}
+.answer-btn.wrong .letter{background:var(--red);color:#fff}
+.answer-btn.disabled{cursor:default;opacity:.7}
+.answer-btn.disabled:hover{transform:none;border-color:rgba(255,255,255,.06);background:var(--card2)}
+.answer-btn.correct.disabled,.answer-btn.wrong.disabled{opacity:1}
+
+.question-actions{padding:1.2rem 2rem;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;align-items:center}
+.btn{padding:.7rem 1.6rem;border-radius:8px;font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;border:none;transition:all .25s}
+.btn-skip{background:rgba(255,255,255,.06);color:var(--text-muted)}
+.btn-skip:hover{background:rgba(255,255,255,.1);color:var(--text)}
+.btn-next{background:var(--accent);color:#fff;display:none}
+.btn-next:hover{background:var(--accent-hover);transform:translateY(-1px);box-shadow:0 4px 16px rgba(59,130,246,.3)}
+.btn-next.show{display:inline-flex;align-items:center;gap:.5rem}
+
+.feedback{margin-top:1rem;padding:1rem 1.2rem;border-radius:8px;font-size:.88rem;line-height:1.6;display:none}
+.feedback.show{display:block;animation:fadeIn .3s ease}
+.feedback.correct-fb{background:var(--green-bg);border:1px solid var(--green-border);color:var(--green)}
+.feedback.wrong-fb{background:var(--red-bg);border:1px solid var(--red-border);color:var(--red)}
+
+.result-screen{display:none;text-align:center;animation:fadeIn .5s ease}
+.result-screen.show{display:block}
+.result-card{background:var(--card);border-radius:var(--radius);border:1px solid rgba(255,255,255,.06);padding:3rem 2rem;max-width:600px;margin:0 auto}
+.result-icon{font-size:4rem;margin-bottom:1rem}
+.result-title{font-size:1.8rem;font-weight:800;margin-bottom:.5rem}
+.result-subtitle{color:var(--text-dim);margin-bottom:2rem;font-size:1rem}
+.result-stats{display:flex;justify-content:center;gap:2.5rem;margin-bottom:2.5rem}
+.result-stat{text-align:center}
+.result-stat-num{font-size:2.5rem;font-weight:800;line-height:1}
+.result-stat-num.green{color:var(--green)}
+.result-stat-num.red{color:var(--red)}
+.result-stat-num.blue{color:var(--accent)}
+.result-stat-label{font-size:.75rem;color:var(--text-muted);margin-top:.3rem;text-transform:uppercase;letter-spacing:.05em}
+.result-bar{width:100%;height:10px;background:rgba(255,255,255,.06);border-radius:5px;margin-bottom:2rem;overflow:hidden}
+.result-bar-fill{height:100%;border-radius:5px;transition:width 1s ease}
+.result-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-home{background:rgba(255,255,255,.08);color:var(--text);padding:.85rem 2rem;border-radius:10px;font-size:.9rem;font-weight:600;cursor:pointer;border:none;transition:all .25s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-home:hover{background:rgba(255,255,255,.14)}
+.btn-review{background:var(--accent);color:#fff;padding:.85rem 2rem;border-radius:10px;font-size:.9rem;font-weight:600;cursor:pointer;border:none;transition:all .25s;display:inline-flex;align-items:center;gap:.5rem}
+.btn-review:hover{background:var(--accent-hover);box-shadow:0 4px 16px rgba(59,130,246,.3)}
+
+.review-screen{display:none;animation:fadeIn .4s ease}
+.review-screen.show{display:block}
+.review-header{text-align:center;margin-bottom:2rem}
+.review-header h2{font-size:1.5rem;font-weight:700;margin-bottom:.3rem}
+.review-header p{color:var(--text-muted);font-size:.9rem}
+.review-item{background:var(--card);border-radius:var(--radius);border:1px solid rgba(255,255,255,.06);margin-bottom:1.5rem;overflow:hidden}
+.review-item-header{padding:1.2rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between}
+.review-q-num{font-weight:700;color:var(--red);font-size:.85rem}
+.review-q-correct{font-size:.8rem;color:var(--text-muted)}
+.review-q-correct strong{color:var(--green)}
+.review-item-body{padding:1.5rem}
+.review-item-body .question-text{font-size:.95rem;margin-bottom:.5rem}
+.review-solution{margin-top:1rem;padding:1.2rem 1.5rem;background:var(--green-bg);border:1px solid var(--green-border);border-radius:10px;color:#86efac;font-size:.88rem;line-height:1.7}
+.review-solution strong{color:var(--green);display:block;margin-bottom:.3rem;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em}
+.review-back{text-align:center;margin-top:2rem}
+
+@media(max-width:640px){
+  .main{padding:1rem .8rem 3rem}
+  .question-body{padding:1.2rem}
+  .question-header{padding:1rem 1.2rem}
+  .question-actions{padding:1rem 1.2rem;flex-direction:column;gap:.8rem}
+  .question-actions .btn{width:100%;text-align:center}
+  .result-stats{gap:1.5rem}
+  .result-stat-num{font-size:2rem}
+  .header-title span{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-title">
+    <div class="icon">🧪</div>
+    <span>Matematik 4 — Sıvı Ölçme (Zor)</span>
+  </div>
+  <div class="header-right">
+    <span class="score-badge score-correct" id="correctBadge">✓ 0</span>
+    <span class="score-badge score-wrong" id="wrongBadge">✗ 0</span>
+    <span class="progress-text" id="progressText">1 / 10</span>
+  </div>
+</div>
+<div class="progress-bar-container"><div class="progress-bar" id="progressBar" style="width:10%"></div></div>
+
+<div class="main">
+  <div id="questionContainer"></div>
+
+  <div class="result-screen" id="resultScreen">
+    <div class="result-card">
+      <div class="result-icon" id="resultIcon">🏆</div>
+      <div class="result-title" id="resultTitle">Test Tamamlandı!</div>
+      <div class="result-subtitle" id="resultSubtitle">Sonuçlarınız aşağıda</div>
+      <div class="result-stats">
+        <div class="result-stat"><div class="result-stat-num green" id="rCorrect">0</div><div class="result-stat-label">Doğru</div></div>
+        <div class="result-stat"><div class="result-stat-num red" id="rWrong">0</div><div class="result-stat-label">Yanlış</div></div>
+        <div class="result-stat"><div class="result-stat-num blue" id="rScore">0</div><div class="result-stat-label">Puan</div></div>
+      </div>
+      <div class="result-bar"><div class="result-bar-fill" id="resultBarFill"></div></div>
+      <div class="result-actions">
+        <a href="/konu.html?ders=matematik&sinif=4" class="btn-home">← Ana Sayfa</a>
+        <button class="btn-review" id="btnReviewMistakes" onclick="showReview()">Hataları Gözden Geçir →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="review-screen" id="reviewScreen">
+    <div class="review-header">
+      <h2>Hatalı Sorular</h2>
+      <p>Yanlış cevapladığınız veya atladığınız sorular</p>
+    </div>
+    <div id="reviewList"></div>
+    <div class="review-back">
+      <a href="/konu.html?ders=matematik&sinif=4" class="btn-home">← Ana Sayfa</a>
+    </div>
+  </div>
+</div>
+
+<script>
+const questions = [
+  {
+    id:1, points:5,
+    text:"Mert, evindeki çeşitli eşyaların alabileceği sıvı miktarlarını tahmin etmiş ve daha sonra dereceli kap yardımıyla bu kapların gerçek hacimlerini ölçmüştür.\n\nAşağıdaki tablo Mert'in sıvı ölçüm sonuçlarını göstermektedir:",
+    table:{headers:["Kap Türü","Mert'in Tahmini","Gerçek Ölçüm"],rows:[["Su Sürahisi","2 litre","1 litre 800 mililitre"],["Kahve Fincanı","150 mililitre","200 mililitre"],["Temizlik Kovası","5 litre","4 litre 500 mililitre"]]},
+    afterTableText:"Bu tabloya göre aşağıdakilerden hangisi doğrudur?",
+    statements:null,
+    options:["Kovadaki tahmin hatası sürahidekinden azdır.","Sürahideki tahmin hatası iki yüz mililitredir.","En yakın tahmini kova için yapmayı başarmıştır.","Fincanın gerçek ölçümü tahmininden daha azdır."],
+    correct:1,
+    solution:"Sürahi tahmini: 2000 mL, gerçek: 1800 mL → fark 200 mL. Fincan tahmini: 150 mL, gerçek: 200 mL → fark 50 mL. Kova tahmini: 5000 mL, gerçek: 4500 mL → fark 500 mL. En küçük hata fincandadır (50 mL). Sürahideki hata 200 mL'dir. Doğru cevap: B"
+  },
+  {
+    id:2, points:5,
+    text:"Zeynep ve Ali, mutfakta annelerine yardım ederken farklı kaplardaki sıvıları ölçmeyi ve bu miktarlar üzerine tahmin yürütmeyi öğrenmektedir.\n\nAşağıdaki ifadeler verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. Bir yemek kaşığı öksürük şurubunun miktarı litre yerine mililitre birimi ile ölçülür.",
+      "II. İki litrelik sürahiden beş yüz mililitre su içilirse geriye bir litre beş yüz mililitre su kalır.",
+      "III. Bir su damacanasının içindeki sıvı miktarını mililitre ile ifade etmek daha uygundur."
+    ],
+    boldText:"Bu ifadelere göre aşağıdakilerden hangisi doğrudur?",
+    options:["İkinci ve üçüncü ifadeler doğru bilgi içerir.","Sadece birinci ifade doğru bilgi içermektedir.","Birinci ve üçüncü ifadeler doğru bilgi içerir.","Birinci ve ikinci ifadeler doğru bilgi içerir."],
+    correct:3,
+    solution:"Yemek kaşığı gibi küçük hacimli sıvılar mililitre ile ölçülür (I doğru). 2000 mL − 500 mL = 1500 mL yani 1 litre 500 mL kalır (II doğru). Damacana büyük hacimlidir, litre ile ifade edilir, mililitre uygun değildir (III yanlış). Doğru cevap: D"
+  },
+  {
+    id:3, points:5,
+    text:"Dördüncü sınıf öğrencileri okul pikniği için büyük bir kapta taze naneli limonata hazırlayarak karışım miktarını hesaplamaktadır.\n\nAşağıdaki limonata yapım aşamaları verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. Büyük bir kaba önce iki litre, ardından yedi yüz elli mililitre içme suyu ekleniyor.",
+      "II. Karışımın içine her biri iki yüz elli mililitre sıvı alan dört bardak taze limon suyu dökülüyor.",
+      "III. Hazırlanan tüm karışım, on litre hacmindeki boş bir cam kavanoza dolduruluyor."
+    ],
+    boldText:"Bu aşamalarla ilgili hangi ifade doğrudur?",
+    options:["Karışımdaki suyun toplam miktarı üç litreden daha fazladır.","Kavanozun tamamen dolması için iki litre sıvı daha gerekir.","Eklenen limon suyu miktarı tam olarak iki litre kadardır.","Elde edilen limonata miktarı dört litreden daha azdır."],
+    correct:3,
+    solution:"Su: 2 L + 750 mL = 2750 mL. Limon suyu: 4 × 250 mL = 1000 mL (1 L). Toplam: 2750 + 1000 = 3750 mL = 3 L 750 mL. Bu 4 litreden azdır. 10 litrelik kavanozun dolması için 6 L 250 mL daha gerekir. Doğru cevap: D"
+  },
+  {
+    id:4, points:5,
+    text:"Mutfakta yemek tarifi hazırlayan bir aşçı, bazı malzemeleri mililitre dereceli kaplar kullanarak ölçmektedir.\n\nAşağıdaki ölçüm durumları verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. 250 mililitre süt kullanarak kek hamurunu hazırlamak.",
+      "II. 5000 mililitre su ile çok büyük bir tencere çorba yapmak.",
+      "III. 5 mililitre vanilya özütü ekleyerek tatlının aromasını artırmak."
+    ],
+    boldText:"Aşçının yaptığı bu ölçümlerden hangilerinde sıvı miktarını doğrudan mililitre ölçü kabıyla belirlemesi daha pratik ve hatasız bir yöntemdir?",
+    options:["I ve II","Yalnız I","II ve III","I ve III"],
+    correct:3,
+    solution:"250 mL süt ve 5 mL vanilya küçük hacimli sıvılardır, mililitre ölçü kabıyla kolayca ölçülür (I ve III doğru). 5000 mL (5 L) çorba suyu çok büyüktür, litre ile ölçülmesi daha pratiktir (II uygun değil). Doğru cevap: D"
+  },
+  {
+    id:5, points:5,
+    text:"Eczacı Ayşe Hanım, eczaneye gelen hastalarına sıvı ilaçların doğru dozda nasıl kullanılacağını detaylı bir şekilde tarif etmektedir.\n\nAşağıdaki tedavi durumları verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. Bir hastanın günde üç defa birer tatlı kaşığı öksürük şurubu içmesi.",
+      "II. Bir hastanın damarına takılan serum şişesine yarım litre su eklenmesi.",
+      "III. Bir bebeğin meyve püresine günde on damla vitamin damlatılması."
+    ],
+    boldText:"Bu durumlardan hangilerinde hastaların evdeki mililitre dereceli küçük bir kaşık veya şırınga ile sıvı ölçümü yapması gerekir?",
+    options:["Yalnız I","I ve II","I ve III","II ve III"],
+    correct:2,
+    solution:"Tatlı kaşığı (~5 mL) ve vitamin damlası (~1-2 mL) çok küçük sıvılardır, mililitre şırınga/kaşık ile ölçülmelidir (I ve III). Yarım litrelik serum evdeki küçük araçlarla pratik ölçülemez (II uygun değil). Doğru cevap: C"
+  },
+  {
+    id:6, points:5,
+    text:"Market alışverişi yapan bir aile, sepete koydukları farklı sıvı ürünlerin ambalajları üzerindeki ölçü birimlerini incelemektedir.\n\nAşağıdaki ürünler verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. 200 mililitrelik çocuk beslenme sütü kutusu.",
+      "II. 19 litrelik büyük ev tipi su damacanası.",
+      "III. 5 litrelik lokanta tipi zeytinyağı tenekesi."
+    ],
+    boldText:"Verilen ürünlerden hangilerinin ambalajında miktar belirtilirken ağırlıklı olarak sadece mililitre biriminin kullanılması mantıklıdır?",
+    options:["I ve II","Yalnız II","Yalnız I","II ve III"],
+    correct:2,
+    solution:"200 mL süt kutusu bir litreden küçüktür, mililitre ile ifade edilmesi uygundur (I). 19 litrelik damacana ve 5 litrelik teneke büyük hacimlidir, litre ile ifade edilir (II ve III uygun değil). Doğru cevap: C"
+  },
+  {
+    id:7, points:5,
+    text:"Fen bilimleri laboratuvarında araştırma yapan öğrenciler, farklı miktarlardaki sıvıların hacimlerini hatasız bir şekilde karşılaştırmak için deney yapmaktadır.\n\nAşağıdaki sıvı ölçüm görevleri verilmiştir:",
+    table:null,
+    afterTableText:null,
+    statements:[
+      "I. Bir yemek kaşığının alabildiği su miktarını bulmak.",
+      "II. Bir cam su bardağındaki meyve suyu miktarını hesaplamak.",
+      "III. Yerleri silmek için hazırlanan bir kova dolusu temizlik suyunun miktarını bulmak."
+    ],
+    boldText:"Öğrencilerin hangi kaplardaki sıvıyı, derecelendirilmiş mililitre cam tüpü kullanarak ölçmesi daha mantıklı ve kolay bir sonuç verir?",
+    options:["I ve III","I, II ve III","II ve III","I ve II"],
+    correct:3,
+    solution:"Yemek kaşığı ve su bardağı küçük hacimlidir, mililitre cam tüpüyle kolayca ölçülür (I ve II). Kova dolusu su çok büyük hacimlidir, küçük tüple ölçmek pratik değildir (III uygun değil). Doğru cevap: D"
+  },
+  {
+    id:8, points:5,
+    text:"Zeynep evindeki banyo ve mutfak dolaplarında bulunan farklı şişelerin sıvı kapasitelerini incelemiş ve bunu aşağıdaki tabloya kaydetmiştir.\n\nAşağıdaki tablo sıvıların kapladığı hacimleri göstermektedir:",
+    table:{headers:["Şişe Türü","İçindeki Sıvı Miktarı","Hacim Boyutu"],rows:[["Parfüm Şişesi","50 mililitre","Çok Küçük"],["Meyve Suyu Kutusu","330 mililitre","Küçük"],["Büyük Su Şişesi","1 litre 500 mililitre","Geniş"]]},
+    afterTableText:"Bu tabloya göre, mililitrenin günlük hayattaki kullanım amacı ile ilgili olarak aşağıdakilerden hangisi kesinlikle söylenebilir?",
+    statements:null,
+    options:["İçinde büyük miktarda sıvı barındıran geniş şişelerin ölçümlerinde mililitre değerlerine asla yer verilmez.","Mililitre bilimsel deneylerde sadece suyun miktarını ölçmek amacıyla üretilmiş bir birimdir.","Satılan tüm sıvı ambalajlarının üzerine sadece ve sadece mililitre ölçü değerini yazmak yasal bir zorunluluktur.","Parfüm veya kutu içecek gibi bir litreden çok daha az yer kaplayan sıvılar mililitre ile ifade edilir."],
+    correct:3,
+    solution:"Tabloda parfüm (50 mL) ve meyve suyu (330 mL) gibi bir litreden küçük sıvılar mililitre ile ifade edilmiştir. Büyük su şişesi ise litre + mililitre karma kullanılmıştır. Küçük hacimli sıvılar mililitre ile ifade edilir. Doğru cevap: D"
+  },
+  {
+    id:9, points:5,
+    text:"Bir kozmetik fabrikasında tüketiciler için şişelenen saç şampuanlarının farklı boy seçenekleri ve paketlenme sıvı miktarları bir tabloda toplanmıştır.\n\nAşağıdaki tablo şampuan şişelerinin kapasitelerini göstermektedir:",
+    table:{headers:["Ürün Boyutu","Bir Paketteki Net Miktar"],rows:[["Seyahat Boyu","100 mililitre"],["Standart Boy","400 mililitre"],["Aile Boyu","1 litre 200 mililitre"]]},
+    afterTableText:"Bu detaylı tablo verileri incelendiğinde şampuan üretimindeki sıvı ölçü birimlerinin seçimi hakkında ulaşılabilecek en doğru ve mantıklı yargı aşağıdakilerden hangisidir?",
+    statements:null,
+    options:["Fabrikada üretilen tüm şampuan boyları ayırt edilmeksizin tamamen mililitre formülü ile paketlenmelidir.","Sıvı kapasitesi henüz bir litreyi doldurmamış olan ambalajlarda sıvı miktarını belirtmek için mililitre birimi tercih edilir.","Uçaklara rahatça alınan seyahat boyu kozmetik ürünleri genellikle bir tam litreden daha fazla sıvı hacmine sahiptir.","Tüketicilere satılan aile boyu şampuan ambalajları marketlerdeki en hafif sıvı kutuları olarak ölçülür."],
+    correct:1,
+    solution:"Seyahat boyu (100 mL) ve standart boy (400 mL) bir litreden küçük olduğu için mililitre ile ifade edilmiştir. Aile boyu (1 L 200 mL) bir litreyi aştığı için karma birim kullanılmıştır. Bir litreden az olan ambalajlarda mililitre tercih edilir. Doğru cevap: B"
+  },
+  {
+    id:10, points:5,
+    text:"Bir veteriner kliniğinde hastalanan minik yavru kedilerin tedavisi için çok hassas ölçülerde sıvılar verilmesi gerekmektedir. Uzman veteriner hekim, bir yavru kediye günde üç defa tam olarak 2 mililitre antibiyotik damla şurubu uygulamaktadır.\n\nBu tedavi durumu titizlikle incelendiğinde, uzman veteriner hekimin sıvı ilacı ölçerken litre yerine mililitre birimini tercih etmesinin en temel, yaşamsal ve mantıklı nedeni aşağıdakilerden hangisidir?",
+    table:null,
+    afterTableText:null,
+    statements:null,
+    boldText:null,
+    options:["Gelişmiş hastane ortamlarında sıvıların sadece mililitre ölçekleriyle ölçülerek dışarıya satılması zorunludur.","Matematiksel işlemlerde mililitre hesaplamalarının, litre işlemlerine göre doktorlar tarafından çok daha hızlı yapılması.","Çok küçük ve hayati sıvı miktarlarını milim milim ayarlayabilmek ve hatalı dozu önleyerek hassas şekilde ölçebilmek.","Hayvanlar, tedavi sürecinde uygulanan sıvı formundaki ilaçları haplara kıyasla daha keyifle ve severek tüketmektedir."],
+    correct:2,
+    solution:"2 mL ilaç dozu son derece küçüktür ve hayati öneme sahiptir. Yanlış dozlama tehlikeli olabilir. Mililitre birimi bu kadar küçük sıvıları hassas şekilde ölçmeyi sağlar. Litre bu detayda ölçüm yapamaz. Doğru cevap: C"
+  }
+];
+
+const letters = ["A","B","C","D"];
+let current = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let answered = false;
+let wrongList = [];
+
+function renderQuestion(){
+  const q = questions[current];
+  answered = false;
+  document.getElementById('progressText').textContent = (current+1) + " / " + questions.length;
+  document.getElementById('progressBar').style.width = ((current+1)/questions.length*100)+"%";
+
+  let html = '<div class="question-card">';
+  html += '<div class="question-header"><span class="question-number">Soru ' + q.id + '</span><span class="question-points">' + q.points + ' Puan</span></div>';
+  html += '<div class="question-body">';
+  html += '<div class="question-text">' + q.text.replace(/\n/g,'<br>') + '</div>';
+
+  if(q.table){
+    html += '<table class="q-table"><thead><tr>';
+    q.table.headers.forEach(h => html += '<th>'+h+'</th>');
+    html += '</tr></thead><tbody>';
+    q.table.rows.forEach(r => {
+      html += '<tr>';
+      r.forEach(c => html += '<td>'+c+'</td>');
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    if(q.afterTableText) html += '<div class="question-text" style="margin-top:.5rem;font-weight:600">' + q.afterTableText + '</div>';
+  }
+
+  if(q.statements){
+    html += '<div class="question-statements">';
+    q.statements.forEach(s => html += '<p>'+s+'</p>');
+    html += '</div>';
+  }
+
+  if(q.boldText){
+    html += '<div class="question-text" style="font-weight:600;margin-top:.5rem">' + q.boldText + '</div>';
+  }
+
+  html += '<div class="answers">';
+  q.options.forEach((opt,i) => {
+    html += '<button class="answer-btn" data-index="'+i+'" onclick="selectAnswer('+i+')">';
+    html += '<span class="letter">'+letters[i]+'</span>';
+    html += '<span>'+opt+'</span>';
+    html += '</button>';
+  });
+  html += '</div>';
+  html += '<div class="feedback" id="feedback"></div>';
+  html += '</div>';
+
+  html += '<div class="question-actions">';
+  html += '<button class="btn btn-skip" id="btnSkip" onclick="skipQuestion()">Soruyu Atla →</button>';
+  html += '<button class="btn btn-next" id="btnNext" onclick="nextQuestion()">Sonraki Soru →</button>';
+  html += '</div></div>';
+
+  document.getElementById('questionContainer').innerHTML = html;
+}
+
+function selectAnswer(index){
+  if(answered) return;
+  answered = true;
+  const q = questions[current];
+  const btns = document.querySelectorAll('.answer-btn');
+  const fb = document.getElementById('feedback');
+
+  btns.forEach(b => b.classList.add('disabled'));
+
+  if(index === q.correct){
+    btns[index].classList.add('correct');
+    correctCount++;
+    fb.className = 'feedback show correct-fb';
+    fb.textContent = '✓ Doğru cevap!';
+  } else {
+    btns[index].classList.add('wrong');
+    btns[q.correct].classList.add('correct');
+    wrongCount++;
+    wrongList.push({...q, userAnswer: index});
+    fb.className = 'feedback show wrong-fb';
+    fb.textContent = '✗ Yanlış! Doğru cevap: ' + letters[q.correct] + ') ' + q.options[q.correct];
+  }
+
+  document.getElementById('correctBadge').textContent = '✓ ' + correctCount;
+  document.getElementById('wrongBadge').textContent = '✗ ' + wrongCount;
+  document.getElementById('btnSkip').style.display = 'none';
+  document.getElementById('btnNext').classList.add('show');
+}
+
+function skipQuestion(){
+  if(answered) return;
+  answered = true;
+  const q = questions[current];
+  wrongCount++;
+  wrongList.push({...q, userAnswer: -1});
+  document.getElementById('correctBadge').textContent = '✓ ' + correctCount;
+  document.getElementById('wrongBadge').textContent = '✗ ' + wrongCount;
+
+  const btns = document.querySelectorAll('.answer-btn');
+  btns.forEach(b => b.classList.add('disabled'));
+  btns[q.correct].classList.add('correct');
+
+  const fb = document.getElementById('feedback');
+  fb.className = 'feedback show wrong-fb';
+  fb.textContent = 'Atlandı! Doğru cevap: ' + letters[q.correct] + ') ' + q.options[q.correct];
+
+  document.getElementById('btnSkip').style.display = 'none';
+  document.getElementById('btnNext').classList.add('show');
+}
+
+function nextQuestion(){
+  current++;
+  if(current >= questions.length){
+    showResult();
+  } else {
+    renderQuestion();
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+}
+
+function showResult(){
+  document.getElementById('questionContainer').style.display = 'none';
+  const rs = document.getElementById('resultScreen');
+  rs.classList.add('show');
+
+  const pct = Math.round(correctCount / questions.length * 100);
+  const score = correctCount * 5;
+
+  document.getElementById('rCorrect').textContent = correctCount;
+  document.getElementById('rWrong').textContent = wrongCount;
+  document.getElementById('rScore').textContent = score;
+
+  const bar = document.getElementById('resultBarFill');
+  bar.style.background = pct >= 70 ? 'linear-gradient(90deg,#22c55e,#4ade80)' : pct >= 40 ? 'linear-gradient(90deg,#eab308,#facc15)' : 'linear-gradient(90deg,#ef4444,#f87171)';
+  setTimeout(() => bar.style.width = pct + '%', 100);
+
+  if(pct >= 80){
+    document.getElementById('resultIcon').textContent = '🏆';
+    document.getElementById('resultTitle').textContent = 'Harika!';
+    document.getElementById('resultSubtitle').textContent = 'Mükemmel bir performans gösterdin!';
+  } else if(pct >= 50){
+    document.getElementById('resultIcon').textContent = '👍';
+    document.getElementById('resultTitle').textContent = 'İyi Gidiyorsun!';
+    document.getElementById('resultSubtitle').textContent = 'Biraz daha çalışmayla çok daha iyi olacaksın.';
+  } else {
+    document.getElementById('resultIcon').textContent = '💪';
+    document.getElementById('resultTitle').textContent = 'Test Tamamlandı';
+    document.getElementById('resultSubtitle').textContent = 'Hataları gözden geçirip tekrar deneyebilirsin.';
+  }
+
+  if(wrongList.length === 0){
+    document.getElementById('btnReviewMistakes').style.display = 'none';
+  }
+
+  document.getElementById('progressBar').style.width = '100%';
+  document.getElementById('progressText').textContent = 'Bitti';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function showReview(){
+  document.getElementById('resultScreen').classList.remove('show');
+  const rev = document.getElementById('reviewScreen');
+  rev.classList.add('show');
+
+  let html = '';
+  wrongList.forEach(q => {
+    html += '<div class="review-item">';
+    html += '<div class="review-item-header"><span class="review-q-num">Soru ' + q.id + '</span><span class="review-q-correct">Doğru cevap: <strong>' + letters[q.correct] + ') ' + q.options[q.correct] + '</strong></span></div>';
+    html += '<div class="review-item-body">';
+    html += '<div class="question-text">' + q.text.replace(/\n/g,'<br>') + '</div>';
+
+    if(q.table){
+      html += '<table class="q-table"><thead><tr>';
+      q.table.headers.forEach(h => html += '<th>'+h+'</th>');
+      html += '</tr></thead><tbody>';
+      q.table.rows.forEach(r => {
+        html += '<tr>';
+        r.forEach(c => html += '<td>'+c+'</td>');
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+      if(q.afterTableText) html += '<div class="question-text" style="margin-top:.5rem;font-weight:600">'+q.afterTableText+'</div>';
+    }
+
+    if(q.statements){
+      html += '<div class="question-statements">';
+      q.statements.forEach(s => html += '<p>'+s+'</p>');
+      html += '</div>';
+    }
+
+    if(q.boldText){
+      html += '<div class="question-text" style="font-weight:600;margin-top:.5rem">' + q.boldText + '</div>';
+    }
+
+    html += '<div class="review-solution"><strong>Çözüm</strong>' + q.solution + '</div>';
+    html += '</div></div>';
+  });
+
+  document.getElementById('reviewList').innerHTML = html;
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+renderQuestion();
+</script>
+</body>
+</html>
