@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Veri Toplama - Zor</title>
+
+<style>
+body {
+  font-family: Arial;
+  background:#0f172a;
+  color:white;
+}
+
+.container {
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.question {
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  margin-top:20px;
+}
+
+button {
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#38bdf8;
+}
+
+table {
+  width:100%;
+  margin-top:10px;
+  border-collapse: collapse;
+}
+
+td, th {
+  border:1px solid white;
+  padding:8px;
+}
+.hidden {display:none;}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Veri Toplama (Zor)</h1>
+<h3 id="progress"></h3>
+
+<div id="quiz"></div>
+
+<div id="result" class="hidden">
+<h2>Test Bitti</h2>
+<p id="score"></p>
+<div id="wrong"></div>
+</div>
+
+</div>
+
+<script>
+
+const questions = [
+
+{
+q:`1) Kantin satış grafiği:<br>
+<table>
+<tr><th>Gün</th><th>Tost</th></tr>
+<tr><td>Pzt</td><td>40</td></tr>
+<tr><td>Sal</td><td>60</td></tr>
+<tr><td>Çar</td><td>30</td></tr>
+<tr><td>Per</td><td>70</td></tr>
+<tr><td>Cum</td><td>80</td></tr>
+</table>
+I. fark 50<br>II. sürekli artış<br>III. pazartesi ~40`,
+options:["A) I ve III","B) II ve III","C) I ve II","D) Yalnız I"],
+answer:0,
+exp:"80-30=50, II yanlış"
+},
+
+{
+q:`2) Kitap grafiği:<br>
+<table>
+<tr><td>Ocak</td><td>120</td></tr>
+<tr><td>Şubat</td><td>150</td></tr>
+<tr><td>Mart</td><td>140</td></tr>
+<tr><td>Nisan</td><td>180</td></tr>
+</table>
+I. 590<br>II. Şubat>Mart<br>III. kesin düşmez`,
+options:["A) I ve II","B) I ve III","C) I,II,III","D) Yalnız III"],
+answer:0,
+exp:"590 doğru"
+},
+
+{
+q:`3) Okuma grafiği:<br>
+<table>
+<tr><td>Pzt</td><td>40</td></tr>
+<tr><td>Sal</td><td>60</td></tr>
+<tr><td>Çar</td><td>30</td></tr>
+<tr><td>Per</td><td>50</td></tr>
+</table>`,
+options:["A) II ve III","B) I,II,III","C) Yalnız I","D) I ve II"],
+answer:3,
+exp:"Toplam 180"
+},
+
+{
+q:`4) Elma üretimi:<br>
+<table>
+<tr><td>Yıl1</td><td>2000</td></tr>
+<tr><td>Yıl2</td><td>2500</td></tr>
+<tr><td>Yıl3</td><td>2500</td></tr>
+<tr><td>Yıl4</td><td>3000</td></tr>
+</table>`,
+options:["A) I ve III","B) Yalnız I","C) II ve III","D) I ve II"],
+answer:3,
+exp:"Azalma yok"
+},
+
+{
+q:`5) Sınıflar:<br>
+<table>
+<tr><td>4/A</td><td>120</td></tr>
+<tr><td>4/B</td><td>90</td></tr>
+<tr><td>4/C</td><td>150</td></tr>
+</table>`,
+options:["A) I ve II","B) Yalnız II","C) I ve III","D) I,II,III"],
+answer:0,
+exp:"Toplam 360"
+},
+
+{
+q:`6) Fiyatlar:<br>
+<table>
+<tr><td>Elma</td><td>150</td></tr>
+<tr><td>Muz</td><td>200</td></tr>
+<tr><td>Portakal</td><td>240</td></tr>
+</table>`,
+options:["A)90","B)100","C)110","D)120"],
+answer:2,
+exp:"110"
+},
+
+{
+q:`7) Boylar:<br>
+<table>
+<tr><td>Ali</td><td>135</td></tr>
+<tr><td>Ayşe</td><td>142</td></tr>
+<tr><td>Can</td><td>138</td></tr>
+<tr><td>Zeynep</td><td>140</td></tr>
+</table>`,
+options:["A)Yalnız I","B)I ve II","C)II ve III","D)I ve III"],
+answer:3,
+exp:"Ayşe en uzun"
+},
+
+{
+q:`8) Oyuncak:<br>
+<table>
+<tr><td>Araba</td><td>45</td></tr>
+<tr><td>Bebek</td><td>60</td></tr>
+<tr><td>Yapboz</td><td>35</td></tr>
+<tr><td>Top</td><td>50</td></tr>
+</table>`,
+options:["A)150","B)Yapboz","C)Araba>Top","D)100"],
+answer:1,
+exp:"35 en az"
+},
+
+{
+q:`9) Birikim:<br>
+<table>
+<tr><td>1</td><td>20</td></tr>
+<tr><td>2</td><td>35</td></tr>
+<tr><td>3</td><td>50</td></tr>
+<tr><td>4</td><td>65</td></tr>
+</table>`,
+options:["A)Azalır","B)80","C)65","D)kat"],
+answer:1,
+exp:"+15"
+},
+
+{
+q:`10) Bilet:<br>
+<table>
+<tr><td>Sabah</td><td>25</td></tr>
+<tr><td>Öğle</td><td>40</td></tr>
+<tr><td>Akşam</td><td>75</td></tr>
+</table>`,
+options:["A)azalır","B)akşam","C)80","D)öğle"],
+answer:1,
+exp:"Akşam yoğun"
+}
+
+];
+
+let i=0, correct=0, wrong=[];
+
+function load(){
+let q=questions[i];
+document.getElementById("progress").innerText=`Soru ${i+1}/10`;
+
+let html=`<div class="question">${q.q}`;
+q.options.forEach((o,index)=>{
+html+=`<button onclick="check(${index})">${o}</button>`;
+});
+html+=`</div>`;
+
+document.getElementById("quiz").innerHTML=html;
+}
+
+function check(a){
+if(a===questions[i].answer) correct++;
+else wrong.push(`<p>${questions[i].exp}</p>`);
+
+i++;
+if(i<questions.length) load();
+else finish();
+}
+
+function finish(){
+document.getElementById("quiz").innerHTML="";
+document.getElementById("result").classList.remove("hidden");
+document.getElementById("score").innerText=`Doğru: ${correct}/10`;
+document.getElementById("wrong").innerHTML=wrong.join("");
+}
+
+load();
+
+</script>
+
+</body>
+</html>
