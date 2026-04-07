@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Zaman Ölçme - Zor Sorular</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.question {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+.hidden {
+  display: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Zaman Ölçme - Zor Sorular</h1>
+<h3 id="progress"></h3>
+
+<div id="quiz"></div>
+
+<div id="result" class="hidden">
+  <h2>Test Bitti</h2>
+  <p id="score"></p>
+  <div id="wrong"></div>
+</div>
+
+</div>
+
+<script>
+
+const questions = [
+{
+q: "1) Proje araştırması 2 hafta 4 gün, maket 120 saat, sunum 72 saat. Hangileri doğru?",
+options: ["II ve III","Yalnız I","I ve II","I, II ve III"],
+answer: 2,
+exp: "18 + 5 = 23 gün doğru. 3 gün, 5 günden 2 gün kısadır."
+},
+{
+q: "2) 09:15 başlayan yolculukta toplam süre 7 saat 5 dk mı?",
+options: ["Evet hepsi doğru","II ve III","Yalnız I","I ve II"],
+answer: 3,
+exp: "Toplam süre doğru, 13:00 doğru ama bitiş 16:20."
+},
+{
+q: "3) En çok kitap okuyan kim?",
+options: ["Ali","Ayşe","Can","Hepsi eşit"],
+answer: 1,
+exp: "Ayşe toplam 450 dakika ile en fazla."
+},
+{
+q: "4) Robot üretim süresi toplam 33 gün mü?",
+options: ["Yalnız II","I ve III","II ve III","I ve II"],
+answer: 3,
+exp: "28 + 3 + 2 = 33 gün."
+},
+{
+q: "5) 04:30 başlayan iş 5 saat 30 dk sürerse kaçta biter?",
+options: ["10:00","09:40","10:10","09:30"],
+answer: 0,
+exp: "04:30 + 5:30 = 10:00"
+}
+];
+
+let i = 0;
+let correct = 0;
+let wrongList = [];
+
+function load(){
+  let q = questions[i];
+  document.getElementById("progress").innerText = `Soru ${i+1}/${questions.length}`;
+
+  let html = `<div class="question"><h3>${q.q}</h3>`;
+  q.options.forEach((opt,index)=>{
+    html += `<button onclick="check(${index})">${opt}</button>`;
+  });
+  html += `</div>`;
+
+  document.getElementById("quiz").innerHTML = html;
+}
+
+function check(index){
+  let q = questions[i];
+
+  if(index === q.answer){
+    correct++;
+  } else {
+    wrongList.push(`<p><b>${q.q}</b><br>${q.exp}</p>`);
+  }
+
+  i++;
+
+  if(i < questions.length){
+    load();
+  } else {
+    finish();
+  }
+}
+
+function finish(){
+  document.getElementById("quiz").innerHTML = "";
+  document.getElementById("result").classList.remove("hidden");
+  document.getElementById("score").innerText = `Doğru: ${correct} / ${questions.length}`;
+  document.getElementById("wrong").innerHTML = wrongList.join("");
+}
+
+load();
+
+</script>
+
+</body>
+</html>
