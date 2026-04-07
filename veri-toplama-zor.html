@@ -26,7 +26,6 @@ body {
 }
 
 button {
-  display:block;
   width:100%;
   margin:10px 0;
   padding:14px;
@@ -37,18 +36,9 @@ button {
   cursor:pointer;
 }
 
-button:hover {
-  background:#0ea5e9;
-}
+.skip { background:#f59e0b; }
 
-.skip {
-  background:#f59e0b;
-}
-
-.result {
-  text-align:center;
-  margin-top:40px;
-}
+.result { text-align:center; margin-top:40px; }
 
 .wrong-box {
   background:#7f1d1d;
@@ -70,23 +60,22 @@ img {
   border-radius:10px;
 }
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-<h1>Veri Toplama - Zor Test</h1>
+<h1>4. Sınıf Veri Toplama - Zor</h1>
 <h3 id="progress"></h3>
 
 <div id="quiz"></div>
 
-<div id="result" class="result" style="display:none;">
+<div id="result" style="display:none;">
   <h2>Test Bitti 🎉</h2>
   <h3 id="score"></h3>
 
-  <button onclick="goHome()">Ana Sayfaya Dön</button>
+  <button onclick="goHome()">Ana Sayfa</button>
   <button onclick="showWrongs()">Yanlışlarını Öğren</button>
 
   <div id="wrongList"></div>
@@ -99,40 +88,99 @@ img {
 const questions = [
 
 {
-q:"Kantin satış grafiğine göre en fazla satış hangi gün?",
+q:"Kantin satış grafiğine göre aşağıdakilerden hangileri doğrudur?",
 img:"/images/soru1.png",
-options:["Pazartesi","Çarşamba","Cuma","Salı"],
-answer:2,
-exp:"Grafikte en yüksek değer Cuma gününe ait."
+options:["I ve III","II ve III","I ve II","Yalnız I"],
+answer:0,
+exp:"En yüksek ve en düşük fark 50, II yanlış, III doğru."
 },
 
 {
-q:"Toplam satış kaçtır?",
+q:"Aylara göre kitap sayısı grafiği için doğru olan?",
 img:"/images/soru2.png",
-options:["200","250","300","350"],
+options:["I ve II","I ve III","I II III","Yalnız III"],
+answer:0,
+exp:"Toplam 590, Şubat > Mart."
+},
+
+{
+q:"Ali'nin okuma grafiği için doğru olan?",
+img:"/images/soru3.png",
+options:["II ve III","I II III","Yalnız I","I ve II"],
+answer:3,
+exp:"Toplam 180, III yanlış."
+},
+
+{
+q:"Elma üretimi grafiği için doğru olan?",
+img:"/images/soru4.png",
+options:["I ve III","Yalnız I","II ve III","I ve II"],
+answer:3,
+exp:"Azalma yok, 2 ve 3 eşit."
+},
+
+{
+q:"Geri dönüşüm verilerine göre doğru olan?",
+img:"/images/soru5.png",
+options:["I ve II","Yalnız II","I ve III","I II III"],
+answer:0,
+exp:"Toplam 360, III yanlış."
+},
+
+{
+q:"Meyve satış tablosuna göre fark?",
+img:"/images/soru6.png",
+options:["90","100","110","120"],
+answer:2,
+exp:"110 TL."
+},
+
+{
+q:"Boy uzunluklarına göre doğru olan?",
+img:"/images/soru7.png",
+options:["Yalnız I","I ve II","II ve III","I ve III"],
+answer:3,
+exp:"Ayşe en uzun."
+},
+
+{
+q:"Oyuncak satış tablosu için doğru?",
+img:"/images/soru8.png",
+options:["150","Yapboz","Araba>Top","100"],
 answer:1,
-exp:"Tüm değerler toplanır → 250"
+exp:"En az yapboz."
+},
+
+{
+q:"Birikim tablosuna göre?",
+img:"/images/soru9.png",
+options:["Azalır","80","65","kat"],
+answer:1,
+exp:"+15 artış."
+},
+
+{
+q:"Sinema verisine göre?",
+img:"/images/soru10.png",
+options:["Azalır","Akşam fazla","80","Öğle"],
+answer:1,
+exp:"Akşam yoğun."
 }
 
 ];
 
-let i=0, correct=0;
-let wrongs=[];
+let i=0, correct=0, wrongs=[];
 
 function load(){
 let q=questions[i];
 
-document.getElementById("progress").innerText=`Soru ${i+1}/${questions.length}`;
+document.getElementById("progress").innerText=`Soru ${i+1}/10`;
 
 let html=`
 <div class="question-box">
 <h3>${q.q}</h3>
-${q.img ? `<img src="${q.img}">` : ""}
-
-${q.options.map((o,index)=>`
-<button onclick="check(${index})">${o}</button>
-`).join("")}
-
+<img src="${q.img}">
+${q.options.map((o,index)=>`<button onclick="check(${index})">${o}</button>`).join("")}
 <button class="skip" onclick="skip()">Soruyu Geç</button>
 </div>
 `;
@@ -140,15 +188,9 @@ ${q.options.map((o,index)=>`
 document.getElementById("quiz").innerHTML=html;
 }
 
-function check(ans){
-let q=questions[i];
-
-if(ans===q.answer){
-correct++;
-}else{
-wrongs.push(q);
-}
-
+function check(a){
+if(a===questions[i].answer) correct++;
+else wrongs.push(questions[i]);
 i++;
 next();
 }
@@ -160,17 +202,13 @@ next();
 }
 
 function next(){
-if(i<questions.length){
-load();
-}else{
-finish();
-}
+if(i<questions.length) load();
+else finish();
 }
 
 function finish(){
 document.getElementById("quiz").style.display="none";
 document.getElementById("result").style.display="block";
-
 document.getElementById("score").innerText=
 `Doğru: ${correct} | Yanlış: ${questions.length-correct}`;
 }
@@ -181,17 +219,15 @@ window.location.href="/index.html";
 
 function showWrongs(){
 let html="";
-
 wrongs.forEach(q=>{
 html+=`
 <div class="wrong-box">
 <h3>${q.q}</h3>
-${q.img ? `<img src="${q.img}">` : ""}
+<img src="${q.img}">
 <div class="solution">${q.exp}</div>
 </div>
 `;
 });
-
 document.getElementById("wrongList").innerHTML=html;
 }
 
