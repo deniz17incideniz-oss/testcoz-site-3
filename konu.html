@@ -228,11 +228,18 @@
       document.getElementById('konuBaslik').textContent    = label + ' Konuları';
       setBreadcrumb(label);
 
-      topicList.innerHTML = topics.map(function (ad) {
-        return '<div class="topic-card" style="opacity:0.6;">' +
-          '<h3>' + ad + '</h3>' +
-          '<span class="badge" style="background:#f1f5f9;color:#94a3b8;">Yakında</span>' +
-          '<span style="font-size:0.82rem;color:var(--text-muted);">Sorular ekleniyor\u2026</span>' +
+      topicList.innerHTML = topics.map(function (ad, idx) {
+        return '<div class="topic-card" style="opacity:0.65;">' +
+          '<div class="topic-card-left">' +
+            '<div class="topic-num">' + (idx + 1) + '</div>' +
+            '<div class="topic-info">' +
+              '<h4>' + ad + '</h4>' +
+              '<p>Sorular ekleniyor\u2026</p>' +
+            '</div>' +
+          '</div>' +
+          '<div class="difficulty-badges">' +
+            '<span class="badge badge-yakinda">Yakında</span>' +
+          '</div>' +
           '</div>';
       }).join('');
 
@@ -272,13 +279,20 @@
           ? gData.subjects[cKey].topics.length
           : 0;
         const label = SUBJECT_LABELS[d] || d;
-        return '<div class="topic-card">' +
-          '<h3>' + (SUBJECT_ICONS[d] || '📚') + ' ' + label + '</h3>' +
-          '<span style="font-size:0.82rem;color:var(--text-muted);">' +
-            (count > 0 ? count + ' konu' : 'Yakında') +
-          '</span>' +
-          '<a href="konu.html?ders=' + d + '&sinif=' + sinif + '">Konulara Git \u2192</a>' +
-          '</div>';
+        return '<a class="topic-card" href="konu.html?ders=' + d + '&sinif=' + sinif + '">' +
+          '<div class="topic-card-left">' +
+            '<div class="topic-num" style="font-size:1.2rem;width:44px;height:44px;">' + (SUBJECT_ICONS[d] || '📚') + '</div>' +
+            '<div class="topic-info">' +
+              '<h4>' + label + '</h4>' +
+              '<p>' + (count > 0 ? count + ' konu içerir' : 'Yakında eklenecek') + '</p>' +
+            '</div>' +
+          '</div>' +
+          '<div class="difficulty-badges">' +
+            '<span class="badge badge-kolay">Kolay</span>' +
+            '<span class="badge badge-orta">Orta</span>' +
+            '<span class="badge badge-zor">Zor</span>' +
+          '</div>' +
+          '</a>';
       }).join('');
     }
   </script>
