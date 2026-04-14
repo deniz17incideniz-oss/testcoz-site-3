@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "points": 5,
+    "text": "Mert, evindeki çeşitli eşyaların alabileceği sıvı miktarlarını tahmin etmiş ve daha sonra dereceli kap yardımıyla bu kapların gerçek hacimlerini ölçmüştür.\n\nAşağıdaki tablo Mert'in sıvı ölçüm sonuçlarını göstermektedir:",
+    "table": {
+      "headers": [
+        "Kap Türü",
+        "Mert'in Tahmini",
+        "Gerçek Ölçüm"
+      ],
+      "rows": [
+        [
+          "Su Sürahisi",
+          "2 litre",
+          "1 litre 800 mililitre"
+        ],
+        [
+          "Kahve Fincanı",
+          "150 mililitre",
+          "200 mililitre"
+        ],
+        [
+          "Temizlik Kovası",
+          "5 litre",
+          "4 litre 500 mililitre"
+        ]
+      ]
+    },
+    "afterTableText": "Bu tabloya göre aşağıdakilerden hangisi doğrudur?",
+    "statements": null,
+    "options": [
+      "Kovadaki tahmin hatası sürahidekinden azdır.",
+      "Sürahideki tahmin hatası iki yüz mililitredir.",
+      "En yakın tahmini kova için yapmayı başarmıştır.",
+      "Fincanın gerçek ölçümü tahmininden daha azdır."
+    ],
+    "correct": 1,
+    "solution": "Sürahi tahmini: 2000 mL, gerçek: 1800 mL → fark 200 mL. Fincan tahmini: 150 mL, gerçek: 200 mL → fark 50 mL. Kova tahmini: 5000 mL, gerçek: 4500 mL → fark 500 mL. En küçük hata fincandadır (50 mL). Sürahideki hata 200 mL'dir. Doğru cevap: B"
+  },
+  {
+    "id": 2,
+    "points": 5,
+    "text": "Zeynep ve Ali, mutfakta annelerine yardım ederken farklı kaplardaki sıvıları ölçmeyi ve bu miktarlar üzerine tahmin yürütmeyi öğrenmektedir.\n\nAşağıdaki ifadeler verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. Bir yemek kaşığı öksürük şurubunun miktarı litre yerine mililitre birimi ile ölçülür.",
+      "II. İki litrelik sürahiden beş yüz mililitre su içilirse geriye bir litre beş yüz mililitre su kalır.",
+      "III. Bir su damacanasının içindeki sıvı miktarını mililitre ile ifade etmek daha uygundur."
+    ],
+    "boldText": "Bu ifadelere göre aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "İkinci ve üçüncü ifadeler doğru bilgi içerir.",
+      "Sadece birinci ifade doğru bilgi içermektedir.",
+      "Birinci ve üçüncü ifadeler doğru bilgi içerir.",
+      "Birinci ve ikinci ifadeler doğru bilgi içerir."
+    ],
+    "correct": 3,
+    "solution": "Yemek kaşığı gibi küçük hacimli sıvılar mililitre ile ölçülür (I doğru). 2000 mL − 500 mL = 1500 mL yani 1 litre 500 mL kalır (II doğru). Damacana büyük hacimlidir, litre ile ifade edilir, mililitre uygun değildir (III yanlış). Doğru cevap: D"
+  },
+  {
+    "id": 3,
+    "points": 5,
+    "text": "Dördüncü sınıf öğrencileri okul pikniği için büyük bir kapta taze naneli limonata hazırlayarak karışım miktarını hesaplamaktadır.\n\nAşağıdaki limonata yapım aşamaları verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. Büyük bir kaba önce iki litre, ardından yedi yüz elli mililitre içme suyu ekleniyor.",
+      "II. Karışımın içine her biri iki yüz elli mililitre sıvı alan dört bardak taze limon suyu dökülüyor.",
+      "III. Hazırlanan tüm karışım, on litre hacmindeki boş bir cam kavanoza dolduruluyor."
+    ],
+    "boldText": "Bu aşamalarla ilgili hangi ifade doğrudur?",
+    "options": [
+      "Karışımdaki suyun toplam miktarı üç litreden daha fazladır.",
+      "Kavanozun tamamen dolması için iki litre sıvı daha gerekir.",
+      "Eklenen limon suyu miktarı tam olarak iki litre kadardır.",
+      "Elde edilen limonata miktarı dört litreden daha azdır."
+    ],
+    "correct": 3,
+    "solution": "Su: 2 L + 750 mL = 2750 mL. Limon suyu: 4 × 250 mL = 1000 mL (1 L). Toplam: 2750 + 1000 = 3750 mL = 3 L 750 mL. Bu 4 litreden azdır. 10 litrelik kavanozun dolması için 6 L 250 mL daha gerekir. Doğru cevap: D"
+  },
+  {
+    "id": 4,
+    "points": 5,
+    "text": "Mutfakta yemek tarifi hazırlayan bir aşçı, bazı malzemeleri mililitre dereceli kaplar kullanarak ölçmektedir.\n\nAşağıdaki ölçüm durumları verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. 250 mililitre süt kullanarak kek hamurunu hazırlamak.",
+      "II. 5000 mililitre su ile çok büyük bir tencere çorba yapmak.",
+      "III. 5 mililitre vanilya özütü ekleyerek tatlının aromasını artırmak."
+    ],
+    "boldText": "Aşçının yaptığı bu ölçümlerden hangilerinde sıvı miktarını doğrudan mililitre ölçü kabıyla belirlemesi daha pratik ve hatasız bir yöntemdir?",
+    "options": [
+      "I ve II",
+      "Yalnız I",
+      "II ve III",
+      "I ve III"
+    ],
+    "correct": 3,
+    "solution": "250 mL süt ve 5 mL vanilya küçük hacimli sıvılardır, mililitre ölçü kabıyla kolayca ölçülür (I ve III doğru). 5000 mL (5 L) çorba suyu çok büyüktür, litre ile ölçülmesi daha pratiktir (II uygun değil). Doğru cevap: D"
+  },
+  {
+    "id": 5,
+    "points": 5,
+    "text": "Eczacı Ayşe Hanım, eczaneye gelen hastalarına sıvı ilaçların doğru dozda nasıl kullanılacağını detaylı bir şekilde tarif etmektedir.\n\nAşağıdaki tedavi durumları verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. Bir hastanın günde üç defa birer tatlı kaşığı öksürük şurubu içmesi.",
+      "II. Bir hastanın damarına takılan serum şişesine yarım litre su eklenmesi.",
+      "III. Bir bebeğin meyve püresine günde on damla vitamin damlatılması."
+    ],
+    "boldText": "Bu durumlardan hangilerinde hastaların evdeki mililitre dereceli küçük bir kaşık veya şırınga ile sıvı ölçümü yapması gerekir?",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III"
+    ],
+    "correct": 2,
+    "solution": "Tatlı kaşığı (~5 mL) ve vitamin damlası (~1-2 mL) çok küçük sıvılardır, mililitre şırınga/kaşık ile ölçülmelidir (I ve III). Yarım litrelik serum evdeki küçük araçlarla pratik ölçülemez (II uygun değil). Doğru cevap: C"
+  },
+  {
+    "id": 6,
+    "points": 5,
+    "text": "Market alışverişi yapan bir aile, sepete koydukları farklı sıvı ürünlerin ambalajları üzerindeki ölçü birimlerini incelemektedir.\n\nAşağıdaki ürünler verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. 200 mililitrelik çocuk beslenme sütü kutusu.",
+      "II. 19 litrelik büyük ev tipi su damacanası.",
+      "III. 5 litrelik lokanta tipi zeytinyağı tenekesi."
+    ],
+    "boldText": "Verilen ürünlerden hangilerinin ambalajında miktar belirtilirken ağırlıklı olarak sadece mililitre biriminin kullanılması mantıklıdır?",
+    "options": [
+      "I ve II",
+      "Yalnız II",
+      "Yalnız I",
+      "II ve III"
+    ],
+    "correct": 2,
+    "solution": "200 mL süt kutusu bir litreden küçüktür, mililitre ile ifade edilmesi uygundur (I). 19 litrelik damacana ve 5 litrelik teneke büyük hacimlidir, litre ile ifade edilir (II ve III uygun değil). Doğru cevap: C"
+  },
+  {
+    "id": 7,
+    "points": 5,
+    "text": "Fen bilimleri laboratuvarında araştırma yapan öğrenciler, farklı miktarlardaki sıvıların hacimlerini hatasız bir şekilde karşılaştırmak için deney yapmaktadır.\n\nAşağıdaki sıvı ölçüm görevleri verilmiştir:",
+    "table": null,
+    "afterTableText": null,
+    "statements": [
+      "I. Bir yemek kaşığının alabildiği su miktarını bulmak.",
+      "II. Bir cam su bardağındaki meyve suyu miktarını hesaplamak.",
+      "III. Yerleri silmek için hazırlanan bir kova dolusu temizlik suyunun miktarını bulmak."
+    ],
+    "boldText": "Öğrencilerin hangi kaplardaki sıvıyı, derecelendirilmiş mililitre cam tüpü kullanarak ölçmesi daha mantıklı ve kolay bir sonuç verir?",
+    "options": [
+      "I ve III",
+      "I, II ve III",
+      "II ve III",
+      "I ve II"
+    ],
+    "correct": 3,
+    "solution": "Yemek kaşığı ve su bardağı küçük hacimlidir, mililitre cam tüpüyle kolayca ölçülür (I ve II). Kova dolusu su çok büyük hacimlidir, küçük tüple ölçmek pratik değildir (III uygun değil). Doğru cevap: D"
+  },
+  {
+    "id": 8,
+    "points": 5,
+    "text": "Zeynep evindeki banyo ve mutfak dolaplarında bulunan farklı şişelerin sıvı kapasitelerini incelemiş ve bunu aşağıdaki tabloya kaydetmiştir.\n\nAşağıdaki tablo sıvıların kapladığı hacimleri göstermektedir:",
+    "table": {
+      "headers": [
+        "Şişe Türü",
+        "İçindeki Sıvı Miktarı",
+        "Hacim Boyutu"
+      ],
+      "rows": [
+        [
+          "Parfüm Şişesi",
+          "50 mililitre",
+          "Çok Küçük"
+        ],
+        [
+          "Meyve Suyu Kutusu",
+          "330 mililitre",
+          "Küçük"
+        ],
+        [
+          "Büyük Su Şişesi",
+          "1 litre 500 mililitre",
+          "Geniş"
+        ]
+      ]
+    },
+    "afterTableText": "Bu tabloya göre, mililitrenin günlük hayattaki kullanım amacı ile ilgili olarak aşağıdakilerden hangisi kesinlikle söylenebilir?",
+    "statements": null,
+    "options": [
+      "İçinde büyük miktarda sıvı barındıran geniş şişelerin ölçümlerinde mililitre değerlerine asla yer verilmez.",
+      "Mililitre bilimsel deneylerde sadece suyun miktarını ölçmek amacıyla üretilmiş bir birimdir.",
+      "Satılan tüm sıvı ambalajlarının üzerine sadece ve sadece mililitre ölçü değerini yazmak yasal bir zorunluluktur.",
+      "Parfüm veya kutu içecek gibi bir litreden çok daha az yer kaplayan sıvılar mililitre ile ifade edilir."
+    ],
+    "correct": 3,
+    "solution": "Tabloda parfüm (50 mL) ve meyve suyu (330 mL) gibi bir litreden küçük sıvılar mililitre ile ifade edilmiştir. Büyük su şişesi ise litre + mililitre karma kullanılmıştır. Küçük hacimli sıvılar mililitre ile ifade edilir. Doğru cevap: D"
+  },
+  {
+    "id": 9,
+    "points": 5,
+    "text": "Bir kozmetik fabrikasında tüketiciler için şişelenen saç şampuanlarının farklı boy seçenekleri ve paketlenme sıvı miktarları bir tabloda toplanmıştır.\n\nAşağıdaki tablo şampuan şişelerinin kapasitelerini göstermektedir:",
+    "table": {
+      "headers": [
+        "Ürün Boyutu",
+        "Bir Paketteki Net Miktar"
+      ],
+      "rows": [
+        [
+          "Seyahat Boyu",
+          "100 mililitre"
+        ],
+        [
+          "Standart Boy",
+          "400 mililitre"
+        ],
+        [
+          "Aile Boyu",
+          "1 litre 200 mililitre"
+        ]
+      ]
+    },
+    "afterTableText": "Bu detaylı tablo verileri incelendiğinde şampuan üretimindeki sıvı ölçü birimlerinin seçimi hakkında ulaşılabilecek en doğru ve mantıklı yargı aşağıdakilerden hangisidir?",
+    "statements": null,
+    "options": [
+      "Fabrikada üretilen tüm şampuan boyları ayırt edilmeksizin tamamen mililitre formülü ile paketlenmelidir.",
+      "Sıvı kapasitesi henüz bir litreyi doldurmamış olan ambalajlarda sıvı miktarını belirtmek için mililitre birimi tercih edilir.",
+      "Uçaklara rahatça alınan seyahat boyu kozmetik ürünleri genellikle bir tam litreden daha fazla sıvı hacmine sahiptir.",
+      "Tüketicilere satılan aile boyu şampuan ambalajları marketlerdeki en hafif sıvı kutuları olarak ölçülür."
+    ],
+    "correct": 1,
+    "solution": "Seyahat boyu (100 mL) ve standart boy (400 mL) bir litreden küçük olduğu için mililitre ile ifade edilmiştir. Aile boyu (1 L 200 mL) bir litreyi aştığı için karma birim kullanılmıştır. Bir litreden az olan ambalajlarda mililitre tercih edilir. Doğru cevap: B"
+  },
+  {
+    "id": 10,
+    "points": 5,
+    "text": "Bir veteriner kliniğinde hastalanan minik yavru kedilerin tedavisi için çok hassas ölçülerde sıvılar verilmesi gerekmektedir. Uzman veteriner hekim, bir yavru kediye günde üç defa tam olarak 2 mililitre antibiyotik damla şurubu uygulamaktadır.\n\nBu tedavi durumu titizlikle incelendiğinde, uzman veteriner hekimin sıvı ilacı ölçerken litre yerine mililitre birimini tercih etmesinin en temel, yaşamsal ve mantıklı nedeni aşağıdakilerden hangisidir?",
+    "table": null,
+    "afterTableText": null,
+    "statements": null,
+    "boldText": null,
+    "options": [
+      "Gelişmiş hastane ortamlarında sıvıların sadece mililitre ölçekleriyle ölçülerek dışarıya satılması zorunludur.",
+      "Matematiksel işlemlerde mililitre hesaplamalarının, litre işlemlerine göre doktorlar tarafından çok daha hızlı yapılması.",
+      "Çok küçük ve hayati sıvı miktarlarını milim milim ayarlayabilmek ve hatalı dozu önleyerek hassas şekilde ölçebilmek.",
+      "Hayvanlar, tedavi sürecinde uygulanan sıvı formundaki ilaçları haplara kıyasla daha keyifle ve severek tüketmektedir."
+    ],
+    "correct": 2,
+    "solution": "2 mL ilaç dozu son derece küçüktür ve hayati öneme sahiptir. Yanlış dozlama tehlikeli olabilir. Mililitre birimi bu kadar küçük sıvıları hassas şekilde ölçmeyi sağlar. Litre bu detayda ölçüm yapamaz. Doğru cevap: C"
+  }
+]
