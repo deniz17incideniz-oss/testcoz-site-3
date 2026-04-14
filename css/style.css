@@ -601,28 +601,41 @@ img {
 }
 
 /* --- Subject Cards --- */
+/* --- Subject Grid --- */
 .subject-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
 
+@media (min-width: 640px) {
+  .subject-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .subject-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* --- Subject Card --- */
 .subject-card {
   background: white;
-  border-radius: var(--radius-lg);
-  padding: 24px;
+  border-radius: 16px;
+  padding: 20px;
   border: 2px solid var(--gray-200);
-  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
-  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 100%;
 }
 
 .subject-card:hover {
   border-color: var(--primary);
   box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
+  transform: scale(1.02);
 }
 
 .subject-icon {
@@ -637,23 +650,33 @@ img {
   background: var(--primary-light);
 }
 
+.subject-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .subject-info h3 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 6px;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--text);
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .subject-info p {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
-  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
 }
 
 .subject-topic-count {
   display: inline-block;
-  margin-top: 10px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--primary);
   font-weight: 600;
   background: var(--primary-light);
@@ -661,35 +684,47 @@ img {
   border-radius: 100px;
 }
 
+.subject-difficulty {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+}
+
 /* --- Topic Cards --- */
 .topic-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .topic-card {
   background: white;
   border: 2px solid var(--gray-200);
-  border-radius: var(--radius);
-  padding: 18px 22px;
+  border-radius: 14px;
+  padding: 16px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
   text-decoration: none;
 }
 
 .topic-card:hover {
   border-color: var(--primary);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-md);
+  transform: scale(1.01);
 }
 
 .topic-card-left {
   display: flex;
   align-items: center;
   gap: 14px;
+  min-width: 0;
+  flex: 1;
 }
 
 .topic-num {
@@ -706,34 +741,44 @@ img {
   flex-shrink: 0;
 }
 
+.topic-info {
+  min-width: 0;
+}
+
 .topic-info h4 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text);
-  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .topic-info p {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
+  margin-top: 2px;
 }
 
 .difficulty-badges {
+  flex-shrink: 0;
   display: flex;
   gap: 6px;
   align-items: center;
 }
 
 .badge {
-  padding: 3px 10px;
+  padding: 4px 10px;
   border-radius: 100px;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .badge-kolay  { background: #ECFDF5; color: #059669; }
 .badge-orta   { background: #FFFBEB; color: #D97706; }
 .badge-zor    { background: #FFF1F2; color: #E11D48; }
+.badge-yakinda { background: #F1F5F9; color: #94A3B8; }
 
 /* --- Breadcrumb --- */
 .breadcrumb {
@@ -1454,3 +1499,4 @@ img {
   .footer-grid    { grid-template-columns: 1fr; }
   .hero-stats     { gap: 20px; }
 }
+
