@@ -170,56 +170,56 @@
     // Maps sinif.html ders keys → curriculum subject keys
     const SUBJECT_CURRICULUM_KEY = {
       matematik: 'math',
-      turkce:    'turkish',
-      hayat:     'life_science',
-      fen:       'science',
-      sosyal:    'social'
+      turkce: 'turkish',
+      hayat: 'life_science',
+      fen: 'science',
+      sosyal: 'social'
     };
 
     const sinifDersleri = {
       '1': [
-        { key: 'matematik', label: 'Matematik',      icon: '📐', desc: 'Sayılar, nicelikler, geometri, veri' },
-        { key: 'turkce',    label: 'Türkçe',          icon: '📖', desc: 'Sesler, harfler, okuma, yazma' },
-        { key: 'hayat',     label: 'Hayat Bilgisi',   icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
+        { key: 'matematik', label: 'Matematik', icon: '📐', desc: 'Sayılar, nicelikler, geometri, veri' },
+        { key: 'turkce', label: 'Türkçe', icon: '📖', desc: 'Sesler, harfler, okuma, yazma' },
+        { key: 'hayat', label: 'Hayat Bilgisi', icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
       ],
       '2': [
-        { key: 'matematik', label: 'Matematik',      icon: '📐', desc: 'Sayılar, işlemler, geometri, veri' },
-        { key: 'turkce',    label: 'Türkçe',          icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
-        { key: 'hayat',     label: 'Hayat Bilgisi',   icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
+        { key: 'matematik', label: 'Matematik', icon: '📐', desc: 'Sayılar, işlemler, geometri, veri' },
+        { key: 'turkce', label: 'Türkçe', icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'hayat', label: 'Hayat Bilgisi', icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
       ],
       '3': [
-        { key: 'matematik', label: 'Matematik',        icon: '📐', desc: 'Sayılar, işlemler, geometri, ölçme' },
-        { key: 'turkce',    label: 'Türkçe',            icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
-        { key: 'fen',       label: 'Fen Bilimleri',     icon: '🔬', desc: 'Gezegenimiz, duyular, kuvvet, madde' },
-        { key: 'sosyal',    label: 'Sosyal Bilgiler',   icon: '🌍', desc: 'Birey, kültür, coğrafya, vatandaşlık' },
-        { key: 'ingilizce', label: 'İngilizce',          icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
+        { key: 'matematik', label: 'Matematik', icon: '📐', desc: 'Sayılar, işlemler, geometri, ölçme' },
+        { key: 'turkce', label: 'Türkçe', icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'fen', label: 'Fen Bilimleri', icon: '🔬', desc: 'Gezegenimiz, duyular, kuvvet, madde' },
+        { key: 'sosyal', label: 'Sosyal Bilgiler', icon: '🌍', desc: 'Birey, kültür, coğrafya, vatandaşlık' },
+        { key: 'ingilizce', label: 'İngilizce', icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
       ],
       '4': [
-        { key: 'matematik',  label: 'Matematik',                    icon: '📐', desc: 'Sayılar, kesirler, geometri, ölçme, veri' },
-        { key: 'turkce',     label: 'Türkçe',                       icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
-        { key: 'fen',        label: 'Fen Bilimleri',                icon: '🔬', desc: 'Dünya, besinler, kuvvet, madde, elektrik' },
-        { key: 'sosyal',     label: 'Sosyal Bilgiler',              icon: '🌍', desc: 'Birey, kültür, coğrafya, üretim, vatandaşlık' },
-        { key: 'din',        label: 'Din Kültürü ve Ahlak Bilgisi', icon: '🕌', desc: 'Temel dini bilgiler ve ahlak' },
-        { key: 'ingilizce',  label: 'İngilizce',                    icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
+        { key: 'matematik', label: 'Matematik', icon: '📐', desc: 'Sayılar, kesirler, geometri, ölçme, veri' },
+        { key: 'turkce', label: 'Türkçe', icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'fen', label: 'Fen Bilimleri', icon: '🔬', desc: 'Dünya, besinler, kuvvet, madde, elektrik' },
+        { key: 'sosyal', label: 'Sosyal Bilgiler', icon: '🌍', desc: 'Birey, kültür, coğrafya, üretim, vatandaşlık' },
+        { key: 'din', label: 'Din Kültürü ve Ahlak Bilgisi', icon: '🕌', desc: 'Temel dini bilgiler ve ahlak' },
+        { key: 'ingilizce', label: 'İngilizce', icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
       ]
     };
 
-    const params   = new URLSearchParams(window.location.search);
-    const sinif    = params.get('sinif') || '1';
+    const params = new URLSearchParams(window.location.search);
+    const sinif = params.get('sinif') || '1';
     const gradeNum = parseInt(sinif);
-    const dersler  = sinifDersleri[sinif] || sinifDersleri['1'];
+    const dersler = sinifDersleri[sinif] || sinifDersleri['1'];
 
     const selectedGrade = curriculum.find(g => g.grade === gradeNum);
 
-    document.getElementById('pageHeroTitle').textContent    = sinif + '. Sınıf Dersleri';
-    document.getElementById('pageHeroSub').textContent      = 'Bir ders seçerek konu listesine ulaşabilirsiniz.';
+    document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf Dersleri';
+    document.getElementById('pageHeroSub').textContent = 'Bir ders seçerek konu listesine ulaşabilirsiniz.';
     document.getElementById('breadcrumbCurrent').textContent = sinif + '. Sınıf';
     document.title = sinif + '. Sınıf Dersleri | TestÇöz';
 
     document.querySelectorAll('.class-card').forEach(function (card) {
       if (card.getAttribute('data-class') === sinif) {
         card.style.borderColor = 'var(--primary)';
-        card.style.background  = 'var(--primary-light, #EFF6FF)';
+        card.style.background = 'var(--primary-light, #EFF6FF)';
       }
     });
 
@@ -231,10 +231,17 @@
         : 0;
 
       return '<a class="subject-card" href="konu.html?ders=' + d.key + '&sinif=' + sinif + '" role="listitem">' +
-        '<span class="subject-icon" aria-hidden="true">' + d.icon + '</span>' +
-        '<h3 class="subject-title">' + d.label + '</h3>' +
-        '<p class="subject-desc">' + d.desc + '</p>' +
-        '<span class="subject-meta">' + (topicCount > 0 ? topicCount + ' konu' : 'Yakında') + '</span>' +
+        '<div class="subject-icon" aria-hidden="true">' + d.icon + '</div>' +
+        '<div class="subject-info">' +
+          '<h3>' + d.label + '</h3>' +
+          '<p>' + (topicCount > 0 ? topicCount + ' konu içerir' : 'Yakında eklenecek') + '</p>' +
+          (topicCount > 0 ? '<span class="subject-topic-count">' + topicCount + ' konu</span>' : '') +
+        '</div>' +
+        '<div class="subject-difficulty">' +
+          '<span class="badge badge-kolay">Kolay</span>' +
+          '<span class="badge badge-orta">Orta</span>' +
+          '<span class="badge badge-zor">Zor</span>' +
+        '</div>' +
         '</a>';
     }).join('');
   </script>
