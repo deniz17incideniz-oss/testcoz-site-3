@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body data-page="sinif">
+<body data-page="sinif-page">
 
   <!-- HEADER -->
   <header class="site-header" role="banner">
@@ -164,64 +164,79 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script>
-  // ─── SINIFA GÖRE DERSLER ───
-  var sinifDersleri = {
-    "1": [
-      {key:"matematik", label:"Matematik", icon:"📐", desc:"Sayılar, nicelikler, geometri, veri", konuSayisi:7},
-      {key:"turkce", label:"Türkçe", icon:"📖", desc:"Sesler, harfler, okuma, yazma", konuSayisi:7},
-      {key:"hayat", label:"Hayat Bilgisi", icon:"🏡", desc:"Okul, ev, sağlık, güvenlik, doğa", konuSayisi:6}
-    ],
-    "2": [
-      {key:"matematik", label:"Matematik", icon:"📐", desc:"Sayılar, işlemler, geometri, veri", konuSayisi:8},
-      {key:"turkce", label:"Türkçe", icon:"📖", desc:"Dinleme, konuşma, okuma, yazma", konuSayisi:4},
-      {key:"hayat", label:"Hayat Bilgisi", icon:"🏡", desc:"Okul, ev, sağlık, güvenlik, doğa", konuSayisi:6}
-    ],
-    "3": [
-      {key:"matematik", label:"Matematik", icon:"📐", desc:"Sayılar, işlemler, geometri, ölçme", konuSayisi:16},
-      {key:"turkce", label:"Türkçe", icon:"📖", desc:"Dinleme, konuşma, okuma, yazma", konuSayisi:4},
-      {key:"fen", label:"Fen Bilimleri", icon:"🔬", desc:"Gezegenimiz, duyular, kuvvet, madde", konuSayisi:7},
-      {key:"sosyal", label:"Sosyal Bilgiler", icon:"🌍", desc:"Birey, kültür, coğrafya, vatandaşlık", konuSayisi:7},
-      {key:"ingilizce", label:"İngilizce", icon:"🇬🇧", desc:"Temel İngilizce becerileri", konuSayisi:0}
-    ],
-    "4": [
-      {key:"matematik", label:"Matematik", icon:"📐", desc:"Sayılar, kesirler, geometri, ölçme, veri", konuSayisi:17},
-      {key:"turkce", label:"Türkçe", icon:"📖", desc:"Dinleme, konuşma, okuma, yazma", konuSayisi:4},
-      {key:"fen", label:"Fen Bilimleri", icon:"🔬", desc:"Dünya, besinler, kuvvet, madde, elektrik", konuSayisi:7},
-      {key:"sosyal", label:"Sosyal Bilgiler", icon:"🌍", desc:"Birey, kültür, coğrafya, üretim, vatandaşlık", konuSayisi:7},
-      {key:"din", label:"Din Kültürü ve Ahlak Bilgisi", icon:"🕌", desc:"Temel dini bilgiler ve ahlak", konuSayisi:0},
-      {key:"ingilizce", label:"İngilizce", icon:"🇬🇧", desc:"Temel İngilizce becerileri", konuSayisi:0}
-    ]
-  };
+  <script type="module">
+    import { curriculum } from './data/curriculumData.js';
 
-  var params = new URLSearchParams(window.location.search);
-  var sinif = params.get('sinif') || '1';
-  var dersler = sinifDersleri[sinif] || sinifDersleri["1"];
+    // Maps sinif.html ders keys → curriculum subject keys
+    const SUBJECT_CURRICULUM_KEY = {
+      matematik: 'math',
+      turkce:    'turkish',
+      hayat:     'life_science',
+      fen:       'science',
+      sosyal:    'social'
+    };
 
-  // Başlıkları güncelle
-  document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf Dersleri';
-  document.getElementById('pageHeroSub').textContent = 'Bir ders seçerek konu listesine ulaşabilirsiniz.';
-  document.getElementById('breadcrumbCurrent').textContent = sinif + '. Sınıf';
-  document.title = sinif + '. Sınıf Dersleri | TestÇöz';
+    const sinifDersleri = {
+      '1': [
+        { key: 'matematik', label: 'Matematik',      icon: '📐', desc: 'Sayılar, nicelikler, geometri, veri' },
+        { key: 'turkce',    label: 'Türkçe',          icon: '📖', desc: 'Sesler, harfler, okuma, yazma' },
+        { key: 'hayat',     label: 'Hayat Bilgisi',   icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
+      ],
+      '2': [
+        { key: 'matematik', label: 'Matematik',      icon: '📐', desc: 'Sayılar, işlemler, geometri, veri' },
+        { key: 'turkce',    label: 'Türkçe',          icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'hayat',     label: 'Hayat Bilgisi',   icon: '🏡', desc: 'Okul, ev, sağlık, güvenlik, doğa' }
+      ],
+      '3': [
+        { key: 'matematik', label: 'Matematik',        icon: '📐', desc: 'Sayılar, işlemler, geometri, ölçme' },
+        { key: 'turkce',    label: 'Türkçe',            icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'fen',       label: 'Fen Bilimleri',     icon: '🔬', desc: 'Gezegenimiz, duyular, kuvvet, madde' },
+        { key: 'sosyal',    label: 'Sosyal Bilgiler',   icon: '🌍', desc: 'Birey, kültür, coğrafya, vatandaşlık' },
+        { key: 'ingilizce', label: 'İngilizce',          icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
+      ],
+      '4': [
+        { key: 'matematik',  label: 'Matematik',                    icon: '📐', desc: 'Sayılar, kesirler, geometri, ölçme, veri' },
+        { key: 'turkce',     label: 'Türkçe',                       icon: '📖', desc: 'Dinleme, konuşma, okuma, yazma' },
+        { key: 'fen',        label: 'Fen Bilimleri',                icon: '🔬', desc: 'Dünya, besinler, kuvvet, madde, elektrik' },
+        { key: 'sosyal',     label: 'Sosyal Bilgiler',              icon: '🌍', desc: 'Birey, kültür, coğrafya, üretim, vatandaşlık' },
+        { key: 'din',        label: 'Din Kültürü ve Ahlak Bilgisi', icon: '🕌', desc: 'Temel dini bilgiler ve ahlak' },
+        { key: 'ingilizce',  label: 'İngilizce',                    icon: '🇬🇧', desc: 'Temel İngilizce becerileri' }
+      ]
+    };
 
-  // Aktif sınıfı vurgula
-  document.querySelectorAll('.class-card').forEach(function(card) {
-    if (card.getAttribute('data-class') === sinif) {
-      card.style.borderColor = 'var(--primary)';
-      card.style.background = 'var(--primary-light, #EFF6FF)';
-    }
-  });
+    const params   = new URLSearchParams(window.location.search);
+    const sinif    = params.get('sinif') || '1';
+    const gradeNum = parseInt(sinif);
+    const dersler  = sinifDersleri[sinif] || sinifDersleri['1'];
 
-  // Ders kartlarını render et
-  var grid = document.getElementById('subjectGrid');
-  grid.innerHTML = dersler.map(function(d) {
-    return '<a class="subject-card" href="konu.html?ders=' + d.key + '&sinif=' + sinif + '" role="listitem">' +
-      '<span class="subject-icon" aria-hidden="true">' + d.icon + '</span>' +
-      '<h3 class="subject-title">' + d.label + '</h3>' +
-      '<p class="subject-desc">' + d.desc + '</p>' +
-      '<span class="subject-meta">' + (d.konuSayisi > 0 ? d.konuSayisi + ' konu' : 'Yakında') + '</span>' +
-    '</a>';
-  }).join('');
+    const selectedGrade = curriculum.find(g => g.grade === gradeNum);
+
+    document.getElementById('pageHeroTitle').textContent    = sinif + '. Sınıf Dersleri';
+    document.getElementById('pageHeroSub').textContent      = 'Bir ders seçerek konu listesine ulaşabilirsiniz.';
+    document.getElementById('breadcrumbCurrent').textContent = sinif + '. Sınıf';
+    document.title = sinif + '. Sınıf Dersleri | TestÇöz';
+
+    document.querySelectorAll('.class-card').forEach(function (card) {
+      if (card.getAttribute('data-class') === sinif) {
+        card.style.borderColor = 'var(--primary)';
+        card.style.background  = 'var(--primary-light, #EFF6FF)';
+      }
+    });
+
+    const grid = document.getElementById('subjectGrid');
+    grid.innerHTML = dersler.map(function (d) {
+      const selectedSubject = SUBJECT_CURRICULUM_KEY[d.key];
+      const topicCount = (selectedGrade && selectedSubject && selectedGrade.subjects[selectedSubject])
+        ? selectedGrade.subjects[selectedSubject].topics.length
+        : 0;
+
+      return '<a class="subject-card" href="konu.html?ders=' + d.key + '&sinif=' + sinif + '" role="listitem">' +
+        '<span class="subject-icon" aria-hidden="true">' + d.icon + '</span>' +
+        '<h3 class="subject-title">' + d.label + '</h3>' +
+        '<p class="subject-desc">' + d.desc + '</p>' +
+        '<span class="subject-meta">' + (topicCount > 0 ? topicCount + ' konu' : 'Yakında') + '</span>' +
+        '</a>';
+    }).join('');
   </script>
 </body>
 
