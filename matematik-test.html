@@ -1,271 +1,155 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1287455375559097"
-    crossorigin="anonymous"></script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test | TestÇöz</title>
-  <meta name="description" content="Seçtiğiniz konuya ait soruları çözün ve anlık geri bildirim alın." />
-  <meta name="robots" content="noindex, follow" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
   <style>
-    .test-info-bar {
+    body {
+      font-family: Arial;
+      background: #f3f4f6;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .question {
       background: white;
-      border: 1px solid var(--gray-200);
-      border-radius: var(--radius-lg);
-      padding: 20px 28px;
-      margin-bottom: 28px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-      box-shadow: var(--shadow-sm);
+      padding: 15px;
+      border-radius: 10px;
     }
 
-    .test-info-title {
-      font-size: 1.15rem;
-      font-weight: 700;
-    }
-
-    .test-info-meta {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-
-    .coming-soon-box {
-      background: linear-gradient(135deg, #EFF6FF, #DBEAFE);
-      border: 2px dashed #93C5FD;
-      border-radius: var(--radius-xl);
-      padding: 64px 40px;
-      text-align: center;
-      margin-bottom: 24px;
-    }
-
-    .coming-soon-icon {
-      font-size: 5rem;
+    .option {
       display: block;
-      margin-bottom: 20px;
-      line-height: 1;
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: #e5e7eb;
+      cursor: pointer;
     }
 
-    .coming-soon-box h2 {
-      color: var(--primary-dark);
-      margin-bottom: 12px;
+    .option:hover {
+      background: #c7d2fe;
     }
 
-    .coming-soon-box p {
-      color: var(--text-muted);
-      max-width: 460px;
-      margin: 0 auto 24px;
-      line-height: 1.7;
+    .correct {
+      background: #4ade80 !important;
     }
 
-    .sample-ui {
-      background: white;
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      border: 1px solid var(--gray-200);
-      box-shadow: var(--shadow-sm);
-      margin-bottom: 24px;
-      opacity: 0.5;
-      pointer-events: none;
-      user-select: none;
-    }
-
-    .sample-question-text {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 24px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid var(--gray-200);
+    .wrong {
+      background: #f87171 !important;
     }
   </style>
 </head>
 
-<body data-page="test">
+<body>
 
-  <header class="site-header" role="banner">
-    <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="TestÇöz Ana Sayfa">
-        <div class="logo-icon" aria-hidden="true">T</div>
-        <span class="logo-text">Test<span>Çöz</span></span>
-      </a>
-      <nav class="main-nav" aria-label="Ana Menü">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="sinif.html?sinif=1">Sınıflar</a>
-        <a href="veli.html">Veliler</a>
-        <a href="hakkimizda.html">Hakkımızda</a>
-        <a href="iletisim.html">İletişim</a>
-      </nav>
-      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç/kapat" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
+  <h1>Veri Toplama - Zor Test</h1>
+  <div class="grid">
 
-  <nav class="mobile-nav" id="mobileMenu" aria-label="Mobil Menü">
-    <a href="index.html">Ana Sayfa</a>
-    <a href="sinif.html?sinif=1">1. Sınıf</a>
-    <a href="sinif.html?sinif=2">2. Sınıf</a>
-    <a href="sinif.html?sinif=3">3. Sınıf</a>
-    <a href="sinif.html?sinif=4">4. Sınıf</a>
-    <a href="veli.html">Veliler için</a>
-    <a href="hakkimizda.html">Hakkımızda</a>
-    <a href="iletisim.html">İletişim</a>
-  </nav>
-
-  <main>
-
-    <div class="container">
-      <nav class="breadcrumb" id="breadcrumb" aria-label="Sayfa yolu">
-        <a href="index.html">Ana Sayfa</a>
-        <span class="breadcrumb-sep">›</span>
-        <span class="breadcrumb-current">Test</span>
-      </nav>
+    <div class="question">
+      <b>1. Soru</b>
+      <p>En çok ve en az tost satılan gün farkı 50 midir?</p>
+      <button class="option" onclick="check(this,true)">Evet</button>
+      <button class="option" onclick="check(this,false)">Hayır</button>
     </div>
 
-    <section class="section-sm">
-      <div class="container">
-        <div class="test-wrapper">
-
-          <!-- Test Info Bar -->
-          <div class="test-info-bar">
-            <div>
-              <div class="test-info-title" id="testTitle">Test</div>
-              <div class="test-info-meta" id="testSubtitle">Konu yükleniyor…</div>
-            </div>
-            <a href="javascript:history.back()" class="btn btn-outline btn-sm">← Geri</a>
-          </div>
-
-          <!-- Progress bar -->
-          <div class="test-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
-            aria-label="Test ilerleme durumu">
-            <span class="test-counter">Soru — / —</span>
-            <div class="test-bar-wrap">
-              <div class="test-bar-fill" id="testBarFill" style="width:0%"></div>
-            </div>
-            <span class="test-score">0 Doğru</span>
-          </div>
-
-          <!-- Coming Soon State -->
-          <div class="coming-soon-box" role="status" aria-live="polite">
-            <span class="coming-soon-icon" aria-hidden="true">📝</span>
-            <h2>Sorular Hazırlanıyor</h2>
-            <p>
-              Bu konuya ait sorular çok yakında eklenecektir. Platformumuz aktif olarak
-              geliştirilmekte olup tüm sınıf ve ders sorularının yüklenmesi tamamlanmaktadır.
-            </p>
-            <a href="javascript:history.back()" class="btn btn-primary">← Konulara Dön</a>
-          </div>
-
-          <!-- Sample UI Preview (dimmed, non-interactive) -->
-          <div class="sample-ui" aria-hidden="true">
-            <p
-              style="font-size:0.8rem; color:var(--text-muted); margin-bottom:20px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600;">
-              Örnek Soru Arayüzü</p>
-            <p class="sample-question-text">
-              Soru metni burada görüntülenecektir.
-            </p>
-            <div class="options-grid">
-              <button class="option-btn" disabled>
-                <span class="option-letter">A</span>
-                <span>Seçenek A</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">B</span>
-                <span>Seçenek B</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">C</span>
-                <span>Seçenek C</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">D</span>
-                <span>Seçenek D</span>
-              </button>
-            </div>
-            <div class="test-nav">
-              <button class="btn btn-outline btn-sm" disabled>← Önceki</button>
-              <span style="font-size:0.85rem; color:var(--text-muted);">1 / 10</span>
-              <button class="btn btn-primary btn-sm" disabled>Sonraki →</button>
-            </div>
-          </div>
-
-          <!-- AD ZONE: In-test, below content -->
-          <div class="ad-zone" aria-label="Reklam alanı">
-            <div class="ad-zone-label">Reklam</div>
-          </div>
-
-          <div class="info-box">
-            <h4>📢 Yeni Sorular Ekleniyor</h4>
-            <p>
-              Tüm sınıf ve dersler için sorular sisteme yüklenmektedir.
-              Güncel içerikler için sitemizi takip etmeyi unutmayın.
-              Soru öneri ve geri bildirimleriniz için
-              <a href="iletisim.html" style="color:var(--primary-dark); font-weight:600;">bize ulaşın</a>.
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <div class="logo-icon" aria-hidden="true">T</div>
-            <span class="logo-text">Test<span>Çöz</span></span>
-          </a>
-          <p>İlkokul öğrencileri için Türk müfredatına uygun, ücretsiz online test platformu.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Sınıflar</h4>
-          <ul>
-            <li><a href="sinif.html?sinif=1">1. Sınıf</a></li>
-            <li><a href="sinif.html?sinif=2">2. Sınıf</a></li>
-            <li><a href="sinif.html?sinif=3">3. Sınıf</a></li>
-            <li><a href="sinif.html?sinif=4">4. Sınıf</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Sayfalar</h4>
-          <ul>
-            <li><a href="hakkimizda.html">Hakkımızda</a></li>
-            <li><a href="veli.html">Veliler için</a></li>
-            <li><a href="iletisim.html">İletişim</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Yasal</h4>
-          <ul>
-            <li><a href="gizlilik-politikasi.html">Gizlilik Politikası</a></li>
-            <li><a href="kullanim-sartlari.html">Kullanım Şartları</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2025 TestÇöz. Tüm hakları saklıdır.</p>
-        <div class="footer-bottom-links">
-          <a href="gizlilik-politikasi.html">Gizlilik</a>
-          <a href="kullanim-sartlari.html">Şartlar</a>
-          <a href="iletisim.html">İletişim</a>
-        </div>
-      </div>
+    <div class="question">
+      <b>2. Soru</b>
+      <p>Toplam kitap sayısı kaçtır?</p>
+      <button class="option" onclick="check(this,true)">590</button>
+      <button class="option" onclick="check(this,false)">600</button>
+      <button class="option" onclick="check(this,false)">550</button>
+      <button class="option" onclick="check(this,false)">580</button>
     </div>
-  </footer>
 
-  <script src="js/main.js"></script>
+    <div class="question">
+      <b>3. Soru</b>
+      <p>Toplam sayfa sayısı kaçtır?</p>
+      <button class="option" onclick="check(this,true)">200</button>
+      <button class="option" onclick="check(this,false)">180</button>
+      <button class="option" onclick="check(this,false)">220</button>
+      <button class="option" onclick="check(this,false)">210</button>
+    </div>
+
+    <div class="question">
+      <b>4. Soru</b>
+      <p>Üretim azalmamış mıdır?</p>
+      <button class="option" onclick="check(this,true)">Evet</button>
+      <button class="option" onclick="check(this,false)">Hayır</button>
+    </div>
+
+    <div class="question">
+      <b>5. Soru</b>
+      <p>Toplam atık kağıt kaç kg?</p>
+      <button class="option" onclick="check(this,true)">360</button>
+      <button class="option" onclick="check(this,false)">300</button>
+      <button class="option" onclick="check(this,false)">330</button>
+      <button class="option" onclick="check(this,false)">390</button>
+    </div>
+
+    <div class="question">
+      <b>6. Soru</b>
+      <p>Muz ve elma kazancı farkı kaç TL?</p>
+      <button class="option" onclick="check(this,true)">100</button>
+      <button class="option" onclick="check(this,false)">90</button>
+      <button class="option" onclick="check(this,false)">110</button>
+      <button class="option" onclick="check(this,false)">120</button>
+    </div>
+
+    <div class="question">
+      <b>7. Soru</b>
+      <p>En uzun boy kim?</p>
+      <button class="option" onclick="check(this,true)">Ayşe</button>
+      <button class="option" onclick="check(this,false)">Ali</button>
+      <button class="option" onclick="check(this,false)">Can</button>
+      <button class="option" onclick="check(this,false)">Zeynep</button>
+    </div>
+
+    <div class="question">
+      <b>8. Soru</b>
+      <p>En az satılan oyuncak?</p>
+      <button class="option" onclick="check(this,true)">Yapboz</button>
+      <button class="option" onclick="check(this,false)">Araba</button>
+      <button class="option" onclick="check(this,false)">Top</button>
+      <button class="option" onclick="check(this,false)">Bebek</button>
+    </div>
+
+    <div class="question">
+      <b>9. Soru</b>
+      <p>5. hafta tahmini kaç TL?</p>
+      <button class="option" onclick="check(this,true)">80</button>
+      <button class="option" onclick="check(this,false)">70</button>
+      <button class="option" onclick="check(this,false)">90</button>
+      <button class="option" onclick="check(this,false)">100</button>
+    </div>
+
+    <div class="question">
+      <b>10. Soru</b>
+      <p>En yoğun seans hangisi?</p>
+      <button class="option" onclick="check(this,true)">Akşam</button>
+      <button class="option" onclick="check(this,false)">Sabah</button>
+      <button class="option" onclick="check(this,false)">Öğle</button>
+      <button class="option" onclick="check(this,false)">Hiçbiri</button>
+    </div>
+
+  </div>
+
+  <script>
+    function check(btn, correct) {
+      if (correct) {
+        btn.classList.add("correct");
+      } else {
+        btn.classList.add("wrong");
+      }
+    }
+  </script>
+
 </body>
 
 </html>
