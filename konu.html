@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -78,7 +78,8 @@
 
     <section class="section">
       <div class="container">
-        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:28px; flex-wrap:wrap; gap:12px;">
+        <div
+          style="display:flex; align-items:center; justify-content:space-between; margin-bottom:28px; flex-wrap:wrap; gap:12px;">
           <h2 id="konuBaslik">Konular</h2>
           <div style="display:flex; gap:10px; align-items:center; font-size:0.85rem; color:var(--text-muted);">
             <span>Zorluk:</span>
@@ -165,30 +166,30 @@
     // Maps konu.html ders keys → curriculum subject keys
     const SUBJECT_CURRICULUM_KEY = {
       matematik: 'math',
-      turkce:    'turkish',
-      hayat:     'life_science',
-      fen:       'science',
-      sosyal:    'social'
+      turkce: 'turkish',
+      hayat: 'life_science',
+      fen: 'science',
+      sosyal: 'social'
     };
 
     const SUBJECT_LABELS = {
-      matematik:  'Matematik',
-      turkce:     'Türkçe',
-      hayat:      'Hayat Bilgisi',
-      fen:        'Fen Bilimleri',
-      sosyal:     'Sosyal Bilgiler',
-      din:        'Din Kültürü ve Ahlak Bilgisi',
-      ingilizce:  'İngilizce'
+      matematik: 'Matematik',
+      turkce: 'Türkçe',
+      hayat: 'Hayat Bilgisi',
+      fen: 'Fen Bilimleri',
+      sosyal: 'Sosyal Bilgiler',
+      din: 'Din Kültürü ve Ahlak Bilgisi',
+      ingilizce: 'İngilizce'
     };
 
     const SUBJECT_ICONS = {
-      matematik:  '📐',
-      turkce:     '📖',
-      hayat:      '🏡',
-      fen:        '🔬',
-      sosyal:     '🌍',
-      din:        '🕌',
-      ingilizce:  '🇬🇧'
+      matematik: '📐',
+      turkce: '📖',
+      hayat: '🏡',
+      fen: '🔬',
+      sosyal: '🌍',
+      din: '🕌',
+      ingilizce: '🇬🇧'
     };
 
     const GRADE_SUBJECTS = {
@@ -198,14 +199,14 @@
       '4': ['matematik', 'turkce', 'fen', 'sosyal', 'din', 'ingilizce']
     };
 
-    const params    = new URLSearchParams(window.location.search);
-    const ders      = params.get('ders') || '';
-    const sinif     = params.get('sinif') || '4';
-    const gradeNum  = parseInt(sinif);
+    const params = new URLSearchParams(window.location.search);
+    const ders = params.get('ders') || '';
+    const sinif = params.get('sinif') || '4';
+    const gradeNum = parseInt(sinif);
 
-    const selectedGrade   = curriculum.find(g => g.grade === gradeNum);
+    const selectedGrade = curriculum.find(g => g.grade === gradeNum);
     const selectedSubject = SUBJECT_CURRICULUM_KEY[ders];
-    const topics          = (selectedGrade && selectedSubject)
+    const topics = (selectedGrade && selectedSubject)
       ? selectedGrade.subjects[selectedSubject]?.topics
       : null;
 
@@ -226,23 +227,27 @@
       const label = SUBJECT_LABELS[ders] || ders;
       document.title = sinif + '. Sınıf ' + label + ' Konuları | TestÇöz';
       document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf ' + label + ' Konuları';
-      document.getElementById('pageHeroSub').textContent   = 'Bir konu seçerek teste başlayabilirsiniz.';
-      document.getElementById('konuBaslik').textContent    = label + ' Konuları';
+      document.getElementById('pageHeroSub').textContent = 'Bir konu seçerek teste başlayabilirsiniz.';
+      document.getElementById('konuBaslik').textContent = label + ' Konuları';
       setBreadcrumb(label);
 
       topicList.innerHTML = topics.map(function (ad, idx) {
-        return '<div class="topic-card" style="opacity:0.65;">' +
+        return '<a class="topic-card" href="' +
+          (ad.toLowerCase().includes("veri")
+            ? "matematik-test.html"
+            : "#") +
+          '">' +
           '<div class="topic-card-left">' +
-            '<div class="topic-num">' + (idx + 1) + '</div>' +
-            '<div class="topic-info">' +
-              '<h4>' + ad + '</h4>' +
-              '<p>Sorular ekleniyor\u2026</p>' +
-            '</div>' +
+          '<div class="topic-num">' + (idx + 1) + '</div>' +
+          '<div class="topic-info">' +
+          '<h4>' + ad + '</h4>' +
+          '<p>Teste başla</p>' +
+          '</div>' +
           '</div>' +
           '<div class="difficulty-badges">' +
-            '<span class="badge badge-yakinda">Yakında</span>' +
+          '<span class="badge badge-zor">Zor</span>' +
           '</div>' +
-          '</div>';
+          '</a>';
       }).join('');
 
     } else if (ders) {
@@ -250,15 +255,15 @@
       const label = SUBJECT_LABELS[ders] || ders;
       document.title = sinif + '. Sınıf ' + label + ' | TestÇöz';
       document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf ' + label + ' Konuları';
-      document.getElementById('pageHeroSub').textContent   = 'Bu derse ait konular çok yakında eklenecektir.';
-      document.getElementById('konuBaslik').textContent    = label + ' Konuları';
+      document.getElementById('pageHeroSub').textContent = 'Bu derse ait konular çok yakında eklenecektir.';
+      document.getElementById('konuBaslik').textContent = label + ' Konuları';
       setBreadcrumb(label);
 
       topicList.innerHTML =
         '<div style="text-align:center;padding:48px 20px;background:linear-gradient(135deg,#EFF6FF,#DBEAFE);border:2px dashed #93C5FD;border-radius:16px;">' +
-          '<div style="font-size:3rem;margin-bottom:12px;">📝</div>' +
-          '<h3 style="color:#1E40AF;margin-bottom:8px;">Sorular Hazırlanıyor</h3>' +
-          '<p style="color:#64748B;max-width:400px;margin:0 auto;">Bu derse ait konular ve sorular çok yakında eklenecektir.</p>' +
+        '<div style="font-size:3rem;margin-bottom:12px;">📝</div>' +
+        '<h3 style="color:#1E40AF;margin-bottom:8px;">Sorular Hazırlanıyor</h3>' +
+        '<p style="color:#64748B;max-width:400px;margin:0 auto;">Bu derse ait konular ve sorular çok yakında eklenecektir.</p>' +
         '</div>';
 
     } else {
@@ -266,8 +271,8 @@
       const gradeSubjects = GRADE_SUBJECTS[sinif] || GRADE_SUBJECTS['4'];
       document.title = sinif + '. Sınıf Konular | TestÇöz';
       document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf Konu Listesi';
-      document.getElementById('pageHeroSub').textContent   = 'Bir ders seçerek konulara ulaşabilirsiniz.';
-      document.getElementById('konuBaslik').textContent    = 'Dersler';
+      document.getElementById('pageHeroSub').textContent = 'Bir ders seçerek konulara ulaşabilirsiniz.';
+      document.getElementById('konuBaslik').textContent = 'Dersler';
       const breadcrumbSinif = document.getElementById('breadcrumbSinif');
       if (breadcrumbSinif) {
         breadcrumbSinif.textContent = sinif + '. Sınıf';
@@ -275,7 +280,7 @@
       }
 
       topicList.innerHTML = gradeSubjects.map(function (d) {
-        const cKey  = SUBJECT_CURRICULUM_KEY[d];
+        const cKey = SUBJECT_CURRICULUM_KEY[d];
         const gData = curriculum.find(g => g.grade === gradeNum);
         const count = (gData && cKey && gData.subjects[cKey])
           ? gData.subjects[cKey].topics.length
@@ -283,16 +288,16 @@
         const label = SUBJECT_LABELS[d] || d;
         return '<a class="topic-card" href="konu.html?ders=' + d + '&sinif=' + sinif + '">' +
           '<div class="topic-card-left">' +
-            '<div class="topic-num" style="font-size:1.2rem;width:44px;height:44px;">' + (SUBJECT_ICONS[d] || '📚') + '</div>' +
-            '<div class="topic-info">' +
-              '<h4>' + label + '</h4>' +
-              '<p>' + (count > 0 ? count + ' konu içerir' : 'Yakında eklenecek') + '</p>' +
-            '</div>' +
+          '<div class="topic-num" style="font-size:1.2rem;width:44px;height:44px;">' + (SUBJECT_ICONS[d] || '📚') + '</div>' +
+          '<div class="topic-info">' +
+          '<h4>' + label + '</h4>' +
+          '<p>' + (count > 0 ? count + ' konu içerir' : 'Yakında eklenecek') + '</p>' +
+          '</div>' +
           '</div>' +
           '<div class="difficulty-badges">' +
-            '<span class="badge badge-kolay">Kolay</span>' +
-            '<span class="badge badge-orta">Orta</span>' +
-            '<span class="badge badge-zor">Zor</span>' +
+          '<span class="badge badge-kolay">Kolay</span>' +
+          '<span class="badge badge-orta">Orta</span>' +
+          '<span class="badge badge-zor">Zor</span>' +
           '</div>' +
           '</a>';
       }).join('');
