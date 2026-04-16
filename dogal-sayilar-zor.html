@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>4. Sınıf Doğal Sayılar (Zor) — TestÇöz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', Arial, sans-serif; background: #f3f4f6; color: #1f2937; min-height: 100vh; }
+
+header {
+  background: #fff; border-bottom: 1px solid #e5e7eb;
+  padding: 0 24px; height: 64px; display: flex; align-items: center;
+  gap: 14px; position: sticky; top: 0; z-index: 100;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+.logo-wrap { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+.logo-img { height: 38px; width: auto; object-fit: contain; }
+.logo-text { font-size: 1.3rem; font-weight: 700; color: #3b82f6; letter-spacing: -.4px; }
+.header-divider { width: 1px; height: 28px; background: #e5e7eb; flex-shrink: 0; }
+.test-title { font-size: .9rem; font-weight: 500; color: #6b7280; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.progress-wrap { height: 4px; background: #e5e7eb; width: 100%; position: sticky; top: 64px; z-index: 99; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #3b82f6, #6366f1); width: 0%; transition: width .4s cubic-bezier(.4,0,.2,1); }
+
+main { max-width: 1240px; margin: 0 auto; padding: 28px 20px 60px; }
+
+.stats-strip { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; align-items: center; }
+.stat-pill { display: inline-flex; align-items: center; gap: 5px; background: #fff; border: 1px solid #e5e7eb; border-radius: 9999px; padding: 5px 14px; font-size: .8rem; font-weight: 600; color: #374151; user-select: none; }
+.stat-pill .pill-val { font-weight: 700; font-size: .85rem; }
+.pill-correct { color: #16a34a; }
+.pill-wrong   { color: #dc2626; }
+.pill-empty   { color: #d97706; }
+
+.question-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+@media (max-width: 800px) { .question-grid { grid-template-columns: 1fr; } }
+
+.q-card {
+  background: #fff; border-radius: 14px; padding: 22px;
+  border: 1.5px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0,0,0,.05), 0 4px 14px rgba(0,0,0,.04);
+  display: flex; flex-direction: column; gap: 14px;
+  transition: border-color .2s, box-shadow .2s;
+}
+.q-card:hover { border-color: #bfdbfe; box-shadow: 0 4px 20px rgba(59,130,246,.1); }
+.q-card.answered-correct { border-color: #86efac; }
+.q-card.answered-wrong   { border-color: #fca5a5; }
+
+.q-top { display: flex; align-items: flex-start; gap: 10px; }
+.q-badge { flex-shrink: 0; background: #eff6ff; color: #3b82f6; font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 9999px; margin-top: 2px; white-space: nowrap; letter-spacing: .3px; }
+.q-text { font-size: .92rem; font-weight: 500; line-height: 1.65; color: #111827; flex: 1; }
+.q-status-icon { flex-shrink: 0; font-size: 1rem; margin-top: 2px; width: 18px; text-align: center; }
+
+.options-list { display: flex; flex-direction: column; gap: 7px; }
+.opt-btn {
+  width: 100%; background: #f9fafb; border: 1.5px solid #e5e7eb; border-radius: 9px;
+  padding: 9px 13px; text-align: left; cursor: pointer; font-family: inherit;
+  font-size: .855rem; font-weight: 400; color: #374151;
+  display: flex; align-items: flex-start; gap: 9px; line-height: 1.55;
+  transition: background .13s, border-color .13s, transform .1s;
+}
+.opt-btn:hover:not(:disabled) { background: #c7d2fe; border-color: #818cf8; transform: translateX(3px); }
+.opt-btn:active:not(:disabled) { transform: translateX(1px); }
+.opt-btn:disabled { cursor: default; transform: none; }
+.opt-label { flex-shrink: 0; background: #e0e7ff; color: #4338ca; font-weight: 700; font-size: .72rem; border-radius: 5px; padding: 1px 7px; min-width: 22px; text-align: center; margin-top: 2px; letter-spacing: .3px; }
+.opt-btn.correct { background: #f0fdf4; border-color: #4ade80; color: #14532d; }
+.opt-btn.correct .opt-label { background: #4ade80; color: #14532d; }
+.opt-btn.wrong   { background: #fff1f2; border-color: #f87171; color: #7f1d1d; }
+.opt-btn.wrong   .opt-label { background: #f87171; color: #fff; }
+
+.footer-section { margin-top: 36px; display: flex; justify-content: center; }
+.btn-finish {
+  background: #3b82f6; color: #fff; font-family: inherit; font-size: 1rem; font-weight: 600;
+  padding: 14px 44px; border: none; border-radius: 11px; cursor: pointer;
+  box-shadow: 0 4px 14px rgba(59,130,246,.35);
+  transition: background .2s, transform .1s, box-shadow .2s;
+}
+.btn-finish:hover { background: #2563eb; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(59,130,246,.4); }
+.btn-finish:active { transform: translateY(0); }
+
+#result-overlay {
+  display: none; position: fixed; inset: 0; background: rgba(17,24,39,.55);
+  backdrop-filter: blur(6px); z-index: 300; align-items: center; justify-content: center; padding: 20px;
+}
+#result-overlay.show { display: flex; }
+.result-modal {
+  background: #fff; border-radius: 18px; padding: 40px 36px;
+  width: 100%; max-width: 520px; text-align: center;
+  box-shadow: 0 24px 64px rgba(0,0,0,.22);
+  animation: popIn .32s cubic-bezier(.34,1.56,.64,1) both;
+}
+@keyframes popIn { from { opacity:0; transform:scale(.82); } to { opacity:1; transform:scale(1); } }
+.result-emoji { font-size: 3rem; line-height: 1; margin-bottom: 12px; }
+.result-modal h2 { font-size: 1.55rem; font-weight: 700; color: #111827; margin-bottom: 6px; }
+.result-subtitle { font-size: .9rem; color: #6b7280; margin-bottom: 28px; }
+.result-score-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 28px; }
+.score-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 8px; }
+.score-box .score-num { font-size: 2.1rem; font-weight: 700; line-height: 1; margin-bottom: 5px; }
+.score-box .score-label { font-size: .73rem; font-weight: 500; color: #9ca3af; text-transform: uppercase; letter-spacing: .5px; }
+.score-box.correct .score-num { color: #22c55e; }
+.score-box.wrong   .score-num { color: #ef4444; }
+.score-box.empty   .score-num { color: #f59e0b; }
+.result-score-bar { height: 8px; background: #e5e7eb; border-radius: 9999px; overflow: hidden; margin-bottom: 28px; }
+.result-score-bar-fill { height: 100%; background: linear-gradient(90deg,#22c55e,#3b82f6); border-radius: 9999px; transition: width .6s ease .1s; }
+.result-actions { display: flex; flex-direction: column; gap: 10px; }
+.btn-primary { background: #3b82f6; color: #fff; font-family: inherit; font-size: .95rem; font-weight: 600; padding: 13px 24px; border: none; border-radius: 10px; cursor: pointer; transition: background .2s, transform .1s; }
+.btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+.btn-secondary { background: transparent; color: #374151; font-family: inherit; font-size: .9rem; font-weight: 500; padding: 12px 24px; border: 1.5px solid #e5e7eb; border-radius: 10px; cursor: pointer; transition: background .2s; }
+.btn-secondary:hover { background: #f3f4f6; }
+
+.review-banner { grid-column: 1/-1; background: #fffbeb; border: 1.5px solid #fde68a; border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.review-banner-text { font-size: .875rem; font-weight: 600; color: #92400e; display: flex; align-items: center; gap: 8px; }
+.btn-exit-review { background: #fff; color: #b45309; font-family: inherit; font-size: .82rem; font-weight: 600; padding: 7px 16px; border: 1.5px solid #fcd34d; border-radius: 8px; cursor: pointer; white-space: nowrap; transition: background .15s; }
+.btn-exit-review:hover { background: #fef3c7; }
+.explanation-box { background: #eff6ff; border-left: 3px solid #3b82f6; border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: .82rem; color: #1e40af; line-height: 1.6; }
+.explanation-box strong { font-weight: 600; }
+.no-wrongs { grid-column: 1/-1; background: #f0fdf4; border: 1.5px solid #86efac; border-radius: 12px; padding: 32px; text-align: center; font-size: 1.05rem; font-weight: 600; color: #14532d; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 9999px; }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo-wrap" href="/">
+    <img class="logo-img" src="logo.png" alt="TestÇöz" onerror="this.style.display='none'" />
+    <span class="logo-text">TestÇöz</span>
+  </a>
+  <div class="header-divider"></div>
+  <span class="test-title">4. Sınıf — Doğal Sayılar (Zor)</span>
+</header>
+
+<div class="progress-wrap">
+  <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<main>
+  <div class="stats-strip">
+    <div class="stat-pill">Toplam <span class="pill-val">10</span> soru</div>
+    <div class="stat-pill pill-correct">✓ <span class="pill-val" id="statCorrect">0</span> doğru</div>
+    <div class="stat-pill pill-wrong">✗ <span class="pill-val" id="statWrong">0</span> yanlış</div>
+    <div class="stat-pill pill-empty">— <span class="pill-val" id="statEmpty">10</span> boş</div>
+  </div>
+
+  <div class="question-grid" id="questionGrid"></div>
+
+  <div class="footer-section">
+    <button class="btn-finish" onclick="finishTest()">Testi Bitir</button>
+  </div>
+</main>
+
+<div id="result-overlay">
+  <div class="result-modal">
+    <div class="result-emoji" id="resultEmoji">🎉</div>
+    <h2>Test Tamamlandı!</h2>
+    <p class="result-subtitle" id="resultSubtitle"></p>
+    <div class="result-score-row">
+      <div class="score-box correct"><div class="score-num" id="resCorrect">0</div><div class="score-label">Doğru</div></div>
+      <div class="score-box wrong">  <div class="score-num" id="resWrong">0</div>  <div class="score-label">Yanlış</div></div>
+      <div class="score-box empty">  <div class="score-num" id="resEmpty">0</div>  <div class="score-label">Boş</div></div>
+    </div>
+    <div class="result-score-bar"><div class="result-score-bar-fill" id="resultBarFill" style="width:0%"></div></div>
+    <div class="result-actions">
+      <button class="btn-primary" onclick="showReview()">🔍 Yanlışlarını Öğren</button>
+      <button class="btn-secondary" onclick="window.location.href='/'">← Ana Sayfaya Dön</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const QUESTIONS = [
+  {
+    number: 1,
+    question: "Sayı yuvarlama kurallarına göre aşağıdaki ifadeleri inceleyiniz:\n\nI. 74.582 sayısı en yakın yüzlüğe yuvarlandığında 74.600 olur.\nII. 36.995 sayısı en yakın onluğa yuvarlandığında 37.000 olur.\nIII. 85.450 sayısı en yakın yüzlüğe yuvarlandığında 85.400 olur.\n\nBu ifadelerden hangileri doğrudur?",
+    options: [
+      { label: "A", text: "I ve III" },
+      { label: "B", text: "Yalnız III" },
+      { label: "C", text: "II ve III" },
+      { label: "D", text: "I ve II" }
+    ],
+    answer: "D",
+    explanation: "I. doğru: 74.582 → yüzlüğe: 82 > 50, yukarı yuvarla → 74.600 ✓  |  II. doğru: 36.995 → onluğa: birler=5, yukarı yuvarla → 37.000 ✓  |  III. yanlış: 85.450 → yüzlüğe: onlar=5, yukarı yuvarla → 85.500 (400 değil) ✗"
+  },
+  {
+    number: 2,
+    question: "Bir bilgisayar oyununda birinci oyuncu 45.680, ikinci oyuncu 45.805 puan almıştır. Üçüncü oyuncunun puanı birinci oyuncudan fazla, ikinci oyuncudan azdır ve yüzler basamağında 7 rakamı bulunmaktadır.\n\nBuna göre üçüncü oyuncunun puanı aşağıdakilerden hangisi olabilir?",
+    options: [
+      { label: "A", text: "45.675" },
+      { label: "B", text: "45.725" },
+      { label: "C", text: "45.870" },
+      { label: "D", text: "46.710" }
+    ],
+    answer: "B",
+    explanation: "45.680 < x < 45.805 ve yüzler basamağı = 7 olmalı. 45.725: yüzler=7 ✓, 45.680 < 45.725 < 45.805 ✓. Diğer seçenekler ya aralık dışında ya da yüzler basamağı 7 değil."
+  },
+  {
+    number: 3,
+    question: "Dört ilçenin nüfusları şu şekildedir: Çamlıca: 125.480 — Kavaklı: 125.540 — Söğütlü: 125.449 — Meşeli: 125.610\n\nBu tabloya göre aşağıdaki ifadelerden hangisi doğrudur?",
+    options: [
+      { label: "A", text: "Nüfusu en az olan ilçe Kavaklı, en fazla olan ilçe ise Meşeli olarak kayıt altına alınmıştır." },
+      { label: "B", text: "Çamlıca ve Kavaklı ilçelerinin nüfusları en yakın yüzlüğe yuvarlandığında aynı sayı elde edilir." },
+      { label: "C", text: "Söğütlü ilçesinin nüfusu en yakın yüzlüğe yuvarlandığında yüz yirmi beş bin beş yüz elde edilir." },
+      { label: "D", text: "İlçelerin nüfusları büyükten küçüğe doğru sıralandığında Çamlıca ilçesi ikinci sırada yer alır." }
+    ],
+    answer: "B",
+    explanation: "Çamlıca 125.480 → yüzlüğe: 80>50 → 125.500. Kavaklı 125.540 → yüzlüğe: 40<50 → 125.500. İkisi de 125.500 olur. ✓  |  En az olan Söğütlü (125.449), Çamlıca değil. Büyükten küçüğe: 125.610, 125.540, 125.480, 125.449 → Çamlıca 3. sırada."
+  },
+  {
+    number: 4,
+    question: "Bir çevre koruma projesinde toplanan atık pil sayısı 345.678 adettir. Bu sayı için aşağıdaki ifadeler verilmiştir:\n\nI. Binler bölüğündeki rakamların toplamı 12'dir.\nII. On binler basamağındaki rakamın basamak değeri 40.000'dir.\nIII. Onlar basamağındaki rakamın basamak değeri 7'dir.\n\nBu ifadelerden hangileri doğrudur?",
+    options: [
+      { label: "A", text: "Yalnız I" },
+      { label: "B", text: "I ve II" },
+      { label: "C", text: "I ve III" },
+      { label: "D", text: "II ve III" }
+    ],
+    answer: "B",
+    explanation: "345.678 için: I. Binler bölüğü = 345 → 3+4+5 = 12 ✓  |  II. On binler = 4, basamak değeri = 40.000 ✓  |  III. Onlar basamağı = 7, basamak değeri = 70 (7 değil) ✗"
+  },
+  {
+    number: 5,
+    question: "Bir banka kasasının şifresi 805.042'dir. Şifrenin basamak değerleriyle ilgili şu ifadeler verilmiştir:\n\nI. 8 yüz binlik + 5 binlik + 4 onluk + 2 birlik\nII. Yüz binler basamağının değeri 800.000'dir.\nIII. Binler bölüğündeki sayı 85'tir.\n\nBu ifadelerden hangileri doğrudur?",
+    options: [
+      { label: "A", text: "Yalnız II" },
+      { label: "B", text: "I ve II" },
+      { label: "C", text: "I ve III" },
+      { label: "D", text: "II ve III" }
+    ],
+    answer: "B",
+    explanation: "805.042: I. 800.000 + 5.000 + 40 + 2 = 805.042 ✓  |  II. Yüz binler basamağı = 8, değeri = 800.000 ✓  |  III. Binler bölüğü = 805 (85 değil) ✗"
+  },
+  {
+    number: 6,
+    question: "Bir araba fabrikasının aylık üretimi: Ocak: 102.450 — Şubat: 120.054 — Mart: 102.540 — Nisan: 120.504\n\nBu tabloya göre aşağıdakilerden hangisi doğrudur?",
+    options: [
+      { label: "A", text: "Mart ayındaki sayının on binler basamağındaki rakam 0'dır." },
+      { label: "B", text: "Nisan ayındaki sayının birler bölüğündeki sayı 54'tür." },
+      { label: "C", text: "Ocak ayındaki sayının binler bölüğünde 12 vardır." },
+      { label: "D", text: "Şubat ayındaki sayının yüzler basamağındaki rakamın değeri 500'dür." }
+    ],
+    answer: "A",
+    explanation: "Mart 102.540: yüz binler=1, on binler=0 → rakam 0 ✓  |  Nisan 120.504: birler bölüğü = 504 (54 değil) ✗  |  Ocak 102.450: binler bölüğü = 102 (12 değil) ✗  |  Şubat 120.054: yüzler basamağı = 0, değeri = 0 (500 değil) ✗"
+  },
+  {
+    number: 7,
+    question: "Bir roketin Dünya'dan uzaklığı 408.092 kilometredir. Bu uzaklık için aşağıdaki ifadeler verilmiştir:\n\nI. Binler bölüğündeki sayı 408'dir.\nII. Yüzler basamağındaki rakam 9'dur.\nIII. Sayının okunuşu 'dört yüz sekiz bin doksan iki' şeklindedir.\n\nBu uzaklık değeri için hangileri doğrudur?",
+    options: [
+      { label: "A", text: "I ve III" },
+      { label: "B", text: "Yalnız I" },
+      { label: "C", text: "II ve III" },
+      { label: "D", text: "I ve II" }
+    ],
+    answer: "A",
+    explanation: "408.092: I. Binler bölüğü = 408 ✓  |  II. Yüzler basamağı = 0 (9 değil) ✗  |  III. Okunuşu: dört yüz sekiz bin doksan iki ✓"
+  },
+  {
+    number: 8,
+    question: "Dört ilçenin nüfusları: Kemer: 145.087 — Çınar: 140.578 — Ova: 104.785 — Tepe: 154.078\n\nBu tabloya göre nüfuslarla ilgili aşağıdakilerden hangisi YANLIŞTIR?",
+    options: [
+      { label: "A", text: "Kemer ilçesinin binler bölüğündeki sayı 145'tir." },
+      { label: "B", text: "Çınar ilçesinin yüzler basamağındaki rakam 5'tir." },
+      { label: "C", text: "Ova ilçesinin on binler basamağındaki rakamın basamak değeri 40.000'dir." },
+      { label: "D", text: "Tepe ilçesinin birler bölüğündeki sayı 78'dir." }
+    ],
+    answer: "C",
+    explanation: "Ova: 104.785 — on binler basamağındaki rakam = 0, basamak değeri = 0 (40.000 değil). Bu yüzden C yanlıştır. ✗  |  Diğerleri: A ✓ Kemer binler=145, B ✓ Çınar yüzler=5, D ✓ Tepe birler bölüğü=78"
+  },
+  {
+    number: 9,
+    question: "Bir çiftçi deposundaki buğday miktarını 5 yüz binlik, 7 binlik, 4 onluk ve 8 birlik olarak kaydetmiştir. Bu hesaplama ile ilgili ifadeler:\n\nI. Çiftçinin kaydettiği sayı 507.048'dir.\nII. Bu sayının binler bölüğünde 507 rakamları bulunur.\nIII. On binler basamağındaki rakamın değeri 70.000'dir.\n\nBu ifadelerden hangileri doğrudur?",
+    options: [
+      { label: "A", text: "I ve III" },
+      { label: "B", text: "Yalnız I" },
+      { label: "C", text: "I ve II" },
+      { label: "D", text: "II ve III" }
+    ],
+    answer: "C",
+    explanation: "500.000 + 7.000 + 40 + 8 = 507.048: I ✓  |  Binler bölüğü = 507: II ✓  |  On binler basamağı = 0, değeri = 0 (70.000 değil): III ✗"
+  },
+  {
+    number: 10,
+    question: "Bir müzeyi yıl boyunca ziyaret eden kişi sayısı 'iki yüz üç bin on beş' olarak açıklanmıştır. Buna göre, ziyaretçi sayısını gösteren sayının binler bölüğündeki sayı ile birler bölüğündeki sayının toplamı kaçtır?",
+    options: [
+      { label: "A", text: "218" },
+      { label: "B", text: "233" },
+      { label: "C", text: "353" },
+      { label: "D", text: "408" }
+    ],
+    answer: "A",
+    explanation: "İki yüz üç bin on beş = 203.015. Binler bölüğü = 203, birler bölüğü = 015 = 15. Toplam = 203 + 15 = 218."
+  }
+];
+
+const userAnswers = new Array(QUESTIONS.length).fill(null);
+let testFinished = false;
+
+renderQuestions(QUESTIONS, false);
+refreshStats();
+
+function renderQuestions(qs, reviewMode) {
+  const grid = document.getElementById('questionGrid');
+  grid.innerHTML = '';
+
+  if (reviewMode) {
+    if (qs.length === 0) {
+      const msg = document.createElement('div');
+      msg.className = 'no-wrongs';
+      msg.textContent = '🎉 Hiç yanlış cevabın yok. Tebrikler!';
+      const banner = buildReviewBanner(0);
+      grid.appendChild(banner);
+      grid.appendChild(msg);
+      return;
+    }
+    grid.appendChild(buildReviewBanner(qs.length));
+  }
+
+  qs.forEach(q => {
+    const globalIdx = QUESTIONS.indexOf(q);
+    grid.appendChild(buildCard(q, globalIdx, reviewMode));
+  });
+}
+
+function buildReviewBanner(count) {
+  const div = document.createElement('div');
+  div.className = 'review-banner';
+  div.innerHTML = '<span class="review-banner-text">🔍 ' +
+    (count > 0 ? count + ' yanlış cevap gösteriliyor' : 'Yanlış cevap yok') +
+    '</span><button class="btn-exit-review" onclick="exitReview()">← Teste Dön</button>';
+  return div;
+}
+
+function buildCard(q, globalIdx, reviewMode) {
+  const ua = userAnswers[globalIdx];
+  const card = document.createElement('div');
+  card.className = 'q-card';
+  card.id = 'card-' + globalIdx;
+  if (!reviewMode) {
+    if (ua === q.answer) card.classList.add('answered-correct');
+    else if (ua !== null) card.classList.add('answered-wrong');
+  }
+
+  const top = document.createElement('div');
+  top.className = 'q-top';
+
+  const badge = document.createElement('span');
+  badge.className = 'q-badge';
+  badge.textContent = 'Soru ' + q.number;
+
+  const qText = document.createElement('p');
+  qText.className = 'q-text';
+  qText.style.whiteSpace = 'pre-line';
+  qText.textContent = q.question;
+
+  const icon = document.createElement('span');
+  icon.className = 'q-status-icon';
+  icon.id = 'icon-' + globalIdx;
+  icon.textContent = statusIcon(globalIdx, q);
+
+  top.appendChild(badge);
+  top.appendChild(qText);
+  top.appendChild(icon);
+  card.appendChild(top);
+
+  const optList = document.createElement('div');
+  optList.className = 'options-list';
+  optList.id = 'opts-' + globalIdx;
+
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-btn';
+    btn.dataset.label = opt.label;
+    btn.innerHTML = '<span class="opt-label">' + opt.label + '</span>' + esc(opt.text);
+
+    if (reviewMode) {
+      if (opt.label === q.answer) btn.classList.add('correct');
+      else if (opt.label === ua)  btn.classList.add('wrong');
+      btn.disabled = true;
+    } else if (testFinished || ua !== null) {
+      applyState(btn, opt.label, q.answer, ua);
+      btn.disabled = true;
+    } else {
+      btn.addEventListener('click', function() { handleAnswer(globalIdx, opt.label); });
+    }
+    optList.appendChild(btn);
+  });
+  card.appendChild(optList);
+
+  if (reviewMode) {
+    const expl = document.createElement('div');
+    expl.className = 'explanation-box';
+    expl.innerHTML = '<strong>Doğru Cevap: ' + q.answer + '</strong> — ' + esc(q.explanation);
+    card.appendChild(expl);
+  }
+
+  return card;
+}
+
+function handleAnswer(idx, chosen) {
+  if (userAnswers[idx] !== null || testFinished) return;
+  userAnswers[idx] = chosen;
+  const q = QUESTIONS[idx];
+  const optList = document.getElementById('opts-' + idx);
+  if (optList) optList.querySelectorAll('.opt-btn').forEach(btn => {
+    applyState(btn, btn.dataset.label, q.answer, chosen);
+    btn.disabled = true;
+  });
+  const card = document.getElementById('card-' + idx);
+  if (card) {
+    card.classList.remove('answered-correct', 'answered-wrong');
+    card.classList.add(chosen === q.answer ? 'answered-correct' : 'answered-wrong');
+  }
+  const icon = document.getElementById('icon-' + idx);
+  if (icon) icon.textContent = statusIcon(idx, q);
+  refreshStats();
+  refreshProgress();
+}
+
+function applyState(btn, label, correct, chosen) {
+  btn.classList.remove('correct', 'wrong');
+  if (label === correct)     btn.classList.add('correct');
+  else if (label === chosen) btn.classList.add('wrong');
+}
+
+function refreshStats() {
+  const correct = QUESTIONS.filter((q, i) => userAnswers[i] === q.answer).length;
+  const wrong   = QUESTIONS.filter((q, i) => userAnswers[i] !== null && userAnswers[i] !== q.answer).length;
+  const empty   = QUESTIONS.length - correct - wrong;
+  document.getElementById('statCorrect').textContent = correct;
+  document.getElementById('statWrong').textContent   = wrong;
+  document.getElementById('statEmpty').textContent   = empty;
+}
+
+function refreshProgress() {
+  const done = userAnswers.filter(a => a !== null).length;
+  document.getElementById('progressFill').style.width = Math.round(done / QUESTIONS.length * 100) + '%';
+}
+
+function finishTest() {
+  testFinished = true;
+  document.querySelectorAll('.opt-btn:not(:disabled)').forEach(btn => { btn.disabled = true; });
+  const correct = QUESTIONS.filter((q, i) => userAnswers[i] === q.answer).length;
+  const wrong   = QUESTIONS.filter((q, i) => userAnswers[i] !== null && userAnswers[i] !== q.answer).length;
+  const empty   = QUESTIONS.length - correct - wrong;
+  const pct     = Math.round(correct / QUESTIONS.length * 100);
+  document.getElementById('resCorrect').textContent  = correct;
+  document.getElementById('resWrong').textContent    = wrong;
+  document.getElementById('resEmpty').textContent    = empty;
+  document.getElementById('resultSubtitle').textContent = QUESTIONS.length + ' sorudan ' + correct + ' doğru — Başarı: %' + pct;
+  document.getElementById('resultEmoji').textContent = pct >= 85 ? '🏆' : pct >= 60 ? '👍' : '📚';
+  setTimeout(() => { document.getElementById('resultBarFill').style.width = pct + '%'; }, 80);
+  document.getElementById('result-overlay').classList.add('show');
+  document.getElementById('progressFill').style.width = '100%';
+}
+
+function showReview() {
+  document.getElementById('result-overlay').classList.remove('show');
+  const wrongQs = QUESTIONS.filter((q, i) => userAnswers[i] !== null && userAnswers[i] !== q.answer);
+  renderQuestions(wrongQs, true);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function exitReview() {
+  renderQuestions(QUESTIONS, false);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function statusIcon(idx, q) {
+  const ua = userAnswers[idx];
+  if (ua === null) return '';
+  return ua === q.answer ? '✓' : '✗';
+}
+
+function esc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>
