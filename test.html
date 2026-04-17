@@ -46,46 +46,65 @@
       text-align: center;
       margin-bottom: 24px;
     }
-
-    .coming-soon-icon {
-      font-size: 5rem;
-      display: block;
-      margin-bottom: 20px;
-      line-height: 1;
-    }
-
-    .coming-soon-box h2 {
-      color: var(--primary-dark);
-      margin-bottom: 12px;
-    }
-
-    .coming-soon-box p {
-      color: var(--text-muted);
-      max-width: 460px;
-      margin: 0 auto 24px;
-      line-height: 1.7;
-    }
-
-    .sample-ui {
+    .coming-soon-icon { font-size: 5rem; display: block; margin-bottom: 20px; line-height: 1; }
+    .coming-soon-box h2 { color: var(--primary-dark); margin-bottom: 12px; }
+    .coming-soon-box p { color: var(--text-muted); max-width: 460px; margin: 0 auto 24px; line-height: 1.7; }
+    .question-card {
       background: white;
       border-radius: var(--radius-lg);
       padding: 32px;
       border: 1px solid var(--gray-200);
       box-shadow: var(--shadow-sm);
       margin-bottom: 24px;
-      opacity: 0.5;
-      pointer-events: none;
-      user-select: none;
     }
-
-    .sample-question-text {
-      font-size: 1.2rem;
+    .question-text {
+      font-size: 1.1rem;
       font-weight: 600;
       color: var(--text);
       margin-bottom: 24px;
       padding-bottom: 20px;
       border-bottom: 1px solid var(--gray-200);
+      line-height: 1.7;
+      white-space: pre-line;
     }
+    .option-btn.correct {
+      background: #ECFDF5 !important;
+      border-color: #10B981 !important;
+      color: #065F46 !important;
+    }
+    .option-btn.wrong {
+      background: #FEF2F2 !important;
+      border-color: #EF4444 !important;
+      color: #991B1B !important;
+    }
+    .explanation-box {
+      background: #F0FDF4;
+      border: 1px solid #BBF7D0;
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: #166534;
+      line-height: 1.6;
+    }
+    .result-card {
+      background: white;
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      border: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .result-score { font-size: 3rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 8px; }
+    .result-label { font-size: 1rem; color: var(--text-muted); margin-bottom: 28px; }
+    .result-stats { display: flex; justify-content: center; gap: 24px; margin-bottom: 32px; flex-wrap: wrap; }
+    .result-stat { text-align: center; }
+    .result-stat-val { font-size: 1.5rem; font-weight: 700; }
+    .result-stat-lbl { font-size: 0.8rem; color: var(--text-muted); }
+    .val-correct { color: #10B981; }
+    .val-wrong { color: #EF4444; }
+    .val-empty { color: #6B7280; }
   </style>
 </head>
 
@@ -154,48 +173,16 @@
             <span class="test-score">0 Doğru</span>
           </div>
 
-          <!-- Coming Soon State -->
-          <div class="coming-soon-box" role="status" aria-live="polite">
+          <!-- Question Area (JS renders here) -->
+          <div id="questionArea"></div>
+          <!-- Result Area -->
+          <div id="resultArea" style="display:none"></div>
+          <!-- Coming Soon (shown when no questions found) -->
+          <div class="coming-soon-box" id="comingSoonBox" style="display:none" role="status">
             <span class="coming-soon-icon" aria-hidden="true">📝</span>
             <h2>Sorular Hazırlanıyor</h2>
-            <p>
-              Bu konuya ait sorular çok yakında eklenecektir. Platformumuz aktif olarak
-              geliştirilmekte olup tüm sınıf ve ders sorularının yüklenmesi tamamlanmaktadır.
-            </p>
+            <p>Bu konuya ait sorular çok yakında eklenecektir.</p>
             <a href="javascript:history.back()" class="btn btn-primary">← Konulara Dön</a>
-          </div>
-
-          <!-- Sample UI Preview (dimmed, non-interactive) -->
-          <div class="sample-ui" aria-hidden="true">
-            <p
-              style="font-size:0.8rem; color:var(--text-muted); margin-bottom:20px; text-transform:uppercase; letter-spacing:0.05em; font-weight:600;">
-              Örnek Soru Arayüzü</p>
-            <p class="sample-question-text">
-              Soru metni burada görüntülenecektir.
-            </p>
-            <div class="options-grid">
-              <button class="option-btn" disabled>
-                <span class="option-letter">A</span>
-                <span>Seçenek A</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">B</span>
-                <span>Seçenek B</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">C</span>
-                <span>Seçenek C</span>
-              </button>
-              <button class="option-btn" disabled>
-                <span class="option-letter">D</span>
-                <span>Seçenek D</span>
-              </button>
-            </div>
-            <div class="test-nav">
-              <button class="btn btn-outline btn-sm" disabled>← Önceki</button>
-              <span style="font-size:0.85rem; color:var(--text-muted);">1 / 10</span>
-              <button class="btn btn-primary btn-sm" disabled>Sonraki →</button>
-            </div>
           </div>
 
           <!-- AD ZONE: In-test, below content -->
@@ -265,7 +252,135 @@
     </div>
   </footer>
 
+  <script src="js/sorular.js"></script>
   <script src="js/main.js"></script>
+  <script>
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var sinif  = params.get('sinif')  || '4';
+    var ders   = params.get('ders')   || 'matematik';
+    var konu   = params.get('konu')   || '';
+    var zorluk = params.get('zorluk') || 'zor';
+    var key    = sinif + '-' + ders + '-' + konu + '-' + zorluk;
+    var LETTERS = ['A', 'B', 'C', 'D'];
+    var DERS_LABELS = {
+      matematik: 'Matematik', turkce: 'Türkçe', fen: 'Fen Bilimleri',
+      sosyal: 'Sosyal Bilgiler', hayat: 'Hayat Bilgisi',
+      din: 'Din Kültürü', ingilizce: 'İngilizce'
+    };
+    var dersLabel = DERS_LABELS[ders] || ders;
+    var konuLabel = konu.replace(/-/g, ' ').replace(/\b\w/g, function(c){ return c.toUpperCase(); });
+    document.title = sinif + '. Sınıf ' + dersLabel + ' – ' + konuLabel + ' | TestÇöz';
+    document.getElementById('testTitle').textContent = sinif + '. Sınıf ' + dersLabel + ' – ' + konuLabel;
+
+    var sorular = (typeof SORULAR !== 'undefined') ? SORULAR[key] : null;
+    if (!sorular || sorular.length === 0) {
+      document.getElementById('testSubtitle').textContent = 'Bu konu için sorular hazırlanıyor.';
+      document.getElementById('comingSoonBox').style.display = '';
+      return;
+    }
+    document.getElementById('testSubtitle').textContent = sorular.length + ' soru · ' + zorluk.charAt(0).toUpperCase() + zorluk.slice(1) + ' Seviye';
+
+    var current = 0;
+    var answers = new Array(sorular.length).fill(null);
+
+    function updateProgress() {
+      var correct = answers.filter(function(a,i){ return a !== null && a === sorular[i].dogru; }).length;
+      var pct = Math.round(((current + 1) / sorular.length) * 100);
+      document.getElementById('testBarFill').style.width = pct + '%';
+      var counter = document.querySelector('.test-counter');
+      var score   = document.querySelector('.test-score');
+      if (counter) counter.textContent = 'Soru ' + (current+1) + ' / ' + sorular.length;
+      if (score)   score.textContent   = correct + ' Doğru';
+    }
+
+    function renderQuestion(idx) {
+      current = idx;
+      updateProgress();
+      var q = sorular[idx];
+      var selectedAns = answers[idx];
+      var answered = selectedAns !== null;
+
+      var optionsHtml = q.secenekler.map(function(s, i) {
+        var cls = 'option-btn';
+        if (answered) {
+          if (i === q.dogru) cls += ' correct';
+          else if (i === selectedAns) cls += ' wrong';
+        }
+        return '<button class="' + cls + '" data-idx="' + i + '" ' + (answered ? 'disabled' : '') + '>' +
+          '<span class="option-letter">' + LETTERS[i] + '</span><span>' + s + '</span></button>';
+      }).join('');
+
+      var explHtml = '';
+      if (answered && q.aciklama) {
+        explHtml = '<div class="explanation-box"><strong>Açıklama:</strong> ' + q.aciklama + '</div>';
+      }
+      var nextLabel = idx === sorular.length - 1 ? 'Sonucu Gör' : 'Sonraki →';
+
+      document.getElementById('questionArea').innerHTML =
+        '<div class="question-card">' +
+          '<p class="question-text">' + q.soru + '</p>' +
+          '<div class="options-grid">' + optionsHtml + '</div>' +
+          explHtml +
+          '<div class="test-nav" style="margin-top:24px">' +
+            '<button class="btn btn-outline btn-sm" id="btnPrev" ' + (idx === 0 ? 'disabled' : '') + '>← Önceki</button>' +
+            '<span style="font-size:0.85rem;color:var(--text-muted);">' + (idx+1) + ' / ' + sorular.length + '</span>' +
+            '<button class="btn btn-primary btn-sm" id="btnNext" ' + (answered ? '' : 'disabled') + '>' + nextLabel + '</button>' +
+          '</div>' +
+        '</div>';
+
+      document.querySelectorAll('.option-btn:not([disabled])').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          answers[idx] = parseInt(btn.dataset.idx);
+          renderQuestion(idx);
+        });
+      });
+      var btnPrev = document.getElementById('btnPrev');
+      if (btnPrev) btnPrev.addEventListener('click', function(){ if(idx>0) renderQuestion(idx-1); });
+      var btnNext = document.getElementById('btnNext');
+      if (btnNext) btnNext.addEventListener('click', function(){
+        if (idx < sorular.length - 1) renderQuestion(idx + 1);
+        else showResult();
+      });
+    }
+
+    function showResult() {
+      var correct = answers.filter(function(a,i){ return a === sorular[i].dogru; }).length;
+      var wrong   = answers.filter(function(a,i){ return a !== null && a !== sorular[i].dogru; }).length;
+      var empty   = sorular.length - correct - wrong;
+      var pct     = Math.round(correct / sorular.length * 100);
+      var emoji = pct >= 80 ? '🏆' : pct >= 60 ? '👍' : pct >= 40 ? '💪' : '📚';
+      var msg = pct >= 80 ? 'Harika! Çok iyi bir sonuç.' : pct >= 60 ? 'İyi iş! Biraz daha pratik yapabilirsin.' : pct >= 40 ? 'Devam et! Pratik seni daha iyi yapacak.' : 'Çalışmaya devam! Her denemede gelişiyorsun.';
+
+      document.getElementById('questionArea').style.display = 'none';
+      document.getElementById('testBarFill').style.width = '100%';
+      var counter = document.querySelector('.test-counter');
+      if (counter) counter.textContent = 'Test Tamamlandı';
+      var score = document.querySelector('.test-score');
+      if (score) score.textContent = correct + ' / ' + sorular.length + ' Doğru';
+
+      var ra = document.getElementById('resultArea');
+      ra.style.display = '';
+      ra.innerHTML =
+        '<div class="result-card">' +
+          '<div style="font-size:3rem;margin-bottom:8px">' + emoji + '</div>' +
+          '<div class="result-score">%' + pct + '</div>' +
+          '<div class="result-label">' + msg + '</div>' +
+          '<div class="result-stats">' +
+            '<div class="result-stat"><div class="result-stat-val val-correct">' + correct + '</div><div class="result-stat-lbl">Doğru</div></div>' +
+            '<div class="result-stat"><div class="result-stat-val val-wrong">' + wrong + '</div><div class="result-stat-lbl">Yanlış</div></div>' +
+            '<div class="result-stat"><div class="result-stat-val val-empty">' + empty + '</div><div class="result-stat-lbl">Boş</div></div>' +
+          '</div>' +
+          '<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">' +
+            '<button class="btn btn-primary" onclick="location.reload()">Tekrar Çöz</button>' +
+            '<a href="javascript:history.back()" class="btn btn-outline">← Konulara Dön</a>' +
+          '</div>' +
+        '</div>';
+    }
+
+    renderQuestion(0);
+  })();
+  </script>
 </body>
 
 </html>

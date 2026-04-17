@@ -231,12 +231,21 @@
       document.getElementById('konuBaslik').textContent = label + ' Konuları';
       setBreadcrumb(label);
 
+            function slugifyTopic(str) {
+        return str.toLowerCase()
+          .replace(/\s+/g, '-')
+          .replace(/[çÇ]/g, 'c')
+          .replace(/[şŞ]/g, 's')
+          .replace(/[ıİ]/g, 'i')
+          .replace(/[ğĞ]/g, 'g')
+          .replace(/[öÖ]/g, 'o')
+          .replace(/[üÜ]/g, 'u')
+          .replace(/[^a-z0-9\-]/g, '');
+      }
+
       topicList.innerHTML = topics.map(function (ad, idx) {
-        return '<a class="topic-card" href="' +
-          (ad.toLowerCase().includes("veri")
-            ? "matematik-test.html"
-            : "#") +
-          '">' +
+        var slug = slugifyTopic(ad);
+        return '<a class="topic-card" href="test.html?sinif=' + sinif + '&ders=' + ders + '&konu=' + slug + '&zorluk=zor">' +
           '<div class="topic-card-left">' +
           '<div class="topic-num">' + (idx + 1) + '</div>' +
           '<div class="topic-info">' +

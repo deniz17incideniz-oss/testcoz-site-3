@@ -343,6 +343,74 @@ const SORULAR = {
      4. SINIF — MATEMATİK
   ======================================================== */
 
+
+  /* ========================================================
+     4. SINIF - MATEMATIK - DOGAL SAYILAR (ZOR)
+  ======================================================== */
+
+  "4-matematik-dogal-sayilar-zor": [
+    {
+      soru: "Sayi yuvarlama kurallarina gore asagidaki ifaleri inceleyiniz:\n\nI. 74.582 sayisi en yakin yuzluge yuvarlandiginda 74.600 olur.\nII. 36.995 sayisi en yakin onluga yuvarlandiginda 37.000 olur.\nIII. 85.450 sayisi en yakin yuzluge yuvarlandiginda 85.400 olur.\n\nBu ifadelerden hangileri dogrudir?",
+      secenekler: ["I ve III", "Yalniz III", "II ve III", "I ve II"],
+      dogru: 3,
+      aciklama: "I. dogru: 74.582 yuzluge 74.600. II. dogru: 36.995 onluga 37.000. III. yanlis: 85.450 yuzluge 85.500 olur (400 degil)."
+    },
+    {
+      soru: "Bir bilgisayar oyununda birinci oyuncu 45.680, ikinci oyuncu 45.805 puan almistir. Ucuncu oyuncunun puani birinci oyuncudan fazla, ikinci oyuncudan azdir ve yuzler basamaginda 7 rakami bulunmaktadir.\n\nBuna gore ucuncu oyuncunun puani asagidakilerden hangisi olabilir?",
+      secenekler: ["45.675", "45.725", "45.870", "46.710"],
+      dogru: 1,
+      aciklama: "45.680 < x < 45.805 ve yuzler basamagi = 7 olmali. 45.725: yuzler=7, aralikta. Diger secenekler aralik disinda veya yuzler 7 degil."
+    },
+    {
+      soru: "Dort ilcenin nufuslari sunlardur:\nCamlica: 125.480 - Kavakli: 125.540 - Sogutlu: 125.449 - Meseli: 125.610\n\nBu tabloya gore asagidaki ifadelerden hangisi dogrudir?",
+      secenekler: ["Nufusu en az olan ilce Kavakli, en fazla olan ilce ise Meseli olarak kayit altina alinmistir.", "Camlica ve Kavakli ilcelerinin nufuslari en yakin yuzluge yuvarlandiginda ayni sayi elde edilir.", "Sogutlu ilcesinin nufusu en yakin yuzluge yuvarlandiginda yuz yirmi bes bin bes yuz elde edilir.", "Ilcelerin nufuslari buyukten kucuge dogru siralandiginda Camlica ilcesi ikinci sirada yer alir."],
+      dogru: 1,
+      aciklama: "Camlica 125.480 yuzluge 125.500. Kavakli 125.540 yuzluge 125.500. Ikisi de 125.500 olur."
+    },
+    {
+      soru: "Bir cevre koruma projesinde toplanan atik pil sayisi 345.678 adettir. Bu sayi icin asagidaki ifadeler verilmistir:\n\nI. Binler bolugundeki rakamlarin toplami 12'dir.\nII. On binler basamagindaki rakamin basamak degeri 40.000'dir.\nIII. Onlar basamagindaki rakamin basamak degeri 7'dir.\n\nBu ifadelerden hangileri dogrudir?",
+      secenekler: ["Yalniz I", "I ve II", "I ve III", "II ve III"],
+      dogru: 1,
+      aciklama: "345.678: I. Binler bolugu = 345, 3+4+5=12. II. On binler = 4, deger = 40.000. III. Onlar = 7, deger = 70 (7 degil). I ve II dogru."
+    },
+    {
+      soru: "Bir banka kasasinin sifresi 805.042'dir. Sifrenin basamak degerleriyle ilgili su ifadeler verilmistir:\n\nI. 8 yuz binlik + 5 binlik + 4 onluk + 2 birlik\nII. Yuz binler basamaginin degeri 800.000'dir.\nIII. Binler bolugundeki sayi 85'tir.\n\nBu ifadelerden hangileri dogrudir?",
+      secenekler: ["Yalniz II", "I ve II", "I ve III", "II ve III"],
+      dogru: 1,
+      aciklama: "805.042: I. 800.000+5.000+40+2=805.042. II. Yuz binler=8, degeri=800.000. III. Binler bolugu=805 (85 degil). I ve II dogru."
+    },
+    {
+      soru: "Bir araba fabrikasinin aylik uretimi:\nOcak: 102.450 - Subat: 120.054 - Mart: 102.540 - Nisan: 120.504\n\nBu tabloya gore asagidakilerden hangisi dogrudir?",
+      secenekler: ["Mart ayindaki sayinin on binler basamagindaki rakam 0'dir.", "Nisan ayindaki sayinin birler bolugundeki sayi 54'tur.", "Ocak ayindaki sayinin binler bolugunde 12 vardir.", "Subat ayindaki sayinin yuzler basamagindaki rakamin degeri 500'dur."],
+      dogru: 0,
+      aciklama: "Mart 102.540: on binler basamagi = 0. Dogru cevap A."
+    },
+    {
+      soru: "Bir roketin Dunya'dan uzakligi 408.092 kilometredir. Bu uzaklik icin asagidaki ifadeler verilmistir:\n\nI. Binler bolugundeki sayi 408'dir.\nII. Yuzler basamagindaki rakam 9'dur.\nIII. Sayinin okunusu 'dort yuz sekiz bin doksan iki' seklindedir.\n\nHangileri dogrudir?",
+      secenekler: ["I ve III", "Yalniz I", "II ve III", "I ve II"],
+      dogru: 0,
+      aciklama: "408.092: I. Binler bolugu=408. III. Okunusu: dort yuz sekiz bin doksan iki. I ve III dogru. Yuzler basama=0 (9 degil)."
+    },
+    {
+      soru: "Dort ilcenin nufuslari:\nKemer: 145.087 - Cinar: 140.578 - Ova: 104.785 - Tepe: 154.078\n\nBu tabloya gore nufuslarla ilgili asagidakilerden hangisi YANLISTIR?",
+      secenekler: ["Kemer ilcesinin binler bolugundeki sayi 145'tir.", "Cinar ilcesinin yuzler basamagindaki rakam 5'tir.", "Ova ilcesinin on binler basamagindaki rakamin basamak degeri 40.000'dir.", "Tepe ilcesinin birler bolugundeki sayi 78'dir."],
+      dogru: 2,
+      aciklama: "Ova: 104.785, on binler basamagi = 0, degeri = 0 (40.000 degil). C yanlisir."
+    },
+    {
+      soru: "Bir ciftci deposundaki bugday miktarini 5 yuz binlik, 7 binlik, 4 onluk ve 8 birlik olarak kaydetmistir.\n\nI. Ciftcinin kaydettigi sayi 507.048'dir.\nII. Bu sayinin binler bolugunde 507 rakamlari bulunur.\nIII. On binler basamagindaki rakamin degeri 70.000'dir.\n\nBu ifadelerden hangileri dogrudir?",
+      secenekler: ["I ve III", "Yalniz I", "I ve II", "II ve III"],
+      dogru: 2,
+      aciklama: "500.000+7.000+40+8=507.048: I. Dogru. Binler bolugu=507: II. Dogru. On binler=0, degeri=0: III. Yanlis. I ve II dogru."
+    },
+    {
+      soru: "Bir muzeyi yil boyunca ziyaret eden kisi sayisi 'iki yuz uc bin on bes' olarak aciklanmistir. Buna gore, ziyaretci sayisini gosteren sayinin binler bolugundeki sayi ile birler bolugundeki sayinin toplami kacdir?",
+      secenekler: ["218", "233", "353", "408"],
+      dogru: 0,
+      aciklama: "Iki yuz uc bin on bes = 203.015. Binler bolugu = 203, birler bolugu = 15. Toplam = 203 + 15 = 218."
+    }
+  ],
+
   "4-matematik-dortislem-orta": [
     {
       soru: "120 ÷ 4 + 15 = ?",
