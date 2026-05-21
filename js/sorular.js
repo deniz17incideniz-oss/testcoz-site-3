@@ -475,7 +475,7 @@ const SORULAR = {
       dogru: 2,
       aciklama: "Paylar eşit olduğunda payda küçüldükçe kesir büyür. 1/2 en büyüktür."
     }
-  ]
+  ],
 
   /* ========================================================
      BURAYA YENİ SORULAR EKLEYEBİLİRSİNİZ
