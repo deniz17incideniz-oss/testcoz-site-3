@@ -100,25 +100,18 @@
   </style>
 
 <style id="patch-css">
-/* ── Answer colouring ── */
-.choice-btn.correct-ans  { background:#e8f5e9 !important; border-color:#388e3c !important; color:#1b5e20 !important; font-weight:600; }
-.choice-btn.wrong-ans    { background:#ffebee !important; border-color:#c62828 !important; color:#b71c1c !important; }
-.choice-btn.missed-ans   { background:#e8f5e9 !important; border-color:#388e3c !important; }
-
-/* ── Inline solution box ── */
-.solution-box {
-  background:#f1f8e9; border-left:4px solid #388e3c;
-  border-radius:6px; margin:0 8px 14px; padding:10px 14px;
-  font-size:.85rem; line-height:1.55; color:#1b5e20;
-}
-.solution-box .sol-header { font-weight:700; margin-bottom:4px; color:#388e3c; }
-.solution-box .sol-correct { font-weight:600; }
-
-/* ── Question typography ── */
-.q-context { color:#37474f; margin-bottom:6px; font-size:.88rem; line-height:1.5; }
+.choice-btn.selected  { border-color:#1976d2 !important; background:#e3f2fd !important; }
+.choice-btn.correct-ans { border-color:#388e3c !important; background:#e8f5e9 !important; color:#1b5e20 !important; font-weight:600; }
+.choice-btn.wrong-ans   { border-color:#c62828 !important; background:#ffebee !important; color:#b71c1c !important; }
+.choice-btn.missed-ans  { border-color:#388e3c !important; background:#e8f5e9 !important; }
+.solution-box { background:#f1f8e9; border-left:4px solid #388e3c; border-radius:6px;
+  margin:0 0 14px; padding:10px 14px; font-size:.85rem; line-height:1.55; color:#33691e; }
+.solution-box .sol-header { font-weight:700; margin-bottom:4px; }
+.solution-box .sol-exp { margin-top:4px; color:#2e7d32; }
+.q-context { display:block; color:#37474f; margin-bottom:4px; font-size:.88rem; line-height:1.5; font-weight:400; }
 .q-roman   { display:block; border-left:3px solid #90a4ae; padding-left:8px;
-              margin:2px 0; color:#455a64; font-size:.87rem; }
-.q-ask     { font-weight:700; color:#1a237e; margin-top:6px; display:block; font-size:.9rem; }
+  margin:2px 0; color:#455a64; font-size:.87rem; font-weight:400; }
+.q-ask     { display:block; font-weight:700; color:#1a237e; margin-top:6px; font-size:.9rem; }
 </style>
 </head>
 <body>
@@ -370,151 +363,136 @@
   </section>
 
   <script>
-// ── Data ──────────────────────────────────────────────────────────────────────
-const ANSWERS = [];
+var ANSWERS = [{"n":1,"c":"C","e":"Birinci (2 saat 15 dk = 135 dk) ve ikinci (48 saat = 2 gün) öncüller doğru; üçüncü öncül yanlış (180 dk = 3 saat, 4 saat değil)."},{"n":2,"c":"B","e":"Birinci (3 hafta = 21 gün) ve üçüncü (2 yıl = 24 ay) öncüller doğru; ikinci öncül yanlış (72 ay = 6 yıl, 5 yıl değil)."},{"n":3,"c":"D","e":"Birinci (45 dk = 2700 sn) ve üçüncü (2 saat = 120 dk) doğru; ikinci yanlış (yarım saat = 30 dk, 15 dk değil)."},{"n":4,"c":"C","e":"I, II ve IV doğru; III yanlış (2 hafta 4 gün = 18 gün, 16 gün değil). Toplam üç ifade doğru hesaplanmıştır."},{"n":5,"c":"C","e":"Üçüncü sporcu: 400 saniye = 6 dk 40 sn; 4 dakika değil. Yalnızca üçüncü sporcunun çevirisi yanlış."},{"n":6,"c":"C","e":"Köpek 70 gün, Kedi 65 gün, Tavşan 60 gün. Uzundan kısaya: Köpek, Kedi, Tavşan."},{"n":7,"c":"C","e":"1 saat 50 dakika = 110 dakikadır; ifadede 100 dakika yazıldığı için III. ifade hatalıdır."},{"n":8,"c":"B","e":"Doğa 29 ay (en uzun), Sanat 104 ÷ 4 = 26 ay (en kısa). En uzun Doğa, en kısa Sanat."},{"n":9,"c":"D","e":"Mavi otobüs: 12:10 - 09:30 = 2 saat 40 dakika. 3 saatten kısa sürmüştür."},{"n":10,"c":"D","e":"4 ay × 30 gün = 120 gün + 125 gün = 245 gün. 245 ÷ 7 = 35 hafta."}];
 
-// ── DOM ready ─────────────────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", function() {
   formatQuestions();
-  wireChoices();
 });
 
-// ── Format question text ───────────────────────────────────────────────────────
-function formatQuestions() {
-  document.querySelectorAll('.question-text').forEach(el => {
-    let raw = el.innerHTML;
-
-    // Remove "(N Puan)" prefix anywhere in the text
-    raw = raw.replace(/\(\d+\s*[Pp]uan\)/g, '').trim();
-
-    // Split on Roman numeral list items  I.  II.  III.  IV.  V.
-    const romanRe = /((?:^|<br\s*\/?>)\s*(?=[IVXivx]+\.\s))/g;
-    // Simpler: split raw text by roman patterns after stripping tags temporarily
-    const tmp = raw.replace(/<[^>]+>/g, ' ');
-    const romanPattern = /([IVX]+\.[ \t][^\n]*)/gi;
-
-    // Work on plain-text version to find roman items, then rebuild
-    const lines = raw.split(/<br\s*\/?>/i);
-    const romanLineRe = /^\s*[IVX]+\.\s+/i;
-
-    let contextLines = [];
-    let romanLines   = [];
-    let askLine      = '';
-    let foundRoman   = false;
-
-    lines.forEach(line => {
-      const plain = line.replace(/<[^>]+>/g, '').trim();
-      if (romanLineRe.test(plain)) {
-        foundRoman = true;
-        romanLines.push(line.trim());
-      } else if (plain.endsWith('?') || /nedir|hangisi|kaçtır|kaçıncı|bulunuz|seçiniz/i.test(plain)) {
-        askLine = line.trim();
-      } else {
-        if (!foundRoman) contextLines.push(line.trim());
-      }
-    });
-
-    let rebuilt = '';
-    if (contextLines.length) {
-      rebuilt += '<span class="q-context">' + contextLines.filter(Boolean).join('<br>') + '</span>';
-    }
-    if (romanLines.length) {
-      rebuilt += romanLines.map(l => '<span class="q-roman">' + l + '</span>').join('');
-    }
-    if (askLine) {
-      rebuilt += '<span class="q-ask">' + askLine + '</span>';
-    }
-    if (!rebuilt) rebuilt = raw; // fallback
-
-    el.innerHTML = rebuilt;
-  });
+// ── selectAnswer: called by onclick on each choice button ──
+function selectAnswer(btn) {
+  var grid = btn.closest(".choices-grid");
+  if (!grid || grid.getAttribute("data-locked") === "1") return;
+  grid.querySelectorAll(".choice-btn").forEach(function(b) { b.classList.remove("selected"); });
+  btn.classList.add("selected");
+  grid.setAttribute("data-selected", btn.getAttribute("data-letter"));
 }
 
-// ── Wire choice buttons ────────────────────────────────────────────────────────
-function wireChoices() {
-  document.querySelectorAll('.question-card').forEach(card => {
-    const qNum = parseInt(card.dataset.q, 10);
-    card.querySelectorAll('.choice-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        if (card.dataset.answered === '1') return;
-        card.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected-ans'));
-        btn.classList.add('selected-ans');
-        card.dataset.selected = btn.dataset.letter;
-      });
-    });
-  });
-}
-
-// ── Finish test ────────────────────────────────────────────────────────────────
+// ── finishTest: score and show inline solutions ──
 function finishTest() {
-  let correct = 0, wrong = 0, empty = 0;
+  var correct = 0, wrong = 0, empty = 0;
 
-  document.querySelectorAll('.question-card').forEach(card => {
-    card.dataset.answered = '1';
-    const qNum    = parseInt(card.dataset.q, 10);
-    const selected = card.dataset.selected || '';
-    const dataCorrect = (card.dataset.correct || '').toUpperCase();
+  document.querySelectorAll(".choices-grid").forEach(function(grid) {
+    grid.setAttribute("data-locked", "1");
+    var qNum = parseInt(grid.getAttribute("data-question"), 10);
+    var selected = grid.getAttribute("data-selected") || "";
+    var ansObj = ANSWERS.find(function(a) { return a.n === qNum; });
+    var rightLetter = ansObj ? ansObj.c : "";
+    var explanation = ansObj ? ansObj.e : "";
 
-    // Find answer from ANSWERS array or data-correct attribute
-    const ansObj  = ANSWERS.find(a => a.n === qNum);
-    const rightLetter = ansObj ? ansObj.c.toUpperCase() : dataCorrect;
-    const explanation = ansObj ? (ansObj.e || '') : '';
-
-    // Disable all buttons
-    card.querySelectorAll('.choice-btn').forEach(btn => btn.disabled = true);
+    grid.querySelectorAll(".choice-btn").forEach(function(b) { b.disabled = true; });
 
     if (!selected) {
-      // Empty — if we know the right answer, show it
       empty++;
       if (rightLetter) {
-        const missedBtn = card.querySelector('[data-letter="' + rightLetter + '"]');
-        if (missedBtn) missedBtn.classList.add('missed-ans');
-        insertSolution(card, rightLetter, explanation);
+        var mb = grid.querySelector('[data-letter="' + rightLetter + '"]');
+        if (mb) mb.classList.add("missed-ans");
+        insertSolution(grid, rightLetter, explanation);
       }
-    } else if (rightLetter && selected === rightLetter) {
-      // Correct
+    } else if (selected === rightLetter) {
       correct++;
-      const btn = card.querySelector('[data-letter="' + selected + '"]');
-      if (btn) btn.classList.add('correct-ans');
+      var cb = grid.querySelector('[data-letter="' + selected + '"]');
+      if (cb) cb.classList.add("correct-ans");
     } else {
-      // Wrong
       wrong++;
-      const wrongBtn = card.querySelector('[data-letter="' + selected + '"]');
-      if (wrongBtn) wrongBtn.classList.add('wrong-ans');
+      var wb = grid.querySelector('[data-letter="' + selected + '"]');
+      if (wb) wb.classList.add("wrong-ans");
       if (rightLetter) {
-        const rightBtn = card.querySelector('[data-letter="' + rightLetter + '"]');
-        if (rightBtn) rightBtn.classList.add('missed-ans');
-        insertSolution(card, rightLetter, explanation);
+        var rb = grid.querySelector('[data-letter="' + rightLetter + '"]');
+        if (rb) rb.classList.add("missed-ans");
+        insertSolution(grid, rightLetter, explanation);
       }
     }
   });
 
-  // Update score panel
-  const total = correct + wrong + empty;
-  const pct   = total ? Math.round((correct / total) * 100) : 0;
-  const scoreEl = document.getElementById('score-display');
-  if (scoreEl) {
-    scoreEl.innerHTML =
-      '<strong>' + pct + '%</strong> &nbsp;|&nbsp; ' +
-      '<span style="color:#388e3c">&#10003; ' + correct + '</span> &nbsp;' +
-      '<span style="color:#c62828">&#10007; ' + wrong + '</span> &nbsp;' +
-      '<span style="color:#78909c">&#9711; ' + empty + '</span>';
-  }
+  var total = correct + wrong + empty;
+  var pct = total ? Math.round(correct / total * 100) : 0;
+  var pctEl = document.getElementById("score-pct");
+  var lblEl = document.getElementById("score-label");
+  var ccEl  = document.getElementById("cnt-correct");
+  var cwEl  = document.getElementById("cnt-wrong");
+  var ceEl  = document.getElementById("cnt-empty");
+  if (pctEl)  pctEl.textContent  = "%" + pct;
+  if (lblEl)  lblEl.textContent  = correct + "/" + total + " soru dogru";
+  if (ccEl)   ccEl.textContent   = correct;
+  if (cwEl)   cwEl.textContent   = wrong;
+  if (ceEl)   ceEl.textContent   = empty;
 
-  const finishBtn = document.getElementById('finish-btn');
-  if (finishBtn) finishBtn.disabled = true;
+  var fb = document.getElementById("finish-btn");
+  if (fb) fb.disabled = true;
 }
 
-// ── Insert inline solution below question card ─────────────────────────────────
-function insertSolution(card, rightLetter, explanation) {
-  if (card.nextSibling && card.nextSibling.classList && card.nextSibling.classList.contains('solution-box')) return;
-  const box = document.createElement('div');
-  box.className = 'solution-box';
+// ── insertSolution: place box directly after question-card ──
+function insertSolution(grid, rightLetter, explanation) {
+  var card = grid.closest(".question-card");
+  if (!card) return;
+  var next = card.nextSibling;
+  if (next && next.classList && next.classList.contains("solution-box")) return;
+  var box = document.createElement("div");
+  box.className = "solution-box";
   box.innerHTML =
-    '<div class="sol-header">&#128161; Doğru Cevap</div>' +
-    '<div class="sol-correct">Cevap: <strong>' + rightLetter + '</strong></div>' +
-    (explanation ? '<div class="sol-exp" style="margin-top:4px;color:#33691e;">' + explanation + '</div>' : '');
+    '<div class="sol-header">Dogru Cevap: <strong>' + rightLetter + '</strong></div>' +
+    (explanation ? '<div class="sol-exp">' + explanation + '</div>' : "");
   card.parentNode.insertBefore(box, card.nextSibling);
+}
+
+// ── formatQuestions: remove (N Puan), split lines, bold question sentence ──
+function formatQuestions() {
+  document.querySelectorAll(".question-text").forEach(function(el) {
+    var raw = el.innerHTML;
+
+    // Remove "(N Puan)" prefix
+    raw = raw.replace(/\(\d+\s*[Pp]uan\)/g, "").trim();
+
+    // Split by <br> tags
+    var lines = raw.split(/<br\s*\/?>/i).map(function(l) { return l.trim(); }).filter(Boolean);
+
+    if (lines.length === 0) return;
+
+    var romanRe = /^\s*[IVX]+\.\s/i;
+    var questionRe = /\?$|hangis|nedir|ka\u00e7t|ka\u00e7\u0131nc|bulunuz|se\u00e7iniz|a\u015fa\u011f\u0131daki|do\u011frudur|yanl\u0131\u015ft/i;
+
+    // Find last line that looks like a question
+    var askIdx = -1;
+    for (var i = lines.length - 1; i >= 0; i--) {
+      var plain = lines[i].replace(/<[^>]+>/g, "").trim();
+      if (questionRe.test(plain)) { askIdx = i; break; }
+    }
+
+    var contextLines = [], romanLines = [], askLine = "";
+    lines.forEach(function(line, idx) {
+      var plain = line.replace(/<[^>]+>/g, "").trim();
+      if (idx === askIdx) {
+        askLine = line;
+      } else if (romanRe.test(plain)) {
+        romanLines.push(line);
+      } else {
+        contextLines.push(line);
+      }
+    });
+
+    var rebuilt = "";
+    if (contextLines.length) {
+      rebuilt += '<span class="q-context">' + contextLines.join("<br>") + "</span>";
+    }
+    if (romanLines.length) {
+      rebuilt += romanLines.map(function(l) { return '<span class="q-roman">' + l + "</span>"; }).join("");
+    }
+    if (askLine) {
+      rebuilt += '<span class="q-ask">' + askLine + "</span>";
+    }
+    el.innerHTML = rebuilt || raw;
+  });
 }
 </script>
 </body>
