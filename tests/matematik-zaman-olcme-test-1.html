@@ -98,6 +98,28 @@
   }
 
   </style>
+
+<style id="patch-css">
+/* ── Answer colouring ── */
+.choice-btn.correct-ans  { background:#e8f5e9 !important; border-color:#388e3c !important; color:#1b5e20 !important; font-weight:600; }
+.choice-btn.wrong-ans    { background:#ffebee !important; border-color:#c62828 !important; color:#b71c1c !important; }
+.choice-btn.missed-ans   { background:#e8f5e9 !important; border-color:#388e3c !important; }
+
+/* ── Inline solution box ── */
+.solution-box {
+  background:#f1f8e9; border-left:4px solid #388e3c;
+  border-radius:6px; margin:0 8px 14px; padding:10px 14px;
+  font-size:.85rem; line-height:1.55; color:#1b5e20;
+}
+.solution-box .sol-header { font-weight:700; margin-bottom:4px; color:#388e3c; }
+.solution-box .sol-correct { font-weight:600; }
+
+/* ── Question typography ── */
+.q-context { color:#37474f; margin-bottom:6px; font-size:.88rem; line-height:1.5; }
+.q-roman   { display:block; border-left:3px solid #90a4ae; padding-left:8px;
+              margin:2px 0; color:#455a64; font-size:.87rem; }
+.q-ask     { font-weight:700; color:#1a237e; margin-top:6px; display:block; font-size:.9rem; }
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -348,92 +370,152 @@
   </section>
 
   <script>
-    const ANSWERS    = [];
-    const QUESTIONS  = [{"number":1,"text":"(5 Puan) Görselde bir okul projesi için çalışan üç farklı grubun görevlerini tamamlama süreleri ile ilgili bir çalışma alanı görülmektedir. Öğrenciler süreleri farklı birimlerle ifade etmiştir. Grupların süre dönüşümleri aşağıda verilmiştir: I. A grubu 2 saat 15 dakikada, yani toplam 135 dakikada bitirmiştir. II. B grubu 48 saatte, yani tam 2 günde bitirmiştir. III. C grubu 180 dakikada, yani tam 4 saatte bitirmiştir. Görseldeki grupların süre dönüşümlerinden hangileri doğru yapılmıştır?","choices":{"A":"Yalnız I","B":"I ve III","C":"I ve II","D":"II ve III"}},{"number":2,"text":"(5 Puan) Görselde eski çağlarda uzun mesafeli yolculuklar yapan bir seyyahın rotası ve tuttuğu notlar temsil edilmiştir. Bir seyyahın yolculuk notları incelenmektedir. Seyyahın uğradığı duraklar arasındaki seyahat süreleri şu şekilde ifade edilmiştir: I. Birinci bölüm 3 hafta sürmüş, yani 21 güne eşittir. II. İkinci bölüm 72 ay sürmüş, yani 5 yıla eşittir. III. Üçüncü bölüm 2 yıl sürmüş, yani 24 aya eşittir. Görseldeki bilgiler ve verilen bu seyahat süreleri ile ilgili hangi dönüşümler doğrudur?","choices":{"A":"I ve II","B":"I ve III","C":"Yalnız I","D":"II ve III"}},{"number":3,"text":"(5 Puan) Usta bir aşçı, yeni tarifini hazırlarken her bir aşamanın ne kadar sürdüğünü detaylı bir şekilde not etmiştir. Bir kekin yapım ve dinlenme aşamaları için verilen süreler incelenmiştir: I. Pişirme süresi 45 dakika, yani 2700 saniyedir. II. Soğuma süresi yarım saat, yani 15 dakikadır. III. Dinlenme süresi 2 saat, yani 120 dakikadır. Bu sürelerden hangilerinin çevirisi doğru hesaplanmıştır?","choices":{"A":"Birinci ve İkinci","B":"Yalnız Birinci","C":"Yalnız Üçüncü","D":"Birinci ve Üçüncü"}},{"number":4,"text":"(5 Puan) Zaman birimlerini birbirine dönüştürmek, günlük planlarımızı doğru yapmamızı sağlar. Bir saat 60 dakika, bir gün 24 saat ve bir hafta 7 gündür. Verilen görselde zaman birimleri arasındaki dönüşümlerle ilgili bazı çalışmalar yapan öğrenciler şu ifadeleri kullanmışlardır: I. 1 gün 12 saat toplam 36 saattir. II. 3 saat 15 dakika toplam 195 dakikadır. III. 2 hafta 4 gün toplam 16 gündür. IV. 150 dakika, 2 saat 30 dakikaya eşittir. Bu ifadelerden kaç tanesi doğru hesaplanmıştır?","choices":{"A":"1","B":"2","C":"3","D":"4"}},{"number":5,"text":"(5 Puan) Verilen görselde bir dağ maratonuna katılan koşucuların parkuru tamamlama süreleri hakemler tarafından farklı zaman ölçüleri kullanılarak kaydedilmiştir. Bu sporcuların koşu parkurunu bitirme süreleri hakkında şu bilgiler verilmiştir: I. Birinci sporcu 150 dakikada, yani 2 saat 30 dakikada bitirmiştir. II. İkinci sporcu 3 saat 10 dakikada, yani 190 dakikada bitirmiştir. III. Üçüncü sporcu 400 saniyede, yani 4 dakikada bitirmiştir. Görseldeki bilgiler ve verilenler ışığında, bu sporcuların süreleriyle ilgili hangisi yanlıştır?","choices":{"A":"Yalnız Birinci","B":"Yalnız İkinci","C":"Yalnız Üçüncü","D":"Birinci ve Üçüncü"}},{"number":6,"text":"(5 Puan) Görselde görülen canlıların gelişim evreleri türden türe farklılık gösterir. Veterinerler bu süreleri takip ederken birimleri birbirine çevirmek zorundadır. Görseldeki hayvanların büyüme süreleri şöyledir: Kedi 65 gün, Köpek 10 hafta ve Tavşan 2 ay. Bu bilgilere göre büyüme sürelerinin uzundan kısaya doğru sıralanışı hangisidir? (1 ay 30 gün alınacaktır)","choices":{"A":"Köpek, Tavşan, Kedi","B":"Kedi, Köpek, Tavşan","C":"Köpek, Kedi, Tavşan","D":"Tavşan, Kedi, Köpek"}},{"number":7,"text":"(5 Puan) Etkinliklerin başlangıç ve bitiş saatlerini hesaplamak için zaman ölçme birimleriyle işlemler yaparız ve geçen süreyi buluruz. Görselde belirtilen spor turnuvasındaki maçların süreleri ile ilgili aşağıdaki ifadeler verilmiştir: I. Birinci maç 14.30‛da başlayıp 16.15‛te bittiyse, maç 1 saat 45 dakika sürmüştür. II. İkinci maç 90 dakika sürmüştür ve 18.00‛da bitmiştir, demek ki maç 16.30‛da başlamıştır. III. Üçüncü maç 1 saat 50 dakika sürmüştür ve toplam 100 dakikadır. IV. Dördüncü maç 15.45‛te başlayıp 120 dakika sürmüşse, 17.45‛te bitmiştir. Verilen ifadelerden hatalı olanın numarası aşağıdakilerden hangisidir?","choices":{"A":"IV","B":"I","C":"III","D":"II"}},{"number":8,"text":"(5 Puan) Görselde internet üzerinden yayın yapan çeşitli bilim ve kültür dergilerinin abonelik paketleri temsil edilmiştir. Bu dergilerin abonelik süreleri şöyledir: Bilim dergisi 2 yıl 4 ay, Doğa dergisi 29 ay ve Sanat dergisi 104 hafta süreyle abonelik imkanı sunmaktadır. Görseldeki verileri ve verilen bilgileri inceleyerek, en uzun ve en kısa abonelik sürelerinin hangi dergilere ait olduğunu belirleyiniz. (1 ay 4 hafta olarak hesaplanacaktır.)","choices":{"A":"En uzun Sanat, en kısa Doğa","B":"En uzun Doğa, en kısa Sanat","C":"En uzun Bilim, en kısa Sanat","D":"En uzun Doğa, en kısa Bilim"}},{"number":9,"text":"(5 Puan) Seyahat planı yaparken hareket ve varış saatlerini içeren tabloları doğru okumak ve geçen süreyi hesaplamak çok önemlidir. Aşağıdaki tablo üç farklı otobüsün bir şehirden diğerine gidiş sürelerini göstermektedir: Otobüs Kalkış Saati Varış Saati Kırmızı 08.15 11.45 Mavi 09.30 12.10 Yeşil 10.45 14.30 Bu tabloya göre otobüslerin yolculuk süreleri ile ilgili aşağıdakilerden hangisi doğrudur?","choices":{"A":"Yeşil otobüsün yolculuğu tam dört saat sürmüştür.","B":"Yeşil otobüsün yolculuğu Mavi otobüsten kısa sürmüştür.","C":"Kırmızı otobüsün yolculuğu tam üç saat sürmüştür.","D":"Mavi otobüsün yolculuğu üç saatten kısa sürmüştür."}},{"number":10,"text":"(5 Puan) Bir uzay aracı başka bir gezegene ulaşmak için uzayda uzun bir yolculuk yapmıştır. Yolculuğun ilk aşaması tam 4 ay, ikinci aşaması ise 125 gün sürmüştür. Bu uzay aracının toplam yolculuğu kaç hafta sürmüştür? (1 ayı 30 gün olarak hesaplayınız.)","choices":{"A":"33 hafta","B":"32 hafta","C":"34 hafta","D":"35 hafta"}}];
-    const TOTAL      = 10;
-    const answerMap  = {};
-    ANSWERS.forEach(a => answerMap[a.number] = a);
+// ── Data ──────────────────────────────────────────────────────────────────────
+const ANSWERS = [];
 
-    let finished = false;
-    const userAnswers = {};
+// ── DOM ready ─────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  formatQuestions();
+  wireChoices();
+});
 
-    function selectAnswer(btn) {
-      if (finished) return;
-      const grid   = btn.closest('.choices-grid');
-      const qNum   = parseInt(grid.dataset.question, 10);
-      grid.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      userAnswers[qNum] = btn.dataset.letter;
+// ── Format question text ───────────────────────────────────────────────────────
+function formatQuestions() {
+  document.querySelectorAll('.question-text').forEach(el => {
+    let raw = el.innerHTML;
+
+    // Remove "(N Puan)" prefix anywhere in the text
+    raw = raw.replace(/\(\d+\s*[Pp]uan\)/g, '').trim();
+
+    // Split on Roman numeral list items  I.  II.  III.  IV.  V.
+    const romanRe = /((?:^|<br\s*\/?>)\s*(?=[IVXivx]+\.\s))/g;
+    // Simpler: split raw text by roman patterns after stripping tags temporarily
+    const tmp = raw.replace(/<[^>]+>/g, ' ');
+    const romanPattern = /([IVX]+\.[ \t][^\n]*)/gi;
+
+    // Work on plain-text version to find roman items, then rebuild
+    const lines = raw.split(/<br\s*\/?>/i);
+    const romanLineRe = /^\s*[IVX]+\.\s+/i;
+
+    let contextLines = [];
+    let romanLines   = [];
+    let askLine      = '';
+    let foundRoman   = false;
+
+    lines.forEach(line => {
+      const plain = line.replace(/<[^>]+>/g, '').trim();
+      if (romanLineRe.test(plain)) {
+        foundRoman = true;
+        romanLines.push(line.trim());
+      } else if (plain.endsWith('?') || /nedir|hangisi|kaçtır|kaçıncı|bulunuz|seçiniz/i.test(plain)) {
+        askLine = line.trim();
+      } else {
+        if (!foundRoman) contextLines.push(line.trim());
+      }
+    });
+
+    let rebuilt = '';
+    if (contextLines.length) {
+      rebuilt += '<span class="q-context">' + contextLines.filter(Boolean).join('<br>') + '</span>';
     }
+    if (romanLines.length) {
+      rebuilt += romanLines.map(l => '<span class="q-roman">' + l + '</span>').join('');
+    }
+    if (askLine) {
+      rebuilt += '<span class="q-ask">' + askLine + '</span>';
+    }
+    if (!rebuilt) rebuilt = raw; // fallback
 
-    function finishTest() {
-      if (finished) return;
-      finished = true;
+    el.innerHTML = rebuilt;
+  });
+}
 
-      let correct = 0, wrong = 0, empty = 0;
-      const wrongNums = [];
-
-      document.querySelectorAll('.choices-grid').forEach(grid => {
-        const qNum   = parseInt(grid.dataset.question, 10);
-        const right  = grid.dataset.correct;
-        const chosen = userAnswers[qNum];
-
-        grid.querySelectorAll('.choice-btn').forEach(btn => {
-          btn.setAttribute('disabled', '');
-          const l = btn.dataset.letter;
-          if (l === right)                  btn.classList.add('correct');
-          else if (l === chosen && chosen !== right) btn.classList.add('wrong');
-        });
-
-        if (!chosen)          { empty++; wrongNums.push(qNum); }
-        else if (chosen === right) correct++;
-        else                  { wrong++; wrongNums.push(qNum); }
+// ── Wire choice buttons ────────────────────────────────────────────────────────
+function wireChoices() {
+  document.querySelectorAll('.question-card').forEach(card => {
+    const qNum = parseInt(card.dataset.q, 10);
+    card.querySelectorAll('.choice-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (card.dataset.answered === '1') return;
+        card.querySelectorAll('.choice-btn').forEach(b => b.classList.remove('selected-ans'));
+        btn.classList.add('selected-ans');
+        card.dataset.selected = btn.dataset.letter;
       });
+    });
+  });
+}
 
-      const pct = TOTAL > 0 ? Math.round(correct / TOTAL * 100) : 0;
-      const emoji = pct >= 80 ? '🏆' : pct >= 60 ? '👍' : pct >= 40 ? '💪' : '📚';
-      const msg   = pct >= 80 ? 'Harika! Çok iyi bir sonuç.' : pct >= 60 ? 'İyi! Biraz daha pratik yap.' : pct >= 40 ? 'Devam et, her seferinde daha iyi!' : 'Daha fazla çalışalım!';
+// ── Finish test ────────────────────────────────────────────────────────────────
+function finishTest() {
+  let correct = 0, wrong = 0, empty = 0;
 
-      document.getElementById('score-pct').textContent   = emoji + ' %' + pct;
-      document.getElementById('score-label').textContent = msg;
-      document.getElementById('cnt-correct').textContent = correct;
-      document.getElementById('cnt-wrong').textContent   = wrong;
-      document.getElementById('cnt-empty').textContent   = empty;
-      document.getElementById('score-panel').style.display = 'block';
-      document.getElementById('answer-key-wrap').style.display = 'block';
-      document.getElementById('finish-btn').style.display = 'none';
-      document.getElementById('score-panel').scrollIntoView({ behavior: 'smooth' });
+  document.querySelectorAll('.question-card').forEach(card => {
+    card.dataset.answered = '1';
+    const qNum    = parseInt(card.dataset.q, 10);
+    const selected = card.dataset.selected || '';
+    const dataCorrect = (card.dataset.correct || '').toUpperCase();
 
-      if (wrongNums.length > 0) {
-        document.getElementById('btn-review').style.display = '';
-        buildReview(wrongNums);
+    // Find answer from ANSWERS array or data-correct attribute
+    const ansObj  = ANSWERS.find(a => a.n === qNum);
+    const rightLetter = ansObj ? ansObj.c.toUpperCase() : dataCorrect;
+    const explanation = ansObj ? (ansObj.e || '') : '';
+
+    // Disable all buttons
+    card.querySelectorAll('.choice-btn').forEach(btn => btn.disabled = true);
+
+    if (!selected) {
+      // Empty — if we know the right answer, show it
+      empty++;
+      if (rightLetter) {
+        const missedBtn = card.querySelector('[data-letter="' + rightLetter + '"]');
+        if (missedBtn) missedBtn.classList.add('missed-ans');
+        insertSolution(card, rightLetter, explanation);
+      }
+    } else if (rightLetter && selected === rightLetter) {
+      // Correct
+      correct++;
+      const btn = card.querySelector('[data-letter="' + selected + '"]');
+      if (btn) btn.classList.add('correct-ans');
+    } else {
+      // Wrong
+      wrong++;
+      const wrongBtn = card.querySelector('[data-letter="' + selected + '"]');
+      if (wrongBtn) wrongBtn.classList.add('wrong-ans');
+      if (rightLetter) {
+        const rightBtn = card.querySelector('[data-letter="' + rightLetter + '"]');
+        if (rightBtn) rightBtn.classList.add('missed-ans');
+        insertSolution(card, rightLetter, explanation);
       }
     }
+  });
 
-    function buildReview(nums) {
-      const list = document.getElementById('review-list');
-      list.innerHTML = nums.map(n => {
-        const q   = QUESTIONS.find(x => x.number === n);
-        const ans = answerMap[n];
-        if (!q) return '';
-        const correctLetter = ans ? ans.correct : '?';
-        const correctText   = q.choices[correctLetter] || '';
-        const explanation   = ans && ans.explanation ? '<div class="review-explanation">' + ans.explanation + '</div>' : '';
-        return '<div class="review-card">'
-          + '<div class="review-q-num">Soru ' + n + '</div>'
-          + '<div class="review-q-text">' + q.text + '</div>'
-          + '<div class="review-answer">✓ Doğru cevap: ' + correctLetter + ') ' + correctText + '</div>'
-          + explanation
-          + '</div>';
-      }).join('');
-    }
+  // Update score panel
+  const total = correct + wrong + empty;
+  const pct   = total ? Math.round((correct / total) * 100) : 0;
+  const scoreEl = document.getElementById('score-display');
+  if (scoreEl) {
+    scoreEl.innerHTML =
+      '<strong>' + pct + '%</strong> &nbsp;|&nbsp; ' +
+      '<span style="color:#388e3c">&#10003; ' + correct + '</span> &nbsp;' +
+      '<span style="color:#c62828">&#10007; ' + wrong + '</span> &nbsp;' +
+      '<span style="color:#78909c">&#9711; ' + empty + '</span>';
+  }
 
-    function showReview() {
-      const sec = document.getElementById('review-section');
-      sec.style.display = 'block';
-      sec.scrollIntoView({ behavior: 'smooth' });
-      document.getElementById('btn-review').style.display = 'none';
-    }
-  </script>
+  const finishBtn = document.getElementById('finish-btn');
+  if (finishBtn) finishBtn.disabled = true;
+}
+
+// ── Insert inline solution below question card ─────────────────────────────────
+function insertSolution(card, rightLetter, explanation) {
+  if (card.nextSibling && card.nextSibling.classList && card.nextSibling.classList.contains('solution-box')) return;
+  const box = document.createElement('div');
+  box.className = 'solution-box';
+  box.innerHTML =
+    '<div class="sol-header">&#128161; Doğru Cevap</div>' +
+    '<div class="sol-correct">Cevap: <strong>' + rightLetter + '</strong></div>' +
+    (explanation ? '<div class="sol-exp" style="margin-top:4px;color:#33691e;">' + explanation + '</div>' : '');
+  card.parentNode.insertBefore(box, card.nextSibling);
+}
+</script>
 </body>
 </html>
