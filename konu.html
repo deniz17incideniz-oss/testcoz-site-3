@@ -246,7 +246,7 @@
 
       topicList.innerHTML = topics.map(function (ad, idx) {
         var slug = slugifyTopic(ad);
-        return '<a class="topic-card" href="test.html?sinif=' + sinif + '&ders=' + ders + '&konu=' + slug + '&zorluk=zor">' +
+        var _testKey=sinif+'-'+ders+'-'+slug+'-zor';var _testUrl=(typeof TESTLER!=='undefined'&&TESTLER[_testKey])?TESTLER[_testKey]:('test.html?sinif='+sinif+'&ders='+ders+'&konu='+slug+'&zorluk=zor');return '<a class="topic-card" href="'+_testUrl+'">' +
           '<div class="topic-card-left">' +
           '<div class="topic-num">' + (idx + 1) + '</div>' +
           '<div class="topic-info">' +
