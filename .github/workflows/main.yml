@@ -1,0 +1,56 @@
+name: Automated Test Generation
+
+on:
+  repository_dispatch:
+    types: [generate_test]
+
+jobs:
+  generate-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: NPM bağımlılıklarını yükle
+        run: npm install
+
+      - name: Metadata'yı yazdır
+        run: |
+          echo "SINIF=${{ github.event.client_payload.sinif }}"
+          echo "DERS=${{ github.event.client_payload.ders }}"
+          echo "KONU=${{ github.event.client_payload.konu }}"
+          echo "TEST=${{ github.event.client_payload.testNo }}"
+          echo "ZORLUK=${{ github.event.client_payload.zorluk }}"
+
+      - name: Test generator çalıştır
+        run: |
+          node automation/generate-test.js \
+          "${{ github.event.client_payload.sinif }}" \
+          "${{ github.event.client_payload.ders }}" \
+          "${{ github.event.client_payload.konu }}" \
+          "${{ github.event.client_payload.testNo }}" \
+          "${{ github.event.client_payload.zorluk }}"
+
+      - name: Git config
+        run: |
+          git config user.name "testcoz-bot"
+          git config user.email "bot@testcoz.pro"
+
+      - name: Commit oluştur
+        run: |
+          git add .
+          git commit -m "Yeni test eklendi" || echo "Commit yok"
+
+      - name: GitHub push
+        run: |
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ secrets.GH_OWNER }}/${{ secrets.GH_REPO }}.git HEAD:main
+
+      - name: Vercel deploy tetikle
+        run: |
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
