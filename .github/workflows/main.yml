@@ -12,14 +12,6 @@ jobs:
       - name: Repo'yu çek
         uses: actions/checkout@v4
 
-      - name: Node.js kur
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: NPM bağımlılıklarını yükle
-        run: npm install
-
       - name: Metadata'yı yazdır
         run: |
           echo "SINIF=${{ github.event.client_payload.sinif }}"
@@ -28,14 +20,13 @@ jobs:
           echo "TEST=${{ github.event.client_payload.testNo }}"
           echo "ZORLUK=${{ github.event.client_payload.zorluk }}"
 
-      - name: Test generator çalıştır
+      - name: Basit test dosyası oluştur
         run: |
-          node automation/generate-test.js \
-          "${{ github.event.client_payload.sinif }}" \
-          "${{ github.event.client_payload.ders }}" \
-          "${{ github.event.client_payload.konu }}" \
-          "${{ github.event.client_payload.testNo }}" \
-          "${{ github.event.client_payload.zorluk }}"
+          mkdir -p tests
+
+          FILE_NAME="${{ github.event.client_payload.ders }}-${{ github.event.client_payload.konu }}-test-${{ github.event.client_payload.testNo }}.html"
+
+          echo "<html><body><h1>Test başarıyla oluşturuldu</h1></body></html>" > tests/$FILE_NAME
 
       - name: Git config
         run: |
@@ -50,7 +41,3 @@ jobs:
       - name: GitHub push
         run: |
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ secrets.GH_OWNER }}/${{ secrets.GH_REPO }}.git HEAD:main
-
-      - name: Vercel deploy tetikle
-        run: |
-          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
