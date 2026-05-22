@@ -428,6 +428,8 @@ function finishTest() {
   if (cwEl)   cwEl.textContent   = wrong;
   if (ceEl)   ceEl.textContent   = empty;
 
+  var sp = document.getElementById("score-panel");
+  if (sp) sp.style.display = "block";
   var fb = document.getElementById("finish-btn");
   if (fb) fb.disabled = true;
 }
