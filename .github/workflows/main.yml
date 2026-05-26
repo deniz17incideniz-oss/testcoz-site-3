@@ -15,38 +15,32 @@ jobs:
       - name: Repo checkout
         uses: actions/checkout@v4
 
-      - name: Test dosyası oluştur
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Paketleri yükle
+        run: npm install
+
+      - name: Gerçek test generator çalıştır
         run: |
-          mkdir -p tests
+          node automation/generate-test.js \
+          "${{ github.event.client_payload.sinif }}" \
+          "${{ github.event.client_payload.ders }}" \
+          "${{ github.event.client_payload.konu }}" \
+          "${{ github.event.client_payload.testNo }}" \
+          "${{ github.event.client_payload.zorluk }}"
 
-          FILE_NAME="${{ github.event.client_payload.ders }}-${{ github.event.client_payload.konu }}-test-${{ github.event.client_payload.testNo }}.html"
-
-          cat > tests/$FILE_NAME <<EOF
-          <!DOCTYPE html>
-          <html lang="tr">
-          <head>
-            <meta charset="UTF-8">
-            <title>TestÇöz</title>
-          </head>
-          <body style="font-family:Arial;padding:40px">
-            <h1>🚀 Otomasyon Çalıştı</h1>
-
-            <p>Sınıf: ${{ github.event.client_payload.sinif }}</p>
-            <p>Ders: ${{ github.event.client_payload.ders }}</p>
-            <p>Konu: ${{ github.event.client_payload.konu }}</p>
-            <p>Test No: ${{ github.event.client_payload.testNo }}</p>
-            <p>Zorluk: ${{ github.event.client_payload.zorluk }}</p>
-          </body>
-          </html>
-          EOF
-
-      - name: Commit ve push
+      - name: Git ayarla
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
+      - name: Commit oluştur
+        run: |
           git add .
+          git commit -m "Yeni otomatik test" || echo "Değişiklik yok"
 
-          git commit -m "Yeni otomatik test"
-
-          git push
+      - name: Push yap
+        run: git push
