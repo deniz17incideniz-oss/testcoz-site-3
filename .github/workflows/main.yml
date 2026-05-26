@@ -2,59 +2,51 @@ name: Automated Test Generation
 
 on:
   repository_dispatch:
-    types:
-      - generate_test
+    types: [generate_test]
+
+permissions:
+  contents: write
 
 jobs:
   generate-test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repo'yu çek
+      - name: Repo checkout
         uses: actions/checkout@v4
 
-      - name: Metadata bilgilerini göster
+      - name: Test dosyası oluştur
         run: |
-          echo "SINIF: ${{ github.event.client_payload.sinif }}"
-          echo "DERS: ${{ github.event.client_payload.ders }}"
-          echo "KONU: ${{ github.event.client_payload.konu }}"
-          echo "TEST NO: ${{ github.event.client_payload.testNo }}"
-          echo "ZORLUK: ${{ github.event.client_payload.zorluk }}"
+          mkdir -p tests
 
-      - name: Tests klasörü oluştur
-        run: mkdir -p tests
-
-      - name: HTML test dosyası oluştur
-        run: |
           FILE_NAME="${{ github.event.client_payload.ders }}-${{ github.event.client_payload.konu }}-test-${{ github.event.client_payload.testNo }}.html"
 
-          echo "<!DOCTYPE html>
-          <html>
+          cat > tests/$FILE_NAME <<EOF
+          <!DOCTYPE html>
+          <html lang="tr">
           <head>
-            <meta charset='UTF-8'>
+            <meta charset="UTF-8">
             <title>TestÇöz</title>
           </head>
-          <body style='font-family: Arial; padding:40px'>
-            <h1>Test başarıyla oluşturuldu 🚀</h1>
+          <body style="font-family:Arial;padding:40px">
+            <h1>🚀 Otomasyon Çalıştı</h1>
 
             <p>Sınıf: ${{ github.event.client_payload.sinif }}</p>
             <p>Ders: ${{ github.event.client_payload.ders }}</p>
             <p>Konu: ${{ github.event.client_payload.konu }}</p>
-            <p>Test: ${{ github.event.client_payload.testNo }}</p>
+            <p>Test No: ${{ github.event.client_payload.testNo }}</p>
             <p>Zorluk: ${{ github.event.client_payload.zorluk }}</p>
           </body>
-          </html>" > tests/$FILE_NAME
+          </html>
+          EOF
 
-      - name: Git ayarla
+      - name: Commit ve push
         run: |
-          git config user.name "testcoz-bot"
-          git config user.email "bot@testcoz.pro"
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
 
-      - name: Commit oluştur
-        run: |
           git add .
-          git commit -m "Yeni otomatik test oluşturuldu" || echo "Değişiklik yok"
 
-      - name: GitHub push
-        run: |
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ secrets.GH_OWNER }}/${{ secrets.GH_REPO }}.git HEAD:main
+          git commit -m "Yeni otomatik test"
+
+          git push
