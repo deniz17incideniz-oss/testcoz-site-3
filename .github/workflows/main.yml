@@ -3,123 +3,96 @@ name: Generate Test HTML
 on:
   repository_dispatch:
     types: [new-test-uploaded]
+
   workflow_dispatch:
     inputs:
       file_id:
         description: 'Google Drive File ID'
         required: true
+
       file_name:
-        description: 'Dosya adı (örn: 4-matematik-zaman-olcme-test-3-zor.docx)'
+        description: 'Dosya adı'
         required: true
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    
+
     steps:
+
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: automation/package.json
 
       - name: Install dependencies
         run: |
           cd automation
-          npm ci
+          npm install
 
       - name: Get file info
         id: fileinfo
         run: |
-          # repository_dispatch veya workflow_dispatch'ten al
           FILE_ID="${{ github.event.client_payload.file_id || github.event.inputs.file_id }}"
           FILE_NAME="${{ github.event.client_payload.file_name || github.event.inputs.file_name }}"
+
           echo "file_id=$FILE_ID" >> $GITHUB_OUTPUT
           echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
-          # Slug oluştur: uzantı kaldır
-          SLUG="${FILE_NAME%.docx}"
-          echo "slug=$SLUG" >> $GITHUB_OUTPUT
-          echo "📄 Dosya: $FILE_NAME (ID: $FILE_ID)"
 
-      - name: Download DOCX from Google Drive
+          SLUG="${FILE_NAME%.docx}"
+
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+
+          echo "Dosya: $FILE_NAME"
+          echo "Slug: $SLUG"
+
+      - name: Download DOCX
         run: |
           FILE_ID="${{ steps.fileinfo.outputs.file_id }}"
           FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
-          
-          # Google Drive public download URL
-          # Dosya "Yeni" klasöründe herkese açık paylaşımlı olmalı
-          echo "📥 İndiriliyor: $FILE_NAME"
-          curl -L "https://drive.google.com/uc?export=download&id=${FILE_ID}" \
-            -o "/tmp/${FILE_NAME}" \
-            --fail \
-            --silent \
-            --show-error
-          
-          ls -la "/tmp/${FILE_NAME}"
-          echo "✅ DOCX indirildi"
 
-      - name: Generate HTML from DOCX
+          curl -L "https://drive.google.com/uc?export=download&id=${FILE_ID}" \
+            -o "/tmp/${FILE_NAME}"
+
+          echo "DOCX indirildi"
+
+      - name: Generate HTML
         run: |
           FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
           SLUG="${{ steps.fileinfo.outputs.slug }}"
-          
-          echo "⚙️  HTML oluşturuluyor..."
+
+          mkdir -p tests
+
           node automation/generate-test.js \
             "/tmp/${FILE_NAME}" \
             "tests/${SLUG}.html"
-          
-          echo "✅ HTML oluşturuldu: tests/${SLUG}.html"
-          # İlk 20 satırı göster
-          head -20 "tests/${SLUG}.html"
 
-      - name: Commit and push HTML
+          echo "HTML oluşturuldu"
+
+      - name: Git config
         run: |
-          SLUG="${{ steps.fileinfo.outputs.slug }}"
-          FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
-          
           git config user.name "testcoz-bot"
           git config user.email "bot@testcoz.pro"
-          
-          git add "tests/${SLUG}.html"
-          
-          if git diff --staged --quiet; then
-            echo "ℹ️  Değişiklik yok, push atlanıyor"
-          else
-            git commit -m "✅ Test eklendi: ${SLUG}"
-            git push
-            echo "✅ Commit ve push tamamlandı"
-          fi
 
-      - name: Notify Google Drive - Move to Tamamlanan
-        if: success()
-        env:
-          APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
+      - name: Commit
         run: |
-          FILE_ID="${{ steps.fileinfo.outputs.file_id }}"
-          SLUG="${{ steps.fileinfo.outputs.slug }}"
-          
-          if [ -n "$APPS_SCRIPT_URL" ]; then
-            curl -s -X POST "$APPS_SCRIPT_URL" \
-              -H "Content-Type: application/json" \
-              -d "{\"action\":\"moveToCompleted\",\"fileId\":\"${FILE_ID}\",\"slug\":\"${SLUG}\"}" \
-              || echo "⚠️  Apps Script bildirim gönderilemedi (kritik değil)"
-          fi
+          git add .
 
-      - name: Notify Google Drive - Move to Hatalı
-        if: failure()
-        env:
-          APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
+          git commit -m "Yeni test: ${{ steps.fileinfo.outputs.slug }}" || echo "Commit yok"
+
+      - name: Push
         run: |
-          FILE_ID="${{ steps.fileinfo.outputs.file_id }}"
-          FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
-          
-          if [ -n "$APPS_SCRIPT_URL" ]; then
-            curl -s -X POST "$APPS_SCRIPT_URL" \
-              -H "Content-Type: application/json" \
-              -d "{\"action\":\"moveToError\",\"fileId\":\"${FILE_ID}\",\"fileName\":\"${FILE_NAME}\"}" \
-              || echo "⚠️  Apps Script bildirim gönderilemedi"
-          fi
+          git pull --rebase origin main
+          git push
+
+      - name: Success log
+        run: |
+          echo "TEST BAŞARIYLA OLUŞTURULDU"
