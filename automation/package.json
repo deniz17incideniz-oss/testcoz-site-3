@@ -1,0 +1,17 @@
+{
+  "name": "testcoz-automation",
+  "version": "1.0.0",
+  "description": "testcoz.pro için otomatik test HTML üreticisi",
+  "main": "generate-test.js",
+  "scripts": {
+    "generate": "node generate-test.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.0",
+    "mammoth": "^1.8.0",
+    "officegen": "^0.6.5"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
