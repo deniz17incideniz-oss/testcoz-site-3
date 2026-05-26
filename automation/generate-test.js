@@ -1,19 +1,5 @@
 
 
-#!/usr/bin/env node
-/**
- * generate-test.js
- * testcoz.pro – Otomatik Test HTML Üreticisi
- *
- * DOCX Formatı Varsayımları:
- *  - Sorular: "1.", "2." ... ile başlayan paragraflar (veya bold numara)
- *  - Şıklar: "A)", "B)", "C)", "D)", "E)" ile başlayan satırlar
- *  - Cevap Anahtarı bölümü: "CEVAP ANAHTARI" veya "CEVAPLAR" başlığı
- *  - Çözümler bölümü: "ÇÖZÜMLER" veya "AÇIKLAMALAR" başlığı
- *  - Doğru cevap: Cevap anahtarında "1. A", "2. C" formatı
- *    VEYA mammoth'tan gelen yeşil/highlight stilinden tespit
- */
-
 const mammoth = require('mammoth');
 const fs = require('fs');
 const path = require('path');
