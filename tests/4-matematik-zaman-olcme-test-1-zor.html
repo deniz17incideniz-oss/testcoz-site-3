@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4. Sınıf – Matematik – Zaman Olcme – Test 1 – (Zor) | testcoz.pro</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-light: #eef2ff;
+      --success: #16a34a;
+      --success-light: #dcfce7;
+      --danger: #dc2626;
+      --danger-light: #fee2e2;
+      --gray: #6b7280;
+      --border: #e5e7eb;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #111827;
+      --text-secondary: #6b7280;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+
+    header h1 { font-size: 1.1rem; font-weight: 700; line-height: 1.3; }
+    header .badge {
+      background: rgba(255,255,255,.2);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: .8rem;
+      white-space: nowrap;
+    }
+
+    .konteyner {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px 16px 80px;
+    }
+
+    .bilgi-bar {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: .85rem;
+      color: var(--text-secondary);
+    }
+    .bilgi-bar span strong { color: var(--text); }
+
+    .soru {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 14px;
+      transition: box-shadow .2s;
+    }
+    .soru:hover { box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+
+    .soru-metin {
+      font-size: .95rem;
+      line-height: 1.65;
+      margin-bottom: 14px;
+      white-space: pre-wrap;
+    }
+    .soru-metin strong { font-size: 1rem; }
+
+    .siklar { display: flex; flex-direction: column; gap: 8px; }
+
+    .sik {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 14px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all .18s;
+      user-select: none;
+    }
+    .sik:hover:not(.disabled) {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+    .sik.secili {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+    .sik.dogru {
+      border-color: var(--success) !important;
+      background: var(--success-light) !important;
+    }
+    .sik.yanlis {
+      border-color: var(--danger) !important;
+      background: var(--danger-light) !important;
+    }
+    .sik.disabled { cursor: default; pointer-events: none; }
+
+    .sik-harf {
+      font-weight: 700;
+      font-size: .9rem;
+      min-width: 20px;
+      color: var(--primary);
+    }
+    .sik.dogru .sik-harf { color: var(--success); }
+    .sik.yanlis .sik-harf { color: var(--danger); }
+
+    .sik-metin { font-size: .9rem; line-height: 1.5; }
+
+    .cozum-kutu {
+      display: none;
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      border-radius: 0 8px 8px 0;
+      font-size: .88rem;
+      line-height: 1.6;
+      color: #78350f;
+      white-space: pre-wrap;
+    }
+    .cozum-kutu.goster { display: block; }
+    .cozum-baslik { font-weight: 700; margin-bottom: 6px; color: #92400e; }
+
+    .alt-panel {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: var(--card);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      z-index: 100;
+      box-shadow: 0 -2px 12px rgba(0,0,0,.06);
+    }
+
+    .sayac { display: flex; gap: 16px; font-size: .85rem; }
+    .sayac-item { display: flex; align-items: center; gap: 5px; }
+    .sayac-item .daire {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: .8rem; color: #fff;
+    }
+    .d-daire { background: var(--success); }
+    .y-daire { background: var(--danger); }
+    .b-daire { background: var(--gray); }
+
+    .btn-bitir {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 8px;
+      font-size: .9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .18s;
+    }
+    .btn-bitir:hover { background: #4338ca; }
+    .btn-bitir:disabled {
+      background: var(--gray);
+      cursor: not-allowed;
+    }
+
+    .sonuc-bar {
+      display: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .sonuc-bar.goster { display: block; }
+    .sonuc-bar h2 { font-size: 1.15rem; margin-bottom: 14px; color: var(--primary); }
+    .sonuc-satir { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+    .sonuc-item { text-align: center; }
+    .sonuc-sayi { font-size: 1.8rem; font-weight: 800; }
+    .sonuc-label { font-size: .78rem; color: var(--text-secondary); margin-top: 2px; }
+    .s-d { color: var(--success); }
+    .s-y { color: var(--danger); }
+    .s-b { color: var(--gray); }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: .95rem; }
+      .soru { padding: 14px; }
+      .sik { padding: 8px 12px; }
+      .sayac { gap: 10px; }
+      .btn-bitir { padding: 9px 18px; font-size: .85rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>4. Sınıf – Matematik – Zaman Olcme – Test 1 – (Zor)</h1>
+    <span class="badge">16 Soru</span>
+  </header>
+
+  <div class="konteyner">
+    <div class="bilgi-bar">
+      <span><strong>4. Sınıf</strong></span>
+      <span>Ders: <strong>Matematik</strong></span>
+      <span>Konu: <strong>Zaman Olcme</strong></span>
+      <span>Zorluk: <strong>Zor</strong></span>
+    </div>
+
+    <div id="sonucBar" class="sonuc-bar">
+      <h2>Test Tamamlandı!</h2>
+      <div class="sonuc-satir">
+        <div class="sonuc-item"><div class="sonuc-sayi s-d" id="sdogru">0</div><div class="sonuc-label">Doğru</div></div>
+        <div class="sonuc-item"><div class="sonuc-sayi s-y" id="syanlis">0</div><div class="sonuc-label">Yanlış</div></div>
+        <div class="sonuc-item"><div class="sonuc-sayi s-b" id="sbos">0</div><div class="sonuc-label">Boş</div></div>
+        <div class="sonuc-item"><div class="sonuc-sayi" id="snet" style="color:var(--primary)">0</div><div class="sonuc-label">Net</div></div>
+      </div>
+    </div>
+
+    <div id="sorular">
+
+    <div class="soru" id="soru-1" data-no="1">
+      <div class="soru-metin"><strong>1.</strong> (5 Puan)<br>Görselde bir okul projesi için çalışan üç farklı grubun görevlerini tamamlama süreleri ile ilgili bir çalışma alanı görülmektedir. Öğrenciler süreleri farklı birimlerle ifade etmiştir.<br>Grupların süre dönüşümleri aşağıda verilmiştir:<br>I. A grubu 2 saat 15 dakikada, yani toplam 135 dakikada bitirmiştir.<br>II. B grubu 48 saatte, yani tam 2 günde bitirmiştir.<br>III. C grubu 180 dakikada, yani tam 4 saatte bitirmiştir.<br>Görseldeki grupların süre dönüşümlerinden hangileri doğru yapılmıştır?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="1" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">Yalnız I</span>
+      </div>
+      <div class="sik" data-soru="1" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">I ve III</span>
+      </div>
+      <div class="sik" data-soru="1" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">I ve II</span>
+      </div>
+      <div class="sik" data-soru="1" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">II ve III Açıklama: Görselde belirtilen süre dönüşümlerini incelediğimizde: 2 saat 120 dakikaya eşittir, üzerine 15 dakika eklendiğinde 135 dakika olur, bu nedenle birinci öncül doğrudur. 48 saat tam 2 güne eşittir, ikinci öncül doğrudur. 180 dakika 3 saate eşittir, 4 saat değildir, bu nedenle üçüncü öncül yanlıştır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-2" data-no="2">
+      <div class="soru-metin"><strong>2.</strong> (5 Puan)<br>Görselde eski çağlarda uzun mesafeli yolculuklar yapan bir seyyahın rotası ve tuttuğu notlar temsil edilmiştir. Bir seyyahın yolculuk notları incelenmektedir.<br>Seyyahın uğradığı duraklar arasındaki seyahat süreleri şu şekilde ifade edilmiştir:<br>I. Birinci bölüm 3 hafta sürmüş, yani 21 güne eşittir.<br>II. İkinci bölüm 72 ay sürmüş, yani 5 yıla eşittir.<br>III. Üçüncü bölüm 2 yıl sürmüş, yani 24 aya eşittir.<br>Görseldeki bilgiler ve verilen bu seyahat süreleri ile ilgili hangi dönüşümler doğrudur?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="2" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">I ve II</span>
+      </div>
+      <div class="sik" data-soru="2" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">I ve III</span>
+      </div>
+      <div class="sik" data-soru="2" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">Yalnız I</span>
+      </div>
+      <div class="sik" data-soru="2" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">II ve III Açıklama: Görseldeki seyahat sürelerini incelediğimizde: Bir hafta 7 gündür, 3 hafta 21 gün yapar; dolayısıyla birinci öncül doğrudur. Bir yıl 12 aydır, 72 ay 6 yıl yapar, 5 yıl değildir; bu nedenle ikinci öncül yanlıştır. Bir yıl 12 ay olduğundan, 2 yıl 24 ay yapar; bu durumda üçüncü öncül de doğrudur.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-3" data-no="3">
+      <div class="soru-metin"><strong>3.</strong> (5 Puan)<br>Usta bir aşçı, yeni tarifini hazırlarken her bir aşamanın ne kadar sürdüğünü detaylı bir şekilde not etmiştir.<br>Bir kekin yapım ve dinlenme aşamaları için verilen süreler incelenmiştir:<br>I. Pişirme süresi 45 dakika, yani 2700 saniyedir.<br>II. Soğuma süresi yarım saat, yani 15 dakikadır.<br>III. Dinlenme süresi 2 saat, yani 120 dakikadır.<br>Bu sürelerden hangilerinin çevirisi doğru hesaplanmıştır?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="3" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">Birinci ve İkinci</span>
+      </div>
+      <div class="sik" data-soru="3" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">Yalnız Birinci</span>
+      </div>
+      <div class="sik" data-soru="3" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">Yalnız Üçüncü</span>
+      </div>
+      <div class="sik" data-soru="3" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">Birinci ve Üçüncü Açıklama: Bir dakika 60 saniyedir. 45 dakika 45 x 60 = 2700 saniyedir (I doğru). Bir saat 60 dakikadır, yarım saat 30 dakikadır (II yanlış). İki saat 2 x 60 = 120 dakikadır (III doğru). Sonuç olarak sadece birinci ve üçüncü işlemler doğru hesaplanmıştır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-4" data-no="4">
+      <div class="soru-metin"><strong>4.</strong> (5 Puan)<br>Zaman birimlerini birbirine dönüştürmek, günlük planlarımızı doğru yapmamızı sağlar. Bir saat 60 dakika, bir gün 24 saat ve bir hafta 7 gündür. Verilen görselde zaman birimleri arasındaki dönüşümlerle ilgili bazı çalışmalar yapan öğrenciler şu ifadeleri kullanmışlardır:<br>I. 1 gün 12 saat toplam 36 saattir.<br>II. 3 saat 15 dakika toplam 195 dakikadır.<br>III. 2 hafta 4 gün toplam 16 gündür.<br>IV. 150 dakika, 2 saat 30 dakikaya eşittir.<br>Bu ifadelerden kaç tanesi doğru hesaplanmıştır?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="4" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">1</span>
+      </div>
+      <div class="sik" data-soru="4" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">2</span>
+      </div>
+      <div class="sik" data-soru="4" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">3</span>
+      </div>
+      <div class="sik" data-soru="4" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">4 Açıklama: Görseldeki bilgiler ışığında ifadeler incelendiğinde; birinci ifadede 1 gün 24 saattir, üzerine 12 saat eklendiğinde 36 saat bulunur ve doğrudur. İkinci ifadede 3 saat 180 dakikadır, 15 dakika eklendiğinde 195 dakika eder ve doğrudur. Dördüncü ifadede 2 saat 120 dakikadır, 30 dakika eklendiğinde 150 dakika bulunur ve doğrudur. Ancak üçüncü ifadede 2 hafta 14 gündür, 4 gün eklendiğinde 18 gün olması gerekirken 16 gün yazılmıştır, bu nedenle yanlıştır. Toplam üç ifade doğru hesaplanmıştır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-5" data-no="5">
+      <div class="soru-metin"><strong>5.</strong> (5 Puan)<br>Verilen görselde bir dağ maratonuna katılan koşucuların parkuru tamamlama süreleri hakemler tarafından farklı zaman ölçüleri kullanılarak kaydedilmiştir.<br>Bu sporcuların koşu parkurunu bitirme süreleri hakkında şu bilgiler verilmiştir:<br>I. Birinci sporcu 150 dakikada, yani 2 saat 30 dakikada bitirmiştir.<br>II. İkinci sporcu 3 saat 10 dakikada, yani 190 dakikada bitirmiştir.<br>III. Üçüncü sporcu 400 saniyede, yani 4 dakikada bitirmiştir.<br>Görseldeki bilgiler ve verilenler ışığında, bu sporcuların süreleriyle ilgili hangisi yanlıştır?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="5" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">Yalnız Birinci</span>
+      </div>
+      <div class="sik" data-soru="5" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">Yalnız İkinci</span>
+      </div>
+      <div class="sik" data-soru="5" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">Yalnız Üçüncü</span>
+      </div>
+      <div class="sik" data-soru="5" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">Birinci ve Üçüncü Açıklama: Görselde belirtilen zaman birimleri arasındaki dönüşümler incelendiğinde; bir saat 60 dakikadır. 150 dakika, 2 saat (120 dakika) ve 30 dakikadan oluşur, dolayısıyla birinci sporcunun süresi doğrudur. 3 saat 180 dakikadır, üzerine 10 dakika eklendiğinde 190 dakika eder, bu yüzden ikinci sporcunun süresi de doğrudur. Bir dakika 60 saniyedir, 4 dakika ise 240 saniye eder; ancak üçüncü sporcunun süresi 400 saniye olarak verildiği için bu çeviri yanlıştır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-6" data-no="6">
+      <div class="soru-metin"><strong>6.</strong> (5 Puan)<br>Görselde görülen canlıların gelişim evreleri türden türe farklılık gösterir. Veterinerler bu süreleri takip ederken birimleri birbirine çevirmek zorundadır. Görseldeki hayvanların büyüme süreleri şöyledir: Kedi 65 gün, Köpek 10 hafta ve Tavşan 2 ay. Bu bilgilere göre büyüme sürelerinin uzundan kısaya doğru sıralanışı hangisidir? (1 ay 30 gün alınacaktır)</div>
+      <div class="siklar">
+      <div class="sik" data-soru="6" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">Köpek, Tavşan, Kedi</span>
+      </div>
+      <div class="sik" data-soru="6" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">Kedi, Köpek, Tavşan</span>
+      </div>
+      <div class="sik" data-soru="6" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">Köpek, Kedi, Tavşan</span>
+      </div>
+      <div class="sik" data-soru="6" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">Tavşan, Kedi, Köpek Açıklama: Görseldeki verileri incelediğimizde: Bir hafta 7 gün olduğundan, köpeğin süresi 10 x 7 = 70 gündür. Bir ay 30 gün kabul edildiğinden, tavşanın süresi 2 x 30 = 60 gündür. Kedinin süresi zaten 65 gün olarak verilmiştir. Sürelerin uzundan kısaya sıralanışı Köpek (70), Kedi (65), Tavşan (60) şeklinde olmalıdır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-7" data-no="7">
+      <div class="soru-metin"><strong>7.</strong> (5 Puan)<br>Etkinliklerin başlangıç ve bitiş saatlerini hesaplamak için zaman ölçme birimleriyle işlemler yaparız ve geçen süreyi buluruz. Görselde belirtilen spor turnuvasındaki maçların süreleri ile ilgili aşağıdaki ifadeler verilmiştir:<br>I. Birinci maç 14.30‛da başlayıp 16.15‛te bittiyse, maç 1 saat 45 dakika sürmüştür.<br>II. İkinci maç 90 dakika sürmüştür ve 18.00‛da bitmiştir, demek ki maç 16.30‛da başlamıştır.<br>III. Üçüncü maç 1 saat 50 dakika sürmüştür ve toplam 100 dakikadır.<br>IV. Dördüncü maç 15.45‛te başlayıp 120 dakika sürmüşse, 17.45‛te bitmiştir.<br>Verilen ifadelerden hatalı olanın numarası aşağıdakilerden hangisidir?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="7" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">IV</span>
+      </div>
+      <div class="sik" data-soru="7" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">I</span>
+      </div>
+      <div class="sik" data-soru="7" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">III</span>
+      </div>
+      <div class="sik" data-soru="7" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">II Açıklama: Görseldeki maç planlamasına göre hesaplamalar yapıldığında: Birinci maçın süresi 16.15'ten 14.30 çıkarılarak 1 saat 45 dakika bulunur, doğrudur. İkinci maç 90 dakika yani 1 saat 30 dakika sürmüştür; 18.00'dan çıkarıldığında başlama saati 16.30 olarak bulunur, doğrudur. Dördüncü maç 120 dakika yani 2 saat sürmüştür; 15.45'e 2 saat eklendiğinde 17.45 bulunur, doğrudur. Ancak üçüncü maçın süresi olan 1 saat 50 dakika, 60 + 50 = 110 dakikadır. İfadede 100 dakika yazıldığı için hatalıdır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-8" data-no="8">
+      <div class="soru-metin"><strong>8.</strong> (5 Puan)<br>Görselde internet üzerinden yayın yapan çeşitli bilim ve kültür dergilerinin abonelik paketleri temsil edilmiştir. Bu dergilerin abonelik süreleri şöyledir: Bilim dergisi 2 yıl 4 ay, Doğa dergisi 29 ay ve Sanat dergisi 104 hafta süreyle abonelik imkanı sunmaktadır. Görseldeki verileri ve verilen bilgileri inceleyerek, en uzun ve en kısa abonelik sürelerinin hangi dergilere ait olduğunu belirleyiniz. (1 ay 4 hafta olarak hesaplanacaktır.)</div>
+      <div class="siklar">
+      <div class="sik" data-soru="8" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">En uzun Sanat, en kısa Doğa</span>
+      </div>
+      <div class="sik" data-soru="8" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">En uzun Doğa, en kısa Sanat</span>
+      </div>
+      <div class="sik" data-soru="8" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">En uzun Bilim, en kısa Sanat</span>
+      </div>
+      <div class="sik" data-soru="8" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">En uzun Doğa, en kısa Bilim Açıklama: Görselde belirtilen süreleri karşılaştırmak için hepsini ay birimine çevirelim. Bir yıl 12 aydır, bu durumda Bilim dergisi 2 yıl (24 ay) + 4 ay = 28 aydır. Doğa dergisi zaten 29 ay olarak verilmiştir. Sanat dergisi için 1 ay 4 hafta kabul edildiğinden, 104 hafta / 4 = 26 aydır. Bu hesaplamalara göre en uzun süre Doğa dergisine (29 ay), en kısa süre ise Sanat dergisine (26 ay) aittir.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-9" data-no="9">
+      <div class="soru-metin"><strong>9.</strong> (5 Puan)<br>Seyahat planı yaparken hareket ve varış saatlerini içeren tabloları doğru okumak ve geçen süreyi hesaplamak çok önemlidir.<br>Aşağıdaki tablo üç farklı otobüsün bir şehirden diğerine gidiş sürelerini göstermektedir:<br>Otobüs<br>Kalkış Saati<br>Varış Saati<br>Kırmızı</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-8" data-no="8">
+      <div class="soru-metin"><strong>8.</strong> 15</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-11" data-no="11">
+      <div class="soru-metin"><strong>11.</strong> 45<br>Mavi</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-9" data-no="9">
+      <div class="soru-metin"><strong>9.</strong> 30</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-12" data-no="12">
+      <div class="soru-metin"><strong>12.</strong> 10<br>Yeşil</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-10" data-no="10">
+      <div class="soru-metin"><strong>10.</strong> 45</div>
+      <div class="siklar"></div>
+    </div>
+
+    <div class="soru" id="soru-14" data-no="14">
+      <div class="soru-metin"><strong>14.</strong> 30<br>Bu tabloya göre otobüslerin yolculuk süreleri ile ilgili aşağıdakilerden hangisi doğrudur?</div>
+      <div class="siklar">
+      <div class="sik" data-soru="14" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">Yeşil otobüsün yolculuğu tam dört saat sürmüştür.</span>
+      </div>
+      <div class="sik" data-soru="14" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">Yeşil otobüsün yolculuğu Mavi otobüsten kısa sürmüştür.</span>
+      </div>
+      <div class="sik" data-soru="14" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">Kırmızı otobüsün yolculuğu tam üç saat sürmüştür.</span>
+      </div>
+      <div class="sik" data-soru="14" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">Mavi otobüsün yolculuğu üç saatten kısa sürmüştür. Açıklama: Kırmızı otobüsün yolculuğu 11.45 - 08.15 = 3 saat 30 dakika sürmüştür. Mavi otobüsün yolculuğu 12.10 - 09.30 işlemi ile (1 saati 60 dakika olarak bozduğumuzda) 2 saat 40 dakika bulunur. Yeşil otobüsün yolculuğu ise 14.30 - 10.45 işlemi ile 3 saat 45 dakika sürer. Bu sonuçlara göre Mavi otobüsün yolculuğu 2 saat 40 dakika sürmüş olup, 3 saatten kısa sürmüştür ifadesi doğrudur. Diğer seçeneklerdeki bilgiler hesaplamalarla uyuşmamaktadır.</span>
+      </div></div>
+    </div>
+
+    <div class="soru" id="soru-10" data-no="10">
+      <div class="soru-metin"><strong>10.</strong> (5 Puan)<br>Bir uzay aracı başka bir gezegene ulaşmak için uzayda uzun bir yolculuk yapmıştır. Yolculuğun ilk aşaması tam 4 ay, ikinci aşaması ise 125 gün sürmüştür.<br>Bu uzay aracının toplam yolculuğu kaç hafta sürmüştür? (1 ayı 30 gün olarak hesaplayınız.)</div>
+      <div class="siklar">
+      <div class="sik" data-soru="10" data-sik="A">
+        <span class="sik-harf">A</span>
+        <span class="sik-metin">33 hafta</span>
+      </div>
+      <div class="sik" data-soru="10" data-sik="B">
+        <span class="sik-harf">B</span>
+        <span class="sik-metin">32 hafta</span>
+      </div>
+      <div class="sik" data-soru="10" data-sik="C">
+        <span class="sik-harf">C</span>
+        <span class="sik-metin">34 hafta</span>
+      </div>
+      <div class="sik" data-soru="10" data-sik="D">
+        <span class="sik-harf">D</span>
+        <span class="sik-metin">35 hafta Açıklama: Önce 4 ayın kaç gün olduğunu bulmalıyız. 1 ay 30 gün olduğuna göre, 4 ay 120 gündür. İkinci aşama 125 gün sürdüğü için, toplam yolculuk süresi 120 + 125 = 245 gün yapar. Bir hafta 7 gün olduğundan, 245 sayısını 7‛ye böldüğümüzde tam 35 hafta sonucuna ulaşırız.</span>
+      </div></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="alt-panel">
+    <div class="sayac">
+      <div class="sayac-item">
+        <div class="daire d-daire" id="cDogru">0</div>
+        <span>Doğru</span>
+      </div>
+      <div class="sayac-item">
+        <div class="daire y-daire" id="cYanlis">0</div>
+        <span>Yanlış</span>
+      </div>
+      <div class="sayac-item">
+        <div class="daire b-daire" id="cBos">16</div>
+        <span>Boş</span>
+      </div>
+    </div>
+    <button class="btn-bitir" id="btnBitir" onclick="testiBitir()">Testi Bitir</button>
+  </div>
+
+  <script>
+    const CEVAPLAR = {};
+    const COZUMLER = {};
+    const TOPLAM = 16;
+
+    const secimler = {}; // {soruNo: 'A'}
+    let bitti = false;
+
+    // Şık tıklama
+    document.querySelectorAll('.sik').forEach(el => {
+      el.addEventListener('click', function() {
+        if (bitti) return;
+        const no = parseInt(this.dataset.soru);
+        const sik = this.dataset.sik;
+
+        // Aynı şıka tekrar tıklarsa seçimi kaldır
+        if (secimler[no] === sik) {
+          delete secimler[no];
+          this.classList.remove('secili');
+        } else {
+          // Önceki seçimi kaldır
+          document.querySelectorAll(`.sik[data-soru="${no}"]`).forEach(s => s.classList.remove('secili'));
+          secimler[no] = sik;
+          this.classList.add('secili');
+        }
+        sayaciGuncelle();
+      });
+    });
+
+    function sayaciGuncelle() {
+      const cevaplanan = Object.keys(secimler).length;
+      document.getElementById('cBos').textContent = TOPLAM - cevaplanan;
+    }
+
+    function testiBitir() {
+      if (bitti) return;
+      bitti = true;
+
+      let dogru = 0, yanlis = 0, bos = 0;
+
+      for (let i = 1; i <= TOPLAM; i++) {
+        const secilen = secimler[i];
+        const dogruCevap = CEVAPLAR[i];
+        const soruEl = document.getElementById('soru-' + i);
+
+        // Tüm şıkları disable et
+        soruEl.querySelectorAll('.sik').forEach(s => s.classList.add('disabled'));
+
+        if (!secilen) {
+          bos++;
+        } else if (secilen === dogruCevap) {
+          dogru++;
+          soruEl.querySelector(`.sik[data-sik="${secilen}"]`).classList.add('dogru');
+          soruEl.querySelector(`.sik[data-sik="${secilen}"]`).classList.remove('secili');
+        } else {
+          yanlis++;
+          // Seçilen yanlış
+          soruEl.querySelector(`.sik[data-sik="${secilen}"]`).classList.add('yanlis');
+          soruEl.querySelector(`.sik[data-sik="${secilen}"]`).classList.remove('secili');
+          // Doğru cevabı yeşil göster
+          if (dogruCevap) {
+            soruEl.querySelector(`.sik[data-sik="${dogruCevap}"]`)?.classList.add('dogru');
+          }
+          // Çözümü göster (sadece yanlış yapılan sorularda)
+          if (COZUMLER[i]) {
+            let cozumEl = soruEl.querySelector('.cozum-kutu');
+            if (!cozumEl) {
+              cozumEl = document.createElement('div');
+              cozumEl.className = 'cozum-kutu';
+              const safeText = String(COZUMLER[i]).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/
+/g,'<br>');
+              cozumEl.innerHTML = '<div class='cozum-baslik'>📝 Çözüm</div>' + safeText;
+              soruEl.appendChild(cozumEl);
+            }
+            cozumEl.classList.add('goster');
+          }
+        }
+      }
+
+      // Sayaçları güncelle
+      document.getElementById('cDogru').textContent = dogru;
+      document.getElementById('cYanlis').textContent = yanlis;
+      document.getElementById('cBos').textContent = bos;
+
+      // Sonuç barı
+      const net = (dogru - yanlis * 0.25).toFixed(2);
+      document.getElementById('sdogru').textContent = dogru;
+      document.getElementById('syanlis').textContent = yanlis;
+      document.getElementById('sbos').textContent = bos;
+      document.getElementById('snet').textContent = net;
+      document.getElementById('sonucBar').classList.add('goster');
+
+      document.getElementById('btnBitir').disabled = true;
+      document.getElementById('btnBitir').textContent = 'Test Bitti';
+
+      // Sonuç barına kaydır
+      document.getElementById('sonucBar').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
