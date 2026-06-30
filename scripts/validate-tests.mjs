@@ -15,7 +15,7 @@ const difficulties = new Set(["kolay", "orta", "zor"]);
 const questionTexts = new Set();
 const slugs = new Set();
 
-if (tests.length !== 48) throw new Error(`Toplam 48 test bulunmalı; bulunan: ${tests.length}.`);
+if (tests.length !== 66) throw new Error(`Toplam 66 test bulunmalı; bulunan: ${tests.length}.`);
 
 for (const test of tests) {
   for (const field of required) {
@@ -62,5 +62,6 @@ function validateGroup(classLevel, subject, expectedTests, expectedTopics) {
 
 validateGroup(1, "matematik", 21, 7);
 validateGroup(1, "turkce", 24, 8);
+validateGroup(1, "hayat-bilgisi", 18, 6);
 
 console.log(`✓ ${tests.length} test ve ${tests.reduce((sum, test) => sum + test.questions.length, 0)} soru doğrulandı.`);
