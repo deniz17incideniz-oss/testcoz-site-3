@@ -2,7 +2,6 @@
 <html lang="tr">
 
 <head>
-  <script src="data/testRegistry.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1287455375559097"
     crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
@@ -160,159 +159,11 @@
     </div>
   </footer>
 
+  <script src="js/utils.js"></script>
+  <script src="data/catalog.js"></script>
+  <script src="data/tests/4-matematik-zaman-olcme.js"></script>
   <script src="js/main.js"></script>
-  <script type="module">
-    import { curriculum } from './data/curriculumData.js';
-
-    // Maps konu.html ders keys → curriculum subject keys
-    const SUBJECT_CURRICULUM_KEY = {
-      matematik: 'math',
-      turkce: 'turkish',
-      hayat: 'life_science',
-      fen: 'science',
-      sosyal: 'social'
-    };
-
-    const SUBJECT_LABELS = {
-      matematik: 'Matematik',
-      turkce: 'Türkçe',
-      hayat: 'Hayat Bilgisi',
-      fen: 'Fen Bilimleri',
-      sosyal: 'Sosyal Bilgiler',
-      din: 'Din Kültürü ve Ahlak Bilgisi',
-      ingilizce: 'İngilizce'
-    };
-
-    const SUBJECT_ICONS = {
-      matematik: '📐',
-      turkce: '📖',
-      hayat: '🏡',
-      fen: '🔬',
-      sosyal: '🌍',
-      din: '🕌',
-      ingilizce: '🇬🇧'
-    };
-
-    const GRADE_SUBJECTS = {
-      '1': ['matematik', 'turkce', 'hayat'],
-      '2': ['matematik', 'turkce', 'hayat'],
-      '3': ['matematik', 'turkce', 'fen', 'sosyal', 'ingilizce'],
-      '4': ['matematik', 'turkce', 'fen', 'sosyal', 'din', 'ingilizce']
-    };
-
-    const params = new URLSearchParams(window.location.search);
-    const ders = params.get('ders') || '';
-    const sinif = params.get('sinif') || '4';
-    const gradeNum = parseInt(sinif);
-
-    const selectedGrade = curriculum.find(g => g.grade === gradeNum);
-    const selectedSubject = SUBJECT_CURRICULUM_KEY[ders];
-    const topics = (selectedGrade && selectedSubject)
-      ? selectedGrade.subjects[selectedSubject]?.topics
-      : null;
-
-    const topicList = document.getElementById('topicList');
-
-    function setBreadcrumb(label) {
-      const breadcrumbSinif = document.getElementById('breadcrumbSinif');
-      if (breadcrumbSinif) {
-        breadcrumbSinif.textContent = sinif + '. Sınıf';
-        breadcrumbSinif.href = 'sinif.html?sinif=' + sinif;
-      }
-      const breadcrumbDers = document.getElementById('breadcrumbDers');
-      if (breadcrumbDers) breadcrumbDers.textContent = label;
-    }
-
-    if (topics && topics.length > 0) {
-      // ── Subject with topics ──────────────────────────────────
-      const label = SUBJECT_LABELS[ders] || ders;
-      document.title = sinif + '. Sınıf ' + label + ' Konuları | TestÇöz';
-      document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf ' + label + ' Konuları';
-      document.getElementById('pageHeroSub').textContent = 'Bir konu seçerek teste başlayabilirsiniz.';
-      document.getElementById('konuBaslik').textContent = label + ' Konuları';
-      setBreadcrumb(label);
-
-            function slugifyTopic(str) {
-        return str.toLowerCase()
-          .replace(/\s+/g, '-')
-          .replace(/[çÇ]/g, 'c')
-          .replace(/[şŞ]/g, 's')
-          .replace(/[ıİ]/g, 'i')
-          .replace(/[ğĞ]/g, 'g')
-          .replace(/[öÖ]/g, 'o')
-          .replace(/[üÜ]/g, 'u')
-          .replace(/[^a-z0-9\-]/g, '');
-      }
-
-      topicList.innerHTML = topics.map(function (ad, idx) {
-        var slug = slugifyTopic(ad);
-        var _testKey=sinif+'-'+ders+'-'+slug+'-zor';var _testUrl=(typeof TESTLER!=='undefined'&&TESTLER[_testKey])?TESTLER[_testKey]:('test.html?sinif='+sinif+'&ders='+ders+'&konu='+slug+'&zorluk=zor');return '<a class="topic-card" href="'+_testUrl+'">' +
-          '<div class="topic-card-left">' +
-          '<div class="topic-num">' + (idx + 1) + '</div>' +
-          '<div class="topic-info">' +
-          '<h4>' + ad + '</h4>' +
-          '<p>Teste başla</p>' +
-          '</div>' +
-          '</div>' +
-          '<div class="difficulty-badges">' +
-          '<span class="badge badge-zor">Zor</span>' +
-          '</div>' +
-          '</a>';
-      }).join('');
-
-    } else if (ders) {
-      // ── Subject exists but no topics yet (empty [] or not in curriculum) ──
-      const label = SUBJECT_LABELS[ders] || ders;
-      document.title = sinif + '. Sınıf ' + label + ' | TestÇöz';
-      document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf ' + label + ' Konuları';
-      document.getElementById('pageHeroSub').textContent = 'Bu derse ait konular çok yakında eklenecektir.';
-      document.getElementById('konuBaslik').textContent = label + ' Konuları';
-      setBreadcrumb(label);
-
-      topicList.innerHTML =
-        '<div style="text-align:center;padding:48px 20px;background:linear-gradient(135deg,#EFF6FF,#DBEAFE);border:2px dashed #93C5FD;border-radius:16px;">' +
-        '<div style="font-size:3rem;margin-bottom:12px;">📝</div>' +
-        '<h3 style="color:#1E40AF;margin-bottom:8px;">Sorular Hazırlanıyor</h3>' +
-        '<p style="color:#64748B;max-width:400px;margin:0 auto;">Bu derse ait konular ve sorular çok yakında eklenecektir.</p>' +
-        '</div>';
-
-    } else {
-      // ── No ders param — list all subjects for this grade ─────
-      const gradeSubjects = GRADE_SUBJECTS[sinif] || GRADE_SUBJECTS['4'];
-      document.title = sinif + '. Sınıf Konular | TestÇöz';
-      document.getElementById('pageHeroTitle').textContent = sinif + '. Sınıf Konu Listesi';
-      document.getElementById('pageHeroSub').textContent = 'Bir ders seçerek konulara ulaşabilirsiniz.';
-      document.getElementById('konuBaslik').textContent = 'Dersler';
-      const breadcrumbSinif = document.getElementById('breadcrumbSinif');
-      if (breadcrumbSinif) {
-        breadcrumbSinif.textContent = sinif + '. Sınıf';
-        breadcrumbSinif.href = 'sinif.html?sinif=' + sinif;
-      }
-
-      topicList.innerHTML = gradeSubjects.map(function (d) {
-        const cKey = SUBJECT_CURRICULUM_KEY[d];
-        const gData = curriculum.find(g => g.grade === gradeNum);
-        const count = (gData && cKey && gData.subjects[cKey])
-          ? gData.subjects[cKey].topics.length
-          : 0;
-        const label = SUBJECT_LABELS[d] || d;
-        return '<a class="topic-card" href="konu.html?ders=' + d + '&sinif=' + sinif + '">' +
-          '<div class="topic-card-left">' +
-          '<div class="topic-num" style="font-size:1.2rem;width:44px;height:44px;">' + (SUBJECT_ICONS[d] || '📚') + '</div>' +
-          '<div class="topic-info">' +
-          '<h4>' + label + '</h4>' +
-          '<p>' + (count > 0 ? count + ' konu içerir' : 'Yakında eklenecek') + '</p>' +
-          '</div>' +
-          '</div>' +
-          '<div class="difficulty-badges">' +
-          '<span class="badge badge-kolay">Kolay</span>' +
-          '<span class="badge badge-orta">Orta</span>' +
-          '<span class="badge badge-zor">Zor</span>' +
-          '</div>' +
-          '</a>';
-      }).join('');
-    }
-  </script>
+  <script src="js/catalog-pages.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,9 @@
   "name": "testcoz-automation",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-tests.mjs && node scripts/check-links.mjs"
+  },
   "dependencies": {
     "mammoth": "^1.8.0",
     "cheerio": "^1.0.0",
