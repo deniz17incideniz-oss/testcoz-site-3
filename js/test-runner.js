@@ -61,7 +61,7 @@
       '<p class="question-text">' + utils.escapeHtml(question.question) + '</p><div class="options-grid">' + choices + '</div>' +
       '<div class="test-nav"><button type="button" class="btn btn-outline btn-sm" id="previousQuestion"' + (currentIndex === 0 ? " disabled" : "") + '>← Önceki</button>' +
       '<button type="button" class="btn btn-ghost btn-sm" id="skipQuestion">Geç</button>' +
-      '<button type="button" class="btn btn-primary btn-sm" id="nextQuestion">' + (currentIndex === test.questions.length - 1 ? "Sonucu Gör" : "Sonraki Soru →") + '</button></div></div>';
+      '<button type="button" class="btn btn-primary btn-sm" id="nextQuestion">' + (currentIndex === test.questions.length - 1 ? "Testi Bitir" : "Sonraki Soru →") + '</button></div></div>';
     updateProgress();
 
     document.querySelectorAll("[data-choice]").forEach(function (button) {
@@ -89,13 +89,15 @@
   function showResult() {
     const correct = answers.filter(function (answer, index) { return answer === test.questions[index].correctAnswer; }).length;
     const wrongIndexes = answers.map(function (answer, index) { return answer !== null && answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
+    const reviewIndexes = answers.map(function (answer, index) { return answer === null || answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
     const empty = answers.filter(function (answer) { return answer === null; }).length;
     const percentage = Math.round((correct / test.questions.length) * 100);
-    const reviews = wrongIndexes.length
-      ? '<section class="wrong-review"><h2>Yanlış Cevapların</h2>' + wrongIndexes.map(function (index) {
+    const reviews = reviewIndexes.length
+      ? '<section class="wrong-review"><h2>Tekrar Bakabileceğin Sorular</h2>' + reviewIndexes.map(function (index) {
           const question = test.questions[index];
+          const isEmpty = answers[index] === null;
           return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
-            '<dl><div><dt>Senin cevabın</dt><dd class="val-wrong">' + utils.escapeHtml(question.choices[answers[index]]) + '</dd></div>' +
+            '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? 'val-empty' : 'val-wrong') + '">' + (isEmpty ? 'Bu soru boş bırakıldı' : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
             '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
             '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
         }).join("") + '</section>'
@@ -107,8 +109,9 @@
     document.querySelector(".test-score").textContent = correct + " / " + test.questions.length + " Doğru";
     const resultArea = document.getElementById("resultArea");
     resultArea.style.display = "";
+    const motivation = percentage >= 80 ? "Harika ilerliyorsun!" : percentage >= 60 ? "Güzel gidiyor, biraz daha çalışmayla çok daha iyi olacak!" : "Her deneme öğrenmenin bir parçası; yeniden deneyebilirsin!";
     resultArea.innerHTML = '<div class="result-card"><div class="result-emoji">' + (percentage >= 80 ? "🏆" : percentage >= 60 ? "👍" : "💪") + '</div>' +
-      '<div class="result-score">%' + percentage + '</div><div class="result-label">Test sonuçların hazır!</div>' +
+      '<div class="result-score">%' + percentage + '</div><div class="result-label">' + motivation + '</div>' +
       '<div class="result-stats"><div class="result-stat"><div class="result-stat-val val-correct">' + correct + '</div><div class="result-stat-lbl">Doğru</div></div>' +
       '<div class="result-stat"><div class="result-stat-val val-wrong">' + wrongIndexes.length + '</div><div class="result-stat-lbl">Yanlış</div></div>' +
       '<div class="result-stat"><div class="result-stat-val val-empty">' + empty + '</div><div class="result-stat-lbl">Boş / Geçilen</div></div></div>' +

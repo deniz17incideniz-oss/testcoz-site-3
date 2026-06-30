@@ -12,7 +12,7 @@ Bu komut test şemasını, her testte tam 10 soru bulunmasını ve yerel HTML ba
 
 ## Yeni test ekleme
 
-1. `data/tests/` içinde sınıf, ders ve konuyu anlatan bir JavaScript dosyası oluşturun. Mevcut `4-matematik-zaman-olcme.js` dosyası doğrudan örnek olarak kullanılabilir.
+1. `data/tests/` içinde sınıf, ders ve konuyu anlatan bir JavaScript dosyası oluşturun. `1-matematik.js` ve `4-matematik-zaman-olcme.js` dosyaları örnek olarak kullanılabilir.
 2. Dosyadaki her test nesnesinde şu alanları kullanın:
 
 ```js
@@ -22,6 +22,8 @@ Bu komut test şemasını, her testte tam 10 soru bulunmasını ve yerel HTML ba
   topic: "zaman-olcme",
   difficulty: "kolay", // kolay | orta | zor
   testNumber: 1,
+  slug: "4-sinif-matematik-zaman-olcme-kolay-test-1",
+  pageUrl: "tests/4-sinif-matematik-zaman-olcme-kolay-test-1.html",
   questions: [
     {
       question: "Soru metni",
@@ -36,6 +38,6 @@ Bu komut test şemasını, her testte tam 10 soru bulunmasını ve yerel HTML ba
 
 3. Yeni veri dosyasını `konu.html` ve `test.html` sayfalarında, mevcut test veri dosyasının yanına bir `<script src="..."></script>` etiketiyle ekleyin.
 4. Ders veya konu katalogda yoksa `data/catalog.js` dosyasına ekleyin. Konu kimliği Türkçe başlıktan otomatik üretilir.
-5. `npm test` çalıştırın ve sınıf → ders → konu → test bağlantısını tarayıcıda kontrol edin.
+5. Statik test sayfaları veya görseller üretim betiğine bağlıysa önce `npm run generate`, ardından `npm test` çalıştırın ve sınıf → ders → konu → test bağlantısını tarayıcıda kontrol edin.
 
-`image` doluysa soru görseli yalnızca ilgili soruda, metnin hemen üzerinde gösterilir. Sonuç ekranı doğru, yanlış, boş/geçilen sayıları; başarı yüzdesini ve her yanlış cevap için çözümü otomatik üretir.
+`image` doluysa soru görseli yalnızca ilgili soruda, metnin hemen üzerinde gösterilir. Sonuç ekranı doğru, yanlış, boş/geçilen sayıları; başarı yüzdesini ve yalnız yanlış veya boş bırakılan soruların çözümlerini otomatik üretir.

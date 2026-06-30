@@ -13,13 +13,13 @@ function walk(folder) {
 const missing = [];
 for (const file of walk(".")) {
   const html = fs.readFileSync(file, "utf8");
-  for (const match of html.matchAll(/href=["']([^"']+)["']/g)) {
-    const href = match[1];
-    if (/^(?:https?:|mailto:|tel:|#|javascript:)/.test(href)) continue;
-    const target = href.split(/[?#]/)[0];
+  for (const match of html.matchAll(/(?:href|src)=["']([^"']+)["']/g)) {
+    const reference = match[1];
+    if (/^(?:https?:|mailto:|tel:|data:|#|javascript:)/.test(reference)) continue;
+    const target = reference.split(/[?#]/)[0];
     if (!target) continue;
     const resolved = path.resolve(path.dirname(file), target.replace(/^\//, ""));
-    if (!fs.existsSync(resolved)) missing.push(`${file}: ${href}`);
+    if (!fs.existsSync(resolved)) missing.push(`${file}: ${reference}`);
   }
 }
 
