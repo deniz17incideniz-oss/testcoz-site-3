@@ -4,8 +4,10 @@ import vm from "node:vm";
 
 const context = { window: {} };
 vm.createContext(context);
-vm.runInContext(fs.readFileSync("data/tests/1-matematik.js", "utf8"), context);
-const tests = context.window.TESTCOZ_TESTS || [];
+for (const file of fs.readdirSync("data/tests").filter((name) => name.endsWith(".js")).sort()) {
+  vm.runInContext(fs.readFileSync(path.join("data/tests", file), "utf8"), context);
+}
+const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel === 1);
 const imageDir = path.resolve("images/tests");
 const pageDir = path.resolve("tests");
 fs.mkdirSync(imageDir, { recursive: true });
@@ -100,14 +102,14 @@ function renderSvg(question) {
 }
 
 function pageHtml(test) {
-  const query = `sinif=1&ders=matematik&konu=${test.topic}&zorluk=${test.difficulty}&test=1`;
+  const query = `sinif=${test.classLevel}&ders=${test.subject}&konu=${test.topic}&zorluk=${test.difficulty}&test=${test.testNumber}`;
   const label = test.difficulty.charAt(0).toLocaleUpperCase("tr-TR") + test.difficulty.slice(1);
   return `<!doctype html>\n<html lang="tr">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <meta http-equiv="refresh" content="0; url=../test.html?${query.replaceAll("&", "&amp;")}">\n  <title>1. Sınıf Matematik ${test.topicName} ${label} Test 1 | TestÇöz</title>\n  <link rel="canonical" href="https://testcoz.pro/${test.pageUrl}">\n  <link rel="stylesheet" href="../css/style.css">\n</head>\n<body>\n  <main class="section"><div class="container empty-state">\n    <h1>${label} Test 1 açılıyor…</h1>\n    <p>Otomatik yönlendirme başlamazsa aşağıdaki bağlantıyı kullanın.</p>\n    <a class="btn btn-primary" href="../test.html?${query.replaceAll("&", "&amp;")}">Teste Başla</a>\n  </div></main>\n  <script>location.replace("../test.html?${query}");</script>\n</body>\n</html>\n`;
 }
 
 let imageCount = 0;
 for (const test of tests) {
-  fs.writeFileSync(test.pageUrl, pageHtml(test), "utf8");
+  fs.writeFileSync(test.pageUrl, pageHtml(test).replace("Matematik", test.subjectName), "utf8");
   for (const question of test.questions) {
     if (!question.image || !question.visual) continue;
     fs.writeFileSync(question.image, renderSvg(question), "utf8");
