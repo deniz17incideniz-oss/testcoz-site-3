@@ -7,7 +7,7 @@ vm.createContext(context);
 for (const file of fs.readdirSync("data/tests").filter((name) => name.endsWith(".js")).sort()) {
   vm.runInContext(fs.readFileSync(path.join("data/tests", file), "utf8"), context);
 }
-const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel === 1);
+const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel <= 2);
 const imageDir = path.resolve("images/tests");
 const pageDir = path.resolve("tests");
 fs.mkdirSync(imageDir, { recursive: true });
@@ -109,7 +109,8 @@ function pageHtml(test) {
 
 let imageCount = 0;
 for (const test of tests) {
-  fs.writeFileSync(test.pageUrl, pageHtml(test).replace("Matematik", test.subjectName), "utf8");
+  const html = pageHtml(test).replace("1. Sınıf Matematik", test.classLevel + ". Sınıf " + test.subjectName);
+  fs.writeFileSync(test.pageUrl, html, "utf8");
   for (const question of test.questions) {
     if (!question.image || !question.visual) continue;
     fs.writeFileSync(question.image, renderSvg(question), "utf8");
