@@ -7,7 +7,7 @@ vm.createContext(context);
 for (const file of fs.readdirSync("data/tests").filter((name) => name.endsWith(".js")).sort()) {
   vm.runInContext(fs.readFileSync(path.join("data/tests", file), "utf8"), context);
 }
-const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel <= 2);
+const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel <= 3);
 const imageDir = path.resolve("images/tests");
 const pageDir = path.resolve("tests");
 fs.mkdirSync(imageDir, { recursive: true });

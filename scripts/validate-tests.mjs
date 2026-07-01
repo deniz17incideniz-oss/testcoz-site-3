@@ -15,7 +15,7 @@ const difficulties = new Set(["kolay", "orta", "zor"]);
 const questionTexts = new Set();
 const slugs = new Set();
 
-if (tests.length !== 144) throw new Error(`Toplam 144 test bulunmalı; bulunan: ${tests.length}.`);
+if (tests.length !== 162) throw new Error(`Toplam 162 test bulunmalı; bulunan: ${tests.length}.`);
 
 for (const test of tests) {
   for (const field of required) {
@@ -33,7 +33,7 @@ for (const test of tests) {
     if (!/^[a-z0-9-]+$/.test(test.slug)) throw new Error(`SEO uyumsuz test slugı: ${test.slug}`);
     slugs.add(test.slug);
   }
-  if (test.classLevel <= 2 && test.questions.filter((question) => question.image).length < 3) {
+  if (test.classLevel <= 3 && test.questions.filter((question) => question.image).length < 3) {
     throw new Error(`${test.slug} en az 3 görselli soru içermeli.`);
   }
   for (const [index, question] of test.questions.entries()) {
@@ -41,7 +41,7 @@ for (const test of tests) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);
     }
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
-    if (test.classLevel <= 2 && question.choices.length !== 4) throw new Error(`${test.slug} ${index + 1}. soruda 4 şık olmalı.`);
+    if (test.classLevel <= 3 && question.choices.length !== 4) throw new Error(`${test.slug} ${index + 1}. soruda 4 şık olmalı.`);
     if (new Set(question.choices).size !== question.choices.length) throw new Error(`${test.slug} ${index + 1}. soruda tekrarlanan şık var.`);
     if (question.correctAnswer < 0 || question.correctAnswer >= question.choices.length) throw new Error("Doğru cevap indeksi geçersiz.");
     if (!question.explanation.trim()) throw new Error("Çözüm açıklaması boş bırakılamaz.");
@@ -67,5 +67,6 @@ validateGroup(2, "matematik", 18, 6);
 validateGroup(2, "turkce", 24, 8);
 validateGroup(2, "hayat-bilgisi", 18, 6);
 validateGroup(2, "ingilizce", 18, 6);
+validateGroup(3, "matematik", 18, 6);
 
 console.log(`✓ ${tests.length} test ve ${tests.reduce((sum, test) => sum + test.questions.length, 0)} soru doğrulandı.`);
