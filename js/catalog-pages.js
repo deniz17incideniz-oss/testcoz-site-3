@@ -72,7 +72,7 @@
       const buttons = topic.difficulties.map(function (difficulty) {
         const available = findTest(classLevel, subject.id, topic.id, difficulty);
         if (!available) {
-          return '<span class="difficulty-link is-disabled badge-' + difficulty + '" title="Bu test hazırlanıyor" aria-disabled="true">' + capitalize(difficulty) + '<small>Yakında</small></span>';
+          return "";
         }
         return '<a class="difficulty-link badge-' + difficulty + '" href="' + utils.escapeHtml(available.pageUrl) + '">' + capitalize(difficulty) + '<small>10 Soru</small></a>';
       }).join("");

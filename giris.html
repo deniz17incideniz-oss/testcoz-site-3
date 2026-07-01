@@ -1,13 +1,13 @@
 <!DOCTYPE html><html lang="tr"><head>
   <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><title>Üye Girişi | testcoz.pro</title><meta name="description" content="testcoz.pro öğrenci girişi sayfası."/><meta name="robots" content="index, follow"/><link rel="canonical" href="https://testcoz.pro/giris.html"/><link rel="icon" href="/logo.png"/><link rel="stylesheet" href="/css/style.css"/>
 </head><body><header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><nav class="main-nav"><a href="index.html">Ana Sayfa</a><a href="kayit.html" class="header-cta">Kayıt Ol</a></nav></div></header>
-  <main class="account-page"><div class="container account-shell"><div class="account-intro"><h1>Üye Girişi</h1><p>Kayıt bilgilerinle öğrenci çalışma alanına eriş.</p></div>
+  <main class="account-page"><div class="container account-shell"><div class="account-intro"><h1>Üye Girişi</h1><p>Kayıtlı e-posta adresiniz ve şifrenizle giriş yaparak öğrenci panelinize ulaşabilirsiniz.</p></div>
     <form class="account-card" id="loginForm">
       <div class="form-group"><label for="loginEmail">E-posta</label><input type="email" id="loginEmail" autocomplete="email" required/></div>
-      <div class="form-group"><label for="loginPhone">İletişim numarası</label><input type="tel" id="loginPhone" autocomplete="tel" required/></div>
+      <div class="form-group"><label for="loginPassword">Şifre</label><input type="password" id="loginPassword" autocomplete="current-password" minlength="8" maxlength="128" required/></div>
       <div class="account-actions"><a href="index.html">← Ana sayfaya dön</a><button class="btn btn-primary" type="submit">Giriş Yap</button></div>
       <div id="loginStatus" class="form-status" role="status" aria-live="polite"></div>
-      <p class="security-note"><strong>Güvenlik notu:</strong> Güvenli kimlik doğrulama sistemi henüz etkin değildir. Bu form bilgilerinizi kaydetmez ve gerçek kullanıcı hesabı oluşturmaz. Giriş özelliği Supabase veya Firebase gibi güvenli bir kimlik sistemiyle etkinleştirilecektir.</p>
+      <p class="security-note">Giriş oturumu güvenli, HttpOnly ve SameSite çereziyle yönetilir. Şifreniz tarayıcıda saklanmaz.</p>
     </form><p class="account-links">Hesabınız yok mu? <a href="kayit.html">Kayıt oluşturun.</a></p>
   </div></main><footer class="site-footer" role="contentinfo"><div class="container"><div class="footer-bottom"><p>© 2026 testcoz.pro</p><div class="footer-bottom-links"><a href="hakkimizda.html">Hakkımızda</a><a href="iletisim.html">İletişim</a><a href="gizlilik-politikasi.html">Gizlilik</a><a href="kullanim-sartlari.html">Şartlar</a></div></div></div></footer><script src="js/login.js"></script>
 </body></html>

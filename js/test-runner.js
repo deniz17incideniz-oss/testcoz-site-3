@@ -30,7 +30,7 @@
 
   function showUnavailable() {
     document.getElementById("testTitle").textContent = "Test bulunamadı";
-    document.getElementById("testSubtitle").textContent = "Seçtiğiniz test henüz hazırlanıyor olabilir.";
+    document.getElementById("testSubtitle").textContent = "Konu sayfasına dönerek geçerli bir test seçebilirsiniz.";
     const box = document.getElementById("comingSoonBox");
     box.style.display = "";
     box.querySelector("a").href = grade && subject ? topicUrl() : "index.html";

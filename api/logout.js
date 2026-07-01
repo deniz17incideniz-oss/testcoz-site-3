@@ -1,0 +1,2 @@
+import { clearSessionCookie, originAllowed } from "./_lib/security.js";
+export default function handler(req,res){res.setHeader("Cache-Control","no-store");if(req.method!=="POST")return res.status(405).json({success:false,message:"Yalnızca POST isteği kabul edilir."});if(!originAllowed(req))return res.status(403).json({success:false,message:"İsteğe izin verilmedi."});res.setHeader("Set-Cookie",clearSessionCookie());return res.status(200).json({success:true,message:"Çıkış yapıldı."});}

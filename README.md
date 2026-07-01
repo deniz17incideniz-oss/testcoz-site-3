@@ -46,7 +46,9 @@ Bu komut test şemasını, her testte tam 10 soru bulunmasını ve yerel HTML ba
 
 `/api/register` Vercel Serverless Function olarak çalışır. Google Cloud'da Sheets API etkinleştirilmeli, bir servis
 hesabı oluşturulmalı ve hedef tablo bu hesabın e-posta adresiyle düzenleyici olarak paylaşılmalıdır. Vercel proje
-ayarlarına `.env.example` içindeki dört değişken eklenir. Gerçek anahtarlar repoya veya frontend koduna yazılmaz.
+ayarlarına `.env.example` içindeki değişkenler eklenir. `JWT_SECRET` en az 32 karakterlik rastgele bir değer olmalıdır.
+Gerçek anahtarlar repoya veya frontend koduna yazılmaz.
 
-Tabloda `Kayitlar` adlı sayfa bulunmalıdır. İlk kayıt sırasında sütun başlıkları otomatik eklenir. Google Sheets daha
-sonra Dosya → İndir → Microsoft Excel yoluyla `.xlsx` olarak dışa aktarılabilir.
+Tabloda `Kayitlar` adlı sayfa bulunmalıdır. İlk kayıt sırasında 10 sütun başlığı otomatik eklenir. Şifreler backend'de
+salt kullanılan scrypt ile hashlenir; giriş oturumu HttpOnly JWT çereziyle yönetilir. Google Sheets daha sonra Dosya →
+İndir → Microsoft Excel yoluyla `.xlsx` olarak dışa aktarılabilir.

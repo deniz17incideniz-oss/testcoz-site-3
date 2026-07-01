@@ -26,8 +26,18 @@
     });
   }
 
+  function initAuthLinks() {
+    const links = document.querySelectorAll("[data-auth-link]");
+    if (!links.length) return;
+    fetch("/api/auth-status", { headers: { Accept: "application/json" } })
+      .then(function (response) { return response.ok ? response.json() : { configured: false }; })
+      .then(function (data) { if (data.configured) links.forEach(function (link) { link.hidden = false; }); })
+      .catch(function () {});
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initMobileMenu();
     highlightActiveNav();
+    initAuthLinks();
   });
 })();
