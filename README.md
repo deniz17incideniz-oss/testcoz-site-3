@@ -41,3 +41,12 @@ Bu komut test şemasını, her testte tam 10 soru bulunmasını ve yerel HTML ba
 5. Statik test sayfaları veya görseller üretim betiğine bağlıysa önce `npm run generate`, ardından `npm test` çalıştırın ve sınıf → ders → konu → test bağlantısını tarayıcıda kontrol edin.
 
 `image` doluysa soru görseli yalnızca ilgili soruda, metnin hemen üzerinde gösterilir. Sonuç ekranı doğru, yanlış, boş/geçilen sayıları; başarı yüzdesini ve yalnız yanlış veya boş bırakılan soruların çözümlerini otomatik üretir.
+
+## Google Sheets kayıt bağlantısı
+
+`/api/register` Vercel Serverless Function olarak çalışır. Google Cloud'da Sheets API etkinleştirilmeli, bir servis
+hesabı oluşturulmalı ve hedef tablo bu hesabın e-posta adresiyle düzenleyici olarak paylaşılmalıdır. Vercel proje
+ayarlarına `.env.example` içindeki dört değişken eklenir. Gerçek anahtarlar repoya veya frontend koduna yazılmaz.
+
+Tabloda `Kayitlar` adlı sayfa bulunmalıdır. İlk kayıt sırasında sütun başlıkları otomatik eklenir. Google Sheets daha
+sonra Dosya → İndir → Microsoft Excel yoluyla `.xlsx` olarak dışa aktarılabilir.

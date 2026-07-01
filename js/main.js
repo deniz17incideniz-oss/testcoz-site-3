@@ -26,29 +26,8 @@
     });
   }
 
-  function initContactForm() {
-    const form = document.getElementById("contactForm");
-    if (!form) return;
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-      const button = form.querySelector('[type="submit"]');
-      const originalText = button.textContent;
-      button.textContent = "✓ Mesajınız Alındı";
-      button.disabled = true;
-      form.reset();
-      const notice = document.getElementById("formSuccess");
-      if (notice) notice.style.display = "block";
-      window.setTimeout(function () {
-        button.textContent = originalText;
-        button.disabled = false;
-        if (notice) notice.style.display = "none";
-      }, 5000);
-    });
-  }
-
   document.addEventListener("DOMContentLoaded", function () {
     initMobileMenu();
     highlightActiveNav();
-    initContactForm();
   });
 })();

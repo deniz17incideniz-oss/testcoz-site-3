@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="tr"><head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Öğrenci Kayıt Formu | testcoz.pro</title><meta name="description" content="Sınıf seviyesini ve günlük soru hedefini belirlemek için testcoz.pro öğrenci kayıt formu."/><meta name="robots" content="index, follow"/><link rel="canonical" href="https://testcoz.pro/kayit.html"/>
+  <link rel="icon" href="/logo.png"/><link rel="stylesheet" href="/css/style.css"/>
+</head><body>
+  <header class="site-header"><div class="header-inner"><a href="index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><nav class="main-nav"><a href="index.html">Ana Sayfa</a><a href="giris.html">Giriş Yap</a></nav></div></header>
+  <main class="account-page"><div class="container account-shell">
+    <div class="account-intro"><h1>Öğrenci Kayıt Formu</h1><p>testcoz.pro’ya kayıt olarak öğrencinin sınıf seviyesine, günlük soru hedefine ve iletişim bilgilerine göre daha düzenli bir çalışma deneyimi oluşturabilirsiniz.</p></div>
+    <form class="account-card" id="registerForm" novalidate>
+      <div class="form-group"><label for="studentName">Öğrencinin adı *</label><input id="studentName" name="studentName" maxlength="80" autocomplete="name" placeholder="Öğrencinin adını yazın" required/></div>
+      <div class="form-grid-two">
+        <div class="form-group"><label for="classLevel">Sınıf seviyesi *</label><select id="classLevel" name="classLevel" required><option value="">Seçin</option><option value="1">1. Sınıf</option><option value="2">2. Sınıf</option><option value="3">3. Sınıf</option><option value="4">4. Sınıf</option></select></div>
+        <div class="form-group"><label for="dailyGoal">Günlük soru hedefi *</label><input type="number" id="dailyGoal" name="dailyGoal" min="5" max="200" step="1" placeholder="Örneğin 20" required/></div>
+      </div>
+      <div class="form-grid-two">
+        <div class="form-group"><label for="phone">İletişim numarası *</label><input type="tel" id="phone" name="phone" inputmode="tel" maxlength="24" autocomplete="tel" placeholder="05xx xxx xx xx" required/></div>
+        <div class="form-group"><label for="email">E-posta adresi *</label><input type="email" id="email" name="email" maxlength="120" autocomplete="email" placeholder="ornek@mail.com" required/></div>
+      </div>
+      <div class="honeypot" aria-hidden="true"><label for="website">Web sitesi</label><input id="website" name="website" tabindex="-1" autocomplete="off"/></div>
+      <div class="consent-row"><input type="checkbox" id="consent" name="consent" required/><label for="consent">Girdiğim bilgilerin testcoz.pro tarafından öğrenci çalışma deneyimini geliştirmek amacıyla saklanmasını kabul ediyorum.</label></div>
+      <div class="account-actions"><a href="index.html">← Ana sayfaya dön</a><button type="submit" class="btn btn-primary" id="registerButton">Kayıt Ol</button></div>
+      <div id="registerStatus" class="form-status" role="status" aria-live="polite"></div>
+      <p class="security-note">Bilgiler tarayıcıda veya public dosyalarda saklanmaz; yapılandırıldığında güvenli sunucu bağlantısı üzerinden Google Sheets’e aktarılır.</p>
+    </form>
+    <p class="account-links">Zaten kaydınız var mı? <a href="giris.html">Giriş yapın.</a> · <a href="gizlilik-politikasi.html">Gizlilik Politikası</a></p>
+  </div></main><footer class="site-footer" role="contentinfo"><div class="container"><div class="footer-bottom"><p>© 2026 testcoz.pro</p><div class="footer-bottom-links"><a href="hakkimizda.html">Hakkımızda</a><a href="iletisim.html">İletişim</a><a href="gizlilik-politikasi.html">Gizlilik</a><a href="kullanim-sartlari.html">Şartlar</a></div></div></div></footer><script src="js/register.js"></script>
+</body></html>

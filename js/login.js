@@ -1,0 +1,1 @@
+(function(){const form=document.getElementById("loginForm"),status=document.getElementById("loginStatus");if(!form)return;form.addEventListener("submit",function(event){event.preventDefault();form.reset();status.textContent="Güvenli giriş sistemi henüz etkin değildir. Bilgileriniz gönderilmedi veya kaydedilmedi.";status.className="form-status error";});})();
