@@ -11,7 +11,8 @@
         subjects: [
           { id: "turkce", name: "Türkçe", icon: "📖", description: "İlk okuma yazma, dinleme, konuşma ve metin çalışmaları.", topics: ["Güzel Davranışlarımız", "Mustafa Kemal'den Atatürk'e", "Çevremizdeki Yaşam", "Yol Arkadaşımız Kitaplar", "Yeteneklerimizi Keşfediyoruz", "Minik Kâşifler", "Atalarımızın İzleri", "Sorumluluklarımızın Farkındayız"] },
           { id: "matematik", name: "Matematik", icon: "📐", description: "Sayılar, işlemler, ölçme, konum, şekiller ve veri.", topics: ["Sayılar ve Nicelikler", "Uzunluk ve Kütle Ölçme", "Paralarımız", "Toplama ve Çıkarma", "Konum ve Eş Nesneler", "Geometrik Şekiller", "Veriye Dayalı Araştırma"] },
-          { id: "hayat-bilgisi", name: "Hayat Bilgisi", icon: "🏡", description: "Kendimiz, okulumuz, ailemiz, ülkemiz ve çevremiz.", topics: ["Ben ve Okulum", "Sağlığım ve Güvenliğim", "Ailem ve Toplum", "Yaşadığım Yer ve Ülkem", "Doğa ve Çevre", "Bilim, Teknoloji ve Sanat"] }
+          { id: "hayat-bilgisi", name: "Hayat Bilgisi", icon: "🏡", description: "Kendimiz, okulumuz, ailemiz, ülkemiz ve çevremiz.", topics: ["Ben ve Okulum", "Sağlığım ve Güvenliğim", "Ailem ve Toplum", "Yaşadığım Yer ve Ülkem", "Doğa ve Çevre", "Bilim, Teknoloji ve Sanat"] },
+          { id: "ingilizce", name: "İngilizce", icon: "🇬🇧", description: "Temel sözcükler, selamlaşma ve günlük ifadeler.", topics: ["Greetings", "Numbers", "Colours", "Classroom", "Family", "Animals"] }
         ]
       },
       2: {

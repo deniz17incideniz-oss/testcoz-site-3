@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "generate": "node scripts/generate-test-assets.mjs",
+    "generate": "node scripts/generate-test-assets.mjs && node scripts/generate-seo-pages.mjs",
     "test": "node scripts/validate-tests.mjs && node scripts/validate-auth.mjs && node scripts/check-links.mjs"
   },
   "dependencies": {

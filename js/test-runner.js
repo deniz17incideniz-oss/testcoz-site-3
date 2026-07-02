@@ -23,7 +23,7 @@
   function renderBreadcrumb() {
     if (!grade || !subject || !topic) return;
     document.getElementById("breadcrumb").innerHTML = '<a href="index.html">Ana Sayfa</a><span class="breadcrumb-sep">›</span>' +
-      '<a href="sinif.html?sinif=' + classLevel + '">' + utils.escapeHtml(grade.name) + '</a><span class="breadcrumb-sep">›</span>' +
+      '<a href="sinif-' + classLevel + '.html">' + utils.escapeHtml(grade.name) + '</a><span class="breadcrumb-sep">›</span>' +
       '<a href="' + topicUrl() + '">' + utils.escapeHtml(subject.name) + '</a><span class="breadcrumb-sep">›</span>' +
       '<span class="breadcrumb-current">' + utils.escapeHtml(topic.name) + '</span>';
   }

@@ -40,7 +40,7 @@
     });
 
     document.getElementById("subjectGrid").innerHTML = grade.subjects.map(function (subject) {
-      return '<a class="subject-card" href="konu.html?sinif=' + classLevel + '&ders=' + subject.id + '" role="listitem">' +
+      return '<a class="subject-card" href="ders/' + classLevel + '-sinif-' + subject.id + '.html" role="listitem">' +
         '<div class="subject-icon" aria-hidden="true">' + subject.icon + '</div>' +
         '<div class="subject-info"><h3>' + utils.escapeHtml(subject.name) + '</h3>' +
         '<p>' + utils.escapeHtml(subject.description) + '</p>' +
@@ -56,7 +56,7 @@
     const grade = catalog.grades[classLevel];
     const subject = grade && grade.subjects.find(function (item) { return item.id === params.ders; });
     if (!grade || !subject) {
-      showPageError("Ders bulunamadı", "Bu bağlantı geçerli bir sınıf ve derse ait değil.", "sinif.html?sinif=" + (grade ? classLevel : 1));
+      showPageError("Ders bulunamadı", "Bu bağlantı geçerli bir sınıf ve derse ait değil.", "sinif-" + (grade ? classLevel : 1) + ".html");
       return;
     }
 
@@ -65,7 +65,7 @@
     document.getElementById("pageHeroSub").textContent = subject.description;
     document.getElementById("konuBaslik").textContent = subject.name + " Konuları";
     document.getElementById("breadcrumbSinif").textContent = grade.name;
-    document.getElementById("breadcrumbSinif").href = "sinif.html?sinif=" + classLevel;
+    document.getElementById("breadcrumbSinif").href = "sinif-" + classLevel + ".html";
     document.getElementById("breadcrumbDers").textContent = subject.name;
 
     document.getElementById("topicList").innerHTML = subject.topics.map(function (topic, index) {
