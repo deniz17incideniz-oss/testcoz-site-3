@@ -109,7 +109,9 @@ function pageHtml(test) {
 
 let imageCount = 0;
 for (const test of tests) {
-  const html = pageHtml(test).replace("1. Sınıf Matematik", test.classLevel + ". Sınıf " + test.subjectName);
+  const html = pageHtml(test)
+    .replace("1. Sınıf Matematik", test.classLevel + ". Sınıf " + test.subjectName)
+    .replace("<head>", `<head>\n  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1287455375559097" crossorigin="anonymous"></script>`);
   fs.writeFileSync(test.pageUrl, html, "utf8");
   for (const question of test.questions) {
     if (!question.image || !question.visual) continue;
