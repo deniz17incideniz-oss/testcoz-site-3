@@ -3,6 +3,7 @@ import register from "../api/register.js";
 import login from "../api/login.js";
 import session from "../api/session.js";
 import logout from "../api/logout.js";
+import authStatus from "../api/auth-status.js";
 
 const { privateKey } = crypto.generateKeyPairSync("rsa", { modulusLength: 2048 });
 process.env.GOOGLE_SHEETS_CLIENT_EMAIL = "test@example.iam.gserviceaccount.com";
@@ -33,6 +34,9 @@ async function call(handler, { method = "POST", body = {}, cookie = "", ip = cry
 }
 function assert(value, message) { if (!value) throw new Error(message); }
 
+const configuredStatus = await call(authStatus, { method: "GET" });
+assert(configuredStatus.status === 200 && configuredStatus.data.configured === true, "Auth yapılandırması geçerli görünmüyor.");
+
 const registration = await call(register, { body: { studentName: "Test Öğrencisi", classLevel: "4", dailyGoal: 20, phone: "05551112233", email: "test@example.com", password: "Guvenli123", consent: true, website: "", startedAt: Date.now() - 3000 } });
 assert(registration.status === 201, "Geçerli kayıt başarısız.");
 assert(rows.length === 2 && rows[0].length === 10, "Google Sheets sütunları eksik.");
@@ -49,4 +53,19 @@ const activeSession = await call(session, { method: "GET", cookie });
 assert(activeSession.status === 200 && activeSession.data.user.classLevel === "4", "Panel oturumu okunamadı.");
 const signedOut = await call(logout, { cookie });
 assert(signedOut.status === 200 && String(signedOut.headers["Set-Cookie"]).includes("Max-Age=0"), "Çıkış çerezi temizlenmedi.");
-console.log("✓ Kayıt, şifre hashleme, giriş, oturum ve çıkış doğrulandı.");
+
+const validPrivateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
+process.env.GOOGLE_SHEETS_PRIVATE_KEY = "not-a-private-key";
+const invalidKeyStatus = await call(authStatus, { method: "GET" });
+assert(invalidKeyStatus.data.configured === false && invalidKeyStatus.data.invalid.includes("GOOGLE_SHEETS_PRIVATE_KEY"), "Bozuk private key algılanmadı.");
+const unavailableLogin = await call(login, { body: { email: "test@example.com", password: "Guvenli123" } });
+assert(unavailableLogin.status === 503, "Bozuk yapılandırma 503 döndürmedi.");
+process.env.GOOGLE_SHEETS_PRIVATE_KEY = validPrivateKey;
+
+const validJwtSecret = process.env.JWT_SECRET;
+delete process.env.JWT_SECRET;
+const missingJwtStatus = await call(authStatus, { method: "GET" });
+assert(missingJwtStatus.data.configured === false && missingJwtStatus.data.missing.includes("JWT_SECRET"), "Eksik JWT_SECRET algılanmadı.");
+process.env.JWT_SECRET = validJwtSecret;
+
+console.log("✓ Kayıt, yapılandırma, şifre hashleme, giriş, oturum ve çıkış doğrulandı.");
