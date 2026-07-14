@@ -16,6 +16,10 @@
   let currentIndex = 0;
   let answers = test ? new Array(test.questions.length).fill(null) : [];
 
+  function labelDifficulty() {
+    return difficulty.charAt(0).toLocaleUpperCase("tr-TR") + difficulty.slice(1);
+  }
+
   function topicUrl() {
     return "konu.html?sinif=" + classLevel + "&ders=" + encodeURIComponent(params.ders || "");
   }
@@ -28,9 +32,18 @@
       '<span class="breadcrumb-current">' + utils.escapeHtml(topic.name) + '</span>';
   }
 
+  function renderPurpose() {
+    const box = document.getElementById("testPurposeBox");
+    if (!box || !grade || !subject || !topic) return;
+    const label = labelDifficulty();
+    box.innerHTML = '<h2>Test amacı</h2><p>Bu test, ' + utils.escapeHtml(grade.name) + ' ' + utils.escapeHtml(subject.name) + ' dersi ' + utils.escapeHtml(topic.name) + ' konusundaki kazanımları ' + utils.escapeHtml(label.toLocaleLowerCase("tr-TR")) + ' seviyede ölçmek için hazırlanmıştır. Sorular; temel kavramı anlama, yönergeyi dikkatle okuma, seçenekleri karşılaştırma ve uygun durumda problem çözme becerilerini destekler.</p><ul><li>Sınıf: ' + utils.escapeHtml(grade.name) + '</li><li>Ders: ' + utils.escapeHtml(subject.name) + '</li><li>Konu: ' + utils.escapeHtml(topic.name) + '</li><li>Zorluk: ' + utils.escapeHtml(label) + '</li><li>Soru sayısı: 10</li></ul>';
+  }
+
   function showUnavailable() {
     document.getElementById("testTitle").textContent = "Test bulunamadı";
     document.getElementById("testSubtitle").textContent = "Konu sayfasına dönerek geçerli bir test seçebilirsiniz.";
+    const purpose = document.getElementById("testPurposeBox");
+    if (purpose) purpose.style.display = "none";
     const box = document.getElementById("comingSoonBox");
     box.style.display = "";
     box.querySelector("a").href = grade && subject ? topicUrl() : "index.html";
@@ -71,7 +84,10 @@
       });
     });
     document.getElementById("previousQuestion").addEventListener("click", function () {
-      if (currentIndex > 0) { currentIndex -= 1; renderQuestion(); }
+      if (currentIndex > 0) {
+        currentIndex -= 1;
+        renderQuestion();
+      }
     });
     document.getElementById("skipQuestion").addEventListener("click", goNext);
     document.getElementById("nextQuestion").addEventListener("click", goNext);
@@ -94,13 +110,13 @@
     const percentage = Math.round((correct / test.questions.length) * 100);
     const reviews = reviewIndexes.length
       ? '<section class="wrong-review"><h2>Tekrar Bakabileceğin Sorular</h2>' + reviewIndexes.map(function (index) {
-          const question = test.questions[index];
-          const isEmpty = answers[index] === null;
-          return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
-            '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? 'val-empty' : 'val-wrong') + '">' + (isEmpty ? 'Bu soru boş bırakıldı' : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
-            '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
-            '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
-        }).join("") + '</section>'
+        const question = test.questions[index];
+        const isEmpty = answers[index] === null;
+        return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
+          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soru boş bırakıldı" : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
+          '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
+          '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
+      }).join("") + '</section>'
       : '<div class="all-correct">🎉 Harika! Yanlış cevapladığın soru yok.</div>';
 
     document.getElementById("questionArea").style.display = "none";
@@ -135,9 +151,10 @@
     }
     document.title = grade.name + " " + subject.name + " – " + topic.name + " | TestÇöz";
     document.getElementById("testTitle").textContent = grade.name + " " + subject.name + " – " + topic.name;
-    document.getElementById("testSubtitle").textContent = "10 soru · " + difficulty.charAt(0).toLocaleUpperCase("tr-TR") + difficulty.slice(1) + " seviye · Test " + testNumber;
+    document.getElementById("testSubtitle").textContent = "10 soru · " + labelDifficulty() + " seviye · Test " + testNumber;
     const back = document.getElementById("testBackLink");
     if (back) back.href = topicUrl();
+    renderPurpose();
     renderQuestion();
   });
 })();

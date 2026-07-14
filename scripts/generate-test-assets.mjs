@@ -104,13 +104,46 @@ function renderSvg(question) {
 function pageHtml(test) {
   const query = `sinif=${test.classLevel}&ders=${test.subject}&konu=${test.topic}&zorluk=${test.difficulty}&test=${test.testNumber}`;
   const label = test.difficulty.charAt(0).toLocaleUpperCase("tr-TR") + test.difficulty.slice(1);
-  return `<!doctype html>\n<html lang="tr">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <meta http-equiv="refresh" content="0; url=../test.html?${query.replaceAll("&", "&amp;")}">\n  <title>1. Sınıf Matematik ${test.topicName} ${label} Test 1 | TestÇöz</title>\n  <meta name="description" content="${test.classLevel}. sınıf ${esc(test.subjectName)} ${esc(test.topicName)} konusu için 10 soruluk ${label.toLocaleLowerCase("tr-TR")} seviye açıklamalı test.">\n  <meta name="robots" content="index, follow">\n  <link rel="canonical" href="https://testcoz.pro/${test.pageUrl}">\n  <link rel="stylesheet" href="../css/style.css">\n</head>\n<body>\n  <main class="section"><div class="container empty-state">\n    <h1>${label} Test 1 açılıyor…</h1>\n    <p>Otomatik yönlendirme başlamazsa aşağıdaki bağlantıyı kullanın.</p>\n    <a class="btn btn-primary" href="../test.html?${query.replaceAll("&", "&amp;")}">Teste Başla</a>\n  </div></main>\n  <script>location.replace("../test.html?${query}");</script>\n</body>\n</html>\n`;
+  const lower = label.toLocaleLowerCase("tr-TR");
+  const runnerUrl = `../test.html?${query.replaceAll("&", "&amp;")}`;
+  const subjectUrl = `../ders/${test.classLevel}-sinif-${test.subject}.html`;
+  return `<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test 1 | testcoz.pro</title>
+  <meta name="description" content="${test.classLevel}. sınıf ${esc(test.subjectName)} ${esc(test.topicName)} konusu için 10 soruluk ${lower} seviye açıklamalı test ve çalışma açıklaması.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://testcoz.pro/${test.pageUrl}">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a href="../index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><nav class="main-nav"><a href="../index.html">Ana Sayfa</a><a href="../sinif-${test.classLevel}.html">Sınıf</a><a href="${subjectUrl}">Ders</a><a href="../rehber/ilkokulda-duzenli-test-cozme.html">Rehber</a></nav><button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç veya kapat" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
+  <nav class="mobile-nav" id="mobileMenu"><a href="../index.html">Ana Sayfa</a><a href="../sinif-${test.classLevel}.html">${test.classLevel}. Sınıf</a><a href="${subjectUrl}">${esc(test.subjectName)}</a><a href="../rehber/ilkokulda-duzenli-test-cozme.html">Rehber</a></nav>
+  <main>
+    <div class="container"><nav class="breadcrumb"><a href="../index.html">Ana Sayfa</a><span>›</span><a href="../sinif-${test.classLevel}.html">${test.classLevel}. Sınıf</a><span>›</span><a href="${subjectUrl}">${esc(test.subjectName)}</a><span>›</span><span>${esc(test.topicName)}</span></nav></div>
+    <section class="section test-landing-section"><div class="container"><article class="study-content test-landing">
+      <span class="eyebrow">${test.classLevel}. Sınıf ${esc(test.subjectName)} • ${label} Seviye</span>
+      <h1>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test 1</h1>
+      <p>Bu test, ${test.classLevel}. sınıf ${esc(test.subjectName)} dersi ${esc(test.topicName)} konusundaki temel kazanımları ${lower} seviyede ölçmek için hazırlanmıştır. 10 soruluk yapı öğrencinin konuyu kısa sürede denemesine, sonuç ekranında doğru, yanlış ve boş sayılarını görmesine ve açıklamalarla eksiklerini fark etmesine yardımcı olur.</p>
+      <h2>Bu testte hangi beceriler ölçülür?</h2>
+      <p>${label} seviye sorular; kolay seviyede temel kavramı, orta seviyede bilgiyi farklı örneklerde kullanmayı, zor seviyede ise dikkat, yorumlama ve problem çözme becerisini destekler. Teste başlamadan önce soruları yavaş okuyun, görsel varsa ayrıntıları inceleyin ve seçenekleri karşılaştırarak ilerleyin.</p>
+      <ul><li>Sınıf: ${test.classLevel}. sınıf</li><li>Ders: ${esc(test.subjectName)}</li><li>Konu: ${esc(test.topicName)}</li><li>Zorluk: ${label}</li><li>Soru sayısı: 10</li></ul>
+      <div class="test-landing-actions"><a class="btn btn-primary btn-lg" href="${runnerUrl}">Teste Başla</a><a class="btn btn-secondary btn-lg" href="${subjectUrl}">Konuya Geri Dön</a></div>
+      <p class="study-note">Testleri kayıt olmadan çözebilirsiniz. İsteğe bağlı kayıt, günlük hedef ve öğrenci paneli gibi ek özellikler için sunulur.</p>
+    </article></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="../gizlilik-politikasi.html">Gizlilik</a><a href="../kullanim-sartlari.html">Şartlar</a><a href="../iletisim.html">İletişim</a></div></div></div></footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
+`;
 }
 
 let imageCount = 0;
 for (const test of tests) {
   const html = pageHtml(test)
-    .replace("1. Sınıf Matematik", test.classLevel + ". Sınıf " + test.subjectName)
     .replace("<head>", `<head>\n  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1287455375559097" crossorigin="anonymous"></script>`);
   fs.writeFileSync(test.pageUrl, html, "utf8");
   for (const question of test.questions) {
