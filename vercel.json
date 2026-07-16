@@ -1,9 +1,6 @@
 {
   "outputDirectory": ".",
   "redirects": [
-    { "source": "/giris.html", "destination": "/", "permanent": false },
-    { "source": "/kayit.html", "destination": "/", "permanent": false },
-    { "source": "/panel.html", "destination": "/", "permanent": false },
     { "source": "/sinif.html", "has": [{ "type": "query", "key": "sinif", "value": "1" }], "destination": "/sinif-1.html", "permanent": true },
     { "source": "/sinif.html", "has": [{ "type": "query", "key": "sinif", "value": "2" }], "destination": "/sinif-2.html", "permanent": true },
     { "source": "/sinif.html", "has": [{ "type": "query", "key": "sinif", "value": "3" }], "destination": "/sinif-3.html", "permanent": true },
