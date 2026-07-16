@@ -48,13 +48,16 @@ export function getSheetsConfigurationIssues() {
 export function getPrivateKeyDiagnostics() {
   const raw = String(process.env.GOOGLE_SHEETS_PRIVATE_KEY || "");
   const normalized = normalizePrivateKey(raw);
+  const trimmed = raw.trim();
   return {
     exists: Boolean(raw.trim()),
-    rawLooksJson: raw.trim().startsWith("{") && raw.includes("private_key"),
+    rawLooksJson: trimmed.startsWith("{") && raw.includes("private_key"),
+    rawHasExtraQuotes: (trimmed.startsWith('"') && trimmed.endsWith('"')) || (trimmed.startsWith("'") && trimmed.endsWith("'")),
     rawHasPrivateKeyLabel: /private_key\s*[:=]/i.test(raw),
     rawHasBeginMarker: raw.includes("-----BEGIN PRIVATE KEY-----"),
     rawHasEndMarker: raw.includes("-----END PRIVATE KEY-----"),
     rawHasEscapedNewlines: raw.includes("\\n"),
+    rawHasRealNewlines: raw.includes("\n") || raw.includes("\r"),
     normalizedHasBeginMarker: normalized.includes("-----BEGIN PRIVATE KEY-----"),
     normalizedHasEndMarker: normalized.includes("-----END PRIVATE KEY-----")
   };
