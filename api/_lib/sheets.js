@@ -45,6 +45,21 @@ export function getSheetsConfigurationIssues() {
   return { missing, invalid };
 }
 
+export function getPrivateKeyDiagnostics() {
+  const raw = String(process.env.GOOGLE_SHEETS_PRIVATE_KEY || "");
+  const normalized = normalizePrivateKey(raw);
+  return {
+    exists: Boolean(raw.trim()),
+    rawLooksJson: raw.trim().startsWith("{") && raw.includes("private_key"),
+    rawHasPrivateKeyLabel: /private_key\s*[:=]/i.test(raw),
+    rawHasBeginMarker: raw.includes("-----BEGIN PRIVATE KEY-----"),
+    rawHasEndMarker: raw.includes("-----END PRIVATE KEY-----"),
+    rawHasEscapedNewlines: raw.includes("\\n"),
+    normalizedHasBeginMarker: normalized.includes("-----BEGIN PRIVATE KEY-----"),
+    normalizedHasEndMarker: normalized.includes("-----END PRIVATE KEY-----")
+  };
+}
+
 export function sheetsConfigured() {
   const issues = getSheetsConfigurationIssues();
   return issues.missing.length === 0 && issues.invalid.length === 0;

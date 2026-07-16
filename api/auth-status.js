@@ -1,4 +1,4 @@
-import { getSheetsConfigurationIssues } from "./_lib/sheets.js";
+import { getPrivateKeyDiagnostics, getSheetsConfigurationIssues } from "./_lib/sheets.js";
 
 export default function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
@@ -12,6 +12,7 @@ export default function handler(req, res) {
     configured: missing.length === 0 && invalid.length === 0,
     missing,
     invalid,
+    privateKeyFormat: getPrivateKeyDiagnostics(),
     sheets: {
       register: process.env.GOOGLE_SHEETS_REGISTER_SHEET_NAME || "Kayitlar",
       results: process.env.GOOGLE_SHEETS_RESULTS_SHEET_NAME || "TestSonuclari",
