@@ -7,5 +7,16 @@ export default function handler(req, res) {
   const secret = process.env.JWT_SECRET;
   if (!secret) missing.push("JWT_SECRET");
   else if (secret.length < 32) invalid.push("JWT_SECRET");
-  return res.status(200).json({ success: true, configured: missing.length === 0 && invalid.length === 0, missing, invalid });
+  return res.status(200).json({
+    success: true,
+    configured: missing.length === 0 && invalid.length === 0,
+    missing,
+    invalid,
+    sheets: {
+      register: process.env.GOOGLE_SHEETS_REGISTER_SHEET_NAME || "Kayitlar",
+      results: process.env.GOOGLE_SHEETS_RESULTS_SHEET_NAME || "TestSonuclari",
+      weaknesses: process.env.GOOGLE_SHEETS_WEAKNESSES_SHEET_NAME || "OgrenciEksikleri",
+      personalTests: process.env.GOOGLE_SHEETS_PERSONAL_TESTS_SHEET_NAME || "KisiselTestler"
+    }
+  });
 }

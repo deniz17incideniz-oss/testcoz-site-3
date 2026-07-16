@@ -5,7 +5,9 @@
   const classLevel = Number(params.sinif);
   const testNumber = Number(params.test || 1);
   const difficulty = params.zorluk || "kolay";
-  const tests = window.TESTCOZ_TESTS || [];
+  const tests = window.TestCozTestNormalizer
+    ? window.TestCozTestNormalizer.normalizeAllTests(window.TESTCOZ_TESTS || [])
+    : (window.TESTCOZ_TESTS || []);
   const test = tests.find(function (item) {
     return item.classLevel === classLevel && item.subject === params.ders && item.topic === params.konu && item.difficulty === difficulty && item.testNumber === testNumber;
   });
@@ -102,11 +104,57 @@
     }
   }
 
+  async function saveResultIfPossible(summary) {
+    const statusBox = document.getElementById("resultSaveStatus");
+    if (!statusBox || !test || !test.slug) return;
+    try {
+      const response = await fetch("/api/save-test-result", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          testSlug: test.slug,
+          classLevel: test.classLevel,
+          subject: test.subject,
+          topic: test.topic,
+          difficulty: test.difficulty,
+          answers,
+          correctCount: summary.correct,
+          wrongCount: summary.wrong,
+          blankCount: summary.empty,
+          wrongQuestionIds: summary.wrongQuestionIds,
+          blankQuestionIds: summary.blankQuestionIds,
+          wrongSkills: summary.wrongSkills,
+          blankSkills: summary.blankSkills,
+          wrongQuestionTypes: summary.wrongQuestionTypes,
+          blankQuestionTypes: summary.blankQuestionTypes
+        })
+      });
+      const result = await response.json().catch(function () { return {}; });
+      if (response.status === 401) {
+        statusBox.className = "result-save-note";
+        statusBox.innerHTML = 'Sonuçlarınızı kaydetmek ve eksiklerinize göre kişiye özel testler almak için isteğe bağlı olarak <a href="giris.html">giriş yapabilirsiniz</a>.';
+        return;
+      }
+      if (!response.ok) throw new Error(result.message || "Sonuç kaydedilemedi.");
+      statusBox.className = "result-save-note success";
+      statusBox.textContent = result.message || "Sonuçlarınız kaydedildi. Eksiklerinize göre kişiye özel test önerileri panelinizde güncellendi.";
+    } catch (error) {
+      statusBox.className = "result-save-note";
+      statusBox.textContent = "Test sonucunuz ekranda gösterildi. Kalıcı kayıt şu anda tamamlanamadı; test çözmeye devam edebilirsiniz.";
+    }
+  }
+
   function showResult() {
     const correct = answers.filter(function (answer, index) { return answer === test.questions[index].correctAnswer; }).length;
     const wrongIndexes = answers.map(function (answer, index) { return answer !== null && answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
     const reviewIndexes = answers.map(function (answer, index) { return answer === null || answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
     const empty = answers.filter(function (answer) { return answer === null; }).length;
+    const wrongQuestionIds = wrongIndexes.map(function (index) { return test.questions[index].id; });
+    const blankQuestionIds = answers.map(function (answer, index) { return answer === null ? test.questions[index].id : ""; }).filter(Boolean);
+    const wrongSkills = wrongIndexes.map(function (index) { return test.questions[index].skill; }).filter(Boolean);
+    const blankSkills = answers.map(function (answer, index) { return answer === null ? test.questions[index].skill : ""; }).filter(Boolean);
+    const wrongQuestionTypes = wrongIndexes.map(function (index) { return test.questions[index].questionType; }).filter(Boolean);
+    const blankQuestionTypes = answers.map(function (answer, index) { return answer === null ? test.questions[index].questionType : ""; }).filter(Boolean);
     const percentage = Math.round((correct / test.questions.length) * 100);
     const reviews = reviewIndexes.length
       ? '<section class="wrong-review"><h2>Tekrar Bakabileceğin Sorular</h2>' + reviewIndexes.map(function (index) {
@@ -133,6 +181,8 @@
       '<div class="result-stat"><div class="result-stat-val val-empty">' + empty + '</div><div class="result-stat-lbl">Boş / Geçilen</div></div></div>' +
       '<div class="result-actions"><button type="button" class="btn btn-primary" id="restartTest">Testi Tekrar Çöz</button>' +
       '<a href="index.html" class="btn btn-outline">Ana Sayfaya Dön</a><a href="' + topicUrl() + '" class="btn btn-outline">Konuya Geri Dön</a></div></div>' + reviews;
+    resultArea.insertAdjacentHTML("afterbegin", '<div id="resultSaveStatus" class="result-save-note">Sonuç kaydı kontrol ediliyor…</div>');
+    saveResultIfPossible({ correct, wrong: wrongIndexes.length, empty, wrongQuestionIds, blankQuestionIds, wrongSkills, blankSkills, wrongQuestionTypes, blankQuestionTypes });
     document.getElementById("restartTest").addEventListener("click", function () {
       answers = new Array(test.questions.length).fill(null);
       currentIndex = 0;

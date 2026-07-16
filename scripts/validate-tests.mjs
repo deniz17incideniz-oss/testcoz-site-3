@@ -5,13 +5,16 @@ const context = { window: {}, URLSearchParams };
 vm.createContext(context);
 vm.runInContext(fs.readFileSync("js/utils.js", "utf8"), context);
 vm.runInContext(fs.readFileSync("data/catalog.js", "utf8"), context);
+vm.runInContext(fs.readFileSync("data/test-normalizer.js", "utf8"), context);
 for (const file of fs.readdirSync("data/tests").filter((name) => name.endsWith(".js")).sort()) {
   vm.runInContext(fs.readFileSync(`data/tests/${file}`, "utf8"), context);
 }
 
-const tests = context.window.TESTCOZ_TESTS || [];
+const tests = context.window.TestCozTestNormalizer.normalizeAllTests(context.window.TESTCOZ_TESTS || []);
 const required = ["classLevel", "subject", "topic", "difficulty", "testNumber", "questions", "pageUrl"];
 const difficulties = new Set(["kolay", "orta", "zor"]);
+const questionTypes = new Set(["problem", "gorsel-okuma", "tablo-yorumlama", "metin-anlama", "islem", "karsilastirma", "siralama", "cikarim", "eslestirme", "oruntu"]);
+const cognitiveLevels = new Set(["hatirlama", "anlama", "uygulama", "yorumlama", "problem-cozme"]);
 const questionTexts = new Set();
 const slugs = new Set();
 
@@ -33,11 +36,11 @@ for (const test of tests) {
     if (!/^[a-z0-9-]+$/.test(test.slug)) throw new Error(`SEO uyumsuz test slugı: ${test.slug}`);
     slugs.add(test.slug);
   }
-  if (test.classLevel <= 3 && test.questions.filter((question) => question.image).length < 3) {
-    throw new Error(`${test.slug} en az 3 görselli soru içermeli.`);
+  if (test.questions.filter((question) => question.image).length < 4) {
+    throw new Error(`${test.slug} en az 4 görselli soru içermeli.`);
   }
   for (const [index, question] of test.questions.entries()) {
-    for (const field of ["question", "choices", "correctAnswer", "explanation"]) {
+    for (const field of ["id", "question", "choices", "options", "correctAnswer", "explanation", "difficulty", "skill", "subSkill", "questionType", "cognitiveLevel", "estimatedTimeSeconds", "hasVisual", "tags"]) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);
     }
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
@@ -46,6 +49,11 @@ for (const test of tests) {
     if (question.correctAnswer < 0 || question.correctAnswer >= question.choices.length) throw new Error("Doğru cevap indeksi geçersiz.");
     if (!question.explanation.trim()) throw new Error("Çözüm açıklaması boş bırakılamaz.");
     if (question.image && !fs.existsSync(question.image)) throw new Error(`Soru görseli bulunamadı: ${question.image}`);
+    if (question.image && !question.imageAlt) throw new Error(`${test.slug} ${index + 1}. soruda imageAlt eksik.`);
+    if (question.difficulty !== test.difficulty) throw new Error(`${test.slug} ${index + 1}. soruda zorluk metadata uyumsuz.`);
+    if (!questionTypes.has(question.questionType)) throw new Error(`${test.slug} ${index + 1}. soruda geçersiz soru tipi.`);
+    if (!cognitiveLevels.has(question.cognitiveLevel)) throw new Error(`${test.slug} ${index + 1}. soruda geçersiz bilişsel seviye.`);
+    if (!Array.isArray(question.tags) || !question.tags.length) throw new Error(`${test.slug} ${index + 1}. soruda tags eksik.`);
     const normalizedQuestion = question.question.trim().toLocaleLowerCase("tr-TR");
     if (questionTexts.has(normalizedQuestion)) throw new Error(`Tekrarlanan soru metni: ${question.question}`);
     questionTexts.add(normalizedQuestion);

@@ -4,10 +4,11 @@ import vm from "node:vm";
 
 const context = { window: {} };
 vm.createContext(context);
+vm.runInContext(fs.readFileSync("data/test-normalizer.js", "utf8"), context);
 for (const file of fs.readdirSync("data/tests").filter((name) => name.endsWith(".js")).sort()) {
   vm.runInContext(fs.readFileSync(path.join("data/tests", file), "utf8"), context);
 }
-const tests = (context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel <= 4);
+const tests = context.window.TestCozTestNormalizer.normalizeAllTests(context.window.TESTCOZ_TESTS || []).filter((test) => test.classLevel <= 4);
 const imageDir = path.resolve("images/tests");
 const pageDir = path.resolve("tests");
 fs.mkdirSync(imageDir, { recursive: true });

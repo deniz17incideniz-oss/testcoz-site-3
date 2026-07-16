@@ -34,7 +34,7 @@ export function sheetsConfigured() {
   return issues.missing.length === 0 && issues.invalid.length === 0;
 }
 
-function settings() {
+function settings(sheetNameOverride) {
   const issues = getSheetsConfigurationIssues();
   if (issues.missing.length) throw new SheetsServiceError("MISSING_ENV");
   if (issues.invalid.includes("GOOGLE_SHEETS_PRIVATE_KEY")) throw new SheetsServiceError("INVALID_PRIVATE_KEY");
@@ -43,7 +43,7 @@ function settings() {
     clientEmail: process.env.GOOGLE_SHEETS_CLIENT_EMAIL.trim(),
     privateKey: normalizePrivateKey(process.env.GOOGLE_SHEETS_PRIVATE_KEY),
     spreadsheetId: process.env.GOOGLE_SHEETS_SPREADSHEET_ID.trim(),
-    sheetName: process.env.GOOGLE_SHEETS_REGISTER_SHEET_NAME.trim()
+    sheetName: String(sheetNameOverride || process.env.GOOGLE_SHEETS_REGISTER_SHEET_NAME).trim()
   };
 }
 
@@ -71,15 +71,25 @@ async function accessToken(clientEmail, privateKey) {
   return data.access_token;
 }
 
-async function context() {
-  const cfg = settings();
+async function context(sheetNameOverride) {
+  const cfg = settings(sheetNameOverride);
   const token = await accessToken(cfg.clientEmail, cfg.privateKey);
-  const range = `'${cfg.sheetName.replace(/'/g, "''")}'!A:J`;
+  const range = `'${cfg.sheetName.replace(/'/g, "''")}'!A:Z`;
   return { ...cfg, range, headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" } };
 }
 
 export async function getRows() {
   const ctx = await context();
+  let response;
+  try { response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(ctx.spreadsheetId)}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
+  catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
+  if (!response.ok) throw new SheetsServiceError("SHEET_READ_REJECTED", 502);
+  const data = await response.json().catch(() => ({}));
+  return { rows: data.values || [], ctx };
+}
+
+export async function getRowsFromSheet(sheetName) {
+  const ctx = await context(sheetName);
   let response;
   try { response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(ctx.spreadsheetId)}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
   catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
