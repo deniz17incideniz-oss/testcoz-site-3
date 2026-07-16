@@ -14,7 +14,23 @@ export class SheetsServiceError extends Error {
 function normalizePrivateKey(rawValue) {
   let value = String(rawValue || "").trim();
   if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
-  return value.replace(/\\n/g, "\n").replace(/\r\n/g, "\n").trim();
+  if (value.startsWith("{") && value.includes("private_key")) {
+    try {
+      const parsed = JSON.parse(value);
+      if (parsed?.private_key) value = String(parsed.private_key);
+    } catch {
+      const match = value.match(/"private_key"\s*:\s*"([^"]+)"/);
+      if (match) value = match[1];
+    }
+  }
+  const labeled = value.match(/private_key\s*[:=]\s*["']?([\s\S]*?)["']?\s*$/i);
+  if (labeled && labeled[1].includes("BEGIN PRIVATE KEY")) value = labeled[1];
+  value = value.replace(/\\n/g, "\n").replace(/\r\n/g, "\n").trim();
+  const begin = value.indexOf("-----BEGIN PRIVATE KEY-----");
+  const endMarker = "-----END PRIVATE KEY-----";
+  const end = value.indexOf(endMarker);
+  if (begin >= 0 && end >= begin) value = value.slice(begin, end + endMarker.length);
+  return value.trim();
 }
 
 export function getSheetsConfigurationIssues() {
