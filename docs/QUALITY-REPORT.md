@@ -64,7 +64,7 @@ MANUAL ACTION REQUIRED: çocuklara yönelik işlem ayarı, hesap/ülke bazlı r�
 
 ## Production deployment / Remaining manual actions
 
-Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru kalitesi gate'i açık olduğundan otomatik main merge yapılmaz. PR #2 draft olarak açıldı. Vercel deployment Ready, ancak preview doğrulaması SSO nedeniyle tamamlanamadı.
+Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru kalitesi gate'i açık olduğundan otomatik main merge yapılmaz. PR #2 draft olarak açıldı. Vercel deployment Ready; tarayıcıda public sayfalar ve test sonucu doğrulandı. API/kalıcı kayıt ve metin dosyası kontrolleri tamamlanmadı.
 
 - Editör: tekrarlar, çeldiriciler, zorluk ve yaş/müfredat uygunluğu.
 - Site sahibi: gerçek test hesabıyla kayıt, giriş, sonuç kaydı, kişisel test, panel ve çıkış; iletişim kutusunun erişilebilirliği.
@@ -103,7 +103,7 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 | Lighthouse acceptable | FAIL | Performance: ana sayfa 92, ders 88, landing 85, runtime 97. İki public sayfa 90 hedefinin altında; erişilebilirlik 100. |
 | GitHub pushed | PASS | codex/final-quality-pass ve pre-final-quality-pass uzak sunucuda |
 | CI passed | PASS | 9654bcb kod commit'i: Actions run 35283370184 başarılı; rapor güncellemesinin yeni koşusu ayrıca kontrol edilir |
-| Vercel preview passed | MANUAL | Deployment Ready; URL Vercel SSO girişine yönleniyor, uygulama smoke testi yapılamadı |
+| Vercel preview passed | MANUAL | Public ekranlar ve puanlama geçti; kalıcı kayıt/API/dosya kontrolü tamamlanmadı |
 | Production deployed | MANUAL | İçerik gate'i açık; main merge yapılmadı |
 | Production smoke test passed | MANUAL | Yeni sürüm production'da değil |
 | AdSense manual settings reviewed | MANUAL | Hesap ayarları doğrulanmadı |
@@ -121,4 +121,12 @@ Lighthouse'ın public sayfalardaki Best Practices 77 puanı üçüncü taraf çe
 - Production değişmedi. https://testcoz.pro üzerinde ana sayfa, sınıf, ders, landing, runtime, ads.txt, robots, sitemap ve dört kurumsal sayfa HTTPS/200. Ana sayfa hâlâ eski sürüm; bu sonuç yeni deployment smoke testi değildir.
 - Canlı ads.txt doğru publisher satırını döndürdü; mevcut ana sayfada tek AdSense yükleyicisi var.
 
-Son karar: **PARTIAL**. Teknik dal ve PR hazır, CI başarılı; pedagojik kalite, iki public sayfanın performans hedefi ve korumalı preview incelemesi açık. Bu koşullarda main merge / production yapılmadı.
+Son karar: **PARTIAL**. Teknik dal ve PR hazır, CI başarılı; pedagojik kalite, iki public sayfanın performans hedefi ve preview API/kalıcı kayıt incelemesi açık. Bu koşullarda main merge / production yapılmadı.
+
+### Preview takip kontrolü
+
+SSO ekranından sonra tarayıcı önizlemeye erişti. Ana sayfa, 4. sınıf, matematik dersi, geometri landing, kayıt formu ve runtime ekranı açıldı; sınıf/ders/kayıt sayfalarında mobil yatay taşma yok, canonical production domaininde. 4. sınıf zor geometri akışında 1 doğru + 9 boş = %10 ve 9 boş soru açıklaması görüldü. Gerçek kullanıcı hesabı oluşturulmadı.
+
+Kalıcı sonuç kaydı başarıyla doğrulanmadı: ekranda kayıt tamamlanamadı mesajı çıktı. `/api/session` ve `/ads.txt` doğrudan gezinmeleri tarayıcı tarafından ERR_BLOCKED_BY_CLIENT ile engellendi. Dış HTTP istekleri SSO'ya yönlendi. Bu nedenle API, ads.txt/robots/sitemap preview smoke testleri PASS değildir. Kaynakta preview origin'i izin listesinde olmadığından POST akışı ayrıca ele alınmalı; tüm vercel.app origin'lerine genel izin verilmedi.
+
+`c5d2345` rapor commit'inin [CI koşusu 35283610504](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35283610504) da bütün adımlarıyla başarılı; [Vercel build](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/DF24NpnR4PhviGXBhS1wg6iCQ2yZ) başarılı. Bu son ek yalnız doğrulama kaydıdır; uygulama kodunu değiştirmez.
