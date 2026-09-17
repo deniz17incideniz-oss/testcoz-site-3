@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 test.beforeEach(async({page})=>{await page.route('https://**/*',r=>r.abort());});
-for(const width of [320,375,390,430,768])test(`layout and navigation ${width}px`,async({page})=>{
+for(const width of [320,360,375,390,430,768,1024,1440])test(`layout and navigation ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});
  for(const url of ['/','/sinif-1.html','/ders/1-sinif-matematik.html','/kayit.html','/hakkimizda.html','/404.html']){
   await page.goto(url);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),url).toBeTruthy();

@@ -68,3 +68,5 @@ Tarayıcı testlerinden önce `npx playwright install chromium` çalıştırın.
 Sınıf/ders/rehber sayfalarının kaynağı `scripts/generate-seo-pages.mjs`; test landing/SVG kaynağı `scripts/generate-test-assets.mjs`; editoryal notlar `data/topic-meta.mjs` içindedir. Ortak kurallar `scripts/finalize-pages.mjs` ile en son uygulanır. Üretilen HTML'yi elle değiştirerek kalıcı düzenleme yapmayın.
 
 Denetim raporları `outputs/` altında oluşur ve Git'e girmez. Yayın öncesi sınırlar ve manuel kontroller: `docs/QUALITY-REPORT.md`.
+
+Ek denetimler: `npm run audit:questions` konu/seviye kapsamı ve tekrar adaylarını üretir; `npm run audit:secrets` credential desenlerini denetler. `node scripts/audit-content-similarity.mjs` landing benzerliğini raporlar. `npm run lighthouse` dört yerel mobil sayfayı ayrı sunucuda ölçer; AdSense engellenmez. Lighthouse ile tarayıcı testlerini sırayla çalıştırın. Raporlar akademik veya politika onayı değildir.

@@ -10,4 +10,4 @@ http.createServer((req,res)=>{
  if(!target.startsWith(root+path.sep)||pathname.includes('/.')){res.writeHead(403).end();return;}
  let file=target,status=200;if(!fs.existsSync(file)||fs.statSync(file).isDirectory()){file=path.join(root,'404.html');status=404;}
  res.writeHead(status,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});fs.createReadStream(file).pipe(res);
-}).listen(4173,'127.0.0.1',()=>console.log('Preview: http://127.0.0.1:4173'));
+}).listen(Number(process.env.PREVIEW_PORT||4173),'127.0.0.1',()=>console.log('Preview ready'));

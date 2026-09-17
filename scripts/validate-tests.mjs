@@ -17,6 +17,7 @@ const questionTypes = new Set(["problem", "gorsel-okuma", "tablo-yorumlama", "me
 const cognitiveLevels = new Set(["hatirlama", "anlama", "uygulama", "yorumlama", "problem-cozme"]);
 const questionTexts = new Set();
 const slugs = new Set();
+const questionIds = new Set();
 
 if (tests.length !== 372) throw new Error(`Toplam 372 test bulunmalı; bulunan: ${tests.length}.`);
 
@@ -43,6 +44,9 @@ for (const test of tests) {
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
     if (test.classLevel <= 3 && question.choices.length !== 4) throw new Error(`${test.slug} ${index + 1}. soruda 4 şık olmalı.`);
     if (new Set(question.choices).size !== question.choices.length) throw new Error(`${test.slug} ${index + 1}. soruda tekrarlanan şık var.`);
+    if (questionIds.has(question.id)) throw new Error(`Tekrarlanan soru kimliği: ${question.id}`);
+    questionIds.add(question.id);
+    if (!Number.isInteger(question.correctAnswer)) throw new Error("Doğru cevap tam sayı indeksi olmalı.");
     if (question.correctAnswer < 0 || question.correctAnswer >= question.choices.length) throw new Error("Doğru cevap indeksi geçersiz.");
     if (!question.explanation.trim()) throw new Error("Çözüm açıklaması boş bırakılamaz.");
     if (question.image && !fs.existsSync(question.image)) throw new Error(`Soru görseli bulunamadı: ${question.image}`);

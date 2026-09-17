@@ -1,110 +1,112 @@
-# TestÇöz kalite ve yayın öncesi raporu
+# Final quality pass — 18 Eylül 2026
 
-Tarih: 17 Eylül 2026. Başlangıç commit'i: `222d17718503e787eafa991961a46bb81d3da6d8`.
-Çalışma dalı: `improve/quality-and-learning`. Değişiklikler yereldir; GitHub'a gönderilmedi, Vercel'e yayımlanmadı.
+## Executive summary
 
-## 1. Tespit edilen ana problemler
+Durum: PARTIAL. `35b2ca2` korundu; başlangıç etiketi `pre-final-quality-pass`, çalışma dalı `codex/final-quality-pass`. Statik mimari, URL'ler, 372 test, API/Sheets sözleşmesi ve publisher korundu. Yeni framework veya yeni izleme servisi yok.
 
-- 372 testin landing açıklamaları aynı genel şablona dayanıyordu. Sekiz rehbere de aynı uzun ek bölümler basılıyordu.
-- Kayıt ve giriş sitemap'teydi; eski bağımsız test ekranlarının bazılarında canonical/description eksikti. İlk taramada altı SEO hatası ve iki sitemap kapsam uyarısı vardı.
-- Ana sayfada kanıtlanmış bir AI hizmeti yerine kurallı öneri sistemi bulunmasına rağmen AI ağırlıklı sunum vardı.
-- Soru normalleştirici görsel kotasını doldurmak için dekoratif kart üretiyordu. Bazı gerçek çizimler yanlış veya yetersiz çiziliyordu; davranış kartlarında İngilizce `correct` / `wrong` anahtarları gösteriliyordu.
-- Telefon zorunluydu. Bozuk URL kodlu oturum çerezi hata verebiliyordu. Panelin bazı sunucu verileri HTML olarak kaçışsız yerleştiriliyordu; çıkışta HTTP başarısızlığı kontrol edilmiyordu.
-- 5.138 bağımlılık dosyası Git takibindeydi. İki bağımlılık ağacında da yüksek önem seviyesinde paket uyarıları vardı. İş akışı, dosya adlarını kabuk koduna doğrudan yerleştiriyordu.
+Teknik iyileştirmeler uygulanmış olsa da tüm bankanın pedagojik kalite gate'i geçmedi. Bu nedenle production'a otomatik geçiş önerilmez ve bu rapor yayın onayı değildir.
 
-## 2. Değiştirilen dosyalar ve mimari
+## Before / After
 
-Statik HTML + JavaScript, mevcut API yolları, Sheets sütunları, Vercel yapılandırması, test URL'leri ve publisher kimliği korundu. `sources/` değişmedi.
+| Alan | Önce | Bu tur |
+|---|---|---|
+| 4. sınıf geometri | Cevabı soru içinde veren aynı kalıp | 30 farklı soru, düzeye göre tanıma/uygulama/muhakeme, adımlı çözüm |
+| Seçenekler | 4. sınıf üreticisinde doğru şık sürekli ilk sırada | Kararlı seçenek döndürme, doğru indeks yeniden hesaplanır |
+| Sonuç | Tekrar ve ders bağlantısı | Benzer test, üst seviye, konu, ders ve ana sayfa bağlantıları |
+| Mobil test | Uzun amaç paneli sorudan önce | Kısa açılır açıklama; soru daha erken görünür |
+| Ana sayfa | Yinelenen kartlar ve öneri bölümleri | 3 avantaj, 3 adım, 2 rehber ve tek öneri alanı |
+| Audit | Yapısal test, temel SEO | Tekil soru ID, tam sayı cevap indeksi, duplicate canonical, secret taraması, konu kapsamı ve benzerlik raporu |
+| CI | DOCX otomasyonu | Ayrı PR kalite workflow'u; üretim tutarlılığı, veri/auth/link/SEO ve tarayıcı kontrolü |
 
-Başlıca kaynaklar:
+## Changed files
 
-- `data/topic-meta.mjs`: konu açıklaması, beceriler, öğrenci/veli ipuçları. Resmî öğrenme çıktısı kodu üretilmez.
-- `scripts/generate-test-assets.mjs`, `scripts/render-learning-visual.mjs`: landing sayfaları ve özgün SVG çizimleri.
-- `scripts/generate-seo-pages.mjs`: sınıf/ders sayfaları, mevcut sekiz rehber ve yeni rehber dizini; sitemap/robots.
-- `scripts/finalize-pages.mjs`: kalıcı ortak erişilebilirlik, navigasyon, schema ve indeksleme kuralları. `npm run generate` zincirinin son adımıdır.
-- `index.html`, `css/style.css`, `js/main.js`, `js/test-runner.js`: tasarım ve test deneyimi.
-- `kayit.html`, `gizlilik-politikasi.html`, `hakkimizda.html`, `iletisim.html`, `js/register.js`, `js/panel.js`, `api/register.js`, `api/_lib/security.js`: güven, veri minimizasyonu ve dar kapsamlı güvenlik düzeltmeleri.
-- `scripts/audit-site.mjs`, `scripts/audit-question-quality.mjs`, `scripts/validate-auth.mjs`, `qa/`, `playwright.config.mjs`: tekrar çalıştırılabilir kontroller.
-- `.github/workflows/main.yml`, `automation/generate-test.js`, kilit dosyaları ve `.gitignore`: güvenli otomasyon, bağımlılık kurulumu ve Git temizliği.
+Kaynaklar: `data/tests/4-tum-dersler.js`, `js/test-runner.js`, `index.html`; bunlardan etkilenen landing sayfaları generator ile üretildi. Denetimler `scripts/`, tarayıcı akışları `qa/`, CI `.github/workflows/quality.yml`, raporlar `docs/` altında. `git diff pre-final-quality-pass --stat` bu turun kesin listesini verir. Önceki commit'teki node_modules temizliği korunur.
 
-Üretilen sayfalar kaynak betiklerden yeniden üretildi. Bağımlılıklar yalnız Git takibinden çıkarıldı; uygulama kaynakları topluca silinmedi. Tam dosya listesi: `docs/changed-files.txt`.
+## Question bank work / Gemini integration
 
-## 3. Tasarım ve öğrenme deneyimi
+Gemini dosyaları workspace içinde bulunamadı. Kullanıcının eklerinde eşleşen ZIP/MD bulunmadı; soru eklenmedi ve Gemini entegrasyonu yapılmış gibi gösterilmedi.
 
-Mavi/amber marka korundu. Daha sade hero, iki belirgin eylem, gerçek ders sayıları, öğrenme adımları, daha okunaklı seçenekler, klavye odağı, menüde Escape desteği ve ortak footer eklendi. Mobil kartlar ve breadcrumb taşması kontrol edildi. Profesyonel 404 sayfası eklendi.
+Bu tur 30 geometri sorusu düzeltildi; soru silinmedi. 3.720 soru yapısal olarak denetlenir, 972'si görsellidir. [Konu kapsamı](QUESTION-COVERAGE.md) ve [kalite raporu](QUESTION-QUALITY.md) ayrıntılıdır. 1.543 editoryal uyarı, 184 aynı soru grubu/215 tekrar adayı ve 55 benzer kalıp grubu vardır. Bunlar otomatik işaretlerdir; akademik hata sayısı değildir. Toplu silme yapılmadı. 1. sınıf İngilizce katalogda var fakat altı konunun testi yok; yeni ders icat edilmedi. 4. sınıf eski Hayat Bilgisi bankası korunur.
 
-Seçenek işaretlemek artık sorunun DOM'unu yeniden oluşturup klavye odağını kaybettirmiyor. Soruyu Geç seçili cevabı temizleyerek boş bırakıyor. Sonuçlar doğru/yanlış/boş ve yüzdeyi koruyor; Yanlışlarını Öğren bağlantısı ilgili bölüme odaklanıyor. Yanlış sorunun görseli de açıklamada gösteriliyor. Hata bildirim bağlantısı sınıf/ders/konu/seviye/test/soru bilgilerini e-postaya hazırlar; kendi kendine mesaj göndermez.
+**Açık kalite sorunu:** 4. sınıf sözel üreticisindeki genel çeldiriciler ve yalnız sayıları büyüten bazı matematik kalıpları hâlâ yeniden yazılmalıdır. 30 sorudaki iyileştirme bütün bankanın zorluk ayrımının tamamlandığı anlamına gelmez.
 
-## 4. SEO ve editoryal içerik
+## SEO / Broken links
 
-421 HTML sayfası tarandı. 410 indekslenebilir sayfa ve sitemap'te 410 URL var. Eksik title/description/canonical, tekrarlanan title/description, H1 sayısı, sitemap canonical/noindex uyuşmazlığı ve yerel kaynak/link kontrolleri hatasız.
+421 HTML, 410 indexlenebilir URL. Otomatik tarama title, description, canonical, H1, yerel href/src, publisher ve sitemap eşleşmesini kontrol eder. Runtime/auth/kişisel sayfalar noindex; public landing sayfaları indexlenebilir. Canonical ve sitemap production domainini kullanır. Sitemap'teki 410 adres yerel HTTP üzerinden redirectsiz 200 döndü.
 
-Konu odaklı metinler, gerçek bankadan seviyeye ait örnek soru, çözüm, tahmini süre ve diğer seviyelere bağlantılar eklendi. İlgili konunun aynı seviyeleri arasında ortak açıklamalar hâlâ vardır; bütün sayfaların birbirinden tamamen farklı olduğu iddia edilmez. `outputs/site-audit.json` uzun tekrarlanan paragrafları ayrıca listeler.
+İçerik benzerliği taraması 373 tests HTML dosyasında 57 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi. Bu indexleme kararı değildir; özellikle aynı konunun düzey sayfaları editoryal inceleme ister. 44 uzun paragraf birden fazla sayfada tekrarlanır. Konu metadata sistemi ve gerçek örnek soru kullanımı önceki commit'ten korunur; thin content riskinin tamamen bittiği ileri sürülmez.
 
-Ders girişleri yaklaşık 250–500 kelime hedefindedir. Mevcut sekiz rehber korundu, ortak uzun dolgu bölümleri çıkarıldı ve hepsine erişen bir dizin eklendi. BreadcrumbList ve rehber Article verileri görünür içerikten oluşturulur; uzman adı, başarı vaadi veya uydurma yayın tarihi eklenmez.
+## UX / Accessibility
 
-Kayıt/giriş/panel, dinamik sınıf/konu/test ekranları ve eski bağımsız quizler noindex/follow; URL'leri erişilebilir kalır. Arama giriş noktaları statik ders/test sayfalarıdır. Robots CSS/JS/görselleri engellemez.
+Önceki yanlış/boş inceleme, görseller, hata bildirim mailto'su ve isteğe bağlı kayıt korunur. Yeni devam bağlantıları yalnız mevcut testlerden seçilir; zor seviyede üst seviye bağlantısı gösterilmez. Çift tıklamanın iki soru ilerletmesine karşı koruma eklendi. Kişisel veri hata bildirimi bağlantısına konmaz; gönderim kullanıcının e-posta uygulamasında yapılır.
 
-## 5. AdSense
+Sekiz hedef genişlik: 320, 360, 375, 390, 430, 768, 1024, 1440. Axe WCAG A/AA otomatik testi tam erişilebilirlik sertifikası değildir. Ekran görüntüleri `outputs/` altında; home desktop/mobile, sınıf, ders, landing, soru, sonuç ve yanlış inceleme kontrol edilir.
 
-`ca-pub-1287455375559097` ve ads.txt satırı korundu. Tekrarlanan reklam betiği kontrolü eklendi. Kayıt, giriş, panel, test çözme ve noindex yardımcı ekranlarından reklam betiği kaldırıldı. İçerik sayfalarındaki mevcut betik korundu; yeni reklam kutusu veya takip aracı eklenmedi.
+## Performance / Lighthouse
 
-Gizlilik metninde reklam betiği bulunması ve ağ isteği yapabilmesi açıklandı. Bu değişiklikler AdSense onayı veya hukuki uygunluk garantisi değildir. Hesabın çocuklara yönelik işlem ayarı, reklam izinleri ve gerekli rıza düzeni bu çalışma sırasında doğrulanmadı.
+[Son ölçümler](lighthouse/README.md). Dört hedef: ana sayfa, ders, landing, runtime test. Yerel mobil ölçüm production ölçümü değildir; AdSense engellenmez. İlk koşuda performans 74–85 aralığındaydı; üçüncü taraf yükü ve çalışma ortamı etkilidir. Lighthouse ile tarayıcı testlerinin aynı sunucuyu paylaşması bir koşuyu bağlantı hatasıyla bozdu; ayrı port ve sahipli sunucu yaşam döngüsüyle düzeltildi. Başarısız koşu PASS sayılmaz.
 
-## 6. Performans
+## Security / Privacy
 
-Harici Google Fonts istekleri kaldırıldı; sistem fontları kullanılıyor. Normalleştiricideki gereksiz dekoratif görsel üretimi durduruldu. Sorularda artık 972 kaynak tanımlı SVG kullanılıyor; eski görsel dosyaları URL kırmamak için silinmedi. Örnek soru görselleri lazy loading kullanıyor.
+scrypt, imzalı oturum, HttpOnly/Secure/SameSite=Lax, payload sınırı, honeypot, e-posta çakışması ve origin kontrolü korunur. Telefon isteğe bağlı veli alanıdır. `.env.example` gerçek secret içermez. Secret taraması PEM gövdesi ve yaygın anahtar desenlerini arar; anahtar etiketleri veya test fixture'ları gerçek secret sayılmaz. Diff incelemesiyle birlikte kullanılır, mutlak güvenlik garantisi değildir.
 
-Yedi büyük eski PNG (yaklaşık 0,5–1,1 MB) bulundu; metin tabanlı referans taramasında kullanım bulunmadı. Dinamik/haricî kullanım kesin dışlanamadığından dosyalar silinmedi veya URL'leri değiştirilmedi. Üretim Core Web Vitals için saha verisi ölçülmedi.
+Rate limit süreç belleğindedir; birden fazla serverless instance için merkezi kota değildir. Google Sheets'te eşzamanlı duplicate-email yarışını tamamen önleyen bir transaction yoktur. Üretim origin kısıtı preview üzerinde oturum açma POST'unu engelleyebilir; tüm vercel.app alanlarını güvenilir saymak için gevşetilmedi. Canlı env, gerçek hesap ve veri silme süreci ayrıca doğrulanmalıdır.
 
-Son yerel Lighthouse mobil simülasyonu: Performance **96**, Accessibility **100**, Best Practices **77**, SEO **100**. AdSense betiği bu ölçümde etkin kaldı. Best Practices hedefi karşılanmadı: üçüncü taraf reklam çerezi ve tarayıcı Issues uyarıları raporlandı. Önceki koşuda performans 82 idi; bu nedenle tek koşu canlı performans garantisi sayılmaz. Ham ölçüm: `outputs/lighthouse-home.json`.
+## AdSense readiness
 
-## 7. Güvenlik ve çocuk gizliliği
+Publisher `pub-1287455375559097` / client `ca-pub-1287455375559097` korundu. ads.txt ve HTML eşleşmesi, duplicate loader, robots ve reklamsız runtime/auth sayfaları denetlenir. Yeni reklam alanı veya yanıltıcı buton eklenmedi. Onay garantisi yoktur; içerik kalitesi nedeniyle başvuruya tamamen hazır denemez.
 
-Telefon ön ve arka uçta isteğe bağlı veli bilgisi oldu; mevcut 10 Sheets sütunu korundu. Veli e-postası ve takma ad açıklamaları eklendi. scrypt, HttpOnly/Secure/SameSite çerezleri ve session API korundu. Bozuk çerez güvenli reddediliyor, oturum süresi doğrulaması sıkılaştırıldı. Panelde HTML kaçışı ve başarısız çıkış kontrolü eklendi.
+MANUAL ACTION REQUIRED: çocuklara yönelik işlem ayarı, hesap/ülke bazlı rıza ve AdSense inceleme talebi. Google'ın [resmî açıklaması](https://support.google.com/adsense/answer/3248194?hl=en) site düzeyindeki ayarı ve reklam birimi işaretlemesini ayrı ele alır. Dashboard ayarı koddan yapılmış gibi gösterilmedi.
 
-Otomasyon girdileri kod içine yerleştirilmek yerine ortam değişkenlerinden okunuyor; dosya kimliği/adı doğrulanıyor. `git add .` yerine yalnız test çıktıları ekleniyor. Her iki paket ağacının güncel denetiminde bilinen açık sayısı sıfır. Gerçek .env veya özel anahtar eklenmedi.
+## Tests
 
-Mevcut bellekte tutulan rate limit, farklı Vercel örnekleri arasında ortak değildir. Sheets'e eşzamanlı aynı e-posta kaydı ve yoğun kullanım ölçeği ayrıca değerlendirilmelidir. Bunlar auth altyapısı yeniden yazılmadan bırakıldı.
+`npm ci`, `npm test`, `npm run audit:questions`, `node scripts/audit-content-similarity.mjs`, `npm run test:browser`, `npm run lighthouse`. Auth UI açıkça tanımlanan API fixture'larıyla, backend testleri taklit Sheets servisiyle çalışır. Gerçek kullanıcı veya gerçek sonuç kaydı oluşturulmadı. Nihai sonuçlar aşağıdaki yayın kaydında tutulur.
 
-## 8. Bağlantılar
+## Production deployment / Remaining manual actions
 
-İlk kontrolde mevcut dosyalara giden kırık HTML bağlantısı bulunmadı; dolayısıyla uydurma bir “kırık link düzeltme sayısı” verilmez. Denetleyicinin kökten başlayan yolları çözme hatası düzeltildi. JS'deki sabit yönlendirmeler ve sitemap hedefleri de taranıyor; dinamik olarak hesaplanan her URL'nin statik analizle kanıtlandığı iddia edilmez. Ana dört sınıf akışı tarayıcıda ayrıca doğrulandı.
+Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru kalitesi gate'i açık olduğundan otomatik main merge yapılmaz. PR/preview sonucu ayrıca kaydedilecektir.
 
-## 9. Test edilen akışlar
+- Editör: tekrarlar, çeldiriciler, zorluk ve yaş/müfredat uygunluğu.
+- Site sahibi: gerçek test hesabıyla kayıt, giriş, sonuç kaydı, kişisel test, panel ve çıkış; iletişim kutusunun erişilebilirliği.
+- Gizlilik: veri sorumlusu, saklama süreleri, veri silme operasyonu ve rıza süreçleri.
+- Google: çocuklara yönelik ayarlar, Search Console sitemap/URL inspection, uygun zamanda AdSense review.
 
-- 372 test / 3.720 soru: şema, seçenekler, cevap indeksi, açıklama ve görsel dosyası kontrolleri.
-- Dört sınıfta ana sayfa → Matematik → ilk konu / kolay → 10 soru → 7 doğru, 2 yanlış, 1 boş → %70 → üç soruyu inceleme → yeniden başlatma.
-- 320, 375, 390, 430 ve 768 px: temsilî sayfalarda yatay taşma ve mobil menü.
-- Kayıt → giriş → boş panel → çıkış: tarayıcıda açıkça tanımlı API test yanıtlarıyla. Gerçek Sheets entegrasyonu ayrıca mevcut backend testlerinde taklit servisle sınandı; canlı hesap oluşturulmadı.
-- Temsilî ana sayfa, ders, landing, kayıt, giriş, 404 ve test ekranında axe WCAG A/AA otomatik kontrolü: sıfır ihlal. Bu tam WCAG sertifikası değildir.
-- Son bütünleşik tarayıcı koşusu: 11/11 geçti.
-- Ortak son işlem betiği tekrar çalıştırıldığında çıktı değişmiyor; üretim kalıcılığı kontrol edildi.
-- 972 aktif SVG üzerinde metin taşması bulunmadı. Korunan eski/kullanılmayan dokuz SVG için taşma uyarısı kayıtlı; aktif sorular bunları kullanmıyor.
-- Canlı mevcut sürümde ana sayfa, ads.txt, robots.txt, sitemap.xml, gizlilik, iletişim, hakkımızda, test, giriş, kayıt ve panel: HTTP 200. Yeni sürümün canlı doğrulaması değildir.
+## Son gate kaydı
 
-## 10. Bilerek değiştirilmemiş veya tamamlanmamış alanlar
+Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada güncellenir. MANUAL veya FAIL olan işlem yapılmış kabul edilmez.
 
-Soru bankası topluca yazılmadı. Bir ölçme sorusunun cevabı/açıklaması ve birkaç ifade–görsel uyumsuzluğu düzeltildi. Bütün soruların tek doğru cevap, yaşa uygunluk ve müfredat eşleştirmesi uzman tarafından onaylanmış değildir.
+## Doğrulama kaydı — 18 Eylül 2026
 
-Kalite taraması 1.373 soruyu kısa açıklama, uzun birinci sınıf sorusu veya metin kartı gibi ölçütlerle editöre işaretledi. Bu sayı doğrulanmış hatalı soru sayısı değildir. 54 sınıf/ders/seviye örneği de raporda bulunur: `outputs/question-quality.json`. Özellikle kalan metin kartları ile kavramsal/yaşa uygunluk incelemesi sürmelidir.
+- `npm ci --ignore-scripts`: PASS; npm audit: 0 açık.
+- `npm test`: PASS (372 test/3.720 soru, auth fixture, bağlantı, SEO ve secret taraması).
+- `npm run test:browser`: PASS, 22/22; sekiz genişlik, dört sınıf kolay/zor, sonuç, boş/yanlış, yeniden başlatma, devam bağlantıları, çift tıklama, auth UI, screenshot ve 410 sitemap HTTP yanıtı.
+- Generator tekrar çalıştırıldı: kaynak ve HTML farkı yok; PASS.
+- `git diff --cached --check`: PASS; HTML farkları ve kaynak değişiklikleri incelendi.
+- Önceki `35b2ca2` commit'i ve yedek etiketi yerelde korunur.
+- Test yüklemesi seçili sınıf/ders bankasıyla sınırlandı; ilk boya sırasında açılır test açıklaması ve soru alanı için sabit yer ayrıldı.
 
-Google hesabı ayarları, resmî MEB eşleştirmesi, e-posta kutusunun mesaj alması, veri saklama/silme operasyonu, canlı Vercel env ve gerçek cihaz testleri doğrulanmadı. Mail adresi mevcut siteden korundu; çalışır kutu olduğu ileri sürülmez.
+### 19 maddelik checklist
 
-## 11. Site sahibinin yayın öncesi işleri
+| Gate | Durum | Kanıt / sınır |
+|---|---|---|
+| Git repo clean | MANUAL | Son commit sonrası doğrulanacak |
+| No secrets | PASS | Desen taraması ve diff; gerçek anahtar bulunmadı |
+| Broken links = 0 | PASS | 421 HTML tarandı |
+| Test data valid | PASS | 372 test, 3.720 soru; pedagojik onay değil |
+| Browser tests pass | PASS | 22/22 |
+| Mobile tests pass | PASS | 320/360/375/390/430/768/1024/1440 |
+| Auth UI pass | PASS | Fixture ile; gerçek Sheets hesabı değil |
+| SEO audit pass | PASS | Tekil metadata/canonical, H1, noindex kontrolü |
+| Sitemap pass | PASS | 410 yerel URL, redirectsiz 200 |
+| robots.txt pass | PASS | Public kaynaklar açık; doğru sitemap |
+| ads.txt pass | PASS | Korunan publisher ile eşleşir |
+| Lighthouse acceptable | FAIL | Performance: ana sayfa 92, ders 88, landing 85, runtime 97. İki public sayfa 90 hedefinin altında; erişilebilirlik 100. |
+| GitHub pushed | MANUAL | Gönderim sonucu bekleniyor |
+| CI passed | MANUAL | PR sonrası kontrol edilecek |
+| Vercel preview passed | MANUAL | Deployment sonucu bekleniyor |
+| Production deployed | MANUAL | İçerik gate'i açık; main merge yapılmadı |
+| Production smoke test passed | MANUAL | Yeni sürüm production'da değil |
+| AdSense manual settings reviewed | MANUAL | Hesap ayarları doğrulanmadı |
+| Search Console manual submission ready | MANUAL | Yerel sitemap hazır; yeni sürüm yayınlanmadan gönderilmez |
 
-1. Dalı inceleyip Vercel Preview'da kendi test hesabıyla kayıt/giriş/sonuç kaydı/panel/çıkış ve veri silme talebini doğrulayın; ardından üretime alın.
-2. İçerik kalite raporundaki işaretleri öğretmen/editörle gözden geçirin; güncel sınıf/ders müfredat kapsamını doğrulayın. Resmî MEB kodu ancak kaynağı doğrulanınca eklenmeli.
-3. İletişim kutusuna bir deneme bildirimi gönderip alınabildiğini kontrol edin; KVKK metinlerindeki veri sorumlusu, saklama ve başvuru süreçlerini gerçek işleyişe göre netleştirin.
-4. Google reklam ayarlarını çocuklara yönelik kapsam ve geçerli rıza gereksinimleri açısından kontrol edin; test/hesap sayfalarının reklam dışı kaldığını yayımdan sonra yeniden doğrulayın.
-5. Search Console'da sitemap'i gönderin; URL denetimi, mobil gerçek cihaz ve canlı PageSpeed ölçümünü tamamlayın.
-
-## AdSense başvurusundan önce yapılması gereken manuel kontroller
-
-- [ ] Çocuklara yönelik işlem işaretlemesi ve reklam/rıza ayarları Google hesabında doğrulandı.
-- [ ] Editoryal örnekler ve kalite uyarıları gözden geçirildi; doğrulanmayan müfredat/uzman iddiası yok.
-- [ ] İletişim, gizlilik, veri silme başvurusu ve canlı hesap akışı çalışıyor.
-- [ ] ads.txt publisher eşleşiyor; mobilde reklam ile test düğmesi karışmıyor.
-- [ ] Canlı sitemap/canonical/noindex ve mobil performans kontrol edildi.
-
-Kaynaklar: [Google çocuklara yönelik işlem ayarı](https://support.google.com/adsense/answer/3248194?hl=en), [Google noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing), [Google sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [Google canonical](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+Lighthouse'ın public sayfalardaki Best Practices 77 puanı üçüncü taraf çerez/Issues bulgularını içerir; reklam engelleyerek skor yükseltilmedi. Runtime testin noindex olması bilinçli olduğundan SEO 63 bir public landing SEO hatası olarak yorumlanmamalıdır.

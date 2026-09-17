@@ -5,7 +5,7 @@ const root = process.cwd();
 const skip = new Set(['.git', 'node_modules', 'automation', 'work', 'outputs']);
 const walk = dir => fs.readdirSync(dir, {withFileTypes:true}).flatMap(e => e.isDirectory() ? (skip.has(e.name) ? [] : walk(path.join(dir,e.name))) : [path.join(dir,e.name)]);
 const files = walk(root), pages = files.filter(f=>f.endsWith('.html'));
-const errors=[], warnings=[], titles=new Map(), descriptions=new Map(), paragraphs=new Map();
+const errors=[], warnings=[], titles=new Map(), descriptions=new Map(), canonicals=new Map(), paragraphs=new Map();
 const rel=f=>path.relative(root,f).replaceAll('\\','/');
 const check=(file,reference)=>{
   if (!reference || /^(#|mailto:|tel:|data:|javascript:)/i.test(reference)) return;
@@ -25,12 +25,12 @@ for(const file of pages){
  for(const [name,value] of [['title',$('title').text().trim()],['description',$('meta[name="description"]').attr('content')],['canonical',$('link[rel="canonical"]').attr('href')]])if(!value)errors.push(`${rel(file)}: missing ${name}`);
  if($('h1').length!==1)errors.push(`${rel(file)}: H1 count ${$('h1').length}`);
  add(titles,$('title').text().trim(),file);add(descriptions,$('meta[name="description"]').attr('content'),file);
- const canonical=$('link[rel="canonical"]').attr('href');if(canonical)check(file,canonical);
+ const canonical=$('link[rel="canonical"]').attr('href');if(canonical){check(file,canonical);add(canonicals,canonical,file);if(!canonical.startsWith("https://testcoz.pro/") || new URL(canonical).search)errors.push(`${rel(file)}: nonproduction/query canonical`);}
  $('main p').each((_,e)=>{const t=$(e).text().trim();if(t.length>150)add(paragraphs,t,file);});
  const ad=$('script[src*="adsbygoogle.js"]');if(ad.length>1)errors.push(`${rel(file)}: duplicate AdSense script`);
  if(ad.length && !ad.attr('src').includes('ca-pub-1287455375559097'))errors.push(`${rel(file)}: publisher changed`);
 }
-for(const [kind,map] of [['title',titles],['description',descriptions]])for(const [text,items]of map)if(items.length>1)errors.push(`duplicate ${kind}: ${items.join(', ')}`);
+for(const [kind,map] of [['title',titles],['description',descriptions],['canonical',canonicals]])for(const [text,items]of map)if(items.length>1)errors.push(`duplicate ${kind}: ${items.join(', ')}`);
 for(const file of files.filter(f=>f.endsWith('.js')&&rel(f).startsWith('js/'))){
  const source=fs.readFileSync(file,'utf8');
  for(const m of source.matchAll(/(?:location(?:\.href)?\s*=|location\.(?:assign|replace)\()\s*["']([^"']+)["']/g))if(!m[1].includes('${'))check(path.join(root,'index.html'),m[1]);
