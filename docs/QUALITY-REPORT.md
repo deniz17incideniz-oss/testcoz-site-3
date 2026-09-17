@@ -64,7 +64,7 @@ MANUAL ACTION REQUIRED: çocuklara yönelik işlem ayarı, hesap/ülke bazlı r�
 
 ## Production deployment / Remaining manual actions
 
-Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru kalitesi gate'i açık olduğundan otomatik main merge yapılmaz. PR/preview sonucu ayrıca kaydedilecektir.
+Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru kalitesi gate'i açık olduğundan otomatik main merge yapılmaz. PR #2 draft olarak açıldı. Vercel deployment Ready, ancak preview doğrulaması SSO nedeniyle tamamlanamadı.
 
 - Editör: tekrarlar, çeldiriciler, zorluk ve yaş/müfredat uygunluğu.
 - Site sahibi: gerçek test hesabıyla kayıt, giriş, sonuç kaydı, kişisel test, panel ve çıkış; iletişim kutusunun erişilebilirliği.
@@ -89,7 +89,7 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 
 | Gate | Durum | Kanıt / sınır |
 |---|---|---|
-| Git repo clean | MANUAL | Son commit sonrası doğrulanacak |
+| Git repo clean | PASS | Commit sonrası çalışma ağacı temiz; uzak dal doğrulandı |
 | No secrets | PASS | Desen taraması ve diff; gerçek anahtar bulunmadı |
 | Broken links = 0 | PASS | 421 HTML tarandı |
 | Test data valid | PASS | 372 test, 3.720 soru; pedagojik onay değil |
@@ -101,12 +101,24 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 | robots.txt pass | PASS | Public kaynaklar açık; doğru sitemap |
 | ads.txt pass | PASS | Korunan publisher ile eşleşir |
 | Lighthouse acceptable | FAIL | Performance: ana sayfa 92, ders 88, landing 85, runtime 97. İki public sayfa 90 hedefinin altında; erişilebilirlik 100. |
-| GitHub pushed | MANUAL | Gönderim sonucu bekleniyor |
-| CI passed | MANUAL | PR sonrası kontrol edilecek |
-| Vercel preview passed | MANUAL | Deployment sonucu bekleniyor |
+| GitHub pushed | PASS | codex/final-quality-pass ve pre-final-quality-pass uzak sunucuda |
+| CI passed | PASS | 9654bcb kod commit'i: Actions run 35283370184 başarılı; rapor güncellemesinin yeni koşusu ayrıca kontrol edilir |
+| Vercel preview passed | MANUAL | Deployment Ready; URL Vercel SSO girişine yönleniyor, uygulama smoke testi yapılamadı |
 | Production deployed | MANUAL | İçerik gate'i açık; main merge yapılmadı |
 | Production smoke test passed | MANUAL | Yeni sürüm production'da değil |
 | AdSense manual settings reviewed | MANUAL | Hesap ayarları doğrulanmadı |
 | Search Console manual submission ready | MANUAL | Yerel sitemap hazır; yeni sürüm yayınlanmadan gönderilmez |
 
 Lighthouse'ın public sayfalardaki Best Practices 77 puanı üçüncü taraf çerez/Issues bulgularını içerir; reklam engelleyerek skor yükseltilmedi. Runtime testin noindex olması bilinçli olduğundan SEO 63 bir public landing SEO hatası olarak yorumlanmamalıdır.
+
+## GitHub ve deployment kanıtı
+
+- [Draft PR #2](https://github.com/deniz17incideniz-oss/testcoz-site-3/pull/2).
+- Kod commit'i: `9654bcbd02aca2ebe41aea260edd89c5315ec464`; önceki kaynak commit'i `880c5da`.
+- [Başarılı CI](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35283370184): bütün adımlar success, kalite kanıtları artifact olarak yüklendi.
+- [Vercel deployment](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/92ktMizLAw7e1WtJMjTVhHix38ia): Ready.
+- [Preview](https://testcoz-site-3-git-codex-9d74f3-deniz17incideniz-4044s-projects.vercel.app): ana sayfa, ads.txt, robots, sitemap ve API istekleri 302 ile Vercel SSO'ya yönlendi. Tarayıcı da giriş ekranı gösterdi. Koruma kapatılmadı; hesabın mevcut oturumuyla doğrulama gerekli.
+- Production değişmedi. https://testcoz.pro üzerinde ana sayfa, sınıf, ders, landing, runtime, ads.txt, robots, sitemap ve dört kurumsal sayfa HTTPS/200. Ana sayfa hâlâ eski sürüm; bu sonuç yeni deployment smoke testi değildir.
+- Canlı ads.txt doğru publisher satırını döndürdü; mevcut ana sayfada tek AdSense yükleyicisi var.
+
+Son karar: **PARTIAL**. Teknik dal ve PR hazır, CI başarılı; pedagojik kalite, iki public sayfanın performans hedefi ve korumalı preview incelemesi açık. Bu koşullarda main merge / production yapılmadı.
