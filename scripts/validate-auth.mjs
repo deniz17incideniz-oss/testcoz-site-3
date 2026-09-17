@@ -69,3 +69,12 @@ assert(missingJwtStatus.data.configured === false && missingJwtStatus.data.missi
 process.env.JWT_SECRET = validJwtSecret;
 
 console.log("✓ Kayıt, yapılandırma, şifre hashleme, giriş, oturum ve çıkış doğrulandı.");
+
+const optionalPhone = await call(register, { body: { studentName: "Takma ad", classLevel: "1", dailyGoal: 10, email: "guardian@example.com", password: "Guvenli123", consent: true, startedAt: Date.now()-3000 } });
+assert(optionalPhone.status === 201 && rows.at(-1).length === 10 && rows.at(-1)[4] === "", "Telefonsuz kayıt ve sütun uyumu başarısız.");
+const malformed = await call(session, { method: "GET", cookie: "testcoz_session=%invalid" });
+assert(malformed.status === 401, "Bozuk çerez güvenli biçimde reddedilmedi.");
+const foreignOrigin = response();
+await login({method:"POST",headers:{origin:"https://attacker.example"},body:{}}, foreignOrigin.res);
+assert(foreignOrigin.output.status === 403, "Yabancı origin reddedilmedi.");
+console.log("✓ İsteğe bağlı telefon, bozuk çerez ve origin kontrolleri doğrulandı.");

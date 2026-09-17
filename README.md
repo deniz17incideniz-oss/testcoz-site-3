@@ -52,3 +52,19 @@ Gerçek anahtarlar repoya veya frontend koduna yazılmaz.
 Tabloda `Kayitlar` adlı sayfa bulunmalıdır. İlk kayıt sırasında 10 sütun başlığı otomatik eklenir. Şifreler backend'de
 salt kullanılan scrypt ile hashlenir; giriş oturumu HttpOnly JWT çereziyle yönetilir. Google Sheets daha sonra Dosya →
 İndir → Microsoft Excel yoluyla `.xlsx` olarak dışa aktarılabilir.
+
+## Kalite araçları ve üretim kaynakları
+
+```sh
+npm ci
+npm run generate
+npm test
+npm run test:browser
+node scripts/audit-question-quality.mjs
+```
+
+Tarayıcı testlerinden önce `npx playwright install chromium` çalıştırın. Önizleme: `node scripts/preview-server.mjs` (yalnız yerel statik sunucu; gerçek backend içermez).
+
+Sınıf/ders/rehber sayfalarının kaynağı `scripts/generate-seo-pages.mjs`; test landing/SVG kaynağı `scripts/generate-test-assets.mjs`; editoryal notlar `data/topic-meta.mjs` içindedir. Ortak kurallar `scripts/finalize-pages.mjs` ile en son uygulanır. Üretilen HTML'yi elle değiştirerek kalıcı düzenleme yapmayın.
+
+Denetim raporları `outputs/` altında oluşur ve Git'e girmez. Yayın öncesi sınırlar ve manuel kontroller: `docs/QUALITY-REPORT.md`.

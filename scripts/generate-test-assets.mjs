@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { renderLearningVisual } from "./render-learning-visual.mjs";
+import { getTopicMeta } from "../data/topic-meta.mjs";
 
 const context = { window: {} };
 vm.createContext(context);
@@ -19,6 +21,8 @@ function esc(value) {
 }
 
 function shape(kind, x, y, size, color = "#2563EB", rotate = 0) {
+  if (kind === "star") { const points=Array.from({length:10},(_,i)=>{const r=size*(i%2?.22:.5),a=-Math.PI/2+i*Math.PI/5;return `${x+Math.cos(a)*r},${y+Math.sin(a)*r}`;}).join(" ");return `<polygon points="${points}" fill="${color}"/>`; }
+  if (kind === "key" || kind === "key-small") { const scale=kind==="key-small"?.6:1;return `<g transform="translate(${x} ${y}) scale(${scale})"><circle cx="-15" cy="0" r="15" fill="none" stroke="${color}" stroke-width="7"/><path d="M0 0h40m-12 0v14m12-14v14" stroke="${color}" stroke-width="7"/></g>`; }
   const transform = `transform="rotate(${rotate} ${x} ${y})"`;
   if (kind === "circle") return `<circle cx="${x}" cy="${y}" r="${size / 2}" fill="${color}"/>`;
   if (kind === "triangle") return `<polygon points="${x},${y - size / 2} ${x - size / 2},${y + size / 2} ${x + size / 2},${y + size / 2}" fill="${color}" ${transform}/>`;
@@ -43,20 +47,23 @@ function flattenData(data) {
 function renderSvg(question) {
   const { type, title, data } = question.visual;
   const colors = ["#2563EB", "#F59E0B", "#10B981", "#EF4444", "#8B5CF6"];
+  const namedColor = (label, fallback) => { const text=String(label).toLocaleLowerCase("tr-TR"); return Object.entries({mavi:"#2563eb",sarı:"#d97706",kırmızı:"#dc2626",yeşil:"#059669",mor:"#7c3aed"}).find(([name])=>text.includes(name))?.[1] || fallback; };
   let art = "";
+  const special = renderLearningVisual(type, data, esc, shape);
+  const height = special?.height || 300;
 
-  if (["chart", "bars"].includes(type) && data.items) {
+  if (special) { art = special.art; } else if (["chart", "bars"].includes(type) && data.items) {
     const max = Math.max(...data.items.map((item) => item.value), 1);
     art = data.items.map((item, index) => {
       const x = 70 + index * (560 / data.items.length);
       const height = 125 * item.value / max;
-      return `<rect x="${x}" y="${235 - height}" width="${Math.min(90, 440 / data.items.length)}" height="${height}" rx="10" fill="${colors[index % colors.length]}"/><text x="${x + 35}" y="${255}" text-anchor="middle" class="label">${esc(item.label)}</text><text x="${x + 35}" y="${225 - height}" text-anchor="middle" class="value">${item.value}</text>`;
+      return `<rect x="${x}" y="${235 - height}" width="${Math.min(90, 440 / data.items.length)}" height="${height}" rx="10" fill="${namedColor(item.label, colors[index % colors.length])}"/><text x="${x + 35}" y="${255}" text-anchor="middle" class="label">${esc(item.label)}</text><text x="${x + 35}" y="${225 - height}" text-anchor="middle" class="value">${item.value}</text>`;
     }).join("");
   } else if (type === "dots" && data.groups) {
     art = data.groups.map((group, groupIndex) => {
       const startX = 70 + groupIndex * (580 / data.groups.length);
-      const dots = Array.from({ length: group.count }, (_, index) => `<circle cx="${startX + (index % 6) * 24}" cy="${120 + Math.floor(index / 6) * 24}" r="8" fill="${colors[groupIndex % colors.length]}"/>`).join("");
-      return `${dots}<text x="${startX + 55}" y="215" text-anchor="middle" class="label">${esc(group.label)}: ${group.count}</text>`;
+      const dots = group.label === "?" ? `<text x="${startX+25}" y="145" class="equation">?</text>` : Array.from({ length: group.count }, (_, index) => `<circle cx="${startX + (index % 6) * 24}" cy="${120 + Math.floor(index / 6) * 24}" r="8" fill="${namedColor(group.label, colors[groupIndex % colors.length])}"/>`).join("");
+      return `${dots}<text x="${startX + 55}" y="215" text-anchor="middle" class="label">${esc(group.label)}</text>`;
     }).join("");
   } else if (type === "numberLine") {
     const start = data.start ?? 0;
@@ -99,10 +106,13 @@ function renderSvg(question) {
     art = lines.map((line, index) => `<rect x="${80 + (index % 3) * 195}" y="${105 + Math.floor(index / 3) * 80}" width="170" height="58" rx="14" fill="${colors[index % colors.length]}18" stroke="${colors[index % colors.length]}" stroke-width="3"/><text x="${165 + (index % 3) * 195}" y="${140 + Math.floor(index / 3) * 80}" text-anchor="middle" class="label">${esc(line)}</text>`).join("");
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">${esc(question.question)}</desc><style>.title{font:700 24px Arial,sans-serif;fill:#1E3A8A}.label{font:600 15px Arial,sans-serif;fill:#334155}.small{font:500 14px Arial,sans-serif;fill:#475569}.value{font:700 17px Arial,sans-serif;fill:#1E293B}.coin{font:700 18px Arial,sans-serif;fill:#92400E}.equation{font:700 36px Arial,sans-serif;fill:#1E3A8A}</style><rect width="720" height="300" rx="24" fill="#F8FAFC"/><rect x="18" y="18" width="684" height="264" rx="20" fill="#fff" stroke="#DBEAFE" stroke-width="3"/><text x="360" y="65" text-anchor="middle" class="title">${esc(title)}</text>${art}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 ${height}" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">${esc(question.question)}</desc><style>.title{font:700 24px Arial,sans-serif;fill:#1E3A8A}.label{font:600 15px Arial,sans-serif;fill:#334155}.small{font:500 14px Arial,sans-serif;fill:#475569}.value{font:700 17px Arial,sans-serif;fill:#1E293B}.coin{font:700 18px Arial,sans-serif;fill:#92400E}.equation{font:700 36px Arial,sans-serif;fill:#1E3A8A}</style><rect width="720" height="${height}" rx="24" fill="#F8FAFC"/><rect x="18" y="18" width="684" height="${height-36}" rx="20" fill="#fff" stroke="#DBEAFE" stroke-width="3"/><text x="360" y="65" text-anchor="middle" class="title">${esc(title)}</text>${art}</svg>`;
 }
 
 function pageHtml(test) {
+  const meta = getTopicMeta(test, test.questions);
+  const related = tests.filter(t => t.classLevel === test.classLevel && t.subject === test.subject && t.topic === test.topic && t.slug !== test.slug);
+  const minutes = Math.ceil(test.questions.reduce((sum,q) => sum + q.estimatedTimeSeconds, 0) / 60);
   const query = `sinif=${test.classLevel}&ders=${test.subject}&konu=${test.topic}&zorluk=${test.difficulty}&test=${test.testNumber}`;
   const label = test.difficulty.charAt(0).toLocaleUpperCase("tr-TR") + test.difficulty.slice(1);
   const lower = label.toLocaleLowerCase("tr-TR");
@@ -113,7 +123,7 @@ function pageHtml(test) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test 1 | testcoz.pro</title>
+  <title>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test ${test.testNumber} | testcoz.pro</title>
   <meta name="description" content="${test.classLevel}. sınıf ${esc(test.subjectName)} ${esc(test.topicName)} konusu için 10 soruluk ${lower} seviye açıklamalı test ve çalışma açıklaması.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://testcoz.pro/${test.pageUrl}">
@@ -126,12 +136,18 @@ function pageHtml(test) {
     <div class="container"><nav class="breadcrumb"><a href="../index.html">Ana Sayfa</a><span>›</span><a href="../sinif-${test.classLevel}.html">${test.classLevel}. Sınıf</a><span>›</span><a href="${subjectUrl}">${esc(test.subjectName)}</a><span>›</span><span>${esc(test.topicName)}</span></nav></div>
     <section class="section test-landing-section"><div class="container"><article class="study-content test-landing">
       <span class="eyebrow">${test.classLevel}. Sınıf ${esc(test.subjectName)} • ${label} Seviye</span>
-      <h1>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test 1</h1>
-      <p>Bu test, ${test.classLevel}. sınıf ${esc(test.subjectName)} dersi ${esc(test.topicName)} konusundaki temel kazanımları ${lower} seviyede ölçmek için hazırlanmıştır. 10 soruluk yapı öğrencinin konuyu kısa sürede denemesine, sonuç ekranında doğru, yanlış ve boş sayılarını görmesine ve açıklamalarla eksiklerini fark etmesine yardımcı olur.</p>
-      <h2>Bu testte hangi beceriler ölçülür?</h2>
-      <p>${label} seviye sorular; kolay seviyede temel kavramı, orta seviyede bilgiyi farklı örneklerde kullanmayı, zor seviyede ise dikkat, yorumlama ve problem çözme becerisini destekler. Teste başlamadan önce soruları yavaş okuyun, görsel varsa ayrıntıları inceleyin ve seçenekleri karşılaştırarak ilerleyin.</p>
-      <ul><li>Sınıf: ${test.classLevel}. sınıf</li><li>Ders: ${esc(test.subjectName)}</li><li>Konu: ${esc(test.topicName)}</li><li>Zorluk: ${label}</li><li>Soru sayısı: 10</li></ul>
+      <h1>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test ${test.testNumber}</h1>
+      <p>${esc(meta.description)}</p>
+      <h2>Bu testte neler var?</h2>
+      <ul><li>Soru sayısı: ${test.questions.length}</li><li>Seviye: ${label}</li><li>Ders: ${esc(test.subjectName)}</li><li>Konu: ${esc(test.topicName)}</li><li>Yaklaşık süre: ${minutes} dakika; bu bir süre sınırı değildir.</li></ul>
+      <h2>Bu test hangi becerileri geliştirir?</h2>
+      <ul>${meta.skills.map(skill => `<li>${esc(skill)}</li>`).join("")}</ul>
+      <h2>Teste başlamadan önce</h2><p>${esc(meta.preparationTip)}</p>
+      <details class="sample-question"><summary>Bu seviyeden örnek bir soruyu incele</summary><p>${esc(test.questions[0].question)}</p>${test.questions[0].image ? `<img src="../${esc(test.questions[0].image)}" alt="${esc(test.questions[0].imageAlt)}" width="720" height="320" loading="lazy" class="question-image">` : ""}<ul>${test.questions[0].choices.map(c=>`<li>${esc(c)}</li>`).join("")}</ul><details><summary>Çözümü gör</summary><p>${esc(test.questions[0].explanation)}</p></details></details>
       <div class="test-landing-actions"><a class="btn btn-primary btn-lg" href="${runnerUrl}">Teste Başla</a><a class="btn btn-secondary btn-lg" href="${subjectUrl}">Konuya Geri Dön</a></div>
+      <h2>Testi bitirdikten sonra ne yapmalısın?</h2><p>${esc(meta.parentTip)}</p><p>Sonuç ekranındaki Yanlışlarını Öğren bağlantısıyla boş ve yanlış sorularına dön. Açıklamayı okuduktan sonra çözüm yolunu kendi sözlerinle anlat.</p>
+      <nav aria-label="Aynı konunun diğer seviyeleri" class="difficulty-actions">${related.map(t=>`<a class="difficulty-link" href="../${t.pageUrl}">${esc(t.difficulty)} · Test ${t.testNumber}</a>`).join("")}</nav>
+      <p class="study-note">Öğrenme alanı: ${esc(test.topicName)}. Buradaki beceriler çalışma odağını anlatır; resmî MEB öğrenme çıktısı kodları değildir. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p>
       <p class="study-note">Testleri kayıt olmadan çözebilirsiniz. İsteğe bağlı kayıt, günlük hedef ve öğrenci paneli gibi ek özellikler için sunulur.</p>
     </article></div></section>
   </main>

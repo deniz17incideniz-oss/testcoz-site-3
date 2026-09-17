@@ -33,9 +33,9 @@ export default async function handler(req, res) {
   const phone = clean(body.phone, 24);
   const email = clean(body.email, 120).toLowerCase();
   const password = String(body.password || "");
-  if (!studentName || !["1", "2", "3", "4"].includes(classLevel) || !Number.isInteger(dailyGoal) || dailyGoal < 5 || dailyGoal > 200 || !phone || !email || password.length < 8 || password.length > 128 || body.consent !== true) return reply(res, 400, "Lütfen tüm zorunlu alanları doğru biçimde doldurun.");
+  if (!studentName || !["1", "2", "3", "4"].includes(classLevel) || !Number.isInteger(dailyGoal) || dailyGoal < 5 || dailyGoal > 200 || !email || password.length < 8 || password.length > 128 || body.consent !== true) return reply(res, 400, "Lütfen tüm zorunlu alanları doğru biçimde doldurun.");
   if (!validEmail(email)) return reply(res, 400, "Lütfen geçerli bir e-posta adresi girin.");
-  if (!validPhone(phone)) return reply(res, 400, "Lütfen geçerli bir iletişim numarası girin.");
+  if (phone && !validPhone(phone)) return reply(res, 400, "Lütfen geçerli bir iletişim numarası girin.");
 
   const issues = getSheetsConfigurationIssues();
   if (issues.missing.length || issues.invalid.length) {

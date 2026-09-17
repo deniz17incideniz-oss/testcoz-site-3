@@ -36,13 +36,16 @@ jobs:
       - name: Install dependencies
         run: |
           cd automation
-          npm install
+          npm ci
 
       - name: Get file info
         id: fileinfo
+        env:
+          FILE_ID: ${{ github.event.client_payload.file_id || github.event.inputs.file_id }}
+          FILE_NAME: ${{ github.event.client_payload.file_name || github.event.inputs.file_name }}
         run: |
-          FILE_ID="${{ github.event.client_payload.file_id || github.event.inputs.file_id }}"
-          FILE_NAME="${{ github.event.client_payload.file_name || github.event.inputs.file_name }}"
+          [[ "$FILE_ID" =~ ^[A-Za-z0-9_-]+$ ]] || exit 1
+          [[ "$FILE_NAME" =~ ^[a-z0-9][a-z0-9-]*\.docx$ ]] || exit 1
 
           echo "file_id=$FILE_ID" >> $GITHUB_OUTPUT
           echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
@@ -51,13 +54,14 @@ jobs:
           echo "slug=$SLUG" >> $GITHUB_OUTPUT
 
       - name: Download DOCX
+        env:
+          FILE_ID: ${{ steps.fileinfo.outputs.file_id }}
+          FILE_NAME: ${{ steps.fileinfo.outputs.file_name }}
         run: |
-          FILE_ID="${{ steps.fileinfo.outputs.file_id }}"
-          FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
 
           mkdir -p /tmp/testcoz
 
-          curl -L "https://drive.usercontent.google.com/download?id=${FILE_ID}&export=download&confirm=t" \
+          curl --fail --location --max-time 120 "https://drive.usercontent.google.com/download?id=${FILE_ID}&export=download&confirm=t" \
             -o "/tmp/testcoz/${FILE_NAME}"
 
           echo "=== FILE TYPE ==="
@@ -69,9 +73,10 @@ jobs:
           unzip -t "/tmp/testcoz/${FILE_NAME}"
 
       - name: Generate HTML
+        env:
+          FILE_NAME: ${{ steps.fileinfo.outputs.file_name }}
+          SLUG: ${{ steps.fileinfo.outputs.slug }}
         run: |
-          FILE_NAME="${{ steps.fileinfo.outputs.file_name }}"
-          SLUG="${{ steps.fileinfo.outputs.slug }}"
 
           mkdir -p tests
 
@@ -85,10 +90,12 @@ jobs:
           git config user.email "bot@testcoz.pro"
 
       - name: Commit
+        env:
+          SLUG: ${{ steps.fileinfo.outputs.slug }}
         run: |
-          git add .
+          git add tests/
 
-          git commit -m "Yeni test: ${{ steps.fileinfo.outputs.slug }}" || echo "No changes"
+          git commit -m "Yeni test: $SLUG" || echo "No changes"
 
       - name: Push
         run: |

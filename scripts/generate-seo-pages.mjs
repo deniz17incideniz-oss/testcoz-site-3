@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { getTopicMeta } from "../data/topic-meta.mjs";
 
 const SITE = "https://testcoz.pro";
 const ADSENSE_SNIPPET =
@@ -43,17 +44,17 @@ const guideLinks = [
 function header(prefix = "", active = "") {
   const nav = [
     [`${prefix}index.html`, "Ana Sayfa", active === "home"],
-    [`${prefix}sinif-1.html`, "Sınıflar", active === "classes"],
-    [`${prefix}rehber/ilkokulda-duzenli-test-cozme.html`, "Rehber", active === "guide"],
+    [`${prefix}index.html#siniflar`, "Sınıflar", active === "classes"],
+    [`${prefix}rehber/index.html`, "Rehberler", active === "guide"],
     [`${prefix}veli.html`, "Veliler", active === "parents"],
     [`${prefix}hakkimizda.html`, "Hakkımızda", active === "about"],
     [`${prefix}iletisim.html`, "İletişim", active === "contact"],
   ];
-  return `<header class="site-header"><div class="header-inner"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><nav class="main-nav">${nav.map(([href, label, isActive]) => `<a href="${href}"${isActive ? ' class="active"' : ""}>${label}</a>`).join("")}</nav><button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç veya kapat" aria-expanded="false"><span></span><span></span><span></span></button></div></header><nav class="mobile-nav" id="mobileMenu"><a href="${prefix}index.html">Ana Sayfa</a>${[1, 2, 3, 4].map((level) => `<a href="${prefix}sinif-${level}.html">${level}. Sınıf</a>`).join("")}<a href="${prefix}rehber/ilkokulda-duzenli-test-cozme.html">Rehber</a><a href="${prefix}veli.html">Veliler</a><a href="${prefix}hakkimizda.html">Hakkımızda</a><a href="${prefix}iletisim.html">İletişim</a></nav>`;
+  return `<header class="site-header"><div class="header-inner"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><nav class="main-nav">${nav.map(([href, label, isActive]) => `<a href="${href}"${isActive ? ' class="active"' : ""}>${label}</a>`).join("")}</nav><button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menüyü aç veya kapat" aria-expanded="false"><span></span><span></span><span></span></button></div></header><nav class="mobile-nav" id="mobileMenu"><a href="${prefix}index.html">Ana Sayfa</a>${[1, 2, 3, 4].map((level) => `<a href="${prefix}sinif-${level}.html">${level}. Sınıf</a>`).join("")}<a href="${prefix}rehber/index.html">Rehberler</a><a href="${prefix}veli.html">Veliler</a><a href="${prefix}hakkimizda.html">Hakkımızda</a><a href="${prefix}iletisim.html">İletişim</a></nav>`;
 }
 
 function footer(prefix = "") {
-  return `<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><p>Türkiye Yüzyılı Maarif Modeli konu yapısını temel alan açıklamalı ilkokul testleri.</p></div><div class="footer-col"><h4>Sınıflar</h4><ul>${[1, 2, 3, 4].map((level) => `<li><a href="${prefix}sinif-${level}.html">${level}. Sınıf</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Rehber</h4><ul>${guideLinks.map(([href, label]) => `<li><a href="${prefix}rehber/${href}">${label}</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Sayfalar</h4><ul><li><a href="${prefix}hakkimizda.html">Hakkımızda</a></li><li><a href="${prefix}iletisim.html">İletişim</a></li><li><a href="${prefix}veli.html">Veliler İçin</a></li><li><a href="${prefix}gizlilik-politikasi.html">Gizlilik Politikası</a></li><li><a href="${prefix}kullanim-sartlari.html">Kullanım Şartları</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="${prefix}gizlilik-politikasi.html">Gizlilik</a><a href="${prefix}kullanim-sartlari.html">Şartlar</a><a href="${prefix}iletisim.html">İletişim</a></div></div></div></footer>`;
+  return `<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><p>1–4. sınıf öğrencileri için seviyeli ve açıklamalı ilkokul testleri. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p></div><div class="footer-col"><h4>Sınıflar</h4><ul>${[1, 2, 3, 4].map((level) => `<li><a href="${prefix}sinif-${level}.html">${level}. Sınıf</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Rehber</h4><ul>${guideLinks.map(([href, label]) => `<li><a href="${prefix}rehber/${href}">${label}</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Sayfalar</h4><ul><li><a href="${prefix}hakkimizda.html">Hakkımızda</a></li><li><a href="${prefix}iletisim.html">İletişim</a></li><li><a href="${prefix}veli.html">Veliler İçin</a></li><li><a href="${prefix}gizlilik-politikasi.html">Gizlilik Politikası</a></li><li><a href="${prefix}kullanim-sartlari.html">Kullanım Şartları</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="${prefix}gizlilik-politikasi.html">Gizlilik</a><a href="${prefix}kullanim-sartlari.html">Şartlar</a><a href="${prefix}iletisim.html">İletişim</a></div></div></div></footer>`;
 }
 
 function page({ title, description, canonical, prefix = "", active = "", body }) {
@@ -121,8 +122,8 @@ const subjectFocus = {
 };
 
 function topicText(topic, subject) {
-  const focus = subjectFocus[subject.id] || subjectFocus.turkce;
-  return `${topic.name} konusu, ${subject.name} dersindeki temel kazanımları günlük örneklerle pekiştirmeyi amaçlar. Öğrenci bu başlıkta kavramı tanımayı, soruda verilen ipuçlarını seçmeyi ve doğru cevaba adım adım ulaşmayı çalışır. ${focus.tip}`;
+  const samples = tests.filter(t=>t.subject===subject.id && t.topic===topic.id).flatMap(t=>t.questions).slice(0,1);
+  return getTopicMeta({topic:topic.id,topicName:topic.name,subject:subject.id}, samples).description;
 }
 
 function classPage(level, grade) {
@@ -157,7 +158,7 @@ function subjectPage(level, grade, subject) {
     title: `${grade.name} ${subject.name} Konuları ve Seviyeli Testleri | testcoz.pro`,
     description: `${grade.name} ${subject.name} dersi için konu açıklamaları, çalışma önerileri, kolay, orta ve zor seviyeli açıklamalı testler.`,
     canonical: `${SITE}/ders/${level}-sinif-${subject.id}.html`,
-    body: `<div class="container"><nav class="breadcrumb"><a href="../index.html">Ana Sayfa</a><span>›</span><a href="../sinif-${level}.html">${grade.name}</a><span>›</span><span>${esc(subject.name)}</span></nav></div><section class="page-hero"><div class="container"><h1>${grade.name} ${esc(subject.name)} Konuları</h1><p>${esc(subject.description)}</p></div></section><section class="section"><div class="container"><div class="study-content subject-content"><h2>Dersin amacı</h2><p>${esc(focus.purpose)} ${grade.name} seviyesinde bu amaç, kısa açıklamalar, seviyeli testler ve sonuç ekranındaki çözüm notlarıyla desteklenir.</p><h3>Bu derste gelişen beceriler</h3><p>${esc(focus.skills)} Öğrenci her testte yalnızca doğru cevabı bulmaya değil, sorunun ne istediğini anlamaya ve seçenekleri bilinçli karşılaştırmaya yönlendirilir.</p><h3>Nasıl çalışılmalı?</h3><p>Önce konu başlığındaki açıklama okunmalı, ardından kolay testle temel kavram kontrol edilmelidir. Orta test öğrencinin bilgiyi farklı örneklerde kullanmasına yardım eder. Zor test ise dikkat, yorumlama ve problem çözme becerisini ölçer.</p><h3>Kolay / Orta / Zor testler nasıl kullanılmalı?</h3><p>Kolay seviye temel bilgiyi kontrol eder, orta seviye bilgiyi farklı bağlamlarda kullandırır, zor seviye ise yorumlama ve dikkat becerilerini güçlendirir. Öğrenci yanlış ve boş soruların açıklamasını incelemeden yeni seviyeye geçmemelidir.</p><h3>Veliler için öneri</h3><p>Veliler test sonucunda yalnızca başarı yüzdesine bakmak yerine yanlış yapılan soru türlerini incelemelidir. Aynı hata birkaç kez tekrarlanıyorsa önce konu açıklamasına dönmek, sonra benzer sorularla kısa tekrar yapmak daha sağlıklı olur.</p><p class="study-note">${esc(focus.tip)}</p></div><h2 style="margin:36px 0 28px">Konu Testleri</h2><div class="topic-list">${topicCards}</div></div></section>`,
+    body: `<div class="container"><nav class="breadcrumb"><a href="../index.html">Ana Sayfa</a><span>›</span><a href="../sinif-${level}.html">${grade.name}</a><span>›</span><span>${esc(subject.name)}</span></nav></div><section class="page-hero"><div class="container"><h1>${grade.name} ${esc(subject.name)} Konuları</h1><p>${esc(subject.description)}</p></div></section><section class="section"><div class="container"><div class="study-content subject-content"><h2>Dersin amacı</h2><p>${esc(gradeContent[level].intro)}</p><p>${esc(focus.purpose)} ${grade.name} seviyesinde bu amaç, kısa açıklamalar, seviyeli testler ve sonuç ekranındaki çözüm notlarıyla desteklenir.</p><h3>Öğrenme alanları</h3><p>${subject.topics.map(t=>esc(t.name)).join(" · ")}</p><h3>Bu derste gelişen beceriler</h3><p>${esc(focus.skills)} Öğrenci her testte yalnızca doğru cevabı bulmaya değil, sorunun ne istediğini anlamaya ve seçenekleri bilinçli karşılaştırmaya yönlendirilir.</p><h3>Nasıl çalışılmalı?</h3><p>Önce konu başlığındaki açıklama okunmalı, ardından kolay testle temel kavram kontrol edilmelidir. Orta test öğrencinin bilgiyi farklı örneklerde kullanmasına yardım eder. Zor test ise dikkat, yorumlama ve problem çözme becerisini ölçer.</p><h3>Kolay / Orta / Zor testler nasıl kullanılmalı?</h3><p>Kolay seviye temel bilgiyi kontrol eder, orta seviye bilgiyi farklı bağlamlarda kullandırır, zor seviye ise yorumlama ve dikkat becerilerini güçlendirir. Öğrenci yanlış ve boş soruların açıklamasını incelemeden yeni seviyeye geçmemelidir.</p><h3>Veliler için öneri</h3><p>Veliler test sonucunda yalnızca başarı yüzdesine bakmak yerine yanlış yapılan soru türlerini incelemelidir. Aynı hata birkaç kez tekrarlanıyorsa önce konu açıklamasına dönmek, sonra benzer sorularla kısa tekrar yapmak daha sağlıklı olur.</p><p class="study-note">${esc(focus.tip)}</p><p>Bugünkü çalışmada tek bir konu seçin. Çocuk çözüm yolunu açıklayabiliyorsa benzer bir örneğe geçin; açıklayamıyorsa ders kitabındaki etkinliğe dönüp birlikte yeniden deneyin.</p><a href="../rehber/index.html">Çalışma ve yanlış analizi rehberleri →</a></div><h2 style="margin:36px 0 28px">Konu Testleri</h2><div class="topic-list">${topicCards}</div></div></section>`,
   });
 }
 
@@ -286,8 +287,8 @@ const guides = [
 
 function guidePage(article) {
   const related = article.links.map(([href, label]) => `<a class="guide-related-link" href="${href}">${esc(label)}</a>`).join("");
-  const sections = article.sections.map(([heading, text], index) => `<section><h2>${esc(heading)}</h2><p>${esc(text)}</p>${index === 2 ? "<h3>Uygulanabilir küçük adım</h3><p>Bugün tek bir konu seçip önce kısa açıklamayı okuyun, ardından 10 soruluk bir test çözün. Sonuç ekranında yanlış ve boş sorulara bakarak yarın hangi konuyu tekrar edeceğinizi belirleyin. Bu küçük adım, çalışmayı büyütmeden düzen kurmaya yardım eder; çocuk için hedef ulaşılabilir kaldığında öğrenme isteği de daha kolay korunur.</p>" : ""}</section>`).join("");
-  const extraSections = `<section><h2>Sık yapılan küçük hatalar</h2><p>İlkokul düzeyinde öğrenciler çoğu zaman konuyu hiç bilmedikleri için değil, yönergeyi hızlı okudukları, görseldeki ayrıntıyı kaçırdıkları veya seçenekleri karşılaştırmadan cevap verdikleri için hata yapar. Bu nedenle testten sonra yalnızca doğru cevaba bakmak yeterli değildir. Öğrencinin soruyu nasıl okuduğunu, hangi seçeneği neden elediğini ve nerede duraksadığını konuşmak daha kalıcı bir öğrenme sağlar. Hata türü görüldüğünde çalışma da daha doğru planlanır.</p></section><section><h2>Haftalık çalışma planı nasıl kurulabilir?</h2><p>Basit bir haftalık plan çoğu zaman uzun listelerden daha etkilidir. Pazartesi tek konu açıklaması, salı kolay test, çarşamba yanlışların incelenmesi, perşembe orta test, hafta sonu ise kısa tekrar yapılabilir. Bu plan öğrencinin her gün aynı yoğunlukta çalışmasını gerektirmez; önemli olan konunun küçük parçalara ayrılmasıdır. Veliler bu süreçte süreyi, dikkat düzeyini ve öğrencinin hangi soru tipinde zorlandığını not edebilir.</p></section><section><h2>Öğrenciye uygun tempo</h2><p>Çalışma temposu öğrencinin yaşına, okuma hızına ve dikkat süresine göre ayarlanmalıdır. Bazı çocuklar bir testi hızlı tamamlar ama açıklamaları okumakta zorlanır; bazıları ise soruları yavaş çözer fakat hatasını daha iyi anlatır. Bu farklılıklar normaldir. Verimli çalışma, çocuğun kendi hızını görmesi ve küçük hedeflerle ilerlemesiyle oluşur. Bu nedenle süre tutmak yerine anlamaya, denemeye ve hatadan sonra tekrar düşünmeye alan açmak daha sağlıklı bir yaklaşımdır.</p></section><section><h2>Sonuç ekranı nasıl okunmalı?</h2><p>Başarı yüzdesi hızlı bir özet verir; fakat asıl değer yanlış ve boş soruların açıklamasındadır. Bir öğrenci yüksek doğru sayısına rağmen aynı kavramda tekrar hata yapıyorsa o konu güçlendirilmelidir. Başka bir öğrenci düşük puan alsa bile açıklamaları okuyup aynı hatayı tekrar etmiyorsa öğrenme gerçekleşiyor demektir. Bu yüzden sonuç ekranı bir bitiş noktası değil, bir sonraki çalışma için başlangıç noktası olarak görülmelidir.</p></section><section><h2>Kayıtsız erişim ve güvenli kullanım</h2><p>testcoz.pro’da testlere kayıt olmadan ulaşılabilir. İsteğe bağlı kayıt sistemi, günlük soru hedefi ve öğrenci paneli gibi ek özellikler için sunulur; test çözmek için zorunlu değildir. Veliler, çocuğun çalışma sürecini desteklerken kişisel bilgilerin paylaşımı konusunda bilinçli davranmalı ve gerektiğinde gizlilik politikası sayfasını incelemelidir. Böylece platform hem pratik çalışma hem de güvenli kullanım açısından daha anlaşılır hale gelir.</p></section>`;
+  const sections = article.sections.map(([heading,text])=>`<section><h2>${esc(heading)}</h2><p>${esc(text)}</p></section>`).join("");
+  const extraSections = "";
   return page({
     prefix: "../",
     active: "guide",
@@ -309,7 +310,8 @@ for (const [key, grade] of Object.entries(catalog.grades)) {
   }
 }
 
-const guideUrls = [];
+fs.writeFileSync(path.join(guideDir, "index.html"), page({prefix:"../", active:"guide", title:"İlkokul Çalışma Rehberleri | testcoz.pro",description:"Veliler için sınıfa göre çalışma, yanlış analizi ve seviyeli test kullanımı hakkında sekiz uygulamalı rehber.",canonical:`${SITE}/rehber/index.html`,body:`<section class="section"><div class="container"><header class="section-header"><h1>İlkokul Çalışma Rehberleri</h1><p>Birlikte daha sakin, anlaşılır ve düzenli bir çalışma alışkanlığı kurmak için.</p></header><div class="guide-grid">${guides.map(g=>`<article class="guide-card"><h2><a href="${g.slug}">${esc(g.title)}</a></h2><p>${esc(g.description)}</p><a href="${g.slug}">Rehberi oku →</a></article>`).join("")}</div></div></section>`}), "utf8");
+const guideUrls = [`${SITE}/rehber/index.html`];
 for (const article of guides) {
   fs.writeFileSync(path.join(guideDir, article.slug), guidePage(article), "utf8");
   guideUrls.push(`${SITE}/rehber/${article.slug}`);
@@ -322,8 +324,6 @@ const coreUrls = [
   "gizlilik-politikasi.html",
   "kullanim-sartlari.html",
   "veli.html",
-  "kayit.html",
-  "giris.html",
   ...[1, 2, 3, 4].map((level) => `sinif-${level}.html`),
 ].map((url) => `${SITE}/${url}`);
 const testUrls = tests.filter((test) => test.pageUrl).map((test) => `${SITE}/${test.pageUrl}`);
@@ -335,7 +335,7 @@ fs.writeFileSync(
 );
 fs.writeFileSync(
   "robots.txt",
-  "User-agent: *\nAllow: /\nAllow: /ders/\nAllow: /rehber/\nAllow: /tests/\nAllow: /assets/\nAllow: /images/\n\nSitemap: https://testcoz.pro/sitemap.xml\n",
+  "User-agent: *\nAllow: /\n\nSitemap: https://testcoz.pro/sitemap.xml\n",
   "utf8",
 );
 

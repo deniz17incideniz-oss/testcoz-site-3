@@ -19,6 +19,7 @@ let changed = 0;
 const files = htmlFiles(ROOT);
 for (const file of files) {
   let html = fs.readFileSync(file, "utf8");
+  if (/name="robots" content="noindex/i.test(html)) continue;
   const occurrences = html.split(CLIENT_ID).length - 1;
   if (occurrences > 1) throw new Error(`AdSense kodu birden fazla kez bulundu: ${path.relative(ROOT, file)}`);
   if (occurrences === 0) {

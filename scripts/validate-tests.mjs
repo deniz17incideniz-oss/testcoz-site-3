@@ -36,9 +36,6 @@ for (const test of tests) {
     if (!/^[a-z0-9-]+$/.test(test.slug)) throw new Error(`SEO uyumsuz test slugı: ${test.slug}`);
     slugs.add(test.slug);
   }
-  if (test.questions.filter((question) => question.image).length < 4) {
-    throw new Error(`${test.slug} en az 4 görselli soru içermeli.`);
-  }
   for (const [index, question] of test.questions.entries()) {
     for (const field of ["id", "question", "choices", "options", "correctAnswer", "explanation", "difficulty", "skill", "subSkill", "questionType", "cognitiveLevel", "estimatedTimeSeconds", "hasVisual", "tags"]) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);

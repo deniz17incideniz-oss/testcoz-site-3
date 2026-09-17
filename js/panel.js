@@ -1,4 +1,5 @@
 (function () {
+  const esc = value => String(value ?? "").replace(/[&<>"\']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;", "\'":"&#39;"})[char]);
   const name = document.getElementById("panelName");
   const classLevel = document.getElementById("panelClass");
   const goal = document.getElementById("panelGoal");
@@ -22,8 +23,8 @@
       return;
     }
     recentTests.innerHTML = items.map(function (item) {
-      return '<article class="panel-list-item"><strong>' + item.subject + " / " + item.topic + '</strong><span>%'
-        + item.percentage + " başarı · " + item.correctCount + " doğru · " + item.wrongCount + " yanlış · " + item.blankCount + " boş</span></article>";
+      return '<article class="panel-list-item"><strong>' + esc(item.subject) + " / " + esc(item.topic) + '</strong><span>%'
+        + esc(item.percentage) + " başarı · " + esc(item.correctCount) + " doğru · " + esc(item.wrongCount) + " yanlış · " + esc(item.blankCount) + " boş</span></article>";
     }).join("");
   }
 
@@ -34,7 +35,7 @@
       return;
     }
     weaknessList.innerHTML = items.map(function (item) {
-      return '<article class="panel-list-item"><strong>' + item.skill + '</strong><span>' + item.subject + " / " + item.topic + " · " + item.questionType + " · ağırlık " + item.weight + "</span></article>";
+      return '<article class="panel-list-item"><strong>' + esc(item.skill) + '</strong><span>' + esc(item.subject) + " / " + esc(item.topic) + " · " + esc(item.questionType) + " · ağırlık " + esc(item.weight) + "</span></article>";
     }).join("");
     hint.textContent = "Yeterli çözüm geçmişi var. Kişiye özel test oluşturabilirsiniz.";
   }
@@ -43,7 +44,8 @@
     try {
       const response = await fetch("/api/student-weaknesses", { headers: { Accept: "application/json" } });
       const result = await response.json();
-      if (!response.ok) throw new Error(result.message);
+      if (response.status === 401) { window.location.replace("giris.html"); return; }
+      if (!response.ok) throw new Error(result.message || "Panel şu anda yüklenemedi.");
       const user = result.user;
       name.textContent = user.studentName;
       classLevel.textContent = user.classLevel + ". Sınıf";
@@ -53,7 +55,7 @@
       renderRecent(result.recentTests || []);
       renderWeaknesses(result.weaknesses || []);
     } catch (error) {
-      window.location.replace("giris.html");
+      show(error.message || "Panel şu anda yüklenemedi. Lütfen sayfayı yenileyin.", "error");
     }
   }
 
@@ -75,7 +77,8 @@
   logout.addEventListener("click", async function () {
     logout.disabled = true;
     try {
-      await fetch("/api/logout", { method: "POST", headers: { "Content-Type": "application/json" } });
+      const response = await fetch("/api/logout", { method: "POST", headers: { "Content-Type": "application/json" } });
+      if (!response.ok) throw new Error("Çıkış tamamlanamadı.");
       window.location.replace("index.html");
     } catch {
       show("Çıkış işlemi tamamlanamadı. Lütfen tekrar deneyin.", "error");

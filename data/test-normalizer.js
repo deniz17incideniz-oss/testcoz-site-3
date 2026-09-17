@@ -1,5 +1,4 @@
 (function () {
-  const visualSlots = new Set([1, 2, 5, 8, 10]);
   const questionTypes = ["problem", "gorsel-okuma", "tablo-yorumlama", "metin-anlama", "islem", "karsilastirma", "siralama", "cikarim", "eslestirme", "oruntu"];
 
   function ascii(value) {
@@ -31,22 +30,9 @@
     return "anlama";
   }
 
-  function ensureVisual(test, question, index) {
-    if (question.visual || question.image || !visualSlots.has(index + 1)) return;
-    question.visual = {
-      type: "cards",
-      title: `${test.topicName || test.topic} çalışma kartı`,
-      data: {
-        konu: test.topicName || test.topic,
-        seviye: test.difficulty,
-        beceri: question.skill || "dikkatli okuma"
-      }
-    };
-  }
-
   function normalizeQuestion(test, question, index) {
     const slug = test.slug || `${test.classLevel}-sinif-${test.subject}-${test.topic}-${test.difficulty}-test-${test.testNumber || 1}`;
-    ensureVisual(test, question, index);
+    // Only render visuals authored with the question; no decorative quota.
     if (!question.id || Number.isInteger(question.id)) question.id = `${slug}-soru-${index + 1}`;
     if (!question.options) question.options = Array.isArray(question.choices) ? question.choices.slice() : [];
     if (!question.difficulty) question.difficulty = test.difficulty;
