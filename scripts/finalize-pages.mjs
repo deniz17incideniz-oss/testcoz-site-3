@@ -15,7 +15,7 @@ for(const file of walk('.')) {
  }
  if($('.site-footer').length&&!$('.footer-note').length)$('.site-footer .container').first().append('<p class="footer-note">1–4. sınıf öğrencileri için seviyeli ve açıklamalı ilkokul testleri. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p>');
  $('.main-nav, .mobile-nav').each((_,e)=>{if(!$(e).find('a[href$="giris.html"]').length)$(e).append('<a class="nav-account" href="/giris.html">Giriş Yap</a>');});
- $('.logo[aria-label]').attr('aria-label','TestÇöz ana sayfa');
+ $('.logo[aria-label]').removeAttr('aria-label');
  $('.footer-col h4').each((_,e)=>$(e).replaceWith(`<h2>${$(e).html()}</h2>`));
  $('script[src]').each((_,e)=>{if(/(?:^|\/)js\/main\.js(?:\?|$)/.test($(e).attr('src')))$(e).attr('defer','');});
  $('.mobile-menu-btn').attr('aria-controls','mobileMenu');$('.breadcrumb').attr('aria-label','Sayfa yolu');

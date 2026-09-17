@@ -1,7 +1,12 @@
 /* 4. sınıf ders testleri — görselsiz, genişletilebilir ortak veri üreticisi. */
 (function () {
   const levels=["kolay","orta","zor"], tests=[];
-  function q(text,choices,correct,explanation){return {question:text,choices,correctAnswer:choices.indexOf(correct),explanation,image:null};}
+  function q(text,choices,correct,explanation){
+    // Sabit soru metni aynı sırayı üretir; doğru şık sürekli ilk sırada kalmaz.
+    const offset=Array.from(text).reduce((sum,c)=>sum+c.codePointAt(0),0)%choices.length;
+    const ordered=choices.slice(offset).concat(choices.slice(0,offset));
+    return {question:text,choices:ordered,correctAnswer:ordered.indexOf(correct),explanation,image:null};
+  }
   function add(subject,subjectName,topic,topicName,difficulty,questions){
     const slug="4-sinif-"+subject+"-"+topic+"-"+difficulty+"-test-1";
     questions.forEach((x,i)=>{x.id=i+1;x.question="4. sınıf "+subjectName+" "+difficulty+" — "+topicName+": "+x.question;});
@@ -87,6 +92,45 @@
 
   function numQ(text,answer,step,explanation){const a=Number(answer), choices=[a,a+step,a-step,a+2*step].map(String);return q(text,choices,String(a),explanation||("Doğru sonuç "+a+"dır."));}
   const mathNames={"dogal-sayilar":"Doğal Sayılar",toplama:"Toplama",cikarma:"Çıkarma",carpma:"Çarpma",bolme:"Bölme",kesirler:"Kesirler","geometrik-cisimler":"Geometrik Cisimler","uzunluk-olcme":"Uzunluk Ölçme","cevre-olcme":"Çevre Ölçme","alan-olcme":"Alan Ölçme",tartma:"Tartma","sivi-olcme":"Sıvı Ölçme",veri:"Veri"};
+  // Her düzeyde farklı beceri: tanıma, özellikleri kullanma ve çok adımlı çıkarım.
+  const geometry={
+    kolay:[
+      q("Altı yüzü de eş kare olan cisim hangisidir?",["Küp","Üçgen prizma","Küre","Silindir"],"Küp","Küpün altı yüzünün her biri aynı büyüklükte bir karedir."),
+      q("Bir küpün kaç köşesi vardır?",["6","8","10","12"],"8","Küpün üst yüzünde 4, alt yüzünde 4 köşe vardır: 4 + 4 = 8."),
+      q("Bir küpün kaç ayrıtı vardır?",["6","8","12","16"],"12","Üstte 4, altta 4 ve bu yüzleri birleştiren 4 ayrıt vardır: 4 + 4 + 4 = 12."),
+      q("İki yüzü üçgen olan prizma hangisidir?",["Kare prizma","Üçgen prizma","Küp","Dikdörtgenler prizması"],"Üçgen prizma","Üçgen prizmanın iki üçgen yüzü ve üç dikdörtgen yan yüzü bulunur."),
+      q("Bir üçgen prizmanın toplam kaç yüzü vardır?",["3","5","6","8"],"5","İki üçgen yüz ile üç dikdörtgen yüzü toplarız: 2 + 3 = 5."),
+      q("Bir dikdörtgenler prizmasının kaç köşesi vardır?",["6","8","12","4"],"8","Karşılıklı iki dikdörtgen yüzün her birinde dört köşe vardır; toplam 8 köşedir."),
+      q("Üçgen prizmanın bir üçgen yüzünde kaç köşe vardır?",["2","3","5","6"],"3","Üçgenin üç köşesi vardır. Yalnız bir yüz sorulduğu için diğer yüzün köşelerini eklemeyiz."),
+      q("Kare prizmanın kare olan karşılıklı iki yüzü dışında kaç yan yüzü vardır?",["2","3","4","6"],"4","Kare tabanın dört kenarının her birine bir yan yüz bağlıdır; dört yan yüz vardır."),
+      q("Dikdörtgen biçimindeki kitap kutusu hangi cisme benzer?",["Küre","Koni","Üçgen prizma","Dikdörtgenler prizması"],"Dikdörtgenler prizması","Kitap kutusunun düz dikdörtgen yüzleri, köşeleri ve ayrıtları vardır."),
+      q("Bir küpün bir yüzüne bakıldığında hangi düzlemsel şekil görülür?",["Daire","Üçgen","Kare","Beşgen"],"Kare","Küp bir cisimdir; onu sınırlayan altı yüzün her biri kare biçimindedir.")
+    ],
+    orta:[
+      numQ("Bir küpün her yüzüne bir çıkartma yapıştırılıyor. İki küp için kaç çıkartma gerekir?",12,2,"Bir küpte 6 yüz vardır. İki küp için 2 × 6 = 12 çıkartma gerekir."),
+      numQ("Bir üçgen prizmanın tüm ayrıtları için birer çubuk kullanılacak. Kaç çubuk gerekir?",9,3,"İki üçgende 3 + 3 ayrıt ve aralarında 3 birleştirici ayrıt bulunur: toplam 9."),
+      numQ("Bir küpün 12 ayrıtının her biri 4 cm telden yapılıyor. Toplam kaç cm tel gerekir?",48,4,"Her ayrıt için 4 cm tel kullanılır: 12 × 4 = 48 cm."),
+      q("Bir modelin 6 köşesi ve 5 yüzü var. Model hangisidir?",["Küp","Kare prizma","Üçgen prizma","Dikdörtgenler prizması"],"Üçgen prizma","Üçgen prizmanın iki üçgen yüzünde toplam 6 köşe; iki üçgen ve üç dikdörtgen olmak üzere 5 yüz vardır."),
+      numQ("Bir üçgen prizmanın her köşesine bir boncuk konuyor. 10 boncuktan kaçı artar?",4,1,"Üçgen prizmanın 6 köşesi vardır. Artan boncuk: 10 − 6 = 4."),
+      numQ("Bir küpün 6 yüzünden 2'si boyandı. Kaç yüzü henüz boyanmadı?",4,1,"Toplam 6 yüzden boyanan 2 yüzü çıkarırız: 6 − 2 = 4."),
+      q("Küp ve üçgen prizma için hangi karşılaştırma doğrudur?",["Küpün köşesi daha fazladır.","Üçgen prizmanın yüzü daha fazladır.","Ayrıt sayıları eşittir.","Küpün yüzü daha azdır."],"Küpün köşesi daha fazladır.","Küpün 8, üçgen prizmanın 6 köşesi vardır. Bu yüzden küpün köşe sayısı daha fazladır."),
+      numQ("Bir küp ile bir üçgen prizmanın toplam yüz sayısı kaçtır?",11,1,"Küpün 6 ve üçgen prizmanın 5 yüzü vardır: 6 + 5 = 11."),
+      q("Bir kutunun karşılıklı iki yüzü kare, diğer dört yüzü kare olmayan dikdörtgendir. Bu kutu hangi cisimdir?",["Küp","Kare prizma","Üçgen prizma","Küre"],"Kare prizma","Kare prizmanın iki kare tabanı ve dört dikdörtgen yan yüzü vardır. Diğer yüzler kare olmadığı için bu cisim küp değildir."),
+      numQ("Bir dikdörtgenler prizmasının 8 köşesinin yarısına etiket kondu. Etiketsiz kaç köşe kaldı?",4,1,"8'in yarısı 4'tür. Etiketlenen 4 köşeyi çıkarırız: 8 − 4 = 4.")
+    ],
+    zor:[
+      numQ("Bir küp iskeleti için 60 cm telin tamamı kullanılıyor. On iki eş ayrıtın her biri kaç cm olur?",5,1,"Küpün 12 eş ayrıtı vardır. 60 cm teli 12 eş parçaya böleriz: 60 ÷ 12 = 5 cm."),
+      numQ("İki küp birer yüzlerinden tamamen yapıştırılıyor. Yapışan yüzler görünmediğine göre toplam kaç kare yüz dışarıda kalır?",10,2,"İki ayrı küpte 12 yüz vardır. İçeride kalan iki yüzü çıkarırız: 12 − 2 = 10 kare yüz."),
+      numQ("Üç küp düz bir sıra halinde birer yüzlerinden yapıştırılıyor. Dışarıda kaç küçük kare yüz kalır?",14,2,"Başta 3 × 6 = 18 yüz vardır. İki birleşme yerinde toplam 4 yüz kapanır: 18 − 4 = 14."),
+      numQ("Küp iskeleti yapmak için 12 çubuk ve 8 bağlantı parçası gerekiyor. 30 çubuk ve 20 bağlantı parçasıyla en fazla kaç tam küp yapılır?",2,1,"İki küp 24 çubuk ve 16 bağlantı ister. Üç küp için 36 çubuk ve 24 bağlantı gerekir; malzeme yetmez. En fazla 2 küp yapılır."),
+      numQ("Bir küpün ayrıtları 3 cm'dir. 40 cm telden iskeleti yapıldığında kaç cm tel artar?",4,1,"12 ayrıt için 12 × 3 = 36 cm tel kullanılır. 40 − 36 = 4 cm tel artar."),
+      q("Ece '6 yüzü olan her cisim küptür.' diyor. Hangi örnek bu yargının her zaman doğru olmadığını gösterir?",["Ayrıtları 2, 3 ve 4 cm olan dikdörtgenler prizması","Bir oyun zarı","Ayrıtları eşit bir küp","Kare biçimindeki tek bir kâğıt"],"Ayrıtları 2, 3 ve 4 cm olan dikdörtgenler prizması","Dikdörtgenler prizmasının da 6 yüzü vardır; verilen uzunluklar farklı olduğu için yüzlerinin tümü eş kare değildir ve cisim küp değildir."),
+      numQ("Bir üçgen prizma iskeletinin üçgen yüzlerinin her kenarı 4 cm, bu yüzleri birleştiren üç ayrıtın her biri 7 cm'dir. Toplam kaç cm tel gerekir?",45,3,"İki üçgende toplam 6 ayrıt vardır: 6 × 4 = 24 cm. Birleştiriciler 3 × 7 = 21 cm'dir. Toplam 24 + 21 = 45 cm."),
+      numQ("İki küp ile bir üçgen prizmanın ayrı ayrı duran modellerinde toplam kaç köşe vardır?",22,2,"İki küpte 2 × 8 = 16 köşe, üçgen prizmada 6 köşe bulunur: 16 + 6 = 22."),
+      q("Bir modelin yüzleri sayılırken 2 üçgen ve 3 dikdörtgen bulunuyor. Model için hangisi doğrudur?",["6 köşesi ve 9 ayrıtı vardır.","8 köşesi ve 12 ayrıtı vardır.","5 köşesi ve 6 ayrıtı vardır.","9 köşesi ve 6 ayrıtı vardır."],"6 köşesi ve 9 ayrıtı vardır.","Model üçgen prizmadır. İki üçgende 6 köşe ve 6 ayrıt, aralarında da 3 ayrıt vardır; toplam 9 ayrıt eder."),
+      numQ("Bir küpün her yüzüne 2, bir üçgen prizmanın her yüzüne 3 çıkartma konuyor. Toplam kaç çıkartma kullanılır?",27,3,"Küp için 6 × 2 = 12, üçgen prizma için 5 × 3 = 15 çıkartma gerekir. Toplam 12 + 15 = 27.")
+    ]
+  };
   function math(topic,difficulty){const k={kolay:1,orta:2,zor:3}[difficulty], out=[];for(let i=1;i<=10;i++){
     if(topic==="dogal-sayilar"){const n=12000+k*7000+i*431, ans=Math.floor(n/100)%10*100;out.push(numQ(n+" sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",ans,100,"Yüzler basamağındaki rakam 100 ile çarpılır."));}
     else if(topic==="toplama"){const a=1200*k+i*137,b=600*k+i*83;out.push(numQ(a+" + "+b+" işleminin sonucu kaçtır?",a+b,10,"Toplananlar basamaklarına göre toplanır."));}
@@ -100,7 +144,7 @@
     else if(topic==="tartma"){const kg=2*k+i,g=250*(i%4);out.push(numQ(kg+" kg "+g+" g kaç gramdır?",kg*1000+g,250,"1 kilogram 1000 gramdır."));}
     else if(topic==="sivi-olcme"){const l=2*k+i,ml=250*(i%4);out.push(numQ(l+" L "+ml+" mL kaç mililitredir?",l*1000+ml,250,"1 litre 1000 mililitredir."));}
     else if(topic==="veri"){const a=5*k+i,b=7*k+2*i,c=4*k+3*i;out.push(numQ("Bir tabloda pazartesi "+a+", salı "+b+", çarşamba "+c+" kitap okunmuştur. Toplam kaç kitap okunmuştur?",a+b+c,2,"Üç güne ait veriler toplanır."));}
-    else if(topic==="geometrik-cisimler"){const shapes=["Küp","Kare prizma","Dikdörtgenler prizması","Üçgen prizma"],correct=shapes[i%4];out.push(q(i+" numaralı kartta adı verilen geometrik cisim hangisidir: “"+correct+"”?",[correct,"Küre","Silindir","Koni"],correct,"Doğru geometrik cisim “"+correct+"”dir."));}
+    else if(topic==="geometrik-cisimler"){out.push(geometry[difficulty][i-1]);}
   }return out;}
   Object.keys(mathNames).forEach(topic=>levels.forEach(d=>add("matematik","Matematik",topic,mathNames[topic],d,math(topic,d))));
   window.TESTCOZ_TESTS=(window.TESTCOZ_TESTS||[]).concat(tests);

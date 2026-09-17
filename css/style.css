@@ -1899,3 +1899,8 @@ summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
 :root {--success:#047857;--danger:#b91c1c;}
 .site-footer>.container>a {color:#cbd5e1;}
 .site-footer .footer-col h2 {font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#cbd5e1;margin-bottom:16px;}
+
+/* Keep the quiz frame stable while the selected bank loads. */
+.test-info-title { min-height: 2.8em; }
+#questionArea { min-height: 420px; }
+.test-purpose-box summary { cursor: pointer; font-weight: 700; }

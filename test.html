@@ -108,7 +108,7 @@
 
   <header class="site-header" role="banner">
     <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="TestÇöz ana sayfa">
+      <a href="index.html" class="logo">
         <div class="logo-icon" aria-hidden="true">T</div>
         <span class="logo-text">Test<span>Çöz</span></span>
       </a>
@@ -159,10 +159,7 @@
             <a href="index.html" class="btn btn-outline btn-sm" id="testBackLink">← Geri</a>
           </div>
 
-          <div class="info-box test-purpose-box" id="testPurposeBox">
-            <h2>Test amacı</h2>
-            <p>Bu bölümde seçilen sınıf, ders, konu ve zorluk seviyesine göre testin hangi becerileri ölçtüğü gösterilir.</p>
-          </div>
+          <div class="info-box test-purpose-box" id="testPurposeBox"><details><summary>Bu test hakkında</summary><p>10 soruyu kendi hızında çöz; sonunda yanlış ve boş soruların açıklamalarını incele.</p></details></div>
 
           <!-- Progress bar -->
           <div class="test-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Test ilerleme durumu">
@@ -186,7 +183,7 @@
           </div>
 
           <div class="info-box">
-            <h4>📢 Açıklamalı Test Deneyimi</h4>
+            <h2>📢 Açıklamalı Test Deneyimi</h2>
             <p>
               Test sonunda doğru, yanlış ve boş cevaplarınızı görebilir; çözüm açıklamalarını inceleyebilirsiniz.
               Soru öneri ve geri bildirimleriniz için
@@ -249,22 +246,9 @@
   <script src="js/utils.js?v=20260630-2"></script>
   <script src="data/catalog.js?v=20260630"></script>
   <script src="data/test-normalizer.js?v=20260716"></script>
-  <script src="data/tests/1-matematik.js?v=20260630"></script>
-  <script src="data/tests/1-turkce.js?v=20260630"></script>
-  <script src="data/tests/1-hayat-bilgisi.js?v=20260630"></script>
-  <script src="data/tests/2-matematik.js?v=20260630"></script>
-  <script src="data/tests/2-turkce.js?v=20260630"></script>
-  <script src="data/tests/2-hayat-bilgisi.js?v=20260630"></script>
-  <script src="data/tests/2-ingilizce.js?v=20260701"></script>
-  <script src="data/tests/3-matematik.js?v=20260701"></script>
-  <script src="data/tests/3-turkce.js?v=20260701"></script>
-  <script src="data/tests/3-hayat-bilgisi.js?v=20260701"></script>
-  <script src="data/tests/3-fen-bilimleri.js?v=20260701"></script>
-  <script src="data/tests/3-ingilizce.js?v=20260701"></script>
-  <script src="data/tests/4-tum-dersler.js?v=20260701"></script>
-  <script src="data/tests/4-matematik-zaman-olcme.js?v=20260630"></script>
   <script src="js/main.js?v=20260630" defer=""></script>
-  <script src="js/test-runner.js?v=20260716"></script>
+  <script src="js/test-loader.js"></script>
+
 
 
 

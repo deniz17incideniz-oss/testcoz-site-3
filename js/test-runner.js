@@ -38,7 +38,7 @@
     const box = document.getElementById("testPurposeBox");
     if (!box || !grade || !subject || !topic) return;
     const label = labelDifficulty();
-    box.innerHTML = '<h2>Test amacı</h2><p>Bu test, ' + utils.escapeHtml(grade.name) + ' ' + utils.escapeHtml(subject.name) + ' dersi ' + utils.escapeHtml(topic.name) + ' konusundaki kazanımları ' + utils.escapeHtml(label.toLocaleLowerCase("tr-TR")) + ' seviyede ölçmek için hazırlanmıştır. Sorular; temel kavramı anlama, yönergeyi dikkatle okuma, seçenekleri karşılaştırma ve uygun durumda problem çözme becerilerini destekler.</p><ul><li>Sınıf: ' + utils.escapeHtml(grade.name) + '</li><li>Ders: ' + utils.escapeHtml(subject.name) + '</li><li>Konu: ' + utils.escapeHtml(topic.name) + '</li><li>Zorluk: ' + utils.escapeHtml(label) + '</li><li>Soru sayısı: 10</li></ul>';
+    box.innerHTML = '<details><summary>Bu test hakkında</summary><p>' + utils.escapeHtml(topic.name) + ' konusunu ' + utils.escapeHtml(label.toLocaleLowerCase("tr-TR")) + ' seviyede çalış. 10 soruyu kendi hızında çöz; sonunda yanlış ve boş soruların açıklamalarını incele.</p></details>';
   }
 
   function showUnavailable() {
@@ -98,8 +98,8 @@
         renderQuestion();
       }
     });
-    document.getElementById("skipQuestion").addEventListener("click", function () { answers[currentIndex] = null; goNext(); });
-    document.getElementById("nextQuestion").addEventListener("click", goNext);
+    document.getElementById("skipQuestion").addEventListener("click", function (event) { if(event.detail > 1)return; answers[currentIndex] = null; goNext(); });
+    document.getElementById("nextQuestion").addEventListener("click", function(event) { if(event.detail <= 1)goNext(); });
   }
 
   function goNext() {
@@ -151,6 +151,15 @@
     }
   }
 
+  function continuationLinks() {
+    const nextLevel = {kolay:"orta", orta:"zor"}[difficulty];
+    const next = tests.find(t => t.classLevel === classLevel && t.subject === test.subject && t.topic === test.topic && t.difficulty === nextLevel);
+    const similar = tests.find(t => t.classLevel === classLevel && t.subject === test.subject && t.topic !== test.topic && t.difficulty === difficulty);
+    return (next ? '<a class="btn btn-outline" href="'+utils.escapeHtml(next.pageUrl)+'">Bir Üst Seviyeyi Dene</a>' : '') +
+      (similar ? '<a class="btn btn-outline" href="'+utils.escapeHtml(similar.pageUrl)+'">Benzer Test Çöz</a>' : '') +
+      '<a class="btn btn-outline" href="'+utils.escapeHtml(test.pageUrl)+'">Konuya Dön</a>';
+  }
+
   function showResult() {
     const correct = answers.filter(function (answer, index) { return answer === test.questions[index].correctAnswer; }).length;
     const wrongIndexes = answers.map(function (answer, index) { return answer !== null && answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
@@ -169,7 +178,7 @@
         const isEmpty = answers[index] === null;
         return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
           (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" loading="lazy">' : '') +
-          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soru boş bırakıldı" : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
+          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
           '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
           '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
       }).join("") + '</section>'
@@ -191,7 +200,7 @@
       '<div class="result-stat"><div class="result-stat-val val-empty">' + empty + '</div><div class="result-stat-lbl">Boş / Geçilen</div></div></div>' +
       '<p>' + correct + ' doğru yaptın. Toplam ' + test.questions.length + ' sorudan ' + reviewIndexes.length + ' soruyu yeniden inceleyebilirsin.</p>' +
       '<div class="result-actions">' + (reviewIndexes.length ? '<a class="btn btn-primary" href="#wrongReview" id="reviewAnswers">Yanlışlarını Öğren</a>' : '') + '<button type="button" class="btn btn-primary" id="restartTest">Testi Tekrar Çöz</button>' +
-      '<a href="index.html" class="btn btn-outline">Ana Sayfaya Dön</a><a href="' + topicUrl() + '" class="btn btn-outline">Konuya Geri Dön</a></div></div>' + reviews;
+      continuationLinks() + '<a href="index.html" class="btn btn-outline">Ana Sayfaya Dön</a><a href="' + topicUrl() + '" class="btn btn-outline">Ders Sayfasına Dön</a></div></div>' + reviews;
     resultArea.insertAdjacentHTML("afterbegin", '<div id="resultSaveStatus" class="result-save-note">Sonuç kaydı kontrol ediliyor…</div>');
     saveResultIfPossible({ correct, wrong: wrongIndexes.length, empty, wrongQuestionIds, blankQuestionIds, wrongSkills, blankSkills, wrongQuestionTypes, blankQuestionTypes });
     document.getElementById("restartTest").addEventListener("click", function () {
@@ -207,7 +216,7 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initialize() {
     renderBreadcrumb();
     if (!test || !grade || !subject || !topic || test.questions.length !== 10) {
       showUnavailable();
@@ -220,5 +229,7 @@
     if (back) back.href = topicUrl();
     renderPurpose();
     renderQuestion();
-  });
+  }
+  if(document.readyState === "loading")document.addEventListener("DOMContentLoaded", initialize);
+  else initialize();
 })();
