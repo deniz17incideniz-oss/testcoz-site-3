@@ -34,7 +34,7 @@ Bu tur doğrulanan 33 Gemini sorusu, beş 4. sınıf zor matematik testindeki za
 
 421 HTML, 410 indexlenebilir URL. Otomatik tarama title, description, canonical, H1, yerel href/src, publisher ve sitemap eşleşmesini kontrol eder. Runtime/auth/kişisel sayfalar noindex; public landing sayfaları indexlenebilir. Canonical ve sitemap production domainini kullanır. Sitemap'teki 410 adres yerel HTTP üzerinden redirectsiz 200 döndü.
 
-İçerik benzerliği taraması 373 test HTML dosyasında 38 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi; önceki ölçüm 57 idi. Tekrarlanan uzun paragraf sayısı 44'ten 25'e düştü. Her landing konu özeti, beceriler, öğrenme hedefleri, sık hatalar, hazırlık, test sonrası öneri, veli önerisi ve o testten gerçek örnek içerir; sınıf ve zorluk odağı ayrıca ayrıştırılır. Kalan 38 çift editoryal adaydır ve otomatik indexleme kararı değildir.
+İçerik benzerliği taraması 373 test HTML dosyasında 43 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi; önceki ölçüm 57 idi. Tekrarlanan uzun paragraf sayısı 44'ten 25'e düştü. Her landing konu özeti, beceriler, öğrenme hedefleri, sık hatalar, hazırlık, test sonrası öneri, veli önerisi ve o testten gerçek örnek içerir; sınıf ve zorluk odağı ayrıca ayrıştırılır. Kalan 43 çift editoryal adaydır ve otomatik indexleme kararı değildir.
 
 ## UX / Accessibility
 

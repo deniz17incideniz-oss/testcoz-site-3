@@ -64,14 +64,18 @@ const english = {
 };
 function completeMeta(meta, topicName, classLevel, difficulty) {
  const skills=meta.skills;
- const gradeFocus={1:'Somut nesneler, kısa yönergeler ve tek adımlı karşılaştırmalarla',2:'Günlük yaşam örnekleri ve iki bağlantılı bilgiyle',3:'Nedenini açıklama, tablo veya metinden kanıt bulma yoluyla',4:'Birden fazla ipucunu birleştirip çözüm yolunu gerekçelendirerek'}[classLevel]||'Sınıf düzeyine uygun örneklerle';
- const levelFocus={kolay:'temel kavramı tanıma ve doğrudan kullanma',orta:'bilgiyi yeni bir durumda uygulama ve seçenekleri karşılaştırma',zor:'birden çok ipucunu ilişkilendirme ve sonucu gerekçelendirme'}[difficulty]||'konuyu uygulama';
+ const resolvedDifficulty=difficulty||'kolay';
+ const gradeFocus={1:'somut nesneler, kısa yönergeler ve tek adımlı karşılaştırmalar',2:'günlük yaşam örnekleri ve birbiriyle bağlantılı iki bilgi',3:'neden açıklama, tablo okuma veya metinden kanıt bulma',4:'birden fazla ipucunu birleştirme ve çözüm yolunu açıklama'}[classLevel]||'sınıf düzeyine uygun örnekler';
+ const levelFocus={kolay:'temel kavramı tanıma ve doğrudan kullanma',orta:'bilgiyi yeni bir durumda uygulama ve seçenekleri karşılaştırma',zor:'birden çok ipucunu ilişkilendirme ve sonucu gerekçelendirme'}[resolvedDifficulty];
+ const levelLabel=resolvedDifficulty.charAt(0).toLocaleUpperCase('tr-TR')+resolvedDifficulty.slice(1);
+ const evidenceFocus=resolvedDifficulty==='zor'?'birden fazla ipucunu ilişkilendirerek':resolvedDifficulty==='orta'?'seçeneklerdeki kanıtları karşılaştırarak':'temel bilgiyi kullanarak';
+ const context=classLevel&&difficulty?` Bu ${classLevel}. sınıf ${difficulty} testinde ${gradeFocus} kullanılır; öğrenciden ${levelFocus} beklenir.`:'';
  return {...meta,
-  description:`${meta.description} ${classLevel}. sınıf ${difficulty} düzeyinde çalışma, ${gradeFocus.toLocaleLowerCase('tr-TR')} ${levelFocus} üzerine kuruludur.`,
+  description:`${meta.description}${context}`,
   summary:meta.description,
-  learningGoals:[`${skills[0]} bilgisini ${difficulty} düzeydeki soruda kullanır.`,`${skills[1]||skills[0]} gerektiren seçenekleri ${classLevel}. sınıf düzeyinde karşılaştırır.`,`${skills[2]||skills[0]} sonucunu ${levelFocus} yoluyla gerekçelendirir.`],
-  commonMistakes:[`${difficulty} düzeyde sorunun ${skills[0].toLocaleLowerCase('tr-TR')} odağını belirlemeden seçeneklere geçmek.`,`${skills[1]||topicName} ile ${skills[2]||'sorudaki sonucu'} arasındaki ${classLevel}. sınıf düzeyindeki ilişkiyi atlamak.`],
-  afterTestTip:`Yanlış veya boş sorularda ${skills[0].toLocaleLowerCase('tr-TR')} adımına dön; ${difficulty} düzeyindeki çözümü kapatıp benzer bir örneği kendi sözlerinle yeniden açıkla.`
+  learningGoals:[`${skills[0]} bilgisini ${resolvedDifficulty} düzeydeki soruda kullanır.`,`${skills[1]||skills[0]} gerektiren seçenekleri${classLevel?` ${classLevel}. sınıf düzeyinde`:''} karşılaştırır.`,`${skills[2]||skills[0]} sonucunu ${evidenceFocus} gerekçelendirir.`],
+  commonMistakes:[`${levelLabel} düzeyde sorunun ${skills[0].toLocaleLowerCase('tr-TR')} odağını belirlemeden seçeneklere geçmek.`,`${skills[1]||topicName} ile ${skills[2]||'sorudaki sonucu'} arasındaki ilişkiyi atlamak.`],
+  afterTestTip:`Yanlış veya boş sorularda ${skills[0].toLocaleLowerCase('tr-TR')} adımına dön; ${resolvedDifficulty} düzeyindeki çözümü kapatıp benzer bir örneği kendi sözlerinle yeniden açıkla.`
  };
 }
 export function getTopicMeta({topic,topicName,subject,classLevel,difficulty}, samples=[]) {
