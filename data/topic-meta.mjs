@@ -62,10 +62,22 @@ const english = {
  'my-day':['günlük rutin','Günlük eylemler','Olayın günün hangi bölümünde gerçekleştiğini düşün.'],
  'fun-with-science':['bilim etkinlikleri','Etkinlik yönergeleri','İşlem adımlarının sırasını takip et.'],
 };
-export function getTopicMeta({topic,topicName,subject}, samples=[]) {
- if(notes.has(topic))return notes.get(topic);
- if(english[topic]){const [theme,skill,tip]=english[topic];return {description:`${topicName} çalışmasında ${theme} ile ilgili kısa İngilizce ifadeleri anlamlarıyla eşleştir. Diyalogda konuşan kişiyi ve verilen durumu belirlemek, bildiğin kelimeleri doğru bağlamda kullanmana yardımcı olur.`,skills:[skill,'Bağlamdan anlam','Diyalog tamamlama'],preparationTip:tip,parentTip:'Cevabı çevirmek yerine önce bilinen kelimeleri çocuğun bulmasını bekleyin; kısa bir diyalogla tekrar edin.'};}
+function completeMeta(meta, topicName, classLevel, difficulty) {
+ const skills=meta.skills;
+ const gradeFocus={1:'Somut nesneler, kısa yönergeler ve tek adımlı karşılaştırmalarla',2:'Günlük yaşam örnekleri ve iki bağlantılı bilgiyle',3:'Nedenini açıklama, tablo veya metinden kanıt bulma yoluyla',4:'Birden fazla ipucunu birleştirip çözüm yolunu gerekçelendirerek'}[classLevel]||'Sınıf düzeyine uygun örneklerle';
+ const levelFocus={kolay:'temel kavramı tanıma ve doğrudan kullanma',orta:'bilgiyi yeni bir durumda uygulama ve seçenekleri karşılaştırma',zor:'birden çok ipucunu ilişkilendirme ve sonucu gerekçelendirme'}[difficulty]||'konuyu uygulama';
+ return {...meta,
+  description:`${meta.description} ${classLevel}. sınıf ${difficulty} düzeyinde çalışma, ${gradeFocus.toLocaleLowerCase('tr-TR')} ${levelFocus} üzerine kuruludur.`,
+  summary:meta.description,
+  learningGoals:[`${skills[0]} bilgisini ${difficulty} düzeydeki soruda kullanır.`,`${skills[1]||skills[0]} gerektiren seçenekleri ${classLevel}. sınıf düzeyinde karşılaştırır.`,`${skills[2]||skills[0]} sonucunu ${levelFocus} yoluyla gerekçelendirir.`],
+  commonMistakes:[`${difficulty} düzeyde sorunun ${skills[0].toLocaleLowerCase('tr-TR')} odağını belirlemeden seçeneklere geçmek.`,`${skills[1]||topicName} ile ${skills[2]||'sorudaki sonucu'} arasındaki ${classLevel}. sınıf düzeyindeki ilişkiyi atlamak.`],
+  afterTestTip:`Yanlış veya boş sorularda ${skills[0].toLocaleLowerCase('tr-TR')} adımına dön; ${difficulty} düzeyindeki çözümü kapatıp benzer bir örneği kendi sözlerinle yeniden açıkla.`
+ };
+}
+export function getTopicMeta({topic,topicName,subject,classLevel,difficulty}, samples=[]) {
+ if(notes.has(topic))return completeMeta(notes.get(topic),topicName,classLevel,difficulty);
+ if(english[topic]){const [theme,skill,tip]=english[topic];return completeMeta({description:`${topicName} çalışmasında ${theme} ile ilgili kısa İngilizce ifadeleri anlamlarıyla eşleştir. Diyalogda konuşan kişiyi ve verilen durumu belirlemek, bildiğin kelimeleri doğru bağlamda kullanmana yardımcı olur.`,skills:[skill,'Bağlamdan anlam','Diyalog tamamlama'],preparationTip:tip,parentTip:'Cevabı çevirmek yerine önce bilinen kelimeleri çocuğun bulmasını bekleyin; kısa bir diyalogla tekrar edin.'},topicName,classLevel,difficulty);}
  // Turkish thematic units: source-grounded examples distinguish units and grades.
  const example=samples[0]?.question;
- return {description:`${topicName} başlığında olayları, kişilerin davranışlarını ve sözcüklerin metindeki anlamını birlikte incele. ${example ? 'Bu çalışmadan bir örnek: “'+example+'” Cevap ararken sorudaki ipuçlarını kendi düşüncenden ayır.' : 'Bu konu için sınıfındaki ders kitabından kısa bir metin seçip ne anlattığını kendi sözlerinle söyle.'}`,skills:subject==='turkce'?['Metni anlama','Anlam ilişkileri','Yönergeyi izleme']:['Kavramları tanıma','Karşılaştırma'],preparationTip:`${topicName} ile ilgili soruda önce kimden veya neden söz edildiğini bul; sonra seçenekleri oku.`,parentTip:'Çocuğun seçimini gerekçelendirmesine fırsat verin. Metinde olmayan bilgileri varsaymak yerine ilgili cümleye dönmesini destekleyin.'};
+ return completeMeta({description:`${topicName} başlığında olayları, kişilerin davranışlarını ve sözcüklerin metindeki anlamını birlikte incele. ${example ? 'Bu çalışmadan bir örnek: “'+example+'” Cevap ararken sorudaki ipuçlarını kendi düşüncenden ayır.' : 'Bu konu için sınıfındaki ders kitabından kısa bir metin seçip ne anlattığını kendi sözlerinle söyle.'}`,skills:subject==='turkce'?['Metni anlama','Anlam ilişkileri','Yönergeyi izleme']:['Kavramları tanıma','Karşılaştırma'],preparationTip:`${topicName} ile ilgili soruda önce kimden veya neden söz edildiğini bul; sonra seçenekleri oku.`,parentTip:'Çocuğun seçimini gerekçelendirmesine fırsat verin. Metinde olmayan bilgileri varsaymak yerine ilgili cümleye dönmesini destekleyin.'},topicName,classLevel,difficulty);
 }

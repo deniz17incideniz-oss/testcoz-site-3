@@ -142,10 +142,12 @@ function pageHtml(test) {
       <ul><li>Soru sayısı: ${test.questions.length}</li><li>Seviye: ${label}</li><li>Ders: ${esc(test.subjectName)}</li><li>Konu: ${esc(test.topicName)}</li><li>Yaklaşık süre: ${minutes} dakika; bu bir süre sınırı değildir.</li></ul>
       <h2>Bu test hangi becerileri geliştirir?</h2>
       <ul>${meta.skills.map(skill => `<li>${esc(skill)}</li>`).join("")}</ul>
+      <h2>Öğrenme hedefleri</h2><ul>${meta.learningGoals.map(goal => `<li>${esc(goal)}</li>`).join("")}</ul>
+      <h2>Sık yapılan hatalar</h2><ul>${meta.commonMistakes.map(mistake => `<li>${esc(mistake)}</li>`).join("")}</ul>
       <h2>Teste başlamadan önce</h2><p>${esc(meta.preparationTip)}</p>
       <details class="sample-question"><summary>Bu seviyeden örnek bir soruyu incele</summary><p>${esc(test.questions[0].question)}</p>${test.questions[0].image ? `<img src="../${esc(test.questions[0].image)}" alt="${esc(test.questions[0].imageAlt)}" width="720" height="320" loading="lazy" class="question-image">` : ""}<ul>${test.questions[0].choices.map(c=>`<li>${esc(c)}</li>`).join("")}</ul><details><summary>Çözümü gör</summary><p>${esc(test.questions[0].explanation)}</p></details></details>
       <div class="test-landing-actions"><a class="btn btn-primary btn-lg" href="${runnerUrl}">Teste Başla</a><a class="btn btn-secondary btn-lg" href="${subjectUrl}">Konuya Geri Dön</a></div>
-      <h2>Testi bitirdikten sonra ne yapmalısın?</h2><p>${esc(meta.parentTip)}</p><p>Sonuç ekranındaki Yanlışlarını Öğren bağlantısıyla boş ve yanlış sorularına dön. Açıklamayı okuduktan sonra çözüm yolunu kendi sözlerinle anlat.</p>
+      <h2>Testi bitirdikten sonra ne yapmalısın?</h2><p>${esc(meta.afterTestTip)}</p><h3>Veliler için kısa öneri</h3><p>${esc(meta.parentTip)}</p><p>Sonuç ekranındaki Yanlışlarını Öğren bağlantısıyla boş ve yanlış sorularına dön. Açıklamayı okuduktan sonra çözüm yolunu kendi sözlerinle anlat.</p>
       <nav aria-label="Aynı konunun diğer seviyeleri" class="difficulty-actions">${related.map(t=>`<a class="difficulty-link" href="../${t.pageUrl}">${esc(t.difficulty)} · Test ${t.testNumber}</a>`).join("")}</nav>
       <p class="study-note">Öğrenme alanı: ${esc(test.topicName)}. Buradaki beceriler çalışma odağını anlatır; resmî MEB öğrenme çıktısı kodları değildir. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p>
       <p class="study-note">Testleri kayıt olmadan çözebilirsiniz. İsteğe bağlı kayıt, günlük hedef ve öğrenci paneli gibi ek özellikler için sunulur.</p>

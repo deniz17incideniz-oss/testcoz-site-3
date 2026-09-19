@@ -16,26 +16,26 @@
     const e=c.example, f=c.fact, w=c.wrong, a=c.action, r=c.result, term=c.term, meaning=c.meaning;
     const sets={
       kolay:[
-        q("“"+term+"” ne demektir?",[meaning,"Konuyla ilgisiz bilgi","Rastgele tahmin","Yanlış uygulama"],meaning,"Doğru anlam: "+meaning+"."),
+        q("“"+term+"” ne demektir?",[meaning,f,e,r],meaning,"Doğru anlam: "+meaning+"."),
         q("Hangisi doğru bir örnektir?",[e,w,"Kuralı yok saymak","Konuyu değiştirmek"],e,"Doğru örnek “"+e+"” ifadesidir."),
         q("Aşağıdaki bilgilerden hangisi doğrudur?",[f,w,"Her durum aynıdır.","Kanıta gerek yoktur."],f,f),
         q("Hangisi yanlış bir uygulamadır?",[w,e,a,"Kurala uygun davranmak"],w,"Yanlış uygulama “"+w+"” ifadesidir."),
         q("“"+a+"” davranışının sonucu hangisidir?",[r,"Bilginin kaybolması","Konunun değişmesi","Çalışmanın yarım kalması"],r,"Beklenen sonuç: "+r+"."),
         q("Bu konuyla ilgili anahtar kavram hangisidir?",[term,"rastlantı","ilgisizlik","belirsizlik"],term,"Anahtar kavram “"+term+"”dir."),
-        q("Doğru bilgi ile örnek hangi seçenekte birlikte verilmiştir?",[f+" — "+e,w+" — "+e,f+" — "+w,"Konu dışı — "+w],f+" — "+e,"Bilgi ve uygun örnek doğru eşleştirilmiştir."),
+        q("Doğru bilgi ile örnek hangi seçenekte birlikte verilmiştir?",[f+" — "+e,w+" — "+e,f+" — "+w,meaning+" — "+w],f+" — "+e,"Bilgi ve uygun örnek doğru eşleştirilmiştir."),
         q("Bu konuda yapılması gereken davranış hangisidir?",[a,w,"Bilgiyi gizlemek","Kuralları önemsememek"],a,"Uygun davranış “"+a+"”dır."),
         q("Hangi sonuç olumlu ve konuya uygundur?",[r,"Sorunun büyümesi","Kaynakların boşa kullanılması","Yanlış bilginin yayılması"],r,"Olumlu sonuç “"+r+"”dır."),
         q("Konuyu en iyi özetleyen ifade hangisidir?",[f,w,"Yalnız ayrıntılar önemlidir.","Her cevap tahminle bulunur."],f,"Ana düşünce doğru bilgide verilmiştir.")],
       orta:[
         q("“"+e+"” örneğinden hangi sonuca ulaşılır?",[f,w,"Konu hakkında sonuç çıkarılamaz.","Bütün kurallar geçersizdir."],f,"Örnek, doğru bilgiyi destekler."),
-        q("Bir öğrenci “"+w+"” diyor. Bu ifade nasıl düzeltilmelidir?",[f,"Aynı bırakılmalıdır.","Konu dışı bilgi eklenmelidir.","Kanıtlar silinmelidir."],f,"Yanlış ifade doğru bilgiyle düzeltilir."),
+        q("Bir öğrenci “"+w+"” diyor. Bu ifade nasıl düzeltilmelidir?",[f,w+" ifadesini doğru kabul ederek",e+" örneğini yanlış sayarak",a+" davranışından vazgeçerek"],f,"Yanlış ifade doğru bilgiyle düzeltilir."),
         q("“"+term+"” kavramı ile “"+meaning+"” arasında nasıl bir ilişki vardır?",["Kavram ve anlam ilişkisi","Neden ve ilgisiz sonuç","İki zıt yanlış","Başlık ve sayfa numarası"],"Kavram ve anlam ilişkisi","İkinci ifade kavramın anlamını verir."),
-        q("Doğru uygulama sırası hangisidir?",[a+" → "+r,w+" → "+r,r+" → "+a,"Konu dışı işlem → "+w],a+" → "+r,"Doğru davranış uygun sonucu doğurur."),
+        q("Doğru uygulama sırası hangisidir?",[a+" → "+r,w+" → "+r,r+" → "+a,w+" → "+f],a+" → "+r,"Doğru davranış uygun sonucu doğurur."),
         q("Hangisi verilen kurala uygun değildir?",[w,e,a,f],w,"Kurala uymayan seçenek “"+w+"”dır."),
         q("Bir açıklamayı güçlendiren kanıt hangisidir?",[e,w,"Kişisel ve ilgisiz görüş","Ölçülmemiş tahmin"],e,"Konuya uygun örnek açıklamayı destekler."),
         q("“"+a+"” neden yapılmalıdır?",[r,"Yanlış bilgiyi artırmak","Sorunu gizlemek","Konuyu dağıtmak"],r,"Davranışın amacı olumlu sonuca ulaşmaktır."),
         q("Hangi karşılaştırma doğrudur?",[e+" doğrudur; "+w+" yanlıştır.",w+" doğrudur; "+e+" yanlıştır.","İki ifade de yanlıştır.","İki ifade konu dışıdır."],e+" doğrudur; "+w+" yanlıştır.","Örnek doğru, karşıt uygulama yanlıştır."),
-        q("Bu konuda karar verirken önce neye bakılmalıdır?",[f,w,"Rastgele seçime","Konu dışı ayrıntıya"],f,"Karar doğru bilgiye dayanmalıdır."),
+        q("Bu konuda karar verirken önce neye bakılmalıdır?",[f,w,term+" kavramını yok saymaya",e+" örneğinin tersini yapmaya"],f,"Karar doğru bilgiye dayanmalıdır."),
         q("En uygun çıkarım hangisidir?",[a+" yapıldığında "+r+".",w+" her zaman yararlıdır.","Kuralların etkisi yoktur.","Örnekler bilgi vermez."],a+" yapıldığında "+r+".","Davranış ile sonucu doğru ilişkilendirir.")],
       zor:[
         q("Bir durum hem “"+e+"” hem “"+a+"” içeriyor. En kapsamlı sonuç hangisidir?",[f+" Böylece "+r+".",w,"Konu değişmiştir.","Hiçbir sonuç çıkarılamaz."],f+" Böylece "+r+".","Bilgi, örnek ve sonuç birlikte değerlendirilmiştir."),
@@ -44,7 +44,7 @@
         q("Yeni bir durumda uygulanabilecek en iyi ilke hangisidir?",[f,w,"Her koşulda rastgele davranmak","Sonucu kanıtsız değiştirmek"],f,"Doğru bilgi yeni durumlara aktarılabilir."),
         q("Bir sorun “"+a+"” yoluyla çözülüyor. Çözümün başarılı olduğunu ne gösterir?",[r,w,"Sorunun büyümesi","Bilginin azalması"],r,"Başarı uygun sonuçla anlaşılır."),
         q("Hangi seçenek neden-sonuç ilişkisini ters kurmuştur?",[r+" olduğu için "+a,w+" olduğu için sorun büyüdü",a+" yapıldığı için "+r,f+" olduğu için doğru karar verildi"],r+" olduğu için "+a,"Bu seçenekte sonuç nedenmiş gibi verilmiştir."),
-        q("Kavram haritasının merkezine hangisi yazılmalıdır?",[term,w,"Konu dışı ayrıntı","Rastgele sayı"],term,"Bütün bilgiler anahtar kavramla ilişkilidir."),
+        q("Kavram haritasının merkezine hangisi yazılmalıdır?",[term,w,e,r],term,"Bütün bilgiler anahtar kavramla ilişkilidir."),
         q("İki görüşten hangisi kanıta daha uygundur?",["“"+f+"” diyen öğrenci","“"+w+"” diyen öğrenci","Kanıt kullanmayan öğrenci","Konuyu değiştiren öğrenci"],"“"+f+"” diyen öğrenci","Doğru bilgi kanıtlarla uyumludur."),
         q("Uygulama geliştirilmek istenirse ne yapılmalıdır?",[a+" ve sonucu değerlendirmek",w,"Kuralları kaldırmak","Yanlış bilgiyi çoğaltmak"],a+" ve sonucu değerlendirmek","Uygulama sonuçları değerlendirilerek geliştirilir."),
         q("Konuyla ilgili genel yargı hangisidir?",[f+" Uygun davranış "+r+".",w,"Örnekler gereksizdir.","Her yanlış sonuç doğrudur."],f+" Uygun davranış "+r+".","Bilgi ve sonuç birlikte doğru bir genel yargı oluşturur.")]

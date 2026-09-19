@@ -1,4 +1,4 @@
-# Final quality pass — 18 Eylül 2026
+# Final quality pass — 19 Eylül 2026
 
 ## Executive summary
 
@@ -24,17 +24,17 @@ Kaynaklar: `data/tests/4-tum-dersler.js`, `js/test-runner.js`, `index.html`; bun
 
 ## Question bank work / Gemini integration
 
-Gemini dosyaları workspace içinde bulunamadı. Kullanıcının eklerinde eşleşen ZIP/MD bulunmadı; soru eklenmedi ve Gemini entegrasyonu yapılmış gibi gösterilmedi.
+Downloads klasöründe bulunan iki Gemini ZIP'i aynı SHA-256 değerine sahip özdeş kopyalardır. Yol geçişi kontrolünden sonra tek paket olarak incelendi: 11 Markdown / 110 soru. Paketteki 110 görsel referansının dosyaları ZIP içinde yoktur. Soruların 33'ü matematiksel olarak yeniden hesaplanıp açıklamalı native biçime dönüştürüldü; 18'i yanlış anahtar, belirsiz kök veya eksik görsel nedeniyle kesin reddedildi; 59'u öğretmen/editör incelemesine bırakıldı. Kaynak Markdown runtime'a bağlanmadı, ZIP repository'ye eklenmedi ve eksik görsele bağlı soru kullanılmadı. Ayrıntı [Gemini import raporundadır](GEMINI-IMPORT.md).
 
-Bu tur 30 geometri sorusu düzeltildi; soru silinmedi. 3.720 soru yapısal olarak denetlenir, 972'si görsellidir. [Konu kapsamı](QUESTION-COVERAGE.md) ve [kalite raporu](QUESTION-QUALITY.md) ayrıntılıdır. 1.543 editoryal uyarı, 184 aynı soru grubu/215 tekrar adayı ve 55 benzer kalıp grubu vardır. Bunlar otomatik işaretlerdir; akademik hata sayısı değildir. Toplu silme yapılmadı. 1. sınıf İngilizce katalogda var fakat altı konunun testi yok; yeni ders icat edilmedi. 4. sınıf eski Hayat Bilgisi bankası korunur.
+Bu tur doğrulanan 33 Gemini sorusu, beş 4. sınıf zor matematik testindeki zayıf soruların yerine geçti; toplam soru/test/URL sayısı değişmedi. Bankada 3.720 soru ve 972 görsel vardır. Kaynak dağılımı 3.687 native + 33 `gemini-vetted`; sınıf dağılımı 630 / 780 / 1.020 / 1.290 sorudur. [Konu kapsamı](QUESTION-COVERAGE.md) ve [kalite raporu](QUESTION-QUALITY.md) ayrıntılıdır. 184 exact grup/215 tekrar adayı vardır; bunların hiçbiri aynı test içinde değildir. 55 sayı-normalize benzer kalıp grubu bulunur. Bunlar otomatik editoryal adaylardır, akademik hata sayısı değildir.
 
-**Açık kalite sorunu:** 4. sınıf sözel üreticisindeki genel çeldiriciler ve yalnız sayıları büyüten bazı matematik kalıpları hâlâ yeniden yazılmalıdır. 30 sorudaki iyileştirme bütün bankanın zorluk ayrımının tamamlandığı anlamına gelmez.
+**Açık kalite sorunu:** belirgin jenerik 4. sınıf sözel çeldiricileri konu verileriyle değiştirildi; buna rağmen otomatik tarama 53 zayıf çeldirici, 596 kısa açıklama, 252 zorluk ayrımı adayı, 28 uzun birinci sınıf kökü ve 756 kart tipi görsel için uzman incelemesi istiyor. Bu sayılar örtüşebilir ve false positive içerebilir. Bankanın tümü öğretmen/müfredat editörü onayı almış sayılmaz.
 
 ## SEO / Broken links
 
 421 HTML, 410 indexlenebilir URL. Otomatik tarama title, description, canonical, H1, yerel href/src, publisher ve sitemap eşleşmesini kontrol eder. Runtime/auth/kişisel sayfalar noindex; public landing sayfaları indexlenebilir. Canonical ve sitemap production domainini kullanır. Sitemap'teki 410 adres yerel HTTP üzerinden redirectsiz 200 döndü.
 
-İçerik benzerliği taraması 373 tests HTML dosyasında 57 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi. Bu indexleme kararı değildir; özellikle aynı konunun düzey sayfaları editoryal inceleme ister. 44 uzun paragraf birden fazla sayfada tekrarlanır. Konu metadata sistemi ve gerçek örnek soru kullanımı önceki commit'ten korunur; thin content riskinin tamamen bittiği ileri sürülmez.
+İçerik benzerliği taraması 373 test HTML dosyasında 38 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi; önceki ölçüm 57 idi. Tekrarlanan uzun paragraf sayısı 44'ten 25'e düştü. Her landing konu özeti, beceriler, öğrenme hedefleri, sık hatalar, hazırlık, test sonrası öneri, veli önerisi ve o testten gerçek örnek içerir; sınıf ve zorluk odağı ayrıca ayrıştırılır. Kalan 38 çift editoryal adaydır ve otomatik indexleme kararı değildir.
 
 ## UX / Accessibility
 
@@ -79,7 +79,7 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 
 - `npm ci --ignore-scripts`: PASS; npm audit: 0 açık.
 - `npm test`: PASS (372 test/3.720 soru, auth fixture, bağlantı, SEO ve secret taraması).
-- `npm run test:browser`: PASS, 22/22; sekiz genişlik, dört sınıf kolay/zor, sonuç, boş/yanlış, yeniden başlatma, devam bağlantıları, çift tıklama, auth UI, screenshot ve 410 sitemap HTTP yanıtı.
+- `npm run test:browser`: PASS, 24/24; sekiz genişlik, beş sonuç uç durumu, dört sınıf kolay/zor, boş/yanlış inceleme, geçersiz parametre, gerçek 404, yeniden başlatma, devam bağlantıları, çift tıklama, auth UI, screenshot ve 410 sitemap HTTP yanıtı.
 - Generator tekrar çalıştırıldı: kaynak ve HTML farkı yok; PASS.
 - `git diff --cached --check`: PASS; HTML farkları ve kaynak değişiklikleri incelendi.
 - Önceki `35b2ca2` commit'i ve yedek etiketi yerelde korunur.
@@ -93,14 +93,14 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 | No secrets | PASS | Desen taraması ve diff; gerçek anahtar bulunmadı |
 | Broken links = 0 | PASS | 421 HTML tarandı |
 | Test data valid | PASS | 372 test, 3.720 soru; pedagojik onay değil |
-| Browser tests pass | PASS | 22/22 |
+| Browser tests pass | PASS | 24/24 |
 | Mobile tests pass | PASS | 320/360/375/390/430/768/1024/1440 |
 | Auth UI pass | PASS | Fixture ile; gerçek Sheets hesabı değil |
 | SEO audit pass | PASS | Tekil metadata/canonical, H1, noindex kontrolü |
 | Sitemap pass | PASS | 410 yerel URL, redirectsiz 200 |
 | robots.txt pass | PASS | Public kaynaklar açık; doğru sitemap |
 | ads.txt pass | PASS | Korunan publisher ile eşleşir |
-| Lighthouse acceptable | FAIL | Performance: ana sayfa 92, ders 88, landing 85, runtime 97. İki public sayfa 90 hedefinin altında; erişilebilirlik 100. |
+| Lighthouse acceptable | FAIL | Son dürüst yerel ölçüm: ana sayfa 65, ders 71, landing 70, runtime 96. Public sayfalarda TBT 1,76–3,79 sn; yaklaşık 147–151 KB kullanılmayan üçüncü taraf JS ve reklam kaynaklı best-practices bulguları var. AdSense engellenmedi veya geciktirilmedi. Erişilebilirlik 100. |
 | GitHub pushed | PASS | codex/final-quality-pass ve pre-final-quality-pass uzak sunucuda |
 | CI passed | PASS | 9654bcb kod commit'i: Actions run 35283370184 başarılı; rapor güncellemesinin yeni koşusu ayrıca kontrol edilir |
 | Vercel preview passed | MANUAL | Public ekranlar ve puanlama geçti; kalıcı kayıt/API/dosya kontrolü tamamlanmadı |
@@ -121,12 +121,12 @@ Lighthouse'ın public sayfalardaki Best Practices 77 puanı üçüncü taraf çe
 - Production değişmedi. https://testcoz.pro üzerinde ana sayfa, sınıf, ders, landing, runtime, ads.txt, robots, sitemap ve dört kurumsal sayfa HTTPS/200. Ana sayfa hâlâ eski sürüm; bu sonuç yeni deployment smoke testi değildir.
 - Canlı ads.txt doğru publisher satırını döndürdü; mevcut ana sayfada tek AdSense yükleyicisi var.
 
-Son karar: **PARTIAL**. Teknik dal ve PR hazır, CI başarılı; pedagojik kalite, iki public sayfanın performans hedefi ve preview API/kalıcı kayıt incelemesi açık. Bu koşullarda main merge / production yapılmadı.
+Son karar: **PARTIAL**. Teknik dal ve PR güncelleniyor; yapısal testler ve yerel akışlar başarılı. Bankanın uzman incelemesi, public Lighthouse performans hedefi ve yeni preview API/kalıcı kayıt doğrulaması açık. Bu koşullarda main merge / production yapılmadı.
 
 ### Preview takip kontrolü
 
 SSO ekranından sonra tarayıcı önizlemeye erişti. Ana sayfa, 4. sınıf, matematik dersi, geometri landing, kayıt formu ve runtime ekranı açıldı; sınıf/ders/kayıt sayfalarında mobil yatay taşma yok, canonical production domaininde. 4. sınıf zor geometri akışında 1 doğru + 9 boş = %10 ve 9 boş soru açıklaması görüldü. Gerçek kullanıcı hesabı oluşturulmadı.
 
-Kalıcı sonuç kaydı başarıyla doğrulanmadı: ekranda kayıt tamamlanamadı mesajı çıktı. `/api/session` ve `/ads.txt` doğrudan gezinmeleri tarayıcı tarafından ERR_BLOCKED_BY_CLIENT ile engellendi. Dış HTTP istekleri SSO'ya yönlendi. Bu nedenle API, ads.txt/robots/sitemap preview smoke testleri PASS değildir. Kaynakta preview origin'i izin listesinde olmadığından POST akışı ayrıca ele alınmalı; tüm vercel.app origin'lerine genel izin verilmedi.
+Kalıcı sonuç kaydı önceki preview üzerinde başarıyla doğrulanmadı. Kod artık virgülle ayrılmış tam `ALLOWED_ORIGINS` listesiyle belirli preview origin'lerini kabul eder; production origin'leri varsayılan olarak korunur, uzak HTTP ve benzer görünümlü saldırgan origin testleri reddedilir. Vercel preview ortamına aktif hostname eklenmeden POST akışı PASS sayılmaz; tüm `vercel.app` alanlarına genel izin verilmedi.
 
 `c5d2345` rapor commit'inin [CI koşusu 35283610504](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35283610504) da bütün adımlarıyla başarılı; [Vercel build](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/DF24NpnR4PhviGXBhS1wg6iCQ2yZ) başarılı. Bu son ek yalnız doğrulama kaydıdır; uygulama kodunu değiştirmez.

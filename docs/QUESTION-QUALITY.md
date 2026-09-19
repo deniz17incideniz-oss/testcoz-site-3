@@ -1,21 +1,34 @@
 # Soru kalite raporu
 
-Gemini dosyaları workspace içinde bulunamadı. İlgili kullanıcı eklerinde de eşleşen MD/ZIP yok.
+- Yapısal kapsam: 3720 soru, 372 test; 972 görselli soru.
+- Kaynak dağılımı: native 3687, matematiksel ve editoryal olarak yeniden doğrulanan Gemini 33.
+- Sınıf dağılımı: 1. sınıf 630, 2. sınıf 780, 3. sınıf 1020, 4. sınıf 1290.
+- Otomatik uyarı alan benzersiz soru: 1557; toplam uyarı olayı: 1685.
+- Aynı kök/seçenek/cevap: 184 grup / 215 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 184.
+- Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bunlar editoryal adaydır; tek başına hata veya silme gerekçesi değildir.
 
-- Yapısal doğrulama kapsamı: 3720 soru, 372 test. Akademik doğruluk onayı değildir.
-- Bu tur eklenen: 0. Düzeltilen: 30 geometri sorusu (eski cevap ifşa eden kalıpların yerine).
-- Çıkarılan soru: 0; slug, test sayısı ve on soruluk yapı korundu.
-- Görselli soru: 972. Bu tur yeni görsel: 0.
-- Otomatik editoryal uyarı: 1543 soru.
-- Öneklerden arındırılmış aynı kök/seçenek/cevap: 184 grup, ilk örnekler dışındaki 215 tekrar adayı.
-- Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bu bir benzerlik sezgisidir; aynı isim veya matematiksel yapı için tam anlamsal çözümleme değildir.
+## Kontrol sınıfları
 
-## Yapılan editoryal değişiklik
+| Kontrol | Otomatik sonuç | Yorum |
+|---|---:|---|
+| Tek doğru cevap / geçerli indeks | PASS | Yapısal doğrulayıcı bütün soruları kontrol eder |
+| Hesaplama hatası | MANUEL | Gemini kabul listesi yeniden hesaplandı; native bankanın akademik doğruluğu öğretmen onayı ister |
+| Görsel-metne uyum | 756 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
+| Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 184 grup olası ortak şablon/false positive içerir |
+| Benzer soru | 55 grup | Sayısal kalıp sezgisi |
+| Zayıf çeldirici | 53 | Açık jenerik ifadeler aranır |
+| Zorluk ayrımı | 252 aday | Kısa zor kök + kısa çözüm sezgisi |
+| Yaşa uygunluk | 28 aday | Birinci sınıf uzun kök sezgisi |
+| Dil/anlatım | 0 aday | Çift boşluk ve tekrarlı noktalama |
+| Açıklama yetersiz | 596 | Kısa çözüm sezgisi; kısa ama yeterli çözümler false positive olabilir |
+| Görsel eksikliği | 0 | Dosya ve alt metin kontrolü |
+| Kazanım dışı içerik | MANUEL | Resmî kazanım kodu iddiası yok; öğretmen/müfredat editörü gerekir |
+| Slug/index uyumsuzluğu | 0 | Banka slug'ı ile landing yolu eşleştirilir |
 
-4. sınıf geometri kolay düzeyde yüz/köşe/ayrıt tanıma, orta düzeyde özelliklerin kullanımı, zor düzeyde tel uzunluğu, birleştirilen küpler ve malzeme kısıtı içerir. Çözümler işlem adımlarını açıklar. 4. sınıf üreticisinde doğru cevabın sürekli A olması engellendi; metne bağlı kararlı seçenek döndürme uygulanır.
+## Bu turdaki değişiklik
 
-## Yayın öncesi editör incelemesi
+4. sınıf geometrinin 30 soruluk üç seviyesi önceki turda yeniden yazıldı. Bu tur Downloads içindeki özdeş iki Gemini ZIP'i güvenli biçimde denetlendi: 110 sorudan 33'ü yeniden hesaplanıp açıklamalı native biçime dönüştürüldü, 18'i kesin reddedildi, 59'u öğretmen/editör incelemesine bırakıldı. Eksik kaynak görsellere bağlı hiçbir soru eklenmedi. 4. sınıf sözel üreticisindeki açık jenerik çeldiriciler konu verileriyle değiştirildi. Soru sayısı, URL'ler ve her testteki 10 soru yapısı korundu.
 
-Mevcut bankanın tamamında pedagojik kalite gate'i henüz geçmedi. Özellikle 4. sınıf sözel üreticisindeki genel çeldiriciler, yalnız sayı büyüten matematik şablonları ve metin kartları yeniden yazılmalı. Toplu silme yapılmadı; tekrar adayları öğrenme hedefi ve seçenekleriyle karşılaştırılmadan kaldırılmamalı. Zorluk etiketleri tek başına bilişsel kalite kanıtı değildir.
+## Sınırlar ve false positive ayrımı
 
-Tekrar/uyarı kimlikleri outputs/question-quality-final.json dosyasında; npm run audit:questions ile yeniden üretilebilir. Bu rapor bitmiş öğretmen kontrolü veya AdSense kabul garantisi değildir.
+Otomasyon seçenek sayısı, indeks, dosya, slug ve belirgin metin kalıplarını kesin denetler. Akademik doğruluk, yaş düzeyi, müfredat kapsamı, güçlü çeldirici ve görselin pedagojik değeri için uzman kararı gerekir. Farklı sınıf/düzeylerde geçen aynı kısa tanım veya işlem, tekrar raporunda görünebilir fakat bağlamı incelenmeden silinmez. Ayrıntılı konumlar `outputs/question-quality-final.json` dosyasındadır.

@@ -4,6 +4,7 @@ import login from "../api/login.js";
 import session from "../api/session.js";
 import logout from "../api/logout.js";
 import authStatus from "../api/auth-status.js";
+import { originAllowed } from "../api/_lib/security.js";
 
 const { privateKey } = crypto.generateKeyPairSync("rsa", { modulusLength: 2048 });
 process.env.GOOGLE_SHEETS_CLIENT_EMAIL = "test@example.iam.gserviceaccount.com";
@@ -77,4 +78,11 @@ assert(malformed.status === 401, "Bozuk çerez güvenli biçimde reddedilmedi.")
 const foreignOrigin = response();
 await login({method:"POST",headers:{origin:"https://attacker.example"},body:{}}, foreignOrigin.res);
 assert(foreignOrigin.output.status === 403, "Yabancı origin reddedilmedi.");
+process.env.ALLOWED_ORIGINS = "https://preview.testcoz.example,http://localhost:4173,https://bad path.example";
+assert(originAllowed({ headers: { origin: "https://testcoz.pro" } }), "Üretim origin'i reddedildi.");
+assert(originAllowed({ headers: { origin: "https://preview.testcoz.example" } }), "Tanımlı preview origin'i reddedildi.");
+assert(originAllowed({ headers: { origin: "http://localhost:4173" } }), "Tanımlı yerel origin reddedildi.");
+assert(!originAllowed({ headers: { origin: "https://testcoz.pro.evil.example" } }), "Benzer görünümlü saldırgan origin kabul edildi.");
+assert(!originAllowed({ headers: { origin: "http://preview.testcoz.example" } }), "Güvensiz uzak HTTP origin kabul edildi.");
+delete process.env.ALLOWED_ORIGINS;
 console.log("✓ İsteğe bağlı telefon, bozuk çerez ve origin kontrolleri doğrulandı.");

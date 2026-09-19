@@ -64,7 +64,7 @@
     const question = test.questions[currentIndex];
     const selected = answers[currentIndex];
     const image = question.image
-      ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || "Soru görseli") + '">'
+      ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || "Soru görseli") + '" width="720" height="320" decoding="async">'
       : "";
     const choices = question.choices.map(function (choice, index) {
       const selectedClass = selected === index ? " is-selected" : "";
@@ -177,12 +177,12 @@
         const question = test.questions[index];
         const isEmpty = answers[index] === null;
         return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
-          (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" loading="lazy">' : '') +
+          (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" width="720" height="320" loading="lazy" decoding="async">' : '') +
           '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
           '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
           '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
       }).join("") + '</section>'
-      : '<div class="all-correct">🎉 Harika! Yanlış cevapladığın soru yok.</div>';
+      : '<div class="all-correct">🎉 Harika! İncelenecek yanlış veya boş soru bulunmuyor.</div>';
 
     document.getElementById("questionArea").style.display = "none";
     document.getElementById("testBarFill").style.width = "100%";

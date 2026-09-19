@@ -27,7 +27,7 @@
   function renderQuestion() {
     const question = test.questions[currentIndex];
     const selected = answers[currentIndex];
-    const image = question.image ? '<img class="question-image" src="' + escapeHtml(question.image) + '" alt="' + escapeHtml(question.imageAlt || "Soru görseli") + '">' : "";
+    const image = question.image ? '<img class="question-image" src="' + escapeHtml(question.image) + '" alt="' + escapeHtml(question.imageAlt || "Soru görseli") + '" width="720" height="320" decoding="async">' : "";
     const choices = question.choices.map(function (choice, index) {
       return '<button type="button" class="option-btn' + (selected === index ? " is-selected" : "") + '" data-choice="' + index + '"><span class="option-letter">' + letters[index] + '</span><span>' + escapeHtml(choice) + '</span></button>';
     }).join("");
@@ -54,7 +54,7 @@
       const question = test.questions[index];
       const isEmpty = answers[index] === null;
       return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + escapeHtml(question.question) + '</h3><dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soru boş bırakıldı" : escapeHtml(question.choices[answers[index]])) + '</dd></div><div><dt>Doğru cevap</dt><dd class="val-correct">' + escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl><p><strong>Çözüm:</strong> ' + escapeHtml(question.explanation) + '</p></article>';
-    }).join("") + '</section>' : '<div class="all-correct">🎉 Harika! Yanlış cevapladığın soru yok.</div>';
+    }).join("") + '</section>' : '<div class="all-correct">🎉 Harika! İncelenecek yanlış veya boş soru bulunmuyor.</div>';
     document.getElementById("questionArea").style.display = "none";
     document.querySelector(".test-counter").textContent = "Test Tamamlandı";
     document.querySelector(".test-score").textContent = correct + " / " + test.questions.length + " Doğru";

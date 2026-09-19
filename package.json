@@ -7,7 +7,7 @@
     "test": "node scripts/validate-tests.mjs && node scripts/validate-auth.mjs && node scripts/check-links.mjs && node scripts/audit-site.mjs && node scripts/scan-secrets.mjs",
     "audit": "node scripts/audit-site.mjs",
     "test:browser": "playwright test",
-    "audit:questions": "node scripts/report-question-quality.mjs",
+    "audit:questions": "node scripts/report-question-quality-v2.mjs",
     "audit:secrets": "node scripts/scan-secrets.mjs",
     "lighthouse": "node scripts/measure-lighthouse.mjs"
   },

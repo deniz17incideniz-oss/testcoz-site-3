@@ -20,6 +20,10 @@ const indexed=[];
 for(const file of pages){
  const $=load(fs.readFileSync(file,'utf8'));
  $('[href],[src]').each((_,e)=>{check(file,$(e).attr('href'));check(file,$(e).attr('src'));});
+ $('img').each((_,e)=>{
+  if($(e).attr('alt')===undefined)errors.push(`${rel(file)}: img missing alt`);
+  if(!$(e).attr('width')||!$(e).attr('height'))errors.push(`${rel(file)}: img missing intrinsic dimensions`);
+ });
  if(/noindex/i.test($('meta[name="robots"]').attr('content')||''))continue;
  indexed.push(file);
  for(const [name,value] of [['title',$('title').text().trim()],['description',$('meta[name="description"]').attr('content')],['canonical',$('link[rel="canonical"]').attr('href')]])if(!value)errors.push(`${rel(file)}: missing ${name}`);

@@ -33,3 +33,33 @@ test('double click advances one question only',async({page})=>{
  await page.goto('/test.html?sinif=1&ders=matematik&konu=sayilar-ve-nicelikler&zorluk=kolay&test=1');
  await page.locator('#nextQuestion').dblclick();await expect(page.locator('.test-counter')).toHaveText('Soru 2 / 10');
 });
+test('result edge cases calculate score and review only unresolved questions',async({page})=>{
+ const url='/test.html?sinif=4&ders=matematik&konu=dogal-sayilar&zorluk=zor&test=1';
+ const cases=[
+  {name:'all wrong',modes:Array(10).fill('wrong'),stats:['0','10','0'],score:'%0',review:10},
+  {name:'all correct',modes:Array(10).fill('correct'),stats:['10','0','0'],score:'%100',review:0},
+  {name:'all blank',modes:Array(10).fill('blank'),stats:['0','0','10'],score:'%0',review:10},
+  {name:'five correct five wrong',modes:[...Array(5).fill('correct'),...Array(5).fill('wrong')],stats:['5','5','0'],score:'%50',review:5},
+  {name:'one correct nine wrong',modes:['correct',...Array(9).fill('wrong')],stats:['1','9','0'],score:'%10',review:9}
+ ];
+ for(const scenario of cases){
+  await test.step(scenario.name,async()=>{
+   await page.goto(url);
+   const correct=await page.evaluate(()=>window.TESTCOZ_TESTS.find(t=>t.classLevel===4&&t.subject==='matematik'&&t.topic==='dogal-sayilar'&&t.difficulty==='zor').questions.map(q=>q.correctAnswer));
+   for(let i=0;i<10;i++){
+    if(scenario.modes[i]==='blank')await page.locator('#skipQuestion').click();
+    else {const choice=scenario.modes[i]==='correct'?correct[i]:(correct[i]+1)%4;await page.locator(`[data-choice="${choice}"]`).click();await page.locator('#nextQuestion').click();}
+   }
+   await expect(page.locator('.result-score')).toHaveText(scenario.score);
+   await expect(page.locator('.result-stat-val')).toHaveText(scenario.stats);
+   await expect(page.locator('.wrong-item')).toHaveCount(scenario.review);
+   if(scenario.review===0){await expect(page.locator('.all-correct')).toContainText('İncelenecek yanlış veya boş soru bulunmuyor');await expect(page.locator('#reviewAnswers')).toHaveCount(0);}
+  });
+ }
+});
+test('invalid quiz parameters and missing bank fail safely',async({page,request})=>{
+ await page.goto('/test.html?sinif=99&ders=matematik&konu=olmayan&zorluk=kolay&test=1');
+ await expect(page.locator('body')).toContainText(/bulunamadı|geçersiz/i);
+ await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content',/noindex/);
+ const missing=await request.get('/kesinlikle-olmayan-sayfa');expect(missing.status()).toBe(404);
+});
