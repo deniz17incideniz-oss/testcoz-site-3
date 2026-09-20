@@ -102,8 +102,8 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 | ads.txt pass | PASS | Korunan publisher ile eşleşir |
 | Lighthouse acceptable | FAIL | Son dürüst yerel ölçüm: ana sayfa 75, ders 77, landing 88, runtime 97. Public sayfaların tümü hedefi karşılamıyor; AdSense engellenmedi veya geciktirilmedi. Erişilebilirlik 100. |
 | GitHub pushed | PASS | codex/final-quality-pass ve pre-final-quality-pass uzak sunucuda |
-| CI passed | PASS | 9654bcb kod commit'i: Actions run 35283370184 başarılı; rapor güncellemesinin yeni koşusu ayrıca kontrol edilir |
-| Vercel preview passed | MANUAL | Public ekranlar ve puanlama geçti; kalıcı kayıt/API/dosya kontrolü tamamlanmadı |
+| CI passed | PASS | `1821622` içerik commit'i: Actions run 35511582666 başarılı |
+| Vercel preview passed | MANUAL | Yeni yöntem sayfası, gizlilik, noindex ve Gemini sorusu geçti; gerçek hesapla kalıcı kayıt/API kontrolü tamamlanmadı |
 | Production deployed | MANUAL | İçerik gate'i açık; main merge yapılmadı |
 | Production smoke test passed | MANUAL | Yeni sürüm production'da değil |
 | AdSense manual settings reviewed | MANUAL | Hesap ayarları doğrulanmadı |
@@ -114,19 +114,19 @@ Lighthouse'ın public sayfalardaki Best Practices 77 puanı üçüncü taraf çe
 ## GitHub ve deployment kanıtı
 
 - [Draft PR #2](https://github.com/deniz17incideniz-oss/testcoz-site-3/pull/2).
-- Kod commit'i: `9654bcbd02aca2ebe41aea260edd89c5315ec464`; önceki kaynak commit'i `880c5da`.
-- [Başarılı CI](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35283370184): bütün adımlar success, kalite kanıtları artifact olarak yüklendi.
-- [Vercel deployment](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/92ktMizLAw7e1WtJMjTVhHix38ia): Ready.
-- [Preview](https://testcoz-site-3-git-codex-9d74f3-deniz17incideniz-4044s-projects.vercel.app): ana sayfa, ads.txt, robots, sitemap ve API istekleri 302 ile Vercel SSO'ya yönlendi. Tarayıcı da giriş ekranı gösterdi. Koruma kapatılmadı; hesabın mevcut oturumuyla doğrulama gerekli.
+- İçerik commit'i: `1821622a2f0035ee9deea145e76946ed240813be`.
+- [Başarılı CI](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35511582666): Quality checks run 12 success.
+- [Vercel deployment](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/8Q5XxNZvcgjk5FwXmfwRyfCj1nZB): Ready.
+- [Preview](https://testcoz-site-3-git-codex-9d74f3-deniz17incideniz-4044s-projects.vercel.app): İçerik Yaklaşımımız ve güncel gizlilik sayfası açıldı; 4. sınıf zor Kesirler testinde entegre Gemini sorusu yüklendi. Eski 4. sınıf Hayat Bilgisi landing örneğinde `noindex, follow` ve reklamsız head doğrulandı.
 - Production değişmedi. https://testcoz.pro üzerinde ana sayfa, sınıf, ders, landing, runtime, ads.txt, robots, sitemap ve dört kurumsal sayfa HTTPS/200. Ana sayfa hâlâ eski sürüm; bu sonuç yeni deployment smoke testi değildir.
 - Canlı ads.txt doğru publisher satırını döndürdü; mevcut ana sayfada tek AdSense yükleyicisi var.
 
-Son karar: **PARTIAL**. Teknik dal ve PR güncelleniyor; yapısal testler ve yerel akışlar başarılı. Bankanın uzman incelemesi, public Lighthouse performans hedefi ve yeni preview API/kalıcı kayıt doğrulaması açık. Bu koşullarda main merge / production yapılmadı.
+Son karar: **NOT READY FOR ADSENSE REVIEW**. Teknik dal ve draft PR güncel; yapısal testler, CI ve public preview akışları başarılı. Bankanın uzman incelemesi, public Lighthouse performans hedefi, TFAT/CMP hesap ayarları ve gerçek preview API/kalıcı kayıt doğrulaması açık. Bu koşullarda main merge / production yapılmadı.
 
 ### Preview takip kontrolü
 
-SSO ekranından sonra tarayıcı önizlemeye erişti. Ana sayfa, 4. sınıf, matematik dersi, geometri landing, kayıt formu ve runtime ekranı açıldı; sınıf/ders/kayıt sayfalarında mobil yatay taşma yok, canonical production domaininde. 4. sınıf zor geometri akışında 1 doğru + 9 boş = %10 ve 9 boş soru açıklaması görüldü. Gerçek kullanıcı hesabı oluşturulmadı.
+Tarayıcı önizlemede yeni İçerik Yaklaşımımız sayfası, 20 Eylül tarihli gizlilik metni ve 4. sınıf zor Kesirler runtime akışı açıldı. İlk runtime sorusu yeniden doğrulanan Gemini paketinden geldi; seçenekler ve sayfa başlığı doğru yüklendi. Eski 4. sınıf Hayat Bilgisi landing örneğinde noindex ve AdSense loader kaldırma kuralı doğrulandı. Gerçek kullanıcı hesabı oluşturulmadı.
 
 Kalıcı sonuç kaydı önceki preview üzerinde başarıyla doğrulanmadı. Kod artık virgülle ayrılmış tam `ALLOWED_ORIGINS` listesiyle belirli preview origin'lerini kabul eder; production origin'leri varsayılan olarak korunur, uzak HTTP ve benzer görünümlü saldırgan origin testleri reddedilir. Vercel preview ortamına aktif hostname eklenmeden POST akışı PASS sayılmaz; tüm `vercel.app` alanlarına genel izin verilmedi.
 
-`c5d2345` rapor commit'inin [CI koşusu 35283610504](https://github.com/deniz17incideniz-oss/testcoz-site-3/actions/runs/35283610504) da bütün adımlarıyla başarılı; [Vercel build](https://vercel.com/deniz17incideniz-4044s-projects/testcoz-site-3/DF24NpnR4PhviGXBhS1wg6iCQ2yZ) başarılı. Bu son ek yalnız doğrulama kaydıdır; uygulama kodunu değiştirmez.
+Production'da HTTP ve HTTPS ads.txt istekleri doğru publisher satırıyla 200 döndü; robots.txt ve sitemap.xml 200'dür. Yeni İçerik Yaklaşımımız sayfasının production'da 404 dönmesi, bu dalın henüz production'a alınmadığını doğrular.
