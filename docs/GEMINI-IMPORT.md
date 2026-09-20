@@ -7,8 +7,8 @@ Downloads klasöründeki iki ZIP aynı SHA-256 değerine sahiptir; tek kaynak pa
 | Native bankaya kabul edilen | 86 |
 | Runtime bankasına entegre edilen | 72 |
 | Açıklaması yeniden yazılan | 72 |
-| Kesin reddedilen | 21 |
-| Manuel/uzman incelemesi bekleyen | 3 |
+| Kesin reddedilen | 24 |
+| Manuel/uzman incelemesi bekleyen | 0 |
 | Eksik görsel referansı | 110 |
 | Yeni üretilen SVG | 0 |
 | Eksik görsel nedeniyle reddedilen | 5 |
@@ -38,7 +38,10 @@ Kabul yalnız sorunun metin, seçenek ve cevap anahtarının matematiksel olarak
 - **10.9:** Kalan parçanın sayılıp sayılmadığı ile kesim sayısı ipucu birbiriyle uyuşmuyor.
 - **11.3:** Grafik birimi ile kitap farkı karışıyor; görsel olmadan 'birim' yorumu belirsiz.
 - **11.9:** Veriler Pazartesi ve Perşembe için 77,5 sonucunu veriyor; doğal sayı satış bağlamıyla uyuşmuyor.
+- **8.8:** Kaynak çizim pakette bulunmadığı için şeklin kenarları ve istenen uzunluk doğrulanamıyor.
+- **8.10:** Kaynak çizim pakette bulunmadığı için geometrik yerleşim ve doğru seçenek doğrulanamıyor.
+- **9.7:** Kaynak çizim pakette bulunmadığı için alan yerleşimi ve ortak kenarlar doğrulanamıyor.
 
 ## Sınırlar
 
-Kalan 3 soru (8.8, 8.10 ve 9.7) kayıp çizime bağlıdır. Metin, özgün görseli tahmin etmeden tek başına yeterli olmadığı için runtime bankasına alınmadı. Kaynak Markdown dosyaları runtime'a bağlanmaz ve ZIP repository'ye kopyalanmaz. Ayrıntılı soru/uyarı listesi Git dışı `outputs/gemini-import-audit.json` dosyasındadır.
+Kayıp çizime bağlı 8.8, 8.10 ve 9.7 RED olarak reddedildi. Metin, özgün görseli tahmin etmeden tek başına yeterli olmadığı için runtime bankasına alınmadı. Kaynak Markdown dosyaları runtime'a bağlanmaz ve ZIP repository'ye kopyalanmaz. Ayrıntılı soru/uyarı listesi Git dışı `outputs/gemini-import-audit.json` dosyasındadır.

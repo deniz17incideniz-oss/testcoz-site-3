@@ -70,7 +70,10 @@ const manualRejects = new Map([
   ["10.2", "14.250 kg yazımı ondalık/binlik ayırıcı bakımından bağlama göre belirsiz."],
   ["10.9", "Kalan parçanın sayılıp sayılmadığı ile kesim sayısı ipucu birbiriyle uyuşmuyor."],
   ["11.3", "Grafik birimi ile kitap farkı karışıyor; görsel olmadan 'birim' yorumu belirsiz."],
-  ["11.9", "Veriler Pazartesi ve Perşembe için 77,5 sonucunu veriyor; doğal sayı satış bağlamıyla uyuşmuyor."]
+  ["11.9", "Veriler Pazartesi ve Perşembe için 77,5 sonucunu veriyor; doğal sayı satış bağlamıyla uyuşmuyor."],
+  ["8.8", "Kaynak çizim pakette bulunmadığı için şeklin kenarları ve istenen uzunluk doğrulanamıyor."],
+  ["8.10", "Kaynak çizim pakette bulunmadığı için geometrik yerleşim ve doğru seçenek doğrulanamıyor."],
+  ["9.7", "Kaynak çizim pakette bulunmadığı için alan yerleşimi ve ortak kenarlar doğrulanamıyor."]
 ]);
 
 const runtimeImported = new Set([
@@ -129,7 +132,7 @@ ${[...manualRejects].map(([id, reason]) => `- **${id}:** ${reason}`).join("\n")}
 
 ## Sınırlar
 
-Kalan ${report.manualReview} soru (8.8, 8.10 ve 9.7) kayıp çizime bağlıdır. Metin, özgün görseli tahmin etmeden tek başına yeterli olmadığı için runtime bankasına alınmadı. Kaynak Markdown dosyaları runtime'a bağlanmaz ve ZIP repository'ye kopyalanmaz. Ayrıntılı soru/uyarı listesi Git dışı \`outputs/gemini-import-audit.json\` dosyasındadır.
+Kayıp çizime bağlı 8.8, 8.10 ve 9.7 RED olarak reddedildi. Metin, özgün görseli tahmin etmeden tek başına yeterli olmadığı için runtime bankasına alınmadı. Kaynak Markdown dosyaları runtime'a bağlanmaz ve ZIP repository'ye kopyalanmaz. Ayrıntılı soru/uyarı listesi Git dışı \`outputs/gemini-import-audit.json\` dosyasındadır.
 `);
 console.log(JSON.stringify({ sourceFiles: report.sourceFiles, questions: report.questions, accepted: report.accepted, imported: report.imported, rejected: report.rejected, manualReview: report.manualReview, missingImages: report.missingImages }));
 

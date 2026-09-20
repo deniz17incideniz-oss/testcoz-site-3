@@ -8,3 +8,5 @@ automation/node_modules/
 
 test-results/
 playwright-report/
+.vercel
+.env*

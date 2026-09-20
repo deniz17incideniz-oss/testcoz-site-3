@@ -8,6 +8,7 @@
     "audit": "node scripts/audit-site.mjs",
     "test:browser": "playwright test",
     "audit:questions": "node scripts/report-question-quality-v2.mjs",
+    "audit:pedagogy": "node scripts/review-pedagogical-sample.mjs",
     "audit:adsense": "node scripts/audit-adsense-readiness.mjs",
     "audit:secrets": "node scripts/scan-secrets.mjs",
     "lighthouse": "node scripts/measure-lighthouse.mjs"

@@ -3,7 +3,7 @@
 - Yapısal kapsam: 3720 soru, 372 test; 972 görselli soru.
 - Kaynak dağılımı: native 3648, matematiksel ve editoryal olarak yeniden doğrulanan Gemini 72.
 - Sınıf dağılımı: 1. sınıf 630, 2. sınıf 780, 3. sınıf 1020, 4. sınıf 1290.
-- Otomatik uyarı alan benzersiz soru: 1529; toplam uyarı olayı: 1649.
+- Otomatik uyarı alan benzersiz soru: 1492; toplam uyarı olayı: 1604.
 - Aynı kök/seçenek/cevap: 175 grup / 205 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 175.
 - Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bunlar editoryal adaydır; tek başına hata veya silme gerekçesi değildir.
 
@@ -16,7 +16,7 @@
 | Görsel-metne uyum | 756 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
 | Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 175 grup olası ortak şablon/false positive içerir |
 | Benzer soru | 55 grup | Sayısal kalıp sezgisi |
-| Zayıf çeldirici | 53 | Açık jenerik ifadeler aranır |
+| Zayıf çeldirici | 8 | Açık jenerik ifadeler aranır |
 | Zorluk ayrımı | 232 aday | Kısa zor kök + kısa çözüm sezgisi |
 | Yaşa uygunluk | 28 aday | Birinci sınıf uzun kök sezgisi |
 | Dil/anlatım | 0 aday | Çift boşluk ve tekrarlı noktalama |

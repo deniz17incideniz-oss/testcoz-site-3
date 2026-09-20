@@ -16,14 +16,13 @@
   function q(question, choices, correct, explanation, picture) {
     return { question:question, choices:choices, correctAnswer:choices.indexOf(correct), explanation:explanation, image:null, visual:picture || null };
   }
-  const distractors = ["konuyla ilgisiz bir işlem yapmak", "kanıtları dikkate almamak", "güvenlik kurallarını yok saymak"];
   function easy(t) { return [
     q(t.name+" konusu en çok neyi inceler?",[t.focus,"yalnız öykü yazmayı","ritim tutmayı","harfleri sıralamayı"],t.focus,"Bu ünitenin temel inceleme alanı "+t.focus+"dır."),
-    q("Hangisi bu konuya uygun bir örnektir?",[t.example,t.non,distractors[0],distractors[1]],t.example,"Doğru örnek: "+t.example+".",visual("Örnekleri incele",{dogru:t.example,diger:t.non})),
-    q("Gözlem kartında “"+t.observation+"” yazıyor. Bu ifade nedir?",["Gözlem sonucu","Masal kahramanı","Ölçüsüz tahmin","Konu dışı görüş"],"Gözlem sonucu","İfade, inceleme sırasında elde edilen bir gözlem sonucudur."),
+    q("Hangisi bu konuya uygun bir örnektir?",[t.example,t.non,t.falseFact,"sonucu gözlem yapmadan kesinleştirmek"],t.example,"Doğru örnek: "+t.example+".",visual("Örnekleri incele",{dogru:t.example,diger:t.non})),
+    q("Gözlem kartında “"+t.observation+"” yazıyor. Bu ifade nedir?",["Gözlem sonucu","Araştırma sorusu","Önceden yapılmış tahmin","Kişisel görüş"],"Gözlem sonucu","İfade, inceleme sırasında elde edilen bir gözlem sonucudur."),
     q(t.tool+" hangi amaçla kullanılır?",[t.use,"süsleme yapmak","ses çıkarmak","sonucu değiştirmek"],t.use,"Aracın uygun kullanım amacı "+t.use+"tir."),
     q("Araştırmanın ilk adımı hangisidir?",[t.first,"Sonucu baştan yazmak","Verileri silmek","Araçları rastgele seçmek"],t.first,"Planlı inceleme “"+t.first+"” adımıyla başlar.",visual("Araştırma adımları",{ilk:t.first,sonuc:t.result})),
-    q("Hangisi güvenli davranıştır?",[t.safety,t.non,distractors[2],"araçlarla şakalaşmak"],t.safety,"Bilimsel çalışmada güvenlik kuralı uygulanmalıdır."),
+    q("Hangisi güvenli davranıştır?",[t.safety,t.non,"koruyucu yönergeleri okumadan başlamak","araçlarla şakalaşmak"],t.safety,"Bilimsel çalışmada güvenlik kuralı uygulanmalıdır."),
     q("Aşağıdaki bilgilerden hangisi doğrudur?",[t.fact,t.falseFact,"Her tahmin doğrudur.","Gözlem yapmaya gerek yoktur."],t.fact,t.fact),
     q(t.action+" davranışının sonucu ne olur?",[t.result,"bilginin kaybolması","gözlemin yarım kalması","konunun değişmesi"],t.result,"Bu davranışın beklenen sonucu "+t.result+"tir.",visual("Neden ve sonuç",{davranis:t.action,sonuc:t.result})),
     q("Hangisi doğru sınıflandırma başlığıdır?",[t.group,"rastgele sözcükler","öykü başlıkları","müzik türleri"],t.group,"Bu konuda varlıklar "+t.group+" başlığıyla sınıflandırılabilir."),

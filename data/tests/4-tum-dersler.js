@@ -34,7 +34,7 @@
         q("Hangisi verilen kurala uygun değildir?",[w,e,a,f],w,"Kurala uymayan seçenek “"+w+"”dır."),
         q("Bir açıklamayı güçlendiren kanıt hangisidir?",[e,w,"Kişisel ve ilgisiz görüş","Ölçülmemiş tahmin"],e,"Konuya uygun örnek açıklamayı destekler."),
         q("“"+a+"” neden yapılmalıdır?",[r,"Yanlış bilgiyi artırmak","Sorunu gizlemek","Konuyu dağıtmak"],r,"Davranışın amacı olumlu sonuca ulaşmaktır."),
-        q("Hangi karşılaştırma doğrudur?",[e+" doğrudur; "+w+" yanlıştır.",w+" doğrudur; "+e+" yanlıştır.","İki ifade de yanlıştır.","İki ifade konu dışıdır."],e+" doğrudur; "+w+" yanlıştır.","Örnek doğru, karşıt uygulama yanlıştır."),
+        q("Hangi karşılaştırma doğrudur?",[e+" doğrudur; "+w+" yanlıştır.",w+" doğrudur; "+e+" yanlıştır.","İki ifade de yanlıştır.","İki ifade de doğrudur."],e+" doğrudur; "+w+" yanlıştır.","İlk örnek konuya uygundur; karşıt uygulama temel bilgiyle çelişir."),
         q("Bu konuda karar verirken önce neye bakılmalıdır?",[f,w,term+" kavramını yok saymaya",e+" örneğinin tersini yapmaya"],f,"Karar doğru bilgiye dayanmalıdır."),
         q("En uygun çıkarım hangisidir?",[a+" yapıldığında "+r+".",w+" her zaman yararlıdır.","Kuralların etkisi yoktur.","Örnekler bilgi vermez."],a+" yapıldığında "+r+".","Davranış ile sonucu doğru ilişkilendirir.")],
       zor:[
