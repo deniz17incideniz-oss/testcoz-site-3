@@ -1,4 +1,4 @@
-# Final quality pass — 19 Eylül 2026
+# Final quality pass — 20 Eylül 2026
 
 ## Executive summary
 
@@ -24,17 +24,17 @@ Kaynaklar: `data/tests/4-tum-dersler.js`, `js/test-runner.js`, `index.html`; bun
 
 ## Question bank work / Gemini integration
 
-Downloads klasöründe bulunan iki Gemini ZIP'i aynı SHA-256 değerine sahip özdeş kopyalardır. Yol geçişi kontrolünden sonra tek paket olarak incelendi: 11 Markdown / 110 soru. Paketteki 110 görsel referansının dosyaları ZIP içinde yoktur. Soruların 33'ü matematiksel olarak yeniden hesaplanıp açıklamalı native biçime dönüştürüldü; 18'i yanlış anahtar, belirsiz kök veya eksik görsel nedeniyle kesin reddedildi; 59'u öğretmen/editör incelemesine bırakıldı. Kaynak Markdown runtime'a bağlanmadı, ZIP repository'ye eklenmedi ve eksik görsele bağlı soru kullanılmadı. Ayrıntı [Gemini import raporundadır](GEMINI-IMPORT.md).
+Downloads klasöründe bulunan iki Gemini ZIP'i aynı SHA-256 değerine sahip özdeş kopyalardır. Yol geçişi kontrolünden sonra tek paket olarak incelendi: 11 Markdown / 110 soru. Paketteki 110 görsel referansının dosyaları ZIP içinde yoktur. Soruların 86'sı matematiksel ve editoryal olarak yeniden doğrulandı; bunların 72'si açıklamalı native biçimde runtime'a alındı. 21 soru yanlış anahtar, belirsiz kök veya eksik görsel nedeniyle reddedildi; gerekli görseli bulunmayan 3 soru manuel incelemede kaldı. Kaynak Markdown runtime'a bağlanmadı, ZIP repository'ye eklenmedi ve eksik görsele bağlı soru kullanılmadı. Ayrıntı [Gemini import raporundadır](GEMINI-IMPORT.md).
 
-Bu tur doğrulanan 33 Gemini sorusu, beş 4. sınıf zor matematik testindeki zayıf soruların yerine geçti; toplam soru/test/URL sayısı değişmedi. Bankada 3.720 soru ve 972 görsel vardır. Kaynak dağılımı 3.687 native + 33 `gemini-vetted`; sınıf dağılımı 630 / 780 / 1.020 / 1.290 sorudur. [Konu kapsamı](QUESTION-COVERAGE.md) ve [kalite raporu](QUESTION-QUALITY.md) ayrıntılıdır. 184 exact grup/215 tekrar adayı vardır; bunların hiçbiri aynı test içinde değildir. 55 sayı-normalize benzer kalıp grubu bulunur. Bunlar otomatik editoryal adaylardır, akademik hata sayısı değildir.
+Bu tur doğrulanan 72 Gemini sorusu, 4. sınıf zor matematik testlerindeki zayıf soruların yerine geçti; toplam soru/test/URL sayısı değişmedi. Bankada 3.720 soru ve 972 görsel vardır. Kaynak dağılımı 3.648 native + 72 `gemini-vetted`; sınıf dağılımı 630 / 780 / 1.020 / 1.290 sorudur. [Konu kapsamı](QUESTION-COVERAGE.md) ve [kalite raporu](QUESTION-QUALITY.md) ayrıntılıdır. 175 exact grup/205 tekrar adayı vardır; bunların hiçbiri aynı test içinde değildir. 55 sayı-normalize benzer kalıp grubu bulunur. Bunlar otomatik editoryal adaylardır, akademik hata sayısı değildir.
 
-**Açık kalite sorunu:** belirgin jenerik 4. sınıf sözel çeldiricileri konu verileriyle değiştirildi; buna rağmen otomatik tarama 53 zayıf çeldirici, 596 kısa açıklama, 252 zorluk ayrımı adayı, 28 uzun birinci sınıf kökü ve 756 kart tipi görsel için uzman incelemesi istiyor. Bu sayılar örtüşebilir ve false positive içerebilir. Bankanın tümü öğretmen/müfredat editörü onayı almış sayılmaz.
+**Açık kalite sorunu:** belirgin jenerik 4. sınıf sözel çeldiricileri konu verileriyle değiştirildi; buna rağmen otomatik tarama 53 zayıf çeldirici, 580 kısa açıklama, 232 zorluk ayrımı adayı, 28 uzun birinci sınıf kökü ve 756 kart tipi görsel için uzman incelemesi istiyor. Bu sayılar örtüşebilir ve false positive içerebilir. Bankanın tümü öğretmen/müfredat editörü onayı almış sayılmaz.
 
 ## SEO / Broken links
 
-421 HTML, 410 indexlenebilir URL. Otomatik tarama title, description, canonical, H1, yerel href/src, publisher ve sitemap eşleşmesini kontrol eder. Runtime/auth/kişisel sayfalar noindex; public landing sayfaları indexlenebilir. Canonical ve sitemap production domainini kullanır. Sitemap'teki 410 adres yerel HTTP üzerinden redirectsiz 200 döndü.
+422 HTML, 398 indexlenebilir URL. Otomatik tarama title, description, canonical, H1, yerel href/src, publisher ve sitemap eşleşmesini kontrol eder. Runtime/auth/kişisel sayfalar noindex; public landing sayfaları indexlenebilir. Canonical ve sitemap production domainini kullanır. Sitemap'teki 398 adres yerel HTTP üzerinden redirectsiz 200 döndü.
 
-İçerik benzerliği taraması 373 test HTML dosyasında 43 çifti %80 ve üzeri kelime üçlüsü benzerliğiyle işaretledi; önceki ölçüm 57 idi. Tekrarlanan uzun paragraf sayısı 44'ten 25'e düştü. Her landing konu özeti, beceriler, öğrenme hedefleri, sık hatalar, hazırlık, test sonrası öneri, veli önerisi ve o testten gerçek örnek içerir; sınıf ve zorluk odağı ayrıca ayrıştırılır. Kalan 43 çift editoryal adaydır ve otomatik indexleme kararı değildir.
+İçerik benzerliği taraması 373 test HTML dosyasında %80 ve üzeri benzer çift bulmadı; önceki ölçüm 43 idi. Site denetiminde tekrarlanan uzun paragraf sayısı 24'tür. Her landing konu özeti, beceriler, öğrenme hedefleri, sık hatalar, hazırlık, test sonrası öneri, veli önerisi ve o testten gerçek örnek içerir; sınıf ve zorluk odağı ayrıca ayrıştırılır. Bu ölçüm editoryal destek aracıdır ve tek başına indexleme kararı değildir.
 
 ## UX / Accessibility
 
@@ -44,7 +44,7 @@ Sekiz hedef genişlik: 320, 360, 375, 390, 430, 768, 1024, 1440. Axe WCAG A/AA o
 
 ## Performance / Lighthouse
 
-[Son ölçümler](lighthouse/README.md). Dört hedef: ana sayfa, ders, landing, runtime test. Yerel mobil ölçüm production ölçümü değildir; AdSense engellenmez. İlk koşuda performans 74–85 aralığındaydı; üçüncü taraf yükü ve çalışma ortamı etkilidir. Lighthouse ile tarayıcı testlerinin aynı sunucuyu paylaşması bir koşuyu bağlantı hatasıyla bozdu; ayrı port ve sahipli sunucu yaşam döngüsüyle düzeltildi. Başarısız koşu PASS sayılmaz.
+[Son ölçümler](lighthouse/README.md). Dört hedef: ana sayfa, ders, landing, runtime test. Yerel mobil ölçüm production ölçümü değildir; AdSense engellenmez. Son tur performans puanları 75 / 77 / 88 / 97'dir; erişilebilirlik dört örnekte 100'dür. Public sayfaların tümü hedefe ulaşmadığı için performans gate'i açık kalır. Üçüncü taraf yükü ve çalışma ortamı sonuçları etkiler.
 
 ## Security / Privacy
 
@@ -75,11 +75,11 @@ Production yalnız teknik ve içerik gate'leri geçerse uygundur. Bu tur soru ka
 
 Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada güncellenir. MANUAL veya FAIL olan işlem yapılmış kabul edilmez.
 
-## Doğrulama kaydı — 18 Eylül 2026
+## Doğrulama kaydı — 20 Eylül 2026
 
 - `npm ci --ignore-scripts`: PASS; npm audit: 0 açık.
 - `npm test`: PASS (372 test/3.720 soru, auth fixture, bağlantı, SEO ve secret taraması).
-- `npm run test:browser`: PASS, 24/24; sekiz genişlik, beş sonuç uç durumu, dört sınıf kolay/zor, boş/yanlış inceleme, geçersiz parametre, gerçek 404, yeniden başlatma, devam bağlantıları, çift tıklama, auth UI, screenshot ve 410 sitemap HTTP yanıtı.
+- `npm run test:browser`: PASS, 24/24; sekiz genişlik, beş sonuç uç durumu, dört sınıf kolay/zor, boş/yanlış inceleme, geçersiz parametre, gerçek 404, yeniden başlatma, devam bağlantıları, çift tıklama, auth UI, screenshot ve 398 sitemap HTTP yanıtı.
 - Generator tekrar çalıştırıldı: kaynak ve HTML farkı yok; PASS.
 - `git diff --cached --check`: PASS; HTML farkları ve kaynak değişiklikleri incelendi.
 - Önceki `35b2ca2` commit'i ve yedek etiketi yerelde korunur.
@@ -91,16 +91,16 @@ Test, CI, preview ve yayın durumu kesin sonuçlar alındığında burada günce
 |---|---|---|
 | Git repo clean | PASS | Commit sonrası çalışma ağacı temiz; uzak dal doğrulandı |
 | No secrets | PASS | Desen taraması ve diff; gerçek anahtar bulunmadı |
-| Broken links = 0 | PASS | 421 HTML tarandı |
+| Broken links = 0 | PASS | 422 HTML tarandı |
 | Test data valid | PASS | 372 test, 3.720 soru; pedagojik onay değil |
 | Browser tests pass | PASS | 24/24 |
 | Mobile tests pass | PASS | 320/360/375/390/430/768/1024/1440 |
 | Auth UI pass | PASS | Fixture ile; gerçek Sheets hesabı değil |
 | SEO audit pass | PASS | Tekil metadata/canonical, H1, noindex kontrolü |
-| Sitemap pass | PASS | 410 yerel URL, redirectsiz 200 |
+| Sitemap pass | PASS | 398 yerel URL, redirectsiz 200 |
 | robots.txt pass | PASS | Public kaynaklar açık; doğru sitemap |
 | ads.txt pass | PASS | Korunan publisher ile eşleşir |
-| Lighthouse acceptable | FAIL | Son dürüst yerel ölçüm: ana sayfa 65, ders 71, landing 70, runtime 96. Public sayfalarda TBT 1,76–3,79 sn; yaklaşık 147–151 KB kullanılmayan üçüncü taraf JS ve reklam kaynaklı best-practices bulguları var. AdSense engellenmedi veya geciktirilmedi. Erişilebilirlik 100. |
+| Lighthouse acceptable | FAIL | Son dürüst yerel ölçüm: ana sayfa 75, ders 77, landing 88, runtime 97. Public sayfaların tümü hedefi karşılamıyor; AdSense engellenmedi veya geciktirilmedi. Erişilebilirlik 100. |
 | GitHub pushed | PASS | codex/final-quality-pass ve pre-final-quality-pass uzak sunucuda |
 | CI passed | PASS | 9654bcb kod commit'i: Actions run 35283370184 başarılı; rapor güncellemesinin yeni koşusu ayrıca kontrol edilir |
 | Vercel preview passed | MANUAL | Public ekranlar ve puanlama geçti; kalıcı kayıt/API/dosya kontrolü tamamlanmadı |

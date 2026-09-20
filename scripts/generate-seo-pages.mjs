@@ -54,7 +54,7 @@ function header(prefix = "", active = "") {
 }
 
 function footer(prefix = "") {
-  return `<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><p>1–4. sınıf öğrencileri için seviyeli ve açıklamalı ilkokul testleri. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p></div><div class="footer-col"><h4>Sınıflar</h4><ul>${[1, 2, 3, 4].map((level) => `<li><a href="${prefix}sinif-${level}.html">${level}. Sınıf</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Rehber</h4><ul>${guideLinks.map(([href, label]) => `<li><a href="${prefix}rehber/${href}">${label}</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Sayfalar</h4><ul><li><a href="${prefix}hakkimizda.html">Hakkımızda</a></li><li><a href="${prefix}iletisim.html">İletişim</a></li><li><a href="${prefix}veli.html">Veliler İçin</a></li><li><a href="${prefix}gizlilik-politikasi.html">Gizlilik Politikası</a></li><li><a href="${prefix}kullanim-sartlari.html">Kullanım Şartları</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="${prefix}gizlilik-politikasi.html">Gizlilik</a><a href="${prefix}kullanim-sartlari.html">Şartlar</a><a href="${prefix}iletisim.html">İletişim</a></div></div></div></footer>`;
+  return `<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="${prefix}index.html" class="logo"><span class="logo-icon">T</span><span class="logo-text">Test<span>Çöz</span></span></a><p>1–4. sınıf öğrencileri için seviyeli ve açıklamalı ilkokul testleri. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p></div><div class="footer-col"><h4>Sınıflar</h4><ul>${[1, 2, 3, 4].map((level) => `<li><a href="${prefix}sinif-${level}.html">${level}. Sınıf</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Rehber</h4><ul>${guideLinks.map(([href, label]) => `<li><a href="${prefix}rehber/${href}">${label}</a></li>`).join("")}</ul></div><div class="footer-col"><h4>Sayfalar</h4><ul><li><a href="${prefix}hakkimizda.html">Hakkımızda</a></li><li><a href="${prefix}icerik-yaklasimimiz.html">İçerik Yaklaşımımız</a></li><li><a href="${prefix}iletisim.html">İletişim</a></li><li><a href="${prefix}veli.html">Veliler İçin</a></li><li><a href="${prefix}gizlilik-politikasi.html">Gizlilik Politikası</a></li><li><a href="${prefix}kullanim-sartlari.html">Kullanım Şartları</a></li></ul></div></div><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="${prefix}gizlilik-politikasi.html">Gizlilik</a><a href="${prefix}kullanim-sartlari.html">Şartlar</a><a href="${prefix}iletisim.html">İletişim</a></div></div></div></footer>`;
 }
 
 function page({ title, description, canonical, prefix = "", active = "", body }) {
@@ -304,6 +304,7 @@ for (const [key, grade] of Object.entries(catalog.grades)) {
   const level = Number(key);
   fs.writeFileSync(`sinif-${level}.html`, classPage(level, grade), "utf8");
   for (const subject of grade.subjects) {
+    if (level === 4 && subject.id === "hayat-bilgisi") continue;
     const name = `${level}-sinif-${subject.id}.html`;
     fs.writeFileSync(path.join(subjectDir, name), subjectPage(level, grade, subject), "utf8");
     subjectUrls.push(`${SITE}/ders/${name}`);
@@ -317,16 +318,25 @@ for (const article of guides) {
   guideUrls.push(`${SITE}/rehber/${article.slug}`);
 }
 
+fs.writeFileSync("icerik-yaklasimimiz.html", page({
+  title: "İçerik Yaklaşımımız ve Soru Hazırlama Süreci | testcoz.pro",
+  description: "testcoz.pro testlerinin nasıl hazırlandığını, zorluk seviyelerini, açıklama ve hata bildirim sürecini öğrenin.",
+  canonical: `${SITE}/icerik-yaklasimimiz.html`,
+  active: "about",
+  body: `<div class="container"><nav class="breadcrumb"><a href="index.html">Ana Sayfa</a><span>›</span><span>İçerik Yaklaşımımız</span></nav></div><article class="section guide-article"><div class="container"><header class="guide-header"><span class="eyebrow">Editoryal yöntem</span><h1>Testler nasıl hazırlanıyor?</h1><p>Bu sayfa soru bankasının gerçek üretim, kontrol ve güncelleme sürecini açıklar. testcoz.pro, Millî Eğitim Bakanlığı tarafından işletilen veya onaylanan resmî bir site değildir.</p></header><div class="study-content guide-body"><section><h2>Konu ve sınıf düzeyi</h2><p>Testler 1–4. sınıf ders ve konu başlıklarına göre düzenlenir. Soru dili, yönerge uzunluğu ve düşünme adımı sınıf seviyesi yükseldikçe değişir. Resmî kazanım kodu veya öğretmen onayı bulunmadığında böyle bir iddia kullanılmaz; öğrencinin güncel ders kitabı ve öğretmen yönlendirmesi esas alınmalıdır.</p></section><section><h2>Kolay, orta ve zor ne anlama gelir?</h2><p>Kolay sorular temel kavramı tanımayı ve doğrudan kullanmayı; orta sorular bilgiyi yeni bir durumda uygulamayı; zor sorular ise birden fazla ipucunu ilişkilendirip sonucu gerekçelendirmeyi hedefler. Yalnız sayıları büyütmek bir soruyu zor kabul etmek için yeterli değildir.</p></section><section><h2>Seçenekler ve çözüm açıklamaları</h2><p>Yanlış seçenekler mümkün olduğunda basamak değeri, işlem seçimi, birim dönüşümü veya metni eksik okuma gibi olası öğrenci hatalarından üretilir. Açıklama yalnız doğru şıkkı söylemek yerine çözümün temel adımını gösterir. Otomatik taramalar boş seçenek, geçersiz cevap indeksi, tekrarlanan seçenek, eksik açıklama ve bozuk görsel gibi kesin hataları denetler.</p></section><section><h2>Görsel sorular</h2><p>Görsel, yalnız süsleme amacıyla değil soruyu anlamanın bir parçası olduğunda kullanılır. Görseller responsive hazırlanır; boyut ve alternatif metin içerir. Alternatif metin sorunun cevabını doğrudan açıklamaz. Kaynağı veya anlamı belirsiz görseller soru bankasına alınmaz.</p></section><section><h2>Kaynak ve özgünlük</h2><p>Sorular, açıklamalar ve öğrenme notları site için hazırlanır veya kullanım öncesinde yeniden hesaplanıp düzenlenir. Başka eğitim sitelerinden soru, çözüm ya da görsel kopyalanmaz. Dışarıdan gelen soru paketleri doğrudan yayınlanmaz; doğruluğu, yaş düzeyi, seçenekleri ve görsel gereksinimi ayrı ayrı incelenir.</p></section><section><h2>Hata bildirimi ve güncelleme</h2><p>Her test sorusunda “Soruda hata mı var?” bağlantısı bulunur. Bildirimde kişisel öğrenci verisi otomatik olarak paylaşılmaz; kullanıcı kendi e-posta uygulamasında açıklamasını ekler. Kesin veri hataları öncelikli olarak düzeltilir. Otomatik kalite uyarıları ise tek başına hata sayılmaz ve bağlamı incelenir.</p></section><section><h2>Son gözden geçirme</h2><p>Teknik doğrulamalar soru verisinin bütünlüğünü korur; pedagojik uygunluğun tamamı için uzman örneklemesi ayrıca gerekir. Sitede yapılmamış öğretmen veya kurum onayı yapılmış gibi gösterilmez.</p></section><div class="guide-related"><h2>İlgili sayfalar</h2><div><a class="guide-related-link" href="hakkimizda.html">Hakkımızda</a><a class="guide-related-link" href="rehber/kolay-orta-zor-test-sistemi-nedir.html">Seviyeli test sistemi</a><a class="guide-related-link" href="iletisim.html">Hata ve öneri bildir</a></div></div></div></div></article>`,
+}), "utf8");
+
 const coreUrls = [
   "",
   "hakkimizda.html",
+  "icerik-yaklasimimiz.html",
   "iletisim.html",
   "gizlilik-politikasi.html",
   "kullanim-sartlari.html",
   "veli.html",
   ...[1, 2, 3, 4].map((level) => `sinif-${level}.html`),
 ].map((url) => `${SITE}/${url}`);
-const testUrls = tests.filter((test) => test.pageUrl).map((test) => `${SITE}/${test.pageUrl}`);
+const testUrls = tests.filter((test) => test.pageUrl && !(test.classLevel === 4 && test.subject === "hayat-bilgisi")).map((test) => `${SITE}/${test.pageUrl}`);
 const sitemapUrls = [...new Set([...coreUrls, ...subjectUrls, ...testUrls, ...guideUrls])];
 fs.writeFileSync(
   "sitemap.xml",

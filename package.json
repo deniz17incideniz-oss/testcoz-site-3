@@ -4,10 +4,11 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate-test-assets.mjs && node scripts/generate-seo-pages.mjs && node scripts/finalize-pages.mjs",
-    "test": "node scripts/validate-tests.mjs && node scripts/validate-auth.mjs && node scripts/check-links.mjs && node scripts/audit-site.mjs && node scripts/scan-secrets.mjs",
+    "test": "node scripts/validate-tests.mjs && node scripts/validate-auth.mjs && node scripts/check-links.mjs && node scripts/audit-site.mjs && node scripts/audit-adsense-readiness.mjs && node scripts/scan-secrets.mjs",
     "audit": "node scripts/audit-site.mjs",
     "test:browser": "playwright test",
     "audit:questions": "node scripts/report-question-quality-v2.mjs",
+    "audit:adsense": "node scripts/audit-adsense-readiness.mjs",
     "audit:secrets": "node scripts/scan-secrets.mjs",
     "lighthouse": "node scripts/measure-lighthouse.mjs"
   },

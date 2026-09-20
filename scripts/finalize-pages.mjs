@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {load} from 'cheerio';
 const excluded = new Set(['giris.html','kayit.html','panel.html','test.html','kisisel-test.html','sinif.html','konu.html','dogal-sayilar-zor.html','matematik-test.html','404.html','tests/4-matematik-zaman-olcme-test-1-zor.html']);
+const isExcluded = key => excluded.has(key) || key === 'ders/4-sinif-hayat-bilgisi.html' || key.startsWith('tests/4-sinif-hayat-bilgisi-');
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(['node_modules','.git','automation','outputs','work'].includes(e.name)?[]:walk(path.join(dir,e.name))):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);
 for(const file of walk('.')) {
  const key=file.replaceAll('\\','/');const source=fs.readFileSync(file,'utf8');const $=load(source.trim());
- if(excluded.has(key)) {
+ if(isExcluded(key)) {
   $('meta[name="robots"]').remove();$('head').append('<meta name="robots" content="noindex, follow">');
   $('script[src*="adsbygoogle.js"]').remove();
  }
@@ -24,8 +25,8 @@ for(const file of walk('.')) {
  const current=$('.breadcrumb').first().find('span').last().text().trim();
  if(crumbs.length&&canonical&&current)crumbs.push({name:current,item:canonical});
  $('script[data-site-schema]').remove();
- if(crumbs.length>1&&!excluded.has(key))$('head').append(`<script type="application/ld+json" data-site-schema="breadcrumb">${JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((x,i)=>({'@type':'ListItem',position:i+1,...x}))}).replaceAll('<','\\u003c')}</script>`);
- if(key.startsWith('rehber/')&&key!=='rehber/index.html'&&canonical)$('head').append(`<script type="application/ld+json" data-site-schema="article">${JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:$('h1').text(),url:canonical,inLanguage:'tr',publisher:{'@type':'Organization',name:'testcoz.pro',url:'https://testcoz.pro/'}}).replaceAll('<','\\u003c')}</script>`);
+ if(crumbs.length>1&&!isExcluded(key))$('head').append(`<script type="application/ld+json" data-site-schema="breadcrumb">${JSON.stringify({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:crumbs.map((x,i)=>({'@type':'ListItem',position:i+1,...x}))}).replaceAll('<','\\u003c')}</script>`);
+ if(key.startsWith('rehber/')&&key!=='rehber/index.html'&&canonical&&!isExcluded(key))$('head').append(`<script type="application/ld+json" data-site-schema="article">${JSON.stringify({'@context':'https://schema.org','@type':'Article',headline:$('h1').text(),url:canonical,inLanguage:'tr',publisher:{'@type':'Organization',name:'testcoz.pro',url:'https://testcoz.pro/'}}).replaceAll('<','\\u003c')}</script>`);
  // System fonts avoid external font requests and a blocking stylesheet.
  $('link[href*="fonts.googleapis.com"],link[href*="fonts.gstatic.com"]').remove();
  fs.writeFileSync(file,$.html().replace(/[ \t]+$/gm,'').trimEnd()+'\n');
