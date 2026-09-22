@@ -1,8 +1,14 @@
-import { getPrivateKeyDiagnostics, getSheetsConfigurationIssues } from "./_lib/sheets.js";
+import { diagnoseSheetsRead, getPrivateKeyDiagnostics, getSheetsConfigurationIssues } from "./_lib/sheets.js";
+import { rateLimited } from "./_lib/security.js";
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
   if (req.method !== "GET") return res.status(405).json({ success: false, message: "Yalnızca GET isteği kabul edilir." });
+  if (req.query?.sheets === "read") {
+    if (process.env.VERCEL_ENV !== "preview") return res.status(404).json({ success: false });
+    if (rateLimited(req, 5)) return res.status(429).json({ success: false });
+    return res.status(200).json(await diagnoseSheetsRead());
+  }
   const { missing, invalid } = getSheetsConfigurationIssues();
   const secret = process.env.JWT_SECRET;
   if (!secret) missing.push("JWT_SECRET");

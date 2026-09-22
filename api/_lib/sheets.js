@@ -11,6 +11,54 @@ export class SheetsServiceError extends Error {
   constructor(code, status = 503) { super(code); this.name = "SheetsServiceError"; this.code = code; this.status = status; }
 }
 
+// Never retain Google's free-text message, request URL, or credential metadata.
+export async function classifySheetsError(response) {
+  const body = await response.json().catch(() => ({}));
+  const error = body.error || {};
+  const reasons = [...(error.errors || []), ...(error.details || [])].map(item => item.reason);
+  const disabled = reasons.some(reason => ["SERVICE_DISABLED", "accessNotConfigured"].includes(reason));
+  const rangeInvalid = response.status === 400 && /unable to parse range|invalid range/i.test(String(error.message || ""));
+  const code = disabled ? "SHEETS_API_DISABLED" : response.status === 403 ? "SHEET_PERMISSION_DENIED" : response.status === 404 ? "SPREADSHEET_NOT_FOUND" : rangeInvalid ? "SHEET_RANGE_INVALID" : "SHEET_READ_REJECTED";
+  const allowedStatuses = ["PERMISSION_DENIED", "NOT_FOUND", "INVALID_ARGUMENT", "RESOURCE_EXHAUSTED", "UNAUTHENTICATED", "INTERNAL", "UNAVAILABLE"];
+  const allowedReasons = ["SERVICE_DISABLED", "accessNotConfigured", "forbidden", "notFound", "badRequest", "ACCESS_TOKEN_SCOPE_INSUFFICIENT", "RATE_LIMIT_EXCEEDED"];
+  const diagnostic = { code, httpStatus: response.status, googleStatus: allowedStatuses.includes(error.status) ? error.status : "UNKNOWN", reason: reasons.find(reason => allowedReasons.includes(reason)) || "UNSPECIFIED" };
+  console.error("sheets diagnostic:", JSON.stringify(diagnostic));
+  const failure = new SheetsServiceError(code, 502);
+  failure.diagnostic = diagnostic;
+  return failure;
+}
+
+export async function diagnoseSheetsRead() {
+  const report = { oauth: "NOT_TESTED", metadata: "NOT_TESTED", registerRead: "NOT_TESTED" };
+  try {
+    const ctx = await context();
+    report.oauth = "PASS";
+    report.spreadsheetIdFormat = /^[A-Za-z0-9_-]+$/.test(ctx.spreadsheetId) ? "VALID" : "INVALID";
+    const base = `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(ctx.spreadsheetId)}`;
+    let metadata;
+    try { metadata = await fetch(`${base}?fields=spreadsheetId,properties.title,sheets.properties.title`, { headers: ctx.headers }); }
+    catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
+    if (!metadata.ok) throw await classifySheetsError(metadata);
+    const data = await metadata.json();
+    report.metadata = "PASS";
+    const titles = new Set((data.sheets || []).map(sheet => sheet.properties?.title));
+    const names = { register: ctx.sheetName, results: process.env.GOOGLE_SHEETS_RESULTS_SHEET_NAME || "TestSonuclari", weaknesses: process.env.GOOGLE_SHEETS_WEAKNESSES_SHEET_NAME || "OgrenciEksikleri", personalTests: process.env.GOOGLE_SHEETS_PERSONAL_TESTS_SHEET_NAME || "KisiselTestler" };
+    report.tabs = Object.fromEntries(Object.entries(names).map(([key, name]) => [key, titles.has(name.trim()) ? "EXISTS" : "MISSING"]));
+    let values;
+    try { values = await fetch(`${base}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
+    catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
+    if (!values.ok) throw await classifySheetsError(values);
+    const rows = (await values.json()).values || [];
+    const expected = ["Kayıt Tarihi", "Öğrenci Adı", "Sınıf", "Günlük Soru Hedefi", "İletişim Numarası", "E-posta", "Şifre Hash", "KVKK Onayı", "Kayıt Kaynağı", "Kullanıcı Durumu"];
+    report.registerRead = "PASS";
+    report.registerHeaders = !rows.length ? "EMPTY" : expected.every((title, index) => rows[0][index] === title) ? "MATCH" : "MISMATCH";
+  } catch (error) {
+    report.error = error instanceof SheetsServiceError ? error.code : "DIAGNOSTIC_FAILED";
+    if (error.diagnostic) report.evidence = error.diagnostic;
+  }
+  return report;
+}
+
 function normalizePrivateKey(rawValue) {
   let value = String(rawValue || "").trim();
   if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
@@ -117,7 +165,7 @@ export async function getRows() {
   let response;
   try { response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(ctx.spreadsheetId)}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
   catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
-  if (!response.ok) throw new SheetsServiceError("SHEET_READ_REJECTED", 502);
+  if (!response.ok) throw await classifySheetsError(response);
   const data = await response.json().catch(() => ({}));
   return { rows: data.values || [], ctx };
 }
@@ -127,7 +175,7 @@ export async function getRowsFromSheet(sheetName) {
   let response;
   try { response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(ctx.spreadsheetId)}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
   catch { throw new SheetsServiceError("SHEET_READ_NETWORK", 502); }
-  if (!response.ok) throw new SheetsServiceError("SHEET_READ_REJECTED", 502);
+  if (!response.ok) throw await classifySheetsError(response);
   const data = await response.json().catch(() => ({}));
   return { rows: data.values || [], ctx };
 }

@@ -5,6 +5,7 @@ import session from "../api/session.js";
 import logout from "../api/logout.js";
 import authStatus from "../api/auth-status.js";
 import { originAllowed } from "../api/_lib/security.js";
+import { classifySheetsError } from "../api/_lib/sheets.js";
 
 const { privateKey } = crypto.generateKeyPairSync("rsa", { modulusLength: 2048 });
 process.env.GOOGLE_SHEETS_CLIENT_EMAIL = "test@example.iam.gserviceaccount.com";
@@ -34,6 +35,11 @@ async function call(handler, { method = "POST", body = {}, cookie = "", ip = cry
   return output;
 }
 function assert(value, message) { if (!value) throw new Error(message); }
+
+const permissionFailure = await classifySheetsError(new Response(JSON.stringify({ error: { status: "PERMISSION_DENIED", message: "Sensitive upstream detail", errors: [{ reason: "forbidden" }] } }), { status: 403 }));
+assert(permissionFailure.code === "SHEET_PERMISSION_DENIED" && permissionFailure.diagnostic.googleStatus === "PERMISSION_DENIED" && !JSON.stringify(permissionFailure.diagnostic).includes("Sensitive"), "Sheets permission hatası güvenli sınıflandırılmadı.");
+const rangeFailure = await classifySheetsError(new Response(JSON.stringify({ error: { status: "INVALID_ARGUMENT", message: "Unable to parse range" } }), { status: 400 }));
+assert(rangeFailure.code === "SHEET_RANGE_INVALID", "Sheets range hatası sınıflandırılmadı.");
 
 const configuredStatus = await call(authStatus, { method: "GET" });
 assert(configuredStatus.status === 200 && configuredStatus.data.configured === true, "Auth yapılandırması geçerli görünmüyor.");
