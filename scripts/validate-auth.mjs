@@ -59,7 +59,9 @@ const cookie = String(goodLogin.headers["Set-Cookie"]).split(";")[0];
 const activeSession = await call(session, { method: "GET", cookie });
 assert(activeSession.status === 200 && activeSession.data.user.classLevel === "4", "Panel oturumu okunamadı.");
 const signedOut = await call(logout, { cookie });
-assert(signedOut.status === 200 && String(signedOut.headers["Set-Cookie"]).includes("Max-Age=0"), "Çıkış çerezi temizlenmedi.");
+assert(signedOut.status === 200 && /^testcoz_session=; Path=\/; HttpOnly; Secure; SameSite=Lax; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT$/.test(String(signedOut.headers["Set-Cookie"])), "Çıkış çerezi temizlenmedi.");
+const sessionAfterLogout = await call(session, { method: "GET" });
+assert(sessionAfterLogout.status === 401, "Çıkış sonrası tarayıcı oturumu devam ediyor.");
 
 const validPrivateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
 process.env.GOOGLE_SHEETS_PRIVATE_KEY = "not-a-private-key";

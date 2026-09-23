@@ -41,11 +41,8 @@ export async function diagnoseSheetsRead() {
     if (!metadata.ok) throw await classifySheetsError(metadata);
     const data = await metadata.json();
     report.metadata = "PASS";
-    const actualTitles = (data.sheets || []).map(sheet => sheet.properties?.title).filter(title => typeof title === "string");
-    const titles = new Set(actualTitles);
+    const titles = new Set((data.sheets || []).map(sheet => sheet.properties?.title));
     const names = { register: ctx.sheetName, results: process.env.GOOGLE_SHEETS_RESULTS_SHEET_NAME || "TestSonuclari", weaknesses: process.env.GOOGLE_SHEETS_WEAKNESSES_SHEET_NAME || "OgrenciEksikleri", personalTests: process.env.GOOGLE_SHEETS_PERSONAL_TESTS_SHEET_NAME || "KisiselTestler" };
-    report.metadataTabNames = actualTitles;
-    report.configuredTabNames = names;
     report.tabs = Object.fromEntries(Object.entries(names).map(([key, name]) => [key, titles.has(name.trim()) ? "EXISTS" : "MISSING"]));
     let values;
     try { values = await fetch(`${base}/values/${encodeURIComponent(ctx.range)}?majorDimension=ROWS`, { headers: ctx.headers }); }
