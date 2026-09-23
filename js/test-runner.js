@@ -23,7 +23,7 @@
   }
 
   function topicUrl() {
-    return "konu.html?sinif=" + classLevel + "&ders=" + encodeURIComponent(params.ders || "");
+    return "ders/" + classLevel + "-sinif-" + encodeURIComponent(params.ders || "") + ".html";
   }
 
   function renderBreadcrumb() {
@@ -38,7 +38,7 @@
     const box = document.getElementById("testPurposeBox");
     if (!box || !grade || !subject || !topic) return;
     const label = labelDifficulty();
-    box.innerHTML = '<h2>Test amacı</h2><p>Bu test, ' + utils.escapeHtml(grade.name) + ' ' + utils.escapeHtml(subject.name) + ' dersi ' + utils.escapeHtml(topic.name) + ' konusundaki kazanımları ' + utils.escapeHtml(label.toLocaleLowerCase("tr-TR")) + ' seviyede ölçmek için hazırlanmıştır. Sorular; temel kavramı anlama, yönergeyi dikkatle okuma, seçenekleri karşılaştırma ve uygun durumda problem çözme becerilerini destekler.</p><ul><li>Sınıf: ' + utils.escapeHtml(grade.name) + '</li><li>Ders: ' + utils.escapeHtml(subject.name) + '</li><li>Konu: ' + utils.escapeHtml(topic.name) + '</li><li>Zorluk: ' + utils.escapeHtml(label) + '</li><li>Soru sayısı: 10</li></ul>';
+    box.innerHTML = '<details><summary>Bu test hakkında</summary><p>' + utils.escapeHtml(topic.name) + ' konusunu ' + utils.escapeHtml(label.toLocaleLowerCase("tr-TR")) + ' seviyede çalış. 10 soruyu kendi hızında çöz; sonunda yanlış ve boş soruların açıklamalarını incele.</p></details>';
   }
 
   function showUnavailable() {
@@ -55,16 +55,16 @@
     const progress = Math.round(((currentIndex + 1) / test.questions.length) * 100);
     const bar = document.getElementById("testBarFill");
     bar.style.width = progress + "%";
-    bar.parentElement.parentElement.setAttribute("aria-valuenow", String(progress));
+    bar.closest("[role=progressbar]").setAttribute("aria-valuenow", String(progress));
     document.querySelector(".test-counter").textContent = "Soru " + (currentIndex + 1) + " / " + test.questions.length;
     document.querySelector(".test-score").textContent = answers.filter(function (answer) { return answer !== null; }).length + " Cevaplandı";
   }
 
-  function renderQuestion() {
+  function renderQuestion(focusQuestion = true) {
     const question = test.questions[currentIndex];
     const selected = answers[currentIndex];
     const image = question.image
-      ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || "Soru görseli") + '">'
+      ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || "Soru görseli") + '" width="720" height="320" decoding="async">'
       : "";
     const choices = question.choices.map(function (choice, index) {
       const selectedClass = selected === index ? " is-selected" : "";
@@ -73,16 +73,23 @@
     }).join("");
 
     document.getElementById("questionArea").innerHTML = '<div class="question-card">' + image +
-      '<p class="question-text">' + utils.escapeHtml(question.question) + '</p><div class="options-grid">' + choices + '</div>' +
+      '<p class="question-text" tabindex="-1">' + utils.escapeHtml(question.question) + '</p><div class="options-grid">' + choices + '</div>' +
+      '<a class="report-question" href="mailto:iletisim@testcoz.pro?subject=' + encodeURIComponent('Soruda hata bildirimi') + '&amp;body=' + encodeURIComponent('Sınıf: '+classLevel+'\nDers: '+subject.name+'\nKonu: '+topic.name+'\nZorluk: '+difficulty+'\nTest: '+testNumber+'\nSoru: '+(currentIndex+1)+'\nSoru kimliği: '+question.id+'\nHata açıklaması: ') + '">Soruda hata mı var?</a>' +
       '<div class="test-nav"><button type="button" class="btn btn-outline btn-sm" id="previousQuestion"' + (currentIndex === 0 ? " disabled" : "") + '>← Önceki</button>' +
       '<button type="button" class="btn btn-ghost btn-sm" id="skipQuestion">Geç</button>' +
       '<button type="button" class="btn btn-primary btn-sm" id="nextQuestion">' + (currentIndex === test.questions.length - 1 ? "Testi Bitir" : "Sonraki Soru →") + '</button></div></div>';
     updateProgress();
+    if (focusQuestion) document.querySelector(".question-text").focus({preventScroll:true});
 
     document.querySelectorAll("[data-choice]").forEach(function (button) {
       button.addEventListener("click", function () {
         answers[currentIndex] = Number(button.dataset.choice);
-        renderQuestion();
+        document.querySelectorAll("[data-choice]").forEach(function(option) {
+          const active = option === button;
+          option.classList.toggle("is-selected", active);
+          option.setAttribute("aria-pressed", String(active));
+        });
+        updateProgress();
       });
     });
     document.getElementById("previousQuestion").addEventListener("click", function () {
@@ -91,8 +98,8 @@
         renderQuestion();
       }
     });
-    document.getElementById("skipQuestion").addEventListener("click", goNext);
-    document.getElementById("nextQuestion").addEventListener("click", goNext);
+    document.getElementById("skipQuestion").addEventListener("click", function (event) { if(event.detail > 1)return; answers[currentIndex] = null; goNext(); });
+    document.getElementById("nextQuestion").addEventListener("click", function(event) { if(event.detail <= 1)goNext(); });
   }
 
   function goNext() {
@@ -144,6 +151,15 @@
     }
   }
 
+  function continuationLinks() {
+    const nextLevel = {kolay:"orta", orta:"zor"}[difficulty];
+    const next = tests.find(t => t.classLevel === classLevel && t.subject === test.subject && t.topic === test.topic && t.difficulty === nextLevel);
+    const similar = tests.find(t => t.classLevel === classLevel && t.subject === test.subject && t.topic !== test.topic && t.difficulty === difficulty);
+    return (next ? '<a class="btn btn-outline" href="'+utils.escapeHtml(next.pageUrl)+'">Bir Üst Seviyeyi Dene</a>' : '') +
+      (similar ? '<a class="btn btn-outline" href="'+utils.escapeHtml(similar.pageUrl)+'">Benzer Test Çöz</a>' : '') +
+      '<a class="btn btn-outline" href="'+utils.escapeHtml(test.pageUrl)+'">Konuya Dön</a>';
+  }
+
   function showResult() {
     const correct = answers.filter(function (answer, index) { return answer === test.questions[index].correctAnswer; }).length;
     const wrongIndexes = answers.map(function (answer, index) { return answer !== null && answer !== test.questions[index].correctAnswer ? index : -1; }).filter(function (index) { return index >= 0; });
@@ -157,15 +173,16 @@
     const blankQuestionTypes = answers.map(function (answer, index) { return answer === null ? test.questions[index].questionType : ""; }).filter(Boolean);
     const percentage = Math.round((correct / test.questions.length) * 100);
     const reviews = reviewIndexes.length
-      ? '<section class="wrong-review"><h2>Tekrar Bakabileceğin Sorular</h2>' + reviewIndexes.map(function (index) {
+      ? '<section class="wrong-review" id="wrongReview" tabindex="-1"><h2>Yanlışlarını Öğren</h2>' + reviewIndexes.map(function (index) {
         const question = test.questions[index];
         const isEmpty = answers[index] === null;
         return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
-          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soru boş bırakıldı" : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
+          (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" width="720" height="320" loading="lazy" decoding="async">' : '') +
+          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
           '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
           '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
       }).join("") + '</section>'
-      : '<div class="all-correct">🎉 Harika! Yanlış cevapladığın soru yok.</div>';
+      : '<div class="all-correct">🎉 Harika! İncelenecek yanlış veya boş soru bulunmuyor.</div>';
 
     document.getElementById("questionArea").style.display = "none";
     document.getElementById("testBarFill").style.width = "100%";
@@ -173,14 +190,17 @@
     document.querySelector(".test-score").textContent = correct + " / " + test.questions.length + " Doğru";
     const resultArea = document.getElementById("resultArea");
     resultArea.style.display = "";
+    document.querySelector("[role=progressbar]").setAttribute("aria-valuenow", "100");
+    resultArea.setAttribute("tabindex", "-1");
     const motivation = percentage >= 80 ? "Harika ilerliyorsun!" : percentage >= 60 ? "Güzel gidiyor, biraz daha çalışmayla çok daha iyi olacak!" : "Her deneme öğrenmenin bir parçası; yeniden deneyebilirsin!";
     resultArea.innerHTML = '<div class="result-card"><div class="result-emoji">' + (percentage >= 80 ? "🏆" : percentage >= 60 ? "👍" : "💪") + '</div>' +
       '<div class="result-score">%' + percentage + '</div><div class="result-label">' + motivation + '</div>' +
       '<div class="result-stats"><div class="result-stat"><div class="result-stat-val val-correct">' + correct + '</div><div class="result-stat-lbl">Doğru</div></div>' +
       '<div class="result-stat"><div class="result-stat-val val-wrong">' + wrongIndexes.length + '</div><div class="result-stat-lbl">Yanlış</div></div>' +
       '<div class="result-stat"><div class="result-stat-val val-empty">' + empty + '</div><div class="result-stat-lbl">Boş / Geçilen</div></div></div>' +
-      '<div class="result-actions"><button type="button" class="btn btn-primary" id="restartTest">Testi Tekrar Çöz</button>' +
-      '<a href="index.html" class="btn btn-outline">Ana Sayfaya Dön</a><a href="' + topicUrl() + '" class="btn btn-outline">Konuya Geri Dön</a></div></div>' + reviews;
+      '<p>' + correct + ' doğru yaptın. Toplam ' + test.questions.length + ' sorudan ' + reviewIndexes.length + ' soruyu yeniden inceleyebilirsin.</p>' +
+      '<div class="result-actions">' + (reviewIndexes.length ? '<a class="btn btn-primary" href="#wrongReview" id="reviewAnswers">Yanlışlarını Öğren</a>' : '') + '<button type="button" class="btn btn-primary" id="restartTest">Testi Tekrar Çöz</button>' +
+      continuationLinks() + '<a href="index.html" class="btn btn-outline">Ana Sayfaya Dön</a><a href="' + topicUrl() + '" class="btn btn-outline">Ders Sayfasına Dön</a></div></div>' + reviews;
     resultArea.insertAdjacentHTML("afterbegin", '<div id="resultSaveStatus" class="result-save-note">Sonuç kaydı kontrol ediliyor…</div>');
     saveResultIfPossible({ correct, wrong: wrongIndexes.length, empty, wrongQuestionIds, blankQuestionIds, wrongSkills, blankSkills, wrongQuestionTypes, blankQuestionTypes });
     document.getElementById("restartTest").addEventListener("click", function () {
@@ -190,10 +210,13 @@
       document.getElementById("questionArea").style.display = "";
       renderQuestion();
     });
+    resultArea.focus({preventScroll:true});
+    const reviewLink = document.getElementById("reviewAnswers");
+    if (reviewLink) reviewLink.addEventListener("click", function () { document.getElementById("wrongReview").focus(); });
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initialize() {
     renderBreadcrumb();
     if (!test || !grade || !subject || !topic || test.questions.length !== 10) {
       showUnavailable();
@@ -206,5 +229,7 @@
     if (back) back.href = topicUrl();
     renderPurpose();
     renderQuestion();
-  });
+  }
+  if(document.readyState === "loading")document.addEventListener("DOMContentLoaded", initialize);
+  else initialize();
 })();

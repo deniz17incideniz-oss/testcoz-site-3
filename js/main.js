@@ -5,6 +5,15 @@
     const menu = document.getElementById("mobileMenu");
     if (!button || !menu) return;
 
+    button.setAttribute("aria-controls", "mobileMenu");
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "Escape" && menu.classList.contains("open")) {
+        menu.classList.remove("open"); button.setAttribute("aria-expanded", "false"); button.focus();
+      }
+    });
+    menu.addEventListener("click", function(event) {
+      if(event.target.closest("a")) { menu.classList.remove("open"); button.setAttribute("aria-expanded", "false"); }
+    });
     button.addEventListener("click", function () {
       const isOpen = menu.classList.toggle("open");
       button.setAttribute("aria-expanded", String(isOpen));

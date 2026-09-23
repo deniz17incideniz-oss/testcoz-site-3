@@ -4,6 +4,8 @@ import login from "../api/login.js";
 import session from "../api/session.js";
 import logout from "../api/logout.js";
 import authStatus from "../api/auth-status.js";
+import { originAllowed } from "../api/_lib/security.js";
+import { classifySheetsError } from "../api/_lib/sheets.js";
 
 const { privateKey } = crypto.generateKeyPairSync("rsa", { modulusLength: 2048 });
 process.env.GOOGLE_SHEETS_CLIENT_EMAIL = "test@example.iam.gserviceaccount.com";
@@ -34,6 +36,11 @@ async function call(handler, { method = "POST", body = {}, cookie = "", ip = cry
 }
 function assert(value, message) { if (!value) throw new Error(message); }
 
+const permissionFailure = await classifySheetsError(new Response(JSON.stringify({ error: { status: "PERMISSION_DENIED", message: "Sensitive upstream detail", errors: [{ reason: "forbidden" }] } }), { status: 403 }));
+assert(permissionFailure.code === "SHEET_PERMISSION_DENIED" && permissionFailure.diagnostic.googleStatus === "PERMISSION_DENIED" && !JSON.stringify(permissionFailure.diagnostic).includes("Sensitive"), "Sheets permission hatası güvenli sınıflandırılmadı.");
+const rangeFailure = await classifySheetsError(new Response(JSON.stringify({ error: { status: "INVALID_ARGUMENT", message: "Unable to parse range" } }), { status: 400 }));
+assert(rangeFailure.code === "SHEET_RANGE_INVALID", "Sheets range hatası sınıflandırılmadı.");
+
 const configuredStatus = await call(authStatus, { method: "GET" });
 assert(configuredStatus.status === 200 && configuredStatus.data.configured === true, "Auth yapılandırması geçerli görünmüyor.");
 
@@ -52,7 +59,9 @@ const cookie = String(goodLogin.headers["Set-Cookie"]).split(";")[0];
 const activeSession = await call(session, { method: "GET", cookie });
 assert(activeSession.status === 200 && activeSession.data.user.classLevel === "4", "Panel oturumu okunamadı.");
 const signedOut = await call(logout, { cookie });
-assert(signedOut.status === 200 && String(signedOut.headers["Set-Cookie"]).includes("Max-Age=0"), "Çıkış çerezi temizlenmedi.");
+assert(signedOut.status === 200 && /^testcoz_session=; Path=\/; HttpOnly; Secure; SameSite=Lax; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT$/.test(String(signedOut.headers["Set-Cookie"])), "Çıkış çerezi temizlenmedi.");
+const sessionAfterLogout = await call(session, { method: "GET" });
+assert(sessionAfterLogout.status === 401, "Çıkış sonrası tarayıcı oturumu devam ediyor.");
 
 const validPrivateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
 process.env.GOOGLE_SHEETS_PRIVATE_KEY = "not-a-private-key";
@@ -69,3 +78,19 @@ assert(missingJwtStatus.data.configured === false && missingJwtStatus.data.missi
 process.env.JWT_SECRET = validJwtSecret;
 
 console.log("✓ Kayıt, yapılandırma, şifre hashleme, giriş, oturum ve çıkış doğrulandı.");
+
+const optionalPhone = await call(register, { body: { studentName: "Takma ad", classLevel: "1", dailyGoal: 10, email: "guardian@example.com", password: "Guvenli123", consent: true, startedAt: Date.now()-3000 } });
+assert(optionalPhone.status === 201 && rows.at(-1).length === 10 && rows.at(-1)[4] === "", "Telefonsuz kayıt ve sütun uyumu başarısız.");
+const malformed = await call(session, { method: "GET", cookie: "testcoz_session=%invalid" });
+assert(malformed.status === 401, "Bozuk çerez güvenli biçimde reddedilmedi.");
+const foreignOrigin = response();
+await login({method:"POST",headers:{origin:"https://attacker.example"},body:{}}, foreignOrigin.res);
+assert(foreignOrigin.output.status === 403, "Yabancı origin reddedilmedi.");
+process.env.ALLOWED_ORIGINS = "https://preview.testcoz.example,http://localhost:4173,https://bad path.example";
+assert(originAllowed({ headers: { origin: "https://testcoz.pro" } }), "Üretim origin'i reddedildi.");
+assert(originAllowed({ headers: { origin: "https://preview.testcoz.example" } }), "Tanımlı preview origin'i reddedildi.");
+assert(originAllowed({ headers: { origin: "http://localhost:4173" } }), "Tanımlı yerel origin reddedildi.");
+assert(!originAllowed({ headers: { origin: "https://testcoz.pro.evil.example" } }), "Benzer görünümlü saldırgan origin kabul edildi.");
+assert(!originAllowed({ headers: { origin: "http://preview.testcoz.example" } }), "Güvensiz uzak HTTP origin kabul edildi.");
+delete process.env.ALLOWED_ORIGINS;
+console.log("✓ İsteğe bağlı telefon, bozuk çerez ve origin kontrolleri doğrulandı.");

@@ -5,3 +5,8 @@ automation/node_modules/
 .env
 .env.*
 !.env.example
+
+test-results/
+playwright-report/
+.vercel
+.env*

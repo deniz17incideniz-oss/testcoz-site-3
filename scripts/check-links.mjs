@@ -18,7 +18,7 @@ for (const file of walk(".")) {
     if (/^(?:https?:|mailto:|tel:|data:|#|javascript:)/.test(reference)) continue;
     const target = reference.split(/[?#]/)[0];
     if (!target) continue;
-    const resolved = path.resolve(path.dirname(file), target.replace(/^\//, ""));
+    const resolved = path.resolve(target.startsWith("/") ? "." : path.dirname(file), target.replace(/^\//, ""));
     if (!fs.existsSync(resolved)) missing.push(`${file}: ${reference}`);
   }
 }

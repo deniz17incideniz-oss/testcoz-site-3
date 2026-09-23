@@ -1844,3 +1844,63 @@ a.difficulty-link:hover {
   .test-landing-actions .btn { width: 100%; }
 }
 
+/* Shared refinements: retain the blue/amber identity and existing layout classes. */
+:root { --primary:#2563eb; --background:var(--bg); --surface:#fff; --border:#dbe3ee; --warning:#a15c00; --radius-md:12px; --text-muted:#526176; }
+:focus-visible { outline:3px solid #1d4ed8; outline-offset:4px; }
+[hidden] { display:none!important; }
+.skip-link { position:absolute; top:-80px; left:16px; z-index:1000; padding:12px 20px; background:white; color:#1e40af; border:2px solid; border-radius:8px; }
+.skip-link:focus { top:12px; }
+.hero { background:#eef5ff; }
+.hero h1 { font-size:clamp(2.2rem,4.6vw,3.75rem); line-height:1.12; letter-spacing:-.035em; }
+.hero h1 em { color:#1e40af; }
+.hero-subtitle { max-width:60ch; }
+.hero-actions { flex-wrap:wrap; }
+.learning-preview { background:white; border:1px solid #d9e5f7; border-radius:24px; padding:32px; box-shadow:0 8px 28px #1e40af09; text-align:left; }
+.learning-preview h2 { font-size:2.1rem; margin:12px 0 24px; }
+.learning-preview ol { list-style:none; display:grid; gap:20px; padding:0; }
+.learning-preview li { display:flex; gap:16px; align-items:flex-start; }
+.learning-preview li>span { color:#1e40af; background:#eff6ff; border-radius:12px; padding:8px 12px; font-weight:800; }
+.learning-preview li p { font-size:.94rem; color:var(--text-muted); margin:4px 0 0; }
+.class-card { border:1px solid var(--border); box-shadow:none; text-align:left; }
+.class-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-sm); }
+.class-card-title { font-size:2rem; }
+.class-card-subtitle { min-height:3.2em; }
+.class-card-badge { margin-top:18px; }
+.breadcrumb { flex-wrap:wrap; overflow-wrap:anywhere; }
+.container, .hero-content, .hero-visual, .topic-info { min-width:0; }
+.study-content { overflow-wrap:anywhere; }
+.study-content p { max-width:78ch; }
+.study-content h2 { margin-top:28px; }
+.sample-question { border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:24px 0; background:#f8fafc; }
+summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
+.difficulty-link, .option-btn, .test-nav .btn, .mobile-nav a { min-height:44px; }
+.question-text { font-size:clamp(1.15rem,2.5vw,1.4rem); line-height:1.65; }
+.question-image { max-width:100%; height:auto; object-fit:contain; }
+.option-btn { padding:18px; text-align:left; }
+.option-btn.is-selected { background:#eff6ff; border-color:#1d4ed8; color:#172554; }
+.report-question { display:inline-block; font-size:.88rem; padding:12px 0; color:#405675; text-decoration:underline; }
+.test-nav, .result-actions, .test-landing-actions { flex-wrap:wrap; gap:12px; }
+.site-footer a { text-underline-offset:4px; }
+.site-footer .footer-note { margin-top:20px; font-size:.88rem; color:#cbd5e1; }
+.about-intro-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; margin-bottom:48px; }
+@media(max-width:768px) { .about-intro-grid {grid-template-columns:1fr;gap:24px;} .learning-preview {padding:24px;} .hero-inner {gap:28px;} .test-nav .btn {flex:1 1 auto;} }
+@media(max-width:430px) { .class-grid {grid-template-columns:1fr;} .hero-actions .btn {width:100%;} .options-grid {grid-template-columns:1fr;} .question-card {padding:18px;} .learning-preview h2 {font-size:1.7rem;} .difficulty-actions {flex-wrap:wrap;} }
+@media(prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} *,*::before,*::after {animation:none!important;transition:none!important;} }
+.logo-text>span {color:#a35c00;}
+.site-footer .logo-text>span {color:#fbbf24;}
+.footer-bottom p,.footer-bottom-links a {color:#cbd5e1;}
+.learning-preview {display:block; width:100%;}
+.hero h1 {font-size:clamp(2.2rem,4vw,3.4rem);}
+.badge-kolay {background:#ecfdf5;color:#047857;}
+.badge-orta {background:#fffbeb;color:#92400e;}
+.badge-zor {background:#fff1f2;color:#be123c;}
+.difficulty-link small {opacity:1;}
+.btn-secondary,.btn-secondary:hover {background:#fef3c7;color:#78350f;border-color:#fcd34d;}
+:root {--success:#047857;--danger:#b91c1c;}
+.site-footer>.container>a {color:#cbd5e1;}
+.site-footer .footer-col h2 {font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#cbd5e1;margin-bottom:16px;}
+
+/* Keep the quiz frame stable while the selected bank loads. */
+.test-info-title { min-height: 2.8em; }
+#questionArea { min-height: 420px; }
+.test-purpose-box summary { cursor: pointer; font-weight: 700; }

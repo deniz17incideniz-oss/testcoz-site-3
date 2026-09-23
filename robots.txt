@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /ders/
-Allow: /rehber/
-Allow: /tests/
-Allow: /assets/
-Allow: /images/
 
 Sitemap: https://testcoz.pro/sitemap.xml
