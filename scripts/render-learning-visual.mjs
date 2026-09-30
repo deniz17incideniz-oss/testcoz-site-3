@@ -1,5 +1,7 @@
+import { renderFinalVisual } from "./render-final-visual.mjs";
 // Explicit renderers for source-defined diagrams; never infer answer labels.
 export function renderLearningVisual(type, data, esc, shape) {
+ if(type==='finalDiagram') return renderFinalVisual(data,esc);
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
  if(type==='cards') {

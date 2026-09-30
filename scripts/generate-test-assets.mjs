@@ -124,7 +124,7 @@ function pageHtml(test) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test ${test.testNumber} | testcoz.pro</title>
-  <meta name="description" content="${test.classLevel}. sınıf ${esc(test.subjectName)} ${esc(test.topicName)} konusu için 10 soruluk ${lower} seviye açıklamalı test ve çalışma açıklaması.">
+  <meta name="description" content="${test.classLevel}. sınıf ${esc(test.subjectName)} ${esc(test.topicName)} konusu için 10 soruluk ${lower} seviye açıklamalı test${test.testNumber > 1 ? ` (${test.testNumber}. test)` : ""} ve çalışma açıklaması.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://testcoz.pro/${test.pageUrl}">
   <link rel="stylesheet" href="../css/style.css">

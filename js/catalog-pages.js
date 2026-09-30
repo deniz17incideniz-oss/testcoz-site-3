@@ -8,7 +8,7 @@
   }
 
   function findTest(classLevel, subject, topic, difficulty) {
-    return tests.find(function (test) {
+    return tests.filter(function (test) {
       return test.classLevel === classLevel && test.subject === subject && test.topic === topic && test.difficulty === difficulty;
     });
   }
@@ -71,10 +71,10 @@
     document.getElementById("topicList").innerHTML = subject.topics.map(function (topic, index) {
       const buttons = topic.difficulties.map(function (difficulty) {
         const available = findTest(classLevel, subject.id, topic.id, difficulty);
-        if (!available) {
+        if (!available.length) {
           return "";
         }
-        return '<a class="difficulty-link badge-' + difficulty + '" href="' + utils.escapeHtml(available.pageUrl) + '">' + capitalize(difficulty) + '<small>10 Soru</small></a>';
+        return available.sort((a,b)=>a.testNumber-b.testNumber).map(test=>'<a class="difficulty-link badge-' + difficulty + '" href="' + utils.escapeHtml(test.pageUrl) + '">' + capitalize(difficulty) + ' · Test ' + test.testNumber + '<small>10 Soru</small></a>').join('');
       }).join("");
 
       return '<article class="topic-card topic-card-with-levels">' +

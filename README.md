@@ -70,3 +70,9 @@ Sınıf/ders/rehber sayfalarının kaynağı `scripts/generate-seo-pages.mjs`; t
 Denetim raporları `outputs/` altında oluşur ve Git'e girmez. Yayın öncesi sınırlar ve manuel kontroller: `docs/QUALITY-REPORT.md`.
 
 Ek denetimler: `npm run audit:questions` konu/seviye kapsamı ve tekrar adaylarını üretir; `npm run audit:secrets` credential desenlerini denetler. `node scripts/audit-content-similarity.mjs` landing benzerliğini raporlar. `npm run lighthouse` dört yerel mobil sayfayı ayrı sunucuda ölçer; AdSense engellenmez. Lighthouse ile tarayıcı testlerini sırayla çalıştırın. Raporlar akademik veya politika onayı değildir.
+
+## Zor Test 2 import
+
+`npm run import:zor-test2` converts the preserved final source into `data/tests/zor-test2-final.js`. The checked-in change log records only proven duplicate/answer corrections. Source and visual provenance: `data/imports/README.md`.
+
+Run `npm run generate`, then the regular checks. The additional validator requires 130 topics, 1300 questions, 35 SVGs, 10 questions per test, 3 options in grades 1–3 and 4 in grade 4. Existing Test 1 data is preserved. The legacy grade 4 Life Skills pages retain the existing noindex policy.
