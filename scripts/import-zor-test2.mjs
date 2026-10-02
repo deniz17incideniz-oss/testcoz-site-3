@@ -3,6 +3,7 @@ import vm from 'node:vm';
 import crypto from 'node:crypto';
 import {duplicateReplacements,englishDuplicates} from '../data/imports/zor-test2-corrections.mjs';
 import {finalVisuals} from '../data/imports/zor-test2-visuals.mjs';
+import {repairEditorial} from '../data/imports/zor-test2-editorial.mjs';
 const raw=fs.readFileSync('data/imports/zor-test2-final.md','utf8').replace(/\r/g,'');
 const records=raw.split(/^final_id: /m).slice(1).map(part=>{
  const chunk=part.split(/^---$/m)[0],r={final_id:chunk.split('\n')[0].trim()};
@@ -38,6 +39,7 @@ for(const r of records){
  if(r.visual_required==='YES'){
   const [kind,title,extra={}]=finalVisuals[vi++];q.visual={type:'finalDiagram',title,data:{kind,...extra}};q.image=`images/tests/${slug}-soru-${t.questions.length+1}.svg`;q.imageAlt=title;
  }
+ if(repairEditorial(t,q,t.questions.length)) reasons.push('topic_and_context_repair');
  if(reasons.length)changes.push({id:r.final_id,reasons,before:original,after:structuredClone(q)});
  t.questions.push(q);
 }

@@ -60,6 +60,7 @@ npm ci
 npm run generate
 npm test
 npm run test:browser
+ npm run audit:release-content
 node scripts/audit-question-quality.mjs
 ```
 
@@ -68,6 +69,10 @@ Tarayıcı testlerinden önce `npx playwright install chromium` çalıştırın.
 Sınıf/ders/rehber sayfalarının kaynağı `scripts/generate-seo-pages.mjs`; test landing/SVG kaynağı `scripts/generate-test-assets.mjs`; editoryal notlar `data/topic-meta.mjs` içindedir. Ortak kurallar `scripts/finalize-pages.mjs` ile en son uygulanır. Üretilen HTML'yi elle değiştirerek kalıcı düzenleme yapmayın.
 
 Denetim raporları `outputs/` altında oluşur ve Git'e girmez. Yayın öncesi sınırlar ve manuel kontroller: `docs/QUALITY-REPORT.md`.
+
+`npm run audit:release-content` ayrı bir yayın kapısıdır: Zor Test 2'de çözüm anlatmayan açıklamaları, tekrarlanan içerik kalıplarını ve katalogdaki eksik Test 1 kapsamını raporlar. Başarısızken yapısal testlerin geçmesi yayın onayı değildir. Bu kontrol tüm soruların anlamsal doğruluğunu otomatik olarak kanıtlamaz.
+
+`npm run generate`, Test 2 verisini sınıf/ders bazında `data/runtime/` altında üretir; tarayıcı yalnız seçilen ders paketini yükler. Aynı adım SVG ölçülerini çıkarır; soru, yanlış inceleme ve kişisel test görselleri gerçek en/boy oranını kullanır. Kaynak soru dosyaları ve mevcut Test 1 içerikleri bu işlemle değiştirilmez.
 
 Ek denetimler: `npm run audit:questions` konu/seviye kapsamı ve tekrar adaylarını üretir; `npm run audit:secrets` credential desenlerini denetler. `node scripts/audit-content-similarity.mjs` landing benzerliğini raporlar. `npm run lighthouse` dört yerel mobil sayfayı ayrı sunucuda ölçer; AdSense engellenmez. Lighthouse ile tarayıcı testlerini sırayla çalıştırın. Raporlar akademik veya politika onayı değildir.
 

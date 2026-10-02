@@ -6734,6 +6734,1146 @@
       }
     },
     {
+      "id": "T2-G4-MATE-TARTMA-01",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-01",
+        "question": "Bir mağazada 17 adet defter ve 153 adet deniz bulunmaktadır. Toplam defter ve deniz sayısı kaçtır?",
+        "choices": [
+          "180",
+          "175",
+          "167",
+          "170"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Defter sayısı (17) ile Deniz sayısı (153) toplanır: 17 + 153 = 170 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-01",
+        "question": "Bir kutu boşken 650 g, 8 eş paketle birlikte 3 kg 50 g geliyor. Bir paketin kütlesi kaç gramdır?",
+        "choices": [
+          "300 g",
+          "250 g",
+          "350 g",
+          "400 g"
+        ],
+        "correctAnswer": 0,
+        "explanation": "3 kg 50 g = 3050 g. Paketlerin toplamı 3050 − 650 = 2400 g; 2400 ÷ 8 = 300 g.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-02",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-02",
+        "question": "Bir mağazada 22 adet öğretmen ve 154 adet armut bulunmaktadır. Toplam öğretmen ve armut sayısı kaçtır?",
+        "choices": [
+          "173",
+          "181",
+          "176",
+          "186"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Öğretmen sayısı (22) ile Armut sayısı (154) toplanır: 22 + 154 = 176 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-02",
+        "question": "Bir manav 12 kg elmanın 3 kg 750 gramını sabah, 4 kg 500 gramını öğleden sonra sattı. Kaç gram elma kaldı?",
+        "choices": [
+          "8250 g",
+          "3750 g",
+          "4250 g",
+          "4750 g"
+        ],
+        "correctAnswer": 1,
+        "explanation": "12 kg = 12000 g. Satılan 3750 + 4500 = 8250 g; kalan 12000 − 8250 = 3750 g.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-03",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-03",
+        "question": "Bir mağazada 33 adet kalem ve 297 adet dağ bulunmaktadır. Toplam kalem ve dağ sayısı kaçtır?",
+        "choices": [
+          "327",
+          "335",
+          "330",
+          "340"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kalem sayısı (33) ile Dağ sayısı (297) toplanır: 33 + 297 = 330 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-03",
+        "question": "Beş eş un paketi toplam 7 kg 500 g geliyor. Bu paketlerden üçü kaç gram gelir?",
+        "choices": [
+          "5000 g",
+          "6000 g",
+          "4500 g",
+          "2500 g"
+        ],
+        "correctAnswer": 2,
+        "explanation": "7500 ÷ 5 = 1500 g bir paketin kütlesidir. Üç paket 1500 × 3 = 4500 g gelir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-04",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-04",
+        "question": "Bir mağazada 21 adet armut ve 189 adet su bulunmaktadır. Toplam armut ve su sayısı kaçtır?",
+        "choices": [
+          "210",
+          "215",
+          "207",
+          "220"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Armut sayısı (21) ile Su sayısı (189) toplanır: 21 + 189 = 210 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-04",
+        "question": "Bir yük aracına 25 kg olan 18 çuval ve 40 kg olan 12 çuval kondu. Aracın yük sınırı 1 tondur. En fazla kaç kilogram daha yüklenebilir?",
+        "choices": [
+          "30 kg",
+          "170 kg",
+          "930 kg",
+          "70 kg"
+        ],
+        "correctAnswer": 3,
+        "explanation": "18 × 25 = 450 kg ve 12 × 40 = 480 kg. Yük 930 kg olur; 1000 − 930 = 70 kg yer kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-05",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-05",
+        "question": "Bir mağazada 30 adet ağaç ve 240 adet kalem bulunmaktadır. Toplam ağaç ve kalem sayısı kaçtır?",
+        "choices": [
+          "280",
+          "275",
+          "267",
+          "270"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ağaç sayısı (30) ile Kalem sayısı (240) toplanır: 30 + 240 = 270 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-05",
+        "question": "İki eş kavanozdan biri boşken 180 g geliyor. Her kavanoza 750 g bal konuyor. Dolu iki kavanoz birlikte kaç gramdır?",
+        "choices": [
+          "1860 g",
+          "1680 g",
+          "1500 g",
+          "1110 g"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir dolu kavanoz 180 + 750 = 930 g; ikisi 930 × 2 = 1860 g gelir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-06",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-06",
+        "question": "Bir mağazada 16 adet ağaç ve 32 adet araba bulunmaktadır. Toplam ağaç ve araba sayısı kaçtır?",
+        "choices": [
+          "58",
+          "53",
+          "45",
+          "48"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ağaç sayısı (16) ile Araba sayısı (32) toplanır: 16 + 32 = 48 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-06",
+        "question": "Terazinin bir kefesinde 2 kg ve 500 g ağırlık, diğerinde beş eş kitap vardır. Terazi dengedeyse üç kitap kaç gramdır?",
+        "choices": [
+          "2500 g",
+          "1500 g",
+          "1000 g",
+          "2000 g"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplam 2500 g beş kitaba eşittir. Bir kitap 500 g, üç kitap 1500 g gelir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-07",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-07",
+        "question": "Bir mağazada 23 adet masa ve 184 adet araba bulunmaktadır. Toplam masa ve araba sayısı kaçtır?",
+        "choices": [
+          "204",
+          "212",
+          "207",
+          "217"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Masa sayısı (23) ile Araba sayısı (184) toplanır: 23 + 184 = 207 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-07",
+        "question": "Bir aşçı 4 kg pirinci, her biri 125 g pirinç alan kaplara paylaştırdı. 9 kap kullanıldıktan sonra kaç dolu kap kalır?",
+        "choices": [
+          "27",
+          "19",
+          "23",
+          "32"
+        ],
+        "correctAnswer": 2,
+        "explanation": "4000 ÷ 125 = 32 kap doldurulur. Dokuzu kullanılırsa 32 − 9 = 23 kap kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-08",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-08",
+        "question": "Bir mağazada 20 adet hava ve 100 adet buz bulunmaktadır. Toplam hava ve buz sayısı kaçtır?",
+        "choices": [
+          "120",
+          "125",
+          "117",
+          "130"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Hava sayısı (20) ile Buz sayısı (100) toplanır: 20 + 100 = 120 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-08",
+        "question": "Bir çanta 1 kg 200 g geliyor. İçine 350 gramlık iki kitap ve 180 gramlık bir kalemlik kondu. Çantanın son kütlesi kaç gramdır?",
+        "choices": [
+          "1730 g",
+          "1980 g",
+          "2280 g",
+          "2080 g"
+        ],
+        "correctAnswer": 3,
+        "explanation": "İki kitap 700 g gelir. 1200 + 700 + 180 = 2080 g.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-09",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-09",
+        "question": "Bir mağazada 35 adet deniz ve 315 adet öğrenci bulunmaktadır. Toplam deniz ve öğrenci sayısı kaçtır?",
+        "choices": [
+          "355",
+          "350",
+          "347",
+          "360"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Deniz sayısı (35) ile Öğrenci sayısı (315) toplanır: 35 + 315 = 350 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-09",
+        "question": "Bir çiftçi 3 ton buğdayın 1250 kilogramını sattı. Kalanı 25 kilogramlık çuvallara koydu. Kaç çuval doldurdu?",
+        "choices": [
+          "70",
+          "50",
+          "75",
+          "120"
+        ],
+        "correctAnswer": 0,
+        "explanation": "3 ton = 3000 kg. Kalan 1750 kg; 1750 ÷ 25 = 70 çuvaldır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-TARTMA-10",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-TARTMA-10",
+        "question": "Bir mağazada 47 adet kitap ve 329 adet deniz bulunmaktadır. Toplam kitap ve deniz sayısı kaçtır?",
+        "choices": [
+          "381",
+          "376",
+          "373",
+          "386"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kitap sayısı (47) ile Deniz sayısı (329) toplanır: 47 + 329 = 376 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-TARTMA-10",
+        "question": "Eş iki koliden biri 6 kg 400 g geliyor. Diğerine 850 g eklenip ilkinden 350 g çıkarılıyor. Son durumda koliler arasındaki kütle farkı kaç gramdır?",
+        "choices": [
+          "350 g",
+          "1200 g",
+          "500 g",
+          "850 g"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İkinci koli 7250 g, ilk koli 6050 g olur. Aralarındaki fark 7250 − 6050 = 1200 g.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-01",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-01",
+        "question": "Bir mağazada 29 adet pencere ve 116 adet masa bulunmaktadır. Toplam pencere ve masa sayısı kaçtır?",
+        "choices": [
+          "145",
+          "150",
+          "142",
+          "155"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Pencere sayısı (29) ile Masa sayısı (116) toplanır: 29 + 116 = 145 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-01",
+        "question": "Bir kapta 3 L meyve suyu vardır. Her biri 250 mL alan 7 bardak dolduruluyor. Kapta kaç mililitre meyve suyu kalır?",
+        "choices": [
+          "1250 mL",
+          "1750 mL",
+          "2250 mL",
+          "750 mL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "3 L = 3000 mL. Bardaklara 7 × 250 = 1750 mL konur; kalan 1250 mL olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-02",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-02",
+        "question": "Bir mağazada 29 adet ağaç ve 145 adet öğretmen bulunmaktadır. Toplam ağaç ve öğretmen sayısı kaçtır?",
+        "choices": [
+          "184",
+          "179",
+          "171",
+          "174"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ağaç sayısı (29) ile Öğretmen sayısı (145) toplanır: 29 + 145 = 174 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-02",
+        "question": "Bir depoda 18 L su vardır. Su, 750 mL alan şişelere dolduruluyor. Şişelerin 9 tanesi dağıtılırsa kaç dolu şişe kalır?",
+        "choices": [
+          "12",
+          "15",
+          "24",
+          "18"
+        ],
+        "correctAnswer": 1,
+        "explanation": "18000 ÷ 750 = 24 şişe dolar. 24 − 9 = 15 şişe kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-03",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-03",
+        "question": "Bir mağazada 14 adet ağaç ve 56 adet su bulunmaktadır. Toplam ağaç ve su sayısı kaçtır?",
+        "choices": [
+          "75",
+          "70",
+          "67",
+          "80"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ağaç sayısı (14) ile Su sayısı (56) toplanır: 14 + 56 = 70 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-03",
+        "question": "Bir sürahide 1 L 200 mL süt vardır. Sürahiye 650 mL süt eklenip 900 mL süt kullanılıyor. Kaç mililitre süt kalır?",
+        "choices": [
+          "1050 mL",
+          "1850 mL",
+          "950 mL",
+          "850 mL"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1200 + 650 = 1850 mL süt olur. 1850 − 900 = 950 mL kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-04",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-04",
+        "question": "Bir mağazada 25 adet su ve 125 adet elma bulunmaktadır. Toplam su ve elma sayısı kaçtır?",
+        "choices": [
+          "147",
+          "155",
+          "150",
+          "160"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Su sayısı (25) ile Elma sayısı (125) toplanır: 25 + 125 = 150 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-04",
+        "question": "Bir bidondaki 5 L yağın 2 L 250 mL kısmı kullanıldı. Kalan yağ 250 mL alan şişelere doldurulursa kaç şişe dolar?",
+        "choices": [
+          "9",
+          "10",
+          "20",
+          "11"
+        ],
+        "correctAnswer": 3,
+        "explanation": "5000 − 2250 = 2750 mL kalır. 2750 ÷ 250 = 11 şişe dolar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-05",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-05",
+        "question": "Bir mağazada 24 adet çanta ve 192 adet ateş bulunmaktadır. Toplam çanta ve ateş sayısı kaçtır?",
+        "choices": [
+          "226",
+          "221",
+          "213",
+          "216"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Çanta sayısı (24) ile Ateş sayısı (192) toplanır: 24 + 192 = 216 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-05",
+        "question": "Dört eş şişe toplam 6 L su alıyor. Bu şişelerden üçü tamamen doluyken içlerindeki su toplam kaç mililitredir?",
+        "choices": [
+          "4500 mL",
+          "1500 mL",
+          "3000 mL",
+          "6000 mL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir şişe 6000 ÷ 4 = 1500 mL alır. Üç şişede 4500 mL su vardır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-06",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-06",
+        "question": "Bir mağazada 44 adet elma ve 132 adet deniz bulunmaktadır. Toplam elma ve deniz sayısı kaçtır?",
+        "choices": [
+          "173",
+          "181",
+          "176",
+          "186"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Elma sayısı (44) ile Deniz sayısı (132) toplanır: 44 + 132 = 176 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-06",
+        "question": "Bir akvaryumda 24 L su vardır. Suyun 8 litresi alınıp yerine 11 L 500 mL temiz su konuyor. Akvaryumda kaç mililitre su olur?",
+        "choices": [
+          "16500 mL",
+          "27500 mL",
+          "19500 mL",
+          "35500 mL"
+        ],
+        "correctAnswer": 1,
+        "explanation": "24000 − 8000 + 11500 = 27500 mL su olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-07",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-07",
+        "question": "Bir mağazada 10 adet kedi ve 40 adet öğretmen bulunmaktadır. Toplam kedi ve öğretmen sayısı kaçtır?",
+        "choices": [
+          "55",
+          "50",
+          "47",
+          "60"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kedi sayısı (10) ile Öğretmen sayısı (40) toplanır: 10 + 40 = 50 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-07",
+        "question": "Bir aile her gün 2 L 500 mL içme suyu kullanıyor. 20 litrelik bir bidon, üç gün sonra kaç litre su içerir?",
+        "choices": [
+          "7 L 500 mL",
+          "15 L",
+          "12 L 500 mL",
+          "17 L 500 mL"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Üç günde 3 × 2500 = 7500 mL kullanılır. 20000 − 7500 = 12500 mL, yani 12 L 500 mL kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-08",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-08",
+        "question": "Bir mağazada 44 adet buz ve 88 adet kapı bulunmaktadır. Toplam buz ve kapı sayısı kaçtır?",
+        "choices": [
+          "142",
+          "137",
+          "129",
+          "132"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Buz sayısı (44) ile Kapı sayısı (88) toplanır: 44 + 88 = 132 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-08",
+        "question": "Bir tarif için 300 mL süt gerekir. 2 litrelik sütten bu tarif en çok kaç kez yapılır ve kaç mililitre süt artar?",
+        "choices": [
+          "6 kez, 800 mL",
+          "7 kez, 100 mL",
+          "5 kez, 200 mL",
+          "6 kez, 200 mL"
+        ],
+        "correctAnswer": 3,
+        "explanation": "6 × 300 = 1800 mL süt kullanılır, 200 mL kalır. Yedinci tarif için yeterli süt yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-09",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-09",
+        "question": "Bir mağazada 30 adet deniz ve 270 adet su bulunmaktadır. Toplam deniz ve su sayısı kaçtır?",
+        "choices": [
+          "297",
+          "305",
+          "300",
+          "310"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Deniz sayısı (30) ile Su sayısı (270) toplanır: 30 + 270 = 300 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-09",
+        "question": "İki kaptan birinde 4 L, diğerinde 1 L 600 mL su vardır. İlk kaptan ikinciye kaç mililitre aktarılırsa miktarlar eşit olur?",
+        "choices": [
+          "1200 mL",
+          "2400 mL",
+          "800 mL",
+          "1600 mL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplam 5600 mL suyun yarısı 2800 mL olur. İlk kaptan 4000 − 2800 = 1200 mL aktarılır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-SIVIÖL-10",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-SIVIÖL-10",
+        "question": "Bir mağazada 48 adet ev ve 288 adet su bulunmaktadır. Toplam ev ve su sayısı kaçtır?",
+        "choices": [
+          "336",
+          "341",
+          "333",
+          "346"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ev sayısı (48) ile Su sayısı (288) toplanır: 48 + 288 = 336 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-SIVIÖL-10",
+        "question": "Bir market 12 adet 500 mL ve 8 adet 750 mL meyve suyu sattı. Toplam kaç litre meyve suyu satıldı?",
+        "choices": [
+          "20 L",
+          "12 L",
+          "10 L",
+          "15 L"
+        ],
+        "correctAnswer": 1,
+        "explanation": "12 × 500 = 6000 mL ve 8 × 750 = 6000 mL. Toplam 12000 mL = 12 L.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-01",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-01",
+        "question": "Bir mağazada 21 adet kedi ve 147 adet ateş bulunmaktadır. Toplam kedi ve ateş sayısı kaçtır?",
+        "choices": [
+          "165",
+          "173",
+          "168",
+          "178"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kedi sayısı (21) ile Ateş sayısı (147) toplanır: 21 + 147 = 168 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-01",
+        "question": "Bir kitaplıkta pazartesi 18, salı 24, çarşamba 21 kitap ödünç verildi. Dört günlük toplamın 90 olması için perşembe kaç kitap verilmelidir?",
+        "choices": [
+          "27",
+          "24",
+          "30",
+          "33"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlk üç gün 18 + 24 + 21 = 63 kitap verilmiştir. 90 − 63 = 27 kitap gerekir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-02",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-02",
+        "question": "Bir mağazada 35 adet kedi ve 280 adet ev bulunmaktadır. Toplam kedi ve ev sayısı kaçtır?",
+        "choices": [
+          "325",
+          "320",
+          "312",
+          "315"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kedi sayısı (35) ile Ev sayısı (280) toplanır: 35 + 280 = 315 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-02",
+        "question": "Bir ankette elmayı 16, muzu 12, çileği 20 öğrenci seçti. Her öğrenci bir meyve seçtiğine göre çileği seçmeyen kaç öğrenci vardır?",
+        "choices": [
+          "48",
+          "28",
+          "32",
+          "36"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çileği seçmeyenler elma veya muz seçmiştir: 16 + 12 = 28 öğrenci.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-03",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-03",
+        "question": "Bir mağazada 16 adet güneş ve 64 adet ev bulunmaktadır. Toplam güneş ve ev sayısı kaçtır?",
+        "choices": [
+          "80",
+          "85",
+          "77",
+          "90"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güneş sayısı (16) ile Ev sayısı (64) toplanır: 16 + 64 = 80 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-03",
+        "question": "Bir sütun grafiğinde her basamak 5 kitabı gösteriyor. Ali’nin sütunu 7, Ece’nin sütunu 4 basamak yüksektir. Ali kaç kitap daha fazla okumuştur?",
+        "choices": [
+          "20",
+          "35",
+          "15",
+          "3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yükseklik farkı 7 − 4 = 3 basamaktır. Her basamak 5 kitap olduğundan fark 15 kitaptır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-04",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-04",
+        "question": "Bir mağazada 49 adet su ve 343 adet öğrenci bulunmaktadır. Toplam su ve öğrenci sayısı kaçtır?",
+        "choices": [
+          "397",
+          "392",
+          "389",
+          "402"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Su sayısı (49) ile Öğrenci sayısı (343) toplanır: 49 + 343 = 392 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-04",
+        "question": "Bir okulda satranç kulübünde 28, müzikte 36, resimde 24 öğrenci vardır. Müzikten 4 öğrenci resme geçerse hangi iki kulübün sayıları eşit olur?",
+        "choices": [
+          "Satranç ve müzik",
+          "Müzik ve resim",
+          "Üçü de eşit olur",
+          "Satranç ve resim"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Müzik 32, resim 28 öğrenci olur. Satranç da 28 olduğu için satranç ve resim eşitlenir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-05",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-05",
+        "question": "Bir mağazada 33 adet dağ ve 231 adet su bulunmaktadır. Toplam dağ ve su sayısı kaçtır?",
+        "choices": [
+          "274",
+          "269",
+          "261",
+          "264"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Dağ sayısı (33) ile Su sayısı (231) toplanır: 33 + 231 = 264 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-05",
+        "question": "Bir tabloda üç günün su tüketimleri 120 L, 145 L ve 135 L olarak verilmiştir. İkinci günün tüketimi diğer iki günün toplamından kaç litre azdır?",
+        "choices": [
+          "110 L",
+          "255 L",
+          "25 L",
+          "135 L"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Diğer iki günün toplamı 120 + 135 = 255 L. 255 − 145 = 110 L.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-06",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-06",
+        "question": "Bir mağazada 41 adet kedi ve 164 adet silgi bulunmaktadır. Toplam kedi ve silgi sayısı kaçtır?",
+        "choices": [
+          "215",
+          "210",
+          "202",
+          "205"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kedi sayısı (41) ile Silgi sayısı (164) toplanır: 41 + 164 = 205 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-06",
+        "question": "Bir nesne grafiğinde her yıldız 4 öğrenciyi temsil ediyor. A sınıfında 6, B sınıfında 8 yıldız var. İki sınıfta toplam kaç öğrenci vardır?",
+        "choices": [
+          "64",
+          "56",
+          "14",
+          "48"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplam 6 + 8 = 14 yıldız vardır. 14 × 4 = 56 öğrenci.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-07",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-07",
+        "question": "Bir mağazada 22 adet güneş ve 110 adet kalem bulunmaktadır. Toplam güneş ve kalem sayısı kaçtır?",
+        "choices": [
+          "132",
+          "137",
+          "129",
+          "142"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güneş sayısı (22) ile Kalem sayısı (110) toplanır: 22 + 110 = 132 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-07",
+        "question": "Bir fırın sabah 85, öğlen 70, akşam 95 ekmek sattı. Hangi bilgi doğrudur?",
+        "choices": [
+          "Toplam 240 ekmek satıldı.",
+          "Öğlen ve akşam toplamı 180 oldu.",
+          "Akşam, öğlenden 25 fazla ekmek satıldı.",
+          "Sabah en az ekmek satıldı."
+        ],
+        "correctAnswer": 2,
+        "explanation": "95 − 70 = 25. En az öğlen satılmıştır; toplam 250, öğlen ve akşam toplamı 165 ekmektir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-08",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-08",
+        "question": "Bir mağazada 34 adet araba ve 170 adet kitap bulunmaktadır. Toplam araba ve kitap sayısı kaçtır?",
+        "choices": [
+          "209",
+          "204",
+          "201",
+          "214"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Araba sayısı (34) ile Kitap sayısı (170) toplanır: 34 + 170 = 204 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-08",
+        "question": "Bir çizelgede kırmızı kalem sayısı 32, mavi 24, siyah 18’dir. Kırmızı ve mavi kalemlerin toplamı siyahların sayısından kaç fazladır?",
+        "choices": [
+          "56",
+          "14",
+          "74",
+          "38"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kırmızı ve mavi toplamı 32 + 24 = 56’dır. 56 − 18 = 38 kalem fazladır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-09",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-09",
+        "question": "Bir mağazada 40 adet öğrenci ve 160 adet yıldız bulunmaktadır. Toplam öğrenci ve yıldız sayısı kaçtır?",
+        "choices": [
+          "197",
+          "205",
+          "200",
+          "210"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Öğrenci sayısı (40) ile Yıldız sayısı (160) toplanır: 40 + 160 = 200 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-09",
+        "question": "Bir sınıfta 10 öğrenci yürüyerek, 8 öğrenci servisle, 6 öğrenci otobüsle geliyor. Bu dağılımı gösteren nesne grafiğinde her simge 2 öğrenci ise toplam kaç simge gerekir?",
+        "choices": [
+          "12",
+          "24",
+          "10",
+          "14"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplam 10 + 8 + 6 = 24 öğrenci vardır. Her simge 2 kişiyi gösterdiği için 24 ÷ 2 = 12 simge gerekir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
+      "id": "T2-G4-MATE-VERI-10",
+      "reasons": [
+        "topic_and_context_repair"
+      ],
+      "before": {
+        "id": "T2-G4-MATE-VERI-10",
+        "question": "Bir mağazada 35 adet köpek ve 175 adet pencere bulunmaktadır. Toplam köpek ve pencere sayısı kaçtır?",
+        "choices": [
+          "207",
+          "215",
+          "210",
+          "220"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Köpek sayısı (35) ile Pencere sayısı (175) toplanır: 35 + 175 = 210 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      },
+      "after": {
+        "id": "T2-G4-MATE-VERI-10",
+        "question": "Bir bahçeden birinci hafta 45 kg, ikinci hafta 60 kg, üçüncü hafta 50 kg domates toplandı. İkinci ve üçüncü haftaların toplamı ilk haftadan kaç kilogram fazladır?",
+        "choices": [
+          "155 kg",
+          "65 kg",
+          "110 kg",
+          "15 kg"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İkinci ve üçüncü hafta 60 + 50 = 110 kg toplanmıştır. 110 − 45 = 65 kg fazladır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": null,
+        "sourceType": "NEW_GENERATED"
+      }
+    },
+    {
       "id": "T2-G4-HAYA-BIREYV-01",
       "reasons": [
         "stale_answer_letter"

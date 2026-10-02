@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import {tests} from '../scripts/load-bank.mjs';
 const bank=tests.filter(t=>t.testNumber===2);
-for(const width of [320,768,1440])for(const grade of [1,2,3,4])test(`Zor Test 2 grade ${grade} ${width}px scoring and navigation`,async({page})=>{
+for(const width of [320,375,768,1440])for(const grade of [1,2,3,4])test(`Zor Test 2 grade ${grade} ${width}px scoring and navigation`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width,height:900});
  const t=bank.find(t=>t.classLevel===grade&&t.subject===(grade%2?'matematik':'ingilizce'));
  await page.goto(`/ders/${grade}-sinif-${t.subject}.html`);const link=page.locator(`a[href="../${t.pageUrl}"]`);await expect(link).toContainText('Test 2');await link.click();

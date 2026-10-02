@@ -22,6 +22,16 @@ for(const file of walk('.')) {
  $('.mobile-menu-btn').attr('aria-controls','mobileMenu');$('.breadcrumb').attr('aria-label','Sayfa yolu');
  const crumbs=[];$('.breadcrumb').first().find('a').each((_,e)=>crumbs.push({name:$(e).text().trim(),item:new URL($(e).attr('href'),'https://testcoz.pro/'+key).href}));
  const canonical=$('link[rel="canonical"]').attr('href');
+ if(key==='kisisel-test.html' && !$('script[src="data/runtime/image-dimensions.js"]').length) $('script[src^="js/kisisel-test.js"]').before('<script src="data/runtime/image-dimensions.js"></script>');
+ // Reserve the actual SVG aspect ratio before lazy images are downloaded.
+ $('img[src$=".svg"]').each((_, e) => {
+  const src=$(e).attr('src');
+  if (/^https?:/.test(src)) return;
+  const asset=path.resolve(path.dirname(file), src);
+  if (!fs.existsSync(asset)) return;
+  const dimensions=fs.readFileSync(asset,'utf8').match(/viewBox="0 0 (\d+) (\d+)"/);
+  if (dimensions) $(e).attr('width',dimensions[1]).attr('height',dimensions[2]);
+ });
  const current=$('.breadcrumb').first().find('span').last().text().trim();
  if(crumbs.length&&canonical&&current)crumbs.push({name:current,item:canonical});
  $('script[data-site-schema]').remove();

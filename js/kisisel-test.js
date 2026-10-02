@@ -27,7 +27,7 @@
   function renderQuestion() {
     const question = test.questions[currentIndex];
     const selected = answers[currentIndex];
-    const image = question.image ? '<img class="question-image" src="' + escapeHtml(question.image) + '" alt="' + escapeHtml(question.imageAlt || "Soru görseli") + '" width="720" height="320" decoding="async">' : "";
+    const image = question.image ? '<img class="question-image" src="' + escapeHtml(question.image) + '" alt="' + escapeHtml(question.imageAlt || "Soru görseli") + '" width="720" height="' + (window.TESTCOZ_IMAGE_DIMENSIONS?.[question.image]?.[1] || 320) + '" decoding="async">' : "";
     const choices = question.choices.map(function (choice, index) {
       return '<button type="button" class="option-btn' + (selected === index ? " is-selected" : "") + '" data-choice="' + index + '"><span class="option-letter">' + letters[index] + '</span><span>' + escapeHtml(choice) + '</span></button>';
     }).join("");
