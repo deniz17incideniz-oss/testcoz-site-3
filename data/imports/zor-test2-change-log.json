@@ -32618,6 +32618,1542 @@
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_10",
         "sourceType": "EXISTING_V4B"
       }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-01",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-01",
+        "question": "Duran bir cismi hareket ettiren, hareket eden cismi durduran, cismin hızını, yönünü veya şeklini değiştirebilen etkiye ne denir?",
+        "choices": [
+          "Enerji",
+          "Madde",
+          "Kuvvet"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kuvvet' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-01",
+        "question": "Duran bir cismi hareket ettiren, hareket eden cismi durduran, cismin hızını, yönünü veya şeklini değiştirebilen etkiye ne denir?",
+        "choices": [
+          "Enerji",
+          "Madde",
+          "Kuvvet"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kuvvet' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-02",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-02",
+        "question": "Aşağıdaki görsellerin hangisinde cisme uygulanan kuvvetin türü \"ÇEKME\" kuvvetidir?",
+        "choices": [
+          "Yerdeki sandığı kendine doğru sürüklemek",
+          "Bebek arabasını öne doğru sürmek",
+          "Parmağımızla elektrik düğmesine basmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yerdeki sandığı kendine doğru sürüklemek' olduğu açıkça görülmektedir.",
+        "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2-soru-2.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_2",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Günlük yaşamda hareket",
+          "data": {
+            "kind": "forces"
+          }
+        },
+        "imageAlt": "Günlük yaşamda hareket"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-02",
+        "question": "Aşağıdaki görsellerin hangisinde cisme uygulanan kuvvetin türü \"ÇEKME\" kuvvetidir?",
+        "choices": [
+          "Yerdeki sandığı kendine doğru sürüklemek",
+          "Bebek arabasını öne doğru sürmek",
+          "Parmağımızla elektrik düğmesine basmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yerdeki sandığı kendine doğru sürüklemek' olduğu açıkça görülmektedir.",
+        "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2-soru-2.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_2",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Günlük yaşamda hareket",
+          "data": {
+            "kind": "forces"
+          }
+        },
+        "imageAlt": "Günlük yaşamda hareket"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-03",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-03",
+        "question": "Hareket halindeki bir cisme, hareket ettiği yön ile **aynı yönde** bir kuvvet uygularsak ne olur?",
+        "choices": [
+          "Cisim yön değiştirerek geriye döner.",
+          "Cisim aniden durur.",
+          "Cisim hızlanarak hareketine devam eder."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-03",
+        "question": "Hareket halindeki bir cisme, hareket ettiği yön ile **aynı yönde** bir kuvvet uygularsak ne olur?",
+        "choices": [
+          "Cisim yön değiştirerek geriye döner.",
+          "Cisim aniden durur.",
+          "Cisim hızlanarak hareketine devam eder."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-04",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-04",
+        "question": "Kaleye doğru hızla gelen bir futbol topuna, kaleci elleriyle ters yönde sertçe müdahale etmiştir. Top kalecinin ellerine çarpıp sahaya geri dönmüştür. Bu olayda kuvvetin hangi etkisi görülmektedir?",
+        "choices": [
+          "Sadece hızlandırma",
+          "Kalıcı şekil değiştirme",
+          "Yön değiştirme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-04",
+        "question": "Kaleye doğru hızla gelen bir futbol topuna, kaleci elleriyle ters yönde sertçe müdahale etmiştir. Top kalecinin ellerine çarpıp sahaya geri dönmüştür. Bu olayda kuvvetin hangi etkisi görülmektedir?",
+        "choices": [
+          "Sadece hızlandırma",
+          "Kalıcı şekil değiştirme",
+          "Yön değiştirme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-05",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-05",
+        "question": "Kuvvetin şekil değiştirici etkisi uygulandığı cisme göre geçici veya kalıcı olabilir. Aşağıdaki maddelerden hangisine kuvvet uygulayıp bıraktığımızda eski şekline **geri dönmez**?",
+        "choices": [
+          "Bulaşık süngeri",
+          "Boş içecek tenekesi",
+          "Esnek yay"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-05",
+        "question": "Kuvvetin şekil değiştirici etkisi uygulandığı cisme göre geçici veya kalıcı olabilir. Aşağıdaki maddelerden hangisine kuvvet uygulayıp bıraktığımızda eski şekline **geri dönmez**?",
+        "choices": [
+          "Bulaşık süngeri",
+          "Boş içecek tenekesi",
+          "Esnek yay"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-06",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-06",
+        "question": "Sürtünme kuvveti hareket eden cisimleri yavaşlatan bir kuvvettir. Pürüzlü yüzeylerde sürtünme daha fazladır.\nBuna göre oyuncak bir araba aşağıdaki zeminlerden hangisinde itildiğinde en **kısa** mesafede durur?",
+        "choices": [
+          "Pürüzsüz mermer zemin",
+          "Kalın ve tüylü halı zemin",
+          "Buzlu cam zemin"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalın ve tüylü halı zemin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-06",
+        "question": "Sürtünme kuvveti hareket eden cisimleri yavaşlatan bir kuvvettir. Pürüzlü yüzeylerde sürtünme daha fazladır.\nBuna göre oyuncak bir araba aşağıdaki zeminlerden hangisinde itildiğinde en **kısa** mesafede durur?",
+        "choices": [
+          "Pürüzsüz mermer zemin",
+          "Kalın ve tüylü halı zemin",
+          "Buzlu cam zemin"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalın ve tüylü halı zemin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-07",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-07",
+        "question": "- Havaya atılan topun bir süre sonra yere düşmesi.\n- Mıknatısın demir çivileri çekmesi.\nYukarıdaki iki olayda da ortak olan özellik nedir?",
+        "choices": [
+          "Her ikisi de sadece rüzgarın itme kuvvetiyle gerçekleşir.",
+          "Her ikisinde de \"temas gerektirmeyen\" (uzaktan etkili) kuvvetler vardır.",
+          "İkisi de şekil değiştirici kuvvete örnektir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yer çekimi ve manyetik kuvvet temas gerektirmez.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-07",
+        "question": "- Havaya atılan topun bir süre sonra yere düşmesi.\n- Mıknatısın demir çivileri çekmesi.\nYukarıdaki iki olayda da ortak olan özellik nedir?",
+        "choices": [
+          "Her ikisi de sadece rüzgarın itme kuvvetiyle gerçekleşir.",
+          "Her ikisinde de \"temas gerektirmeyen\" (uzaktan etkili) kuvvetler vardır.",
+          "İkisi de şekil değiştirici kuvvete örnektir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yer çekimi ve manyetik kuvvet temas gerektirmez.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-08",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-08",
+        "question": "Frenine basılan araba, istasyona yaklaşan tren ve piste inen uçağın ortak hareket özelliği aşağıdakilerden hangisidir?",
+        "choices": [
+          "Yavaşlama hareketi yapmaları",
+          "Hızlanma hareketi yapmaları",
+          "Yön değiştirme hareketi yapmaları"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Frenine basılan araba, istasyona yaklaşan tren ve piste inen uçağın ortak hareket özelliği aşağıdakilerden 'Yavaşlama hareketi yapmaları' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-08",
+        "question": "Frenine basılan araba, istasyona yaklaşan tren ve piste inen uçağın ortak hareket özelliği aşağıdakilerden hangisidir?",
+        "choices": [
+          "Yavaşlama hareketi yapmaları",
+          "Hızlanma hareketi yapmaları",
+          "Yön değiştirme hareketi yapmaları"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Frenine basılan araba, istasyona yaklaşan tren ve piste inen uçağın ortak hareket özelliği aşağıdakilerden 'Yavaşlama hareketi yapmaları' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-09",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-09",
+        "question": "Ali, odasındaki dolabın kapağını açmak ve ardından dolaptaki çekmeceyi kapatmak istiyor. Ali'nin uyguladığı kuvvetler sırasıyla nelerdir?",
+        "choices": [
+          "Çekme - Çekme",
+          "İtme - İtme",
+          "Çekme - İtme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kapak açmak çekme, çekmece kapatmak itmedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-09",
+        "question": "Ali, odasındaki dolabın kapağını açmak ve ardından dolaptaki çekmeceyi kapatmak istiyor. Ali'nin uyguladığı kuvvetler sırasıyla nelerdir?",
+        "choices": [
+          "Çekme - Çekme",
+          "İtme - İtme",
+          "Çekme - İtme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kapak açmak çekme, çekmece kapatmak itmedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -CANLIL-10",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "canlilar-dunyasina-yolculuk",
+      "toTopic": "hareketi-kesfediyorum",
+      "before": {
+        "id": "T2-G3-FEN -CANLIL-10",
+        "question": "Mıknatısların zıt kutupları birbirini çekerken, aynı kutupları birbirini iter. İki çubuk mıknatıs birbirine yaklaştırıldığında aralarında bir \"İTME\" kuvveti oluşmuştur.\nBuna göre mıknatısların birbirine bakan uçları aşağıdakilerden hangisi olabilir?",
+        "choices": [
+          "S kutbu ile S kutbu",
+          "N kutbu ile S kutbu",
+          "S kutbu ile N kutbu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'S kutbu ile S kutbu' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -CANLIL-10",
+        "question": "Mıknatısların zıt kutupları birbirini çekerken, aynı kutupları birbirini iter. İki çubuk mıknatıs birbirine yaklaştırıldığında aralarında bir \"İTME\" kuvveti oluşmuştur.\nBuna göre mıknatısların birbirine bakan uçları aşağıdakilerden hangisi olabilir?",
+        "choices": [
+          "S kutbu ile S kutbu",
+          "N kutbu ile S kutbu",
+          "S kutbu ile N kutbu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'S kutbu ile S kutbu' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu2_kuvvet_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-01",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-01",
+        "question": "Maddeleri nitelerken beş duyumuzu kullanırız. Ancak bazı maddelerin tadına bakmak veya onları koklamak tehlikeli olabilir. Aşağıdakilerden hangisinin kokusuna veya tadına bakmak **güvenlidir**?",
+        "choices": [
+          "Temizlik malzemeleri (Çamaşır suyu vb.)",
+          "Ev yapımı taze sıkılmış meyve suyu",
+          "Laboratuvardaki ne olduğu bilinmeyen sıvılar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ev yapımı taze sıkılmış meyve suyu' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-01",
+        "question": "Maddeleri nitelerken beş duyumuzu kullanırız. Ancak bazı maddelerin tadına bakmak veya onları koklamak tehlikeli olabilir. Aşağıdakilerden hangisinin kokusuna veya tadına bakmak **güvenlidir**?",
+        "choices": [
+          "Temizlik malzemeleri (Çamaşır suyu vb.)",
+          "Ev yapımı taze sıkılmış meyve suyu",
+          "Laboratuvardaki ne olduğu bilinmeyen sıvılar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ev yapımı taze sıkılmış meyve suyu' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-02",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-02",
+        "question": "Aşağıdaki maddelerden hangisi \"Kırılgan, saydam (ışığı geçiren) ve sert\" özelliklerine sahiptir?",
+        "choices": [
+          "Pamuklu yastık",
+          "Tahta masa",
+          "Cam bardak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cam bardak' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-02",
+        "question": "Aşağıdaki maddelerden hangisi \"Kırılgan, saydam (ışığı geçiren) ve sert\" özelliklerine sahiptir?",
+        "choices": [
+          "Pamuklu yastık",
+          "Tahta masa",
+          "Cam bardak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cam bardak' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-03",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-03",
+        "question": "Maddelerin halleri Katı, Sıvı ve Gaz olarak üçe ayrılır. Buna göre aşağıdakilerden hangisi belirli bir şekli olmayan, konulduğu kabın şeklini alan ve akışkan olan maddelere (Sıvılara) örnektir?",
+        "choices": [
+          "Zeytinyağı",
+          "Taş",
+          "Uçan balonun içindeki hava"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Zeytinyağı' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-03",
+        "question": "Maddelerin halleri Katı, Sıvı ve Gaz olarak üçe ayrılır. Buna göre aşağıdakilerden hangisi belirli bir şekli olmayan, konulduğu kabın şeklini alan ve akışkan olan maddelere (Sıvılara) örnektir?",
+        "choices": [
+          "Zeytinyağı",
+          "Taş",
+          "Uçan balonun içindeki hava"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Zeytinyağı' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-04",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-04",
+        "question": "Gaz halindeki maddelerle ilgili verilen bilgilerden hangisi **yanlıştır**?",
+        "choices": [
+          "Belirli bir şekilleri yoktur, bulundukları ortama tamamen yayılırlar.",
+          "Akışkan değillerdir, sadece kapalı kutularda durabilirler.",
+          "Elle tutulup gözle görülemeyen çeşitleri vardır (örneğin soluduğumuz hava)."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gazlar da akışkan ve yayılıcıdır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-04",
+        "question": "Gaz halindeki maddelerle ilgili verilen bilgilerden hangisi **yanlıştır**?",
+        "choices": [
+          "Belirli bir şekilleri yoktur, bulundukları ortama tamamen yayılırlar.",
+          "Akışkan değillerdir, sadece kapalı kutularda durabilirler.",
+          "Elle tutulup gözle görülemeyen çeşitleri vardır (örneğin soluduğumuz hava)."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gazlar da akışkan ve yayılıcıdır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-05",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-05",
+        "question": "Aşağıdaki maddelerden hangisi suyu çekme (emme) özelliğine sahip **değildir**?",
+        "choices": [
+          "Plastik yağmurluk",
+          "Bulaşık süngeri",
+          "Pamuklu banyo havlusu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Plastik yağmurluk' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-05",
+        "question": "Aşağıdaki maddelerden hangisi suyu çekme (emme) özelliğine sahip **değildir**?",
+        "choices": [
+          "Plastik yağmurluk",
+          "Bulaşık süngeri",
+          "Pamuklu banyo havlusu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Plastik yağmurluk' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-06",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-06",
+        "question": "Doğada bulunan su; katı, sıvı ve gaz olmak üzere her üç halde de bulunabilir.\nSuyun **katı** haline ve **gaz** haline sırasıyla ne ad verilir?",
+        "choices": [
+          "Su Buharı - Dolu",
+          "Yağmur - Buz",
+          "Kar/Buz - Su Buharı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kar/Buz - Su Buharı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-06",
+        "question": "Doğada bulunan su; katı, sıvı ve gaz olmak üzere her üç halde de bulunabilir.\nSuyun **katı** haline ve **gaz** haline sırasıyla ne ad verilir?",
+        "choices": [
+          "Su Buharı - Dolu",
+          "Yağmur - Buz",
+          "Kar/Buz - Su Buharı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kar/Buz - Su Buharı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-07",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-07",
+        "question": "- Demir çivi (1)\n- Plastik ördek (2)\n- Kağıt gemi (3)\n- Taş (4)\nYukarıdaki maddeler su dolu bir kovaya atıldığında hangileri **kesinlikle dibe batar**?",
+        "choices": [
+          "1 ve 4",
+          "2 ve 3",
+          "1, 3 ve 4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '1 ve 4' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-07",
+        "question": "- Demir çivi (1)\n- Plastik ördek (2)\n- Kağıt gemi (3)\n- Taş (4)\nYukarıdaki maddeler su dolu bir kovaya atıldığında hangileri **kesinlikle dibe batar**?",
+        "choices": [
+          "1 ve 4",
+          "2 ve 3",
+          "1, 3 ve 4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '1 ve 4' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-08",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-08",
+        "question": "Mıknatıs, bazı maddeleri çekerken bazılarını çekmez. Aşağıdaki maddelerden hangisi mıknatıs tarafından **çekilir**?",
+        "choices": [
+          "Cam bilye",
+          "Tahta kurşun kalem",
+          "Demir toplu iğne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Demir toplu iğne' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-08",
+        "question": "Mıknatıs, bazı maddeleri çekerken bazılarını çekmez. Aşağıdaki maddelerden hangisi mıknatıs tarafından **çekilir**?",
+        "choices": [
+          "Cam bilye",
+          "Tahta kurşun kalem",
+          "Demir toplu iğne"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Demir toplu iğne' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-09",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-09",
+        "question": "Pürüzlü yüzeylerde girinti ve çıkıntı çokken, pürüzsüz yüzeyler kaygandır.\nBuna göre aşağıdakilerden hangisi **pürüzsüz** bir maddedir?",
+        "choices": [
+          "Ağaç kabuğu",
+          "Ayna yüzeyi",
+          "Zımpara kağıdı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayna yüzeyi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-09",
+        "question": "Pürüzlü yüzeylerde girinti ve çıkıntı çokken, pürüzsüz yüzeyler kaygandır.\nBuna göre aşağıdakilerden hangisi **pürüzsüz** bir maddedir?",
+        "choices": [
+          "Ağaç kabuğu",
+          "Ayna yüzeyi",
+          "Zımpara kağıdı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayna yüzeyi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -YERBIL-10",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-bilimciler-is-basinda",
+      "toTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "before": {
+        "id": "T2-G3-FEN -YERBIL-10",
+        "question": "Maddeler ısı aldıklarında veya ısı verdiklerinde hal değiştirebilirler. Dondurmanın güneş altında bir süre beklediğinde sıvı hale geçmesi olayına ne denir?",
+        "choices": [
+          "Donma",
+          "Buharlaşma",
+          "Erime"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Erime' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -YERBIL-10",
+        "question": "Maddeler ısı aldıklarında veya ısı verdiklerinde hal değiştirebilirler. Dondurmanın güneş altında bir süre beklediğinde sıvı hale geçmesi olayına ne denir?",
+        "choices": [
+          "Donma",
+          "Buharlaşma",
+          "Erime"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Erime' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu3_madde_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-01",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-01",
+        "question": "Karanlık ortamlarda cisimleri göremeyiz, görmek için ışığa ihtiyacımız vardır. Aşağıdakilerden hangisi **doğal** bir ışık kaynağıdır?",
+        "choices": [
+          "Sokak lambası",
+          "El feneri",
+          "Güneş"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneş' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-01",
+        "question": "Yağmurdan sonra eğimli bir yoldaki toprağın dereye taşındığı görülüyor. Bu olayda toprağı taşıyan nedir?",
+        "choices": [
+          "Akan su",
+          "Güneş ışığı",
+          "Yolun rengi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yağmur suyu eğim boyunca akarken gevşek toprağı da sürükler.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-02",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-02",
+        "question": "Ay, geceleri gökyüzünü aydınlatsa da aslında bir ışık kaynağı değildir. Neden Ay bir ışık kaynağı olarak sayılmaz?",
+        "choices": [
+          "Çünkü Ay aslında sadece beyaz renkli bir buluttur.",
+          "Çünkü ışığı çok zayıftır ve dünyayı ısıtamaz.",
+          "Çünkü kendi ışığını üretemez, sadece Güneş'ten aldığı ışığı ayna gibi yansıtır."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Çünkü kendi ışığını üretemez, sadece Güneş'ten aldığı ışığı ayna gibi yansıtır.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-02",
+        "question": "Bir öğrenci aynı büyüklükteki iki taşı inceliyor: biri pürüzlü, diğeri düzdür. Hangi gözlem taşların bir özelliğini karşılaştırır?",
+        "choices": [
+          "İkisinin aynı yerde bulunması",
+          "Yüzeylerinin farklı olması",
+          "İkisinin de yarın yağmur yağdırması"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pürüzlü ve düz oluşları dokunma veya görmeyle gözlenebilen yüzey özellikleridir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-03",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-03",
+        "question": "İnsanlar tarafından üretilen ışık kaynaklarına \"yapay ışık kaynağı\" denir. Hangi seçenekte **sadece** yapay ışık kaynakları bir arada verilmiştir?",
+        "choices": [
+          "Mum - Ampul - Trafik lambası",
+          "Güneş - Şimşek",
+          "Yıldızlar - Ateş böceği"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Mum - Ampul - Trafik lambası' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-03",
+        "question": "Bir akarsu kenarında büyük taşların yanında küçük, yuvarlak çakıllar görülüyor. Hangisi çakılların yuvarlaklaşmasını açıklayabilir?",
+        "choices": [
+          "Her gün boyanmaları",
+          "Güneşin onları bir anda eritmesi",
+          "Suyla taşınırken başka taşlara sürtünmeleri"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Suyla sürüklenen parçalar çarpışıp sürtünerek köşelerini kaybedebilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-04",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-04",
+        "question": "Sesin bir kaynaktan çıkıp kulağımıza gelebilmesi için ses dalgalarının yayılması gerekir. Bir ambulans bize yaklaşırken sesi nasıl değişir?",
+        "choices": [
+          "Sesin şiddeti hiç değişmez.",
+          "Sesin şiddeti azalır (ses giderek kısılır).",
+          "Sesin şiddeti artar (sesi daha yüksek duyarız)."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sesin şiddeti artar (sesi daha yüksek duyarız).' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-04",
+        "question": "Bir öğrenci toprak örneğinde küçük taşlar ve kurumuş yaprak parçaları görüyor. Bu gözlemden hangisi çıkarılabilir?",
+        "choices": [
+          "Toprak farklı parçalar içerebilir.",
+          "Toprak yalnız sudan oluşur.",
+          "Bütün topraklar aynı renktedir."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Örnekte taş ve yaprak parçaları birlikte görülmüştür; bu, toprağın birden çok tür parça içerebildiğini gösterir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-05",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-05",
+        "question": "Aşağıdaki seslerden hangisi yapay (insan eliyle üretilmiş) bir ses kaynağına aittir?",
+        "choices": [
+          "Kemanın çıkardığı müzik sesi",
+          "Rüzgarın uğultusu",
+          "Köpeğin havlaması"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kemanın çıkardığı müzik sesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-05",
+        "question": "Yağmurdan sonra bir çukurda biriken su birkaç güneşli günün ardından azalıyor. Suyun azalmasına hangi olay katkıda bulunur?",
+        "choices": [
+          "Gölgenin uzaması",
+          "Buharlaşma",
+          "Taşların çoğalması"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Güneşin ısıttığı suyun bir kısmı buharlaşarak havaya karışır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-06",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-06",
+        "question": "Görme organımız göz olduğu gibi, işitme organımız da kulaktır. Hem ışık hem de ses için aşağıda söylenen ortak özellik hangisidir?",
+        "choices": [
+          "Her ikisi de sadece gündüzleri hissedilebilir.",
+          "İkisi de insan yapımı icatlardır.",
+          "Her ikisinin de kaynağına çok yakın olmak, göz veya kulak sağlığımıza zarar verebilir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Görme organımız göz olduğu gibi, işitme organımız da kulaktır. Hem ışık hem de ses için aşağıda söylenen ortak özellik 'Her ikisinin de kaynağına çok yakın olmak, göz veya kulak sağlığımıza zarar verebilir.' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-06",
+        "question": "İki bardaktan birinde kum, diğerinde kil vardır. İkisine aynı miktarda su dökülürse suyun geçişini karşılaştırmak için ne ölçülmelidir?",
+        "choices": [
+          "Bardakların rengi",
+          "Öğrencilerin boyu",
+          "Alttan çıkan su miktarı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aynı su verildiğinde alttan geçen su miktarı, iki malzemenin suyu geçirme farkını gösterir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-07",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-07",
+        "question": "Ses kaynaklarından çıkan seslerin şiddetini artırmak, sesi daha uzağa duyurmak için aşağıdaki teknolojik aletlerden hangisi kullanılır?",
+        "choices": [
+          "El Feneri",
+          "Megafon",
+          "Termometre"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Megafon' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-07",
+        "question": "Bir tepede bitki örtüsü kaldırıldıktan sonra yağmurla daha çok toprak sürükleniyor. Bitkilerin hangi bölümü toprağı tutmaya yardım eder?",
+        "choices": [
+          "Kökleri",
+          "Çiçeklerinin rengi",
+          "Yapraklarının gölgesi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kökler toprağın içinde yayılır ve toprağın yerinde kalmasına yardım eder.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-08",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-08",
+        "question": "Şiddetli seslerin (gürültünün) olduğu ortamlarda (örneğin havaalanlarında veya inşaatlarda) çalışan işçiler kulak sağlıklarını korumak için ne yapmalıdır?",
+        "choices": [
+          "Müzik dinlemelidirler.",
+          "Koruyucu kulaklık (kulak tıkacı) takmalıdırlar.",
+          "Sadece geceleri çalışmalıdırlar."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Koruyucu kulaklık (kulak tıkacı) takmalıdırlar.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-08",
+        "question": "Bir yer bilimci aynı kayacı büyüteçle ve çıplak gözle inceliyor. Büyüteçle neyi daha kolay fark edebilir?",
+        "choices": [
+          "Kayanın sesini",
+          "Küçük tanecikleri",
+          "Kayanın gelecekteki tam ağırlığını"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Büyüteç küçük ayrıntıları daha büyük gösterir; kayacın tanecikleri daha belirgin görülebilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-09",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-09",
+        "question": "Deniz fenerleri gemilere yön göstermek için ışık yayarlar. Deniz fenerinin ışığının çok uzaklardan bile görülebilmesinin bilimsel sebebi nedir?",
+        "choices": [
+          "Işığın her yöne doğru çok güçlü bir şekilde yayılması.",
+          "Gemilerin ışığa doğru çekilmesi.",
+          "Deniz fenerinin doğal bir ışık kaynağı olması."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Deniz fenerleri gemilere yön göstermek için ışık yayarlar. Deniz fenerinin ışığının çok uzaklardan bile görülebilmesinin bilimsel sebebi 'Işığın her yöne doğru çok güçlü bir şekilde yayılması.' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-09",
+        "question": "Bir derede taşınan kum, suyun yavaşladığı geniş bir bölümde dibe çöküyor. Bu kum için hangi ifade uygundur?",
+        "choices": [
+          "Kum bir anda suya dönüşmüştür.",
+          "Kum gökyüzüne çıkmıştır.",
+          "Su yavaşlayınca birikmiştir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Akıntı zayıfladığında taşıdığı kumun bir kısmı dibe çöküp birikir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -MADDEY-10",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "maddeyi-taniyalim-karistirip-ayiralim",
+      "toTopic": "yer-bilimciler-is-basinda",
+      "before": {
+        "id": "T2-G3-FEN -MADDEY-10",
+        "question": "Bir mağaranın içinde yüksek sesle bağırdığımızda sesimizin duvarlara çarpıp bize geri dönmesi olayına ne ad verilir?",
+        "choices": [
+          "Şimşek",
+          "Yankı",
+          "Gürültü"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yankı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -MADDEY-10",
+        "question": "Bir öğrenci dağ, dere ve yolun bulunduğu bir çizim yapıyor. Hangisi insan eliyle yapılmış bir unsur olarak gösterilir?",
+        "choices": [
+          "Yol",
+          "Dağ",
+          "Dere"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dağ ve dere doğal oluşumlardır; yol insanlar tarafından yapılır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-01",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-01",
+        "question": "Bir varlığın canlı olup olmadığını anlamak için belirli özelliklere bakılır. Aşağıdakilerden hangisi tüm canlıların (bitkiler, hayvanlar, insanlar) ortak özelliklerinden biri **değildir**?",
+        "choices": [
+          "Büyüme ve gelişme",
+          "Beslenme ve solunum yapma",
+          "Yer değiştirerek (koşarak) hareket etme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bitkiler koşamaz veya yürüyemezler, yönelme hareketi yaparlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-01",
+        "question": "Bir varlığın canlı olup olmadığını anlamak için belirli özelliklere bakılır. Aşağıdakilerden hangisi tüm canlıların (bitkiler, hayvanlar, insanlar) ortak özelliklerinden biri **değildir**?",
+        "choices": [
+          "Büyüme ve gelişme",
+          "Beslenme ve solunum yapma",
+          "Yer değiştirerek (koşarak) hareket etme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bitkiler koşamaz veya yürüyemezler, yönelme hareketi yaparlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-02",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-02",
+        "question": "Bitkilerin yaşamlarını sürdürebilmeleri ve büyüyebilmeleri için aşağıdakilerden hangisine ihtiyaçları **yoktur**?",
+        "choices": [
+          "Güneş ışığı ve su",
+          "Karanlık ve havasız bir ortam",
+          "Toprak (Mineraller)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karanlık ve havasız bir ortam' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-02",
+        "question": "Bitkilerin yaşamlarını sürdürebilmeleri ve büyüyebilmeleri için aşağıdakilerden hangisine ihtiyaçları **yoktur**?",
+        "choices": [
+          "Güneş ışığı ve su",
+          "Karanlık ve havasız bir ortam",
+          "Toprak (Mineraller)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karanlık ve havasız bir ortam' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-03",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-03",
+        "question": "Doğal çevre, insan eli değmeden oluşmuş dağ, orman ve deniz gibi yerlerdir. Yapay çevre ise insanların yaptığı parklar, yollar ve binalardır.\nAşağıdakilerden hangisi **doğal çevreye** örnektir?",
+        "choices": [
+          "Okyanuslar ve denizler",
+          "Hayvanat Bahçesi",
+          "Evimizdeki büyük akvaryum"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Okyanuslar ve denizler' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-03",
+        "question": "Doğal çevre, insan eli değmeden oluşmuş dağ, orman ve deniz gibi yerlerdir. Yapay çevre ise insanların yaptığı parklar, yollar ve binalardır.\nAşağıdakilerden hangisi **doğal çevreye** örnektir?",
+        "choices": [
+          "Okyanuslar ve denizler",
+          "Hayvanat Bahçesi",
+          "Evimizdeki büyük akvaryum"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Okyanuslar ve denizler' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-04",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-04",
+        "question": "Ağaç dikmek, ormanları korumak ve doğaya çöp atmamak hangi amaca hizmet eder?",
+        "choices": [
+          "Sadece yapay çevre oluşturmaya",
+          "Çevreyi güzelleştirmeye ve doğal yaşamı (canlıları) korumaya",
+          "Hayvanların evsiz kalmasına"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çevreyi güzelleştirmeye ve doğal yaşamı (canlıları) korumaya' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-04",
+        "question": "Ağaç dikmek, ormanları korumak ve doğaya çöp atmamak hangi amaca hizmet eder?",
+        "choices": [
+          "Sadece yapay çevre oluşturmaya",
+          "Çevreyi güzelleştirmeye ve doğal yaşamı (canlıları) korumaya",
+          "Hayvanların evsiz kalmasına"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çevreyi güzelleştirmeye ve doğal yaşamı (canlıları) korumaya' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-05",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-05",
+        "question": "Aşağıdaki hayvanlardan hangisinin doğal yaşam alanı (doğal çevresi) **kutup bölgeleridir** (soğuk ve buzlu alanlar)?",
+        "choices": [
+          "Aslan",
+          "Deve",
+          "Kutup Ayısı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kutup Ayısı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-05",
+        "question": "Aşağıdaki hayvanlardan hangisinin doğal yaşam alanı (doğal çevresi) **kutup bölgeleridir** (soğuk ve buzlu alanlar)?",
+        "choices": [
+          "Aslan",
+          "Deve",
+          "Kutup Ayısı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kutup Ayısı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-06",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-06",
+        "question": "Çevre kirliliğini önlemek için yapmamız gereken en önemli bireysel davranış aşağıdakilerden hangisidir?",
+        "choices": [
+          "Atıklarımızı plastik, kağıt, cam diye ayırıp geri dönüşüm kutularına atmak.",
+          "Çöplerimizi poşetle bağlayıp denize veya boş arsalara atmak.",
+          "Fabrika bacalarına filtre takmamak."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çevre kirliliğini önlemek için yapmamız gereken en önemli bireysel davranış aşağıdakilerden 'Atıklarımızı plastik, kağıt, cam diye ayırıp geri dönüşüm kutularına atmak.' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-06",
+        "question": "Çevre kirliliğini önlemek için yapmamız gereken en önemli bireysel davranış aşağıdakilerden hangisidir?",
+        "choices": [
+          "Atıklarımızı plastik, kağıt, cam diye ayırıp geri dönüşüm kutularına atmak.",
+          "Çöplerimizi poşetle bağlayıp denize veya boş arsalara atmak.",
+          "Fabrika bacalarına filtre takmamak."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çevre kirliliğini önlemek için yapmamız gereken en önemli bireysel davranış aşağıdakilerden 'Atıklarımızı plastik, kağıt, cam diye ayırıp geri dönüşüm kutularına atmak.' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-07",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-07",
+        "question": "Bitkilerin üremesini (çoğalmasını) sağlayan yapı taşı aşağıdakilerden hangisidir?",
+        "choices": [
+          "Tohum",
+          "Kök",
+          "Yaprak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bitkilerin üremesini (çoğalmasını) sağlayan yapı taşı aşağıdakilerden 'Tohum' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-07",
+        "question": "Bitkilerin üremesini (çoğalmasını) sağlayan yapı taşı aşağıdakilerden hangisidir?",
+        "choices": [
+          "Tohum",
+          "Kök",
+          "Yaprak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bitkilerin üremesini (çoğalmasını) sağlayan yapı taşı aşağıdakilerden 'Tohum' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-08",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-08",
+        "question": "Bir tohumun çimlenebilmesi (filiz verebilmesi) için hangi şartların sağlanması gerekir?",
+        "choices": [
+          "Sadece karanlık bir ortam",
+          "Sadece bol miktarda rüzgar",
+          "Uygun sıcaklık, nem (su) ve hava"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Uygun sıcaklık, nem (su) ve hava' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-08",
+        "question": "Bir tohumun çimlenebilmesi (filiz verebilmesi) için hangi şartların sağlanması gerekir?",
+        "choices": [
+          "Sadece karanlık bir ortam",
+          "Sadece bol miktarda rüzgar",
+          "Uygun sıcaklık, nem (su) ve hava"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Uygun sıcaklık, nem (su) ve hava' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-09",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-09",
+        "question": "Nesli tükenme tehlikesi altında olan canlıları korumak için ne yapılmalıdır?",
+        "choices": [
+          "Doğal yaşam alanları tahrip edilip yerlerine binalar yapılmalıdır.",
+          "Doğal parklar kurularak koruma altına alınmalı ve avlanmaları yasaklanmalıdır.",
+          "Onları avlamak serbest bırakılmalıdır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doğal parklar kurularak koruma altına alınmalı ve avlanmaları yasaklanmalıdır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-09",
+        "question": "Nesli tükenme tehlikesi altında olan canlıları korumak için ne yapılmalıdır?",
+        "choices": [
+          "Doğal yaşam alanları tahrip edilip yerlerine binalar yapılmalıdır.",
+          "Doğal parklar kurularak koruma altına alınmalı ve avlanmaları yasaklanmalıdır.",
+          "Onları avlamak serbest bırakılmalıdır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doğal parklar kurularak koruma altına alınmalı ve avlanmaları yasaklanmalıdır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G3-FEN -HAREKE-10",
+      "reasons": [
+        "verified_grade_three_science_topic_reassignment"
+      ],
+      "fromTopic": "hareketi-kesfediyorum",
+      "toTopic": "canlilar-dunyasina-yolculuk",
+      "before": {
+        "id": "T2-G3-FEN -HAREKE-10",
+        "question": "Bir canlının dışarıdan gelen bir etkiye cevap vermesine \"tepki\" denir. Aşağıdakilerden hangisi bir bitkinin uyarılara verdiği tepkiye örnektir?",
+        "choices": [
+          "Rüzgarın yaprakları dökmesi",
+          "Ağacın dallarının kesilmesi",
+          "Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G3-FEN -HAREKE-10",
+        "question": "Bir canlının dışarıdan gelen bir etkiye cevap vermesine \"tepki\" denir. Aşağıdakilerden hangisi bir bitkinin uyarılara verdiği tepkiye örnektir?",
+        "choices": [
+          "Rüzgarın yaprakları dökmesi",
+          "Ağacın dallarının kesilmesi",
+          "Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_10",
+        "sourceType": "EXISTING_V4B"
+      }
     }
   ]
 }

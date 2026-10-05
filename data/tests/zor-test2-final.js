@@ -12295,12 +12295,12 @@
     "classLevel": 3,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "canlilar-dunyasina-yolculuk",
-    "topicName": "Canlılar Dünyasına Yolculuk",
+    "topic": "hareketi-kesfediyorum",
+    "topicName": "Hareketi Keşfediyorum",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2",
-    "pageUrl": "tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2.html",
+    "slug": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2",
+    "pageUrl": "tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G3-FEN -CANLIL-01",
@@ -12327,7 +12327,7 @@
         ],
         "correctAnswer": 0,
         "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yerdeki sandığı kendine doğru sürüklemek' olduğu açıkça görülmektedir.",
-        "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2-soru-2.svg",
+        "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_2",
         "sourceType": "EXISTING_V4B",
@@ -12466,12 +12466,12 @@
     "classLevel": 3,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "yer-bilimciler-is-basinda",
-    "topicName": "Yer Bilimciler İş Başında",
+    "topic": "maddeyi-taniyalim-karistirip-ayiralim",
+    "topicName": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-2",
-    "pageUrl": "tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-2.html",
+    "slug": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-2",
+    "pageUrl": "tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G3-FEN -YERBIL-01",
@@ -12629,23 +12629,23 @@
     "classLevel": 3,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "maddeyi-taniyalim-karistirip-ayiralim",
-    "topicName": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
+    "topic": "yer-bilimciler-is-basinda",
+    "topicName": "Yer Bilimciler İş Başında",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-2",
-    "pageUrl": "tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-2.html",
+    "slug": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-2",
+    "pageUrl": "tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G3-FEN -MADDEY-01",
-        "question": "Karanlık ortamlarda cisimleri göremeyiz, görmek için ışığa ihtiyacımız vardır. Aşağıdakilerden hangisi **doğal** bir ışık kaynağıdır?",
+        "question": "Yağmurdan sonra eğimli bir yoldaki toprağın dereye taşındığı görülüyor. Bu olayda toprağı taşıyan nedir?",
         "choices": [
-          "Sokak lambası",
-          "El feneri",
-          "Güneş"
+          "Akan su",
+          "Güneş ışığı",
+          "Yolun rengi"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneş' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Yağmur suyu eğim boyunca akarken gevşek toprağı da sürükler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_1",
@@ -12653,14 +12653,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-02",
-        "question": "Ay, geceleri gökyüzünü aydınlatsa da aslında bir ışık kaynağı değildir. Neden Ay bir ışık kaynağı olarak sayılmaz?",
+        "question": "Bir öğrenci aynı büyüklükteki iki taşı inceliyor: biri pürüzlü, diğeri düzdür. Hangi gözlem taşların bir özelliğini karşılaştırır?",
         "choices": [
-          "Çünkü Ay aslında sadece beyaz renkli bir buluttur.",
-          "Çünkü ışığı çok zayıftır ve dünyayı ısıtamaz.",
-          "Çünkü kendi ışığını üretemez, sadece Güneş'ten aldığı ışığı ayna gibi yansıtır."
+          "İkisinin aynı yerde bulunması",
+          "Yüzeylerinin farklı olması",
+          "İkisinin de yarın yağmur yağdırması"
         ],
-        "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Çünkü kendi ışığını üretemez, sadece Güneş'ten aldığı ışığı ayna gibi yansıtır.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "correctAnswer": 1,
+        "explanation": "Pürüzlü ve düz oluşları dokunma veya görmeyle gözlenebilen yüzey özellikleridir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_2",
@@ -12668,14 +12668,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-03",
-        "question": "İnsanlar tarafından üretilen ışık kaynaklarına \"yapay ışık kaynağı\" denir. Hangi seçenekte **sadece** yapay ışık kaynakları bir arada verilmiştir?",
+        "question": "Bir akarsu kenarında büyük taşların yanında küçük, yuvarlak çakıllar görülüyor. Hangisi çakılların yuvarlaklaşmasını açıklayabilir?",
         "choices": [
-          "Mum - Ampul - Trafik lambası",
-          "Güneş - Şimşek",
-          "Yıldızlar - Ateş böceği"
+          "Her gün boyanmaları",
+          "Güneşin onları bir anda eritmesi",
+          "Suyla taşınırken başka taşlara sürtünmeleri"
         ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Mum - Ampul - Trafik lambası' olduğu açıkça görülmektedir.",
+        "correctAnswer": 2,
+        "explanation": "Suyla sürüklenen parçalar çarpışıp sürtünerek köşelerini kaybedebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_3",
@@ -12683,14 +12683,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-04",
-        "question": "Sesin bir kaynaktan çıkıp kulağımıza gelebilmesi için ses dalgalarının yayılması gerekir. Bir ambulans bize yaklaşırken sesi nasıl değişir?",
+        "question": "Bir öğrenci toprak örneğinde küçük taşlar ve kurumuş yaprak parçaları görüyor. Bu gözlemden hangisi çıkarılabilir?",
         "choices": [
-          "Sesin şiddeti hiç değişmez.",
-          "Sesin şiddeti azalır (ses giderek kısılır).",
-          "Sesin şiddeti artar (sesi daha yüksek duyarız)."
+          "Toprak farklı parçalar içerebilir.",
+          "Toprak yalnız sudan oluşur.",
+          "Bütün topraklar aynı renktedir."
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sesin şiddeti artar (sesi daha yüksek duyarız).' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Örnekte taş ve yaprak parçaları birlikte görülmüştür; bu, toprağın birden çok tür parça içerebildiğini gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_4",
@@ -12698,14 +12698,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-05",
-        "question": "Aşağıdaki seslerden hangisi yapay (insan eliyle üretilmiş) bir ses kaynağına aittir?",
+        "question": "Yağmurdan sonra bir çukurda biriken su birkaç güneşli günün ardından azalıyor. Suyun azalmasına hangi olay katkıda bulunur?",
         "choices": [
-          "Kemanın çıkardığı müzik sesi",
-          "Rüzgarın uğultusu",
-          "Köpeğin havlaması"
+          "Gölgenin uzaması",
+          "Buharlaşma",
+          "Taşların çoğalması"
         ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kemanın çıkardığı müzik sesi' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Güneşin ısıttığı suyun bir kısmı buharlaşarak havaya karışır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_5",
@@ -12713,14 +12713,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-06",
-        "question": "Görme organımız göz olduğu gibi, işitme organımız da kulaktır. Hem ışık hem de ses için aşağıda söylenen ortak özellik hangisidir?",
+        "question": "İki bardaktan birinde kum, diğerinde kil vardır. İkisine aynı miktarda su dökülürse suyun geçişini karşılaştırmak için ne ölçülmelidir?",
         "choices": [
-          "Her ikisi de sadece gündüzleri hissedilebilir.",
-          "İkisi de insan yapımı icatlardır.",
-          "Her ikisinin de kaynağına çok yakın olmak, göz veya kulak sağlığımıza zarar verebilir."
+          "Bardakların rengi",
+          "Öğrencilerin boyu",
+          "Alttan çıkan su miktarı"
         ],
         "correctAnswer": 2,
-        "explanation": "Görme organımız göz olduğu gibi, işitme organımız da kulaktır. Hem ışık hem de ses için aşağıda söylenen ortak özellik 'Her ikisinin de kaynağına çok yakın olmak, göz veya kulak sağlığımıza zarar verebilir.' olarak bilinir.",
+        "explanation": "Aynı su verildiğinde alttan geçen su miktarı, iki malzemenin suyu geçirme farkını gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_6",
@@ -12728,14 +12728,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-07",
-        "question": "Ses kaynaklarından çıkan seslerin şiddetini artırmak, sesi daha uzağa duyurmak için aşağıdaki teknolojik aletlerden hangisi kullanılır?",
+        "question": "Bir tepede bitki örtüsü kaldırıldıktan sonra yağmurla daha çok toprak sürükleniyor. Bitkilerin hangi bölümü toprağı tutmaya yardım eder?",
         "choices": [
-          "El Feneri",
-          "Megafon",
-          "Termometre"
+          "Kökleri",
+          "Çiçeklerinin rengi",
+          "Yapraklarının gölgesi"
         ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Megafon' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Kökler toprağın içinde yayılır ve toprağın yerinde kalmasına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_7",
@@ -12743,14 +12743,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-08",
-        "question": "Şiddetli seslerin (gürültünün) olduğu ortamlarda (örneğin havaalanlarında veya inşaatlarda) çalışan işçiler kulak sağlıklarını korumak için ne yapmalıdır?",
+        "question": "Bir yer bilimci aynı kayacı büyüteçle ve çıplak gözle inceliyor. Büyüteçle neyi daha kolay fark edebilir?",
         "choices": [
-          "Müzik dinlemelidirler.",
-          "Koruyucu kulaklık (kulak tıkacı) takmalıdırlar.",
-          "Sadece geceleri çalışmalıdırlar."
+          "Kayanın sesini",
+          "Küçük tanecikleri",
+          "Kayanın gelecekteki tam ağırlığını"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Koruyucu kulaklık (kulak tıkacı) takmalıdırlar.' olduğu açıkça görülmektedir.",
+        "explanation": "Büyüteç küçük ayrıntıları daha büyük gösterir; kayacın tanecikleri daha belirgin görülebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_8",
@@ -12758,14 +12758,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-09",
-        "question": "Deniz fenerleri gemilere yön göstermek için ışık yayarlar. Deniz fenerinin ışığının çok uzaklardan bile görülebilmesinin bilimsel sebebi nedir?",
+        "question": "Bir derede taşınan kum, suyun yavaşladığı geniş bir bölümde dibe çöküyor. Bu kum için hangi ifade uygundur?",
         "choices": [
-          "Işığın her yöne doğru çok güçlü bir şekilde yayılması.",
-          "Gemilerin ışığa doğru çekilmesi.",
-          "Deniz fenerinin doğal bir ışık kaynağı olması."
+          "Kum bir anda suya dönüşmüştür.",
+          "Kum gökyüzüne çıkmıştır.",
+          "Su yavaşlayınca birikmiştir."
         ],
-        "correctAnswer": 0,
-        "explanation": "Deniz fenerleri gemilere yön göstermek için ışık yayarlar. Deniz fenerinin ışığının çok uzaklardan bile görülebilmesinin bilimsel sebebi 'Işığın her yöne doğru çok güçlü bir şekilde yayılması.' olarak bilinir.",
+        "correctAnswer": 2,
+        "explanation": "Akıntı zayıfladığında taşıdığı kumun bir kısmı dibe çöküp birikir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_9",
@@ -12773,14 +12773,14 @@
       },
       {
         "id": "T2-G3-FEN -MADDEY-10",
-        "question": "Bir mağaranın içinde yüksek sesle bağırdığımızda sesimizin duvarlara çarpıp bize geri dönmesi olayına ne ad verilir?",
+        "question": "Bir öğrenci dağ, dere ve yolun bulunduğu bir çizim yapıyor. Hangisi insan eliyle yapılmış bir unsur olarak gösterilir?",
         "choices": [
-          "Şimşek",
-          "Yankı",
-          "Gürültü"
+          "Yol",
+          "Dağ",
+          "Dere"
         ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yankı' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Dağ ve dere doğal oluşumlardır; yol insanlar tarafından yapılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu4_isik_ve_ses_10",
@@ -12792,12 +12792,12 @@
     "classLevel": 3,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "hareketi-kesfediyorum",
-    "topicName": "Hareketi Keşfediyorum",
+    "topic": "canlilar-dunyasina-yolculuk",
+    "topicName": "Canlılar Dünyasına Yolculuk",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2",
-    "pageUrl": "tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2.html",
+    "slug": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2",
+    "pageUrl": "tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G3-FEN -HAREKE-01",
