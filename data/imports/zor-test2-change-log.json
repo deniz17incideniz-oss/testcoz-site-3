@@ -31386,6 +31386,1238 @@
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_5",
         "sourceType": "EXISTING_V4B"
       }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-01",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-01",
+        "question": "Kerem yüzünü doğan Güneş'e dönmüştür. Bu konumdayken kollarını iki yana açtığında;\n- Arkası hangi yönü gösterir?\n- Sağ kolu hangi yönü gösterir?\nSırasıyla aşağıdaki seçeneklerden hangisi doğrudur?",
+        "choices": [
+          "Batı - Kuzey",
+          "Güney - Batı",
+          "Kuzey - Doğu",
+          "Batı - Güney"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Batı - Güney' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-01",
+        "question": "Kerem yüzünü doğan Güneş'e dönmüştür. Bu konumdayken kollarını iki yana açtığında;\n- Arkası hangi yönü gösterir?\n- Sağ kolu hangi yönü gösterir?\nSırasıyla aşağıdaki seçeneklerden hangisi doğrudur?",
+        "choices": [
+          "Batı - Kuzey",
+          "Güney - Batı",
+          "Kuzey - Doğu",
+          "Batı - Güney"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Batı - Güney' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-02",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-02",
+        "question": "Aşağıda bir mahallenin krokisi verilmiştir. Krokide okul, kütüphanenin kuzeyinde; hastane ise kütüphanenin doğusundadır.\nOkuldan çıkıp hastaneye gitmek isteyen bir öğrenci, en kısa yoldan gitmek için sırasıyla hangi yönlere doğru yürümelidir? (Çapraz gitme seçeneği yoktur).",
+        "choices": [
+          "Önce Doğu, sonra Güney",
+          "Önce Kuzey, sonra Batı",
+          "Önce Güney, sonra Doğu",
+          "Önce Batı, sonra Kuzey"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Önce Güney, sonra Doğu' olduğu açıkça görülmektedir.",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2-soru-2.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_2",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Mahalle krokisi",
+          "data": {
+            "kind": "neighbourhood"
+          }
+        },
+        "imageAlt": "Mahalle krokisi"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-02",
+        "question": "Aşağıda bir mahallenin krokisi verilmiştir. Krokide okul, kütüphanenin kuzeyinde; hastane ise kütüphanenin doğusundadır.\nOkuldan çıkıp hastaneye gitmek isteyen bir öğrenci, en kısa yoldan gitmek için sırasıyla hangi yönlere doğru yürümelidir? (Çapraz gitme seçeneği yoktur).",
+        "choices": [
+          "Önce Doğu, sonra Güney",
+          "Önce Kuzey, sonra Batı",
+          "Önce Güney, sonra Doğu",
+          "Önce Batı, sonra Kuzey"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Önce Güney, sonra Doğu' olduğu açıkça görülmektedir.",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-2.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_2",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Mahalle krokisi",
+          "data": {
+            "kind": "neighbourhood"
+          }
+        },
+        "imageAlt": "Mahalle krokisi"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-03",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-03",
+        "question": "Eski zamanlarda pusulanın olmadığı dönemlerde insanlar yönlerini bulmak için doğadan faydalanmışlardır.\nBuna göre aşağıdakilerden hangisi yön bulmada **kullanılmaz**?",
+        "choices": [
+          "Karınca yuvalarının ağzı",
+          "Ağaçların yapraklarının dökülme sıklığı",
+          "Kutup Yıldızı",
+          "Ağaçların gövdelerindeki yosunlar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağaçların yapraklarının dökülme sıklığı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-03",
+        "question": "Bir krokide okul parkın kuzeyinde, kütüphane parkın güneyindedir. Okuldan kütüphaneye doğru hangi yönde gidilir?",
+        "choices": [
+          "Doğu",
+          "Batı",
+          "Güney",
+          "Kuzey"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Okul parkın kuzeyindedir; kütüphane parkın güneyindedir. Okuldan kütüphaneye giderken güneye ilerlenir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-04",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-04",
+        "question": "Karınca yuvalarının ağzı geleneksel yön bulma yöntemlerinde genellikle hangi yönü gösterdiği kabul edilir ve neden bu yönü tercih ederler?",
+        "choices": [
+          "Kuzeyi gösterir, çünkü kuzey rüzgarlarından korunmak isterler.",
+          "Batıyı gösterir, çünkü yavrularını serin tutmak isterler.",
+          "Doğuyu gösterir, çünkü güneşi ilk gören yöndür.",
+          "Güneyi gösterir, çünkü soğuk kuzey rüzgarlarından korunup güneş ışığı almak isterler."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Geleneksel gözlemlere ve doğa ipuçlarına göre karıncalar, soğuk kuzey rüzgarlarından korunmak ve güneş ışığından daha fazla yararlanmak için yuva ağızlarını güneye bakacak şekilde yaparlar. (Bu sadece geleneksel bir yön bulma yöntemidir).",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-04",
+        "question": "Bir öğrenci haritada kuzeye bakarken sağ elinin gösterdiği yön hangisidir?",
+        "choices": [
+          "Batı",
+          "Güney",
+          "Kuzey",
+          "Doğu"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kuzeye dönük durduğumuzda sağ taraf doğuyu, sol taraf batıyı gösterir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-05",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-05",
+        "question": "Türkiye'nin fiziki haritası incelendiğinde batıdan doğuya doğru gidildikçe haritadaki renklerin yeşilden sarıya, sarıdan kahverengiye doğru dönüştüğü görülür.\nFiziki haritalardaki bu renk değişimi aşağıdakilerden hangisinin arttığını gösterir?",
+        "choices": [
+          "Nüfus yoğunluğunun",
+          "Ormanlık alanların",
+          "Akarsu sayısının",
+          "Yükseltinin"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yükseltinin' olduğu açıkça görülmektedir.",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2-soru-5.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_5",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Fiziki harita renkleri",
+          "data": {
+            "kind": "relief"
+          }
+        },
+        "imageAlt": "Fiziki harita renkleri"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-05",
+        "question": "Türkiye'nin fiziki haritası incelendiğinde batıdan doğuya doğru gidildikçe haritadaki renklerin yeşilden sarıya, sarıdan kahverengiye doğru dönüştüğü görülür.\nFiziki haritalardaki bu renk değişimi aşağıdakilerden hangisinin arttığını gösterir?",
+        "choices": [
+          "Nüfus yoğunluğunun",
+          "Ormanlık alanların",
+          "Akarsu sayısının",
+          "Yükseltinin"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yükseltinin' olduğu açıkça görülmektedir.",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-5.svg",
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_5",
+        "sourceType": "EXISTING_V4B",
+        "visual": {
+          "type": "finalDiagram",
+          "title": "Fiziki harita renkleri",
+          "data": {
+            "kind": "relief"
+          }
+        },
+        "imageAlt": "Fiziki harita renkleri"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-06",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-06",
+        "question": "\"Günümüzde kullandığımız birçok eşya, dedelerimizin zamanındaki eşyalara göre çok farklıdır. Ancak bazı kültürel değerler ve gelenekler değişmeden nesilden nesile aktarılır.\"\nBuna göre aşağıdakilerden hangisi değişen eşyalara örnek iken, değişmeyen kültürel değere örnek olamaz?",
+        "choices": [
+          "Teknolojik cihazların artmasıyla akraba ziyaretlerinin yüz yüze değil sadece mesajla yapılması",
+          "At arabasından otomobile geçilmesi",
+          "Bayramlarda büyüklerin elinin öpülmeye devam edilmesi",
+          "Gaz lambasından ampule geçilmesi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ziyaretlerin tamamen mesaja dönmesi kültürel değerin korunduğunu değil yozlaştığını veya değiştiğini gösterir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-06",
+        "question": "Bir bölgede dere yatağına ev yapıldığında hangi doğal olayın zararı artabilir?",
+        "choices": [
+          "Deprem",
+          "Sel",
+          "Kuraklık",
+          "Çığ"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yağışla yükselen dere suyu yatağına taşabilir. Bu alandaki yapıların selden etkilenme olasılığı artar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-07",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-07",
+        "question": "- Deprem\n- Sel\n- Çığ\n- Tsunami\nYukarıda verilen doğal afetlerden hangisi Türkiye'nin coğrafi konumu ve yer şekilleri göz önüne alındığında görülme ihtimali **en düşük** olandır?",
+        "choices": [
+          "Deprem",
+          "Sel",
+          "Tsunami",
+          "Çığ"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tsunami' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-07",
+        "question": "- Deprem\n- Sel\n- Çığ\n- Tsunami\nYukarıda verilen doğal afetlerden hangisi Türkiye'nin coğrafi konumu ve yer şekilleri göz önüne alındığında görülme ihtimali **en düşük** olandır?",
+        "choices": [
+          "Deprem",
+          "Sel",
+          "Tsunami",
+          "Çığ"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tsunami' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-08",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-08",
+        "question": "Hava durumu raporunu sunan spiker, \"Yarın İstanbul'da lodos etkili olacak, deniz ulaşımında aksamalar yaşanabilir.\" demiştir.\nBuna göre rüzgarın esme yönü İstanbul'a göre hangi yöndendir? (İpucu: Lodos rüzgarı güneybatıdan eser.)",
+        "choices": [
+          "Güneybatı",
+          "Kuzeybatı",
+          "Kuzeydoğu",
+          "Güneydoğu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneybatı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-08",
+        "question": "Hava durumu raporunu sunan spiker, \"Yarın İstanbul'da lodos etkili olacak, deniz ulaşımında aksamalar yaşanabilir.\" demiştir.\nBuna göre rüzgarın esme yönü İstanbul'a göre hangi yöndendir? (İpucu: Lodos rüzgarı güneybatıdan eser.)",
+        "choices": [
+          "Güneybatı",
+          "Kuzeybatı",
+          "Kuzeydoğu",
+          "Güneydoğu"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneybatı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-09",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-09",
+        "question": "Aile tarihi oluşturmak isteyen bir öğrencinin kullanabileceği **en güvenilir** birinci elden kaynak aşağıdakilerden hangisidir?",
+        "choices": [
+          "İnternetteki soy ağacı siteleri",
+          "Dedesiyle yapacağı sözlü tarih görüşmesi ve dedesine ait eski nüfus cüzdanı",
+          "Sınıf öğretmeninin anlattığı genel tarih bilgileri",
+          "Kütüphanedeki şehir tarihi kitapları"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Aile tarihi oluşturmak isteyen bir öğrencinin kullanabileceği **en güvenilir** birinci elden kaynak aşağıdakilerden 'Dedesiyle yapacağı sözlü tarih görüşmesi ve dedesine ait eski nüfus cüzdanı' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-09",
+        "question": "Bir öğrenci yaşadığı yerin doğal ve beşerî unsurlarını ayırıyor. Hangisi doğal unsurdur?",
+        "choices": [
+          "Dağ",
+          "Köprü",
+          "Okul",
+          "Yol"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dağ doğada oluşur; köprü, okul ve yol insanlar tarafından yapılmıştır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-BIREYV-10",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "birey-ve-toplum",
+      "toTopic": "insanlar-yerler-ve-cevreler",
+      "before": {
+        "id": "T2-G4-SOSY-BIREYV-10",
+        "question": "Milli Mücadele dönemi kahramanlarından Şahin Bey, hangi şehrimizin işgalden kurtulması için kahramanca savaşmıştır?",
+        "choices": [
+          "İzmir",
+          "Erzurum",
+          "Gaziantep",
+          "Kahramanmaraş"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gaziantep' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-BIREYV-10",
+        "question": "Bir kroki çizilirken sınıftaki kapı ve pencere neden yerlerine göre gösterilir?",
+        "choices": [
+          "Pencereleri büyütmek için",
+          "Konumlarını bulmayı kolaylaştırmak için",
+          "Duvar rengini değiştirmek için",
+          "Sınıfın saatini ayarlamak için"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kroki nesnelerin birbirine göre konumunu gösterir; bu yüzden kapı ve pencerenin yeri önemlidir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_sosyal_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-01",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-01",
+        "question": "T.C. Kimlik Kartımızda bulunan \"çip\" (yonga) ne işe yarar?",
+        "choices": [
+          "Elektronik ortamda parmak izi gibi gizli bilgileri güvenle saklar.",
+          "Kartın kırılmasını önler.",
+          "Kan grubumuzu dışarıdan herkesin okumasını sağlar.",
+          "Sadece bankalardan para çekmek için kullanılır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elektronik ortamda parmak izi gibi gizli bilgileri güvenle saklar.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-01",
+        "question": "T.C. Kimlik Kartımızda bulunan \"çip\" (yonga) ne işe yarar?",
+        "choices": [
+          "Elektronik ortamda parmak izi gibi gizli bilgileri güvenle saklar.",
+          "Kartın kırılmasını önler.",
+          "Kan grubumuzu dışarıdan herkesin okumasını sağlar.",
+          "Sadece bankalardan para çekmek için kullanılır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elektronik ortamda parmak izi gibi gizli bilgileri güvenle saklar.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-02",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-02",
+        "question": "İkiz kardeşlerin bile birbirinden farklı fiziksel özellikleri bulunur. Asla aynı olmayan ve kişiyi benzersiz kılan biyolojik özellik hangisidir?",
+        "choices": [
+          "Saç rengi",
+          "Boy uzunluğu",
+          "Göz rengi",
+          "Parmak izi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "İkiz kardeşlerin bile birbirinden farklı fiziksel özellikleri bulunur. Asla aynı olmayan ve kişiyi benzersiz kılan biyolojik özellik 'Parmak izi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-02",
+        "question": "İkiz kardeşlerin bile birbirinden farklı fiziksel özellikleri bulunur. Asla aynı olmayan ve kişiyi benzersiz kılan biyolojik özellik hangisidir?",
+        "choices": [
+          "Saç rengi",
+          "Boy uzunluğu",
+          "Göz rengi",
+          "Parmak izi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "İkiz kardeşlerin bile birbirinden farklı fiziksel özellikleri bulunur. Asla aynı olmayan ve kişiyi benzersiz kılan biyolojik özellik 'Parmak izi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-03",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-03",
+        "question": "Eski kimlik kartları erkeklerde mavi, kadınlarda pembe renkliyken, yeni T.C. Kimlik Kartları için hangi renk kullanılmıştır?",
+        "choices": [
+          "Siyah",
+          "Kırmızı",
+          "Turkuaz",
+          "Sarı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Turkuaz' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-03",
+        "question": "Eski kimlik kartları erkeklerde mavi, kadınlarda pembe renkliyken, yeni T.C. Kimlik Kartları için hangi renk kullanılmıştır?",
+        "choices": [
+          "Siyah",
+          "Kırmızı",
+          "Turkuaz",
+          "Sarı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Turkuaz' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-04",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-04",
+        "question": "Bir kişinin doğumundan bugüne kadar yaşadığı önemli olayları tarih sırasına göre sıralamasına ne ad verilir?",
+        "choices": [
+          "Kronoloji",
+          "Biyografi",
+          "Soy ağacı",
+          "Kroki"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kronoloji' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-04",
+        "question": "Bir öğrenci kendisini tanıtırken “Resim yapmayı seviyorum, fakat müzik çalışırken daha çok zorlanıyorum.” diyor. Bu söz hangi özelliğini anlatır?",
+        "choices": [
+          "Kimlik numarasını",
+          "Yaşadığı bölgenin iklimini",
+          "Ülkenin komşularını",
+          "İlgi ve becerilerini"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Resim ve müzikle ilgili deneyimi, öğrencinin ilgilerini ve zorlandığı alanı anlatır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-05",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-05",
+        "question": "T.C. Kimlik numaramız kaç haneden (rakamdan) oluşmaktadır?",
+        "choices": [
+          "9",
+          "11",
+          "10",
+          "12"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bu doğa olayının veya durumun ortaya çıkmasındaki temel sebep '11' olgusuyla açıklanır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-05",
+        "question": "T.C. Kimlik numaramız kaç haneden (rakamdan) oluşmaktadır?",
+        "choices": [
+          "9",
+          "11",
+          "10",
+          "12"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bu doğa olayının veya durumun ortaya çıkmasındaki temel sebep '11' olgusuyla açıklanır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-06",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-06",
+        "question": "Zeynep, arkadaşı Ayşe'nin kaybettiği kalemi bulamayınca çok üzüldüğünü görmüş ve onun yerine kendini koyarak onun ne hissettiğini anlamaya çalışmıştır. Zeynep'in bu davranışına ne denir?",
+        "choices": [
+          "Kıskançlık",
+          "Empati",
+          "Saygı",
+          "Ön yargı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Empati' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-06",
+        "question": "Zeynep, arkadaşı Ayşe'nin kaybettiği kalemi bulamayınca çok üzüldüğünü görmüş ve onun yerine kendini koyarak onun ne hissettiğini anlamaya çalışmıştır. Zeynep'in bu davranışına ne denir?",
+        "choices": [
+          "Kıskançlık",
+          "Empati",
+          "Saygı",
+          "Ön yargı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Empati' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-07",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-07",
+        "question": "\"Kişisel ilgi, ihtiyaç ve yeteneklerimiz farklı olabilir.\" Buna göre aşağıdakilerden hangisi bir **ilgi** örneğidir?",
+        "choices": [
+          "Susadığımızda su içmek",
+          "Hızlı koşabildiğimiz için yarışmalara katılmak",
+          "Boş zamanlarımızda pul koleksiyonu yapmak",
+          "Soğuk havada kalın giyinmek"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A ve D ihtiyaç, B yetenektir",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-07",
+        "question": "\"Kişisel ilgi, ihtiyaç ve yeteneklerimiz farklı olabilir.\" Buna göre aşağıdakilerden hangisi bir **ilgi** örneğidir?",
+        "choices": [
+          "Susadığımızda su içmek",
+          "Hızlı koşabildiğimiz için yarışmalara katılmak",
+          "Boş zamanlarımızda pul koleksiyonu yapmak",
+          "Soğuk havada kalın giyinmek"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A ve D ihtiyaç, B yetenektir",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-08",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-08",
+        "question": "Yeni T.C. Kimlik Kartlarının geçerlilik süresi kaç yıldır?",
+        "choices": [
+          "5 Yıl",
+          "Ömür boyu",
+          "15 Yıl",
+          "10 Yıl"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '10 Yıl' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-08",
+        "question": "Yeni T.C. Kimlik Kartlarının geçerlilik süresi kaç yıldır?",
+        "choices": [
+          "5 Yıl",
+          "Ömür boyu",
+          "15 Yıl",
+          "10 Yıl"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '10 Yıl' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-09",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-09",
+        "question": "Aşağıdakilerden hangisi bir kronoloji örneği **olamaz**?",
+        "choices": [
+          "2012 yılında doğdum.",
+          "2018 yılında ilkokula başladım.",
+          "2022 yılında okuma yarışmasında birinci oldum.",
+          "En sevdiğim yemek mantıdır."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kronoloji zamana bağlı olayları sıralar",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-09",
+        "question": "Aynı sınıftaki iki çocuk farklı oyunlardan hoşlanıyor. Birlikte oyun seçerken ne yapmaları uygundur?",
+        "choices": [
+          "Birbirlerini dinleyip ortak bir oyun belirlemeleri",
+          "Birinin diğerini zorlaması",
+          "Farklı tercihi olanı dışlamaları",
+          "Oynamadan kavga etmeleri"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tercihler farklı olabilir. İki çocuğun birbirini dinlemesi ortak bir seçim yapmalarını sağlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-KÜLTÜR-10",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "kultur-ve-miras",
+      "toTopic": "birey-ve-toplum",
+      "before": {
+        "id": "T2-G4-SOSY-KÜLTÜR-10",
+        "question": "Aşağıdaki durumlardan hangisinde farklılıklara saygı duyulduğu söylenebilir?",
+        "choices": [
+          "Sınıfa yeni gelen yabancı uyruklu öğrenciyle kimsenin konuşmaması.",
+          "Gözlük kullanan bir arkadaşla alay edilmesi.",
+          "Tekerlekli sandalye kullanan öğrenci için okul girişine rampa yapılması.",
+          "Sadece aynı takımı tutanların birbiriyle arkadaş olması."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tekerlekli sandalye kullanan öğrenci için okul girişine rampa yapılması.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-KÜLTÜR-10",
+        "question": "Aşağıdaki durumlardan hangisinde farklılıklara saygı duyulduğu söylenebilir?",
+        "choices": [
+          "Sınıfa yeni gelen yabancı uyruklu öğrenciyle kimsenin konuşmaması.",
+          "Gözlük kullanan bir arkadaşla alay edilmesi.",
+          "Tekerlekli sandalye kullanan öğrenci için okul girişine rampa yapılması.",
+          "Sadece aynı takımı tutanların birbiriyle arkadaş olması."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tekerlekli sandalye kullanan öğrenci için okul girişine rampa yapılması.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-01",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-01",
+        "question": "Aile tarihini araştıran bir öğrenci, en kesin ve doğru bilgiyi hangi yöntemle elde eder?",
+        "choices": [
+          "Aile büyükleriyle sözlü tarih çalışması yaparak",
+          "İnternetteki haberleri okuyarak",
+          "Arkadaşlarının ailelerine sorarak",
+          "Sınıf öğretmenine danışarak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aile büyükleriyle sözlü tarih çalışması yaparak' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-01",
+        "question": "Aile tarihini araştıran bir öğrenci, en kesin ve doğru bilgiyi hangi yöntemle elde eder?",
+        "choices": [
+          "Aile büyükleriyle sözlü tarih çalışması yaparak",
+          "İnternetteki haberleri okuyarak",
+          "Arkadaşlarının ailelerine sorarak",
+          "Sınıf öğretmenine danışarak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aile büyükleriyle sözlü tarih çalışması yaparak' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-02",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-02",
+        "question": "Aşağıdakilerden hangisi geleneksel oyunlarımızdan biri **değildir**?",
+        "choices": [
+          "Çelik çomak",
+          "Saklambaç",
+          "Bilgisayar oyunları",
+          "Körebe"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Bilgisayar oyunları' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-02",
+        "question": "Aşağıdakilerden hangisi geleneksel oyunlarımızdan biri **değildir**?",
+        "choices": [
+          "Çelik çomak",
+          "Saklambaç",
+          "Bilgisayar oyunları",
+          "Körebe"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Bilgisayar oyunları' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-03",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-03",
+        "question": "Geçmişten günümüze milletimizin ürettiği, nesilden nesile aktarılan maddi ve manevi değerlerin tümüne ne ad verilir?",
+        "choices": [
+          "Teknoloji",
+          "Coğrafya",
+          "Milli Kültür",
+          "Mimari"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Milli Kültür' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-03",
+        "question": "Geçmişten günümüze milletimizin ürettiği, nesilden nesile aktarılan maddi ve manevi değerlerin tümüne ne ad verilir?",
+        "choices": [
+          "Teknoloji",
+          "Coğrafya",
+          "Milli Kültür",
+          "Mimari"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Milli Kültür' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-04",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-04",
+        "question": "Milli Mücadele döneminde Batı Cephesi'nde Yunanlılara karşı ilk kurşunu sıkarak direnişi başlatan kahraman gazetecimiz kimdir?",
+        "choices": [
+          "Sütçü İmam",
+          "Şahin Bey",
+          "Kazım Karabekir",
+          "Hasan Tahsin"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele döneminde Batı Cephesi'nde Yunanlılara karşı ilk kurşunu sıkarak direnişi başlatan kahraman gazetecimiz 'Hasan Tahsin' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-04",
+        "question": "Milli Mücadele döneminde Batı Cephesi'nde Yunanlılara karşı ilk kurşunu sıkarak direnişi başlatan kahraman gazetecimiz kimdir?",
+        "choices": [
+          "Sütçü İmam",
+          "Şahin Bey",
+          "Kazım Karabekir",
+          "Hasan Tahsin"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele döneminde Batı Cephesi'nde Yunanlılara karşı ilk kurşunu sıkarak direnişi başlatan kahraman gazetecimiz 'Hasan Tahsin' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-05",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-05",
+        "question": "Aşağıdaki yiyeceklerden hangisi Türk milli kültürüne ait geleneksel bir yemek **değildir**?",
+        "choices": [
+          "Hamburger",
+          "Lahmacun",
+          "Tarhana Çorbası",
+          "Mantı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Hamburger' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-05",
+        "question": "Aşağıdaki yiyeceklerden hangisi Türk milli kültürüne ait geleneksel bir yemek **değildir**?",
+        "choices": [
+          "Hamburger",
+          "Lahmacun",
+          "Tarhana Çorbası",
+          "Mantı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Hamburger' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-06",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-06",
+        "question": "Sözlü tarih çalışması yapan bir öğrencinin izlemesi gereken ilk adım nedir?",
+        "choices": [
+          "Görüşme yerini ayarlamak",
+          "Görüşülecek kişiyi belirlemek",
+          "Soruları hazırlamak",
+          "Ses kayıt cihazını çalıştırmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sözlü tarih çalışması yapan bir öğrencinin izlemesi gereken ilk adım 'Görüşülecek kişiyi belirlemek' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-06",
+        "question": "Sözlü tarih çalışması yapan bir öğrencinin izlemesi gereken ilk adım nedir?",
+        "choices": [
+          "Görüşme yerini ayarlamak",
+          "Görüşülecek kişiyi belirlemek",
+          "Soruları hazırlamak",
+          "Ses kayıt cihazını çalıştırmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sözlü tarih çalışması yapan bir öğrencinin izlemesi gereken ilk adım 'Görüşülecek kişiyi belirlemek' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-07",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-07",
+        "question": "Mustafa Kemal Atatürk'ün doğduğu, çocukluğunun geçtiği ve bugün müze olarak kullanılan ev hangi şehirdedir?",
+        "choices": [
+          "İstanbul",
+          "Selanik",
+          "Ankara",
+          "İzmir"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Selanik' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-07",
+        "question": "Mustafa Kemal Atatürk'ün doğduğu, çocukluğunun geçtiği ve bugün müze olarak kullanılan ev hangi şehirdedir?",
+        "choices": [
+          "İstanbul",
+          "Selanik",
+          "Ankara",
+          "İzmir"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Selanik' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-08",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-08",
+        "question": "Milli Mücadele hazırlıkları kapsamında Mustafa Kemal'in genelgeler yayınladığı ve kongreler düzenlediği şehirlerin doğru sıralaması hangisidir?",
+        "choices": [
+          "Havza - Samsun - Amasya - Erzurum - Sivas",
+          "İstanbul - Samsun - Sivas - Erzurum - Ankara",
+          "Samsun - Erzurum - Sivas - Amasya - Havza",
+          "Samsun - Havza - Amasya - Erzurum - Sivas"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele hazırlıkları kapsamında Mustafa Kemal'in genelgeler yayınladığı ve kongreler düzenlediği şehirlerin doğru sıralaması 'Samsun - Havza - Amasya - Erzurum - Sivas' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-08",
+        "question": "Milli Mücadele hazırlıkları kapsamında Mustafa Kemal'in genelgeler yayınladığı ve kongreler düzenlediği şehirlerin doğru sıralaması hangisidir?",
+        "choices": [
+          "Havza - Samsun - Amasya - Erzurum - Sivas",
+          "İstanbul - Samsun - Sivas - Erzurum - Ankara",
+          "Samsun - Erzurum - Sivas - Amasya - Havza",
+          "Samsun - Havza - Amasya - Erzurum - Sivas"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele hazırlıkları kapsamında Mustafa Kemal'in genelgeler yayınladığı ve kongreler düzenlediği şehirlerin doğru sıralaması 'Samsun - Havza - Amasya - Erzurum - Sivas' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-09",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-09",
+        "question": "Gelin alma, kına gecesi, asker uğurlama gibi toplumsal olaylar kültürümüzün hangi parçasıdır?",
+        "choices": [
+          "Mimari eserlerimiz",
+          "Sözlü tarih kaynaklarımız",
+          "Gelenek ve göreneklerimiz",
+          "Teknolojik gelişmelerimiz"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gelenek ve göreneklerimiz' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-09",
+        "question": "Gelin alma, kına gecesi, asker uğurlama gibi toplumsal olaylar kültürümüzün hangi parçasıdır?",
+        "choices": [
+          "Mimari eserlerimiz",
+          "Sözlü tarih kaynaklarımız",
+          "Gelenek ve göreneklerimiz",
+          "Teknolojik gelişmelerimiz"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gelenek ve göreneklerimiz' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-SOSY-INSANL-10",
+      "reasons": [
+        "verified_social_studies_topic_reassignment"
+      ],
+      "fromTopic": "insanlar-yerler-ve-cevreler",
+      "toTopic": "kultur-ve-miras",
+      "before": {
+        "id": "T2-G4-SOSY-INSANL-10",
+        "question": "Milli Mücadele'nin kazanılmasından sonra, yurdumuzun düşman işgalinden tamamen kurtulduğunu belirleyen ve yeni Türk devletinin sınırlarını çizen antlaşma hangisidir?",
+        "choices": [
+          "Sevr Antlaşması",
+          "Ankara Antlaşması",
+          "Mudanya Ateşkes Antlaşması",
+          "Lozan Barış Antlaşması"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele'nin kazanılmasından sonra, yurdumuzun düşman işgalinden tamamen kurtulduğunu belirleyen ve yeni Türk devletinin sınırlarını çizen antlaşma 'Lozan Barış Antlaşması' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-SOSY-INSANL-10",
+        "question": "Milli Mücadele'nin kazanılmasından sonra, yurdumuzun düşman işgalinden tamamen kurtulduğunu belirleyen ve yeni Türk devletinin sınırlarını çizen antlaşma hangisidir?",
+        "choices": [
+          "Sevr Antlaşması",
+          "Ankara Antlaşması",
+          "Mudanya Ateşkes Antlaşması",
+          "Lozan Barış Antlaşması"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Milli Mücadele'nin kazanılmasından sonra, yurdumuzun düşman işgalinden tamamen kurtulduğunu belirleyen ve yeni Türk devletinin sınırlarını çizen antlaşma 'Lozan Barış Antlaşması' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_10",
+        "sourceType": "EXISTING_V4B"
+      }
     }
   ]
 }

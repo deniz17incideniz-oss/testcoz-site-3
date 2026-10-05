@@ -19660,12 +19660,12 @@
     "classLevel": 4,
     "subject": "sosyal-bilgiler",
     "subjectName": "Sosyal Bilgiler",
-    "topic": "birey-ve-toplum",
-    "topicName": "Birey ve Toplum",
+    "topic": "insanlar-yerler-ve-cevreler",
+    "topicName": "İnsanlar, Yerler ve Çevreler",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2",
-    "pageUrl": "tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2.html",
+    "slug": "4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2",
+    "pageUrl": "tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-SOSY-BIREYV-01",
@@ -19694,7 +19694,7 @@
         ],
         "correctAnswer": 2,
         "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Önce Güney, sonra Doğu' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2-soru-2.svg",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_2",
         "sourceType": "EXISTING_V4B",
@@ -19709,15 +19709,15 @@
       },
       {
         "id": "T2-G4-SOSY-BIREYV-03",
-        "question": "Eski zamanlarda pusulanın olmadığı dönemlerde insanlar yönlerini bulmak için doğadan faydalanmışlardır.\nBuna göre aşağıdakilerden hangisi yön bulmada **kullanılmaz**?",
+        "question": "Bir krokide okul parkın kuzeyinde, kütüphane parkın güneyindedir. Okuldan kütüphaneye doğru hangi yönde gidilir?",
         "choices": [
-          "Karınca yuvalarının ağzı",
-          "Ağaçların yapraklarının dökülme sıklığı",
-          "Kutup Yıldızı",
-          "Ağaçların gövdelerindeki yosunlar"
+          "Doğu",
+          "Batı",
+          "Güney",
+          "Kuzey"
         ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağaçların yapraklarının dökülme sıklığı' olduğu açıkça görülmektedir.",
+        "correctAnswer": 2,
+        "explanation": "Okul parkın kuzeyindedir; kütüphane parkın güneyindedir. Okuldan kütüphaneye giderken güneye ilerlenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_3",
@@ -19725,15 +19725,15 @@
       },
       {
         "id": "T2-G4-SOSY-BIREYV-04",
-        "question": "Karınca yuvalarının ağzı geleneksel yön bulma yöntemlerinde genellikle hangi yönü gösterdiği kabul edilir ve neden bu yönü tercih ederler?",
+        "question": "Bir öğrenci haritada kuzeye bakarken sağ elinin gösterdiği yön hangisidir?",
         "choices": [
-          "Kuzeyi gösterir, çünkü kuzey rüzgarlarından korunmak isterler.",
-          "Batıyı gösterir, çünkü yavrularını serin tutmak isterler.",
-          "Doğuyu gösterir, çünkü güneşi ilk gören yöndür.",
-          "Güneyi gösterir, çünkü soğuk kuzey rüzgarlarından korunup güneş ışığı almak isterler."
+          "Batı",
+          "Güney",
+          "Kuzey",
+          "Doğu"
         ],
         "correctAnswer": 3,
-        "explanation": "Geleneksel gözlemlere ve doğa ipuçlarına göre karıncalar, soğuk kuzey rüzgarlarından korunmak ve güneş ışığından daha fazla yararlanmak için yuva ağızlarını güneye bakacak şekilde yaparlar. (Bu sadece geleneksel bir yön bulma yöntemidir).",
+        "explanation": "Kuzeye dönük durduğumuzda sağ taraf doğuyu, sol taraf batıyı gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_4",
@@ -19750,7 +19750,7 @@
         ],
         "correctAnswer": 3,
         "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yükseltinin' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2-soru-5.svg",
+        "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-5.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_5",
         "sourceType": "EXISTING_V4B",
@@ -19765,15 +19765,15 @@
       },
       {
         "id": "T2-G4-SOSY-BIREYV-06",
-        "question": "\"Günümüzde kullandığımız birçok eşya, dedelerimizin zamanındaki eşyalara göre çok farklıdır. Ancak bazı kültürel değerler ve gelenekler değişmeden nesilden nesile aktarılır.\"\nBuna göre aşağıdakilerden hangisi değişen eşyalara örnek iken, değişmeyen kültürel değere örnek olamaz?",
+        "question": "Bir bölgede dere yatağına ev yapıldığında hangi doğal olayın zararı artabilir?",
         "choices": [
-          "Teknolojik cihazların artmasıyla akraba ziyaretlerinin yüz yüze değil sadece mesajla yapılması",
-          "At arabasından otomobile geçilmesi",
-          "Bayramlarda büyüklerin elinin öpülmeye devam edilmesi",
-          "Gaz lambasından ampule geçilmesi"
+          "Deprem",
+          "Sel",
+          "Kuraklık",
+          "Çığ"
         ],
-        "correctAnswer": 0,
-        "explanation": "Ziyaretlerin tamamen mesaja dönmesi kültürel değerin korunduğunu değil yozlaştığını veya değiştiğini gösterir.",
+        "correctAnswer": 1,
+        "explanation": "Yağışla yükselen dere suyu yatağına taşabilir. Bu alandaki yapıların selden etkilenme olasılığı artar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_6",
@@ -19813,15 +19813,15 @@
       },
       {
         "id": "T2-G4-SOSY-BIREYV-09",
-        "question": "Aile tarihi oluşturmak isteyen bir öğrencinin kullanabileceği **en güvenilir** birinci elden kaynak aşağıdakilerden hangisidir?",
+        "question": "Bir öğrenci yaşadığı yerin doğal ve beşerî unsurlarını ayırıyor. Hangisi doğal unsurdur?",
         "choices": [
-          "İnternetteki soy ağacı siteleri",
-          "Dedesiyle yapacağı sözlü tarih görüşmesi ve dedesine ait eski nüfus cüzdanı",
-          "Sınıf öğretmeninin anlattığı genel tarih bilgileri",
-          "Kütüphanedeki şehir tarihi kitapları"
+          "Dağ",
+          "Köprü",
+          "Okul",
+          "Yol"
         ],
-        "correctAnswer": 1,
-        "explanation": "Aile tarihi oluşturmak isteyen bir öğrencinin kullanabileceği **en güvenilir** birinci elden kaynak aşağıdakilerden 'Dedesiyle yapacağı sözlü tarih görüşmesi ve dedesine ait eski nüfus cüzdanı' olarak bilinir.",
+        "correctAnswer": 0,
+        "explanation": "Dağ doğada oluşur; köprü, okul ve yol insanlar tarafından yapılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_9",
@@ -19829,15 +19829,15 @@
       },
       {
         "id": "T2-G4-SOSY-BIREYV-10",
-        "question": "Milli Mücadele dönemi kahramanlarından Şahin Bey, hangi şehrimizin işgalden kurtulması için kahramanca savaşmıştır?",
+        "question": "Bir kroki çizilirken sınıftaki kapı ve pencere neden yerlerine göre gösterilir?",
         "choices": [
-          "İzmir",
-          "Erzurum",
-          "Gaziantep",
-          "Kahramanmaraş"
+          "Pencereleri büyütmek için",
+          "Konumlarını bulmayı kolaylaştırmak için",
+          "Duvar rengini değiştirmek için",
+          "Sınıfın saatini ayarlamak için"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gaziantep' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Kroki nesnelerin birbirine göre konumunu gösterir; bu yüzden kapı ve pencerenin yeri önemlidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_10",
@@ -19849,12 +19849,12 @@
     "classLevel": 4,
     "subject": "sosyal-bilgiler",
     "subjectName": "Sosyal Bilgiler",
-    "topic": "kultur-ve-miras",
-    "topicName": "Kültür ve Miras",
+    "topic": "birey-ve-toplum",
+    "topicName": "Birey ve Toplum",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-2",
-    "pageUrl": "tests/4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-2.html",
+    "slug": "4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2",
+    "pageUrl": "tests/4-sinif-sosyal-bilgiler-birey-ve-toplum-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-SOSY-KÜLTÜR-01",
@@ -19906,15 +19906,15 @@
       },
       {
         "id": "T2-G4-SOSY-KÜLTÜR-04",
-        "question": "Bir kişinin doğumundan bugüne kadar yaşadığı önemli olayları tarih sırasına göre sıralamasına ne ad verilir?",
+        "question": "Bir öğrenci kendisini tanıtırken “Resim yapmayı seviyorum, fakat müzik çalışırken daha çok zorlanıyorum.” diyor. Bu söz hangi özelliğini anlatır?",
         "choices": [
-          "Kronoloji",
-          "Biyografi",
-          "Soy ağacı",
-          "Kroki"
+          "Kimlik numarasını",
+          "Yaşadığı bölgenin iklimini",
+          "Ülkenin komşularını",
+          "İlgi ve becerilerini"
         ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kronoloji' olduğu açıkça görülmektedir.",
+        "correctAnswer": 3,
+        "explanation": "Resim ve müzikle ilgili deneyimi, öğrencinin ilgilerini ve zorlandığı alanı anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_4",
@@ -19986,15 +19986,15 @@
       },
       {
         "id": "T2-G4-SOSY-KÜLTÜR-09",
-        "question": "Aşağıdakilerden hangisi bir kronoloji örneği **olamaz**?",
+        "question": "Aynı sınıftaki iki çocuk farklı oyunlardan hoşlanıyor. Birlikte oyun seçerken ne yapmaları uygundur?",
         "choices": [
-          "2012 yılında doğdum.",
-          "2018 yılında ilkokula başladım.",
-          "2022 yılında okuma yarışmasında birinci oldum.",
-          "En sevdiğim yemek mantıdır."
+          "Birbirlerini dinleyip ortak bir oyun belirlemeleri",
+          "Birinin diğerini zorlaması",
+          "Farklı tercihi olanı dışlamaları",
+          "Oynamadan kavga etmeleri"
         ],
-        "correctAnswer": 3,
-        "explanation": "Kronoloji zamana bağlı olayları sıralar",
+        "correctAnswer": 0,
+        "explanation": "Tercihler farklı olabilir. İki çocuğun birbirini dinlemesi ortak bir seçim yapmalarını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_9",
@@ -20022,12 +20022,12 @@
     "classLevel": 4,
     "subject": "sosyal-bilgiler",
     "subjectName": "Sosyal Bilgiler",
-    "topic": "insanlar-yerler-ve-cevreler",
-    "topicName": "İnsanlar, Yerler ve Çevreler",
+    "topic": "kultur-ve-miras",
+    "topicName": "Kültür ve Miras",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2",
-    "pageUrl": "tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2.html",
+    "slug": "4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-2",
+    "pageUrl": "tests/4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-SOSY-INSANL-01",
