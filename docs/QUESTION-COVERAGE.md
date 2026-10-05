@@ -156,7 +156,7 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 4 | Sosyal Bilgiler | Küresel Bağlantılar | 1 | 1 | 2 | 40 | 1 |
 | 4 | İngilizce | Classroom Rules | 1 | 1 | 2 | 40 | 1 |
 | 4 | İngilizce | Nationality | 1 | 1 | 2 | 40 | 1 |
-| 4 | İngilizce | Cartoon Characters | 1 | 1 | 2 | 40 | 1 |
-| 4 | İngilizce | Free Time | 1 | 1 | 2 | 40 | 2 |
-| 4 | İngilizce | My Day | 1 | 1 | 2 | 40 | 1 |
-| 4 | İngilizce | Fun with Science | 1 | 1 | 2 | 40 | 0 |
+| 4 | İngilizce | Cartoon Characters | 1 | 1 | 2 | 40 | 2 |
+| 4 | İngilizce | Free Time | 1 | 1 | 2 | 40 | 1 |
+| 4 | İngilizce | My Day | 1 | 1 | 2 | 40 | 0 |
+| 4 | İngilizce | Fun with Science | 1 | 1 | 2 | 40 | 1 |

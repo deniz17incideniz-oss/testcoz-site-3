@@ -60,7 +60,7 @@ npm ci
 npm run generate
 npm test
 npm run test:browser
- npm run audit:release-content
+npm run audit:release-content
 node scripts/audit-question-quality.mjs
 ```
 

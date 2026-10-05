@@ -37,10 +37,36 @@ export const topicRepairs = {
  ['Bir bahçeden birinci hafta 45 kg, ikinci hafta 60 kg, üçüncü hafta 50 kg domates toplandı. İkinci ve üçüncü haftaların toplamı ilk haftadan kaç kilogram fazladır?','65 kg','110 kg','15 kg','155 kg','İkinci ve üçüncü hafta 60 + 50 = 110 kg toplanmıştır. 110 − 45 = 65 kg fazladır.']
  ]
 };
+const grade3Repairs = {
+ 'nesnelerin-geometrisi-2': [
+ ['Dört eş kare, aralarında boşluk kalmadan yan yana diziliyor. Dış sınırı izlediğimizde hangi şekil oluşur?','Dikdörtgen','Üçgen','Çember','Dört karenin toplam uzunluğu tek karenin kenarından büyük olur. Dış sınırın karşılıklı kenarları eşit olan bir dikdörtgen oluşur.'],
+ ['Bir kâğıdın sol yarısına küçük bir üçgen çiziliyor. Kâğıt dikey çizgiden katlanınca iki yarıdaki şekiller tam örtüşüyor. Sağdaki üçgen için ne söylenebilir?','Soldakinin simetriğidir.','Soldakinden daha büyüktür.','Soldakiyle aynı yerde bulunur.','Katlama çizgisinin iki yanında aynı uzaklıkta bulunan ve katlanınca örtüşen şekiller birbirinin simetriğidir.'],
+ ['Bir küpün yalnız üst ve alt yüzü boyanıyor. Boyanmayan kaç yüzü kalır?','4','3','5','Küpün 6 yüzü vardır. İkisi boyanınca 6 − 2 = 4 yüz boyanmamış kalır.'],
+ ['Ece kareyi, Ali dikdörtgeni anlatıyor. İkisinin de kendi şekli için söyleyebileceği özellik hangisidir?','Dört köşesi vardır.','Bütün kenarları her zaman eşittir.','Üç kenarı vardır.','Kare de dikdörtgen de dört kenarlı ve dört köşelidir. Her dikdörtgenin bütün kenarları eşit olmak zorunda değildir.'],
+ ['Bir örüntüde sıra kare, üçgen, çember biçiminde tekrar ediyor. İlk şekil kare olduğuna göre 8. şekil hangisidir?','Üçgen','Kare','Çember','Örüntü üçlü gruplardan oluşur. 6. şekilden sonra 7. kare, 8. üçgen gelir.'],
+ ['Bir silindiri düz yüzlerinden biri üzerine koyan çocuk, bu yüzün çevresini kâğıda çiziyor. Hangi çizgiyi elde eder?','Çember','Kare','Üçgen','Silindirin düz tabanı daire biçimindedir. Dairenin çevresini çizince çember elde edilir.'],
+ ['Bir kare yalnız bir köşegeni boyunca kesiliyor. Oluşan iki parça için hangi ifade doğrudur?','İki eş üçgen oluşur.','İki farklı büyüklükte kare oluşur.','Bir kare ve bir çember oluşur.','Köşegen, karenin karşılıklı iki köşesini birleştirir ve kareyi aynı büyüklükte iki üçgene ayırır.'],
+ ['Bir çocuk küp ile dikdörtgenler prizmasını karşılaştırıyor. Hangisi bu iki cismin ortak özelliğidir?','Altı yüzünün bulunması','Bütün yüzlerinin kare olması','Köşelerinin bulunmaması','Her iki cismin de 6 yüzü vardır. Dikdörtgenler prizmasının bütün yüzlerinin kare olması gerekmez.'],
+ ['Bir üçgenin her kenarının ortasına bir nokta, her köşesine de bir nokta konuyor. Toplam kaç nokta vardır?','6','3','9','Üçgenin 3 kenarı ve 3 köşesi vardır. Kenar ortalarındaki 3 nokta ile köşelerdeki 3 nokta toplam 6 eder.'],
+ ['Üç eş kare L biçiminde birleştiriliyor: iki kare yan yana, üçüncü kare soldakinin üstündedir. Dış sınırda kaç kare kenarı uzunluğunda parça vardır?','8','10','12','Üç karenin toplam 12 kenarı vardır. Ortak olan iki kenar çifti dış sınırda sayılmaz: 12 − 4 = 8.']
+ ],
+ 'veriye-dayali-arastirma': [
+ ['Bir sınıfta 9 öğrenci elma, 7 öğrenci muz, 8 öğrenci çilek seçiyor. Her öğrenci tek seçim yaptığına göre ankete kaç öğrenci katılmıştır?','24','23','25','Üç grubun sayıları toplanır: 9 + 7 + 8 = 24 öğrenci.'],
+ ['Bir nesne grafiğinde her kitap resmi 3 kitabı gösteriyor. Pazartesi 4, salı 6 resim var. Salı günü kaç kitap daha fazla okunmuştur?','6','2','10','İki günün farkı 6 − 4 = 2 resimdir. Her resim 3 kitabı gösterdiğinden fark 2 × 3 = 6 kitaptır.'],
+ ['Spor anketinde futbolu 12, basketbolu 9, voleybolu 7 öğrenci seçti. Basketbolu seçen 3 öğrenci fikrini voleybol olarak değiştirirse en az hangi spor seçilir?','Basketbol','Voleybol','Futbol','Basketbol 9 − 3 = 6, voleybol 7 + 3 = 10 olur. Futbol 12 olduğundan en küçük sayı basketboldadır.'],
+ ['Bir haftanın beş okul gününde hava 2 gün güneşli, 1 gün yağmurlu, kalan günler bulutludur. Kaç gün bulutludur?','2','3','4','Bilinen günler 2 + 1 = 3 eder. Beş günden çıkarılır: 5 − 3 = 2 bulutlu gün.'],
+ ['Bir tabloda Ali 15, Ece 18, Can 12 sayfa okumuştur. Ali ile Can birlikte Ece’den kaç sayfa fazla okumuştur?','9','6','15','Ali ve Can toplam 15 + 12 = 27 sayfa okur. 27 − 18 = 9 sayfa fazladır.'],
+ ['Bir grafikte her çiçek resmi 2 fidanı temsil ediyor. 14 fidanı göstermek için kaç çiçek resmi gerekir?','7','12','16','14 fidan, ikişerli gruplara ayrılır: 14 ÷ 2 = 7 resim gerekir.'],
+ ['Sınıftaki öğrencilerin en sevdiği oyun araştırılacaktır. Hangi soru bu araştırma için uygun veri sağlar?','En sevdiğin oyun hangisidir?','Bugün kaç kalem getirdin?','Evin okula ne kadar uzak?','Araştırma oyun tercihini öğrenmek istiyor. Doğrudan en sevilen oyunu soran soru bu bilgiye ulaşır.'],
+ ['Bir kantinde sabah 16, öğlen 21 ayran satıldı. Günlük toplamın 50 olması için öğleden sonra kaç ayran satılmalıdır?','13','17','29','Sabah ve öğlen toplamı 16 + 21 = 37’dir. Hedefe ulaşmak için 50 − 37 = 13 ayran daha satılmalıdır.'],
+ ['Bir çetelede kırmızı için iki beşlik grup ve iki çizgi, mavi için bir beşlik grup ve dört çizgi vardır. Kırmızı maviye göre kaç fazladır?','3','2','5','Kırmızı 5 + 5 + 2 = 12, mavi 5 + 4 = 9’dur. Fark 12 − 9 = 3.'],
+ ['Bir kitaplıkta masal 20, şiir 14, öykü 18 adettir. Hangi iki türün toplamı 38 kitaptır?','Masal ve öykü','Masal ve şiir','Şiir ve öykü','Masal ve öykü 20 + 18 = 38 eder. Diğer iki toplam 34 ve 32’dir.']
+ ]
+};
 export function repairEditorial(t,q,index) {
- const row=t.classLevel===4 && t.subject==='matematik' ? topicRepairs[t.topic]?.[index] : null;
+ const row=t.subject==='matematik' ? (t.classLevel===4?topicRepairs:t.classLevel===3?grade3Repairs:{})[t.topic]?.[index] : null;
  if(!row) return false;
- const choices=row.slice(1,5),shift=index%4;
- Object.assign(q,{question:row[0],choices:[...choices.slice(4-shift),...choices.slice(0,4-shift)],correctAnswer:shift,explanation:row[5]});
+ const count=t.classLevel===4?4:3,choices=row.slice(1,count+1),shift=index%count;
+ Object.assign(q,{question:row[0],choices:[...choices.slice(count-shift),...choices.slice(0,count-shift)],correctAnswer:shift,explanation:row[count+1]});
  return true;
 }

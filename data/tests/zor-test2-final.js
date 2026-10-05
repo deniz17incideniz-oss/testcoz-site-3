@@ -3553,7 +3553,7 @@
           "Good night!"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hello!' olduğu açıkça görülmektedir.",
+        "explanation": "Hello, karşılaşınca söylenen merhaba ifadesidir. Goodbye ayrılırken, good night uyumadan önce kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_1",
@@ -3568,7 +3568,7 @@
           "Günaydın"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Günaydın' olduğu açıkça görülmektedir.",
+        "explanation": "Morning sabah demektir. Good morning, sabah selamlaşırken söylenen günaydın ifadesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_2",
@@ -3583,7 +3583,7 @@
           "One, Two, Three"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'One, Two, Three' olduğu açıkça görülmektedir.",
+        "explanation": "One bir, two iki, three üç demektir. Diğer diziler dört veya daha büyük sayılardan başlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_3",
@@ -3598,7 +3598,7 @@
           "I am seven."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'My name is Can.' olduğu açıkça görülmektedir.",
+        "explanation": "What is your name kişinin adını sorar. My name is Can cümlesi adım Can anlamına gelir; yaş veya sağlık bildirmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_4",
@@ -3613,7 +3613,7 @@
           "I am a student."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I am fine, thank you.' olduğu açıkça görülmektedir.",
+        "explanation": "How are you, nasıl olduğunu sorar. I am fine, thank you; iyiyim, teşekkür ederim anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_5",
@@ -3628,7 +3628,7 @@
           "Four"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Five' olduğu açıkça görülmektedir.",
+        "explanation": "Görselde beş elma vardır. İngilizcede beş sayısına five denir; three üç, four dört demektir.",
         "image": "images/tests/1-sinif-ingilizce-greetings-zor-test-2-soru-6.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_6",
@@ -3652,7 +3652,7 @@
           "Hello!"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Good night!' olduğu açıkça görülmektedir.",
+        "explanation": "Uyumadan önce iyi geceler denir. İngilizcede bu ifade good night biçimindedir; morning sabahı anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_7",
@@ -3667,7 +3667,7 @@
           "Ayağa kalkmalıyız"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayağa kalkmalıyız' olduğu açıkça görülmektedir.",
+        "explanation": "Stand ayağa kalkmak, up yukarı anlamını taşır. Stand up yönergesi ayağa kalkmayı ister; sit down oturmayı ister.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_8",
@@ -3682,7 +3682,7 @@
           "I am seven."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I am seven.' olduğu açıkça görülmektedir.",
+        "explanation": "Seven yedi demektir. I am seven cümlesi kişinin yedi yaşında olduğunu bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_9",
@@ -3697,7 +3697,7 @@
           "Sit down!"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Goodbye!' olduğu açıkça görülmektedir.",
+        "explanation": "Goodbye ayrılırken kullanılan hoşça kal ifadesidir. Stand up ve sit down sınıf içi hareket yönergeleridir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu1_greetings_numbers_10",
@@ -3725,7 +3725,7 @@
           "Red"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yellow' olduğu açıkça görülmektedir.",
+        "explanation": "Görseldeki güneş sarı renkle çizilmiştir. Sarının İngilizcesi yellow, mavinin blue, kırmızının red sözcüğüdür.",
         "image": "images/tests/1-sinif-ingilizce-numbers-zor-test-2-soru-1.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_1",
@@ -3748,7 +3748,7 @@
           "Bag"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bag' olduğu açıkça görülmektedir.",
+        "explanation": "Bag çanta demektir. Eraser silgi, pencil kurşun kalemdir; bunlar çantanın içine konabilen eşyalardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_2",
@@ -3763,7 +3763,7 @@
           "Blue"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Blue' olduğu açıkça görülmektedir.",
+        "explanation": "Soruda mavi renk sorulmaktadır. Blue mavi, pink pembe, green yeşil anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_3",
@@ -3778,7 +3778,7 @@
           "board"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'book' olduğu açıkça görülmektedir.",
+        "explanation": "Book kitap demektir. It is a book, bu bir kitaptır anlamındadır; desk sıra, board tahta demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_4",
@@ -3793,7 +3793,7 @@
           "Black"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Green' olduğu açıkça görülmektedir.",
+        "explanation": "İlkbahardaki yeşil yapraklar için green kullanılır. White beyaz, black siyah demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_5",
@@ -3808,7 +3808,7 @@
           "Kurşun Kalem"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kurşun Kalem' olduğu açıkça görülmektedir.",
+        "explanation": "Pencil kurşun kalemdir. Silgi eraser, defter notebook sözcükleriyle anlatılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_6",
@@ -3823,7 +3823,7 @@
           "Yeşil"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kırmızı' olduğu açıkça görülmektedir.",
+        "explanation": "Red kırmızı anlamına gelir. Sarı yellow, yeşil green olarak söylenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_7",
@@ -3838,7 +3838,7 @@
           "Ruler"
         ],
         "correctAnswer": 0,
-        "explanation": "Seçeneklerdeki eşleştirmelere bakıldığında 'Eraser' bilgisinin yanlış olduğu görülmektedir.",
+        "explanation": "Eraser, kurşun kalem yazısını silmeye yarayan silgidir. Pen kalem, ruler cetvel anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_8",
@@ -3853,7 +3853,7 @@
           "Kalemini al."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kitabını aç.' olduğu açıkça görülmektedir.",
+        "explanation": "Open açmak, your book senin kitabın demektir. Yönerge kitabını aç anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_9",
@@ -3868,7 +3868,7 @@
           "White"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'White' olduğu açıkça görülmektedir.",
+        "explanation": "White beyaz demektir. Black siyah, orange turuncu anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu2_colors_school_10",
@@ -3896,7 +3896,7 @@
           "Bird"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cat' olduğu açıkça görülmektedir.",
+        "explanation": "Miyavlama kediye ait sestir; cat kedi demektir. Dog köpek, bird kuştur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_1",
@@ -3911,7 +3911,7 @@
           "Mouth"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eyes' olduğu açıkça görülmektedir.",
+        "explanation": "Eye göz demektir; eyes çoğul biçimidir. İki gözden söz edildiği için eyes kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_2",
@@ -3926,7 +3926,7 @@
           "Dog"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dog' olduğu açıkça görülmektedir.",
+        "explanation": "Köpeğin İngilizcesi dog sözcüğüdür. Fish balık, cow inek anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_3",
@@ -3941,7 +3941,7 @@
           "Ear"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ear' olduğu açıkça görülmektedir.",
+        "explanation": "Ear kulak demektir. İşitme organı kulaktır; nose burun, head baş anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_4",
@@ -3956,7 +3956,7 @@
           "Cat"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bird' olduğu açıkça görülmektedir.",
+        "explanation": "Bird kuş demektir. Verilen seçeneklerde uçabilen hayvan kuştur; frog kurbağa, cat kedidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_5",
@@ -3971,7 +3971,7 @@
           "Hand"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Nose' olduğu açıkça görülmektedir.",
+        "explanation": "Nose burun anlamındadır; kokuları burunla algılarız. Mouth ağız, hand el demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_6",
@@ -3986,7 +3986,7 @@
           "Fish"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Fish' olduğu açıkça görülmektedir.",
+        "explanation": "Fish balık demektir. Verilen seçeneklerde suda yaşayan hayvan balıktır; monkey maymun, elephant fildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_7",
@@ -4001,7 +4001,7 @@
           "Gözünü kapat."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kafana (başına) dokun.' olduğu açıkça görülmektedir.",
+        "explanation": "Touch dokunmak, head baş anlamındadır. Touch your head, başına dokun yönergesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_8",
@@ -4016,7 +4016,7 @@
           "Horse"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Frog' olduğu açıkça görülmektedir.",
+        "explanation": "Frog kurbağa demektir. Snake yılan, horse at anlamındadır; vıraklama kurbağaya ait ipucudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_9",
@@ -4031,7 +4031,7 @@
           "Mouth"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Mouth' olduğu açıkça görülmektedir.",
+        "explanation": "Mouth ağız demektir. Ear kulak, eye göz anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu3_body_animals_10",
@@ -4059,7 +4059,7 @@
           "Kite"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ball' olduğu açıkça görülmektedir.",
+        "explanation": "Ball top demektir. Ayakla vurularak oynanan yuvarlak oyuncak toptur; doll bebek, kite uçurtmadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_1",
@@ -4074,7 +4074,7 @@
           "Apple"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Apple' olduğu açıkça görülmektedir.",
+        "explanation": "Apple elma demektir. Orange portakal, lemon limon anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_2",
@@ -4082,14 +4082,14 @@
       },
       {
         "id": "T2-G1-INGI-CLASSR-03",
-        "question": "Genellikle kız çocuklarının oynamayı çok sevdiği \"Oyuncak Bebek\" İngilizce'de nedir?",
+        "question": "İnsan biçimindeki oyuncak bebek İngilizcede nasıl adlandırılır?",
         "choices": [
           "Doll",
           "Teddy Bear",
           "Block"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doll' olduğu açıkça görülmektedir.",
+        "explanation": "Doll oyuncak bebek anlamına gelir. Teddy bear oyuncak ayı, block blok demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_3",
@@ -4104,7 +4104,7 @@
           "Cherry"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Banana' olduğu açıkça görülmektedir.",
+        "explanation": "Banana muz demektir. Apple elma, cherry kiraz anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_4",
@@ -4119,7 +4119,7 @@
           "Car"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kite' olduğu açıkça görülmektedir.",
+        "explanation": "Kite uçurtmadır. Uçurtma bir ipe bağlı olarak rüzgârla yükselir; train tren, car arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_5",
@@ -4134,7 +4134,7 @@
           "Orange"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Orange' olduğu açıkça görülmektedir.",
+        "explanation": "Orange portakal anlamına gelir. Apple elma, melon kavun demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_6",
@@ -4149,7 +4149,7 @@
           "Car"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Teddy Bear' olduğu açıkça görülmektedir.",
+        "explanation": "Teddy bear oyuncak ayı demektir. Ball top, car araba anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_7",
@@ -4164,7 +4164,7 @@
           "Lemon"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Lemon' olduğu açıkça görülmektedir.",
+        "explanation": "Lemon limon demektir. Banana muz, apple elma anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_8",
@@ -4179,7 +4179,7 @@
           "Doll"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Car' olduğu açıkça görülmektedir.",
+        "explanation": "Car araba demektir. Kite uçurtma, doll oyuncak bebektir; tekerlekle ilerleyen seçenek arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_9",
@@ -4194,7 +4194,7 @@
           "Elma"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elma' olduğu açıkça görülmektedir.",
+        "explanation": "Like sevmek, apples elmalar demektir. I like apples cümlesi elmayı severim anlamını taşır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_ingilizce_konu4_toys_fruits_10",
@@ -7816,7 +7816,7 @@
           "Goodbye!"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Good morning!' olduğu açıkça görülmektedir.",
+        "explanation": "Good morning sabah verilen selamdır. Karşılık olarak aynı selam kullanılır; good night geceye, goodbye ayrılışa aittir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_1",
@@ -7831,7 +7831,7 @@
           "red"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'red' olduğu açıkça görülmektedir.",
+        "explanation": "Görselde elma kırmızı çizilmiştir. Kırmızı red, mavi blue, sarı yellow olarak söylenir.",
         "image": "images/tests/2-sinif-ingilizce-school-life-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_2",
@@ -7854,7 +7854,7 @@
           "pink"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'green' olduğu açıkça görülmektedir.",
+        "explanation": "Blue mavi, yellow sarı boyadır. Bu iki boya karıştırıldığında yeşil elde edilir; yeşilin İngilizcesi green sözcüğüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_3",
@@ -7869,7 +7869,7 @@
           "My name is Ayşe."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'My name is Ayşe.' olduğu açıkça görülmektedir.",
+        "explanation": "Name ad demektir. Soru adı öğrenmek istediği için My name is Ayşe yanıtı uygundur; diğerleri durum veya yaş bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_4",
@@ -7884,7 +7884,7 @@
           "Ten"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Nine' olduğu açıkça görülmektedir.",
+        "explanation": "Five beş, four dört demektir. 5 + 4 = 9 olduğundan İngilizce nine yanıtı gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_5",
@@ -7899,7 +7899,7 @@
           "How old are you?"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'How are you?' olduğu açıkça görülmektedir.",
+        "explanation": "How are you, nasılsın anlamına gelir. What is this nesneyi, how old are you yaşı sorar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_6",
@@ -7907,14 +7907,14 @@
       },
       {
         "id": "T2-G2-INGI-SCHOOL-07",
-        "question": "Look at the stars. Let's count: \"One, two, three, ________, five.\"",
+        "question": "Complete the number sequence: One, two, three, ________, five.",
         "choices": [
           "six",
           "seven",
           "four"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'four' olduğu açıkça görülmektedir.",
+        "explanation": "One, two, three sayıları 1, 2, 3’tür. Sonraki sayı 4, yani four olur; ardından five gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_7",
@@ -7929,7 +7929,7 @@
           "White"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yellow' olduğu açıkça görülmektedir.",
+        "explanation": "Soruda sarı renk tarif ediliyor. Yellow sarı, green yeşil, white beyaz demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_8",
@@ -7944,7 +7944,7 @@
           "eight"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'seven' olduğu açıkça görülmektedir.",
+        "explanation": "How old are you yaş sorusudur. Parantezde 7 verildiği için seven kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_9",
@@ -7959,7 +7959,7 @@
           "Goodbye!"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Goodbye!' olduğu açıkça görülmektedir.",
+        "explanation": "Leave school okuldan ayrılmak demektir. Ayrılırken goodbye söylenir; hello ve good morning karşılaşma selamlarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu1_words_colors_10",
@@ -7987,7 +7987,7 @@
           "Bird"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dog' olduğu açıkça görülmektedir.",
+        "explanation": "Woof woof havlama sesidir. Dog köpek anlamına gelir; cat miyavlayan kedi, bird kuştur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_1",
@@ -8002,7 +8002,7 @@
           "cheese"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'bananas' olduğu açıkça görülmektedir.",
+        "explanation": "Görselde maymunun elinde muz vardır. Bananas muzlar, fish balık, cheese peynir demektir.",
         "image": "images/tests/2-sinif-ingilizce-classroom-life-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_2",
@@ -8025,7 +8025,7 @@
           "eyes"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'eyes' olduğu açıkça görülmektedir.",
+        "explanation": "See görmek, eyes gözler demektir. Görme gözlerle gerçekleşir; ears kulaklar, nose burundur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_3",
@@ -8033,14 +8033,14 @@
       },
       {
         "id": "T2-G2-INGI-CLASSR-04",
-        "question": "\"Touch your nose!\"\nWhich picture shows this action?",
+        "question": "Which sentence describes the action in the instruction \"Touch your nose!\"?",
         "choices": [
           "A boy touching his ear.",
           "A boy touching his mouth.",
           "A boy touching his nose."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A boy touching his nose.' olduğu açıkça görülmektedir.",
+        "explanation": "Touch dokunmak, nose burun demektir. Buruna dokunan çocuğu anlatan seçenek yönergeye uyar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_4",
@@ -8055,7 +8055,7 @@
           "jump"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'jump' olduğu açıkça görülmektedir.",
+        "explanation": "Frog kurbağa, jump zıplamak demektir. Kurbağa zıplayabilir; read okumak, fly uçmaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_5",
@@ -8070,7 +8070,7 @@
           "El"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağız' olduğu açıkça görülmektedir.",
+        "explanation": "Dentist diş hekimidir. Open your mouth ağzını aç demektir; mouth ağız anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_6",
@@ -8085,7 +8085,7 @@
           "A fish"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A bird' olduğu açıkça görülmektedir.",
+        "explanation": "Fly uçmak anlamına gelir. Seçeneklerde uçabilen hayvan bird, yani kuştur; cow inek, fish balıktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_7",
@@ -8100,7 +8100,7 @@
           "fingers"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'fingers' olduğu açıkça görülmektedir.",
+        "explanation": "Hands ellerdir. Ellerimizde bulunan parmaklara fingers denir; toes ayak parmakları, heads başlar demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_8",
@@ -8115,7 +8115,7 @@
           "run"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'swim' olduğu açıkça görülmektedir.",
+        "explanation": "Fish balık, sea deniz anlamındadır. Balığın sudaki hareketi swim, yani yüzmektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_9",
@@ -8130,7 +8130,7 @@
           "Cat"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Book' olduğu açıkça görülmektedir.",
+        "explanation": "NOT sözcüğü olmayanı sorar. Horse at, cat kedi olduğundan hayvandır; book bir kitap, yani eşyadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu2_body_animals_10",
@@ -8158,7 +8158,7 @@
           "Sit on the chair"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sit on the chair' olduğu açıkça görülmektedir.",
+        "explanation": "Sit down oturmak anlamına gelir. Sit on the chair sandalyeye oturmayı anlatır; stand up ayağa kalkmaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_1",
@@ -8166,14 +8166,14 @@
       },
       {
         "id": "T2-G2-INGI-PERSON-02",
-        "question": "A: \"What is this?\"\nB: \"It is a ________.\"",
+        "question": "I write with a pencil. What is in my hand?",
         "choices": [
           "pencil",
           "eraser",
           "bag"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'pencil' olduğu açıkça görülmektedir.",
+        "explanation": "Pencil kurşun kalem demektir. Sorudaki yazı yazmaya yarayan nesne bu sözcükle adlandırılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_2",
@@ -8188,7 +8188,7 @@
           "sunny"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'cold' olduğu açıkça görülmektedir.",
+        "explanation": "Snowing kar yağıyor demektir. Bu bağlamda cold, yani soğuk hava uygundur; hot sıcak anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_3",
@@ -8203,7 +8203,7 @@
           "hat"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'umbrella' olduğu açıkça görülmektedir.",
+        "explanation": "Rainy yağmurlu demektir. Umbrella şemsiyedir ve yağmurdan korunmayı sağlar; sunglasses güneş gözlüğüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_4",
@@ -8218,7 +8218,7 @@
           "Kitap"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kitap' olduğu açıkça görülmektedir.",
+        "explanation": "Book kitap demektir. Open your book kitabını aç anlamına gelir; defter notebook, silgi eraser olarak söylenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_5",
@@ -8233,7 +8233,7 @@
           "snowy"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'windy' olduğu açıkça görülmektedir.",
+        "explanation": "Wind rüzgâr demektir. Ağaçları sallayan rüzgâr görüldüğü için windy, yani rüzgârlı hava anlatılır.",
         "image": "images/tests/2-sinif-ingilizce-personal-life-zor-test-2-soru-6.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_6",
@@ -8256,7 +8256,7 @@
           "apple"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'eraser' olduğu açıkça görülmektedir.",
+        "explanation": "Yazıdaki yanlışları silmek için eraser, yani silgi gerekir. Desk sıra, apple elmadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_7",
@@ -8271,7 +8271,7 @@
           "window"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'board' olduğu açıkça görülmektedir.",
+        "explanation": "Board yazı tahtasıdır. Öğretmen tahta kalemiyle tahtaya yazar; chair sandalye, window pencere anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_8",
@@ -8286,7 +8286,7 @@
           "sunny"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'sunny' olduğu açıkça görülmektedir.",
+        "explanation": "Sun shines güneş parlıyor demektir. Bu hava sunny, yani güneşli olarak anlatılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_9",
@@ -8301,7 +8301,7 @@
           "Kapıyı kapat, lütfen."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kapıyı kapat, lütfen.' olduğu açıkça görülmektedir.",
+        "explanation": "Close kapatmak, door kapı, please lütfen demektir. Birlikte kapıyı kapat, lütfen anlamını verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu3_classroom_weather_10",
@@ -8329,7 +8329,7 @@
           "Kitchen"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bedroom' olduğu açıkça görülmektedir.",
+        "explanation": "Sleep uyumak, bed yatak demektir. Yatak bulunan ve uyunan oda bedroom, yani yatak odasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_1",
@@ -8344,7 +8344,7 @@
           "kitchen"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'kitchen' olduğu açıkça görülmektedir.",
+        "explanation": "Cooking food yemek pişirmek demektir. Bunun için kullanılan oda kitchen, yani mutfaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_2",
@@ -8359,7 +8359,7 @@
           "Car"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Banana' olduğu açıkça görülmektedir.",
+        "explanation": "Fruit meyve demektir. Banana muz olduğu için meyvedir; table masa, car arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_3",
@@ -8367,14 +8367,14 @@
       },
       {
         "id": "T2-G2-INGI-FAMILY-04",
-        "question": "A: \"Where is the sofa?\"\nB: \"It is in the ________.\"",
+        "question": "There is a sofa in our living room. Where is the sofa?",
         "choices": [
           "bathroom",
           "living room",
           "bedroom"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'living room' olduğu açıkça görülmektedir.",
+        "explanation": "Soruda kanepenin oturma odasında olduğu belirtilir. Living room oturma odasıdır; bathroom banyo, bedroom yatak odasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_4",
@@ -8389,7 +8389,7 @@
           "A car"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A ship' olduğu açıkça görülmektedir.",
+        "explanation": "Sea deniz demektir. Ship gemidir ve denizde yol alır; plane uçak, car arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_5",
@@ -8404,7 +8404,7 @@
           "Apple"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Apple' olduğu açıkça görülmektedir.",
+        "explanation": "Apple elma demektir. Orange portakal, lemon limon anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_6",
@@ -8419,7 +8419,7 @@
           "Bus"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Plane' olduğu açıkça görülmektedir.",
+        "explanation": "Sky gökyüzüdür. Plane uçak anlamındadır ve gökyüzünde yol alır; train tren, bus otobüstür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_7",
@@ -8434,7 +8434,7 @@
           "Yellow"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yellow' olduğu açıkça görülmektedir.",
+        "explanation": "Lemon limon, yellow sarı demektir. Red kırmızı, blue mavi anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_8",
@@ -8442,14 +8442,14 @@
       },
       {
         "id": "T2-G2-INGI-FAMILY-09",
-        "question": "We wash our face and hands in the ________.",
+        "question": "This room has a bath and a sink. We wash our face here. What room is it?",
         "choices": [
           "garden",
           "kitchen",
           "bathroom"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'bathroom' olduğu açıkça görülmektedir.",
+        "explanation": "Bathroom banyo demektir. Bu soru kişisel temizlik için kullanılan banyo lavabosunu anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_9",
@@ -8464,7 +8464,7 @@
           "Car"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Train' olduğu açıkça görülmektedir.",
+        "explanation": "Railways demiryolları anlamına gelir. Train tren demektir ve raylarda ilerler; bike bisiklet, car arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_ingilizce_konu4_house_vehicles_10",
@@ -8492,7 +8492,7 @@
           "In the garden"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “In the bedroom” ifadesidir. There is a bed and a wardrobe in this room. Where am I? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Bed yatak, wardrobe gardırop demektir. Bu eşyalar yatak odasını, yani bedroom sözcüğünü işaret eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8530,14 +8530,14 @@
       },
       {
         "id": "T2-G2-INGI-HOMES,-04",
-        "question": "We wash our hands at the sink in this room. Which room is it?",
+        "question": "This room has a toilet, a bath and a sink. Which room is it?",
         "choices": [
           "The bathroom",
           "The bedroom",
           "The living room"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “The bathroom” ifadesidir. We wash our hands at the sink in this room. Which room is it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Soruda banyo lavabosunda el yıkama anlatılır. Bathroom banyo, bedroom yatak odası, living room oturma odasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8552,7 +8552,7 @@
           "In the fridge"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “On the sofa” ifadesidir. The sofa is in the living room. Where can I sit? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Sofa kanepe, on üstünde demektir. Oturulacak yer on the sofa, yani kanepenin üstüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8567,7 +8567,7 @@
           "In the fridge"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “In the fridge” ifadesidir. The milk must stay cold. Where do we put it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Cold soğuk, fridge buzdolabı demektir. Sütü soğuk tutmak için buzdolabına koyarız.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8582,7 +8582,7 @@
           "The bedroom"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “The kitchen” ifadesidir. We cook dinner here. There is an oven. Which room is this? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Cook yemek pişirmek, oven fırın anlamındadır. Bu iki ipucu kitchen, yani mutfağı anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8597,7 +8597,7 @@
           "A sofa"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “A tree” ifadesidir. My house has a small garden. Which thing can grow there? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Grow büyümek veya yetişmek anlamındadır. Bahçede yetişebilen seçenek tree, yani ağaçtır; diğerleri eşyadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8612,7 +8612,7 @@
           "The lamp"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “The lamp” ifadesidir. It is dark in the room. What can I turn on to see? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Dark karanlık, turn on açmak demektir. Işık için lamp, yani lamba açılır; chair sandalye, carpet halıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8627,7 +8627,7 @@
           "How old are you?"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “Where are the books?” ifadesidir. There are books on the shelf. Which question asks about their place? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Where nerede demektir ve yer sorar. Where are the books, kitaplar nerede anlamındadır; diğer sorular renk ve yaş sorar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8655,7 +8655,7 @@
           "To the playground"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “To the library” ifadesidir. I want to borrow a storybook. Where should I go? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Borrow ödünç almak, storybook hikâye kitabı demektir. Kitap ödünç alınan yer library, yani kütüphanedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8670,7 +8670,7 @@
           "A library"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “A bakery” ifadesidir. We need bread for breakfast. Which place sells it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Bread ekmek demektir. Bakery ekmek satılan fırındır; hospital hastane, library kütüphanedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8700,7 +8700,7 @@
           "A park"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “A hospital” ifadesidir. A doctor works here and helps sick people. Which place is it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Doctor doktor, sick people hasta insanlar demektir. Doktorların hastalara yardım ettiği yer hospital, yani hastanedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8715,7 +8715,7 @@
           "In the bank"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “In the playground” ifadesidir. Children play on swings here. Where are they? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Swings salıncaklar demektir. Çocukların salıncakta oynadığı yer playground, yani oyun alanıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8730,7 +8730,7 @@
           "At the bus stop"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “At the bus stop” ifadesidir. I wait here to get on a bus. Where am I? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Get on a bus otobüse binmek demektir. Otobüsü beklediğimiz yer bus stop, yani otobüs durağıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8745,7 +8745,7 @@
           "The post office"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “The zoo” ifadesidir. We want to see lions and zebras. Which place can we visit? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Lions aslanlar, zebras zebralar demektir. Bu hayvanları görmek için zoo, yani hayvanat bahçesi ziyaret edilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -8760,7 +8760,7 @@
           "The swimming pool"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “The post office” ifadesidir. I want to send a letter. Which place can help me? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Send a letter mektup göndermek demektir. Bunun için post office, yani postane kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10797,14 +10797,14 @@
     "questions": [
       {
         "id": "T2-G3-MATE-NESNEL-11",
-        "question": "Bir mağazada 29 adet kuş ve 116 adet öğrenci bulunmaktadır. Toplam kuş ve öğrenci sayısı kaçtır?",
+        "question": "Dört eş kare, aralarında boşluk kalmadan yan yana diziliyor. Dış sınırı izlediğimizde hangi şekil oluşur?",
         "choices": [
-          "145",
-          "150",
-          "142"
+          "Dikdörtgen",
+          "Üçgen",
+          "Çember"
         ],
         "correctAnswer": 0,
-        "explanation": "Kuş sayısı (29) ile Öğrenci sayısı (116) toplanır: 29 + 116 = 145 bulunur.",
+        "explanation": "Dört karenin toplam uzunluğu tek karenin kenarından büyük olur. Dış sınırın karşılıklı kenarları eşit olan bir dikdörtgen oluşur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10812,14 +10812,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-12",
-        "question": "Bir mağazada 40 adet silgi ve 280 adet köpek bulunmaktadır. Toplam silgi ve köpek sayısı kaçtır?",
+        "question": "Bir kâğıdın sol yarısına küçük bir üçgen çiziliyor. Kâğıt dikey çizgiden katlanınca iki yarıdaki şekiller tam örtüşüyor. Sağdaki üçgen için ne söylenebilir?",
         "choices": [
-          "325",
-          "320",
-          "317"
+          "Soldakiyle aynı yerde bulunur.",
+          "Soldakinin simetriğidir.",
+          "Soldakinden daha büyüktür."
         ],
         "correctAnswer": 1,
-        "explanation": "Silgi sayısı (40) ile Köpek sayısı (280) toplanır: 40 + 280 = 320 bulunur.",
+        "explanation": "Katlama çizgisinin iki yanında aynı uzaklıkta bulunan ve katlanınca örtüşen şekiller birbirinin simetriğidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10827,14 +10827,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-13",
-        "question": "Bir mağazada 25 adet göl ve 200 adet kapı bulunmaktadır. Toplam göl ve kapı sayısı kaçtır?",
+        "question": "Bir küpün yalnız üst ve alt yüzü boyanıyor. Boyanmayan kaç yüzü kalır?",
         "choices": [
-          "222",
-          "230",
-          "225"
+          "3",
+          "5",
+          "4"
         ],
         "correctAnswer": 2,
-        "explanation": "Göl sayısı (25) ile Kapı sayısı (200) toplanır: 25 + 200 = 225 bulunur.",
+        "explanation": "Küpün 6 yüzü vardır. İkisi boyanınca 6 − 2 = 4 yüz boyanmamış kalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10842,14 +10842,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-14",
-        "question": "Bir mağazada 34 adet araba ve 136 adet yıldız bulunmaktadır. Toplam araba ve yıldız sayısı kaçtır?",
+        "question": "Ece kareyi, Ali dikdörtgeni anlatıyor. İkisinin de kendi şekli için söyleyebileceği özellik hangisidir?",
         "choices": [
-          "170",
-          "175",
-          "167"
+          "Dört köşesi vardır.",
+          "Bütün kenarları her zaman eşittir.",
+          "Üç kenarı vardır."
         ],
         "correctAnswer": 0,
-        "explanation": "Araba sayısı (34) ile Yıldız sayısı (136) toplanır: 34 + 136 = 170 bulunur.",
+        "explanation": "Kare de dikdörtgen de dört kenarlı ve dört köşelidir. Her dikdörtgenin bütün kenarları eşit olmak zorunda değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10857,14 +10857,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-15",
-        "question": "Bir mağazada 15 adet göl ve 75 adet su bulunmaktadır. Toplam göl ve su sayısı kaçtır?",
+        "question": "Bir örüntüde sıra kare, üçgen, çember biçiminde tekrar ediyor. İlk şekil kare olduğuna göre 8. şekil hangisidir?",
         "choices": [
-          "95",
-          "90",
-          "87"
+          "Çember",
+          "Üçgen",
+          "Kare"
         ],
         "correctAnswer": 1,
-        "explanation": "Göl sayısı (15) ile Su sayısı (75) toplanır: 15 + 75 = 90 bulunur.",
+        "explanation": "Örüntü üçlü gruplardan oluşur. 6. şekilden sonra 7. kare, 8. üçgen gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10872,14 +10872,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-16",
-        "question": "Bir mağazada 30 adet kuş ve 90 adet yıldız bulunmaktadır. Toplam kuş ve yıldız sayısı kaçtır?",
+        "question": "Bir silindiri düz yüzlerinden biri üzerine koyan çocuk, bu yüzün çevresini kâğıda çiziyor. Hangi çizgiyi elde eder?",
         "choices": [
-          "117",
-          "125",
-          "120"
+          "Kare",
+          "Üçgen",
+          "Çember"
         ],
         "correctAnswer": 2,
-        "explanation": "Kuş sayısı (30) ile Yıldız sayısı (90) toplanır: 30 + 90 = 120 bulunur.",
+        "explanation": "Silindirin düz tabanı daire biçimindedir. Dairenin çevresini çizince çember elde edilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10887,14 +10887,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-17",
-        "question": "Bir mağazada 33 adet masa ve 132 adet silgi bulunmaktadır. Toplam masa ve silgi sayısı kaçtır?",
+        "question": "Bir kare yalnız bir köşegeni boyunca kesiliyor. Oluşan iki parça için hangi ifade doğrudur?",
         "choices": [
-          "170",
-          "165",
-          "162"
+          "İki eş üçgen oluşur.",
+          "İki farklı büyüklükte kare oluşur.",
+          "Bir kare ve bir çember oluşur."
         ],
-        "correctAnswer": 1,
-        "explanation": "Masa sayısı (33) ile Silgi sayısı (132) toplanır: 33 + 132 = 165 bulunur.",
+        "correctAnswer": 0,
+        "explanation": "Köşegen, karenin karşılıklı iki köşesini birleştirir ve kareyi aynı büyüklükte iki üçgene ayırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10902,14 +10902,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-18",
-        "question": "Bir mağazada 36 adet kuş ve 180 adet öğrenci bulunmaktadır. Toplam kuş ve öğrenci sayısı kaçtır?",
+        "question": "Bir çocuk küp ile dikdörtgenler prizmasını karşılaştırıyor. Hangisi bu iki cismin ortak özelliğidir?",
         "choices": [
-          "213",
-          "221",
-          "216"
+          "Köşelerinin bulunmaması",
+          "Altı yüzünün bulunması",
+          "Bütün yüzlerinin kare olması"
         ],
-        "correctAnswer": 2,
-        "explanation": "Kuş sayısı (36) ile Öğrenci sayısı (180) toplanır: 36 + 180 = 216 bulunur.",
+        "correctAnswer": 1,
+        "explanation": "Her iki cismin de 6 yüzü vardır. Dikdörtgenler prizmasının bütün yüzlerinin kare olması gerekmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10917,14 +10917,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-19",
-        "question": "Bir mağazada 33 adet ateş ve 132 adet masa bulunmaktadır. Toplam ateş ve masa sayısı kaçtır?",
+        "question": "Bir üçgenin her kenarının ortasına bir nokta, her köşesine de bir nokta konuyor. Toplam kaç nokta vardır?",
         "choices": [
-          "162",
-          "170",
-          "165"
+          "3",
+          "9",
+          "6"
         ],
         "correctAnswer": 2,
-        "explanation": "Ateş sayısı (33) ile Masa sayısı (132) toplanır: 33 + 132 = 165 bulunur.",
+        "explanation": "Üçgenin 3 kenarı ve 3 köşesi vardır. Kenar ortalarındaki 3 nokta ile köşelerdeki 3 nokta toplam 6 eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10932,14 +10932,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-20",
-        "question": "Bir mağazada 34 adet armut ve 204 adet ev bulunmaktadır. Toplam armut ve ev sayısı kaçtır?",
+        "question": "Üç eş kare L biçiminde birleştiriliyor: iki kare yan yana, üçüncü kare soldakinin üstündedir. Dış sınırda kaç kare kenarı uzunluğunda parça vardır?",
         "choices": [
-          "238",
-          "243",
-          "235"
+          "8",
+          "10",
+          "12"
         ],
         "correctAnswer": 0,
-        "explanation": "Armut sayısı (34) ile Ev sayısı (204) toplanır: 34 + 204 = 238 bulunur.",
+        "explanation": "Üç karenin toplam 12 kenarı vardır. Ortak olan iki kenar çifti dış sınırda sayılmaz: 12 − 4 = 8.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10960,14 +10960,14 @@
     "questions": [
       {
         "id": "T2-G3-MATE-VERIYE-01",
-        "question": "Bir mağazada 35 adet ev ve 315 adet muz bulunmaktadır. Toplam ev ve muz sayısı kaçtır?",
+        "question": "Bir sınıfta 9 öğrenci elma, 7 öğrenci muz, 8 öğrenci çilek seçiyor. Her öğrenci tek seçim yaptığına göre ankete kaç öğrenci katılmıştır?",
         "choices": [
-          "350",
-          "355",
-          "347"
+          "24",
+          "23",
+          "25"
         ],
         "correctAnswer": 0,
-        "explanation": "Ev sayısı (35) ile Muz sayısı (315) toplanır: 35 + 315 = 350 bulunur.",
+        "explanation": "Üç grubun sayıları toplanır: 9 + 7 + 8 = 24 öğrenci.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10975,14 +10975,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-02",
-        "question": "Bir mağazada 41 adet araba ve 246 adet toprak bulunmaktadır. Toplam araba ve toprak sayısı kaçtır?",
+        "question": "Bir nesne grafiğinde her kitap resmi 3 kitabı gösteriyor. Pazartesi 4, salı 6 resim var. Salı günü kaç kitap daha fazla okunmuştur?",
         "choices": [
-          "292",
-          "287",
-          "284"
+          "10",
+          "6",
+          "2"
         ],
         "correctAnswer": 1,
-        "explanation": "Araba sayısı (41) ile Toprak sayısı (246) toplanır: 41 + 246 = 287 bulunur.",
+        "explanation": "İki günün farkı 6 − 4 = 2 resimdir. Her resim 3 kitabı gösterdiğinden fark 2 × 3 = 6 kitaptır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10990,14 +10990,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-03",
-        "question": "Bir mağazada 11 adet pencere ve 22 adet ev bulunmaktadır. Toplam pencere ve ev sayısı kaçtır?",
+        "question": "Spor anketinde futbolu 12, basketbolu 9, voleybolu 7 öğrenci seçti. Basketbolu seçen 3 öğrenci fikrini voleybol olarak değiştirirse en az hangi spor seçilir?",
         "choices": [
-          "38",
-          "33",
-          "30"
+          "Voleybol",
+          "Futbol",
+          "Basketbol"
         ],
-        "correctAnswer": 1,
-        "explanation": "Pencere sayısı (11) ile Ev sayısı (22) toplanır: 11 + 22 = 33 bulunur.",
+        "correctAnswer": 2,
+        "explanation": "Basketbol 9 − 3 = 6, voleybol 7 + 3 = 10 olur. Futbol 12 olduğundan en küçük sayı basketboldadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11005,14 +11005,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-04",
-        "question": "Bir mağazada 34 adet kitap ve 306 adet ağaç bulunmaktadır. Toplam kitap ve ağaç sayısı kaçtır?",
+        "question": "Bir haftanın beş okul gününde hava 2 gün güneşli, 1 gün yağmurlu, kalan günler bulutludur. Kaç gün bulutludur?",
         "choices": [
-          "340",
-          "345",
-          "337"
+          "2",
+          "3",
+          "4"
         ],
         "correctAnswer": 0,
-        "explanation": "Kitap sayısı (34) ile Ağaç sayısı (306) toplanır: 34 + 306 = 340 bulunur.",
+        "explanation": "Bilinen günler 2 + 1 = 3 eder. Beş günden çıkarılır: 5 − 3 = 2 bulutlu gün.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11020,14 +11020,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-05",
-        "question": "Bir mağazada 11 adet ateş ve 66 adet defter bulunmaktadır. Toplam ateş ve defter sayısı kaçtır?",
+        "question": "Bir tabloda Ali 15, Ece 18, Can 12 sayfa okumuştur. Ali ile Can birlikte Ece’den kaç sayfa fazla okumuştur?",
         "choices": [
-          "74",
-          "82",
-          "77"
+          "15",
+          "9",
+          "6"
         ],
-        "correctAnswer": 2,
-        "explanation": "Ateş sayısı (11) ile Defter sayısı (66) toplanır: 11 + 66 = 77 bulunur.",
+        "correctAnswer": 1,
+        "explanation": "Ali ve Can toplam 15 + 12 = 27 sayfa okur. 27 − 18 = 9 sayfa fazladır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11035,14 +11035,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-06",
-        "question": "Bir mağazada 40 adet ağaç ve 80 adet öğretmen bulunmaktadır. Toplam ağaç ve öğretmen sayısı kaçtır?",
+        "question": "Bir grafikte her çiçek resmi 2 fidanı temsil ediyor. 14 fidanı göstermek için kaç çiçek resmi gerekir?",
         "choices": [
-          "117",
-          "125",
-          "120"
+          "12",
+          "16",
+          "7"
         ],
         "correctAnswer": 2,
-        "explanation": "Ağaç sayısı (40) ile Öğretmen sayısı (80) toplanır: 40 + 80 = 120 bulunur.",
+        "explanation": "14 fidan, ikişerli gruplara ayrılır: 14 ÷ 2 = 7 resim gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11050,14 +11050,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-07",
-        "question": "Bir mağazada 50 adet kuş ve 450 adet göl bulunmaktadır. Toplam kuş ve göl sayısı kaçtır?",
+        "question": "Sınıftaki öğrencilerin en sevdiği oyun araştırılacaktır. Hangi soru bu araştırma için uygun veri sağlar?",
         "choices": [
-          "500",
-          "505",
-          "497"
+          "En sevdiğin oyun hangisidir?",
+          "Bugün kaç kalem getirdin?",
+          "Evin okula ne kadar uzak?"
         ],
         "correctAnswer": 0,
-        "explanation": "Kuş sayısı (50) ile Göl sayısı (450) toplanır: 50 + 450 = 500 bulunur.",
+        "explanation": "Araştırma oyun tercihini öğrenmek istiyor. Doğrudan en sevilen oyunu soran soru bu bilgiye ulaşır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11065,14 +11065,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-08",
-        "question": "Bir mağazada 29 adet hava ve 174 adet toprak bulunmaktadır. Toplam hava ve toprak sayısı kaçtır?",
+        "question": "Bir kantinde sabah 16, öğlen 21 ayran satıldı. Günlük toplamın 50 olması için öğleden sonra kaç ayran satılmalıdır?",
         "choices": [
-          "200",
-          "208",
-          "203"
+          "29",
+          "13",
+          "17"
         ],
-        "correctAnswer": 2,
-        "explanation": "Hava sayısı (29) ile Toprak sayısı (174) toplanır: 29 + 174 = 203 bulunur.",
+        "correctAnswer": 1,
+        "explanation": "Sabah ve öğlen toplamı 16 + 21 = 37’dir. Hedefe ulaşmak için 50 − 37 = 13 ayran daha satılmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11080,14 +11080,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-09",
-        "question": "Bir mağazada 41 adet öğretmen ve 164 adet buz bulunmaktadır. Toplam öğretmen ve buz sayısı kaçtır?",
+        "question": "Bir çetelede kırmızı için iki beşlik grup ve iki çizgi, mavi için bir beşlik grup ve dört çizgi vardır. Kırmızı maviye göre kaç fazladır?",
         "choices": [
-          "202",
-          "210",
-          "205"
+          "2",
+          "5",
+          "3"
         ],
         "correctAnswer": 2,
-        "explanation": "Öğretmen sayısı (41) ile Buz sayısı (164) toplanır: 41 + 164 = 205 bulunur.",
+        "explanation": "Kırmızı 5 + 5 + 2 = 12, mavi 5 + 4 = 9’dur. Fark 12 − 9 = 3.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -11095,14 +11095,14 @@
       },
       {
         "id": "T2-G3-MATE-VERIYE-10",
-        "question": "Bir mağazada 17 adet köpek ve 51 adet ev bulunmaktadır. Toplam köpek ve ev sayısı kaçtır?",
+        "question": "Bir kitaplıkta masal 20, şiir 14, öykü 18 adettir. Hangi iki türün toplamı 38 kitaptır?",
         "choices": [
-          "73",
-          "68",
-          "65"
+          "Masal ve öykü",
+          "Masal ve şiir",
+          "Şiir ve öykü"
         ],
-        "correctAnswer": 1,
-        "explanation": "Köpek sayısı (17) ile Ev sayısı (51) toplanır: 17 + 51 = 68 bulunur.",
+        "correctAnswer": 0,
+        "explanation": "Masal ve öykü 20 + 18 = 38 eder. Diğer iki toplam 34 ve 32’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13103,14 +13103,14 @@
     "questions": [
       {
         "id": "T2-G3-FEN -TOPRAĞ-01",
-        "question": "'Okul' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "İki eş saksıya aynı tür tohum ekiliyor. Birine her gün, diğerine hiç su verilmiyor. Bu deneyde hangi etkenin etkisi araştırılır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Suyun",
+          "Saksı renginin",
+          "Tohum türünün"
         ],
         "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Saksı ve tohum aynı tutulmuş, yalnız su verme durumu değiştirilmiştir. Bu yüzden suyun etkisi araştırılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13118,14 +13118,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-02",
-        "question": "'Defter' ve 'Deniz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir bahçenin eğimli bölümünde yağmurdan sonra toprağın aşağı taşındığı görülüyor. Bitki dikmek neden yardımcı olur?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Bitkiler eğimi yok eder.",
+          "Kökler toprağı tutar.",
+          "Yapraklar bütün yağmuru durdurur."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Defter' ve 'Deniz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Bitki kökleri toprağın tutunmasını sağlar ve suyla taşınmasını azaltır. Yağmuru tamamen kesmez veya eğimi ortadan kaldırmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13133,14 +13133,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-03",
-        "question": "'Dağ' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrenci kuru toprak örneğine yavaşça su dökünce kabarcıklar görüyor. Bu gözlem neyi gösterir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Toprağın yalnız sudan oluştuğunu",
+          "Bütün taşların eridiğini",
+          "Toprağın boşluklarında hava bulunduğunu"
         ],
         "correctAnswer": 2,
-        "explanation": "'Dağ' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Su boşluklara girerken oradaki hava dışarı çıkar ve kabarcık oluşturur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13148,14 +13148,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-04",
-        "question": "'Defter' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çiftçi aynı tarlayı uzun süre aşırı suluyor ve bitkilerin kök çevresi sürekli su içinde kalıyor. Hangi değişiklik daha uygundur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Toprağın ve bitkinin ihtiyacına göre sulamak",
+          "Her gün daha çok su vermek",
+          "Bitkileri tamamen karanlığa taşımak"
         ],
         "correctAnswer": 0,
-        "explanation": "'Defter' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Aşırı su köklerin hava almasını güçleştirebilir. Sulama, toprağın nemine ve bitkinin gereksinimine göre ayarlanmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13163,14 +13163,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-05",
-        "question": "'Buz' ve 'Öğretmen' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Toprak örneğinde küçük taşlar, kurumuş yaprak parçaları ve ince tanecikler var. Hangi sonuç çıkarılabilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Toprakta hiçbir canlı izi yoktur.",
+          "Toprak farklı maddeler içerir.",
+          "Toprak tek tür taştan oluşur."
         ],
         "correctAnswer": 1,
-        "explanation": "'Buz' ve 'Öğretmen' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Gözlenen taş, yaprak ve tanecikler farklı bileşenlerdir. Yaprak parçaları canlı kalıntılarına da örnektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13208,14 +13208,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-08",
-        "question": "'Çanta' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir tarladaki plastik atıklar toprağa karışmış. Toprağı korumak için hangi uygulama sorunun kaynağına yöneliktir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Tarlaya daha çok plastik bırakmak",
+          "Atıkları uygun biçimde toplayıp ayrıştırmak",
+          "Atıkları toprağın altına saklamak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Çanta' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Atıkları toplamak kirletici maddeleri ortamdan uzaklaştırır. Gömmek sorunu çözmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13223,14 +13223,14 @@
       },
       {
         "id": "T2-G3-FEN -TOPRAĞ-09",
-        "question": "'Su' ve 'Ev' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çiftçi ürününü hasat ettikten sonra yeni ekim yapacak. Toprağın durumunu incelemesi neden yararlıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Tohumların hiç su istememesini sağlamak için",
+          "Bütün bitkilerin aynı gün büyümesini sağlamak için",
+          "Uygun bakım ve ekim koşullarını belirlemek için"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Su' ve 'Ev' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Toprağın nemi ve yapısı ekim ve bakım kararlarını etkiler. İnceleme bitkilerin gereksinimini ortadan kaldırmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13281,14 +13281,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-12",
-        "question": "'Okul' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir kuş ormandaki ağaçlara yuva yapıyor ve böceklerle besleniyor. Ağaçların kesilmesi hangi iki ihtiyacını etkileyebilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Yalnız uyku saati",
+          "Barınma ve beslenme",
+          "Yalnız oyun oynama"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Okul' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Ağaçlar kuşa yuva alanı sağlar; çevredeki besin canlılarının yaşamını da destekler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13311,14 +13311,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-14",
-        "question": "'Deniz' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir dere temizlendikten sonra daha çok su canlısı gözleniyor. Hangi çıkarım bu gözlemle uyumludur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Temiz çevre canlıların yaşamasını destekleyebilir.",
+          "Bütün canlılar kirli suyu tercih eder.",
+          "Temizlenen derede hiç besin bulunmaz."
         ],
         "correctAnswer": 0,
-        "explanation": "'Deniz' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Kirliliğin azalması canlıların yaşam koşullarını iyileştirebilir. Tek gözlem bütün canlılar için kesin sayı vermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13341,14 +13341,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-16",
-        "question": "'Defter' ve 'Hava' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir okul bahçesine yerel bitkiler dikiliyor. Bu uygulama küçük canlılara nasıl yarar sağlayabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Bütün canlıların su ihtiyacını yok eder.",
+          "Bahçeye hiçbir canlı gelmesini engeller.",
+          "Besin ve barınma alanları oluşturabilir."
         ],
         "correctAnswer": 2,
-        "explanation": "'Defter' ve 'Hava' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Bitkiler bazı canlılara besin, gölge ve saklanma alanı sağlayarak yaşam alanını destekler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13356,14 +13356,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-17",
-        "question": "'Armut' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Doğa gezisinde bir yuvada yavru kuşlar görülüyor. Hangi davranış yaşam alanını korur?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Yuvaya dokunmadan uzaktan gözlemlemek",
+          "Yuvayı sınıfa götürmek",
+          "Yavruları sürekli elden ele dolaştırmak"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Armut' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Uzaktan gözlem, kuşları ve yuvalarını rahatsız etmeden bilgi edinmeyi sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13371,14 +13371,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-18",
-        "question": "'Çanta' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir ormanda tek bir tür bitki değil, çok farklı bitkiler ve hayvanlar bulunuyor. Bu gözlem neyi gösterir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ormanda yalnız ağaçların yaşadığını",
+          "Yaşam alanında canlı çeşitliliği bulunduğunu",
+          "Bütün canlıların aynı besini yediğini"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Çanta' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Farklı bitki ve hayvan türleri, aynı yaşam alanındaki canlı çeşitliliğine örnektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13386,14 +13386,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-19",
-        "question": "'Araba' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir sulak alana bina yapmak için su boşaltılıyor. Burada yaşayan kurbağalar için beklenen sorun hangisidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Hepsinin kanat geliştirmesi",
+          "Artık suya ihtiyaç duymamaları",
+          "Uygun yaşam ve üreme alanlarının azalması"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Araba' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Sulak alanın kaybı, suya bağlı canlıların barınma ve üreme koşullarını azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -13401,14 +13401,14 @@
       },
       {
         "id": "T2-G3-FEN -CANLIL-20",
-        "question": "'Toprak' ve 'Okul' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrenci doğada bulduğu taşı kaldırıp altındaki küçük canlıları gözlemliyor. Gözlemden sonra ne yapması uygundur?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Taşı canlılara zarar vermeden eski yerine bırakmak",
+          "Canlıları güneşte açıkta bırakmak",
+          "Taşın altına deterjan dökmek"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Toprak' ve 'Okul' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Taşı dikkatle yerine koymak küçük canlıların barınma ortamının korunmasına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -15311,12 +15311,12 @@
     "classLevel": 4,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "dogal-sayilar",
-    "topicName": "Doğal Sayılar",
+    "topic": "carpma",
+    "topicName": "Çarpma",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-matematik-dogal-sayilar-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-dogal-sayilar-zor-test-2.html",
+    "slug": "4-sinif-matematik-carpma-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-carpma-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-MATE-DOĞALS-01",
@@ -15328,7 +15328,7 @@
           "95.000"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 35 ve 24 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 91.400 çıkmaktadır.",
+        "explanation": "Koltuk sayısı 35 × 24 = 840’tır. Öğrenci olmayan 840 − 340 = 500 kişi vardır. Gelir 500 × 125 + 340 × 85 = 62.500 + 28.900 = 91.400 TL olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_1",
@@ -15344,7 +15344,7 @@
           "146.160"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 145 ve 42 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 146.160 çıkmaktadır.",
+        "explanation": "Bir ayda 145 × 42 = 6.090 palet taşınır. Her palette 24 koli olduğundan 6.090 × 24 = 146.160 koli taşınmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_2",
@@ -15360,7 +15360,7 @@
           "14.490"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 345 ve 42 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12.420 çıkmaktadır.",
+        "explanation": "Doğru işlem 345 × 42 = 14.490’dır. Kaydırma yapılmazsa 345 × 2 + 345 × 4 = 2.070 bulunur. Aradaki fark 14.490 − 2.070 = 12.420’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_3",
@@ -15376,7 +15376,7 @@
           "400"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 185 ve 75 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 325 çıkmaktadır.",
+        "explanation": "Gömlekler 185 × 75 = 13.875 TL, pantolonlar 240 × 45 = 10.800 TL tutar. Toplam 24.675 TL için 25.000 TL verildiğinde 325 TL para üstü alınır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_4",
@@ -15392,7 +15392,7 @@
           "9.252"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru işlem: 264 x 35 = 9240. Hatalı işlem: 464 x 38 = 17632. Aradaki fark 17632 - 9240 = 8392'dir.",
+        "explanation": "Doğru çarpım 264 × 35 = 9.240’tır. Yanlış okunan sayılarla 464 × 38 = 17.632 bulunur. Fark 17.632 − 9.240 = 8.392’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_5",
@@ -15408,7 +15408,7 @@
           "35.420"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 215 ve 30 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 35.420 çıkmaktadır.",
+        "explanation": "45 günde 215 × 45 = 9.675 yumurta elde edilir. 30’lu 322 koli dolar ve 15 yumurta artar. Satılan kolilerin geliri 322 × 110 = 35.420 TL olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_6",
@@ -15424,7 +15424,7 @@
           "290.000"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 675 ve 30 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 283.500 çıkmaktadır.",
+        "explanation": "Bir günde 675 × 14 = 9.450 metre koşulur. Nisanın 30 gününde 9.450 × 30 = 283.500 metre koşulmuştur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_7",
@@ -15440,7 +15440,7 @@
           "Kampanyalı Dönem / 25.400"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 875 ve 124 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Kampanyalı Dönem / 26.800 çıkmaktadır.",
+        "explanation": "Kampanyalı satışların geliri 875 × 124 = 108.500 TL, diğer dönemin geliri 950 × 86 = 81.700 TL’dir. Kampanyalı dönemin geliri 26.800 TL fazladır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_8",
@@ -15456,7 +15456,7 @@
           "115.000"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 245 ve 180 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 110.400 çıkmaktadır.",
+        "explanation": "Şehir içi tutar 245 × 120 = 29.400 kuruş, şehir dışı tutar 180 × 450 = 81.000 kuruştur. Toplam 110.400 kuruş olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_9",
@@ -15464,537 +15464,18 @@
       },
       {
         "id": "T2-G4-MATE-DOĞALS-10",
-        "question": "Kütüphaneye 325 sayfalık 48 adet roman, 140 sayfalık 115 adet şiir kitabı gelmiştir. Romanların toplam sayfa sayısı, şiir kitaplarının toplam sayfa sayısından kaç fazladır?",
+        "question": "Kütüphaneye 325 sayfalık 48 roman ve 140 sayfalık 115 şiir kitabı gelmiştir. Hangi kitap türünün toplam sayfa sayısı daha fazladır ve aradaki fark kaç sayfadır?",
         "choices": [
-          "-1000",
-          "500 (Romanlar daha fazladır)",
-          "1000",
-          "-500 (Şiirler daha fazladır)"
+          "Romanlar 1.000 sayfa fazla",
+          "Romanlar 500 sayfa fazla",
+          "Şiir kitapları 1.000 sayfa fazla",
+          "Şiir kitapları 500 sayfa fazla"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 325 ve 48 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı -500 (Şiirler daha fazladır) çıkmaktadır.",
+        "explanation": "Romanlar 325 × 48 = 15.600, şiir kitapları 140 × 115 = 16.100 sayfadır. Şiir kitaplarının toplamı 500 sayfa fazladır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_3_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 4,
-    "subject": "matematik",
-    "subjectName": "Matematik",
-    "topic": "toplama",
-    "topicName": "Toplama",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "4-sinif-matematik-toplama-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-toplama-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G4-MATE-TOPLAM-01",
-        "question": "Bir okul 415 öğrenci ile geziye çıkacaktır. Otobüslerin her biri en fazla 42 yolcu kapasitelidir. Tüm öğrencilerin geziye katılabilmesi için en az kaç otobüs kiralanmalıdır?",
-        "choices": [
-          "9",
-          "11",
-          "10",
-          "12"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 415 ve 42 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 10 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-02",
-        "question": "Bir bölme işleminde bölen 34'tür. Bölüm 25 olduğuna göre, bölünen sayının alabileceği en büyük değer ile en küçük değerin toplamı kaçtır?",
-        "choices": [
-          "1700",
-          "1733",
-          "1724",
-          "1783"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 1733 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-03",
-        "question": "875 litre zeytinyağı, her biri 18 litre alan tenekelere doldurulacaktır. Tamamen dolmayan tenekeler satılmayacaktır. Satışa sunulamayan yağ miktarı kaç litredir?",
-        "choices": [
-          "11",
-          "9",
-          "13",
-          "15"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 875 ve 18 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 11 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-04",
-        "question": "Bir çiçekçi 560 adet gülü 12'şerli buketler yapıyor. Buketleri 150 TL'den, artan gülleri ise tanesi 15 TL'den satıyor. Toplam kaç TL kazanmıştır?",
-        "choices": [
-          "7.020",
-          "6.900",
-          "7.150",
-          "7.200"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 560 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 7.020 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-05",
-        "question": "972 sayfalık bir kitabı 36 günde bitirmeyi planlayan Ayşe, ilk 10 gün planladığından 5'er sayfa eksik okumuştur. Kitabı vaktinde bitirmesi için kalan günlerde günde ortalama kaç sayfa okumalıdır?",
-        "choices": [
-          "25",
-          "27",
-          "29",
-          "30"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 972 ve 36 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 29 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-06",
-        "question": "Paketlenen vidaların toplam ağırlığı 855 gramdır. Her vida 15 gramdır. 45 paket sipariş edilirse toplam kaç vida gönderilmiş olur?",
-        "choices": [
-          "2.805",
-          "2.655",
-          "2.750",
-          "2.565"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 855 ve 15 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2.565 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-07",
-        "question": "648 adet kalem, tamamen dolacak şekilde önce 24'lük kutulara, kalanlar 15'lik kutulara konacaktır (15'lik kutular tam dolmak zorunda değil). Toplam kaç kutu kullanılmıştır?",
-        "choices": [
-          "26",
-          "30",
-          "28",
-          "27"
-        ],
-        "correctAnswer": 3,
-        "explanation": "648 ÷ 24 = 27'dir. Hiç kalem artmadığı için ekstra bir kutuya (15'lik) ihtiyaç yoktur. Toplam 27 kutu kullanılır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-08",
-        "question": "\"8A4\" üç basamaklı sayısı 14'e kalansız bölünmektedir. A rakamının alabileceği değerlerin toplamı kaçtır?",
-        "choices": [
-          "4",
-          "6",
-          "5",
-          "12"
-        ],
-        "correctAnswer": 2,
-        "explanation": "854 sayısı 14'e kalansız bölünür (854 ÷ 14 = 61). Bu nedenle A rakamı 5 olmalıdır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-09",
-        "question": "Dedesi 7850 TL maaşından 450 TL ayırıp, kalanı 37 torununa eşit paylaştırıyor. Kalan bozukluklar sadakaya gidiyor. Sadaka kutusuna kaç TL atılmıştır?",
-        "choices": [
-          "12",
-          "0",
-          "15",
-          "20"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Bölme veya paylaştırma işlemi yapıldığında ulaşılan sonuç 0 olmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-TOPLAM-10",
-        "question": "Mert, \"A7B\" sayısını 23'e böldüğünde bölüm 38, kalan ise çift sayıdır. A + B en fazla kaç olabilir?",
-        "choices": [
-          "14",
-          "15",
-          "17",
-          "16"
-        ],
-        "correctAnswer": 3,
-        "explanation": "23 x 38 = 874. Kalan çift sayı olacaksa (0,2,4 vb) A7B formatında maksimum 878 olabilir. A=8, B=8 toplamı 16'dır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_4_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 4,
-    "subject": "matematik",
-    "subjectName": "Matematik",
-    "topic": "cikarma",
-    "topicName": "Çıkarma",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "4-sinif-matematik-cikarma-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-cikarma-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G4-MATE-ÇIKARM-01",
-        "question": "Yarışmacıların bitiş çizgisine olan uzaklıkları: Ali 3/8, Veli 5/8, Can 1/8, Cem 7/8. Bitiş çizgisine en yakından en uzağa doğru sıralama nasıldır?",
-        "choices": [
-          "Cem > Veli > Ali > Can",
-          "Can > Veli > Ali > Cem",
-          "Can > Ali > Veli > Cem",
-          "Ali > Can > Veli > Cem"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 3 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Can > Ali > Veli > Cem çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-02",
-        "question": "Ayşe Teyze reçel için 17/4 kilogram çilek almıştır. Bu kesrin tam sayılı kesir olarak gösterimi ve okunuşu hangisidir?",
-        "choices": [
-          "3 tam 5/4 (Üç tam dörtte beş)",
-          "5 tam 1/4 (Beş tam dörtte bir)",
-          "4 tam 3/4 (Dört tam dörtte üç)",
-          "4 tam 1/4 (Dört tam dörtte bir)"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '4 tam 1/4 (Dört tam dörtte bir)' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-03",
-        "question": "Sayı doğrusunda tam sayılar arası 5 eş parçaya bölünmüştür. 'K' noktası 2 tamı geçtikten sonraki 3. çizgidedir. K'nin bileşik kesir hali nedir?",
-        "choices": [
-          "11/5",
-          "12/5",
-          "13/5",
-          "14/5"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 5 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 13/5 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-04",
-        "question": "Pizzalar 6 dilimlidir. 19 dilim pizza yiyen bir grubun yediği miktar tam sayılı kesir olarak nedir?",
-        "choices": [
-          "2 tam 5/6",
-          "4 tam 1/6",
-          "3 tam 2/6",
-          "3 tam 1/6"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 6 ve 19 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 3 tam 1/6 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-05",
-        "question": "\"3 tam 2/5\" kesrinden 2 tam çıkarıldığında kalan miktarın bileşik kesir hali nedir?",
-        "choices": [
-          "5/5",
-          "6/5",
-          "8/5",
-          "7/5"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 3 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 7/5 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-06",
-        "question": "Aşağıdaki kesirlerden hangisi 1 tamdan büyük, 2 tamdan küçüktür?",
-        "choices": [
-          "4/5",
-          "12/7",
-          "8/8",
-          "17/5"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 1 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12/7 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-07",
-        "question": "24 dilimlik baklavanın 5/24'ü, sonra 11/24'ü yenmiştir. Kalan dilimlerin kesri, 1/2'den ne kadar eksiktir?",
-        "choices": [
-          "2/24",
-          "4/24",
-          "3/24",
-          "5/24"
-        ],
-        "correctAnswer": 1,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 4/24 olarak bulunur.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-08",
-        "question": "(A + 4) / 9 basit kesir ise A yerine yazılabilecek doğal sayıların toplamı kaçtır?",
-        "choices": [
-          "6",
-          "15",
-          "10",
-          "21"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 10 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-09",
-        "question": "120 sayfalık kitabın 1. gün 2/10'u, 2. gün 5/10'u, 3. gün kalanı okunmuştur. 3. gün kaç sayfa okunmuştur?",
-        "choices": [
-          "36",
-          "30",
-          "40",
-          "42"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 120 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 36 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇIKARM-10",
-        "question": "3, 5, 7, 8 kartlarından ikisiyle yazılabilecek en büyük bileşik kesir ile en küçük basit kesir hangileridir?",
-        "choices": [
-          "8/3 ve 3/8",
-          "8/5 ve 3/7",
-          "7/3 ve 5/8",
-          "8/3 ve 5/8"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 3 ve 5 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 8/3 ve 3/8 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_5_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 4,
-    "subject": "matematik",
-    "subjectName": "Matematik",
-    "topic": "carpma",
-    "topicName": "Çarpma",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "4-sinif-matematik-carpma-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-carpma-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G4-MATE-ÇARPMA-01",
-        "question": "16 dilimlik pastanın 2/16'sını Ahmet, 3/16'sını Elif, 4/16'sını Can yemiş, 2 dilim çöpe gitmiştir. Kalan yenebilir pasta tüm pastanın kaçta kaçıdır?",
-        "choices": [
-          "3/16",
-          "4/16",
-          "6/16",
-          "5/16"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 16 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 5/16 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-02",
-        "question": "18/5 metrelik tahtadan 4/5 ve 7/5 metrelik iki raf yapılıyor. Kalan tahta tam sayılı kesir olarak nedir?",
-        "choices": [
-          "1 tam 1/5",
-          "2 tam 1/5",
-          "1 tam 2/5",
-          "2 tam 2/5"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 18 ve 5 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1 tam 2/5 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-03",
-        "question": "Tarlanın 5/12'si domates, 3/12'si biber. Kalanın yarısından 1/12 eksiği salatalık, diğeri patlıcandır. Patlıcan ekili alan tarlanın kaçta kaçıdır?",
-        "choices": [
-          "4/12",
-          "2/12",
-          "3/12",
-          "1/12"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 5 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1/12 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-04",
-        "question": "Kargo aracı yolun 7/20'sini ve 8/20'sini gitmiştir. Geriye 45 km kalmıştır. Yolun tamamı kaç kilometredir?",
-        "choices": [
-          "160",
-          "180",
-          "200",
-          "220"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 7 ve 20 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 180 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-05",
-        "question": "A/15 + 4/15 = 11/15 ve 13/15 - B/15 = 7/15. (A+B)/15 kesrini 1 tam yapmak için kaç tane 1/15 eklenmelidir?",
-        "choices": [
-          "5",
-          "3",
-          "4",
-          "2"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 15 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-06",
-        "question": "Harçlığın 8/14'ü ile alınan kitap, 3/14'ü ile alınan defterden 60 TL pahalıdır. Harçlığın tamamı kaç TL'dir?",
-        "choices": [
-          "168",
-          "154",
-          "140",
-          "182"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 8 ve 14 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 168 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-07",
-        "question": "3 odanın duvarları: 1. oda 8/8, 2. oda 5/8, 3. oda 2/8 oranında boyanmıştır. Toplam boyanan alan bileşik kesir olarak nedir?",
-        "choices": [
-          "13/8",
-          "17/8",
-          "15/8",
-          "19/8"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 3 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 15/8 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-08",
-        "question": "(13/9 - 5/9) işlemi ile (2/9 + 4/9) işleminin sonuçları toplamı 2 tamdan ne kadar eksiktir?",
-        "choices": [
-          "2/9",
-          "4/9",
-          "3/9",
-          "5/9"
-        ],
-        "correctAnswer": 1,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 4/9 olarak bulunur.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-09",
-        "question": "17/20'si dolu deponun 9/20'si harcanıyor, 3/20 ekleniyor. Deponun dolması için kaçta kaç suya ihtiyaç vardır?",
-        "choices": [
-          "7/20",
-          "8/20",
-          "9/20",
-          "10/20"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 17 ve 20 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 9/20 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-ÇARPMA-10",
-        "question": "Mert 3/8, Kaan 5/8 pizza yemiştir. Toplam yenen, 2 tam pizzadan kaç dilim eksiktir?",
-        "choices": [
-          "8",
-          "7",
-          "6",
-          "9"
-        ],
-        "correctAnswer": 0,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 8 olarak bulunur.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_6_10",
         "sourceType": "EXISTING_V4B"
       }
     ]
@@ -16011,163 +15492,163 @@
     "pageUrl": "tests/4-sinif-matematik-bolme-zor-test-2.html",
     "questions": [
       {
-        "id": "T2-G4-MATE-BÖLME-01",
-        "question": "Saat 22:45'te kalkan otobüs, 7 saat 35 dakika yol gidiyor ve iki defa 25 dakikalık mola veriyor. Trabzon'a vardığında saat kaçtır?",
+        "id": "T2-G4-MATE-TOPLAM-01",
+        "question": "Bir okul 415 öğrenci ile geziye çıkacaktır. Otobüslerin her biri en fazla 42 yolcu kapasitelidir. Tüm öğrencilerin geziye katılabilmesi için en az kaç otobüs kiralanmalıdır?",
         "choices": [
-          "06:20",
-          "07:35",
-          "07:10",
-          "08:10"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 22 ve 45 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 07:10 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-02",
-        "question": "Raf ömrü \"3 yıl 8 ay 15 gün\" olan şurup 14 Mayıs 2023'te üretilmiştir. Son kullanma tarihi nedir? (Her ay 30 gün)",
-        "choices": [
-          "29 Şubat 2027",
-          "29 Ocak 2027",
-          "14 Ocak 2027",
-          "14 Şubat 2027"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 3 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 29 Ocak 2027 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-03",
-        "question": "4 dakika 20 saniyelik şarkının 135. saniyesinde elektrik kesiliyor. Şarkının bitmesine ne kadar süre kalmıştır?",
-        "choices": [
-          "1 dakika 55 saniye",
-          "2 dakika 05 saniye",
-          "2 dakika 15 saniye",
-          "2 dakika 25 saniye"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 4 ve 20 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2 dakika 05 saniye çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-04",
-        "question": "1. Yarış: 1 sa 15 dk 40 sn / 2. Yarış: 4500 sn / 3. Yarış: 85 dk 10 sn. Süreleri kısadan uzuna sıralayınız.",
-        "choices": [
-          "2 < 1 < 3",
-          "1 < 3 < 2",
-          "1 < 2 < 3",
-          "3 < 1 < 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 1 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1 < 2 < 3 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-05",
-        "question": "14 Haziran'da başlayan yaz okulu 8 hafta 4 gün sürüyor. Son gün hangi tarihtir?",
-        "choices": [
-          "12 Ağustos",
-          "11 Ağustos",
-          "10 Ağustos",
-          "13 Ağustos"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 14 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12 Ağustos çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-06",
-        "question": "Sabah 08:30'da başlayan mesai, 45 dakika yemek molasıyla 17:45'te bitiyor. Molalar hariç çalışma süresi nedir?",
-        "choices": [
-          "8 saat 15 dk",
-          "9 saat",
-          "8 saat 45 dk",
-          "8 saat 30 dk"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 08 ve 30 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 8 saat 30 dk çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-07",
-        "question": "Bugün Salı 14:20. Tam 100 saat sonra günlerden ne olur ve saat kaçtır?",
-        "choices": [
-          "Cumartesi 18:20",
-          "Cumartesi 19:20",
-          "Pazar 18:20",
-          "Pazar 19:20"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 14 ve 20 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Cumartesi 18:20 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-BÖLME-08",
-        "question": "2026 yılında Dede torununa \"Senin yaşındayken sene 1968'di\" diyor. Dede 1957 doğumluysa torun bugün kaç yaşındadır?",
-        "choices": [
-          "13",
-          "12",
+          "9",
           "11",
-          "14"
+          "10",
+          "12"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 2026 ve 1968 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 11 çıkmaktadır.",
+        "explanation": "9 otobüs 9 × 42 = 378 öğrenci taşır ve yetmez. 10 otobüs 420 öğrenci taşıyabildiği için gereken en az sayı 10’dur.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_8",
+        "sourceId": "Q_web_test_konu_4_1",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-BÖLME-09",
-        "question": "Akrebi 7-8 arası, yelkovanı 9'da olan saat öğleden sonra dijitalde kaçtır ve 45 dk sonra neyi gösterir?",
+        "id": "T2-G4-MATE-TOPLAM-02",
+        "question": "Bir bölme işleminde bölen 34'tür. Bölüm 25 olduğuna göre, bölünen sayının alabileceği en büyük değer ile en küçük değerin toplamı kaçtır?",
         "choices": [
-          "18:45 / 19:30",
-          "19:45 / 20:15",
-          "20:45 / 21:30",
-          "19:45 / 20:30"
+          "1700",
+          "1733",
+          "1724",
+          "1783"
         ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 7 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 19:45 / 20:30 çıkmaktadır.",
+        "correctAnswer": 1,
+        "explanation": "En küçük bölünen, kalan sıfırken 34 × 25 = 850’dir. Kalan en fazla 33 olabilir; en büyük bölünen 883’tür. Toplamları 850 + 883 = 1.733 olur.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_9",
+        "sourceId": "Q_web_test_konu_4_2",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-BÖLME-10",
-        "question": "Otopark: 1 saat bedava, 1-3 saat arası 40 TL, sonrası her saat 15 TL. 11:45'te giren araç 16:20'de çıkarsa kaç TL öder?",
+        "id": "T2-G4-MATE-TOPLAM-03",
+        "question": "875 litre zeytinyağı, her biri 18 litre alan tenekelere doldurulacaktır. Tamamen dolmayan tenekeler satılmayacaktır. Satışa sunulamayan yağ miktarı kaç litredir?",
         "choices": [
-          "55",
-          "100",
-          "85",
-          "70"
+          "11",
+          "9",
+          "13",
+          "15"
         ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 1 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 70 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "875 ÷ 18 işleminde bölüm 48, kalan 11’dir. Tam tenekelere 864 litre konur; satılamayan 11 litre kalır.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_7_10",
+        "sourceId": "Q_web_test_konu_4_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-04",
+        "question": "Bir çiçekçi 560 adet gülü 12'şerli buketler yapıyor. Buketleri 150 TL'den, artan gülleri ise tanesi 15 TL'den satıyor. Toplam kaç TL kazanmıştır?",
+        "choices": [
+          "7.020",
+          "6.900",
+          "7.150",
+          "7.200"
+        ],
+        "correctAnswer": 0,
+        "explanation": "560 gül ile 46 tam buket yapılır ve 8 gül artar. Gelir 46 × 150 + 8 × 15 = 6.900 + 120 = 7.020 TL’dir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-05",
+        "question": "972 sayfalık bir kitabı 36 günde, her gün eşit sayıda sayfa okuyarak bitirmeyi planlayan Ayşe, ilk 10 gün planladığından günde 5 sayfa az okumuştur. Kalan 26 gün boyunca her gün aynı sayıda sayfa okumaya çalışacaktır; son gün daha az okuyabilir. Kitabı zamanında bitirebilmesi için günlük hedefi en az kaç tam sayfa olmalıdır?",
+        "choices": [
+          "25",
+          "27",
+          "29",
+          "30"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Planlanan günlük sayı 972 ÷ 36 = 27’dir. İlk 10 günde 220 sayfa okununca 752 sayfa kalır. 26 × 28 = 728 yetmez; 26 × 29 = 754 yeter. Günlük hedef 29 sayfa olmalı, son gün kalan 27 sayfa okunmalıdır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-06",
+        "question": "Bir paketteki vidaların toplam kütlesi 855 gramdır; ambalajın kütlesi bu değere dahil değildir. Her vida 15 gramdır. Aynı içerikteki 45 paket sipariş edilirse toplam kaç vida gönderilir?",
+        "choices": [
+          "2.805",
+          "2.655",
+          "2.750",
+          "2.565"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bir pakette 855 ÷ 15 = 57 vida bulunur. 45 paket 57 × 45 = 2.565 vida içerir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-07",
+        "question": "648 adet kalem, tamamen dolacak şekilde önce 24'lük kutulara, kalanlar 15'lik kutulara konacaktır (15'lik kutular tam dolmak zorunda değil). Toplam kaç kutu kullanılmıştır?",
+        "choices": [
+          "26",
+          "30",
+          "28",
+          "27"
+        ],
+        "correctAnswer": 3,
+        "explanation": "648 ÷ 24 = 27 ve kalan sıfırdır. Bütün kalemler 27 kutuya sığar; 15’lik kutu gerekmez.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-08",
+        "question": "\"8A4\" üç basamaklı sayısı 14'e kalansız bölünmektedir. A rakamının alabileceği değerlerin toplamı kaçtır?",
+        "choices": [
+          "4",
+          "6",
+          "5",
+          "12"
+        ],
+        "correctAnswer": 2,
+        "explanation": "14’ün üç basamaklı katları arasında yüzler basamağı 8 ve birler basamağı 4 olan sayı 854’tür: 14 × 61 = 854. A yalnızca 5 olabilir; toplam da 5’tir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-09",
+        "question": "Dedesi 7850 TL maaşından 450 TL ayırıp, kalanı 37 torununa eşit paylaştırıyor. Kalan bozukluklar sadakaya gidiyor. Sadaka kutusuna kaç TL atılmıştır?",
+        "choices": [
+          "12",
+          "0",
+          "15",
+          "20"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dağıtılacak para 7.850 − 450 = 7.400 TL’dir. 7.400 ÷ 37 = 200 ve kalan sıfır olduğu için artan para yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-TOPLAM-10",
+        "question": "Mert, \"A7B\" sayısını 23'e böldüğünde bölüm 38, kalan ise çift sayıdır. A + B en fazla kaç olabilir?",
+        "choices": [
+          "14",
+          "15",
+          "17",
+          "16"
+        ],
+        "correctAnswer": 3,
+        "explanation": "23 × 38 = 874’tür. Onlar basamağı 7 kalacak ve kalan çift olacak şekilde 874, 876 ve 878 yazılabilir. En büyük rakam toplamı 878 için 8 + 8 = 16’dır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_4_10",
         "sourceType": "EXISTING_V4B"
       }
     ]
@@ -16184,163 +15665,509 @@
     "pageUrl": "tests/4-sinif-matematik-kesirler-zor-test-2.html",
     "questions": [
       {
-        "id": "T2-G4-MATE-KESIRL-01",
-        "question": "Bir ABC üçgeninde bir açı dik, diğeri en küçük iki basamaklı tek sayı (11)'dir. Üçüncü açı kaçtır?",
+        "id": "T2-G4-MATE-ÇIKARM-01",
+        "question": "Yarışmacıların bitiş çizgisine olan uzaklıkları: Ali 3/8, Veli 5/8, Can 1/8, Cem 7/8. Bitiş çizgisine en yakından en uzağa doğru sıralama nasıldır?",
         "choices": [
-          "79",
-          "69",
-          "81",
-          "89"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 79 sonucuna ulaşılır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-KESIRL-02",
-        "question": "Kare kağıt köşegenlerinden katlanıyor. Oluşan şeklin iç açısı en fazla kaç derecedir?",
-        "choices": [
-          "45",
-          "60",
-          "90",
-          "180"
+          "Cem, Veli, Ali, Can",
+          "Can, Veli, Ali, Cem",
+          "Can, Ali, Veli, Cem",
+          "Ali, Can, Veli, Cem"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 90 sonucuna ulaşılır.",
+        "explanation": "Paydalar aynı olduğunda küçük pay daha küçük uzaklığı gösterir. Uzaklıklar 1/8, 3/8, 5/8, 7/8 olduğundan en yakından en uzağa Can, Ali, Veli, Cem sıralanır.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_2",
+        "sourceId": "Q_web_test_konu_5_1",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-KESIRL-03",
-        "question": "Hangi harfin hem yatay hem dikey simetri ekseni vardır? (A, H, T, M)",
+        "id": "T2-G4-MATE-ÇIKARM-02",
+        "question": "Ayşe Teyze reçel için 17/4 kilogram çilek almıştır. Bu kesrin tam sayılı kesir olarak gösterimi ve okunuşu hangisidir?",
         "choices": [
-          "A",
-          "T",
-          "H",
-          "M"
+          "3 tam 5/4 (Üç tam dörtte beş)",
+          "5 tam 1/4 (Beş tam dörtte bir)",
+          "4 tam 3/4 (Dört tam dörtte üç)",
+          "4 tam 1/4 (Dört tam dörtte bir)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "17 ÷ 4 işleminde bölüm 4, kalan 1’dir. Bu nedenle 17/4 = 4 tam 1/4 olur ve dört tam dörtte bir diye okunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_5_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇIKARM-03",
+        "question": "Sayı doğrusunda tam sayılar arası 5 eş parçaya bölünmüştür. 'K' noktası 2 tamı geçtikten sonraki 3. çizgidedir. K'nin bileşik kesir hali nedir?",
+        "choices": [
+          "11/5",
+          "12/5",
+          "13/5",
+          "14/5"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında H sonucuna ulaşılır.",
+        "explanation": "2 tam, beşlik parçalardan 10 tanesidir. Buna 3 parça eklenince K noktası 13/5 olur.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_3",
+        "sourceId": "Q_web_test_konu_5_3",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-KESIRL-04",
-        "question": "Kısa kenarı 12 cm olan dikdörtgenin uzun kenarı kısa kenarın 3 katından 4 eksiktir. Çevresi kaçtır?",
+        "id": "T2-G4-MATE-ÇIKARM-04",
+        "question": "Pizzalar 6 dilimlidir. 19 dilim pizza yiyen bir grubun yediği miktar tam sayılı kesir olarak nedir?",
         "choices": [
-          "80",
-          "88",
-          "84",
-          "92"
+          "2 tam 5/6",
+          "4 tam 1/6",
+          "3 tam 2/6",
+          "3 tam 1/6"
+        ],
+        "correctAnswer": 3,
+        "explanation": "19 dilimde 3 tam pizza için 18 dilim ve ayrıca 1 dilim vardır. Her pizza 6 dilim olduğundan miktar 3 tam 1/6’dır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_5_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇIKARM-05",
+        "question": "\"3 tam 2/5\" kesrinden 2 tam çıkarıldığında kalan miktarın bileşik kesir hali nedir?",
+        "choices": [
+          "5/5",
+          "6/5",
+          "8/5",
+          "7/5"
+        ],
+        "correctAnswer": 3,
+        "explanation": "3 tam 2/5’ten 2 tam çıkınca 1 tam 2/5 kalır. Bir tam 5/5 olduğundan bileşik kesir 7/5’tir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_5_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇIKARM-06",
+        "question": "Aşağıdaki kesirlerden hangisi 1 tamdan büyük, 2 tamdan küçüktür?",
+        "choices": [
+          "4/5",
+          "12/7",
+          "8/8",
+          "17/5"
         ],
         "correctAnswer": 1,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 88 olarak bulunur.",
+        "explanation": "1 tam 7/7, 2 tam 14/7 olur. 12/7 bu ikisinin arasındadır. 4/5 birden küçük, 8/8 bire eşit, 17/5 ise ikiden büyüktür.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_4",
+        "sourceId": "Q_web_test_konu_5_6",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-KESIRL-05",
-        "question": "Bir açı dik açıdan 25 derece eksiktir. Doğru açıya tamamlamak için kaç derece gerekir?",
+        "id": "T2-G4-MATE-ÇIKARM-07",
+        "question": "24 dilimlik baklavanın 5/24'ü, sonra 11/24'ü yenmiştir. Kalan dilimlerin kesri, 1/2'den ne kadar eksiktir?",
         "choices": [
-          "105",
-          "110",
-          "125",
-          "115"
+          "2/24",
+          "4/24",
+          "3/24",
+          "5/24"
         ],
-        "correctAnswer": 3,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 115 olarak bulunur.",
+        "correctAnswer": 1,
+        "explanation": "Yenen miktar 5/24 + 11/24 = 16/24, kalan 8/24’tür. Yarım 12/24 olduğundan kalan miktar yarımdan 12/24 − 8/24 = 4/24 eksiktir.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_5",
+        "sourceId": "Q_web_test_konu_5_7",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-KESIRL-06",
-        "question": "Dört bayrak direği arası mesafe hep 5 metre, karşılıklı direklerin köşegen mesafeleri de eşittir. Bu şekil nedir?",
+        "id": "T2-G4-MATE-ÇIKARM-08",
+        "question": "(A + 4) / 9 basit kesir ise A yerine yazılabilecek doğal sayıların toplamı kaçtır?",
         "choices": [
-          "Kare",
-          "Eşkenar Dörtgen",
-          "Dikdörtgen",
-          "Paralelkenar"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Kare sonucuna ulaşılır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-KESIRL-07",
-        "question": "En büyük dar açı (tam sayı) ile en küçük geniş açının (tam sayı) toplamı kaçtır?",
-        "choices": [
-          "179",
-          "181",
-          "180",
-          "182"
+          "6",
+          "15",
+          "10",
+          "21"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 180 çıkmaktadır.",
+        "explanation": "Basit kesirde pay paydadan küçüktür: A + 4 < 9. A; 0, 1, 2, 3 veya 4 olabilir. Toplam 0 + 1 + 2 + 3 + 4 = 10’dur.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_7",
+        "sourceId": "Q_web_test_konu_5_8",
         "sourceType": "EXISTING_V4B"
       },
       {
-        "id": "T2-G4-MATE-KESIRL-08",
-        "question": "Noktalı kağıtta simetri ekseninin 3 birim yukarısındaki ok şeklinin simetriğinin tepe noktası ile orijinali arası kaç birimdir?",
+        "id": "T2-G4-MATE-ÇIKARM-09",
+        "question": "120 sayfalık kitabın 1. gün 2/10'u, 2. gün 5/10'u, 3. gün kalanı okunmuştur. 3. gün kaç sayfa okunmuştur?",
         "choices": [
-          "3",
-          "12",
-          "9",
-          "6"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 6 sonucuna ulaşılır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-KESIRL-09",
-        "question": "İki kenarı 8 ve 12 cm olan ikizkenar üçgenin üçüncü kenarının alabileceği değerler toplamı kaçtır?",
-        "choices": [
-          "32",
-          "24",
-          "28",
-          "20"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 20 çıkmaktadır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G4-MATE-KESIRL-10",
-        "question": "Dikdörtgenin içine değecek şekilde iki eş çember çizilmiştir. Yarıçapı 4 cm ise dikdörtgenin çevresi kaçtır?",
-        "choices": [
+          "36",
+          "30",
           "40",
-          "48",
-          "56",
-          "64"
+          "42"
         ],
-        "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 48 sonucuna ulaşılır.",
+        "correctAnswer": 0,
+        "explanation": "İlk iki gün kitabın 2/10 + 5/10 = 7/10’u okunur. Kalan 3/10’dur. 120 ÷ 10 × 3 = 36 sayfa üçüncü gün okunmuştur.",
         "image": null,
         "source": "zor-test2-final",
-        "sourceId": "Q_web_test_konu_8_10",
+        "sourceId": "Q_web_test_konu_5_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇIKARM-10",
+        "question": "3, 5, 7, 8 kartlarından ikisiyle yazılabilecek en büyük bileşik kesir ile en küçük basit kesir hangileridir?",
+        "choices": [
+          "8/3 ve 3/8",
+          "8/5 ve 3/7",
+          "7/3 ve 5/8",
+          "8/3 ve 5/8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "En büyük kesir için en büyük pay ve en küçük payda seçilir: 8/3. En küçük pozitif kesir için en küçük pay ve en büyük payda seçilir: 3/8.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_5_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 4,
+    "subject": "matematik",
+    "subjectName": "Matematik",
+    "topic": "cikarma",
+    "topicName": "Çıkarma",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "4-sinif-matematik-cikarma-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-cikarma-zor-test-2.html",
+    "questions": [
+      {
+        "id": "T2-G4-MATE-ÇARPMA-01",
+        "question": "Bir kütüphanede 24.680 kitap vardır. 3.475 kitap başka okullara gönderiliyor, sonra 1.860 yeni kitap geliyor. Son durumda başlangıçtan kaç kitap eksiktir?",
+        "choices": [
+          "1.615",
+          "3.475",
+          "5.335",
+          "2.615"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gönderilen 3.475 kitaptan gelen 1.860 çıkarılır: net azalma 1.615 kitaptır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-02",
+        "question": "Bir çıkarma işleminde fark 18.750, çıkan 6.480’dir. Eksilen sayı kaçtır?",
+        "choices": [
+          "25.130",
+          "25.230",
+          "12.270",
+          "24.230"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen = fark + çıkan olduğundan 18.750 + 6.480 = 25.230 olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-03",
+        "question": "50.000 − 18.765 işleminin sonucuna 2.000 eklenirse kaç bulunur?",
+        "choices": [
+          "32.235",
+          "34.235",
+          "33.235",
+          "31.235"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Önce 50.000 − 18.765 = 31.235, sonra 31.235 + 2.000 = 33.235 bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-04",
+        "question": "Bir yolun 8.450 metresi yapılacaktır. İlk gün 2.375, ikinci gün 3.180 metre tamamlanıyor. Geriye kaç metre kalır?",
+        "choices": [
+          "3.895",
+          "2.995",
+          "5.555",
+          "2.895"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yapılan yol 2.375 + 3.180 = 5.555 metredir. Kalan 8.450 − 5.555 = 2.895 metredir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-05",
+        "question": "Bir çıkarma işleminde eksilen 300 artırılır, çıkan 120 azaltılırsa fark nasıl değişir?",
+        "choices": [
+          "420 artar.",
+          "180 artar.",
+          "420 azalır.",
+          "180 azalır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksileni artırmak farkı 300, çıkanı azaltmak farkı 120 artırır. Toplam artış 420’dir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-06",
+        "question": "Bir ürünün etiket fiyatı 7.250 TL’dir. 875 TL indirimden sonra 6.000 TL ödenirse kaç TL borç kalır?",
+        "choices": [
+          "1.875 TL",
+          "375 TL",
+          "1.250 TL",
+          "875 TL"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İndirimli fiyat 7.250 − 875 = 6.375 TL’dir. 6.000 TL ödeme sonrası 375 TL kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-07",
+        "question": "Ayşe 32.406 − 8.950 işlemini 24.456 buluyor. Doğru sonuç, Ayşe’nin bulduğundan ne kadar azdır?",
+        "choices": [
+          "900",
+          "10.000",
+          "1.000",
+          "100"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Doğru sonuç 23.456’dır. 24.456 − 23.456 = 1.000 olduğu için Ayşe bin fazla bulmuştur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-08",
+        "question": "Bir depodan sabah 1.280, öğleden sonra sabahtan 350 fazla paket gönderiliyor. Başlangıçta 5.000 paket varsa kaç paket kalır?",
+        "choices": [
+          "2.440",
+          "3.370",
+          "1.740",
+          "2.090"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Öğleden sonra 1.630, toplamda 2.910 paket gönderilir. 5.000 − 2.910 = 2.090 paket kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-09",
+        "question": "Farkı 4.875 olan iki sayıdan küçüğü 12.640’tır. Büyük sayıdan 2.500 çıkarılırsa kaç kalır?",
+        "choices": [
+          "15.015",
+          "17.515",
+          "10.140",
+          "14.015"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Büyük sayı 12.640 + 4.875 = 17.515’tir. 2.500 çıkarılınca 15.015 kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-ÇARPMA-10",
+        "question": "Bir öğrenci 70.020 − 29.980 işlemini, önce 70.020 − 30.000 yaparak hesaplıyor. Sonuca hangi düzeltmeyi uygulamalıdır?",
+        "choices": [
+          "200 çıkarmalıdır.",
+          "20 eklemelidir.",
+          "20 çıkarmalıdır.",
+          "200 eklemelidir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "30.000, asıl çıkan sayıdan 20 fazladır. 20 fazla çıkarıldığı için bulunan sonuca 20 eklenmelidir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_6_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 4,
+    "subject": "matematik",
+    "subjectName": "Matematik",
+    "topic": "zaman-olcme",
+    "topicName": "Zaman Ölçme",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "4-sinif-matematik-zaman-olcme-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-zaman-olcme-zor-test-2.html",
+    "questions": [
+      {
+        "id": "T2-G4-MATE-BÖLME-01",
+        "question": "Saat 22:45'te kalkan otobüs, 7 saat 35 dakika yol gidiyor ve iki defa 25 dakikalık mola veriyor. Trabzon'a vardığında saat kaçtır?",
+        "choices": [
+          "06:20",
+          "07:35",
+          "07:10",
+          "08:10"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Molalar 2 × 25 = 50 dakikadır. Toplam süre 7 saat 35 dakika + 50 dakika = 8 saat 25 dakikadır. 22.45’e bu süre eklenince ertesi gün 07.10 olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-02",
+        "question": "Raf ömrü \"3 yıl 8 ay 15 gün\" olan şurup 14 Mayıs 2023'te üretilmiştir. Son kullanma tarihi nedir? (Her ay 30 gün)",
+        "choices": [
+          "29 Şubat 2027",
+          "29 Ocak 2027",
+          "14 Ocak 2027",
+          "14 Şubat 2027"
+        ],
+        "correctAnswer": 1,
+        "explanation": "14 Mayıs 2023’e 3 yıl eklenince 14 Mayıs 2026, 8 ay eklenince 14 Ocak 2027 olur. 15 gün daha eklenince 29 Ocak 2027’ye ulaşılır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-03",
+        "question": "4 dakika 20 saniyelik şarkının 135. saniyesinde elektrik kesiliyor. Şarkının bitmesine ne kadar süre kalmıştır?",
+        "choices": [
+          "1 dakika 55 saniye",
+          "2 dakika 05 saniye",
+          "2 dakika 15 saniye",
+          "2 dakika 25 saniye"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Şarkı 4 × 60 + 20 = 260 saniyedir. Kalan 260 − 135 = 125 saniye, yani 2 dakika 5 saniyedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-04",
+        "question": "1. Yarış: 1 sa 15 dk 40 sn / 2. Yarış: 4500 sn / 3. Yarış: 85 dk 10 sn. Süreleri kısadan uzuna sıralayınız.",
+        "choices": [
+          "2 < 1 < 3",
+          "1 < 3 < 2",
+          "1 < 2 < 3",
+          "3 < 1 < 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Birinci süre 4.540 saniye, ikinci 4.500 saniye, üçüncü 5.110 saniyedir. Kısadan uzuna sıralama 2 < 1 < 3 olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-05",
+        "question": "14 Haziran günü saat 09.00’da başlayan bir etkinlikten tam 8 hafta 4 gün sonra saat yine 09.00 olacaktır. O günün tarihi nedir? Haziran 30, temmuz 31 gündür.",
+        "choices": [
+          "12 Ağustos",
+          "11 Ağustos",
+          "10 Ağustos",
+          "13 Ağustos"
+        ],
+        "correctAnswer": 3,
+        "explanation": "8 hafta 4 gün toplam 60 gündür. 14 Haziran’dan 14 Temmuz’a 30 gün, oradan 13 Ağustos’a 30 gün geçer. Aranan tarih 13 Ağustos’tur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-06",
+        "question": "Sabah 08:30'da başlayan mesai, 45 dakika yemek molasıyla 17:45'te bitiyor. Molalar hariç çalışma süresi nedir?",
+        "choices": [
+          "8 saat 15 dk",
+          "9 saat",
+          "8 saat 45 dk",
+          "8 saat 30 dk"
+        ],
+        "correctAnswer": 3,
+        "explanation": "08.30’dan 17.45’e 9 saat 15 dakika geçer. Yemek molası olan 45 dakika çıkarılınca çalışma süresi 8 saat 30 dakika kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-07",
+        "question": "Bugün Salı 14:20. Tam 100 saat sonra günlerden ne olur ve saat kaçtır?",
+        "choices": [
+          "Cumartesi 18:20",
+          "Cumartesi 19:20",
+          "Pazar 18:20",
+          "Pazar 19:20"
+        ],
+        "correctAnswer": 0,
+        "explanation": "100 saat, 4 gün 4 saattir. Salıdan dört gün sonrası cumartesi, 14.20’den dört saat sonrası 18.20’dir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-08",
+        "question": "Bir dede, doğduğu yıldan 1968 yılına kadar geçen yıl sayısının torununun bugünkü yaşına eşit olduğunu söylüyor. Dede 1957 doğumlu olduğuna göre torunu kaç yaşındadır?",
+        "choices": [
+          "13",
+          "12",
+          "11",
+          "14"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dedenin 1968 yılındaki yaşı, verilen yıl farkıyla 1968 − 1957 = 11’dir. Dede torununun şu anki yaşını anlattığı için yanıt 11 olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-09",
+        "question": "Akrebi 7-8 arası, yelkovanı 9'da olan saat öğleden sonra dijitalde kaçtır ve 45 dk sonra neyi gösterir?",
+        "choices": [
+          "18:45 / 19:30",
+          "19:45 / 20:15",
+          "20:45 / 21:30",
+          "19:45 / 20:30"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yelkovan 9’da olduğunda dakika 45’tir; akrep 7 ile 8 arasındadır. Öğleden sonra saat 19.45’tir. 45 dakika sonra 20.30 olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-BÖLME-10",
+        "question": "Bir otoparkta ilk 1 saat ücretsizdir. 1 saati aşan ve 3 saati geçmeyen parklar için toplam ücret 40 TL’dir. 3 saatten sonraki her başlayan saat için 15 TL eklenir. Saat 11.45’te girip 16.20’de çıkan araç kaç TL öder?",
+        "choices": [
+          "55",
+          "100",
+          "85",
+          "70"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kalınan süre 4 saat 35 dakikadır. İlk 3 saat için 40 TL, sonrasında başlayan 2 saat için 2 × 15 = 30 TL alınır. Toplam 70 TL olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_7_10",
         "sourceType": "EXISTING_V4B"
       }
     ]
@@ -16357,8 +16184,181 @@
     "pageUrl": "tests/4-sinif-matematik-geometrik-cisimler-zor-test-2.html",
     "questions": [
       {
+        "id": "T2-G4-MATE-KESIRL-01",
+        "question": "Bir kutunun bütün yüzleri eş karelerden oluşur. Bu kutu için hangisi doğrudur?",
+        "choices": [
+          "6 yüzü ve 8 köşesi vardır.",
+          "8 yüzü ve 6 köşesi vardır.",
+          "6 yüzü ve 6 köşesi vardır.",
+          "4 yüzü ve 8 köşesi vardır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bütün yüzleri eş kare olan kutu küptür. Küpün 6 yüzü ve 8 köşesi bulunur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-02",
+        "question": "Bir öğrenci aynı büyüklükte iki küpü birer yüzleri tamamen çakışacak biçimde yapıştırıyor. Dışarıdan görülebilen toplam kare yüz sayısı kaçtır?",
+        "choices": [
+          "6",
+          "10",
+          "12",
+          "8"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İki küpte toplam 12 yüz vardır. Yapıştırılan iki yüz içeride kalır; dışarıda 10 kare yüz görünür.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-03",
+        "question": "Bir cismin iki düz yüzü daire biçimindedir ve bir eğri yüzeyi vardır. Hangi nesne bu cisme örnektir?",
+        "choices": [
+          "Futbol topu",
+          "Sivri külah",
+          "Düz kenarlı konserve kutusu",
+          "Oyun zarı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "İki dairesel yüz ve bir eğri yüzey silindirin özellikleridir. Konserve kutusu silindire benzer.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-04",
+        "question": "Bir kutunun yüz çiftleri 3 cm × 4 cm, 3 cm × 5 cm ve 4 cm × 5 cm dikdörtgenlerdir. Bu cismin adı nedir?",
+        "choices": [
+          "Küp",
+          "Silindir",
+          "Küre",
+          "Dikdörtgenler prizması"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Verilen farklı kenar uzunlukları dikdörtgen yüzlü bir kutu oluşturur. Bütün kenarlar eşit olmadığı için küp değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-05",
+        "question": "Küp biçimindeki bir kutunun 12 ayrıtının her birine 4 cm kurdele yapıştırılıyor. Üst üste bindirme yapılmazsa toplam kaç cm kurdele gerekir?",
+        "choices": [
+          "48 cm",
+          "24 cm",
+          "36 cm",
+          "16 cm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Küpün 12 ayrıtı vardır. Her biri 4 cm olduğundan 12 × 4 = 48 cm kurdele gerekir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-06",
+        "question": "Bir küpün bütün yüzlerine birer çıkartma yapıştırılacak. Üç yüze çıkartma konduğuna göre kaç yüz kalmıştır?",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Küpün 6 yüzünden 3’ü kaplandıysa 6 − 3 = 3 yüz kalır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-07",
+        "question": "Bir kutunun alt ve üst yüzleri eş kare, yan yüzleri dikdörtgendir. Yüksekliği kare kenarından farklıdır. En özel adı nedir?",
+        "choices": [
+          "Küre",
+          "Koni",
+          "Kare prizma",
+          "Küp"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kare tabanlı ve dikdörtgen yan yüzlü bu cisim kare prizmadır. Yüksekliği taban kenarına eşit olmadığı için küp değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-08",
+        "question": "Küre ile küpü karşılaştıran bir öğrenci hangi doğru sonuca ulaşır?",
+        "choices": [
+          "İkisinin de 8 köşesi vardır.",
+          "Kürenin düz kare yüzleri vardır.",
+          "Küpün bütün yüzeyleri eğridir.",
+          "Küpün köşeleri vardır; kürenin köşesi yoktur."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Küp düz kare yüzlere ve 8 köşeye sahiptir. Kürenin yüzeyi eğridir ve köşesi yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-09",
+        "question": "Küp biçimindeki bir kutunun her köşesine bir boncuk takılıyor. İki ayrı kutu için kaç boncuk gerekir?",
+        "choices": [
+          "16",
+          "12",
+          "24",
+          "8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir küpte 8 köşe vardır. İki kutu için 2 × 8 = 16 boncuk gerekir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G4-MATE-KESIRL-10",
+        "question": "Bir cisim hem düz dairesel bir tabana hem de sivri bir tepeye sahiptir. Hangisi bu özellikleri taşır?",
+        "choices": [
+          "Dikdörtgenler prizması",
+          "Koni",
+          "Silindir",
+          "Küre"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Koni bir dairesel tabana ve sivri bir tepeye sahiptir. Silindirin iki dairesel yüzü, kürenin ise düz tabanı yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_konu_8_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 4,
+    "subject": "matematik",
+    "subjectName": "Matematik",
+    "topic": "alan-olcme",
+    "topicName": "Alan Ölçme",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "4-sinif-matematik-alan-olcme-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-alan-olcme-zor-test-2.html",
+    "questions": [
+      {
         "id": "T2-G4-MATE-GEOMET-01",
-        "question": "Bir kenarı 12 cm kare ile boyutları 8x15 cm dikdörtgen birleştiriliyor. Çevre en az kaç olur?",
+        "question": "Bir kenarı 12 cm olan kare ile kenarları 8 cm ve 15 cm olan dikdörtgen, iç bölgeleri örtüşmeden kenarları boyunca birleştiriliyor. Ortak sınır uzunluğu olabildiğince büyük seçilirse oluşan şeklin çevresi en az kaç santimetredir?",
         "choices": [
           "64",
           "70",
@@ -16366,7 +16366,7 @@
           "78"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 70 sonucuna ulaşılır.",
+        "explanation": "Karenin çevresi 48, dikdörtgenin çevresi 46 santimetredir. En uzun ortak sınır 12 santimetredir. Bu sınır toplam çevrede iki kez sayıldığından 48 + 46 − 24 = 70 santimetre kalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_1",
@@ -16381,8 +16381,8 @@
           "4.896",
           "4.752"
         ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 3 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 4.752 çıkmaktadır.",
+        "correctAnswer": 2,
+        "explanation": "Bahçenin çevresi 140 metredir. Kapı boşluğu çıkarılınca bir sırada 136 metre, üç sırada 408 metre tel gerekir. 408 × 12 = 4.896 TL ödenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_2",
@@ -16398,7 +16398,7 @@
           "12"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 8 sonucuna ulaşılır.",
+        "explanation": "Karenin bir kenarı 8 metredir; alanı 64 metrekaredir. Her halı 2 × 4 = 8 metrekaredir. 64 ÷ 8 = 8 halı, kenarlar boyunca boşluksuz yerleştirilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_3",
@@ -16414,7 +16414,7 @@
           "64"
         ],
         "correctAnswer": 2,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 36 olarak bulunur.",
+        "explanation": "Karenin çevresi 4 × 16 = 64 santimetre, alanı 256 santimetrekaredir. Dikdörtgende kenarların toplamı 32 olduğundan uzun kenar 22’dir. Alanı 220, alan farkı 36 santimetrekaredir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_4",
@@ -16430,7 +16430,7 @@
           "55"
         ],
         "correctAnswer": 0,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 50 olarak bulunur.",
+        "explanation": "Alanı 36 olan dikdörtgenler içinde en büyük çevre 1 ve 36 kenarlarıyla 74’tür. En küçük çevre 6 ve 6 kenarlarıyla 24’tür. Fark 74 − 24 = 50 birimdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_5",
@@ -16446,7 +16446,7 @@
           "13"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 12 sonucuna ulaşılır.",
+        "explanation": "Duvarın alanı 3 × 5 = 15 metrekaredir. Pencere 1, kapı 2 metrekare yer kaplar. Boyanacak alan 15 − 1 − 2 = 12 metrekaredir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_6",
@@ -16454,7 +16454,7 @@
       },
       {
         "id": "T2-G4-MATE-GEOMET-07",
-        "question": "20 cm'lik karenin kenar ortalarından 4 cm'lik kareler kesilip çıkarılıyor. Yeni çevre nasıl değişir?",
+        "question": "Bir kenarı 20 cm olan karenin dört kenarının her birinin ortasından, içeri doğru uzanan 4 cm kenarlı bir kare kesiliyor. Birbirine değmeyen dört çentik oluştuğunda çevre nasıl değişir?",
         "choices": [
           "Değişmez",
           "32 cm artar",
@@ -16462,7 +16462,7 @@
           "32 cm azalır"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 20 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 32 cm artar çıkmaktadır.",
+        "explanation": "Her çentikte 4 santimetrelik düz kenar çıkar; yerine toplam 12 santimetrelik üç kenar gelir. Artış her çentikte 8, dört çentikte 32 santimetredir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_7",
@@ -16478,7 +16478,7 @@
           "250 alan / 8 eksik"
         ],
         "correctAnswer": 2,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 320 alan / 8 eksik olarak bulunur.",
+        "explanation": "Dikdörtgenin alanı 24 × 16 = 384, kesilen karenin alanı 64’tür. Kalan alan 320 santimetrekaredir. Karenin kenarı 8 olduğundan kısa kenardan 16 − 8 = 8 santimetre eksiktir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_8",
@@ -16494,7 +16494,7 @@
           "18"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 48 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 18 çıkmaktadır.",
+        "explanation": "Çevresi 48 olan karenin kenarı 12, alanı 144’tür. Dikdörtgenin uzun kenarı 144 ÷ 8 = 18 birimdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_9",
@@ -16502,15 +16502,15 @@
       },
       {
         "id": "T2-G4-MATE-GEOMET-10",
-        "question": "1. karenin çevresi 16, 2. kare çevresi 32, 3. kare çevresi 16. Yan yana dizilince toplam çevre kaçtır?",
+        "question": "Çevreleri sırasıyla 16, 32 ve 16 birim olan üç kare, tabanları aynı doğru üzerinde olacak şekilde küçük-büyük-küçük sırasında yan yana konuyor. Her küçük karenin bir kenarının tamamı büyük kareye değiyor. Birleşik şeklin çevresi kaç birimdir?",
         "choices": [
           "52",
           "44",
           "48",
           "40"
         ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 1 ve 16 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 40 çıkmaktadır.",
+        "correctAnswer": 2,
+        "explanation": "Karelerin kenarları 4, 8 ve 4 birimdir. Ayrı çevreler toplamı 64’tür. İki ortak sınırın her biri 4 birimdir; iki kez sayılan toplam 16 birim çıkarılınca 48 birim kalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_9_10",
@@ -16539,7 +16539,7 @@
           "2400"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 8 ve 245 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2400 çıkmaktadır.",
+        "explanation": "8 m = 800 cm, 3 m 15 cm = 315 cm’dir. Kalan 800 − 245 − 315 = 240 cm olur. 240 cm = 2.400 mm’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_1",
@@ -16547,15 +16547,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-02",
-        "question": "Dara 14.250 kg. 45 kg'lık 300 çimento torbası yüklendi. Toplam brüt ağırlık nedir?",
+        "question": "Bir yolun 2 km 350 m’lik bölümü ve ardından 875 m’si yürünüyor. Toplam kaç metre yürünmüştür?",
         "choices": [
-          "27 ton 500 kg",
-          "27 ton 750 kg",
-          "28 ton 250 kg",
-          "28 ton 750 kg"
+          "2.350",
+          "3.225",
+          "2.425",
+          "3.125"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 45 ve 300 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 27 ton 750 kg çıkmaktadır.",
+        "explanation": "2 km 350 m = 2.350 m’dir. 875 m eklenince 3.225 m olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_2",
@@ -16563,15 +16563,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-03",
-        "question": "150 ml şurup, 10 gün günde iki kez 5'er ml içiliyor. Kalan şurup tümünün kaçta kaçıdır?",
+        "question": "5 metre kurdele, her biri 25 cm olan parçalara ayrılıyor. Kaç parça elde edilir?",
         "choices": [
-          "1/3",
-          "2/3",
-          "1/4",
-          "3/4"
+          "15",
+          "125",
+          "20",
+          "25"
         ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 150 ve 10 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1/3 çıkmaktadır.",
+        "correctAnswer": 2,
+        "explanation": "5 m = 500 cm’dir. 500 ÷ 25 = 20 parça elde edilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_3",
@@ -16579,15 +16579,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-04",
-        "question": "İlk 2 kg 45 TL, sonraki her 500g için 8 TL. 4.5 kg paket için kaç TL ödenir?",
+        "question": "Bir koşucu 800 metrelik parkuru 4 kez dolaşıyor. 5 kilometreye ulaşması için kaç metre daha koşmalıdır?",
         "choices": [
-          "77",
-          "85",
-          "93",
-          "101"
+          "3.200",
+          "1.200",
+          "2.800",
+          "1.800"
         ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 2 ve 45 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 85 çıkmaktadır.",
+        "correctAnswer": 3,
+        "explanation": "Koşulan mesafe 4 × 800 = 3.200 m’dir. 5 km = 5.000 m olduğundan 1.800 m kalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_4",
@@ -16595,15 +16595,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-05",
-        "question": "45.5 litre sütün 12 litresi ayrılıyor. Kalanı 250 ml şişelere konuyor. Kaç şişe gerekir?",
+        "question": "Bir kalem 145 mm, başka bir kalem 12 cm uzunluğundadır. Uzun olan kalem kaç milimetre daha uzundur?",
         "choices": [
-          "130",
-          "132",
-          "136",
-          "134"
+          "25",
+          "133",
+          "13",
+          "265"
         ],
-        "correctAnswer": 3,
-        "explanation": "Verilen 45.5 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 134 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "12 cm = 120 mm’dir. Fark 145 − 120 = 25 mm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_5",
@@ -16619,7 +16619,7 @@
           "165"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 155 sonucuna ulaşılır.",
+        "explanation": "Ahmet 142 cm’dir. 180 mm = 18 cm olduğundan Kerem 160 cm, Can ise 160 − 5 = 155 cm’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_6",
@@ -16627,15 +16627,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-07",
-        "question": "3400g çilek + 2750g şeker. 1150g su buharlaştı. Kalan 500g'lık kavanozlara dolacak. Kaç kavanoz tam dolar?",
+        "question": "Uzunluğu 3 m 60 cm olan ipin önce 85 cm’si, sonra 1 m 25 cm’si kesiliyor. Kaç santimetre ip kalır?",
         "choices": [
-          "8",
-          "9",
-          "10",
-          "11"
+          "160",
+          "235",
+          "150",
+          "210"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 10 sonucuna ulaşılır.",
+        "explanation": "İp 360 cm, kesilenler 85 + 125 = 210 cm’dir. Kalan 360 − 210 = 150 cm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_7",
@@ -16643,15 +16643,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-08",
-        "question": "Dakikada 25 ml damlatan musluk 4 saatte kaç litre su biriktirir?",
+        "question": "Haritadaki bir yürüyüş yolu üç bölümden oluşuyor: 750 m, 1 km 200 m ve 650 m. Yolun toplam uzunluğu hangisidir?",
         "choices": [
-          "4",
-          "5",
-          "7",
-          "6"
+          "2 km 500 m",
+          "3 km 600 m",
+          "1 km 600 m",
+          "2 km 600 m"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 25 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 6 çıkmaktadır.",
+        "explanation": "Toplam 750 + 1.200 + 650 = 2.600 m, yani 2 km 600 m’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_8",
@@ -16659,7 +16659,7 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-09",
-        "question": "3 metrelik kalas 40 cm'lik eş parçalara ayrılacak. Her kesim 2 dakika. Toplam kaç dakika sürer? (İpucu: Kesim sayısı parça sayısından 1 eksiktir)",
+        "question": "3 metre uzunluğundaki kalastan 40 santimetrelik parçalar kesiliyor. Artan kısa parça kullanılmayacaktır. Her kesim 2 dakika sürerse elde edilebilecek en fazla sayıda 40 santimetrelik parçayı kesmek toplam kaç dakika sürer?",
         "choices": [
           "12",
           "16",
@@ -16667,7 +16667,7 @@
           "18"
         ],
         "correctAnswer": 2,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 14 olarak bulunur.",
+        "explanation": "300 santimetreden 7 tane 40 santimetrelik parça elde edilir ve 20 santimetre artar. Son 40 santimetrelik parçayı artan 20 santimetreden ayırmak için de kesim gerekir. Bu nedenle 7 kesim yapılır: 7 × 2 = 14 dakika.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_9",
@@ -16675,15 +16675,15 @@
       },
       {
         "id": "T2-G4-MATE-UZUNLU-10",
-        "question": "15g'lık 24 bilezik yapıldı, 40g arttı. Aynı altınla 20g'lık en fazla kaç kolye yapılırdı?",
+        "question": "Bir rafın uzunluğu 120 cm’dir. Genişliği 18 cm olan 6 kutu yan yana dizilince rafta kaç santimetre boşluk kalır?",
         "choices": [
+          "108",
+          "12",
           "18",
-          "19",
-          "20",
-          "21"
+          "24"
         ],
-        "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 20 sonucuna ulaşılır.",
+        "correctAnswer": 1,
+        "explanation": "Kutular 6 × 18 = 108 cm yer kaplar. Boşluk 120 − 108 = 12 cm’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_10_10",
@@ -16704,15 +16704,15 @@
     "questions": [
       {
         "id": "T2-G4-MATE-ÇEVREÖ-01",
-        "question": "Kırmızı: 45, Mavi: 60, Sarı: 35. Toplam 180 öğrenci. Yeşil sevenler Sarı sevenlerden kaç fazladır?",
+        "question": "Kısa kenarı 18 m, uzun kenarı kısa kenarından 7 m fazla olan bahçenin çevresi kaç metredir?",
         "choices": [
-          "3",
-          "4",
-          "5",
-          "6"
+          "86",
+          "43",
+          "72",
+          "100"
         ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 45 ve 60 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 5 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "Uzun kenar 18 + 7 = 25 m’dir. Çevre 2 × (18 + 25) = 86 m olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_1",
@@ -16720,15 +16720,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-02",
-        "question": "Ocak 120, Şubat Ocak'ın yarısı (60), Mart Şubat'tan 40 fazla (100). Nisan ilk üç ayın toplamıdır (280). Nisan sütunu Mart'ın kaç katıdır?",
+        "question": "Çevresi 96 cm olan karenin bir kenarı 3 cm artırılıyor. Yeni çevre kaç santimetredir?",
         "choices": [
-          "2,4",
-          "2,6",
-          "3,0",
-          "2,8"
+          "120",
+          "108",
+          "99",
+          "102"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda geçen değerler çarpıldığında veya katı alındığında sonuç 2,8 olur.",
+        "correctAnswer": 1,
+        "explanation": "İlk kenar 96 ÷ 4 = 24 cm, yeni kenar 27 cm’dir. Yeni çevre 4 × 27 = 108 cm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_2",
@@ -16736,15 +16736,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-03",
-        "question": "Hikaye: 10, Masal: 7, Şiir: 4, Roman: 12. Dikey eksen 2'şer artıyor. Roman sütunu Hikaye sütunundan kaç 'birim' yukarıdadır?",
+        "question": "Çevresi 74 cm olan dikdörtgenin kısa kenarı 15 cm’dir. Uzun kenarı kaç santimetredir?",
         "choices": [
-          "1",
-          "2",
-          "3",
-          "4"
+          "29",
+          "44",
+          "22",
+          "37"
         ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 10 ve 7 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1 çıkmaktadır.",
+        "correctAnswer": 2,
+        "explanation": "Kısa ve uzun kenarın toplamı 74 ÷ 2 = 37 cm’dir. Uzun kenar 37 − 15 = 22 cm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_3",
@@ -16752,15 +16752,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-04",
-        "question": "İnek 40, Koyun 75, Tavuk 90. Eşitlemek için Tavuk satılıp İnek alınıyor. Satılan hayvan, alınandan kaç eksiktir? (Hepsi ortancada eşitlenecek = 75)",
+        "question": "Bir kenarı 35 m olan kare bahçenin çevresine, 4 m genişliğindeki kapı dışında bir sıra tel çekiliyor. Kaç metre tel gerekir?",
         "choices": [
-          "10",
-          "15",
-          "25",
-          "20"
+          "140",
+          "144",
+          "132",
+          "136"
         ],
         "correctAnswer": 3,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 20 olarak bulunur.",
+        "explanation": "Bahçe çevresi 4 × 35 = 140 m’dir. Kapı boşluğu çıkarılınca 136 m tel gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_4",
@@ -16768,15 +16768,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-05",
-        "question": "Ekmek: 250, Simit: 180, Poğaça: 120, Açma: 90. 1 birim (kare) 30 ürünü temsil ediyor. Simit ve Açma sütunlarının kare toplamı kaçtır?",
+        "question": "Bir dikdörtgenin kısa kenarı 12 cm, uzun kenarı 20 cm’dir. Aynı çevreye sahip karenin bir kenarı kaç santimetredir?",
         "choices": [
-          "9",
-          "8",
-          "10",
-          "11"
+          "16",
+          "32",
+          "14",
+          "18"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 9 çıkmaktadır.",
+        "explanation": "Dikdörtgen çevresi 2 × (12 + 20) = 64 cm’dir. Karenin bir kenarı 64 ÷ 4 = 16 cm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_5",
@@ -16784,15 +16784,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-06",
-        "question": "Beyaz = 2 x Siyah. Gri = Siyah + 15. Kırmızı = 25. Toplam 160 araç. Siyah ve Gri toplamı kaçtır? (B+S+G = 135 -> 2S + S + S + 15 = 135 -> 4S = 120 -> S=30, G=45)",
+        "question": "Kenarları 14, 17 ve 19 cm olan üçgen çerçevenin çevresine iki kez şerit sarılıyor. Kaç santimetre şerit kullanılır?",
         "choices": [
-          "70",
-          "80",
-          "75",
-          "85"
+          "114",
+          "100",
+          "50",
+          "86"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 75 çıkmaktadır.",
+        "correctAnswer": 1,
+        "explanation": "Üçgenin çevresi 14 + 17 + 19 = 50 cm’dir. İki tur için 2 × 50 = 100 cm gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_6",
@@ -16800,15 +16800,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-07",
-        "question": "Bağış: Pzt 45, Sal 60, Çar 30, Per 85 (Toplam 220). 20 yıprandı. Kalanlar 10 rafa eşit dizilirse her rafa kaç kitap düşer?",
+        "question": "Bir dikdörtgenin iki uzun kenarı 5’er cm artırılıp kısa kenarları değiştirilmezse çevresi nasıl değişir?",
         "choices": [
-          "18",
-          "22",
-          "20",
-          "24"
+          "20 cm artar.",
+          "Değişmez.",
+          "10 cm artar.",
+          "5 cm artar."
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 45 ve 60 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 20 çıkmaktadır.",
+        "explanation": "Çevrede iki uzun kenar bulunur. Her biri 5 cm uzayınca toplam artış 10 cm olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_7",
@@ -16816,15 +16816,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-08",
-        "question": "1 sa: 12 kişi, 2 sa: 15 kişi, 0 sa: 8 kişi. Sınıf 40 kişi, kalanlar (5 kişi) 3 saat. Toplam izleme saati kaçtır?",
+        "question": "Kenarları 40 m ve 25 m olan dikdörtgen parkın etrafında 3 tur yürüyen biri kaç metre yürür?",
         "choices": [
-          "51",
-          "55",
-          "60",
-          "57"
+          "195",
+          "260",
+          "400",
+          "390"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 1 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 57 çıkmaktadır.",
+        "explanation": "Bir tur 2 × (40 + 25) = 130 m’dir. Üç tur 3 × 130 = 390 m olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_8",
@@ -16832,15 +16832,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-09",
-        "question": "Cuma 120, Salı 45. Çarşamba Salı'dan 35 fazla (80). Toplam 400. Pzt ve Perş eşit. Pazartesi kaç tost satılmıştır?",
+        "question": "Çevresi 80 cm olan kare ile çevresi 80 cm olan bir dikdörtgen karşılaştırılıyor. Dikdörtgenin kısa kenarı 12 cm ise uzun kenarı kare kenarından kaç cm fazladır?",
         "choices": [
-          "72,5",
-          "77,5",
-          "75,5",
-          "80"
+          "8",
+          "12",
+          "16",
+          "20"
         ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 120 ve 45 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 77,5 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "Karenin kenarı 20 cm’dir. Dikdörtgende uzun kenar 40 − 12 = 28 cm olur. Fark 8 cm’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_9",
@@ -16848,15 +16848,15 @@
       },
       {
         "id": "T2-G4-MATE-ÇEVREÖ-10",
-        "question": "1.Ay: A=450 B=320, 2.Ay: A=380 B=410, 3.Ay: A=500 B=550. B mağazası hangi aylar başarılıdır ve toplamda A mağazası B'den kaç fazladır?",
+        "question": "Kenarları 6 cm ve 10 cm olan iki eş dikdörtgen, 6 cm’lik kenarları tamamen birleşecek şekilde yan yana konuyor. Oluşan büyük dikdörtgenin çevresi kaç santimetredir?",
         "choices": [
-          "2 ve 3. Aylar / A mağazası 40 fazla",
-          "2 ve 3. Aylar / A mağazası 50 fazla",
-          "Sadece 3. Ay / A mağazası 50 fazla",
-          "Sadece 2. Ay / B mağazası 40 fazla"
+          "40",
+          "52",
+          "64",
+          "32"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 1 ve 450 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2 ve 3. Aylar / A mağazası 50 fazla çıkmaktadır.",
+        "explanation": "Yeni dikdörtgenin kenarları 6 cm ve 20 cm olur. Çevresi 2 × (6 + 20) = 52 cm’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_11_10",
@@ -16868,12 +16868,12 @@
     "classLevel": 4,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "alan-olcme",
-    "topicName": "Alan Ölçme",
+    "topic": "toplama",
+    "topicName": "Toplama",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-matematik-alan-olcme-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-alan-olcme-zor-test-2.html",
+    "slug": "4-sinif-matematik-toplama-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-toplama-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-MATE-ALANÖL-01",
@@ -16885,7 +16885,7 @@
           "711.400"
         ],
         "correctAnswer": 3,
-        "explanation": "İstenen değerler birbirinden çıkarıldığında aradaki fark 711.400 olarak bulunur.",
+        "explanation": "İstanbul 145.650 + 85.400 = 231.050 TL’dir. İzmir 145.650 + 231.050 − 42.000 = 334.700 TL’dir. Üç şehrin toplamı 711.400 TL olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_1",
@@ -16901,7 +16901,7 @@
           "105.500"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 84.950 sonucuna ulaşılır.",
+        "explanation": "İlk yarı sonunda 184.500 + 125.000 − 164.750 = 144.750 ürün vardır. Yeni üretimle 234.950 olur. Hedef 150.000 için 84.950 ürün satılmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_2",
@@ -16917,7 +16917,7 @@
           "1.800"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 5.400 ve 1.200 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 1.800 çıkmaktadır.",
+        "explanation": "Banka hesabı 18.250 + 5.400 = 23.650 TL’dir. Birikim toplamı 41.900 TL olur. Bilgisayar ve elde kalan para 43.700 TL olduğundan borç 43.700 − 41.900 = 1.800 TL’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_3",
@@ -16933,7 +16933,7 @@
           "210"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 450 ve 520 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 190 çıkmaktadır.",
+        "explanation": "A–C ve B–D mesafelerinin toplamında B–C bölümü iki kez sayılır. 450 + 520 − 780 = 190 kilometre, B–C mesafesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_4",
@@ -16949,7 +16949,7 @@
           "2.150"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 3.250 ve 4.100 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 2.150 çıkmaktadır.",
+        "explanation": "Satışlardan sonra 14.500 − 3.250 − 4.100 = 7.150 kilogram kalır. 5.000 kilogram satılacaksa 7.150 − 5.000 = 2.150 kilogram tohumluk ayrılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_5",
@@ -16965,7 +16965,7 @@
           "31.400"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 29.700 sonucuna ulaşılır.",
+        "explanation": "48.753 sayısında 4 ile 7 yer değiştirince 78.453 olur. İki işleme de aynı sayı eklendiğinden sonuç farkı 78.453 − 48.753 = 29.700’dür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_6",
@@ -16981,7 +16981,7 @@
           "11.650"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 4.500 ve 3 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 10.150 çıkmaktadır.",
+        "explanation": "Yük 3 × 4.500 + 12.850 = 26.350 kilogramdır. Görevli bunu 1.500 eksik, yani 24.850 bulmuştur. Hesapladığı boş kapasite 35.000 − 24.850 = 10.150 kilogramdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_7",
@@ -16997,7 +16997,7 @@
           "51.340"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 48.270 sonucuna ulaşılır.",
+        "explanation": "İkinci aday 109.360, üçüncü aday 117.810 oy almıştır. Geçerli oy toplamı 124.560 + 109.360 + 117.810 = 351.730’dur. Geçersiz oy 400.000 − 351.730 = 48.270’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_8",
@@ -17013,7 +17013,7 @@
           "18.200"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 16.300 sonucuna ulaşılır.",
+        "explanation": "Toplam tüketim 85.400 − 48.300 = 37.100 litredir. İkinci günün fazlası olan 4.500 çıkarılınca iki eş günlük miktar toplamı 32.600 kalır. Birinci gün 16.300 litre kullanılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_9",
@@ -17029,7 +17029,7 @@
           "21"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 19 çıkmaktadır.",
+        "explanation": "Fazlalık çıkarılınca iki küçük sayının toplamı 54.380 − 12.420 = 41.960 olur. Küçük sayı 20.980’dir; rakamlarının toplamı 2 + 0 + 9 + 8 + 0 = 19’dur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_2_10",
@@ -17041,12 +17041,12 @@
     "classLevel": 4,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "zaman-olcme",
-    "topicName": "Zaman Ölçme",
+    "topic": "dogal-sayilar",
+    "topicName": "Doğal Sayılar",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-matematik-zaman-olcme-zor-test-2",
-    "pageUrl": "tests/4-sinif-matematik-zaman-olcme-zor-test-2.html",
+    "slug": "4-sinif-matematik-dogal-sayilar-zor-test-2",
+    "pageUrl": "tests/4-sinif-matematik-dogal-sayilar-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-MATE-ZAMANÖ-01",
@@ -17058,7 +17058,7 @@
           "Sekiz yüz kırk yedi bin dört yüz on yedi"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sekiz yüz kırk yedi bin iki yüz on yedi' olduğu açıkça görülmektedir.",
+        "explanation": "İpuçları sırayla 8, 4, 7, 2, 1 ve 7 rakamlarını verir. Oluşan sayı 847.217’dir; sekiz yüz kırk yedi bin iki yüz on yedi diye okunur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_1",
@@ -17074,7 +17074,7 @@
           "28"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 26 çıkmaktadır.",
+        "explanation": "En büyük çift sayı 985.310, en küçük tek sayı 103.589’dur. Binler bölükleri 985 ve 103’tür. Rakamlar toplamı 9 + 8 + 5 + 1 + 0 + 3 = 26 olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_2",
@@ -17090,7 +17090,7 @@
           "K > L > N > M"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 4 ve 5 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı N > K > L > M çıkmaktadır.",
+        "explanation": "Çözümlemeler K = 450.802, L = 450.082, M = 405.820 ve N = 458.020 sayılarını verir. Büyükten küçüğe N > K > L > M sıralanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_3",
@@ -17106,7 +17106,7 @@
           "10. kitap"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 9. kitap sonucuna ulaşılır.",
+        "explanation": "Numaralar 100 artıyor. 11.250 − 10.450 = 800 farkı için 8 artış gerekir. Başlangıç birinci kitap olduğundan aranan kitap dokuzuncudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_4",
@@ -17122,7 +17122,7 @@
           "7000"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 5 ve 25 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 700 çıkmaktadır.",
+        "explanation": "En büyük uygun sayı 98.710’dur: rakamları farklı, toplamları 25, ilk rakam tek ve son rakam çifttir. Yüzler basamağındaki 7’nin basamak değeri 700’dür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_5",
@@ -17138,7 +17138,7 @@
           "10.040"
         ],
         "correctAnswer": 3,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 10.040 sonucuna ulaşılır.",
+        "explanation": "Bölükler yer değiştirince 517.248 elde edilir. On binler basamağının değeri 10.000, onlar basamağının değeri 40’tır. Toplamları 10.040’tır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_6",
@@ -17154,7 +17154,7 @@
           "Yüz on bir bin üç yüz doksan dokuz"
         ],
         "correctAnswer": 3,
-        "explanation": "Verilen 6 ve 24 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Yüz on bir bin üç yüz doksan dokuz çıkmaktadır.",
+        "explanation": "En küçük sayıyı elde etmek için soldaki basamaklar küçük tutulur. Her çubuk en az bir boncuk alırken 24 boncukla en küçük düzen 1, 1, 1, 3, 9, 9 olur; sayı 111.399’dur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_7",
@@ -17170,7 +17170,7 @@
           "570.599"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 380.311 sonucuna ulaşılır.",
+        "explanation": "380.311 sayısında yüz binler ve yüzler basamakları 3’tür; ancak binler bölüğünün rakam toplamı 3 + 8 + 0 = 11 olur. Gerekli toplam 12 olmadığı için bu bilet uygun değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_8",
@@ -17186,7 +17186,7 @@
           "22"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen değerler bulunup toplandığında sonuç 22 çıkmaktadır.",
+        "explanation": "Binler basamağı 1 olduğu için onlarla birlikte ardışık tek rakamlar 1 ve 3 olur. En büyük uygun sayı 1.939’dur. Rakamlarının toplamı 1 + 9 + 3 + 9 = 22’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_9",
@@ -17194,7 +17194,7 @@
       },
       {
         "id": "T2-G4-MATE-ZAMANÖ-10",
-        "question": "Mert, öğretmeninin tahtaya yazdığı altı basamaklı \"3A4.B7C\" sayısını çözümlerken bir hata yapıyor ve (3 x 100.000) + (5 x 10.000) + (4 x 1000) + (8 x 100) + (7 x 10) + (2 x 1) şeklinde defterine geçiriyor. Öğretmen, A, B ve C yerine yazılması gereken doğru rakamların ardışık çift sayılar (küçükten büyüğe A, B, C) olduğunu söylüyor.\nBuna göre A x B işleminin sonucu kaçtır?",
+        "question": "Altı basamaklı 3A4.B7C sayısında A, B ve C küçükten büyüğe ardışık çift rakamlardır. C = 6 olduğuna göre A × B kaçtır?",
         "choices": [
           "16",
           "12",
@@ -17202,7 +17202,7 @@
           "24"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 3 ve 5 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 8 çıkmaktadır.",
+        "explanation": "C = 6 ile biten üç ardışık çift rakam 2, 4 ve 6’dır. A × B = 2 × 4 = 8 olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_konu_1_10",
@@ -20871,24 +20871,24 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "classroom-rules",
-    "topicName": "Classroom Rules",
+    "topic": "fun-with-science",
+    "topicName": "Fun with Science",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-classroom-rules-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-classroom-rules-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-fun-with-science-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-fun-with-science-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-CLASSR-01",
-        "question": "Teacher: \"Can I clean the board, please?\"\nStudent: \"_____________\"\nWhich of the following completes the dialogue correctly?",
+        "question": "We want to see a very small object more clearly. Which tool should we use?",
         "choices": [
-          "Turn right.",
-          "No, I am not.",
-          "It is a board.",
-          "Yes, you can."
+          "A magnifying glass",
+          "A pillow",
+          "A football",
+          "A plate"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yes, you can.' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Magnifying glass büyüteçtir; küçük bir nesneyi daha büyük görmemize yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_1",
@@ -20896,7 +20896,7 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-02",
-        "question": "Look at the signs below. Which sign means \"Don't take photos!\"?",
+        "question": "In the science room, which sign tells us not to take photos?",
         "choices": [
           "The sign with a dog",
           "The sign with a hamburger",
@@ -20904,8 +20904,8 @@
           "The sign with a mobile phone"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'The sign with a camera' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-classroom-rules-zor-test-2-soru-2.svg",
+        "explanation": "Take photos fotoğraf çekmek demektir. Üzerinde çizgi bulunan kamera işareti fotoğraf çekilmemesini anlatır.",
+        "image": "images/tests/4-sinif-ingilizce-fun-with-science-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_2",
         "sourceType": "EXISTING_V4B",
@@ -20920,15 +20920,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-03",
-        "question": "John is from Britain. He is __________.\nChoose the correct nationality.",
+        "question": "The instructions say: First put water in a glass. Then add salt. What should we do first?",
         "choices": [
-          "Britain",
-          "Germany",
-          "English",
-          "British"
+          "Empty the glass",
+          "Close the notebook",
+          "Put water in a glass",
+          "Add salt"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'British' olduğu açıkça görülmektedir.",
+        "correctAnswer": 2,
+        "explanation": "First ilk adımı, then sonraki adımı bildirir. İlk yönerge bardağa su koymaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_3",
@@ -20936,15 +20936,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-04",
-        "question": "Read the sentence and find the odd one out. (Farklı olanı bulunuz.)\n\"I have got my pencil, eraser, ruler and _________ in my pencilcase.\"",
+        "question": "We have red and blue paint. We mix them to make a new colour. What does mix mean?",
         "choices": [
-          "wardrobe",
-          "pen",
-          "scissors",
-          "sharpener"
+          "Kesmek",
+          "Saymak",
+          "Silmek",
+          "Karıştırmak"
         ],
-        "correctAnswer": 0,
-        "explanation": "Seçenekler incelendiğinde 'wardrobe' diğerlerinden farklı bir anlam grubunda yer almaktadır.",
+        "correctAnswer": 3,
+        "explanation": "Mix karıştırmak demektir. Cümlede iki boya birleştirilerek yeni renk elde edilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_4",
@@ -20952,15 +20952,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-05",
-        "question": "A: \"Where is the cat?\"\nB: \"It is ________ the box and the table.\"",
+        "question": "I fold the paper in half before I cut it. Which action comes first?",
         "choices": [
-          "in",
-          "under",
-          "between",
-          "on"
+          "Folding the paper",
+          "Cutting the paper",
+          "Throwing it away",
+          "Painting the table"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'between' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Before önce anlamını verir. Kâğıt kesilmeden önce ikiye katlanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_5",
@@ -20968,15 +20968,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-06",
-        "question": "It is a rainy and windy day. You shouldn't go out without your ________.",
+        "question": "The glass is empty. Pour some water into it. What will be in the glass?",
         "choices": [
-          "umbrella",
-          "sunglasses",
-          "t-shirt",
-          "shorts"
+          "A pencil",
+          "Water",
+          "Sand",
+          "A leaf"
         ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'umbrella' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Pour dökmek, water su demektir. Yönerge boş bardağa su dökmeyi ister.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_6",
@@ -20984,15 +20984,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-07",
-        "question": "Order the words to make a correct sentence:\n1. me  2. Excuse  3. library  4. where  5. the  6. is",
+        "question": "We must measure the length of a leaf in centimetres. Which tool do we need?",
         "choices": [
-          "4 - 6 - 5 - 3 - 2 - 1",
-          "2 - 1 - 4 - 6 - 5 - 3",
-          "2 - 1 - 5 - 3 - 4 - 6",
-          "6 - 5 - 3 - 4 - 2 - 1"
+          "A clock",
+          "An eraser",
+          "A ruler",
+          "A spoon"
         ],
-        "correctAnswer": 1,
-        "explanation": "Excuse me where is the library",
+        "correctAnswer": 2,
+        "explanation": "Ruler cetveldir; santimetre cinsinden uzunluk ölçer. Clock zaman ölçmeye yarar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_7",
@@ -21000,15 +21000,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-08",
-        "question": "A: \"What time is it?\"\nB: \"It is half past ten.\"\nWhich clock shows the correct time?",
+        "question": "The teacher says: Observe the plant and draw its leaves. What should we draw?",
         "choices": [
-          "10:00",
-          "10:30",
-          "10:15",
-          "09:30"
+          "The teacher",
+          "The classroom door",
+          "The clock",
+          "The leaves"
         ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '10:30' olduğu açıkça görülmektedir.",
+        "correctAnswer": 3,
+        "explanation": "Leaves yapraklar demektir. Observe gözlemlemeyi, draw ise çizimi ister; çizilecek şey bitkinin yapraklarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_8",
@@ -21016,15 +21016,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-09",
-        "question": "\"I like doing experiments. I use microscopes.\"\nWhich school subject is this?",
+        "question": "We put one ice cube in a warm room. It turns into water. Which sentence describes the change?",
         "choices": [
-          "Art",
-          "Music",
-          "P.E.",
-          "Science"
+          "The ice melts.",
+          "The water freezes.",
+          "The glass breaks.",
+          "The paper burns."
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Science' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Ice melts buz erir demektir. Buzun sıvı suya dönüşmesi erimedir; freezes donmayı anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_9",
@@ -21032,15 +21032,15 @@
       },
       {
         "id": "T2-G4-INGI-CLASSR-10",
-        "question": "If today is Tuesday, what is the day after tomorrow?",
+        "question": "A science activity has three steps: cut, fold and colour. Which action is NOT in the instructions?",
         "choices": [
-          "Wednesday",
-          "Friday",
-          "Thursday",
-          "Monday"
+          "Colour",
+          "Sing",
+          "Fold",
+          "Cut"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Thursday' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Yönergelerde kesmek, katlamak ve boyamak vardır. Sing şarkı söylemek demektir ve verilen adımlarda yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_ingilizce_10",
@@ -21052,12 +21052,12 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "nationality",
-    "topicName": "Nationality",
+    "topic": "classroom-rules",
+    "topicName": "Classroom Rules",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-nationality-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-nationality-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-classroom-rules-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-classroom-rules-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-NATION-01",
@@ -21069,7 +21069,7 @@
           "Close your book."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Raise your hand.' olduğu açıkça görülmektedir.",
+        "explanation": "Raise your hand elini kaldır demektir. Söz istemek için önce el kaldırılır; speak loudly yüksek sesle konuşmaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_1",
@@ -21085,7 +21085,7 @@
           "Turn on the lights, please."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Turn on the lights, please.' olduğu açıkça görülmektedir.",
+        "explanation": "Dark karanlık demektir. Turn on the lights ışıkları aç yönergesidir; turn off kapatmak anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_2",
@@ -21101,7 +21101,7 @@
           "Yes, I can."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yes, you may.' olduğu açıkça görülmektedir.",
+        "explanation": "May I come in içeri girebilir miyim diye izin ister. Olumlu yanıt Yes, you may biçimindedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_3",
@@ -21117,7 +21117,7 @@
           "A student is giving a pencil."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A student is erasing the writings on the board.' olduğu açıkça görülmektedir.",
+        "explanation": "Clean the board tahtayı temizle demektir. Yazıları silen öğrenci bu yönergeyi yerine getirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_4",
@@ -21133,7 +21133,7 @@
           "Listen"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Be' olduğu açıkça görülmektedir.",
+        "explanation": "Be quiet sessiz ol anlamındaki kalıptır. Quiet sıfatından önce bu yönergede be kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_5",
@@ -21149,7 +21149,7 @@
           "Thank you."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Thank you.' olduğu açıkça görülmektedir.",
+        "explanation": "Here you are bir şeyi uzatırken söylenir. Nesneyi alan kişi Thank you diyerek teşekkür eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_6",
@@ -21165,7 +21165,7 @@
           "Raise your hand to speak."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Fight with your friends.' olduğu açıkça görülmektedir.",
+        "explanation": "BAD kötü veya uygun olmayan anlamındadır. Fight with your friends arkadaşlarınla kavga et demektir ve sınıf kuralı olamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_7",
@@ -21181,7 +21181,7 @@
           "close"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'close' olduğu açıkça görülmektedir.",
+        "explanation": "Dışarısı soğuk olduğu için kapıyı kapatma isteniyor. Close kapatmak, open açmak demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_8",
@@ -21197,8 +21197,8 @@
           "Turn left."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Look at the board, please.' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-nationality-zor-test-2-soru-9.svg",
+        "explanation": "Pointing to the board tahtayı işaret etmektir. Look at the board, tahtaya bakın yönergesidir.",
+        "image": "images/tests/4-sinif-ingilizce-classroom-rules-zor-test-2-soru-9.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_9",
         "sourceType": "EXISTING_V4B",
@@ -21221,7 +21221,7 @@
           "Be quiet!"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Say that again, please?' olduğu açıkça görülmektedir.",
+        "explanation": "Say that again, please lütfen tekrar söyler misiniz anlamındadır. Duyulmayan sözü yeniden istemek için kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu1_classroom_10",
@@ -21233,12 +21233,12 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "cartoon-characters",
-    "topicName": "Cartoon Characters",
+    "topic": "nationality",
+    "topicName": "Nationality",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-cartoon-characters-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-cartoon-characters-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-nationality-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-nationality-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-CARTOO-01",
@@ -21250,7 +21250,7 @@
           "Spanish"
         ],
         "correctAnswer": 0,
-        "explanation": "From kelimesinden sonra ülke ismi gelmelidir",
+        "explanation": "From sözcüğünden sonra burada ülke adı gerekir. Italy İtalya’dır; Japanese, Turkish ve Spanish milliyet bildiren sözcüklerdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_1",
@@ -21266,7 +21266,7 @@
           "it isn't"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I'm not' olduğu açıkça görülmektedir.",
+        "explanation": "Are you sorusuna kendi adına olumsuz yanıt I am not veya I’m not biçimindedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_2",
@@ -21282,7 +21282,7 @@
           "Spanyish"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Spanish' olduğu açıkça görülmektedir.",
+        "explanation": "Spain İspanya ülkesidir; Spanish İspanyol anlamındaki milliyet sıfatıdır. Spaniard isim olarak kullanılır ve burada a gerektirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_3",
@@ -21298,7 +21298,7 @@
           "he is"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'he is' olduğu açıkça görülmektedir.",
+        "explanation": "Is he ile sorulan olumlu kısa yanıt Yes, he is biçimindedir. Kişi zamiri ve yardımcı fiil soruyla eşleşir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_4",
@@ -21314,7 +21314,7 @@
           "Turkey - Turkish"
         ],
         "correctAnswer": 0,
-        "explanation": "Japan - Japanese olmalıdır",
+        "explanation": "Japan Japonya, Japanese Japon demektir. Japanish doğru bir milliyet sözcüğü değildir; diğer eşleştirmeler doğrudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_5",
@@ -21330,7 +21330,7 @@
           "Hayır"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen İngilizce kelimenin doğru Türkçe karşılığı 'Bence / Sanırım' olmalıdır.",
+        "explanation": "I think kesinlik değil düşünce bildirir; bence veya sanırım anlamında kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_6",
@@ -21346,8 +21346,8 @@
           "West"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'North' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-cartoon-characters-zor-test-2-soru-7.svg",
+        "explanation": "Pusulanın üstündeki N işareti North, yani kuzeydir. South güney, East doğu, West batıdır.",
+        "image": "images/tests/4-sinif-ingilizce-nationality-zor-test-2-soru-7.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_7",
         "sourceType": "EXISTING_V4B",
@@ -21370,7 +21370,7 @@
           "I don't think so."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I don't think so.' olduğu açıkça görülmektedir.",
+        "explanation": "Tokyo Japonya’dadır. I don’t think so, öyle düşünmüyorum anlamına gelir ve ardından gelen düzeltmeyle uyumludur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_8",
@@ -21386,7 +21386,7 @@
           "France"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'France' olduğu açıkça görülmektedir.",
+        "explanation": "Paris Fransa’dadır. Fransa’nın İngilizce adı France sözcüğüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_9",
@@ -21394,15 +21394,15 @@
       },
       {
         "id": "T2-G4-INGI-CARTOO-10",
-        "question": "If someone says \"I am Turkish\", where is he/she from?",
+        "question": "A student says, \"I am Turkish.\" Which sentence gives the country?",
         "choices": [
-          "He is from Turkey.",
-          "He is from Turkish.",
-          "Both A and C.",
-          "He is from Turkiye."
+          "I am from Italy.",
+          "I am from Japan.",
+          "I am from Türkiye.",
+          "I am from Spain."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Both A and C.' olduğu açıkça görülmektedir.",
+        "explanation": "Turkish Türk milliyetini, Türkiye ise ülkeyi bildirir. I am Turkish diyen kişi I am from Türkiye diyebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu2_nationality_10",
@@ -21414,12 +21414,12 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "free-time",
-    "topicName": "Free Time",
+    "topic": "cartoon-characters",
+    "topicName": "Cartoon Characters",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-free-time-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-free-time-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-cartoon-characters-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-cartoon-characters-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-FREETI-01",
@@ -21431,8 +21431,8 @@
           "It can ride a bike."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It can fly.' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-free-time-zor-test-2-soru-1.svg",
+        "explanation": "Görselde kuş havada uçmaktadır. Can fly uçabilir demektir; can’t fly uçamaz anlamına gelir.",
+        "image": "images/tests/4-sinif-ingilizce-cartoon-characters-zor-test-2-soru-1.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_1",
         "sourceType": "EXISTING_V4B",
@@ -21447,7 +21447,7 @@
       },
       {
         "id": "T2-G4-INGI-FREETI-02",
-        "question": "A: \"________ you play the guitar?\"\nB: \"No, I ________.\"\nWhich words complete the dialogue?",
+        "question": "Ask about ability using can: \"________ you play the guitar?\" \"No, I ________.\"",
         "choices": [
           "Can / can",
           "Do / don't",
@@ -21455,7 +21455,7 @@
           "Are / am not"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Can / can't' olduğu açıkça görülmektedir.",
+        "explanation": "Soru özellikle yeteneği sorar: Can you play the guitar? Olumsuz kısa cevap No, I can’t biçimindedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_2",
@@ -21463,7 +21463,7 @@
       },
       {
         "id": "T2-G4-INGI-FREETI-03",
-        "question": "Superman has got a red cape. He ________ fly very fast, but he ________ speak Turkish.",
+        "question": "A cartoon hero is able to fly but is not able to swim. He ________ fly, but he ________ swim.",
         "choices": [
           "can / can",
           "can't / can't",
@@ -21471,7 +21471,7 @@
           "can / can't"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'can / can't' olduğu açıkça görülmektedir.",
+        "explanation": "Verilen tanımda kahraman uçabiliyor fakat yüzemiyor. Can yeteneği, can’t yapamamayı bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_3",
@@ -21487,7 +21487,7 @@
           "Uçak"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen İngilizce kelimenin doğru Türkçe karşılığı 'Bisiklet' olmalıdır.",
+        "explanation": "Bike bisiklet demektir. Ride a bike bisiklete binmek anlamındaki kalıptır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_4",
@@ -21503,7 +21503,7 @@
           "climb"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'climb' olduğu açıkça görülmektedir.",
+        "explanation": "Climb tırmanmak demektir. Binalara tırmanma bu eylemle anlatılır; dive dalmak, swim yüzmektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_5",
@@ -21519,7 +21519,7 @@
           "play"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'play' olduğu açıkça görülmektedir.",
+        "explanation": "Basketbol oynamak İngilizcede play basketball biçimindedir. Draw çizmek, read okumaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_6",
@@ -21535,7 +21535,7 @@
           "A snake"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A kangaroo' olduğu açıkça görülmektedir.",
+        "explanation": "Kangaroo kangurudur; zıplayabilir fakat uçamaz. Seçeneklerdeki bu iki özelliği birlikte sağlayan hayvan kangurudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_7",
@@ -21551,7 +21551,7 @@
           "can"
         ],
         "correctAnswer": 2,
-        "explanation": "\"she has got\"",
+        "explanation": "She tekil üçüncü kişidir; sahiplik bildiren kalıp she has got biçimindedir. Have çoğul öznelerle ve I/you ile kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_8",
@@ -21567,8 +21567,8 @@
           "It can climb a tree."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It can swim.' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-free-time-zor-test-2-soru-9.svg",
+        "explanation": "Balık su altında yüzmektedir. Swim yüzmek demektir; run koşmak, climb tırmanmaktır.",
+        "image": "images/tests/4-sinif-ingilizce-cartoon-characters-zor-test-2-soru-9.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_9",
         "sourceType": "EXISTING_V4B",
@@ -21591,7 +21591,7 @@
           "4 - 3 - 5 - 1 - 2"
         ],
         "correctAnswer": 0,
-        "explanation": "Hulk can lift heavy cars.",
+        "explanation": "Düz cümle özne, can, eylem ve nesne sırasını izler: Hulk can lift heavy cars. Sıra 2-5-1-4-3 olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu3_cartoon_characters_10",
@@ -21603,12 +21603,12 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "my-day",
-    "topicName": "My Day",
+    "topic": "free-time",
+    "topicName": "Free Time",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-my-day-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-my-day-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-free-time-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-free-time-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-MYDAY-01",
@@ -21620,7 +21620,7 @@
           "do"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'do' olduğu açıkça görülmektedir.",
+        "explanation": "Do you like sorusuna olumlu kısa yanıt Yes, I do biçimindedir. Don’t olumsuz yanıt verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_1",
@@ -21628,7 +21628,7 @@
       },
       {
         "id": "T2-G4-INGI-MYDAY-02",
-        "question": "Look at the picture. The boy is crying because he is reading a book.\nWhich sentence is true?",
+        "question": "The boy in the picture says, \"I do not like reading books.\" Which sentence matches his words?",
         "choices": [
           "He doesn't like reading books.",
           "He likes reading books.",
@@ -21636,8 +21636,8 @@
           "He loves books."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'He doesn't like reading books.' olduğu açıkça görülmektedir.",
-        "image": "images/tests/4-sinif-ingilizce-my-day-zor-test-2-soru-2.svg",
+        "explanation": "Metindeki açık ifade I don’t like reading books, kitap okumayı sevmiyorum demektir. Ağlamak tek başına birinin okuma tercihini kanıtlamaz.",
+        "image": "images/tests/4-sinif-ingilizce-free-time-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_2",
         "sourceType": "EXISTING_V4B",
@@ -21660,7 +21660,7 @@
           "drawn"
         ],
         "correctAnswer": 2,
-        "explanation": "like/love/enjoy fiillerinden sonra gelen fiil -ing takısı alır",
+        "explanation": "Bu cümlede love sonrasında etkinlik adı olarak drawing kullanılır. Drawing pictures resim çizmek anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_3",
@@ -21676,7 +21676,7 @@
           "Let's"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Let's' olduğu açıkça görülmektedir.",
+        "explanation": "Let’s birlikte bir şey yapmayı önerir. Let’s ride a bike, haydi bisiklete binelim anlamına gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_4",
@@ -21692,7 +21692,7 @@
           "playing"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'listening' olduğu açıkça görülmektedir.",
+        "explanation": "Listen to music müzik dinlemek kalıbıdır. Like sonrasında listening to music etkinliği anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_5",
@@ -21700,7 +21700,7 @@
       },
       {
         "id": "T2-G4-INGI-MYDAY-06",
-        "question": "Read the text: \"My name is Tom. I like playing football, but I dislike playing tennis.\"\nWhich sport does Tom hate (dislike)?",
+        "question": "Tom says, \"I like playing football, but I dislike playing tennis.\" Which sport does he dislike?",
         "choices": [
           "Football",
           "Tennis",
@@ -21708,7 +21708,7 @@
           "Swimming"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tennis' olduğu açıkça görülmektedir.",
+        "explanation": "Metin football için like, tennis için dislike kullanıyor. Dislike sevmemek demektir; Tom tenis oynamayı sevmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_6",
@@ -21724,7 +21724,7 @@
           "She doesn't like it."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'She doesn't like it.' olduğu açıkça görülmektedir.",
+        "explanation": "Jane No, I don’t diyerek olumsuz yanıt veriyor. Afraid of horses ifadesi de atlardan korktuğunu bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_7",
@@ -21740,7 +21740,7 @@
           "Piano"
         ],
         "correctAnswer": 1,
-        "explanation": "Diğerleri müzik aletidir",
+        "explanation": "Guitar, flute ve piano müzik aletleridir. Football bir spordur; bu yüzden gruptan farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_8",
@@ -21756,7 +21756,7 @@
           "listen"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'watch' olduğu açıkça görülmektedir.",
+        "explanation": "Televizyonda çizgi film izlemek watch cartoons kalıbıyla anlatılır. Listen dinlemek, read okumaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_9",
@@ -21772,7 +21772,7 @@
           "swim in the pool!"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'color them!' olduğu açıkça görülmektedir.",
+        "explanation": "Coloring books boyama kitaplarıdır. Me too aynı tercihi bildirir; color them, onları boyayalım önerisini tamamlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu4_free_time_10",
@@ -21784,16 +21784,16 @@
     "classLevel": 4,
     "subject": "ingilizce",
     "subjectName": "İngilizce",
-    "topic": "fun-with-science",
-    "topicName": "Fun with Science",
+    "topic": "my-day",
+    "topicName": "My Day",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-ingilizce-fun-with-science-zor-test-2",
-    "pageUrl": "tests/4-sinif-ingilizce-fun-with-science-zor-test-2.html",
+    "slug": "4-sinif-ingilizce-my-day-zor-test-2",
+    "pageUrl": "tests/4-sinif-ingilizce-my-day-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-INGI-FUNWIT-01",
-        "question": "Look at the clock. The big hand is on 12 and the small hand is on 7.\nWhat time is it?",
+        "question": "On an analogue clock, the big hand points to 12 and the small hand points to 7. What time is it?",
         "choices": [
           "It is half past seven.",
           "It is seven o'clock.",
@@ -21801,7 +21801,7 @@
           "It is half past six."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is seven o'clock.' olduğu açıkça görülmektedir.",
+        "explanation": "Yelkovan 12’deyken dakika sıfırdır; akrep 7’deyse saat yedidir. Seven o’clock tam 07.00 anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_1",
@@ -21817,7 +21817,7 @@
           "get"
         ],
         "correctAnswer": 3,
-        "explanation": "get up",
+        "explanation": "Get up yataktan kalkmak anlamındaki kalıptır. Get sözcüğü, cümledeki up ile birleşir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_2",
@@ -21833,7 +21833,7 @@
           "I wash my face."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I wash my face.' olduğu açıkça görülmektedir.",
+        "explanation": "Morning sabah demektir. Seçeneklerde sabah temizliğini anlatan ifade I wash my face, yani yüzümü yıkarım cümlesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_3",
@@ -21849,7 +21849,7 @@
           "What"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'What time' olduğu açıkça görülmektedir.",
+        "explanation": "Yanıt bir saat verdiği için what time, yani saat kaçta sorusu gerekir. Where yer, who kişi sorar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_4",
@@ -21865,7 +21865,7 @@
           "It is one o'clock."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is half past twelve.' olduğu açıkça görülmektedir.",
+        "explanation": "Half past yarım saat geçmiş anlamındadır. Half past twelve, on ikiyi otuz geçe yani 12.30 demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_5",
@@ -21881,7 +21881,7 @@
           "1 - 2 - 4 - 3"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '2 - 4 - 1 - 3' olduğu açıkça görülmektedir.",
+        "explanation": "Verilen okul günü düzeninde önce kalkılır, sonra okula gidilir, öğle yemeği yenir ve gece yatılır: 2-4-1-3.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_6",
@@ -21897,7 +21897,7 @@
           "sleep"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'play' olduğu açıkça görülmektedir.",
+        "explanation": "Playground oyun alanıdır. Arkadaşlarla bu yerde yapılan etkinlik play, yani oynamaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_7",
@@ -21913,7 +21913,7 @@
           "Wake up"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Have dinner' olduğu açıkça görülmektedir.",
+        "explanation": "Evening akşam demektir. Have dinner akşam yemeği yemek, have breakfast kahvaltı yapmaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_8",
@@ -21921,7 +21921,7 @@
       },
       {
         "id": "T2-G4-INGI-FUNWIT-09",
-        "question": "\"I brush my ________ every morning.\"",
+        "question": "I use a toothbrush to clean my mouth. I brush my ________ every morning.",
         "choices": [
           "face",
           "hands",
@@ -21929,7 +21929,7 @@
           "teeth"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'teeth' olduğu açıkça görülmektedir.",
+        "explanation": "Brush my teeth dişlerimi fırçalarım kalıbıdır. Soru diş fırçasıyla ağız temizliğini açıkça anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_9",
@@ -21945,7 +21945,7 @@
           "It is a book."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is half past three.' olduğu açıkça görülmektedir.",
+        "explanation": "What time is it saati sorar. It is half past three saat üç buçuk anlamındadır; diğer seçenekler saat bildirmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_ingilizce_konu5_my_day_10",

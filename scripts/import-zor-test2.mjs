@@ -4,6 +4,11 @@ import crypto from 'node:crypto';
 import {duplicateReplacements,englishDuplicates} from '../data/imports/zor-test2-corrections.mjs';
 import {finalVisuals} from '../data/imports/zor-test2-visuals.mjs';
 import {repairEditorial} from '../data/imports/zor-test2-editorial.mjs';
+import {repairExplanation} from '../data/imports/zor-test2-explanations.mjs';
+import {repairEnglish4} from '../data/imports/zor-test2-english4.mjs';
+import {repairScienceTemplate} from '../data/imports/zor-test2-science-repairs.mjs';
+import {repairMathPrecision} from '../data/imports/zor-test2-math-precision.mjs';
+import {repairMath4Topics} from '../data/imports/zor-test2-math4-topics.mjs';
 const raw=fs.readFileSync('data/imports/zor-test2-final.md','utf8').replace(/\r/g,'');
 const records=raw.split(/^final_id: /m).slice(1).map(part=>{
  const chunk=part.split(/^---$/m)[0],r={final_id:chunk.split('\n')[0].trim()};
@@ -40,10 +45,15 @@ for(const r of records){
   const [kind,title,extra={}]=finalVisuals[vi++];q.visual={type:'finalDiagram',title,data:{kind,...extra}};q.image=`images/tests/${slug}-soru-${t.questions.length+1}.svg`;q.imageAlt=title;
  }
  if(repairEditorial(t,q,t.questions.length)) reasons.push('topic_and_context_repair');
+ if(repairExplanation(q)) reasons.push('specific_explanation_and_clarity');
+ if(repairScienceTemplate(t,q,t.questions.length)) reasons.push('science_topic_repair');
+ if(repairMathPrecision(q)) reasons.push('verified_math_answer_or_ambiguity');
  if(reasons.length)changes.push({id:r.final_id,reasons,before:original,after:structuredClone(q)});
  t.questions.push(q);
 }
 if(vi!==35||tr!==duplicateReplacements.length||en!==englishDuplicates.length||bank.size!==130)throw new Error(`Mapping counts: ${vi}/${tr}/${en}/${bank.size}`);
+repairEnglish4([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
+repairMath4Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 fs.writeFileSync('data/tests/zor-test2-final.js','// Imported final bank; reproducible with npm run import:zor-test2.\n(function(){ window.TESTCOZ_TESTS = window.TESTCOZ_TESTS || []; window.TESTCOZ_TESTS.push(...'+JSON.stringify([...bank.values()],null,2)+'); })();\n');
 fs.writeFileSync('data/imports/zor-test2-change-log.json',JSON.stringify({sourceSha256:crypto.createHash('sha256').update(raw).digest('hex'),changes},null,2)+'\n');
-console.log(JSON.stringify({tests:bank.size,questions:records.length,visuals:vi,duplicateCorrections:tr+en,changedQuestions:changes.length}));
+console.log(JSON.stringify({tests:bank.size,questions:records.length,visuals:vi,duplicateCorrections:tr+en,changedQuestions:new Set(changes.map(c=>c.id)).size,changeEvents:changes.length}));
