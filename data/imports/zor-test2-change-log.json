@@ -34154,6 +34154,2806 @@
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_10",
         "sourceType": "EXISTING_V4B"
       }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-01",
+        "question": "Bir öğrenci içi su dolu bir kaba sırasıyla mantar tıpa, yumurta ve plastik kapak bırakıyor. Mantar tıpa ve plastik kapak suyun yüzeyinde kalırken, yumurta dibe batıyor.\nDaha sonra suya bol miktarda tuz ekleyip karıştırıyor. Suyun yoğunluğu arttığı için bu kez yumurtanın de su yüzeyine doğru hafifçe yükseldiği görülüyor.\nBu deneyden çıkarılacak **temel sonuç** aşağıdakilerden hangisidir?",
+        "choices": [
+          "Cisimlerin suda yüzmesi sadece cismin büyüklüğüne bağlıdır.",
+          "Sıvının içine tuz atıldığında tüm cisimler dibe batar.",
+          "Demir cisimler hiçbir şart altında suda yüzemezler.",
+          "Bir cismin suda yüzmesi veya batması hem cismin hem de sıvının özelliklerine bağlıdır."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Tuzlu suyun yoğunluğu tatlı sudan fazladır. Suyun içine tuz atıldığında yoğunluğu artar ve yumurtayı (veya cismi) yukarı doğru kaldırarak yüzmesini sağlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-01",
+        "question": "Bir pil, kablo ve ampulle kurulan devrede ampul yanmıyor. Kablonun bir ucu pile değmiyorsa ne yapılmalıdır?",
+        "choices": [
+          "Kabloyu pilin kutbuna bağlamak",
+          "Pili masadan uzaklaştırmak",
+          "Ampulün camını boyamak",
+          "Kabloyu kesip atmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Açık bağlantıda elektrik akımı dolaşamaz. Kablonun pile bağlanması devre yolunu tamamlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-02",
+        "question": "Ayşe, mutfaktaki üç farklı karışımı birbirinden ayırmak istiyor:\n1. Karışım: Su ve kum\n2. Karışım: Demir tozu ve talaş\n3. Karışım: Su ve tuz\nAyşe'nin bu karışımları ayırmak için kullanması gereken yöntemler sırasıyla hangi seçenekte doğru verilmiştir?",
+        "choices": [
+          "Buharlaştırma - Süzme - Mıknatısla Ayırma",
+          "Süzme - Eleme - Süzme",
+          "Eleme - Mıknatısla Ayırma - Dinlendirme",
+          "Süzme - Mıknatısla Ayırma - Buharlaştırma"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süzme - Mıknatısla Ayırma - Buharlaştırma' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-02",
+        "question": "Bir ampulün yanması için basit elektrik devresinde hangi parçalar arasında kesintisiz yol olmalıdır?",
+        "choices": [
+          "Kablo ve kâğıt arasında",
+          "Pil, kablo ve ampul arasında",
+          "Yalnız pil ve masa arasında",
+          "Ampul ve pencere arasında"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pil, kablo ve ampul uygun biçimde bağlanınca akımın dolaşabileceği kapalı yol oluşur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-03",
+        "question": "Bir mıknatıs ortadan ikiye bölündüğünde aşağıdaki durumlardan hangisi gerçekleşir?",
+        "choices": [
+          "Mıknatıs özelliğini tamamen kaybeder.",
+          "Yeni oluşan her iki parça da kendi içinde N ve S kutuplarına sahip iki yeni mıknatıs olur.",
+          "Parçalardan biri sadece N (Kuzey) kutbu, diğeri sadece S (Güney) kutbu olur.",
+          "Mıknatısın çekim gücü iki katına çıkar."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Yeni oluşan her iki parça da kendi içinde N ve S kutuplarına sahip iki yeni mıknatıs olur.' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-03",
+        "question": "Aynı pil ve ampul kullanılan iki devreden birinde anahtar açık, diğerinde kapalıdır. Hangisinde ampul yanar?",
+        "choices": [
+          "İkisinde de kesinlikle yanmaz",
+          "Anahtarın konumu önemli değildir",
+          "Anahtarı kapalı olan devrede",
+          "Anahtarı açık olan devrede"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kapalı anahtar devre yolunu tamamlar. Açık anahtar akım yolunu keser.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-04",
+        "question": "- Zıt kutuplar birbirini çeker.\n- Aynı kutuplar birbirini iter.\nYukarıdaki kurala göre, üç adet çubuk mıknatıs yan yana konulduğunda mıknatısların birbirine yapıştığı gözlemlenmiştir. Ortadaki mıknatısın sol kutbu N olduğuna göre, baştaki ve sondaki mıknatısların birbirine bakan uçları sırasıyla nedir?",
+        "choices": [
+          "N ve N",
+          "S ve N",
+          "S ve S",
+          "N ve S"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çözüm: Ortadaki mıknatıs N-S şeklindedir. Soldaki mıknatıs N'yi çekmesi için sağ ucu S olmalıdır. Sağdaki mıknatıs ortadakinin S ucunu çekmesi için sol ucu N olmalıdır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-04",
+        "question": "Bir devrede pilin görevi nedir?",
+        "choices": [
+          "Ampulün rengini değiştirmek",
+          "Kabloyu uzatmak",
+          "Anahtarın yerini göstermek",
+          "Elektrik enerjisi sağlamak"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Pil, devrenin elektrik enerjisi kaynağıdır; ampul bu enerjiyle ışık verir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-05",
+        "question": "Hareket halindeki bir cisme, hareket yönüne **zıt** yönde bir kuvvet uygulanırsa cisimde nasıl bir değişiklik gözlemlenir?",
+        "choices": [
+          "Cismin hızı artar.",
+          "Cisim şekil değiştirir.",
+          "Cisim yavaşlar veya durur.",
+          "Cismin kütlesi artar."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim yavaşlar veya durur.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-05",
+        "question": "Devredeki anahtar kapatıldığında ampul yanıyor, açıldığında sönüyor. Anahtar hangi işi yapıyor?",
+        "choices": [
+          "Devreyi açıp kapatıyor.",
+          "Pili yeniliyor.",
+          "Kabloyu yalıtıyor.",
+          "Ampulü büyütüyor."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Anahtar kapalıyken akım yolu tamamlanır; açıkken yol kesilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-06",
+        "question": "Sıvı maddelerin belirli bir şekli yoktur, konuldukları kabın şeklini alırlar. Gazlar da bulundukları ortama tamamen yayılırlar.\nBuna göre, aşağıdakilerden hangisi gazların özelliklerini sıvıların özelliklerinden **ayıran** en önemli farktır?",
+        "choices": [
+          "Akışkan olmaları",
+          "Konuldukları kaba sığmaları",
+          "Kütlelerinin olması",
+          "Sıkıştırılabilir olmaları"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sıkıştırılabilir olmaları' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-06",
+        "question": "Ampul yuvasına gevşek takılmışsa sağlam pil ve kablolar olsa bile neden yanmayabilir?",
+        "choices": [
+          "Kablo ağır olduğu için",
+          "Elektrik bağlantısı tamamlanmadığı için",
+          "Pil rengini kaybettiği için",
+          "Işık havada kaybolduğu için"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ampulün metal temas noktaları yuvaya değmezse devrede kesinti olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-07",
+        "question": "Buzdolabından çıkarılan soğuk bir su şişesinin dış yüzeyinde bir süre sonra su damlacıkları oluşur. Şişenin dışının ıslanmasına neden olan olay aşağıdakilerden hangisidir?",
+        "choices": [
+          "Havadaki su buharının soğuk şişeye çarpıp yoğuşması",
+          "Şişenin içindeki suyun dışarı sızması",
+          "Şişenin dışındaki buzların erimesi",
+          "Şişenin içindeki suyun buharlaşması"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Buzdolabından çıkarılan soğuk bir su şişesinin dış yüzeyinde bir süre sonra su damlacıkları oluşur. Şişenin dışının ıslanmasına neden olan olay aşağıdakilerden 'Havadaki su buharının soğuk şişeye çarpıp yoğuşması' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-07",
+        "question": "Basit bir devrede iki kablonun uçları birbirine değmiyor. Ampulün yanması için hangisi gereklidir?",
+        "choices": [
+          "Ampulü kâğıda sarmak",
+          "Pili ters çevirmeden çıkarmak",
+          "Uçları uygun biçimde birleştirip devreyi tamamlamak",
+          "Kabloları birbirinden daha da ayırmak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kablo uçları arasında boşluk varsa kapalı yol oluşmaz. Uygun bağlantı yapıldığında yol tamamlanır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-08",
+        "question": "Aşağıdaki maddelerden hangisi mıknatıs tarafından **çekilmez** ancak suda **batar**?",
+        "choices": [
+          "Demir ataş",
+          "Tahta parçası",
+          "Çakıl taşı",
+          "Strafor (Köpük)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çakıl taşı' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-08",
+        "question": "Bir çocuk devrede ampulü çıkarıp yerine plastik silgi koyuyor. Ampulün eski yerinde ışık görülür mü?",
+        "choices": [
+          "Evet, silgi ampul gibi yanar.",
+          "Yalnız gündüz yanar.",
+          "Pilin rengi değişirse yanar.",
+          "Hayır, silgi ışık veren ampul değildir."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Plastik silgi ampulün ışık üreten kısmına sahip değildir. Devre yolunda ışık kaynağı kalmaz.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-09",
+        "question": "Dünya'nın kendi ekseni etrafında dönüşü ile Güneş etrafında dolanımı sonucunda farklı olaylar meydana gelir.\nGece ve gündüzün ardışık olarak yaşanması ile mevsimlerin oluşması sırasıyla hangi hareketlerin sonucudur?",
+        "choices": [
+          "Dönme - Dolanma",
+          "Dolanma - Dönme",
+          "Dolanma - Dolanma",
+          "Dönme - Dönme"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Dönme - Dolanma' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-09",
+        "question": "Bir devre şemasında pil, ampul ve anahtar sembolleri vardır. Semboller ne için kullanılır?",
+        "choices": [
+          "Devre parçalarını çizimde göstermek için",
+          "Pilin içini doldurmak için",
+          "Ampulü ısıtmak için",
+          "Anahtarı boyamak için"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Şema, gerçek parçaları basit işaretlerle gösterir; bağlantıların izlenmesini kolaylaştırır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -YERKAB-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "toTopic": "basit-elektrik-devreleri",
+      "before": {
+        "id": "T2-G4-FEN -YERKAB-10",
+        "question": "Maddenin halleri ile ilgili verilen,\nI. Katıların belirli bir şekli ve hacmi vardır.\nII. Sıvıların belirli bir hacmi vardır fakat şekli yoktur.\nIII. Gazların belirli bir kütlesi yoktur.\nifadelerinden hangileri **doğrudur**?",
+        "choices": [
+          "II ve III",
+          "I ve III",
+          "I ve II",
+          "I, II ve III"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I ve II' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -YERKAB-10",
+        "question": "İki aynı ampulden biri sağlam devrede yanıyor, diğeri aynı koşullarda yanmıyor. Yerleri değiştirilince yanmayan ampul yine yanmıyor. Hangi parça sorunlu olabilir?",
+        "choices": [
+          "Kâğıt",
+          "Yanmayan ampul",
+          "Her iki pil",
+          "Masa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Aynı devreye takıldığında yalnız bir ampul çalışmıyorsa sorun o ampulde olabilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_web_test_fen_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-01",
+        "question": "Yer kabuğunu oluşturan kayaçların rüzgar, su ve sıcaklık farkları gibi dış etkilerle parçalanması sonucunda aşağıdakilerden hangisi oluşur?",
+        "choices": [
+          "Mineraller",
+          "Fosiller",
+          "Toprak ve kum",
+          "Madenler"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Toprak ve kum' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-01",
+        "question": "Yer kabuğunu oluşturan kayaçların rüzgar, su ve sıcaklık farkları gibi dış etkilerle parçalanması sonucunda aşağıdakilerden hangisi oluşur?",
+        "choices": [
+          "Mineraller",
+          "Fosiller",
+          "Toprak ve kum",
+          "Madenler"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Toprak ve kum' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-02",
+        "question": "Milyonlarca yıl önce yaşamış bitki ve hayvanların taşlaşmış kalıntılarına fosil denir. Buna göre, fosillerle ilgili aşağıdaki ifadelerden hangisi **yanlıştır**?",
+        "choices": [
+          "Fosiller, geçmişte yaşamış canlılar hakkında bilgi verir.",
+          "Sadece hayvanların fosili oluşur, bitkilerin fosili oluşmaz.",
+          "Fosilleşme süreci binlerce veya milyonlarca yıl sürer.",
+          "Fosilleri inceleyen bilim dalına paleontoloji denir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Sadece hayvanların fosili oluşur, bitkilerin fosili oluşmaz.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-02",
+        "question": "Milyonlarca yıl önce yaşamış bitki ve hayvanların taşlaşmış kalıntılarına fosil denir. Buna göre, fosillerle ilgili aşağıdaki ifadelerden hangisi **yanlıştır**?",
+        "choices": [
+          "Fosiller, geçmişte yaşamış canlılar hakkında bilgi verir.",
+          "Sadece hayvanların fosili oluşur, bitkilerin fosili oluşmaz.",
+          "Fosilleşme süreci binlerce veya milyonlarca yıl sürer.",
+          "Fosilleri inceleyen bilim dalına paleontoloji denir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Sadece hayvanların fosili oluşur, bitkilerin fosili oluşmaz.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-03",
+        "question": "Dünya'nın kendi ekseni etrafında dönme hareketi sonucunda aşağıdakilerden hangisi meydana gelir?",
+        "choices": [
+          "Gece ve gündüzün birbirini takip etmesi",
+          "Mevsimlerin oluşması",
+          "Bir yılın tamamlanması",
+          "Güneş tutulmasının gerçekleşmesi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Gece ve gündüzün birbirini takip etmesi' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-03",
+        "question": "Dünya'nın kendi ekseni etrafında dönme hareketi sonucunda aşağıdakilerden hangisi meydana gelir?",
+        "choices": [
+          "Gece ve gündüzün birbirini takip etmesi",
+          "Mevsimlerin oluşması",
+          "Bir yılın tamamlanması",
+          "Güneş tutulmasının gerçekleşmesi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Gece ve gündüzün birbirini takip etmesi' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-04",
+        "question": "Ekonomik değeri yüksek olan kayaçlara maden denir. Elektrik elektronik sanayisinde iletkenliğinden dolayı en çok kullanılan maden hangisidir?",
+        "choices": [
+          "Bor",
+          "Mermer",
+          "Altın",
+          "Bakır"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ekonomik değeri yüksek olan kayaçlara maden denir. Elektrik elektronik sanayisinde iletkenliğinden dolayı en çok kullanılan maden 'Bakır' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-04",
+        "question": "Ekonomik değeri yüksek olan kayaçlara maden denir. Elektrik elektronik sanayisinde iletkenliğinden dolayı en çok kullanılan maden hangisidir?",
+        "choices": [
+          "Bor",
+          "Mermer",
+          "Altın",
+          "Bakır"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ekonomik değeri yüksek olan kayaçlara maden denir. Elektrik elektronik sanayisinde iletkenliğinden dolayı en çok kullanılan maden 'Bakır' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-05",
+        "question": "Dünya, Güneş etrafındaki dolanımını ne kadar sürede tamamlar?",
+        "choices": [
+          "24 saatte",
+          "30 günde",
+          "12 ay 15 günde",
+          "365 gün 6 saatte"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '365 gün 6 saatte' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-05",
+        "question": "Dünya, Güneş etrafındaki dolanımını ne kadar sürede tamamlar?",
+        "choices": [
+          "24 saatte",
+          "30 günde",
+          "12 ay 15 günde",
+          "365 gün 6 saatte"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '365 gün 6 saatte' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-06",
+        "question": "Gün içinde Güneş'in gökyüzündeki konumu sürekli değişiyormuş gibi görünür. Sabah doğuda olan Güneş, öğlen tepede, akşam ise batıda görünür. Bu durumun **gerçek nedeni** nedir?",
+        "choices": [
+          "Güneş'in Dünya etrafında hızla dönmesi",
+          "Dünya'nın Güneş etrafında elips çizerek dolanması",
+          "Dünya'nın kendi etrafında batıdan doğuya doğru dönmesi",
+          "Ay'ın Dünya'nın ışığını engellemesi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gün içinde Güneş'in gökyüzündeki konumu sürekli değişiyormuş gibi görünür. Sabah doğuda olan Güneş, öğlen tepede, akşam ise batıda görünür. Bu durumun **gerçek nedeni** 'Dünya'nın kendi etrafında batıdan doğuya doğru dönmesi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-06",
+        "question": "Gün içinde Güneş'in gökyüzündeki konumu sürekli değişiyormuş gibi görünür. Sabah doğuda olan Güneş, öğlen tepede, akşam ise batıda görünür. Bu durumun **gerçek nedeni** nedir?",
+        "choices": [
+          "Güneş'in Dünya etrafında hızla dönmesi",
+          "Dünya'nın Güneş etrafında elips çizerek dolanması",
+          "Dünya'nın kendi etrafında batıdan doğuya doğru dönmesi",
+          "Ay'ın Dünya'nın ışığını engellemesi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gün içinde Güneş'in gökyüzündeki konumu sürekli değişiyormuş gibi görünür. Sabah doğuda olan Güneş, öğlen tepede, akşam ise batıda görünür. Bu durumun **gerçek nedeni** 'Dünya'nın kendi etrafında batıdan doğuya doğru dönmesi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-07",
+        "question": "Ali, sabah okula giderken gölgesinin çok uzun olduğunu, öğlen teneffüse çıktığında ise gölgesinin kısaldığını fark ediyor. Gölge boyundaki bu değişimin sebebi aşağıdakilerden hangisidir?",
+        "choices": [
+          "Güneş ışınlarının Dünya'ya geliş açısının gün içinde değişmesi",
+          "Bulutların Güneş ışığını engellemesi",
+          "Dünya'nın Güneş'e yaklaşması ve uzaklaşması",
+          "Öğlen saatlerinde Güneş'in ışık miktarının azalması"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ali, sabah okula giderken gölgesinin çok uzun olduğunu, öğlen teneffüse çıktığında ise gölgesinin kısaldığını fark ediyor. Gölge boyundaki bu değişimin sebebi aşağıdakilerden 'Güneş ışınlarının Dünya'ya geliş açısının gün içinde değişmesi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-07",
+        "question": "Ali, sabah okula giderken gölgesinin çok uzun olduğunu, öğlen teneffüse çıktığında ise gölgesinin kısaldığını fark ediyor. Gölge boyundaki bu değişimin sebebi aşağıdakilerden hangisidir?",
+        "choices": [
+          "Güneş ışınlarının Dünya'ya geliş açısının gün içinde değişmesi",
+          "Bulutların Güneş ışığını engellemesi",
+          "Dünya'nın Güneş'e yaklaşması ve uzaklaşması",
+          "Öğlen saatlerinde Güneş'in ışık miktarının azalması"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ali, sabah okula giderken gölgesinin çok uzun olduğunu, öğlen teneffüse çıktığında ise gölgesinin kısaldığını fark ediyor. Gölge boyundaki bu değişimin sebebi aşağıdakilerden 'Güneş ışınlarının Dünya'ya geliş açısının gün içinde değişmesi' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-08",
+        "question": "Kayaçların birbirinden farklı renkte, sertlikte ve parlaklıkta olmasının asıl nedeni aşağıdakilerden hangisidir?",
+        "choices": [
+          "İçlerinde bulunan fosil miktarı",
+          "Güneş'ten aldıkları ısı miktarı",
+          "Yapılarında bulunan farklı mineraller",
+          "Yer kabuğunun yüzeyinde bulunmaları"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kayaçların birbirinden farklı renkte, sertlikte ve parlaklıkta olmasının asıl nedeni aşağıdakilerden 'Yapılarında bulunan farklı mineraller' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-08",
+        "question": "Kayaçların birbirinden farklı renkte, sertlikte ve parlaklıkta olmasının asıl nedeni aşağıdakilerden hangisidir?",
+        "choices": [
+          "İçlerinde bulunan fosil miktarı",
+          "Güneş'ten aldıkları ısı miktarı",
+          "Yapılarında bulunan farklı mineraller",
+          "Yer kabuğunun yüzeyinde bulunmaları"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kayaçların birbirinden farklı renkte, sertlikte ve parlaklıkta olmasının asıl nedeni aşağıdakilerden 'Yapılarında bulunan farklı mineraller' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-09",
+        "question": "Aşağıdaki maden ve kullanım alanı eşleştirmelerinden hangisi **yanlıştır**?",
+        "choices": [
+          "Altın - Kuyumculuk ve takı yapımı",
+          "Mermer - İnşaat ve heykelcilik",
+          "Bor - Temizlik ürünleri ve cam sanayisi",
+          "Demir - Uzay mekiklerinin sadece dış kaplaması"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Demir - Uzay mekiklerinin sadece dış kaplaması' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-09",
+        "question": "Aşağıdaki maden ve kullanım alanı eşleştirmelerinden hangisi **yanlıştır**?",
+        "choices": [
+          "Altın - Kuyumculuk ve takı yapımı",
+          "Mermer - İnşaat ve heykelcilik",
+          "Bor - Temizlik ürünleri ve cam sanayisi",
+          "Demir - Uzay mekiklerinin sadece dış kaplaması"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Demir - Uzay mekiklerinin sadece dış kaplaması' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BESINL-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "besinlerimiz",
+      "toTopic": "yer-kabugu-ve-dunyanin-hareketleri",
+      "before": {
+        "id": "T2-G4-FEN -BESINL-10",
+        "question": "Dünya'nın dönme ve dolanma hareketlerinin yönü hakkında verilen bilgilerden hangisi doğrudur?",
+        "choices": [
+          "Dünya kendi etrafında doğudan batıya, Güneş etrafında batıdan doğuya döner.",
+          "Dünya hem kendi etrafında hem de Güneş etrafında batıdan doğuya (saat yönünün tersine) doğru döner.",
+          "Dünya kendi etrafında kuzeyden güneye doğru döner.",
+          "Dünya Güneş'in etrafında saat yönünde döner."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dünya hem kendi etrafında hem de Güneş etrafında batıdan doğuya (saat yönünün tersine) doğru döner.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BESINL-10",
+        "question": "Dünya'nın dönme ve dolanma hareketlerinin yönü hakkında verilen bilgilerden hangisi doğrudur?",
+        "choices": [
+          "Dünya kendi etrafında doğudan batıya, Güneş etrafında batıdan doğuya döner.",
+          "Dünya hem kendi etrafında hem de Güneş etrafında batıdan doğuya (saat yönünün tersine) doğru döner.",
+          "Dünya kendi etrafında kuzeyden güneye doğru döner.",
+          "Dünya Güneş'in etrafında saat yönünde döner."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dünya hem kendi etrafında hem de Güneş etrafında batıdan doğuya (saat yönünün tersine) doğru döner.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-01",
+        "question": "Vücudumuzda meydana gelen yaraların iyileşmesi, saçlarımızın ve tırnaklarımızın uzaması için en çok ihtiyaç duyduğumuz \"yapıcı ve onarıcı\" besin içeriği hangisidir?",
+        "choices": [
+          "Proteinler",
+          "Yağlar",
+          "Karbonhidratlar",
+          "Vitaminler"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Vücudumuzda meydana gelen yaraların iyileşmesi, saçlarımızın ve tırnaklarımızın uzaması için en çok ihtiyaç duyduğumuz \"yapıcı ve onarıcı\" besin içeriği 'Proteinler' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-01",
+        "question": "Vücudumuzda meydana gelen yaraların iyileşmesi, saçlarımızın ve tırnaklarımızın uzaması için en çok ihtiyaç duyduğumuz \"yapıcı ve onarıcı\" besin içeriği hangisidir?",
+        "choices": [
+          "Proteinler",
+          "Yağlar",
+          "Karbonhidratlar",
+          "Vitaminler"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Vücudumuzda meydana gelen yaraların iyileşmesi, saçlarımızın ve tırnaklarımızın uzaması için en çok ihtiyaç duyduğumuz \"yapıcı ve onarıcı\" besin içeriği 'Proteinler' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-02",
+        "question": "Ağır bir antrenman yapan sporcunun kısa sürede enerji kazanmak için tüketmesi gereken temel besin içeriği ve bulunduğu yiyecek aşağıdakilerden hangisidir?",
+        "choices": [
+          "Yağ - Zeytin",
+          "Vitamin - Elma",
+          "Protein - Balık",
+          "Karbonhidrat - Makarna"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ağır bir antrenman yapan sporcunun kısa sürede enerji kazanmak için tüketmesi gereken temel besin içeriği ve bulunduğu yiyecek aşağıdakilerden 'Karbonhidrat - Makarna' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-02",
+        "question": "Ağır bir antrenman yapan sporcunun kısa sürede enerji kazanmak için tüketmesi gereken temel besin içeriği ve bulunduğu yiyecek aşağıdakilerden hangisidir?",
+        "choices": [
+          "Yağ - Zeytin",
+          "Vitamin - Elma",
+          "Protein - Balık",
+          "Karbonhidrat - Makarna"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ağır bir antrenman yapan sporcunun kısa sürede enerji kazanmak için tüketmesi gereken temel besin içeriği ve bulunduğu yiyecek aşağıdakilerden 'Karbonhidrat - Makarna' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-03",
+        "question": "\"Vücudumuzu hastalıklara karşı korurlar ve organlarımızın düzenli çalışmasını sağlarlar. Özellikle taze sebze ve meyvelerde bolca bulunurlar.\" Özellikleri verilen besin içeriği nedir?",
+        "choices": [
+          "Karbonhidratlar",
+          "Vitaminler",
+          "Yağlar",
+          "Proteinler"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Vücudumuzu hastalıklara karşı korurlar ve organlarımızın düzenli çalışmasını sağlarlar. Özellikle taze sebze ve meyvelerde bolca bulunurlar.\" Özellikleri verilen besin içeriği 'Vitaminler' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-03",
+        "question": "\"Vücudumuzu hastalıklara karşı korurlar ve organlarımızın düzenli çalışmasını sağlarlar. Özellikle taze sebze ve meyvelerde bolca bulunurlar.\" Özellikleri verilen besin içeriği nedir?",
+        "choices": [
+          "Karbonhidratlar",
+          "Vitaminler",
+          "Yağlar",
+          "Proteinler"
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Vücudumuzu hastalıklara karşı korurlar ve organlarımızın düzenli çalışmasını sağlarlar. Özellikle taze sebze ve meyvelerde bolca bulunurlar.\" Özellikleri verilen besin içeriği 'Vitaminler' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-04",
+        "question": "Kış aylarında soğuktan korunmak için vücudumuzun sıcak tutulmasını sağlayan ve karbonhidratlardan sonra enerji ihtiyacımızı karşılayan besin içeriği hangisidir?",
+        "choices": [
+          "Yağlar",
+          "Mineraller",
+          "Su",
+          "Proteinler"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kış aylarında soğuktan korunmak için vücudumuzun sıcak tutulmasını sağlayan ve karbonhidratlardan sonra enerji ihtiyacımızı karşılayan besin içeriği 'Yağlar' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-04",
+        "question": "Kış aylarında soğuktan korunmak için vücudumuzun sıcak tutulmasını sağlayan ve karbonhidratlardan sonra enerji ihtiyacımızı karşılayan besin içeriği hangisidir?",
+        "choices": [
+          "Yağlar",
+          "Mineraller",
+          "Su",
+          "Proteinler"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kış aylarında soğuktan korunmak için vücudumuzun sıcak tutulmasını sağlayan ve karbonhidratlardan sonra enerji ihtiyacımızı karşılayan besin içeriği 'Yağlar' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-05",
+        "question": "Bütün besin maddelerinde (kuru yemişler dahil) doğal olarak bulunan ve vücut ısısını dengeleyip kanın akışkanlığını sağlayan temel maddeler nelerdir?",
+        "choices": [
+          "Protein ve Yağ",
+          "Karbonhidrat ve Su",
+          "Su ve Mineraller",
+          "Sadece Vitaminler"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Su ve Mineraller' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-05",
+        "question": "Bütün besin maddelerinde (kuru yemişler dahil) doğal olarak bulunan ve vücut ısısını dengeleyip kanın akışkanlığını sağlayan temel maddeler nelerdir?",
+        "choices": [
+          "Protein ve Yağ",
+          "Karbonhidrat ve Su",
+          "Su ve Mineraller",
+          "Sadece Vitaminler"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Su ve Mineraller' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-06",
+        "question": "Paketlenmiş hazır bir gıda alırken sağlığımız için kontrol etmemiz gereken **en önemli** bilgi aşağıdakilerden hangisidir?",
+        "choices": [
+          "Ambalajın rengi",
+          "Markanın reklamı",
+          "Ürünün fiyatı",
+          "Son kullanma tarihi (SKT)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Paketlenmiş hazır bir gıda alırken sağlığımız için kontrol etmemiz gereken **en önemli** bilgi aşağıdakilerden 'Son kullanma tarihi (SKT)' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-06",
+        "question": "Paketlenmiş hazır bir gıda alırken sağlığımız için kontrol etmemiz gereken **en önemli** bilgi aşağıdakilerden hangisidir?",
+        "choices": [
+          "Ambalajın rengi",
+          "Markanın reklamı",
+          "Ürünün fiyatı",
+          "Son kullanma tarihi (SKT)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Paketlenmiş hazır bir gıda alırken sağlığımız için kontrol etmemiz gereken **en önemli** bilgi aşağıdakilerden 'Son kullanma tarihi (SKT)' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-07",
+        "question": "Gereğinden fazla karbonhidrat ve yağ tüketmek, harcanmayan enerjinin vücutta yağ olarak depolanmasına yol açar. Bu durumun sonucunda ortaya çıkan sağlık sorunu nedir?",
+        "choices": [
+          "Verem",
+          "Grip",
+          "Obezite",
+          "Kırık ve çıkıklar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gereğinden fazla karbonhidrat ve yağ tüketmek, harcanmayan enerjinin vücutta yağ olarak depolanmasına yol açar. Bu durumun sonucunda ortaya çıkan sağlık sorunu 'Obezite' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-07",
+        "question": "Gereğinden fazla karbonhidrat ve yağ tüketmek, harcanmayan enerjinin vücutta yağ olarak depolanmasına yol açar. Bu durumun sonucunda ortaya çıkan sağlık sorunu nedir?",
+        "choices": [
+          "Verem",
+          "Grip",
+          "Obezite",
+          "Kırık ve çıkıklar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gereğinden fazla karbonhidrat ve yağ tüketmek, harcanmayan enerjinin vücutta yağ olarak depolanmasına yol açar. Bu durumun sonucunda ortaya çıkan sağlık sorunu 'Obezite' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-08",
+        "question": "Sigara ve alkol kullanımının insan sağlığı üzerindeki zararlarıyla ilgili verilen bilgilerden hangisi **yanlıştır**?",
+        "choices": [
+          "Sigara en çok akciğerlere zarar vererek solunum hastalıklarına yol açar.",
+          "Sigara dumanı, sadece sigara içen kişiye zarar verir, çevresindekileri etkilemez.",
+          "Alkol kullanan kişilerin refleksleri yavaşlar, bu yüzden araç kullanmamalıdırlar.",
+          "Alkol en çok karaciğere zarar vererek organ yetmezliğine sebep olabilir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pasif içicilik durumu vardır",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-08",
+        "question": "Sigara ve alkol kullanımının insan sağlığı üzerindeki zararlarıyla ilgili verilen bilgilerden hangisi **yanlıştır**?",
+        "choices": [
+          "Sigara en çok akciğerlere zarar vererek solunum hastalıklarına yol açar.",
+          "Sigara dumanı, sadece sigara içen kişiye zarar verir, çevresindekileri etkilemez.",
+          "Alkol kullanan kişilerin refleksleri yavaşlar, bu yüzden araç kullanmamalıdırlar.",
+          "Alkol en çok karaciğere zarar vererek organ yetmezliğine sebep olabilir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Pasif içicilik durumu vardır",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-09",
+        "question": "Dengeli ve sağlıklı beslenmek isteyen bir öğrencinin tabağında ağırlıklı olarak hangi besinler bulunmalıdır?",
+        "choices": [
+          "Sadece makarna ve pilav",
+          "Her öğün hamburger ve asitli içecekler",
+          "Sadece et ürünleri ve bol tuz",
+          "Besin piramidine uygun, her besin grubundan yeterli miktarda"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Besin piramidine uygun, her besin grubundan yeterli miktarda' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-09",
+        "question": "Dengeli ve sağlıklı beslenmek isteyen bir öğrencinin tabağında ağırlıklı olarak hangi besinler bulunmalıdır?",
+        "choices": [
+          "Sadece makarna ve pilav",
+          "Her öğün hamburger ve asitli içecekler",
+          "Sadece et ürünleri ve bol tuz",
+          "Besin piramidine uygun, her besin grubundan yeterli miktarda"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Besin piramidine uygun, her besin grubundan yeterli miktarda' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -KUVVET-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "kuvvetin-etkileri",
+      "toTopic": "besinlerimiz",
+      "before": {
+        "id": "T2-G4-FEN -KUVVET-10",
+        "question": "Buzdolabında uzun süre bekleyen ve üzerinde yeşil-gri pamuksu yapılar oluşan bir ekmek için aşağıdakilerden hangisi söylenebilir?",
+        "choices": [
+          "Ekmek bayatlamıştır ama kızartılarak yenilebilir.",
+          "Ekmeğin vitamin değeri artmıştır.",
+          "Ekmek küflenmiştir ve kesinlikle tüketilmemelidir.",
+          "Ekmek içindeki su donduğu için renk değiştirmiştir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ekmek küflenmiştir ve kesinlikle tüketilmemelidir.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -KUVVET-10",
+        "question": "Buzdolabında uzun süre bekleyen ve üzerinde yeşil-gri pamuksu yapılar oluşan bir ekmek için aşağıdakilerden hangisi söylenebilir?",
+        "choices": [
+          "Ekmek bayatlamıştır ama kızartılarak yenilebilir.",
+          "Ekmeğin vitamin değeri artmıştır.",
+          "Ekmek küflenmiştir ve kesinlikle tüketilmemelidir.",
+          "Ekmek içindeki su donduğu için renk değiştirmiştir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ekmek küflenmiştir ve kesinlikle tüketilmemelidir.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-01",
+        "question": "Hareket halindeki bir cisme, hareket ettiği yönle **aynı yönde** bir kuvvet uygulanırsa cismin hareketinde nasıl bir değişiklik gözlemlenir?",
+        "choices": [
+          "Cisim yön değiştirir.",
+          "Cisim aniden geriye doğru gider.",
+          "Cisim yavaşlar ve durur.",
+          "Cisim hızlanarak hareketine devam eder."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-01",
+        "question": "Hareket halindeki bir cisme, hareket ettiği yönle **aynı yönde** bir kuvvet uygulanırsa cismin hareketinde nasıl bir değişiklik gözlemlenir?",
+        "choices": [
+          "Cisim yön değiştirir.",
+          "Cisim aniden geriye doğru gider.",
+          "Cisim yavaşlar ve durur.",
+          "Cisim hızlanarak hareketine devam eder."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-02",
+        "question": "Aşağıdaki olayların hangisinde kuvvetin **şekil değiştirici** etkisi görülmektedir?",
+        "choices": [
+          "Hareket eden topa ayakla vurulması",
+          "Süngerin elle sıkılması",
+          "Dalından düşen elmanın yere çarpması",
+          "Rüzgarın etkisiyle yel değirmeninin dönmesi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süngerin elle sıkılması' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-02",
+        "question": "Aşağıdaki olayların hangisinde kuvvetin **şekil değiştirici** etkisi görülmektedir?",
+        "choices": [
+          "Hareket eden topa ayakla vurulması",
+          "Süngerin elle sıkılması",
+          "Dalından düşen elmanın yere çarpması",
+          "Rüzgarın etkisiyle yel değirmeninin dönmesi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süngerin elle sıkılması' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-03",
+        "question": "Kalecinin, kendisine doğru hızla gelen topu tutarak durdurması kuvvetin hangi etkisine örnektir?",
+        "choices": [
+          "Durdurma",
+          "Hızlandırma",
+          "Yön değiştirme",
+          "Şekil değiştirme"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Durdurma' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-03",
+        "question": "Kalecinin, kendisine doğru hızla gelen topu tutarak durdurması kuvvetin hangi etkisine örnektir?",
+        "choices": [
+          "Durdurma",
+          "Hızlandırma",
+          "Yön değiştirme",
+          "Şekil değiştirme"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Durdurma' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-04",
+        "question": "Tenis oynayan iki sporcu, topa raketleriyle vurarak topu sürekli birbirlerine gönderirler. Bu olayda top üzerinde kuvvetin en çok hangi etkisi gözlemlenir?",
+        "choices": [
+          "Kalıcı şekil değiştirme",
+          "Döndürme",
+          "Yavaşlatma",
+          "Yön değiştirme"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-04",
+        "question": "Tenis oynayan iki sporcu, topa raketleriyle vurarak topu sürekli birbirlerine gönderirler. Bu olayda top üzerinde kuvvetin en çok hangi etkisi gözlemlenir?",
+        "choices": [
+          "Kalıcı şekil değiştirme",
+          "Döndürme",
+          "Yavaşlatma",
+          "Yön değiştirme"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-05",
+        "question": "Kuvvetin şekil değiştirici etkisi uygulandığı maddenin esnek olup olmamasına göre kalıcı veya geçici olabilir. Kuvvet kalktığında eski haline dönen maddelere esnek madde denir.\nBuna göre aşağıdaki maddelerden hangisine kuvvet uygulanıp bırakıldığında **kalıcı** şekil değişikliği olur?",
+        "choices": [
+          "Bulaşık süngeri",
+          "Boş içecek tenekesi",
+          "Paket lastiği",
+          "Yatak yayı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-05",
+        "question": "Kuvvetin şekil değiştirici etkisi uygulandığı maddenin esnek olup olmamasına göre kalıcı veya geçici olabilir. Kuvvet kalktığında eski haline dönen maddelere esnek madde denir.\nBuna göre aşağıdaki maddelerden hangisine kuvvet uygulanıp bırakıldığında **kalıcı** şekil değişikliği olur?",
+        "choices": [
+          "Bulaşık süngeri",
+          "Boş içecek tenekesi",
+          "Paket lastiği",
+          "Yatak yayı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-06",
+        "question": "Sürtünme kuvveti hareket eden cisimleri yavaşlatan veya durduran, hareket yönüne zıt bir kuvvettir.\nAşağıdaki zeminlerden hangisinde sürtünme kuvveti **en azdır** (cisim daha kolay kayar)?",
+        "choices": [
+          "Kalın dokulu halı",
+          "Çakıllı toprak yol",
+          "Buzlanmış zemin",
+          "Asfalt yol"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Buzlanmış zemin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-06",
+        "question": "Sürtünme kuvveti hareket eden cisimleri yavaşlatan veya durduran, hareket yönüne zıt bir kuvvettir.\nAşağıdaki zeminlerden hangisinde sürtünme kuvveti **en azdır** (cisim daha kolay kayar)?",
+        "choices": [
+          "Kalın dokulu halı",
+          "Çakıllı toprak yol",
+          "Buzlanmış zemin",
+          "Asfalt yol"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Buzlanmış zemin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-07",
+        "question": "Ali bisikletiyle düz bir yolda ilerlerken aniden karşısına çıkan köpeği görünce frenleri sıkar. Ali'nin frenleri sıkması kuvvetin hangi etkisine örnektir?",
+        "choices": [
+          "Hızlandırma",
+          "Şekil Değiştirme",
+          "Yavaşlatma ve Durdurma",
+          "Yön Değiştirme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Yavaşlatma ve Durdurma' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-07",
+        "question": "Ali bisikletiyle düz bir yolda ilerlerken aniden karşısına çıkan köpeği görünce frenleri sıkar. Ali'nin frenleri sıkması kuvvetin hangi etkisine örnektir?",
+        "choices": [
+          "Hızlandırma",
+          "Şekil Değiştirme",
+          "Yavaşlatma ve Durdurma",
+          "Yön Değiştirme"
+        ],
+        "correctAnswer": 2,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Yavaşlatma ve Durdurma' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-08",
+        "question": "Mıknatısların demir, nikel, kobalt gibi maddeleri çekmesi; saçımıza sürttüğümüz tarağın kağıt parçalarını çekmesi kuvvetin hangi türüne girer?",
+        "choices": [
+          "Temas gerektiren kuvvet",
+          "Şekil değiştiren kuvvet",
+          "Temas gerektirmeyen (uzaktan etkili) kuvvet",
+          "Sürtünme kuvveti"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Temas gerektirmeyen (uzaktan etkili) kuvvet' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-08",
+        "question": "Mıknatısların demir, nikel, kobalt gibi maddeleri çekmesi; saçımıza sürttüğümüz tarağın kağıt parçalarını çekmesi kuvvetin hangi türüne girer?",
+        "choices": [
+          "Temas gerektiren kuvvet",
+          "Şekil değiştiren kuvvet",
+          "Temas gerektirmeyen (uzaktan etkili) kuvvet",
+          "Sürtünme kuvveti"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Temas gerektirmeyen (uzaktan etkili) kuvvet' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-09",
+        "question": "Aşağıdaki eylemlerin hangisinde \"itme\" kuvveti uygulanmaktadır?",
+        "choices": [
+          "Bebek arabasını ileri doğru hareket ettirmek",
+          "Yerdeki taşı yukarı kaldırmak",
+          "Kapalı olan çekmeceyi açmak",
+          "Halat çekme yarışında halatı kendine çekmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bebek arabasını ileri doğru hareket ettirmek' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-09",
+        "question": "Aşağıdaki eylemlerin hangisinde \"itme\" kuvveti uygulanmaktadır?",
+        "choices": [
+          "Bebek arabasını ileri doğru hareket ettirmek",
+          "Yerdeki taşı yukarı kaldırmak",
+          "Kapalı olan çekmeceyi açmak",
+          "Halat çekme yarışında halatı kendine çekmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bebek arabasını ileri doğru hareket ettirmek' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -MADDEN-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "maddenin-ozellikleri",
+      "toTopic": "kuvvetin-etkileri",
+      "before": {
+        "id": "T2-G4-FEN -MADDEN-10",
+        "question": "Bir rüzgar gülünün rüzgar estiğinde fırıldak gibi dönmesi kuvvetin cisimler üzerindeki hangi etkisine örnektir?",
+        "choices": [
+          "Yavaşlatma etkisi",
+          "Kalıcı şekil değiştirme etkisi",
+          "Durdurma etkisi",
+          "Döndürme etkisi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Döndürme etkisi' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -MADDEN-10",
+        "question": "Bir rüzgar gülünün rüzgar estiğinde fırıldak gibi dönmesi kuvvetin cisimler üzerindeki hangi etkisine örnektir?",
+        "choices": [
+          "Yavaşlatma etkisi",
+          "Kalıcı şekil değiştirme etkisi",
+          "Durdurma etkisi",
+          "Döndürme etkisi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Döndürme etkisi' seçeneğinde bulunmaktadır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-01",
+        "question": "Maddenin değişmeyen madde miktarına **kütle** denir. Kütleyi ölçmek için aşağıdaki aletlerden hangisi kullanılır?",
+        "choices": [
+          "Dereceli silindir",
+          "Termometre",
+          "Eşit kollu terazi",
+          "Mezura (Şerit metre)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eşit kollu terazi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-01",
+        "question": "Maddenin değişmeyen madde miktarına **kütle** denir. Kütleyi ölçmek için aşağıdaki aletlerden hangisi kullanılır?",
+        "choices": [
+          "Dereceli silindir",
+          "Termometre",
+          "Eşit kollu terazi",
+          "Mezura (Şerit metre)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eşit kollu terazi' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-02",
+        "question": "Pazardan elma alan Zeynep Hanım, poşetin içindeki elmaların miktarını öğrenmek istemektedir. Pazarcı elmaları tarttığında ekranda \"3 kg\" yazmaktadır.\nBuradaki \"kilogram (kg)\" neyin ölçü birimidir?",
+        "choices": [
+          "Kütlenin",
+          "Sıcaklığın",
+          "Hacmin",
+          "Uzunluğun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kütlenin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-02",
+        "question": "Pazardan elma alan Zeynep Hanım, poşetin içindeki elmaların miktarını öğrenmek istemektedir. Pazarcı elmaları tarttığında ekranda \"3 kg\" yazmaktadır.\nBuradaki \"kilogram (kg)\" neyin ölçü birimidir?",
+        "choices": [
+          "Kütlenin",
+          "Sıcaklığın",
+          "Hacmin",
+          "Uzunluğun"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kütlenin' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-03",
+        "question": "Sıvıların hacmini ölçmek için laboratuvarlarda genellikle üzerinde ml (mililitre) veya L (litre) çizgileri bulunan hangi alet kullanılır?",
+        "choices": [
+          "Mikroskop",
+          "Hassas terazi",
+          "Büyüteç",
+          "Dereceli silindir"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dereceli silindir' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-03",
+        "question": "Sıvıların hacmini ölçmek için laboratuvarlarda genellikle üzerinde ml (mililitre) veya L (litre) çizgileri bulunan hangi alet kullanılır?",
+        "choices": [
+          "Mikroskop",
+          "Hassas terazi",
+          "Büyüteç",
+          "Dereceli silindir"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dereceli silindir' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-04",
+        "question": "Bir kabın boş ağırlığına **dara**, kabın içindeki maddeyle birlikte olan toplam ağırlığına **brüt kütle**, sadece içindeki maddenin ağırlığına ise **net kütle** denir.\nBir kavanoz balın brüt kütlesi 1200 gramdır. Boş kavanozun ağırlığı (dara) 300 gram olduğuna göre, balın net kütlesi kaç gramdır?",
+        "choices": [
+          "1000 gram",
+          "900 gram",
+          "1100 gram",
+          "1500 gram"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Brüt Kütle eksi Dara = Net Kütle",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-04",
+        "question": "Bir kabın boş ağırlığına **dara**, kabın içindeki maddeyle birlikte olan toplam ağırlığına **brüt kütle**, sadece içindeki maddenin ağırlığına ise **net kütle** denir.\nBir kavanoz balın brüt kütlesi 1200 gramdır. Boş kavanozun ağırlığı (dara) 300 gram olduğuna göre, balın net kütlesi kaç gramdır?",
+        "choices": [
+          "1000 gram",
+          "900 gram",
+          "1100 gram",
+          "1500 gram"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Brüt Kütle eksi Dara = Net Kütle",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-05",
+        "question": "Düzensiz şekilli katı bir cismin (örneğin bir taşın) hacmini ölçmek için hangi yöntem kullanılır?",
+        "choices": [
+          "Eşit kollu teraziyle tartılır.",
+          "Cetvel ile boyu ve eni ölçülüp çarpılır.",
+          "İçinde belirli bir miktar su bulunan dereceli silindirin içine atılır ve suyun yükselme miktarına bakılır.",
+          "Erime noktasına kadar ısıtılarak sıvı hacmi ölçülür."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İçinde belirli bir miktar su bulunan dereceli silindirin içine atılır ve suyun yükselme miktarına bakılır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-05",
+        "question": "Düzensiz şekilli katı bir cismin (örneğin bir taşın) hacmini ölçmek için hangi yöntem kullanılır?",
+        "choices": [
+          "Eşit kollu teraziyle tartılır.",
+          "Cetvel ile boyu ve eni ölçülüp çarpılır.",
+          "İçinde belirli bir miktar su bulunan dereceli silindirin içine atılır ve suyun yükselme miktarına bakılır.",
+          "Erime noktasına kadar ısıtılarak sıvı hacmi ölçülür."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İçinde belirli bir miktar su bulunan dereceli silindirin içine atılır ve suyun yükselme miktarına bakılır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-06",
+        "question": "İçinde 400 mililitre (ml) su bulunan dereceli bir silindirin içine demir bir bilye atıldığında su seviyesi 550 mililitreye (ml) çıkıyor.\nBuna göre demir bilyenin hacmi kaç mililitredir?",
+        "choices": [
+          "100 ml",
+          "150 ml",
+          "550 ml",
+          "950 ml"
+        ],
+        "correctAnswer": 1,
+        "explanation": "550 - 400 = 150",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-06",
+        "question": "İçinde 400 mililitre (ml) su bulunan dereceli bir silindirin içine demir bir bilye atıldığında su seviyesi 550 mililitreye (ml) çıkıyor.\nBuna göre demir bilyenin hacmi kaç mililitredir?",
+        "choices": [
+          "100 ml",
+          "150 ml",
+          "550 ml",
+          "950 ml"
+        ],
+        "correctAnswer": 1,
+        "explanation": "550 - 400 = 150",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-07",
+        "question": "Kütle ölçüm birimleri arasında dönüşüm yaparken 1 kilogramın 1000 grama eşit olduğu bilinmelidir.\nBuna göre 4 kilogram 250 gram gelen bir karpuzun kütlesi toplam kaç gramdır?",
+        "choices": [
+          "425 gram",
+          "4025 gram",
+          "4500 gram",
+          "4250 gram"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '4250 gram' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-07",
+        "question": "Kütle ölçüm birimleri arasında dönüşüm yaparken 1 kilogramın 1000 grama eşit olduğu bilinmelidir.\nBuna göre 4 kilogram 250 gram gelen bir karpuzun kütlesi toplam kaç gramdır?",
+        "choices": [
+          "425 gram",
+          "4025 gram",
+          "4500 gram",
+          "4250 gram"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '4250 gram' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-08",
+        "question": "Hacim, maddenin uzayda kapladığı yerdir. Buna göre aşağıdaki maddelerden hangisinin hacmi **yoktur**?",
+        "choices": [
+          "Su (Sıvı)",
+          "Hava (Gaz)",
+          "Taş (Katı)",
+          "Işık (Enerji)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Işık ve ısı madde değildir, kütlesi ve hacmi yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-08",
+        "question": "Hacim, maddenin uzayda kapladığı yerdir. Buna göre aşağıdaki maddelerden hangisinin hacmi **yoktur**?",
+        "choices": [
+          "Su (Sıvı)",
+          "Hava (Gaz)",
+          "Taş (Katı)",
+          "Işık (Enerji)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Işık ve ısı madde değildir, kütlesi ve hacmi yoktur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-09",
+        "question": "Pazardan 2 litre süt alan bir kişi, bu sütü her biri 500 mililitre (ml) alan şişelere doldurmak istiyor. Sütün tamamını doldurmak için kaç adet şişeye ihtiyacı vardır? (1 Litre = 1000 ml)",
+        "choices": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "2 Litre = 2000 ml. 2000 / 500 = 4 şişe",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-09",
+        "question": "Pazardan 2 litre süt alan bir kişi, bu sütü her biri 500 mililitre (ml) alan şişelere doldurmak istiyor. Sütün tamamını doldurmak için kaç adet şişeye ihtiyacı vardır? (1 Litre = 1000 ml)",
+        "choices": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "2 Litre = 2000 ml. 2000 / 500 = 4 şişe",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -AYDINL-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "aydinlatma-ve-ses-teknolojileri",
+      "toTopic": "maddenin-ozellikleri",
+      "before": {
+        "id": "T2-G4-FEN -AYDINL-10",
+        "question": "Bir sıvı yağ tenekesinin üzerinde \"Net: 5 Litre\" yazmaktadır. Bu ifade sıvı yağın hangi ölçülebilir özelliğini belirtmektedir?",
+        "choices": [
+          "Kütlesini",
+          "Sıcaklığını",
+          "Hacmini",
+          "Uzunluğunu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hacmini' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -AYDINL-10",
+        "question": "Bir sıvı yağ tenekesinin üzerinde \"Net: 5 Litre\" yazmaktadır. Bu ifade sıvı yağın hangi ölçülebilir özelliğini belirtmektedir?",
+        "choices": [
+          "Kütlesini",
+          "Sıcaklığını",
+          "Hacmini",
+          "Uzunluğunu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hacmini' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-01",
+        "question": "Geçmişten günümüze aydınlatma teknolojilerinin gelişim sırası aşağıdakilerden hangisinde doğru verilmiştir?",
+        "choices": [
+          "Meşale - Mum - Ampul - Yağ Lambası",
+          "Yağ Lambası - Meşale - Mum - Ampul",
+          "Ampul - Mum - Meşale - Yağ Lambası",
+          "Meşale - Yağ Lambası (Kandil) - Mum - Ampul"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Meşale - Yağ Lambası (Kandil) - Mum - Ampul' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-01",
+        "question": "Geçmişten günümüze aydınlatma teknolojilerinin gelişim sırası aşağıdakilerden hangisinde doğru verilmiştir?",
+        "choices": [
+          "Meşale - Mum - Ampul - Yağ Lambası",
+          "Yağ Lambası - Meşale - Mum - Ampul",
+          "Ampul - Mum - Meşale - Yağ Lambası",
+          "Meşale - Yağ Lambası (Kandil) - Mum - Ampul"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Meşale - Yağ Lambası (Kandil) - Mum - Ampul' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-02",
+        "question": "Thomas Alva Edison, aşağıdaki aydınlatma araçlarından hangisini icat ederek insanlık tarihine büyük bir katkıda bulunmuştur?",
+        "choices": [
+          "Ampul",
+          "Mum",
+          "Meşale",
+          "Floresan Lamba"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ampul' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-02",
+        "question": "Thomas Alva Edison, aşağıdaki aydınlatma araçlarından hangisini icat ederek insanlık tarihine büyük bir katkıda bulunmuştur?",
+        "choices": [
+          "Ampul",
+          "Mum",
+          "Meşale",
+          "Floresan Lamba"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ampul' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-03",
+        "question": "Doğru aydınlatma ile ilgili aşağıdaki kurallardan hangisi **yanlıştır**?",
+        "choices": [
+          "Işık kaynağı doğrudan gözümüze gelmemelidir.",
+          "Sağ elimizle yazı yazıyorsak ışık sol üst taraftan gelmelidir.",
+          "Aşırı parlak veya çok loş ışıklı ortamlarda kitap okunmamalıdır.",
+          "Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-03",
+        "question": "Doğru aydınlatma ile ilgili aşağıdaki kurallardan hangisi **yanlıştır**?",
+        "choices": [
+          "Işık kaynağı doğrudan gözümüze gelmemelidir.",
+          "Sağ elimizle yazı yazıyorsak ışık sol üst taraftan gelmelidir.",
+          "Aşırı parlak veya çok loş ışıklı ortamlarda kitap okunmamalıdır.",
+          "Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-04",
+        "question": "Işığın yanlış yerde, yanlış zamanda, yanlış yönde ve gereğinden fazla kullanılmasına ne ad verilir?",
+        "choices": [
+          "Küresel Isınma",
+          "Çevre Kirliliği",
+          "Işık Kirliliği",
+          "Ses Kirliliği"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Işık Kirliliği' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-04",
+        "question": "Işığın yanlış yerde, yanlış zamanda, yanlış yönde ve gereğinden fazla kullanılmasına ne ad verilir?",
+        "choices": [
+          "Küresel Isınma",
+          "Çevre Kirliliği",
+          "Işık Kirliliği",
+          "Ses Kirliliği"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Işık Kirliliği' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-05",
+        "question": "Geçmişte sesleri kaydetmek ve dinlemek için icat edilen ilk araç olan \"fonograf\" kim tarafından icat edilmiştir?",
+        "choices": [
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Guglielmo Marconi",
+          "Isaac Newton"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fonograf Edison icadıdır",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-05",
+        "question": "Geçmişte sesleri kaydetmek ve dinlemek için icat edilen ilk araç olan \"fonograf\" kim tarafından icat edilmiştir?",
+        "choices": [
+          "Alexander Graham Bell",
+          "Thomas Edison",
+          "Guglielmo Marconi",
+          "Isaac Newton"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fonograf Edison icadıdır",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-06",
+        "question": "Sesin şiddetini artırarak sesimizin kalabalıklara veya daha uzaklara ulaşmasını sağlayan teknolojik alet aşağıdakilerden hangisidir?",
+        "choices": [
+          "Mikroskop",
+          "Dürbün",
+          "Stetoskop",
+          "Megafon"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Sesin şiddetini artırarak sesimizin kalabalıklara veya daha uzaklara ulaşmasını sağlayan teknolojik alet aşağıdakilerden 'Megafon' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-06",
+        "question": "Sesin şiddetini artırarak sesimizin kalabalıklara veya daha uzaklara ulaşmasını sağlayan teknolojik alet aşağıdakilerden hangisidir?",
+        "choices": [
+          "Mikroskop",
+          "Dürbün",
+          "Stetoskop",
+          "Megafon"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Sesin şiddetini artırarak sesimizin kalabalıklara veya daha uzaklara ulaşmasını sağlayan teknolojik alet aşağıdakilerden 'Megafon' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-07",
+        "question": "Ses kirliliği (gürültü) ile ilgili aşağıdakilerden hangisi insan sağlığını etkileyen bir durum **değildir**?",
+        "choices": [
+          "İşitme kaybına neden olabilir.",
+          "Aşırı stres, sinirlilik ve dikkat dağınıklığı yapar.",
+          "Görme bozukluklarına sebep olur.",
+          "Kalp atışının hızlanmasına ve uykusuzluğa neden olur."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Görme bozukluklarına sebep olur.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-07",
+        "question": "Ses kirliliği (gürültü) ile ilgili aşağıdakilerden hangisi insan sağlığını etkileyen bir durum **değildir**?",
+        "choices": [
+          "İşitme kaybına neden olabilir.",
+          "Aşırı stres, sinirlilik ve dikkat dağınıklığı yapar.",
+          "Görme bozukluklarına sebep olur.",
+          "Kalp atışının hızlanmasına ve uykusuzluğa neden olur."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Görme bozukluklarına sebep olur.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-08",
+        "question": "Doktorların hastaların kalp ve akciğer seslerini dinlemek için kullandıkları aletin adı nedir?",
+        "choices": [
+          "Stetoskop",
+          "İşitme cihazı",
+          "Megafon",
+          "Hoparlör"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doktorların hastaların kalp ve akciğer seslerini dinlemek için kullandıkları aletin adı 'Stetoskop' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-08",
+        "question": "Doktorların hastaların kalp ve akciğer seslerini dinlemek için kullandıkları aletin adı nedir?",
+        "choices": [
+          "Stetoskop",
+          "İşitme cihazı",
+          "Megafon",
+          "Hoparlör"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doktorların hastaların kalp ve akciğer seslerini dinlemek için kullandıkları aletin adı 'Stetoskop' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-09",
+        "question": "Yarasa ve yunus gibi hayvanların yönlerini ve avlarını bulma yeteneklerinden esinlenerek icat edilen, denizaltılarda kullanılan ses teknolojisi nedir?",
+        "choices": [
+          "Fonograf",
+          "Radar",
+          "Sonar",
+          "Gramofon"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yarasa ve yunus gibi hayvanların yönlerini ve avlarını bulma yeteneklerinden esinlenerek icat edilen, denizaltılarda kullanılan ses teknolojisi 'Sonar' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-09",
+        "question": "Yarasa ve yunus gibi hayvanların yönlerini ve avlarını bulma yeteneklerinden esinlenerek icat edilen, denizaltılarda kullanılan ses teknolojisi nedir?",
+        "choices": [
+          "Fonograf",
+          "Radar",
+          "Sonar",
+          "Gramofon"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yarasa ve yunus gibi hayvanların yönlerini ve avlarını bulma yeteneklerinden esinlenerek icat edilen, denizaltılarda kullanılan ses teknolojisi 'Sonar' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -INSANV-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "insan-ve-cevre",
+      "toTopic": "aydinlatma-ve-ses-teknolojileri",
+      "before": {
+        "id": "T2-G4-FEN -INSANV-10",
+        "question": "Kullanım ömrünü tamamlamış cam, plastik, kağıt, metal gibi atıkların çeşitli işlemlerden geçirilerek yeni bir hammaddeye dönüştürülmesine ne ad verilir?",
+        "choices": [
+          "Tüketim",
+          "Geri Dönüşüm",
+          "Küresel Isınma",
+          "Erozyon"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Geri Dönüşüm' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -INSANV-10",
+        "question": "Bir okulda koridor lambaları kimse yokken açık bırakılıyor. Doğru aydınlatma ve tasarruf için ne yapılmalıdır?",
+        "choices": [
+          "Ampulleri kırmak",
+          "Gereksiz lambaları kapatmak",
+          "Gündüz de bütün lambaları açmak",
+          "Işığı pencereden uzağa çevirmek"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Boş koridorda lambaları kapatmak gereksiz elektrik tüketimini azaltır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_1",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-01",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-01",
+        "question": "Aşağıdaki atıklardan hangisi geri dönüşüm kutusuna atıldığında doğaya veya ekonomiye katkı **sağlamaz**?",
+        "choices": [
+          "Kullanılmış defter yaprakları",
+          "Meyve ve sebze kabukları (yiyecek atıkları)",
+          "Bitmiş tükenmez kalemlerin plastik kapakları",
+          "Boş maden suyu şişeleri"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yiyecek atıkları kompost olabilir ancak klasik plastik/kağıt geri dönüşüm tesislerinde işlenmez, çöptür.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-01",
+        "question": "Aşağıdaki atıklardan hangisi geri dönüşüm kutusuna atıldığında doğaya veya ekonomiye katkı **sağlamaz**?",
+        "choices": [
+          "Kullanılmış defter yaprakları",
+          "Meyve ve sebze kabukları (yiyecek atıkları)",
+          "Bitmiş tükenmez kalemlerin plastik kapakları",
+          "Boş maden suyu şişeleri"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yiyecek atıkları kompost olabilir ancak klasik plastik/kağıt geri dönüşüm tesislerinde işlenmez, çöptür.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_2",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-02",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-02",
+        "question": "Fabrika bacalarından çıkan zehirli dumanlar, araba egzozları ve ısınmak için yakılan kalitesiz kömürler en çok hangi çevre sorununa neden olur?",
+        "choices": [
+          "Su Kirliliği",
+          "Gürültü Kirliliği",
+          "Toprak Kirliliği",
+          "Hava Kirliliği"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bu doğa olayının veya durumun ortaya çıkmasındaki temel sebep 'Hava Kirliliği' olgusuyla açıklanır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-02",
+        "question": "Fabrika bacalarından çıkan zehirli dumanlar, araba egzozları ve ısınmak için yakılan kalitesiz kömürler en çok hangi çevre sorununa neden olur?",
+        "choices": [
+          "Su Kirliliği",
+          "Gürültü Kirliliği",
+          "Toprak Kirliliği",
+          "Hava Kirliliği"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bu doğa olayının veya durumun ortaya çıkmasındaki temel sebep 'Hava Kirliliği' olgusuyla açıklanır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_3",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-03",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-03",
+        "question": "Bir ton kullanılmış kağıdın geri dönüştürülmesiyle doğadaki kaç adet yetişkin ağacın kesilmesi önlenmiş olur?",
+        "choices": [
+          "1",
+          "5",
+          "50",
+          "17"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '17' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-03",
+        "question": "Bir ton kullanılmış kağıdın geri dönüştürülmesiyle doğadaki kaç adet yetişkin ağacın kesilmesi önlenmiş olur?",
+        "choices": [
+          "1",
+          "5",
+          "50",
+          "17"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '17' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_4",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-04",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-04",
+        "question": "Kızartma yaptıktan sonra tavada kalan atık yağları lavaboya döktüğümüzde aşağıdakilerden hangisi gerçekleşir?",
+        "choices": [
+          "Lavabo boruları temizlenir ve parlar.",
+          "Sulara karışarak deniz ve göllerdeki canlıları zehirler, su kirliliğine yol açar.",
+          "Geri dönüşüm sistemine otomatik olarak girerek sabun olur.",
+          "Suyun oksijen miktarını artırır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Sulara karışarak deniz ve göllerdeki canlıları zehirler, su kirliliğine yol açar.' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-04",
+        "question": "Kızartma yaptıktan sonra tavada kalan atık yağları lavaboya döktüğümüzde aşağıdakilerden hangisi gerçekleşir?",
+        "choices": [
+          "Lavabo boruları temizlenir ve parlar.",
+          "Sulara karışarak deniz ve göllerdeki canlıları zehirler, su kirliliğine yol açar.",
+          "Geri dönüşüm sistemine otomatik olarak girerek sabun olur.",
+          "Suyun oksijen miktarını artırır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Sulara karışarak deniz ve göllerdeki canlıları zehirler, su kirliliğine yol açar.' durumu meydana gelmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_5",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-05",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-05",
+        "question": "Bilinçli bir tüketici, elektrik ve su tasarrufu sağlamak için evde aşağıdaki davranışlardan hangisini **yapmamalıdır**?",
+        "choices": [
+          "Enerji tasarruflu LED ampuller kullanmalıdır.",
+          "Bulaşıkları elde yıkamak yerine bulaşık makinesini tam doldurup çalıştırmalıdır.",
+          "Dişlerini fırçalarken suyu sürekli açık bırakmalıdır.",
+          "Kullanmadığı odaların ışıklarını kapatmalıdır."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dişlerini fırçalarken suyu sürekli açık bırakmalıdır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-05",
+        "question": "Bilinçli bir tüketici, elektrik ve su tasarrufu sağlamak için evde aşağıdaki davranışlardan hangisini **yapmamalıdır**?",
+        "choices": [
+          "Enerji tasarruflu LED ampuller kullanmalıdır.",
+          "Bulaşıkları elde yıkamak yerine bulaşık makinesini tam doldurup çalıştırmalıdır.",
+          "Dişlerini fırçalarken suyu sürekli açık bırakmalıdır.",
+          "Kullanmadığı odaların ışıklarını kapatmalıdır."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dişlerini fırçalarken suyu sürekli açık bırakmalıdır.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_6",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-06",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-06",
+        "question": "Pil ve bataryaların (kumanda pilleri, telefon bataryaları) içinde zararlı kimyasal maddeler (ağır metaller) bulunur. Bitmiş pilleri çöpe atmak yerine ne yapmalıyız?",
+        "choices": [
+          "Atık pil toplama kutularına bırakmalıyız.",
+          "Toprağa gömmeliyiz.",
+          "Denize fırlatmalıyız.",
+          "Sobaya atıp yakmalıyız."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Atık pil toplama kutularına bırakmalıyız.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-06",
+        "question": "Pil ve bataryaların (kumanda pilleri, telefon bataryaları) içinde zararlı kimyasal maddeler (ağır metaller) bulunur. Bitmiş pilleri çöpe atmak yerine ne yapmalıyız?",
+        "choices": [
+          "Atık pil toplama kutularına bırakmalıyız.",
+          "Toprağa gömmeliyiz.",
+          "Denize fırlatmalıyız.",
+          "Sobaya atıp yakmalıyız."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Atık pil toplama kutularına bırakmalıyız.' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_7",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-07",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-07",
+        "question": "Fosil yakıtların (kömür, petrol, doğalgaz) çok fazla kullanılması sonucunda Dünya'nın ortalama sıcaklığının artması tehlikesine ne ad verilir?",
+        "choices": [
+          "Erozyon",
+          "Deprem",
+          "Tsunami",
+          "Küresel Isınma"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Küresel Isınma' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-07",
+        "question": "Fosil yakıtların (kömür, petrol, doğalgaz) çok fazla kullanılması sonucunda Dünya'nın ortalama sıcaklığının artması tehlikesine ne ad verilir?",
+        "choices": [
+          "Erozyon",
+          "Deprem",
+          "Tsunami",
+          "Küresel Isınma"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Küresel Isınma' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_8",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-08",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-08",
+        "question": "Aşağıdakilerden hangisi çevre kirliliğini önlemek ve doğayı korumak için kurulan sivil toplum kuruluşlarından (STK) biridir?",
+        "choices": [
+          "Türk Kızılayı",
+          "Yeşilay",
+          "TEMA (Türkiye Erozyonla Mücadele, Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı)",
+          "AFAD"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'TEMA (Türkiye Erozyonla Mücadele, Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı)' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-08",
+        "question": "Aşağıdakilerden hangisi çevre kirliliğini önlemek ve doğayı korumak için kurulan sivil toplum kuruluşlarından (STK) biridir?",
+        "choices": [
+          "Türk Kızılayı",
+          "Yeşilay",
+          "TEMA (Türkiye Erozyonla Mücadele, Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı)",
+          "AFAD"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'TEMA (Türkiye Erozyonla Mücadele, Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı)' olduğu açıkça görülmektedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_9",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-09",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-09",
+        "question": "Ulaşımda kendi özel arabamız yerine otobüs, metro, tren gibi toplu taşıma araçlarını kullanmak en çok hangi çevre sorununu azaltmaya yardımcı olur?",
+        "choices": [
+          "Hava kirliliği",
+          "Toprak kirliliği",
+          "Ses kirliliği (Gürültü artar)",
+          "Işık kirliliği"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Egzoz gazları azaldığı için",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_10",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-09",
+        "question": "Ulaşımda kendi özel arabamız yerine otobüs, metro, tren gibi toplu taşıma araçlarını kullanmak en çok hangi çevre sorununu azaltmaya yardımcı olur?",
+        "choices": [
+          "Hava kirliliği",
+          "Toprak kirliliği",
+          "Ses kirliliği (Gürültü artar)",
+          "Işık kirliliği"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Egzoz gazları azaldığı için",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    },
+    {
+      "id": "T2-G4-FEN -BASITE-10",
+      "reasons": [
+        "verified_grade_four_science_topic_reassignment"
+      ],
+      "fromTopic": "basit-elektrik-devreleri",
+      "toTopic": "insan-ve-cevre",
+      "before": {
+        "id": "T2-G4-FEN -BASITE-10",
+        "question": "Bir basit elektrik devresinde elektrik enerjisini üreten ve devreye güç sağlayan eleman hangisidir?",
+        "choices": [
+          "Anahtar",
+          "Bağlantı kablosu",
+          "Pil",
+          "Duy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bir basit elektrik devresinde elektrik enerjisini üreten ve devreye güç sağlayan eleman 'Pil' olarak bilinir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu7_elektrik_devreleri_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      "after": {
+        "id": "T2-G4-FEN -BASITE-10",
+        "question": "Bir okulda kullanılmış piller için ayrı toplama kutusu bulunuyor. Piller neden bu kutuya atılmalıdır?",
+        "choices": [
+          "Suyla yıkayıp lavaboya dökmek için",
+          "İçeriklerindeki maddelerin çevreye karışmasını önlemek için",
+          "Pilleri yiyeceklerle karıştırmak için",
+          "Pilleri toprağa gömmek için"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Atık piller ayrı toplanırsa içlerindeki maddelerin toprağa ve suya yayılması önlenebilir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_4_sinif_fen_konu7_elektrik_devreleri_1",
+        "sourceType": "EXISTING_V4B"
+      }
     }
   ]
 }

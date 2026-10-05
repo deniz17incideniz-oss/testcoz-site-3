@@ -18449,24 +18449,24 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "yer-kabugu-ve-dunyanin-hareketleri",
-    "topicName": "Yer Kabuğu ve Dünya'nın Hareketleri",
+    "topic": "basit-elektrik-devreleri",
+    "topicName": "Basit Elektrik Devreleri",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -YERKAB-01",
-        "question": "Bir öğrenci içi su dolu bir kaba sırasıyla mantar tıpa, yumurta ve plastik kapak bırakıyor. Mantar tıpa ve plastik kapak suyun yüzeyinde kalırken, yumurta dibe batıyor.\nDaha sonra suya bol miktarda tuz ekleyip karıştırıyor. Suyun yoğunluğu arttığı için bu kez yumurtanın de su yüzeyine doğru hafifçe yükseldiği görülüyor.\nBu deneyden çıkarılacak **temel sonuç** aşağıdakilerden hangisidir?",
+        "question": "Bir pil, kablo ve ampulle kurulan devrede ampul yanmıyor. Kablonun bir ucu pile değmiyorsa ne yapılmalıdır?",
         "choices": [
-          "Cisimlerin suda yüzmesi sadece cismin büyüklüğüne bağlıdır.",
-          "Sıvının içine tuz atıldığında tüm cisimler dibe batar.",
-          "Demir cisimler hiçbir şart altında suda yüzemezler.",
-          "Bir cismin suda yüzmesi veya batması hem cismin hem de sıvının özelliklerine bağlıdır."
+          "Kabloyu pilin kutbuna bağlamak",
+          "Pili masadan uzaklaştırmak",
+          "Ampulün camını boyamak",
+          "Kabloyu kesip atmak"
         ],
-        "correctAnswer": 3,
-        "explanation": "Tuzlu suyun yoğunluğu tatlı sudan fazladır. Suyun içine tuz atıldığında yoğunluğu artar ve yumurtayı (veya cismi) yukarı doğru kaldırarak yüzmesini sağlar.",
+        "correctAnswer": 0,
+        "explanation": "Açık bağlantıda elektrik akımı dolaşamaz. Kablonun pile bağlanması devre yolunu tamamlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_1",
@@ -18474,15 +18474,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-02",
-        "question": "Ayşe, mutfaktaki üç farklı karışımı birbirinden ayırmak istiyor:\n1. Karışım: Su ve kum\n2. Karışım: Demir tozu ve talaş\n3. Karışım: Su ve tuz\nAyşe'nin bu karışımları ayırmak için kullanması gereken yöntemler sırasıyla hangi seçenekte doğru verilmiştir?",
+        "question": "Bir ampulün yanması için basit elektrik devresinde hangi parçalar arasında kesintisiz yol olmalıdır?",
         "choices": [
-          "Buharlaştırma - Süzme - Mıknatısla Ayırma",
-          "Süzme - Eleme - Süzme",
-          "Eleme - Mıknatısla Ayırma - Dinlendirme",
-          "Süzme - Mıknatısla Ayırma - Buharlaştırma"
+          "Kablo ve kâğıt arasında",
+          "Pil, kablo ve ampul arasında",
+          "Yalnız pil ve masa arasında",
+          "Ampul ve pencere arasında"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süzme - Mıknatısla Ayırma - Buharlaştırma' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Pil, kablo ve ampul uygun biçimde bağlanınca akımın dolaşabileceği kapalı yol oluşur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_2",
@@ -18490,15 +18490,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-03",
-        "question": "Bir mıknatıs ortadan ikiye bölündüğünde aşağıdaki durumlardan hangisi gerçekleşir?",
+        "question": "Aynı pil ve ampul kullanılan iki devreden birinde anahtar açık, diğerinde kapalıdır. Hangisinde ampul yanar?",
         "choices": [
-          "Mıknatıs özelliğini tamamen kaybeder.",
-          "Yeni oluşan her iki parça da kendi içinde N ve S kutuplarına sahip iki yeni mıknatıs olur.",
-          "Parçalardan biri sadece N (Kuzey) kutbu, diğeri sadece S (Güney) kutbu olur.",
-          "Mıknatısın çekim gücü iki katına çıkar."
+          "İkisinde de kesinlikle yanmaz",
+          "Anahtarın konumu önemli değildir",
+          "Anahtarı kapalı olan devrede",
+          "Anahtarı açık olan devrede"
         ],
-        "correctAnswer": 1,
-        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Yeni oluşan her iki parça da kendi içinde N ve S kutuplarına sahip iki yeni mıknatıs olur.' durumu meydana gelmektedir.",
+        "correctAnswer": 2,
+        "explanation": "Kapalı anahtar devre yolunu tamamlar. Açık anahtar akım yolunu keser.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_3",
@@ -18506,15 +18506,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-04",
-        "question": "- Zıt kutuplar birbirini çeker.\n- Aynı kutuplar birbirini iter.\nYukarıdaki kurala göre, üç adet çubuk mıknatıs yan yana konulduğunda mıknatısların birbirine yapıştığı gözlemlenmiştir. Ortadaki mıknatısın sol kutbu N olduğuna göre, baştaki ve sondaki mıknatısların birbirine bakan uçları sırasıyla nedir?",
+        "question": "Bir devrede pilin görevi nedir?",
         "choices": [
-          "N ve N",
-          "S ve N",
-          "S ve S",
-          "N ve S"
+          "Ampulün rengini değiştirmek",
+          "Kabloyu uzatmak",
+          "Anahtarın yerini göstermek",
+          "Elektrik enerjisi sağlamak"
         ],
-        "correctAnswer": 1,
-        "explanation": "Çözüm: Ortadaki mıknatıs N-S şeklindedir. Soldaki mıknatıs N'yi çekmesi için sağ ucu S olmalıdır. Sağdaki mıknatıs ortadakinin S ucunu çekmesi için sol ucu N olmalıdır.",
+        "correctAnswer": 3,
+        "explanation": "Pil, devrenin elektrik enerjisi kaynağıdır; ampul bu enerjiyle ışık verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_4",
@@ -18522,15 +18522,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-05",
-        "question": "Hareket halindeki bir cisme, hareket yönüne **zıt** yönde bir kuvvet uygulanırsa cisimde nasıl bir değişiklik gözlemlenir?",
+        "question": "Devredeki anahtar kapatıldığında ampul yanıyor, açıldığında sönüyor. Anahtar hangi işi yapıyor?",
         "choices": [
-          "Cismin hızı artar.",
-          "Cisim şekil değiştirir.",
-          "Cisim yavaşlar veya durur.",
-          "Cismin kütlesi artar."
+          "Devreyi açıp kapatıyor.",
+          "Pili yeniliyor.",
+          "Kabloyu yalıtıyor.",
+          "Ampulü büyütüyor."
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim yavaşlar veya durur.' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Anahtar kapalıyken akım yolu tamamlanır; açıkken yol kesilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_5",
@@ -18538,15 +18538,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-06",
-        "question": "Sıvı maddelerin belirli bir şekli yoktur, konuldukları kabın şeklini alırlar. Gazlar da bulundukları ortama tamamen yayılırlar.\nBuna göre, aşağıdakilerden hangisi gazların özelliklerini sıvıların özelliklerinden **ayıran** en önemli farktır?",
+        "question": "Ampul yuvasına gevşek takılmışsa sağlam pil ve kablolar olsa bile neden yanmayabilir?",
         "choices": [
-          "Akışkan olmaları",
-          "Konuldukları kaba sığmaları",
-          "Kütlelerinin olması",
-          "Sıkıştırılabilir olmaları"
+          "Kablo ağır olduğu için",
+          "Elektrik bağlantısı tamamlanmadığı için",
+          "Pil rengini kaybettiği için",
+          "Işık havada kaybolduğu için"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sıkıştırılabilir olmaları' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Ampulün metal temas noktaları yuvaya değmezse devrede kesinti olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_6",
@@ -18554,15 +18554,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-07",
-        "question": "Buzdolabından çıkarılan soğuk bir su şişesinin dış yüzeyinde bir süre sonra su damlacıkları oluşur. Şişenin dışının ıslanmasına neden olan olay aşağıdakilerden hangisidir?",
+        "question": "Basit bir devrede iki kablonun uçları birbirine değmiyor. Ampulün yanması için hangisi gereklidir?",
         "choices": [
-          "Havadaki su buharının soğuk şişeye çarpıp yoğuşması",
-          "Şişenin içindeki suyun dışarı sızması",
-          "Şişenin dışındaki buzların erimesi",
-          "Şişenin içindeki suyun buharlaşması"
+          "Ampulü kâğıda sarmak",
+          "Pili ters çevirmeden çıkarmak",
+          "Uçları uygun biçimde birleştirip devreyi tamamlamak",
+          "Kabloları birbirinden daha da ayırmak"
         ],
-        "correctAnswer": 0,
-        "explanation": "Buzdolabından çıkarılan soğuk bir su şişesinin dış yüzeyinde bir süre sonra su damlacıkları oluşur. Şişenin dışının ıslanmasına neden olan olay aşağıdakilerden 'Havadaki su buharının soğuk şişeye çarpıp yoğuşması' olarak bilinir.",
+        "correctAnswer": 2,
+        "explanation": "Kablo uçları arasında boşluk varsa kapalı yol oluşmaz. Uygun bağlantı yapıldığında yol tamamlanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_7",
@@ -18570,15 +18570,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-08",
-        "question": "Aşağıdaki maddelerden hangisi mıknatıs tarafından **çekilmez** ancak suda **batar**?",
+        "question": "Bir çocuk devrede ampulü çıkarıp yerine plastik silgi koyuyor. Ampulün eski yerinde ışık görülür mü?",
         "choices": [
-          "Demir ataş",
-          "Tahta parçası",
-          "Çakıl taşı",
-          "Strafor (Köpük)"
+          "Evet, silgi ampul gibi yanar.",
+          "Yalnız gündüz yanar.",
+          "Pilin rengi değişirse yanar.",
+          "Hayır, silgi ışık veren ampul değildir."
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çakıl taşı' olduğu açıkça görülmektedir.",
+        "correctAnswer": 3,
+        "explanation": "Plastik silgi ampulün ışık üreten kısmına sahip değildir. Devre yolunda ışık kaynağı kalmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_8",
@@ -18586,15 +18586,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-09",
-        "question": "Dünya'nın kendi ekseni etrafında dönüşü ile Güneş etrafında dolanımı sonucunda farklı olaylar meydana gelir.\nGece ve gündüzün ardışık olarak yaşanması ile mevsimlerin oluşması sırasıyla hangi hareketlerin sonucudur?",
+        "question": "Bir devre şemasında pil, ampul ve anahtar sembolleri vardır. Semboller ne için kullanılır?",
         "choices": [
-          "Dönme - Dolanma",
-          "Dolanma - Dönme",
-          "Dolanma - Dolanma",
-          "Dönme - Dönme"
+          "Devre parçalarını çizimde göstermek için",
+          "Pilin içini doldurmak için",
+          "Ampulü ısıtmak için",
+          "Anahtarı boyamak için"
         ],
         "correctAnswer": 0,
-        "explanation": "Belirtilen eylem veya olayın doğal sonucu olarak 'Dönme - Dolanma' durumu meydana gelmektedir.",
+        "explanation": "Şema, gerçek parçaları basit işaretlerle gösterir; bağlantıların izlenmesini kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_9",
@@ -18602,15 +18602,15 @@
       },
       {
         "id": "T2-G4-FEN -YERKAB-10",
-        "question": "Maddenin halleri ile ilgili verilen,\nI. Katıların belirli bir şekli ve hacmi vardır.\nII. Sıvıların belirli bir hacmi vardır fakat şekli yoktur.\nIII. Gazların belirli bir kütlesi yoktur.\nifadelerinden hangileri **doğrudur**?",
+        "question": "İki aynı ampulden biri sağlam devrede yanıyor, diğeri aynı koşullarda yanmıyor. Yerleri değiştirilince yanmayan ampul yine yanmıyor. Hangi parça sorunlu olabilir?",
         "choices": [
-          "II ve III",
-          "I ve III",
-          "I ve II",
-          "I, II ve III"
+          "Kâğıt",
+          "Yanmayan ampul",
+          "Her iki pil",
+          "Masa"
         ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I ve II' olduğu açıkça görülmektedir.",
+        "correctAnswer": 1,
+        "explanation": "Aynı devreye takıldığında yalnız bir ampul çalışmıyorsa sorun o ampulde olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_fen_10",
@@ -18622,12 +18622,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "besinlerimiz",
-    "topicName": "Besinlerimiz",
+    "topic": "yer-kabugu-ve-dunyanin-hareketleri",
+    "topicName": "Yer Kabuğu ve Dünya'nın Hareketleri",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-besinlerimiz-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-besinlerimiz-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -BESINL-01",
@@ -18795,12 +18795,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "kuvvetin-etkileri",
-    "topicName": "Kuvvetin Etkileri",
+    "topic": "besinlerimiz",
+    "topicName": "Besinlerimiz",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-kuvvetin-etkileri-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-kuvvetin-etkileri-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-besinlerimiz-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-besinlerimiz-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -KUVVET-01",
@@ -18968,12 +18968,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "maddenin-ozellikleri",
-    "topicName": "Maddenin Özellikleri",
+    "topic": "kuvvetin-etkileri",
+    "topicName": "Kuvvetin Etkileri",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-maddenin-ozellikleri-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-maddenin-ozellikleri-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-kuvvetin-etkileri-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-kuvvetin-etkileri-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -MADDEN-01",
@@ -19141,12 +19141,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "aydinlatma-ve-ses-teknolojileri",
-    "topicName": "Aydınlatma ve Ses Teknolojileri",
+    "topic": "maddenin-ozellikleri",
+    "topicName": "Maddenin Özellikleri",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-aydinlatma-ve-ses-teknolojileri-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-aydinlatma-ve-ses-teknolojileri-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-maddenin-ozellikleri-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-maddenin-ozellikleri-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -AYDINL-01",
@@ -19314,12 +19314,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "insan-ve-cevre",
-    "topicName": "İnsan ve Çevre",
+    "topic": "aydinlatma-ve-ses-teknolojileri",
+    "topicName": "Aydınlatma ve Ses Teknolojileri",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-insan-ve-cevre-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-insan-ve-cevre-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-aydinlatma-ve-ses-teknolojileri-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-aydinlatma-ve-ses-teknolojileri-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -INSANV-01",
@@ -19467,15 +19467,15 @@
       },
       {
         "id": "T2-G4-FEN -INSANV-10",
-        "question": "Kullanım ömrünü tamamlamış cam, plastik, kağıt, metal gibi atıkların çeşitli işlemlerden geçirilerek yeni bir hammaddeye dönüştürülmesine ne ad verilir?",
+        "question": "Bir okulda koridor lambaları kimse yokken açık bırakılıyor. Doğru aydınlatma ve tasarruf için ne yapılmalıdır?",
         "choices": [
-          "Tüketim",
-          "Geri Dönüşüm",
-          "Küresel Isınma",
-          "Erozyon"
+          "Ampulleri kırmak",
+          "Gereksiz lambaları kapatmak",
+          "Gündüz de bütün lambaları açmak",
+          "Işığı pencereden uzağa çevirmek"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Geri Dönüşüm' olduğu açıkça görülmektedir.",
+        "explanation": "Boş koridorda lambaları kapatmak gereksiz elektrik tüketimini azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_1",
@@ -19487,12 +19487,12 @@
     "classLevel": 4,
     "subject": "fen-bilimleri",
     "subjectName": "Fen Bilimleri",
-    "topic": "basit-elektrik-devreleri",
-    "topicName": "Basit Elektrik Devreleri",
+    "topic": "insan-ve-cevre",
+    "topicName": "İnsan ve Çevre",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-2",
-    "pageUrl": "tests/4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-2.html",
+    "slug": "4-sinif-fen-bilimleri-insan-ve-cevre-zor-test-2",
+    "pageUrl": "tests/4-sinif-fen-bilimleri-insan-ve-cevre-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G4-FEN -BASITE-01",
@@ -19640,15 +19640,15 @@
       },
       {
         "id": "T2-G4-FEN -BASITE-10",
-        "question": "Bir basit elektrik devresinde elektrik enerjisini üreten ve devreye güç sağlayan eleman hangisidir?",
+        "question": "Bir okulda kullanılmış piller için ayrı toplama kutusu bulunuyor. Piller neden bu kutuya atılmalıdır?",
         "choices": [
-          "Anahtar",
-          "Bağlantı kablosu",
-          "Pil",
-          "Duy"
+          "Suyla yıkayıp lavaboya dökmek için",
+          "İçeriklerindeki maddelerin çevreye karışmasını önlemek için",
+          "Pilleri yiyeceklerle karıştırmak için",
+          "Pilleri toprağa gömmek için"
         ],
-        "correctAnswer": 2,
-        "explanation": "Bir basit elektrik devresinde elektrik enerjisini üreten ve devreye güç sağlayan eleman 'Pil' olarak bilinir.",
+        "correctAnswer": 1,
+        "explanation": "Atık piller ayrı toplanırsa içlerindeki maddelerin toprağa ve suya yayılması önlenebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu7_elektrik_devreleri_1",

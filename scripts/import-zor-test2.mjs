@@ -16,6 +16,7 @@ import {repairHayat23} from '../data/imports/zor-test2-hayat23.mjs';
 import {repairMath1} from '../data/imports/zor-test2-math1.mjs';
 import {repairSocial4} from '../data/imports/zor-test2-social4.mjs';
 import {repairScience3Topics} from '../data/imports/zor-test2-science3-topics.mjs';
+import {repairScience4Topics} from '../data/imports/zor-test2-science4-topics.mjs';
 const raw=fs.readFileSync('data/imports/zor-test2-final.md','utf8').replace(/\r/g,'');
 const records=raw.split(/^final_id: /m).slice(1).map(part=>{
  const chunk=part.split(/^---$/m)[0],r={final_id:chunk.split('\n')[0].trim()};
@@ -68,6 +69,7 @@ repairHayat23([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairMath1([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairSocial4([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairScience3Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
+repairScience4Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 fs.writeFileSync('data/tests/zor-test2-final.js','// Imported final bank; reproducible with npm run import:zor-test2.\n(function(){ window.TESTCOZ_TESTS = window.TESTCOZ_TESTS || []; window.TESTCOZ_TESTS.push(...'+JSON.stringify([...bank.values()],null,2)+'); })();\n');
 fs.writeFileSync('data/imports/zor-test2-change-log.json',JSON.stringify({sourceSha256:crypto.createHash('sha256').update(raw).digest('hex'),changes},null,2)+'\n');
 console.log(JSON.stringify({tests:bank.size,questions:records.length,visuals:vi,duplicateCorrections:tr+en,changedQuestions:new Set(changes.map(c=>c.id)).size,changeEvents:changes.length}));
