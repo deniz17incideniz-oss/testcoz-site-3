@@ -10,5 +10,8 @@ for(const t of bank){assert.equal(t.difficulty,'zor');assert.equal(t.questions.l
  for(const q of t.questions){assert.ok(!ids.has(q.id),q.id);ids.add(q.id);const text=q.question.toLocaleLowerCase('tr-TR').replace(/\s+/g,' ').trim();assert.ok(!texts.has(text),`Duplicate: ${q.id}`);texts.add(text);assert.equal(q.choices.length,t.classLevel<=3?3:4);assert.equal(new Set(q.choices).size,q.choices.length,q.id);assert.ok(Number.isInteger(q.correctAnswer)&&q.correctAnswer>=0&&q.correctAnswer<q.choices.length,q.id);assert.ok(q.explanation.trim(),q.id);if(q.image){visuals++;assert.ok(q.image.startsWith('images/tests/'));assert.ok(fs.existsSync(q.image),q.id);const svg=fs.readFileSync(q.image,'utf8');assert.ok(svg.includes('<svg'));assert.ok(!/watermark|https?:\/\/(?!www.w3.org)/i.test(svg),q.id);assert.ok(q.imageAlt);}}
 }
 assert.equal(ids.size,1300);assert.equal(visuals,35);
+const usedImages=new Set(bank.flatMap(t=>t.questions.map(q=>q.image).filter(Boolean)));
+const generatedImages=fs.readdirSync('images/tests').filter(name=>name.includes('zor-test-2')&&name.endsWith('.svg')).map(name=>`images/tests/${name}`);
+assert.deepEqual(new Set(generatedImages),usedImages,'Unused or missing Test 2 SVG');
 assert.deepEqual([1,2,3,4].map(g=>bank.filter(t=>t.classLevel===g).flatMap(t=>t.questions).length),[270,260,340,430]);
 console.log('✓ Zor Test 2: 130 topics/pages, 1300 questions, 35 local SVGs; coverage, IDs, text, choices, keys and paths PASS');
