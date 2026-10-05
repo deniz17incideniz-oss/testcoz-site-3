@@ -1316,12 +1316,12 @@
     "classLevel": 1,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "sayilar-ve-nicelikler",
-    "topicName": "Sayılar ve Nicelikler",
+    "topic": "geometrik-sekiller",
+    "topicName": "Geometrik Şekiller",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2",
-    "pageUrl": "tests/1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2.html",
+    "slug": "1-sinif-matematik-geometrik-sekiller-zor-test-2",
+    "pageUrl": "tests/1-sinif-matematik-geometrik-sekiller-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G1-MATE-SAYILA-01",
@@ -1415,15 +1415,15 @@
       },
       {
         "id": "T2-G1-MATE-SAYILA-07",
-        "question": "\"Kuş kafesin .............., kedi ise kafesin .............\"\nGörselde kuş kafesin içinde, kedi ise kafesin dışında ona bakmaktadır. Boşluklara sırasıyla ne gelmelidir?",
+        "question": "Görseldeki kafesin dış sınırı hangi şekle benzer?",
         "choices": [
-          "dışındadır / içindedir",
-          "içindedir / dışındadır",
-          "altındadır / üstündedir"
+          "Dikdörtgen",
+          "Üçgen",
+          "Çember"
         ],
-        "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında içindedir / dışındadır sonucuna ulaşılır.",
-        "image": "images/tests/1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2-soru-7.svg",
+        "correctAnswer": 0,
+        "explanation": "Kafesin dış sınırında karşılıklı kenarlar eşit, iki kenar uzun iki kenar kısadır; dikdörtgene benzer.",
+        "image": "images/tests/1-sinif-matematik-geometrik-sekiller-zor-test-2-soru-7.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_7",
         "sourceType": "EXISTING_V4B",
@@ -1487,12 +1487,12 @@
     "classLevel": 1,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "uzunluk-ve-kutle-olcme",
-    "topicName": "Uzunluk ve Kütle Ölçme",
+    "topic": "sayilar-ve-nicelikler",
+    "topicName": "Sayılar ve Nicelikler",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2",
-    "pageUrl": "tests/1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2.html",
+    "slug": "1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2",
+    "pageUrl": "tests/1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G1-MATE-UZUNLU-01",
@@ -1504,7 +1504,7 @@
         ],
         "correctAnswer": 1,
         "explanation": "Verilen 7 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı On bir çıkmaktadır.",
-        "image": "images/tests/1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2-soru-1.svg",
+        "image": "images/tests/1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2-soru-1.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_1",
         "sourceType": "EXISTING_V4B",
@@ -1658,46 +1658,56 @@
     "classLevel": 1,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "paralarimiz",
-    "topicName": "Paralarımız",
+    "topic": "uzunluk-ve-kutle-olcme",
+    "topicName": "Uzunluk ve Kütle Ölçme",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "1-sinif-matematik-paralarimiz-zor-test-2",
-    "pageUrl": "tests/1-sinif-matematik-paralarimiz-zor-test-2.html",
+    "slug": "1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2",
+    "pageUrl": "tests/1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G1-MATE-PARALA-01",
-        "question": "Görseldeki tabakta 5 çilek vardır. Tabağa 3 çilek daha koyarsak tabakta toplam kaç çilek olur?",
+        "question": "Bir kalem 6 silgi boyunda, bir defter 9 silgi boyundadır. Hangisi daha uzundur?",
         "choices": [
-          "7",
-          "8",
-          "9"
+          "Defter",
+          "Kalem",
+          "İkisi eşit"
         ],
-        "correctAnswer": 1,
-        "explanation": "5 + 3 = 8",
-        "image": "images/tests/1-sinif-matematik-paralarimiz-zor-test-2-soru-1.svg",
+        "correctAnswer": 0,
+        "explanation": "9 silgi boyu, 6 silgi boyundan fazladır; defter daha uzundur.",
+        "image": "images/tests/1-sinif-matematik-uzunluk-ve-kutle-olcme-zor-test-2-soru-1.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_1",
         "sourceType": "EXISTING_V4B",
         "visual": {
           "type": "finalDiagram",
-          "title": "Tabaktaki çilekler",
+          "title": "Kalem ve defter ölçüleri",
           "data": {
-            "kind": "strawberries"
+            "kind": "table",
+            "rows": [
+              [
+                "Kalem",
+                6
+              ],
+              [
+                "Defter",
+                9
+              ]
+            ]
           }
         },
-        "imageAlt": "Tabaktaki çilekler"
+        "imageAlt": "Kalem 6, defter 9 eş silgi boyundadır"
       },
       {
         "id": "T2-G1-MATE-PARALA-02",
-        "question": "Aşağıdaki toplama işlemlerinden hangisinin sonucu en büyüktür?",
+        "question": "Bir kurdele 12 karış, başka bir kurdele 8 karış uzunluğundadır. İlki kaç karış daha uzundur?",
         "choices": [
-          "8 + 4",
-          "7 + 6",
-          "9 + 5"
+          "20 karış",
+          "4 karış",
+          "8 karış"
         ],
-        "correctAnswer": 2,
-        "explanation": "A:12, B:13, C:14",
+        "correctAnswer": 1,
+        "explanation": "12 − 8 = 4 karış fark vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_2",
@@ -1705,14 +1715,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-03",
-        "question": "Ayşe'nin 10 lirası vardı. Babası ona hiç para vermedi (0 lira). Ayşe'nin kaç lirası oldu?",
+        "question": "Aynı masayı Ayşe 7, babası 5 karış ölçüyor. Masanın gerçek boyu değişmediğine göre kimin karışı daha kısadır?",
         "choices": [
-          "0 lira",
-          "11 lira",
-          "10 lira"
+          "Babasının",
+          "İkisinin de eşittir",
+          "Ayşe’nin"
         ],
         "correctAnswer": 2,
-        "explanation": "10 + 0 = 10. Sıfırın toplamaya etkisi yoktur.",
+        "explanation": "Aynı uzunluk kısa bir karışla daha çok kez ölçülür. Ayşe 7 karış saydığı için onun karışı daha kısadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_3",
@@ -1720,14 +1730,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-04",
-        "question": "Bir ağacın dalında 6 kuş vardı. Daha sonra 6 kuş daha uçup aynı dala kondu. Dalda toplam kaç kuş oldu?",
+        "question": "Bir çantanın kütlesi 2 kitap kadardır. Aynı kitaplardan 3 tane olan başka çanta için hangisi söylenir?",
         "choices": [
-          "12",
-          "11",
-          "10"
+          "İkinci çanta daha ağırdır.",
+          "İlk çanta daha ağırdır.",
+          "İki çanta eşit ağırlıktadır."
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 6 ve 6 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12 çıkmaktadır.",
+        "explanation": "Kitaplar eşse 3 kitaplık kütle 2 kitaplık kütleden büyüktür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_4",
@@ -1735,14 +1745,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-05",
-        "question": "\"7 + 4 = 11\" işleminde toplananların yerleri değiştirilirse, yeni işlem aşağıdakilerden hangisi olur ve sonuç değişir mi?",
+        "question": "Bir sıranın boyunu karışla ölçmek isteyen çocuk nereden başlamalıdır?",
         "choices": [
-          "4 + 7 = 11 (Sonuç değişmez)",
-          "4 - 7 = 0 (Sonuç değişir)",
-          "7 + 5 = 12 (Sonuç değişir)"
+          "Sıranın dışından",
+          "Sıranın bir ucundan",
+          "Sıranın ortasından"
         ],
-        "correctAnswer": 0,
-        "explanation": "Verilen 7 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 4 + 7 = 11 (Sonuç değişmez) çıkmaktadır.",
+        "correctAnswer": 1,
+        "explanation": "Uzunluğu eksiksiz saymak için ölçmeye bir uçtan başlayıp karışları boşluk bırakmadan yerleştiririz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_5",
@@ -1750,14 +1760,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-06",
-        "question": "Ali'nin 8 boya kalemi vardır. Kerem'in ise Ali'den 3 fazla kalemi vardır. Kerem'in kaç boya kalemi vardır?",
+        "question": "Bir ip 10 adım, başka bir ip 6 adım uzunluğundadır. İki ip aynı kişinin adımıyla ölçüldüyse hangisi daha kısadır?",
         "choices": [
-          "11",
-          "10",
-          "8"
+          "10 adımlık ip",
+          "İkisi eşittir",
+          "6 adımlık ip"
         ],
-        "correctAnswer": 0,
-        "explanation": "8 + 3 = 11",
+        "correctAnswer": 2,
+        "explanation": "Ölçme birimi aynıysa 6 adım, 10 adımdan daha kısa bir uzunluğu gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_6",
@@ -1765,14 +1775,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-07",
-        "question": "\" 5 + ? = 9 \" işleminde verilmeyen toplananı (kutucuğu) bulmak için 5'in üzerine saydığımızda kaç eklemiş oluruz?",
+        "question": "Bir elma ile bir portakal eşit kollu terazide dengede duruyor. Bu durumda kütleleri için ne söylenebilir?",
         "choices": [
-          "3",
-          "4",
-          "5"
+          "Eşittir.",
+          "Elma daha ağırdır.",
+          "Portakal daha ağırdır."
         ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 5 ve 9 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 4 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "Terazinin iki kefesi dengedeyse nesnelerin kütleleri eşittir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_7",
@@ -1780,14 +1790,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-08",
-        "question": "Zeynep, 8 fındığın üzerine önce 2 fındık ekleyip 10'a ulaşıyor. Sonra 10'un üzerine 4 fındık daha ekleyip 14 buluyor.\nZeynep başlangıçtaki 8 fındığa toplamda kaç fındık eklemiştir?",
+        "question": "Bir kalem 4 ataş, silgi 2 ataş uzunluğundadır. Aynı ataş kullanıldıysa kalem silgiden kaç ataş daha uzundur?",
         "choices": [
-          "10",
-          "14",
-          "6"
+          "6 ataş",
+          "2 ataş",
+          "4 ataş"
         ],
-        "correctAnswer": 2,
-        "explanation": "Önce 2, sonra 4 eklediğine göre toplam 2+4=6 eklemiştir.",
+        "correctAnswer": 1,
+        "explanation": "4 − 2 = 2 ataş. Aynı ataş kullanıldığı için uzunluklar karşılaştırılabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_8",
@@ -1795,14 +1805,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-09",
-        "question": "Aklından bir sayı tutan Efe, \"Tuttuğum sayıya 5 eklersem 12 oluyor.\" demiştir. Efe'nin tuttuğu sayı kaçtır?",
+        "question": "Bir kutu 5 eş blok, diğeri 8 eş blok ağırlığındadır. Hangisi daha ağırdır?",
         "choices": [
-          "6",
-          "7",
-          "8"
+          "5 blokluk kutu",
+          "İkisi eşit",
+          "8 blokluk kutu"
         ],
-        "correctAnswer": 1,
-        "explanation": "Verilen 5 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 7 çıkmaktadır.",
+        "correctAnswer": 2,
+        "explanation": "Eş bloklarla ölçüldüğünde 8 blokluk kütle 5 blokluktan büyüktür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_9",
@@ -1810,14 +1820,14 @@
       },
       {
         "id": "T2-G1-MATE-PARALA-10",
-        "question": "\"9 + 8 = ?\" işlemini zihinden kolayca yapmak isteyen Can, 8'in 1'ini alıp 9'u 10'a tamamlıyor. Can'ın yapması gereken yeni işlem hangisi olmalıdır?",
+        "question": "İki çocuk aynı masayı farklı büyüklükte karışlarla ölçüyor. Sonuçların farklı çıkmasının nedeni nedir?",
         "choices": [
-          "9 + 9",
-          "10 + 8",
-          "10 + 7"
+          "Karış uzunlukları farklıdır.",
+          "Masa kendiliğinden uzamıştır.",
+          "Masanın rengi değişmiştir."
         ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 9 ve 8 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 10 + 7 çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "Standart olmayan karış ölçüsü kişiden kişiye değişir; aynı masa farklı sayıda karış gelebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu3_toplama_10",
@@ -2000,12 +2010,12 @@
     "classLevel": 1,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "konum-ve-es-nesneler",
-    "topicName": "Konum ve Eş Nesneler",
+    "topic": "paralarimiz",
+    "topicName": "Paralarımız",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "1-sinif-matematik-konum-ve-es-nesneler-zor-test-2",
-    "pageUrl": "tests/1-sinif-matematik-konum-ve-es-nesneler-zor-test-2.html",
+    "slug": "1-sinif-matematik-paralarimiz-zor-test-2",
+    "pageUrl": "tests/1-sinif-matematik-paralarimiz-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G1-MATE-KONUMV-01",
@@ -2163,23 +2173,23 @@
     "classLevel": 1,
     "subject": "matematik",
     "subjectName": "Matematik",
-    "topic": "geometrik-sekiller",
-    "topicName": "Geometrik Şekiller",
+    "topic": "konum-ve-es-nesneler",
+    "topicName": "Konum ve Eş Nesneler",
     "difficulty": "zor",
     "testNumber": 2,
-    "slug": "1-sinif-matematik-geometrik-sekiller-zor-test-2",
-    "pageUrl": "tests/1-sinif-matematik-geometrik-sekiller-zor-test-2.html",
+    "slug": "1-sinif-matematik-konum-ve-es-nesneler-zor-test-2",
+    "pageUrl": "tests/1-sinif-matematik-konum-ve-es-nesneler-zor-test-2.html",
     "questions": [
       {
         "id": "T2-G1-MATE-GEOMET-01",
-        "question": "Kısa olan ve saati (akrep) gösteren ok 3'ün üzerinde, uzun olan ve dakikayı (yelkovan) gösteren ok 12'nin üzerindedir. Saat kaçtır?",
+        "question": "Kitap masanın üstünde, çanta masanın altında duruyor. Çanta kitaba göre nerededir?",
         "choices": [
-          "Saat 3",
-          "Saat 12",
-          "Saat 4"
+          "Aşağıdadır.",
+          "Yukarıdadır.",
+          "Aynı yerdedir."
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 3 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Saat 3 çıkmaktadır.",
+        "explanation": "Çanta masanın altında, kitap üstündedir; çanta kitaba göre aşağıdadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_1",
@@ -2187,14 +2197,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-02",
-        "question": "Haftanın ilk günü aşağıdakilerden hangisidir?",
+        "question": "Yan yana duran üç kutudan kırmızı kutu solda, mavi kutu ortada, yeşil kutu sağdadır. Mavi kutunun sağında hangisi vardır?",
         "choices": [
-          "Pazar",
-          "Pazartesi",
-          "Cuma"
+          "Hiçbiri",
+          "Yeşil kutu",
+          "Kırmızı kutu"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Pazartesi' olduğu açıkça görülmektedir.",
+        "explanation": "Sıra kırmızı, mavi, yeşildir; mavinin sağında yeşil vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_2",
@@ -2202,14 +2212,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-03",
-        "question": "Bir hafta kaç günden oluşur?",
+        "question": "İki aynı kalemden biri masanın sağında, diğeri solundadır. Kalemlerin hangi özelliği aynıdır?",
         "choices": [
-          "7",
-          "5",
-          "10"
+          "Konumları",
+          "Masaya uzaklıkları",
+          "Şekilleri"
         ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 7 sonucuna ulaşılır.",
+        "correctAnswer": 2,
+        "explanation": "Kalemler aynı olarak tanımlanmıştır, bu yüzden şekilleri eş; sağ ve sol konumları farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_3",
@@ -2217,14 +2227,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-04",
-        "question": "Akrebin (kısa kol) 8 ile 9'un tam ortasında, yelkovanın (uzun kol) 6'nın üzerinde olduğu saat kaçı gösterir?",
+        "question": "Ece kapının önünde, Can kapının arkasında bekliyor. Kapının arkasında kim vardır?",
         "choices": [
-          "Sekiz",
-          "Dokuz buçuk",
-          "Sekiz buçuk"
+          "Can",
+          "Ece",
+          "İkisi de"
         ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 8 ve 9 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Sekiz buçuk çıkmaktadır.",
+        "correctAnswer": 0,
+        "explanation": "Soruda Can’ın kapının arkasında olduğu açıkça söyleniyor.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_4",
@@ -2232,14 +2242,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-05",
-        "question": "Dün günlerden Perşembe ise, **bugün** günlerden nedir?",
+        "question": "Üç eş fincandan biri diğerlerinin arasında duruyor. Ortadaki fincanın iki yanında kaç fincan vardır?",
         "choices": [
-          "Cuma",
-          "Cumartesi",
-          "Çarşamba"
+          "3",
+          "2",
+          "1"
         ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Cuma sonucuna ulaşılır.",
+        "correctAnswer": 1,
+        "explanation": "Üç fincanın ortasındaki seçilince solda bir, sağda bir fincan kalır: toplam 2.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_5",
@@ -2247,14 +2257,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-06",
-        "question": "Okullar hangi günlerde tatildir (Hafta sonu)?",
+        "question": "Bir oyuncak arabanın önünde bir top, arkasında bir küp vardır. Top arabaya göre nerededir?",
         "choices": [
-          "Pazartesi ve Salı",
-          "Cumartesi ve Pazar",
-          "Perşembe ve Cuma"
+          "Arkasındadır.",
+          "Altındadır.",
+          "Önündedir."
         ],
-        "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Cumartesi ve Pazar sonucuna ulaşılır.",
+        "correctAnswer": 2,
+        "explanation": "Konum soruda verilmiştir: top arabanın önünde durur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_6",
@@ -2262,14 +2272,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-07",
-        "question": "Bir günde hangi vakit **yoktur**?",
+        "question": "Aynı biçimdeki iki kaşık farklı renklere boyanmıştır. Hangi özellikleri yine eş kalır?",
         "choices": [
-          "Sabah",
-          "İlkbahar",
-          "Akşam"
+          "Biçimleri",
+          "Renkleri",
+          "Yerleri"
         ],
-        "correctAnswer": 1,
-        "explanation": "İlkbahar bir mevsimdir, günün vakti değildir.",
+        "correctAnswer": 0,
+        "explanation": "Boyama yalnız rengi değiştirir; iki kaşığın biçimi aynı kalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_7",
@@ -2277,37 +2287,51 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-08",
-        "question": "Görseldeki dijital saat \"10:00\"ı göstermektedir. Bu saate ne denir?",
+        "question": "Bir sıra soldan sağa Ali, Ece, Can biçimindedir. Ece kimin arasındadır?",
         "choices": [
-          "Saat on bir",
-          "Saat on buçuk",
-          "Saat on"
+          "Can ile kapının",
+          "Ali ile Can’ın",
+          "Ali ile masanın"
         ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 10 ve 00 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Saat on çıkmaktadır.",
-        "image": "images/tests/1-sinif-matematik-geometrik-sekiller-zor-test-2-soru-8.svg",
+        "correctAnswer": 1,
+        "explanation": "Sırada Ece’nin solunda Ali, sağında Can vardır.",
+        "image": "images/tests/1-sinif-matematik-konum-ve-es-nesneler-zor-test-2-soru-8.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_8",
         "sourceType": "EXISTING_V4B",
         "visual": {
           "type": "finalDiagram",
-          "title": "Dijital saat",
+          "title": "Soldan sağa sıra",
           "data": {
-            "kind": "digital"
+            "kind": "table",
+            "rows": [
+              [
+                "Solda",
+                "Ali"
+              ],
+              [
+                "Ortada",
+                "Ece"
+              ],
+              [
+                "Sağda",
+                "Can"
+              ]
+            ]
           }
         },
-        "imageAlt": "Dijital saat"
+        "imageAlt": "Soldan sağa Ali, Ece ve Can sıralanmıştır"
       },
       {
         "id": "T2-G1-MATE-GEOMET-09",
-        "question": "Saat tam 5'i gösterirken, uzun kol (yelkovan) hangi sayının üzerinde olur?",
+        "question": "İki eş küpün biri kutunun içinde, diğeri kutunun dışındadır. Hangisi farklıdır?",
         "choices": [
-          "5",
-          "6",
-          "12"
+          "Şekilleri",
+          "Köşe sayıları",
+          "Bulundukları yer"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 12 sonucuna ulaşılır.",
+        "explanation": "Küpler eş olduğundan şekilleri ve köşe sayıları aynıdır; konumları farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_9",
@@ -2315,14 +2339,14 @@
       },
       {
         "id": "T2-G1-MATE-GEOMET-10",
-        "question": "Bugün Cuma olduğuna göre, **yarın** babamla parka gideceğim diyen Ali parka hangi gün gidecektir?",
+        "question": "Kırmızı kitap mavi kitabın üstünde, sarı kitap mavi kitabın altındadır. En altta hangisi vardır?",
         "choices": [
-          "Perşembe",
-          "Pazar",
-          "Cumartesi"
+          "Sarı kitap",
+          "Mavi kitap",
+          "Kırmızı kitap"
         ],
-        "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Cumartesi sonucuna ulaşılır.",
+        "correctAnswer": 0,
+        "explanation": "Üstten alta kırmızı, mavi ve sarı sıralanır; en altta sarı kitap vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu6_zaman_10",
@@ -2343,14 +2367,14 @@
     "questions": [
       {
         "id": "T2-G1-MATE-VERIYE-01",
-        "question": "Sıramızın boyunu ölçmek için aşağıdaki standart olmayan ölçme araçlarından hangisini kullanmak **en uygundur**?",
+        "question": "Bir sınıfta 6 çocuk elmayı, 4 çocuk muzu seviyor. Hangisini daha çok çocuk seviyor?",
         "choices": [
-          "Adım",
-          "Kulaç",
-          "Karış"
+          "Elmayı",
+          "Muzu",
+          "İkisini eşit sayıda"
         ],
-        "correctAnswer": 2,
-        "explanation": "Masa ve sıra gibi küçük nesneler karışla ölçülür.",
+        "correctAnswer": 0,
+        "explanation": "Elmayı seçen 6 kişi, muzu seçen 4 kişidir; 6 büyüktür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_1",
@@ -2358,14 +2382,14 @@
       },
       {
         "id": "T2-G1-MATE-VERIYE-02",
-        "question": "Aşağıdaki hayvanlardan hangisi diğerlerinden daha uzundur?",
+        "question": "Oy sayıları tabloda kedi 5, köpek 7 olarak yazıldı. Köpeğe kaç kişi daha fazla oy verdi?",
         "choices": [
-          "Zürafa",
-          "Aslan",
-          "Kedi"
+          "12",
+          "2",
+          "5"
         ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Zürafa sonucuna ulaşılır.",
+        "correctAnswer": 1,
+        "explanation": "Köpeğe 7, kediye 5 oy verilmiş; fark 7 − 5 = 2’dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_2",
@@ -2373,14 +2397,14 @@
       },
       {
         "id": "T2-G1-MATE-VERIYE-03",
-        "question": "Odanın bir duvarından diğer duvarına olan uzaklığı ölçmek isteyen bir çocuk ne kullanmalıdır?",
+        "question": "Bir çizelgede pazartesi 3, salı 6 kitap okunmuş. Hangi gün daha çok kitap okunmuş?",
         "choices": [
-          "Adım",
-          "Karış",
-          "Parmak"
+          "Pazartesi",
+          "İki gün eşit",
+          "Salı"
         ],
-        "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Adım sonucuna ulaşılır.",
+        "correctAnswer": 2,
+        "explanation": "Salı gününün 6 kitabı, pazartesinin 3 kitabından fazladır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_3",
@@ -2388,14 +2412,14 @@
       },
       {
         "id": "T2-G1-MATE-VERIYE-04",
-        "question": "Bir ağacın kalınlığını kollarımızı iki yana açarak sarıp ölçmeye çalıştığımızda hangi ölçü birimini kullanmış oluruz?",
+        "question": "Sınıfta 8 öğrenci kırmızı, 8 öğrenci mavi kalem seçti. Bu seçimler için hangisi doğrudur?",
         "choices": [
-          "Ayak",
-          "Kulaç",
-          "Karış"
+          "İki rengi seçenlerin sayısı eşittir.",
+          "Kırmızıyı daha çok seçtiler.",
+          "Maviyi daha çok seçtiler."
         ],
-        "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Kulaç sonucuna ulaşılır.",
+        "correctAnswer": 0,
+        "explanation": "Her iki renk için de 8 öğrenci sayılmıştır; sayılar eşittir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_4",
@@ -2403,14 +2427,14 @@
       },
       {
         "id": "T2-G1-MATE-VERIYE-05",
-        "question": "\"Mavi kalem 5 silgi boyunda, Kırmızı kalem 3 silgi boyundadır.\"\nBuna göre hangi kalem daha kısadır?",
+        "question": "Bir tabloda sabah 4, öğlen 5, akşam 2 bardak su içildiği yazıyor. En az bardak hangi vakitte içilmiştir?",
         "choices": [
-          "Mavi kalem",
-          "İkisi de aynı boydadır.",
-          "Kırmızı kalem"
+          "Öğlen",
+          "Akşam",
+          "Sabah"
         ],
-        "correctAnswer": 2,
-        "explanation": "Verilen 5 ve 3 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Kırmızı kalem çıkmaktadır.",
+        "correctAnswer": 1,
+        "explanation": "Tablodaki en küçük sayı 2’dir ve akşam vaktine aittir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_5",
