@@ -2,14 +2,14 @@
 
 ## Yöntem
 
-Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 54 birleşimde toplam 270 soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
+Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 55 birleşimde toplam 275 soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
 
 ## Dağılım
 
-- Sınıf: 1. sınıf 45, 2. sınıf 60, 3. sınıf 75, 4. sınıf 90.
-- Ders: fen-bilimleri 30, hayat-bilgisi 60, ingilizce 45, matematik 60, sosyal-bilgiler 15, turkce 60.
-- Zorluk: kolay 90, orta 90, zor 90.
-- Sonuç: PASS 239, WARNING 31, FAIL 0.
+- Sınıf: 1. sınıf 50, 2. sınıf 60, 3. sınıf 75, 4. sınıf 90.
+- Ders: fen-bilimleri 30, hayat-bilgisi 60, ingilizce 50, matematik 60, sosyal-bilgiler 15, turkce 60.
+- Zorluk: kolay 90, orta 90, zor 95.
+- Sonuç: PASS 245, WARNING 30, FAIL 0.
 
 ## Birleşim sonuçları
 
@@ -24,6 +24,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 1 | Hayat Bilgisi | kolay | 5 | 5 | 0 | 0 |
 | 1 | Hayat Bilgisi | orta | 5 | 5 | 0 | 0 |
 | 1 | Hayat Bilgisi | zor | 5 | 4 | 1 | 0 |
+| 1 | İngilizce | zor | 5 | 5 | 0 | 0 |
 | 2 | Türkçe | kolay | 5 | 5 | 0 | 0 |
 | 2 | Türkçe | orta | 5 | 5 | 0 | 0 |
 | 2 | Türkçe | zor | 5 | 5 | 0 | 0 |
@@ -32,13 +33,13 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 2 | Matematik | zor | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | kolay | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | orta | 5 | 5 | 0 | 0 |
-| 2 | Hayat Bilgisi | zor | 5 | 5 | 0 | 0 |
+| 2 | Hayat Bilgisi | zor | 5 | 4 | 1 | 0 |
 | 2 | İngilizce | kolay | 5 | 3 | 2 | 0 |
 | 2 | İngilizce | orta | 5 | 4 | 1 | 0 |
 | 2 | İngilizce | zor | 5 | 5 | 0 | 0 |
 | 3 | Türkçe | kolay | 5 | 5 | 0 | 0 |
 | 3 | Türkçe | orta | 5 | 5 | 0 | 0 |
-| 3 | Türkçe | zor | 5 | 5 | 0 | 0 |
+| 3 | Türkçe | zor | 5 | 4 | 1 | 0 |
 | 3 | Matematik | kolay | 5 | 4 | 1 | 0 |
 | 3 | Matematik | orta | 5 | 4 | 1 | 0 |
 | 3 | Matematik | zor | 5 | 4 | 1 | 0 |
@@ -53,26 +54,26 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 3 | İngilizce | zor | 5 | 5 | 0 | 0 |
 | 4 | Türkçe | kolay | 5 | 5 | 0 | 0 |
 | 4 | Türkçe | orta | 5 | 5 | 0 | 0 |
-| 4 | Türkçe | zor | 5 | 4 | 1 | 0 |
+| 4 | Türkçe | zor | 5 | 5 | 0 | 0 |
 | 4 | Matematik | kolay | 5 | 2 | 3 | 0 |
 | 4 | Matematik | orta | 5 | 5 | 0 | 0 |
 | 4 | Matematik | zor | 5 | 5 | 0 | 0 |
 | 4 | Hayat Bilgisi | kolay | 5 | 4 | 1 | 0 |
 | 4 | Hayat Bilgisi | orta | 5 | 3 | 2 | 0 |
-| 4 | Hayat Bilgisi | zor | 5 | 4 | 1 | 0 |
+| 4 | Hayat Bilgisi | zor | 5 | 5 | 0 | 0 |
 | 4 | Fen Bilimleri | kolay | 5 | 5 | 0 | 0 |
 | 4 | Fen Bilimleri | orta | 5 | 4 | 1 | 0 |
 | 4 | Fen Bilimleri | zor | 5 | 4 | 1 | 0 |
 | 4 | Sosyal Bilgiler | kolay | 5 | 5 | 0 | 0 |
 | 4 | Sosyal Bilgiler | orta | 5 | 4 | 1 | 0 |
-| 4 | Sosyal Bilgiler | zor | 5 | 3 | 2 | 0 |
+| 4 | Sosyal Bilgiler | zor | 5 | 4 | 1 | 0 |
 | 4 | İngilizce | kolay | 5 | 5 | 0 | 0 |
 | 4 | İngilizce | orta | 5 | 3 | 2 | 0 |
 | 4 | İngilizce | zor | 5 | 3 | 2 | 0 |
 
 ## Bulguların ayrımı
 
-Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
+Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **30**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
 
 | Soru | Sınıf | Bulgusu |
 |---|---|---|
@@ -81,28 +82,27 @@ Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek 
 | 1-sinif-matematik-paralarimiz-zor-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 1-sinif-hayat-bilgisi-ailem-ve-toplum-zor-test-1-soru-7 | İnceleme önerisi | 1. sınıf için uzun soru kökü |
 | 2-sinif-matematik-nesnelerin-geometrisi-2-orta-test-1-soru-10 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
+| T2-G2-HAYA-YAŞADI-08 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-family-life-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-6 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-orta-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
+| T2-G3-TÜRK-DOĞAYI-03 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-sayilar-ve-nicelikler-1-kolay-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-sayilar-ve-nicelikler-1-orta-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-nesnelerin-geometrisi-2-zor-test-1-soru-10 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-ingilizce-life-in-the-city-and-the-world-orta-test-1-soru-4 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-ingilizce-life-in-the-city-and-the-world-orta-test-1-soru-7 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| 4-sinif-turkce-cumle-bilgisi-zor-test-1-soru-2 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-matematik-bolme-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-matematik-bolme-kolay-test-1-soru-8 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-matematik-bolme-kolay-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-hayat-bilgisi-guvenli-yasam-kolay-test-1-soru-6 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-hayat-bilgisi-saglikli-yasam-orta-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-hayat-bilgisi-saglikli-yasam-orta-test-1-soru-1 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| 4-sinif-hayat-bilgisi-saglikli-yasam-zor-test-1-soru-8 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-fen-bilimleri-insan-ve-cevre-orta-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-1-soru-8 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-sosyal-bilgiler-uretim-dagitim-ve-tuketim-orta-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-1-soru-2 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| 4-sinif-sosyal-bilgiler-kultur-ve-miras-zor-test-1-soru-8 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-ingilizce-classroom-rules-orta-test-1-soru-1 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-ingilizce-free-time-orta-test-1-soru-1 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-ingilizce-fun-with-science-zor-test-1-soru-8 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
@@ -149,6 +149,14 @@ Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'ler
 | 3 | Matematik | zor | 3-sinif-matematik-veriye-dayali-arastirma-zor-test-1-soru-10 | PASS | 1687 |
 | 3 | Türkçe | orta | 3-sinif-turkce-bilgi-hazinemiz-orta-test-1-soru-10 | PASS | 1554 |
 | 3 | Türkçe | orta | 3-sinif-turkce-bilim-yolculugu-orta-test-1-soru-2 | PASS | 1590 |
+| 1 | İngilizce | zor | T2-G1-INGI-NUMBER-01 | PASS | 2595 |
+| 1 | İngilizce | zor | T2-G1-INGI-GREETI-06 | PASS | 3155 |
+| 4 | Türkçe | zor | T2-G4-TÜRK-NOKTAL-06 | PASS | 2355 |
+| 4 | Türkçe | zor | T2-G4-TÜRK-OKUMAA-10 | PASS | 1618 |
+| 4 | Sosyal Bilgiler | zor | T2-G4-SOSY-BIREYV-05 | PASS | 3324 |
+| 4 | Sosyal Bilgiler | zor | T2-G4-SOSY-BIREYV-02 | PASS | 1889 |
+| 4 | İngilizce | zor | T2-G4-INGI-FREETI-01 | PASS | 1253 |
+| 4 | İngilizce | zor | T2-G4-INGI-NATION-09 | PASS | 1672 |
 
 ## Karar
 

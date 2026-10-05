@@ -6,6 +6,10 @@ const isExcluded = key => excluded.has(key) || key === 'ders/4-sinif-hayat-bilgi
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(['node_modules','.git','automation','outputs','work'].includes(e.name)?[]:walk(path.join(dir,e.name))):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);
 for(const file of walk('.')) {
  const key=file.replaceAll('\\','/');const source=fs.readFileSync(file,'utf8');const $=load(source.trim());
+ // Describe the service without asserting a curriculum certification.
+ $('.footer-brand p').each((_,e)=>{if(/Türkiye Yüzyılı Maarif Modeli.ne uygun/.test($(e).text()))$(e).text('1–4. sınıflar için seviyeli ve açıklamalı ilkokul konu testleri.');});
+ $('footer p').each((_,e)=>{if(/Türk müfredatına uygun/.test($(e).text()))$(e).text('1–4. sınıf öğrencileri için ücretsiz konu testleri.');});
+ $('meta[name="twitter:description"]').each((_,e)=>{const value=$(e).attr('content')||'';if(/Türkiye Yüzyılı Maarif Modeli.ne uygun/.test(value))$(e).attr('content','1–4. sınıflar için açıklamalı ilkokul testleri. Kolay, orta ve zor seviyelerde konu çalışmaları.');});
  if(isExcluded(key)) {
   $('meta[name="robots"]').remove();$('head').append('<meta name="robots" content="noindex, follow">');
   $('script[src*="adsbygoogle.js"]').remove();

@@ -12,5 +12,17 @@ for(const width of [320,375,768,1440])for(const grade of [1,2,3,4])test(`Zor Tes
 });
 test('All 130 Test 2 routes and 35 visuals are reachable',async({page,request})=>{
  for(const t of bank){const r=await request.get('/'+t.pageUrl);expect(r.status()).toBe(200);const html=await r.text();expect(html).toContain(`https://testcoz.pro/${t.pageUrl}`);expect(html).toContain('test=2');for(const q of t.questions.filter(q=>q.image)){const r=await request.get('/'+q.image);expect(r.status()).toBe(200);expect(await r.text()).toContain('<svg');}}
- for(const t of bank.filter(t=>t.questions.some(q=>q.image))){await page.goto(`/test.html?sinif=${t.classLevel}&ders=${t.subject}&konu=${t.topic}&zorluk=zor&test=2`);await expect(page.locator('.test-counter')).toHaveText('Soru 1 / 10');for(let i=0;i<10;i++){if(t.questions[i].image){const img=page.locator('#questionArea img');await expect(img).toBeVisible();expect(await img.evaluate(e=>e.complete&&e.naturalWidth>0)).toBeTruthy();}if(i<9)await page.locator('#skipQuestion').click();}}
+});
+// Each visual journey gets its own timeout and failure report. The previous
+// aggregate shared 60 seconds across every route plus every visual question.
+for(const t of bank.filter(t=>t.questions.some(q=>q.image)))test(`Visual journey ${t.slug}`,async({page})=>{
+ await page.goto(`/test.html?sinif=${t.classLevel}&ders=${t.subject}&konu=${t.topic}&zorluk=zor&test=2`);
+ for(let i=0;i<10;i++){
+  await expect(page.locator('.test-counter')).toHaveText(`Soru ${i+1} / 10`);
+  if(t.questions[i].image){
+   const img=page.locator('#questionArea img');await expect(img).toBeVisible();
+   await expect.poll(()=>img.evaluate(e=>e.complete&&e.naturalWidth>0)).toBeTruthy();
+  }
+  if(i<9)await page.locator('#skipQuestion').click();
+ }
 });

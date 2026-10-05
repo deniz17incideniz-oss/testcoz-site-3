@@ -2575,7 +2575,7 @@
           "Sınıftan dışarı kaçmalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Nazikçe selamlaşıp tanışmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Selam vermek ve adını söylemek tanışmayı başlatır. Arkadaşından kaçmak veya onu görmezden gelmek iletişim kurmayı engeller.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_1",
@@ -2590,7 +2590,7 @@
           "Parmak kaldırıp söz hakkı istemek"
         ],
         "correctAnswer": 2,
-        "explanation": "Derste bir şey söylemek veya soru sormak istediğimizde uymamız gereken sınıf kuralı 'Parmak kaldırıp söz hakkı istemek' olarak bilinir.",
+        "explanation": "El kaldırmak öğretmene söz istediğini gösterir. Bağırmak diğer öğrencilerin dinlemesini zorlaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_2",
@@ -2605,7 +2605,7 @@
           "Kırıldığında yenisini istemeliyiz."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dikkatli ve özenli kullanmalıyız, onlara zarar vermemeliyiz.' olduğu açıkça görülmektedir.",
+        "explanation": "Sıra ve pano bütün sınıfın kullandığı eşyalardır. Onları dikkatli kullanmak herkesin yararlanmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_3",
@@ -2613,14 +2613,14 @@
       },
       {
         "id": "T2-G1-HAYA-BENVEO-04",
-        "question": "Aşağıdakilerden hangisi okuldaki çalışanlardan (görevlilerden) biri **değildir**?",
+        "question": "Sınıfı temiz tutmak için hangisini yapmalıyız?",
         "choices": [
-          "Polis",
-          "Okul Müdürü",
-          "Öğretmen"
+          "Çöpleri kutuya atmalıyız.",
+          "Çöpleri sıranın altına saklamalıyız.",
+          "Çöpleri arkadaşımızın masasına bırakmalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Polis' olduğu açıkça görülmektedir.",
+        "explanation": "Sınıfın temizliği ortak sorumluluktur. Çöpü kutuya atmak sınıfı temiz tutar; yere bırakmak arkadaşların çalışma alanını kirletir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_4",
@@ -2635,7 +2635,7 @@
           "Çantamızı her zaman annemiz hazırlamalıdır."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'O günkü ders programına göre sadece gerekli kitap ve defterleri koymalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Ders programındaki kitap ve defterleri seçmek gerekli malzemeleri taşımayı sağlar. Her oyuncağı çantaya koymak bu amaca hizmet etmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_5",
@@ -2650,7 +2650,7 @@
           "Bol sabun ve suyla güzelce yıkayıp suyu boşuna akıtmamalıyız."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bol sabun ve suyla güzelce yıkayıp suyu boşuna akıtmamalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Sabun ve su ellerdeki kiri uzaklaştırmaya yardım eder. Tuvaletten sonra elleri yıkamak ortak alanların temiz kullanılmasının bir parçasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_6",
@@ -2665,7 +2665,7 @@
           "Kavga etmeden, kurallara uyarak oynamak."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kavga etmeden, kurallara uyarak oynamak.' olduğu açıkça görülmektedir.",
+        "explanation": "Teneffüste sıraya ve oyun kurallarına uymak arkadaşların güvenle oynamasını sağlar. İtmek yaralanmaya neden olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_7",
@@ -2680,7 +2680,7 @@
           "Koşup oyun oynamaya devam etmeliyiz."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hazır ol duruşuna geçip saygıyla marşımızı okumalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Törende oyun ve sohbet bırakılır; marş dinlenir veya birlikte okunur. Böylece herkes törene saygıyla katılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_8",
@@ -2695,7 +2695,7 @@
           "Okul koridoru"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalemkutu ve defter' olduğu açıkça görülmektedir.",
+        "explanation": "Kalem kutusu ve defter öğrenciye ait kişisel eşyalardır. Tahta ve koridor herkesin kullandığı okul alanlarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_9",
@@ -2710,173 +2710,10 @@
           "Özür dilerim"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Özür dilerim' olduğu açıkça görülmektedir.",
+        "explanation": "Yanlışlıkla çarptığında özür dilemek davranışını fark ettiğini ve arkadaşının duygusunu önemsediğini gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu1_okul_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 1,
-    "subject": "hayat-bilgisi",
-    "subjectName": "Hayat Bilgisi",
-    "topic": "sagligim-ve-guvenligim",
-    "topicName": "Sağlığım ve Güvenliğim",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-2",
-    "pageUrl": "tests/1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-01",
-        "question": "Aşağıdakilerden hangisi çekirdek (küçük) aileyi oluşturan bireylerden biridir?",
-        "choices": [
-          "Teyze",
-          "Kardeş",
-          "Dayı"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kardeş' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-02",
-        "question": "Evimizde bize düşen görevlerden biri aşağıdakilerden hangisi olabilir?",
-        "choices": [
-          "Yemek yapmak ve ocağı kullanmak",
-          "Odamızı ve oyuncaklarımızı toplamak",
-          "İşe gidip para kazanmak"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Odamızı ve oyuncaklarımızı toplamak' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-03",
-        "question": "Akşamları ailece bir araya geldiğimizde, evimizle ilgili kararlar alınırken ne yapılmalıdır?",
-        "choices": [
-          "Sadece babanın dediği olmalıdır.",
-          "Çocukların da fikri sorulup ortak karar alınmalıdır.",
-          "Hiç kimse konuşmamalıdır."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çocukların da fikri sorulup ortak karar alınmalıdır.' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-04",
-        "question": "Aşağıdaki eşyalardan hangisi elektrikle **çalışmaz**?",
-        "choices": [
-          "Ütü",
-          "Televizyon",
-          "Koltuk"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Koltuk' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-05",
-        "question": "Evde enerjiyi tasarruflu (dikkatli) kullanmak için ne yapmalıyız?",
-        "choices": [
-          "Bütün gün televizyonu açık bırakmalıyız.",
-          "Kışın pencereleri açık bırakıp sobayı yakmalıyız.",
-          "Odadan çıkarken lambayı kapatmalıyız."
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Odadan çıkarken lambayı kapatmalıyız.' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-06",
-        "question": "Kimseye sormadan evden dışarı çıkmamamızın veya yabancılara kapıyı açmamamızın sebebi nedir?",
-        "choices": [
-          "Dışarısı çok soğuk olduğu için",
-          "Kapı kolu çok ağır olduğu için",
-          "Güvenliğimizi tehlikeye atmamak için"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Kimseye sormadan evden dışarı çıkmamamızın veya yabancılara kapıyı açmamamızın sebebi 'Güvenliğimizi tehlikeye atmamak için' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-07",
-        "question": "\"Babamın babasına ........... denir.\" Boşluğa ne gelmelidir?",
-        "choices": [
-          "Amca",
-          "Dayı",
-          "Dede"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dede' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-08",
-        "question": "Aile üyelerimizle birbirimize karşı nasıl davranmalıyız?",
-        "choices": [
-          "Sevgi, saygı ve yardımlaşma içinde",
-          "Sürekli tartışarak",
-          "Birbirimizle hiç konuşmayarak"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sevgi, saygı ve yardımlaşma içinde' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-09",
-        "question": "Akşam yemeğinden sonra dişlerimizi fırçalamak, gün içinde ne zaman yapılması gereken bir alışkanlıktır?",
-        "choices": [
-          "Yatmadan önce",
-          "Uyandıktan hemen sonra",
-          "Öğlen okuldayken"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yatmadan önce' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-SAĞLIĞ-10",
-        "question": "Evinizin adresini ezbere bilmek neden çok önemlidir?",
-        "choices": [
-          "Kaybolduğumuzda polise veya güvenilir kişilere evimizi bulmaları için söylemek için.",
-          "Arkadaşımıza hava atmak için.",
-          "Sadece öğretmenimiz sorduğu için."
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kaybolduğumuzda polise veya güvenilir kişilere evimizi bulmaları için söylemek için.' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayat_konu2_ev_10",
         "sourceType": "EXISTING_V4B"
       }
     ]
@@ -2893,6 +2730,169 @@
     "pageUrl": "tests/1-sinif-hayat-bilgisi-ailem-ve-toplum-zor-test-2.html",
     "questions": [
       {
+        "id": "T2-G1-HAYA-SAĞLIĞ-01",
+        "question": "Aşağıdakilerden hangisi çekirdek (küçük) aileyi oluşturan bireylerden biridir?",
+        "choices": [
+          "Teyze",
+          "Kardeş",
+          "Dayı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kardeş aynı ailede büyüyen yakın aile bireyidir. Teyze ve dayı daha geniş akrabalık çevresindedir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-02",
+        "question": "Evimizde bize düşen görevlerden biri aşağıdakilerden hangisi olabilir?",
+        "choices": [
+          "Yemek yapmak ve ocağı kullanmak",
+          "Odamızı ve oyuncaklarımızı toplamak",
+          "İşe gidip para kazanmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Oyuncakları toplamak yaşına uygun bir ev sorumluluğudur. Ocak kullanmak yetişkin desteği gerektirir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-03",
+        "question": "Akşamları ailece bir araya geldiğimizde, evimizle ilgili kararlar alınırken ne yapılmalıdır?",
+        "choices": [
+          "Sadece babanın dediği olmalıdır.",
+          "Çocukların da fikri sorulup ortak karar alınmalıdır.",
+          "Hiç kimse konuşmamalıdır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Aileyle ilgili bir kararda çocukların da düşüncesinin dinlenmesi ortak yaşamı kolaylaştırır. Tek kişinin konuşması diğerlerini dışarıda bırakır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-04",
+        "question": "Ailece oyun seçerken herkesin fikrini dinlemek neden önemlidir?",
+        "choices": [
+          "Birlikte karar verebilmek için",
+          "Oyunu hiç oynamamak için",
+          "Yalnız bir kişi konuşsun diye"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ailece oyun için herkesin sevdiği bir oyunu konuşup sırayla seçmek adil bir karardır. Bir kişinin fikrini her zaman dayatmak değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-05",
+        "question": "Akşam evde sofrayı hazırlarken hangi davranış yardımlaşmaya örnektir?",
+        "choices": [
+          "Yapabileceğimiz bir görevi üstlenmek",
+          "Bütün işleri bir kişiye bırakmak",
+          "Eşyaları bilerek dağıtmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Evde bir işi paylaşırken herkes yapabileceği bir görev üstlenebilir. Sofrayı birlikte hazırlamak yardımlaşmaya örnektir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-06",
+        "question": "Bir aile üyesi ev işlerinden yorulduğunu söylüyor. Ona nasıl destek olabiliriz?",
+        "choices": [
+          "Yapabileceğimiz bir işte yardım teklif ederek",
+          "Onu dinlemeden oyun oynayarak",
+          "Tüm işleri yine ona bırakarak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir aile üyesi yorgun olduğunda yardım teklif etmek onun emeğine saygı gösterir. Bütün işleri ona bırakmak yükünü artırır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-07",
+        "question": "\"Babamın babasına ........... denir.\" Boşluğa ne gelmelidir?",
+        "choices": [
+          "Amca",
+          "Dayı",
+          "Dede"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Babanın babasına dede denir. Amca babanın erkek kardeşi, dayı annenin erkek kardeşidir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-08",
+        "question": "Aile üyelerimizle birbirimize karşı nasıl davranmalıyız?",
+        "choices": [
+          "Sevgi, saygı ve yardımlaşma içinde",
+          "Sürekli tartışarak",
+          "Birbirimizle hiç konuşmayarak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Birbirini dinlemek ve yardımlaşmak aile içindeki anlaşmazlıkları konuşarak çözmeye yardımcı olur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-09",
+        "question": "Evde hepimizin kullandığı masaya nasıl davranmalıyız?",
+        "choices": [
+          "Özenli ve temiz kullanmalıyız.",
+          "Üzerini bilerek çizmeliyiz.",
+          "Yalnız kendi eşyalarımızı önemsemeliyiz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Birlikte yaşayan kişiler aynı evi paylaştıkları için ortak alanları özenle kullanmalıdır. Bu, başkalarının da rahat etmesini sağlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-SAĞLIĞ-10",
+        "question": "Bir aile üyemiz bize düşüncesini anlatırken ne yapmalıyız?",
+        "choices": [
+          "Sözünü bitirince kendi düşüncemizi söylemeliyiz.",
+          "Sürekli sözünü kesmeliyiz.",
+          "Onu hiç dinlememeliyiz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Evde biri konuşurken sözünü bitirmesini beklemek dinlediğimizi gösterir. Sözü kesmek düşüncesini anlatmasını zorlaştırır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayat_konu2_ev_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 1,
+    "subject": "hayat-bilgisi",
+    "subjectName": "Hayat Bilgisi",
+    "topic": "sagligim-ve-guvenligim",
+    "topicName": "Sağlığım ve Güvenliğim",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-2",
+    "pageUrl": "tests/1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-2.html",
+    "questions": [
+      {
         "id": "T2-G1-HAYA-AILEMV-01",
         "question": "Sabah uyanınca güne enerjik başlamak için yapmamız gereken en önemli öğün hangisidir?",
         "choices": [
@@ -2901,7 +2901,7 @@
           "Kahvaltı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kahvaltı' olduğu açıkça görülmektedir.",
+        "explanation": "Kahvaltı sabah yapılan ilk ana öğündür. Güne başlarken düzenli ve çeşitli beslenmeye yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_1",
@@ -2916,7 +2916,7 @@
           "Cips ve şekerli içecekler"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cips ve şekerli içecekler' olduğu açıkça görülmektedir.",
+        "explanation": "Cips ve şekerli içecekleri sürekli seçmek dengeli beslenmenin yerini alamaz. Taze meyve, süt ve yoğurt daha çeşitli beslenmenin parçalarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_2",
@@ -2924,14 +2924,14 @@
       },
       {
         "id": "T2-G1-HAYA-AILEMV-03",
-        "question": "Vücudumuzu temiz tutmak için en az haftada iki kez ne yapmalıyız?",
+        "question": "Vücudumuzu temiz tutmak için hangi davranış uygundur?",
         "choices": [
           "Banyo yapmalıyız",
           "Sadece ellerimizi yıkamalıyız",
           "Dişlerimizi fırçalamalıyız"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Banyo yapmalıyız' olduğu açıkça görülmektedir.",
+        "explanation": "Banyo yapmak vücudun temizliğine yardım eder. Ne zaman yıkanacağı kişiye, etkinliğe ve gereksinime göre değişir; sabit bir haftalık sayı gerekmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_3",
@@ -2946,7 +2946,7 @@
           "Kıyafetlerimizi değiştirmeliyiz."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ellerimizi su ve sabunla güzelce yıkamalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Oyun ve tuvalet sonrasında eller kirlenebilir. Su ve sabunla yıkamak elleri temizlemek için uygun adımdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_4",
@@ -2961,7 +2961,7 @@
           "Diş fırçası"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Diş fırçası' olduğu açıkça görülmektedir.",
+        "explanation": "Diş fırçası ağızla temas eden kişisel bakım eşyasıdır. Başkalarıyla ortak kullanılmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_5",
@@ -2976,7 +2976,7 @@
           "Öğretmen"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doktor' olduğu açıkça görülmektedir.",
+        "explanation": "Hastalıkta doktor muayene eder. İlaç gerektiğinde uygun tedaviyi sağlık çalışanı belirler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_6",
@@ -2991,7 +2991,7 @@
           "Daha yumuşak olmaları için"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Üzerlerindeki toz ve mikroplardan temizlemek için' olduğu açıkça görülmektedir.",
+        "explanation": "Meyve ve sebzeyi akan su altında yıkamak yüzeydeki kir ve kalıntıları uzaklaştırmaya yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_7",
@@ -2999,14 +2999,14 @@
       },
       {
         "id": "T2-G1-HAYA-AILEMV-08",
-        "question": "Kış mevsiminde soğuktan korunmak ve hasta olmamak için nasıl giyinmeliyiz?",
+        "question": "Soğuk havada dışarı çıkarken ısınmamıza yardımcı olacak giysi seçimi hangisidir?",
         "choices": [
           "İnce tişört ve şortla",
           "Kalın mont, atkı ve bereyle",
           "Sadece bir kazakla"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalın mont, atkı ve bereyle' olduğu açıkça görülmektedir.",
+        "explanation": "Soğuk havaya uygun katmanlı giysiler vücut ısısını korumaya yardımcı olur. Giysi seçimi tek başına hastalığı kesin olarak önlemez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_8",
@@ -3014,14 +3014,14 @@
       },
       {
         "id": "T2-G1-HAYA-AILEMV-09",
-        "question": "Boyumuzun uzaması ve sağlığımızın korunması için her gün ne kadar uyumalıyız?",
+        "question": "Günlük yaşamımızda dinlenmek için hangi uyku alışkanlığı uygundur?",
         "choices": [
           "Düzenli ve erken uyuyarak uykumuzu almalıyız.",
           "Gece çok geç yatıp az uyumalıyız.",
           "Sadece gündüzleri uyumalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Düzenli ve erken uyuyarak uykumuzu almalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Düzenli uyku ve yeterli dinlenme günlük yaşamı destekler. Soru kesin bir saat sayısı vermediği için düzenli uyku alışkanlığı seçilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_9",
@@ -3029,343 +3029,17 @@
       },
       {
         "id": "T2-G1-HAYA-AILEMV-10",
-        "question": "Kemiklerimizin ve dişlerimizin güçlü olması için aşağıdaki içeceklerden hangisini bolca tüketmeliyiz?",
+        "question": "Kalsiyum içeren içeceklerden hangisi seçeneklerde yer alır?",
         "choices": [
           "Çay",
           "Gazoz",
           "Süt"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süt' olduğu açıkça görülmektedir.",
+        "explanation": "Süt, kalsiyum içeren içeceklerden biridir. Çay ve gazoz bu seçenekler arasında aynı nedenle seçilmez; dengeli beslenmede tek bir içeceği aşırı tüketmek gerekmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayat_konu3_saglik_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 1,
-    "subject": "hayat-bilgisi",
-    "subjectName": "Hayat Bilgisi",
-    "topic": "yasadigim-yer-ve-ulkem",
-    "topicName": "Yaşadığım Yer ve Ülkem",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-zor-test-2",
-    "pageUrl": "tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G1-HAYA-YAŞADI-01",
-        "question": "Karşıdan karşıya geçerken trafik lambasında yayalar için (bizim için) hangi renk yandığında güvenle geçebiliriz?",
-        "choices": [
-          "Kırmızı adam yandığında",
-          "Yeşil adam yandığında",
-          "Sarı yandığında"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yeşil adam yandığında' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-02",
-        "question": "Aşağıdakilerden hangisi sokakta oynarken güvenliğimiz için **yanlış** bir davranıştır?",
-        "choices": [
-          "Topumuz yola kaçtığında arabalara bakmadan peşinden koşmak",
-          "Çocuk parklarında ve okul bahçesinde oynamak",
-          "Kaykay sürerken kask takmak"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Topumuz yola kaçtığında arabalara bakmadan peşinden koşmak' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-03",
-        "question": "Evde aniden çıkan bir yangın gördüğümüzde büyüklerimize haber verdikten sonra hangi acil durum numarasını aramalıyız?",
-        "choices": [
-          "112",
-          "155",
-          "110"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Artık tüm acil durumlar (itfaiye, polis, ambulans) 112 numarasına bağlanmıştır.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-04",
-        "question": "Arabaya veya okul servisine bindiğimizde ilk yapmamız gereken şey nedir?",
-        "choices": [
-          "Şoförle oyun oynamak",
-          "Camdan dışarı sarkmak",
-          "Emniyet kemerimizi bağlamak"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Arabaya veya okul servisine bindiğimizde ilk yapmamız gereken şey 'Emniyet kemerimizi bağlamak' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-05",
-        "question": "Aşağıdaki eşyalardan hangisiyle tek başımıza oynamak bizim için tehlikeli olabilir?",
-        "choices": [
-          "Mutfaktaki bıçak ve kibritlerle",
-          "Renkli boya kalemleriyle",
-          "Peluş oyuncaklarımızla"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Mutfaktaki bıçak ve kibritlerle' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-06",
-        "question": "Tanımadığımız biri bize şeker veya çikolata vermek isterse ya da bizi arabasına davet ederse ne yapmalıyız?",
-        "choices": [
-          "Hediyesini alıp teşekkür etmeliyiz.",
-          "Onunla birlikte arabasına binmeliyiz.",
-          "\"HAYIR\" diyerek oradan uzaklaşmalı ve güvendiğimiz bir büyüğümüze anlatmalıyız."
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '\"HAYIR\" diyerek oradan uzaklaşmalı ve güvendiğimiz bir büyüğümüze anlatmalıyız.' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-07",
-        "question": "Okul merdivenlerinden inip çıkarken uymamız gereken güvenlik kuralı nedir?",
-        "choices": [
-          "Merdivenlerde koşarak yarış yapmak",
-          "Her zaman merdivenin sağından yavaşça inip çıkmak",
-          "Trabzanlardan (korkuluklardan) kaymak"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Okul merdivenlerinden inip çıkarken uymamız gereken güvenlik kuralı 'Her zaman merdivenin sağından yavaşça inip çıkmak' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-08",
-        "question": "Kalabalık bir yerde (örneğin alışveriş merkezinde) ailemizi kaybedersek kimden yardım istemeliyiz?",
-        "choices": [
-          "Yoldan geçen herhangi birinden",
-          "Binadan dışarı çıkarak tek başımıza evi aramalıyız",
-          "Oradaki resmi üniformalı güvenlik görevlisinden veya polisten"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Oradaki resmi üniformalı güvenlik görevlisinden veya polisten' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-09",
-        "question": "Bedenimiz sadece bize aittir. Biri bize bizi rahatsız edecek şekilde dokunmak isterse kullanmamız gereken kural nedir?",
-        "choices": [
-          "Suçu kendimizde aramak",
-          "Sessiz kalmak",
-          "Bağırarak \"HAYIR\" demek ve oradan uzaklaşmak"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Bedenimiz sadece bize aittir. Biri bize bizi rahatsız edecek şekilde dokunmak isterse kullanmamız gereken kural 'Bağırarak \"HAYIR\" demek ve oradan uzaklaşmak' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-YAŞADI-10",
-        "question": "Yaya geçidinin olduğu yerlerde sürücüler kime yol vermelidir?",
-        "choices": [
-          "Sadece diğer arabalara",
-          "Karşıdan karşıya geçen yayalara",
-          "Kedilere ve köpeklere"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karşıdan karşıya geçen yayalara' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_10",
-        "sourceType": "EXISTING_V4B"
-      }
-    ]
-  },
-  {
-    "classLevel": 1,
-    "subject": "hayat-bilgisi",
-    "subjectName": "Hayat Bilgisi",
-    "topic": "doga-ve-cevre",
-    "topicName": "Doğa ve Çevre",
-    "difficulty": "zor",
-    "testNumber": 2,
-    "slug": "1-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-2",
-    "pageUrl": "tests/1-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-2.html",
-    "questions": [
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-01",
-        "question": "Türkiye Cumhuriyeti'nin kurucusu olan ve bize bu güzel yurdu armağan eden ulu önderimiz kimdir?",
-        "choices": [
-          "Mehmet Akif Ersoy",
-          "Fatih Sultan Mehmet",
-          "Mustafa Kemal Atatürk"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Türkiye Cumhuriyeti'nin kurucusu olan ve bize bu güzel yurdu armağan eden ulu önderimiz 'Mustafa Kemal Atatürk' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_1",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-02",
-        "question": "Bağımsızlığımızın sembolü olan bayrağımız hangi renklerden oluşur ve üzerinde ne vardır?",
-        "choices": [
-          "Kırmızı zemin üzerinde beyaz ay ve yıldız",
-          "Beyaz zemin üzerinde kırmızı güneş",
-          "Mavi zemin üzerinde beyaz ay"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kırmızı zemin üzerinde beyaz ay ve yıldız' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_2",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-03",
-        "question": "Mustafa Kemal Atatürk nerede doğmuştur?",
-        "choices": [
-          "Ankara'da",
-          "İstanbul'da",
-          "Selanik'te"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Selanik'te' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_3",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-04",
-        "question": "Atatürk'ün mezarının (kabrinin) bulunduğu, Ankara'da yer alan anıtın adı nedir?",
-        "choices": [
-          "Anıtkabir",
-          "Topkapı Sarayı",
-          "Dolmabahçe Sarayı"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Atatürk'ün mezarının (kabrinin) bulunduğu, Ankara'da yer alan anıtın adı 'Anıtkabir' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_4",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-05",
-        "question": "Okullarda saygı duruşunda bulunarak ve coşkuyla okuduğumuz milli marşımızın adı nedir?",
-        "choices": [
-          "İstiklal Marşı",
-          "Onuncu Yıl Marşı",
-          "Gençlik Marşı"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Okullarda saygı duruşunda bulunarak ve coşkuyla okuduğumuz milli marşımızın adı 'İstiklal Marşı' olarak bilinir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_5",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-06",
-        "question": "Ülkemizin başkenti (yönetildiği merkez şehir) aşağıdakilerden hangisidir?",
-        "choices": [
-          "İzmir",
-          "Ankara",
-          "Antalya"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ankara' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_6",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-07",
-        "question": "Mustafa Kemal Atatürk'ün dünyadaki tüm çocuklara armağan ettiği milli bayramımız hangisidir?",
-        "choices": [
-          "Ramazan Bayramı",
-          "29 Ekim Cumhuriyet Bayramı",
-          "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '23 Nisan Ulusal Egemenlik ve Çocuk Bayramı' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_7",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-08",
-        "question": "Ülkemizde yaşayan, farklı ülkelerden gelmiş insanlara (göçmenlere, turistlere) nasıl davranmalıyız?",
-        "choices": [
-          "Onlarla dalga geçmeliyiz.",
-          "Onları ülkemizden kovmalıyız.",
-          "Onlara saygılı ve hoşgörülü davranmalıyız."
-        ],
-        "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Onlara saygılı ve hoşgörülü davranmalıyız.' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_8",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-09",
-        "question": "Aşağıdakilerden hangisi bizim \"Dini\" bayramlarımızdan biridir?",
-        "choices": [
-          "Zafer Bayramı",
-          "Ramazan Bayramı",
-          "Spor Bayramı"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ramazan Bayramı' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_9",
-        "sourceType": "EXISTING_V4B"
-      },
-      {
-        "id": "T2-G1-HAYA-DOĞAVE-10",
-        "question": "Bayrağımıza ve İstiklal Marşımıza duyduğumuz saygıyı nasıl gösteririz?",
-        "choices": [
-          "Tören sırasında yerimizde durmayıp koşarak",
-          "Hazır ol duruşunda dik durarak ve marşımızı gür sesle söyleyerek",
-          "Kendi aramızda fısıldaşarak"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hazır ol duruşunda dik durarak ve marşımızı gür sesle söyleyerek' olduğu açıkça görülmektedir.",
-        "image": null,
-        "source": "zor-test2-final",
-        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_10",
         "sourceType": "EXISTING_V4B"
       }
     ]
@@ -3382,6 +3056,332 @@
     "pageUrl": "tests/1-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-zor-test-2.html",
     "questions": [
       {
+        "id": "T2-G1-HAYA-YAŞADI-01",
+        "question": "Bir öğrenci resim yaparken çizdiği ağacın yapraklarını yeşil, gövdesini kahverengi boyuyor. Hangi araç boyama için kullanılır?",
+        "choices": [
+          "Boya kalemi",
+          "Termometre",
+          "Cetvel"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Boya kalemi çizimi renklendirir; termometre sıcaklık, cetvel uzunluk ölçer.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-02",
+        "question": "Bir arkadaşımız yaptığı resmi sınıfta gösterirken nasıl davranmalıyız?",
+        "choices": [
+          "Arkadaşımızı konuşturmamalıyız.",
+          "Resmini dikkatle inceleyip olumlu bir yorum söylemeliyiz.",
+          "Resmi izinsiz karalamalıyız."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Başkasının çalışmasına özen göstermek, onu dinlemek ve izin almadan değiştirmemek saygılı davranıştır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-03",
+        "question": "Öğretmen bitkinin bir hafta içindeki büyümesini gözlemlememizi istiyor. Değişimi görmek için ne yapmalıyız?",
+        "choices": [
+          "Sadece ilk gün bakmalıyız.",
+          "Bitkiyi hiç görmeden boyunu tahmin etmeliyiz.",
+          "Aynı bitkiye farklı günlerde bakıp gördüklerimizi kaydetmeliyiz."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aynı bitkiyi zaman içinde gözlemleyip kayıt tutmak ilk ve son durumu karşılaştırmayı sağlar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-04",
+        "question": "Bir çocuk yağmur sesini dinleyip bu sesi ritimle taklit ediyor. Hangi sanat çalışmasını yapıyor?",
+        "choices": [
+          "Müzik",
+          "Heykel",
+          "Fotoğraf"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sesleri ritimle düzenlemek müzik etkinliğidir; heykel ve fotoğraf seslerle yapılmaz.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-05",
+        "question": "Sınıfta bir tabletle çekilen çiçek fotoğrafına bakıyoruz. Fotoğrafla ilgili hangi ifade doğrudur?",
+        "choices": [
+          "Fotoğraf çekmek çiçeği büyütür.",
+          "Tablet görüntüyü kaydetmeye yarayan bir teknoloji aracıdır.",
+          "Tablet çiçeğin yaşaması için gereken sudur."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tablet fotoğraf çekip kaydedebilir. Çiçeğin büyümesi için gerekli suyun yerini tutmaz.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-06",
+        "question": "Bir kalemle kâğıda aynı şekli üç kez çizerek küçük bir örüntü yapıyoruz. Hangisi örüntüyü anlatır?",
+        "choices": [
+          "Şeklin tamamen silinmesi",
+          "Kâğıdın hiç kullanılmaması",
+          "Şeklin belirli bir sırayla tekrarlanması"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aynı biçimin sıralı olarak yeniden çizilmesi örüntüdür. Şekli silmek tekrar oluşturmaz.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-07",
+        "question": "Bir öğrenci gördüğü taşın rengini ve büyüklüğünü defterine yazıyor. Hangi beceriyi kullanıyor?",
+        "choices": [
+          "Gözlem yapma",
+          "Tahminini gerçek sanma",
+          "Defterini saklama"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Renk ve büyüklük taşta görülen özelliklerdir. Bunları yazmak gözlem sonucunu kaydetmektir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-08",
+        "question": "Sınıf gösterisinde arkadaşımız şarkı söylerken hangi davranış uygundur?",
+        "choices": [
+          "Onu duymamak için bağırmak",
+          "Şarkısını dinleyip bitince alkışlamak",
+          "Sözünü kesip sahneye koşmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dinlemek ve gösteri sonunda alkışlamak emeğe saygıdır; bağırmak gösteriyi bozar.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-09",
+        "question": "Bir robot oyuncağın hareket etmesi için pili takılıyor. Pilin görevi nedir?",
+        "choices": [
+          "Oyuncağın rengini değiştirmek",
+          "Oyuncağı kâğıda çevirmek",
+          "Oyuncağa çalışması için enerji sağlamak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Pil elektrik enerjisi sağlar. Oyuncağın hareket etmesine yardım eder; rengini veya maddesini değiştirmez.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-YAŞADI-10",
+        "question": "Bir öğrenci kendi çizdiği resmi panoya asmak istiyor. Önce hangisini yapmalıdır?",
+        "choices": [
+          "Öğretmeninden izin alıp uygun yere asmalıdır.",
+          "Başkasının resmini sökmelidir.",
+          "Resmi arkadaşının defterine yapıştırmalıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ortak panoyu kullanırken izin istemek ve uygun yer seçmek hem çalışmasını hem başkalarının işlerini korur.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu4_guvenli_hayat_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 1,
+    "subject": "hayat-bilgisi",
+    "subjectName": "Hayat Bilgisi",
+    "topic": "yasadigim-yer-ve-ulkem",
+    "topicName": "Yaşadığım Yer ve Ülkem",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-zor-test-2",
+    "pageUrl": "tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-zor-test-2.html",
+    "questions": [
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-01",
+        "question": "Türkiye Cumhuriyeti’nin kurucusu kimdir?",
+        "choices": [
+          "Mehmet Akif Ersoy",
+          "Fatih Sultan Mehmet",
+          "Mustafa Kemal Atatürk"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Türkiye Cumhuriyeti’nin kuruluşunda Mustafa Kemal Atatürk öncü olmuştur. Diğer iki seçenek farklı tarihî kişilerdir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_1",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-02",
+        "question": "Bağımsızlığımızın sembolü olan bayrağımız hangi renklerden oluşur ve üzerinde ne vardır?",
+        "choices": [
+          "Kırmızı zemin üzerinde beyaz ay ve yıldız",
+          "Beyaz zemin üzerinde kırmızı güneş",
+          "Mavi zemin üzerinde beyaz ay"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Türk bayrağında kırmızı zemin üzerinde beyaz ay ve yıldız bulunur. Diğer seçenekler bu renk ve şekilleri birlikte göstermez.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_2",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-03",
+        "question": "Mustafa Kemal Atatürk nerede doğmuştur?",
+        "choices": [
+          "Ankara'da",
+          "İstanbul'da",
+          "Selanik'te"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Atatürk 1881 yılında Selanik’te doğmuştur. Ankara, Anıtkabir’in bulunduğu kenttir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_3",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-04",
+        "question": "Atatürk'ün mezarının (kabrinin) bulunduğu, Ankara'da yer alan anıtın adı nedir?",
+        "choices": [
+          "Anıtkabir",
+          "Topkapı Sarayı",
+          "Dolmabahçe Sarayı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ankara’daki Anıtkabir, Atatürk’ün kabrinin bulunduğu anıttır. Diğer yerler İstanbul’daki saraylardır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_4",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-05",
+        "question": "Okullarda saygı duruşunda bulunarak ve coşkuyla okuduğumuz milli marşımızın adı nedir?",
+        "choices": [
+          "İstiklal Marşı",
+          "Onuncu Yıl Marşı",
+          "Gençlik Marşı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İstiklal Marşı Türkiye’nin millî marşıdır. Diğer marşların adları millî marşın adı değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_5",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-06",
+        "question": "Ülkemizin başkenti (yönetildiği merkez şehir) aşağıdakilerden hangisidir?",
+        "choices": [
+          "İzmir",
+          "Ankara",
+          "Antalya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Türkiye’nin başkenti Ankara’dır. İzmir ve Antalya Türkiye’de şehirlerdir ama başkent değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_6",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-07",
+        "question": "Mustafa Kemal Atatürk'ün dünyadaki tüm çocuklara armağan ettiği milli bayramımız hangisidir?",
+        "choices": [
+          "Ramazan Bayramı",
+          "29 Ekim Cumhuriyet Bayramı",
+          "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı"
+        ],
+        "correctAnswer": 2,
+        "explanation": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı çocuklarla birlikte kutlanan millî bayramdır. Ramazan Bayramı dinî bayramdır.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_7",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-08",
+        "question": "Ülkemizde yaşayan, farklı ülkelerden gelmiş insanlara (göçmenlere, turistlere) nasıl davranmalıyız?",
+        "choices": [
+          "Onlarla dalga geçmeliyiz.",
+          "Onları ülkemizden kovmalıyız.",
+          "Onlara saygılı ve hoşgörülü davranmalıyız."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Başka ülkeden gelen insanlar da saygılı davranılmayı hak eder. Kökeni nedeniyle biriyle alay etmek doğru değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_8",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-09",
+        "question": "Aşağıdakilerden hangisi bizim \"Dini\" bayramlarımızdan biridir?",
+        "choices": [
+          "Zafer Bayramı",
+          "Ramazan Bayramı",
+          "Spor Bayramı"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ramazan Bayramı dinî bayramdır. Zafer Bayramı millî bayramdır; Spor Bayramı bu seçeneklerde dinî bayram değildir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_9",
+        "sourceType": "EXISTING_V4B"
+      },
+      {
+        "id": "T2-G1-HAYA-DOĞAVE-10",
+        "question": "Bayrağımıza ve İstiklal Marşımıza duyduğumuz saygıyı nasıl gösteririz?",
+        "choices": [
+          "Tören sırasında yerimizde durmayıp koşarak",
+          "Hazır ol duruşunda dik durarak ve marşımızı gür sesle söyleyerek",
+          "Kendi aramızda fısıldaşarak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Törende marşı dinlemek veya söylemek ve başkalarını rahatsız etmemek ortak simgelere saygıyı gösterir.",
+        "image": null,
+        "source": "zor-test2-final",
+        "sourceId": "Q_1_sinif_hayatbilgisi_konu5_ulkemizde_hayat_10",
+        "sourceType": "EXISTING_V4B"
+      }
+    ]
+  },
+  {
+    "classLevel": 1,
+    "subject": "hayat-bilgisi",
+    "subjectName": "Hayat Bilgisi",
+    "topic": "doga-ve-cevre",
+    "topicName": "Doğa ve Çevre",
+    "difficulty": "zor",
+    "testNumber": 2,
+    "slug": "1-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-2",
+    "pageUrl": "tests/1-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-2.html",
+    "questions": [
+      {
         "id": "T2-G1-HAYA-BILIM,-01",
         "question": "Aşağıdakilerden hangisi bir \"canlı\" varlıktır? (Büyüyen, beslenen, çoğalan)",
         "choices": [
@@ -3390,7 +3390,7 @@
           "Taş"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağaç' olduğu açıkça görülmektedir.",
+        "explanation": "Ağaç büyüyen ve yaşamsal gereksinimleri olan bir bitkidir. Araba ve taş canlı değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_1",
@@ -3405,7 +3405,7 @@
           "Güneş ışığı"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çikolata' olduğu açıkça görülmektedir.",
+        "explanation": "Bitkinin suya ve ışığa gereksinimi vardır. Çikolata bitki için gerekli bir kaynak değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_2",
@@ -3420,7 +3420,7 @@
           "Evimizin önüne bir kap su ve biraz yiyecek (mama) bırakmalıyız."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Evimizin önüne bir kap su ve biraz yiyecek (mama) bırakmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Soğuk günlerde uygun bir yerde su ve hayvanlara uygun yiyecek bulundurmak sokak hayvanlarına yardımcı olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_3",
@@ -3435,7 +3435,7 @@
           "Uygun çöp ve geri dönüşüm kutularına atmalıyız."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Uygun çöp ve geri dönüşüm kutularına atmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Çöpü uygun kutuya atmak çevreyi temiz tutar. Geri dönüştürülebilen maddeleri ayrı toplamak yeniden kullanılmalarına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_4",
@@ -3443,14 +3443,14 @@
       },
       {
         "id": "T2-G1-HAYA-BILIM,-05",
-        "question": "Sabahları hava aydınlandığında gökyüzünde gördüğümüz, dünyamızı ısıtan ve aydınlatan gök cismi hangisidir?",
+        "question": "Dünya’yı gündüz aydınlatan gök cismi hangisidir?",
         "choices": [
           "Ay",
           "Güneş",
-          "Yıldız"
+          "Bulut"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneş' olduğu açıkça görülmektedir.",
+        "explanation": "Güneş, gündüz Dünya’ya ışık ve ısı sağlayan gök cismidir. Ay Güneş’ten aldığı ışığı yansıtır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_5",
@@ -3465,7 +3465,7 @@
           "Ağaçların tüm yapraklarını dökmesi"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağaçların çiçek açması ve havaların ısınması' olduğu açıkça görülmektedir.",
+        "explanation": "İlkbaharda havalar genellikle ısınır ve birçok ağaç çiçek açar. Kar örtüsü ve yaprak dökümü diğer mevsimlerle ilişkilidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_6",
@@ -3473,14 +3473,14 @@
       },
       {
         "id": "T2-G1-HAYA-BILIM,-07",
-        "question": "Sarsıntı (Deprem) hissettiğimizde kendimizi korumak için hangi hareketi yapmalıyız?",
+        "question": "Sarsıntı sırasında, güvenli bir iç mekânda kendimizi korumak için hangi hareketi yapmalıyız?",
         "choices": [
           "Ağla - Saklan",
           "Koş - Zıpla - Bağır",
           "Çök - Kapan - Tutun"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çök - Kapan - Tutun' olduğu açıkça görülmektedir.",
+        "explanation": "Deprem sırasında çök, kapan, tutun hareketi başı ve gövdeyi korumak için uygulanır; sarsıntı bitince güvenli çıkış yönergeleri izlenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_7",
@@ -3495,7 +3495,7 @@
           "Plastik su şişesi"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eski defter ve gazeteler' olduğu açıkça görülmektedir.",
+        "explanation": "Kâğıt yapımı için kullanılan eski defter ve gazeteler uygun kâğıt geri dönüşüm kutusuna ayrılır. Cam ve plastik farklı kutulara gider.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_8",
@@ -3510,7 +3510,7 @@
           "Yağmurlu"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yağmurlu' olduğu açıkça görülmektedir.",
+        "explanation": "Buluttan yere su damlaları düşmesi yağmuru gösterir. Karlı hava için kar taneleri görülmesi gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_9",
@@ -3525,7 +3525,7 @@
           "Damlayan muslukları tamir ettirmek"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dişlerimizi fırçalarken musluğu sürekli açık bırakmak' olduğu açıkça görülmektedir.",
+        "explanation": "Musluk açık kaldığında kullanılmayan su akıp gider. Fırçalama sırasında kapatmak israfı azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_hayatbilgisi_konu6_dogada_hayat_10",

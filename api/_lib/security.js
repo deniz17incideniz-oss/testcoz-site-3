@@ -25,7 +25,17 @@ function configuredOrigins() {
 }
 export function originAllowed(req) {
   const origin = String(req.headers.origin || "").replace(/\/$/, "");
-  return !origin || configuredOrigins().has(origin);
+  if (!origin || configuredOrigins().has(origin)) return true;
+  // Preview pages submit to their own deployment hostname. Keep this exception
+  // same-origin and Vercel-preview-only; production remains on the allowlist.
+  if (process.env.VERCEL_ENV === "preview") {
+    try {
+      const url = new URL(origin);
+      return url.protocol === "https:" && /^[a-z0-9-]+\.vercel\.app$/.test(url.hostname)
+        && url.host === String(req.headers.host || "").toLowerCase();
+    } catch { return false; }
+  }
+  return false;
 }
 export function rateLimited(req, limit=8, windowMs=15*60*1000) { const ip=String(req.headers["x-forwarded-for"]||req.socket?.remoteAddress||"unknown").split(",")[0].trim(); const now=Date.now(); const recent=(attempts.get(ip)||[]).filter(t=>now-t<windowMs); if(recent.length>=limit)return true; recent.push(now);attempts.set(ip,recent);return false; }
 export async function hashPassword(password) { const salt=crypto.randomBytes(16).toString("hex"); const hash=await scrypt(password,salt,64,{N:16384,r:8,p:1,maxmem:64*1024*1024}); return `scrypt$${salt}$${Buffer.from(hash).toString("hex")}`; }
