@@ -40,9 +40,9 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 1 | Türkçe | Sorumluluklarımızın Farkındayız | 1 | 1 | 2 | 40 | 12 |
 | 1 | Matematik | Sayılar ve Nicelikler | 1 | 1 | 2 | 40 | 13 |
 | 1 | Matematik | Uzunluk ve Kütle Ölçme | 1 | 1 | 2 | 40 | 13 |
-| 1 | Matematik | Paralarımız | 1 | 1 | 2 | 40 | 13 |
+| 1 | Matematik | Paralarımız | 1 | 1 | 2 | 40 | 12 |
 | 1 | Matematik | Toplama ve Çıkarma | 1 | 1 | 2 | 40 | 13 |
-| 1 | Matematik | Konum ve Eş Nesneler | 1 | 1 | 2 | 40 | 12 |
+| 1 | Matematik | Konum ve Eş Nesneler | 1 | 1 | 2 | 40 | 13 |
 | 1 | Matematik | Geometrik Şekiller | 1 | 1 | 2 | 40 | 13 |
 | 1 | Matematik | Veriye Dayalı Araştırma | 1 | 1 | 2 | 40 | 15 |
 | 1 | Hayat Bilgisi | Ben ve Okulum | 1 | 1 | 2 | 40 | 12 |
@@ -51,9 +51,9 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 1 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 12 |
 | 1 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
 | 1 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
-| 1 | İngilizce | Greetings | 0 | 0 | 1 | 10 | 1 |
+| 1 | İngilizce | Greetings | 0 | 0 | 1 | 10 | 0 |
 | 1 | İngilizce | Numbers | 0 | 0 | 1 | 10 | 1 |
-| 1 | İngilizce | Colours | 0 | 0 | 1 | 10 | 0 |
+| 1 | İngilizce | Colours | 0 | 0 | 1 | 10 | 1 |
 | 1 | İngilizce | Classroom | 0 | 0 | 1 | 10 | 0 |
 | 1 | İngilizce | Family | 0 | 0 | 1 | 10 | 0 |
 | 1 | İngilizce | Animals | 0 | 0 | 1 | 10 | 0 |
@@ -100,14 +100,14 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 3 | Hayat Bilgisi | Ben ve Okulum | 1 | 1 | 2 | 40 | 13 |
 | 3 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Ailem ve Toplum | 1 | 1 | 2 | 40 | 12 |
-| 3 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 12 |
-| 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 13 |
+| 3 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 13 |
+| 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Bilimsel Keşif Yolculuğu | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Canlılar Dünyasına Yolculuk | 1 | 1 | 2 | 40 | 13 |
+| 3 | Fen Bilimleri | Canlılar Dünyasına Yolculuk | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Yer Bilimciler İş Başında | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Maddeyi Tanıyalım, Karıştırıp Ayıralım | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Hareketi Keşfediyorum | 1 | 1 | 2 | 40 | 12 |
+| 3 | Fen Bilimleri | Hareketi Keşfediyorum | 1 | 1 | 2 | 40 | 13 |
 | 3 | Fen Bilimleri | Yaşamımızı Kolaylaştıran Elektrik | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Toprağı Tanıyorum, Tarımı Keşfediyorum | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Canlıların Yaşam Alanlarına Yolculuk | 1 | 1 | 2 | 40 | 12 |
@@ -147,9 +147,9 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 4 | Fen Bilimleri | Aydınlatma ve Ses Teknolojileri | 1 | 1 | 2 | 40 | 0 |
 | 4 | Fen Bilimleri | İnsan ve Çevre | 1 | 1 | 2 | 40 | 0 |
 | 4 | Fen Bilimleri | Basit Elektrik Devreleri | 1 | 1 | 2 | 40 | 0 |
-| 4 | Sosyal Bilgiler | Birey ve Toplum | 1 | 1 | 2 | 40 | 2 |
+| 4 | Sosyal Bilgiler | Birey ve Toplum | 1 | 1 | 2 | 40 | 0 |
 | 4 | Sosyal Bilgiler | Kültür ve Miras | 1 | 1 | 2 | 40 | 0 |
-| 4 | Sosyal Bilgiler | İnsanlar, Yerler ve Çevreler | 1 | 1 | 2 | 40 | 0 |
+| 4 | Sosyal Bilgiler | İnsanlar, Yerler ve Çevreler | 1 | 1 | 2 | 40 | 2 |
 | 4 | Sosyal Bilgiler | Bilim, Teknoloji ve Toplum | 1 | 1 | 2 | 40 | 0 |
 | 4 | Sosyal Bilgiler | Üretim, Dağıtım ve Tüketim | 1 | 1 | 2 | 40 | 0 |
 | 4 | Sosyal Bilgiler | Etkin Vatandaşlık | 1 | 1 | 2 | 40 | 0 |

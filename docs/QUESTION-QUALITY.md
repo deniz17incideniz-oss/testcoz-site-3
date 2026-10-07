@@ -3,7 +3,7 @@
 - Yapısal kapsam: 5020 soru, 502 test; 1007 görselli soru.
 - Kaynak dağılımı: native 3648, matematiksel ve editoryal olarak yeniden doğrulanan Gemini 72.
 - Sınıf dağılımı: 1. sınıf 900, 2. sınıf 1040, 3. sınıf 1360, 4. sınıf 1720.
-- Otomatik uyarı alan benzersiz soru: 1562; toplam uyarı olayı: 1678.
+- Otomatik uyarı alan benzersiz soru: 1561; toplam uyarı olayı: 1677.
 - Aynı kök/seçenek/cevap: 175 grup / 205 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 175.
 - Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bunlar editoryal adaydır; tek başına hata veya silme gerekçesi değildir.
 
@@ -16,11 +16,11 @@
 | Görsel-metne uyum | 756 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
 | Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 175 grup olası ortak şablon/false positive içerir |
 | Benzer soru | 55 grup | Sayısal kalıp sezgisi |
-| Zayıf çeldirici | 8 | Açık jenerik ifadeler aranır |
-| Zorluk ayrımı | 244 aday | Kısa zor kök + kısa çözüm sezgisi |
+| Zayıf çeldirici | 9 | Açık jenerik ifadeler aranır |
+| Zorluk ayrımı | 245 aday | Kısa zor kök + kısa çözüm sezgisi |
 | Yaşa uygunluk | 30 aday | Birinci sınıf uzun kök sezgisi |
 | Dil/anlatım | 1 aday | Çift boşluk ve tekrarlı noktalama |
-| Açıklama yetersiz | 639 | Kısa çözüm sezgisi; kısa ama yeterli çözümler false positive olabilir |
+| Açıklama yetersiz | 636 | Kısa çözüm sezgisi; kısa ama yeterli çözümler false positive olabilir |
 | Görsel eksikliği | 0 | Dosya ve alt metin kontrolü |
 | Kazanım dışı içerik | MANUEL | Resmî kazanım kodu iddiası yok; öğretmen/müfredat editörü gerekir |
 | Slug/index uyumsuzluğu | 0 | Banka slug'ı ile landing yolu eşleştirilir |
