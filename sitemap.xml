@@ -26,6 +26,7 @@
   <url><loc>https://testcoz.pro/ders/3-sinif-ingilizce.html</loc></url>
   <url><loc>https://testcoz.pro/ders/4-sinif-turkce.html</loc></url>
   <url><loc>https://testcoz.pro/ders/4-sinif-matematik.html</loc></url>
+  <url><loc>https://testcoz.pro/ders/4-sinif-hayat-bilgisi.html</loc></url>
   <url><loc>https://testcoz.pro/ders/4-sinif-fen-bilimleri.html</loc></url>
   <url><loc>https://testcoz.pro/ders/4-sinif-sosyal-bilgiler.html</loc></url>
   <url><loc>https://testcoz.pro/ders/4-sinif-ingilizce.html</loc></url>
@@ -308,6 +309,18 @@
   <url><loc>https://testcoz.pro/tests/4-sinif-turkce-noktalama-isaretleri-kolay-test-1.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-turkce-noktalama-isaretleri-orta-test-1.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-turkce-noktalama-isaretleri-zor-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-birey-ve-toplum-kolay-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-birey-ve-toplum-orta-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-birey-ve-toplum-zor-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-saglikli-yasam-kolay-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-saglikli-yasam-orta-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-saglikli-yasam-zor-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-guvenli-yasam-kolay-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-guvenli-yasam-orta-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-guvenli-yasam-zor-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-1.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-kolay-test-1.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-orta-test-1.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-1.html</loc></url>
@@ -513,6 +526,10 @@
   <url><loc>https://testcoz.pro/tests/4-sinif-matematik-tartma-zor-test-2.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-matematik-sivi-olcme-zor-test-2.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-matematik-veri-zor-test-2.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-birey-ve-toplum-zor-test-2.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-saglikli-yasam-zor-test-2.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-guvenli-yasam-zor-test-2.html</loc></url>
+  <url><loc>https://testcoz.pro/tests/4-sinif-hayat-bilgisi-doga-ve-cevre-zor-test-2.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-basit-elektrik-devreleri-zor-test-2.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-yer-kabugu-ve-dunyanin-hareketleri-zor-test-2.html</loc></url>
   <url><loc>https://testcoz.pro/tests/4-sinif-fen-bilimleri-besinlerimiz-zor-test-2.html</loc></url>

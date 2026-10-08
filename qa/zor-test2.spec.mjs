@@ -1,6 +1,17 @@
 import {test,expect} from '@playwright/test';
 import {tests} from '../scripts/load-bank.mjs';
 const bank=tests.filter(t=>t.testNumber===2);
+test('grade 4 Hayat Bilgisi remains reachable from the class page and indexed',async({page,request})=>{
+ const t=bank.find(t=>t.classLevel===4&&t.subject==='hayat-bilgisi');
+ await page.goto('/sinif-4.html');
+ await page.locator('a[href="ders/4-sinif-hayat-bilgisi.html"]').click();
+ const link=page.locator(`a[href="../${t.pageUrl}"]`);
+ await expect(link).toContainText('Zor · Test 2');
+ await link.click();
+ await expect(page.locator('h1')).toContainText('Zor Test 2');
+ const sitemap=await (await request.get('/sitemap.xml')).text();
+ expect(sitemap).toContain(`https://testcoz.pro/${t.pageUrl}`);
+});
 for(const width of [320,375,768,1440])for(const grade of [1,2,3,4])test(`Zor Test 2 grade ${grade} ${width}px scoring and navigation`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width,height:900});
  const t=bank.find(t=>t.classLevel===grade&&t.subject===(grade%2?'matematik':'ingilizce'));

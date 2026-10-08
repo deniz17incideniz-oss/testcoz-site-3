@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {load} from 'cheerio';
 const excluded = new Set(['giris.html','kayit.html','panel.html','test.html','kisisel-test.html','sinif.html','konu.html','dogal-sayilar-zor.html','matematik-test.html','404.html','tests/4-matematik-zaman-olcme-test-1-zor.html']);
-const isExcluded = key => excluded.has(key) || key === 'ders/4-sinif-hayat-bilgisi.html' || key.startsWith('tests/4-sinif-hayat-bilgisi-');
+const isExcluded = key => excluded.has(key);
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(['node_modules','.git','automation','outputs','work'].includes(e.name)?[]:walk(path.join(dir,e.name))):e.name.endsWith('.html')?[path.join(dir,e.name)]:[]);
 for(const file of walk('.')) {
  const key=file.replaceAll('\\','/');const source=fs.readFileSync(file,'utf8');const $=load(source.trim());
