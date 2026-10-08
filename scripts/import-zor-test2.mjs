@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
+import specificExplanations from '../data/imports/zor-test2-explanation-corrections.json' with { type: 'json' };
+import {templateRepairs,fourthGradeDistractors} from '../data/imports/zor-test2-template-repairs.mjs';
 import {duplicateReplacements,englishDuplicates} from '../data/imports/zor-test2-corrections.mjs';
 import {finalVisuals} from '../data/imports/zor-test2-visuals.mjs';
 import {repairEditorial} from '../data/imports/zor-test2-editorial.mjs';
@@ -57,6 +59,7 @@ for(const r of records){
  if(repairScienceTemplate(t,q,t.questions.length)) reasons.push('science_topic_repair');
  if(repairMathPrecision(q)) reasons.push('verified_math_answer_or_ambiguity');
  if(repairTurkce1(t,q,t.questions.length)) reasons.push('turkish_topic_and_explanation_repair');
+ if(specificExplanations[q.id]) { q.explanation=specificExplanations[q.id]; reasons.push('specific_explanation_repair'); }
  if(reasons.length)changes.push({id:r.final_id,reasons,before:original,after:structuredClone(q)});
  t.questions.push(q);
 }
@@ -70,6 +73,44 @@ repairMath1([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairSocial4([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairScience3Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairScience4Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
+let templateCount=0;
+for(const t of bank.values()) {
+ const rows=templateRepairs[t.slug];if(!rows)continue;
+ const flagged=t.questions.filter(q=>q.question.includes('kelimelerin ortak özelliğidir?'));
+ if(flagged.length!==rows.length)throw new Error(`Template replacement count ${t.slug}: ${flagged.length}/${rows.length}`);
+ flagged.forEach((q,i)=>{
+  const before=structuredClone(q),[question,answer,wrong1,wrong2,explanation]=rows[i];
+  const choices=[answer,wrong1,wrong2];
+  if(t.classLevel===4){
+   const extra=fourthGradeDistractors[t.slug]?.[i];
+   if(!extra)throw new Error(`Missing fourth-grade distractor ${t.slug}/${i}`);
+   choices.push(extra);
+  }
+  const shift=i%choices.length;
+  q.question=question;q.choices=[...choices.slice(choices.length-shift),...choices.slice(0,choices.length-shift)];
+  q.correctAnswer=shift;q.explanation=explanation;
+  changes.push({id:q.id,reasons:['repeated_noun_template_and_topic_repair'],before,after:structuredClone(q)});
+  templateCount++;
+ });
+}
+if(templateCount!==123)throw new Error(`Expected 123 template replacements, got ${templateCount}`);
+// Answer and wording defects found while reviewing the explicit content gate.
+const preciseFixes={
+ 'T2-G3-TÜRK-DEĞERL-09':q=>{q.question='Ağaç sözcüğüne hangi ek getirilirse sözcük yalnızca çoğul olur, yeni bir kavram adı türemez?';q.correctAnswer=q.choices.findIndex(c=>c.startsWith('-lar'));},
+ 'T2-G3-HAYA-BILIM,-08':q=>{q.question='Güneş’ten gelen zararlı morötesi ışınların bir bölümünü tutan ve bazı insan kaynaklı kimyasalların etkisiyle incelen atmosfer tabakası hangisidir?';},
+ 'T2-G3-HAYA-AILEMV-04':q=>{q.question='Dengeli bir beslenme tabağında aşağıdaki besin gruplarından hangisine de yer verilmelidir?';},
+ 'T2-G3-FEN -BILIMS-06':q=>{q.question='Kokulandırılmış doğal gazın belirgin kokusunu hangi duyu organımızla algılayabiliriz?';},
+ 'T2-G3-MATE-NESNEL-07':q=>{q.question='Alt ve üst yüzeyi daire şeklinde olan geometrik cisim hangisidir? (Örnek: Konserve kutusu.)';},
+ 'T2-G4-FEN -BASITE-03':q=>{q.question='Kullanılmış kâğıdı geri dönüştürmenin çevre açısından amacı hangisidir?';q.choices=['Yeni kâğıt üretiminde hammadde kullanımını azaltmak','Kâğıtları suya atmak','Ormanları kesmeyi hızlandırmak','Bütün kâğıtları yakmak'];q.correctAnswer=0;q.explanation='Atık kâğıt yeniden işlenerek yeni ürünlerde kullanılabilir. Bu, yeni hammadde gereksinimini azaltmaya yardımcı olur.';},
+};
+let preciseCount=0;
+for(const t of bank.values())for(const q of t.questions){
+ const fix=preciseFixes[q.id];if(!fix)continue;
+ const before=structuredClone(q);fix(q);
+ if(q.correctAnswer<0||q.correctAnswer>=q.choices.length)throw new Error(`Invalid corrected answer ${q.id}`);
+ changes.push({id:q.id,reasons:['verified_answer_or_wording_defect'],before,after:structuredClone(q)});preciseCount++;
+}
+if(preciseCount!==Object.keys(preciseFixes).length)throw new Error(`Missing precise fix: ${preciseCount}`);
 fs.writeFileSync('data/tests/zor-test2-final.js','// Imported final bank; reproducible with npm run import:zor-test2.\n(function(){ window.TESTCOZ_TESTS = window.TESTCOZ_TESTS || []; window.TESTCOZ_TESTS.push(...'+JSON.stringify([...bank.values()],null,2)+'); })();\n');
 fs.writeFileSync('data/imports/zor-test2-change-log.json',JSON.stringify({sourceSha256:crypto.createHash('sha256').update(raw).digest('hex'),changes},null,2)+'\n');
 console.log(JSON.stringify({tests:bank.size,questions:records.length,visuals:vi,duplicateCorrections:tr+en,changedQuestions:new Set(changes.map(c=>c.id)).size,changeEvents:changes.length}));

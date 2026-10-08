@@ -35,7 +35,7 @@
           "Araba"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kurt' olduğu açıkça görülmektedir.",
+        "explanation": "Kurt tek ünlü içerir ve tek hecedir. Çi-lek iki, a-ra-ba üç heceye ayrılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu1_harf_hece_2",
@@ -110,7 +110,7 @@
           "EMLAK"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'KALEM' olduğu açıkça görülmektedir.",
+        "explanation": "K-A-L-E-M sırası kalem sözcüğünü oluşturur. Kalem yazı yazmaya yarar; Kemal kişi adı, emlak taşınmaz malların adıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu1_harf_hece_7",
@@ -191,7 +191,7 @@
           "Çantasını almıştır."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elini yüzünü yıkamıştır.' olduğu açıkça görülmektedir.",
+        "explanation": "Metindeki sıra yıkanma, kahvaltı ve okula gitmedir. Kahvaltıdan önce yapılan iş elini yüzünü yıkamaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_1",
@@ -236,7 +236,7 @@
           "Uykusu geldiği için"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karnı acıktığı için' olduğu açıkça görülmektedir.",
+        "explanation": "Cümledeki ‘karnı acıktığı için’ ifadesi koşmanın nedenini bildirir. Oyun veya uyku isteğinden söz edilmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_4",
@@ -266,7 +266,7 @@
           "Kuşlar bize günaydın diyerek şarkı söylediler."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kuşlar bize günaydın diyerek şarkı söylediler.' olduğu açıkça görülmektedir.",
+        "explanation": "Kuşlara insan gibi günaydın deme özelliği verilmiştir. Bu hayal ürünüdür; araba yıkamak ve dalların kırılması gerçek olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_6",
@@ -311,7 +311,7 @@
           "kitap okumaya başladı."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'kuyruğunu sallayarak koştu.' olduğu açıkça görülmektedir.",
+        "explanation": "Köpeğin kemiğe doğru kuyruğunu sallayarak koşması doğal bir davranıştır. Köpek uçamaz veya kitap okuyamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_9",
@@ -326,7 +326,7 @@
           "Gök gürleyince titreyerek yorganın altına saklandım."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gök gürleyince titreyerek yorganın altına saklandım.' olduğu açıkça görülmektedir.",
+        "explanation": "Gök gürültüsünde titremek ve saklanmak korkuya işaret eder. Hediye görünce sevinmek aynı duygu değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_10",
@@ -369,7 +369,7 @@
           "Kesme İşareti (')"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kesme İşareti (')' olduğu açıkça görülmektedir.",
+        "explanation": "Zeynep'e veya Ankara'da örneklerinde olduğu gibi özel adlara gelen durum ekleri kesmeyle ayrılır. Soru işareti soru cümlesini bitirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_3",
@@ -384,7 +384,7 @@
           "Ankara"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ankara' olduğu açıkça görülmektedir.",
+        "explanation": "Ankara belirli bir şehrin özel adıdır ve büyük harfle başlar. Silgi ve kedi ise tür adlarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_4",
@@ -414,7 +414,7 @@
           "Ünlem (!)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ünlem (!)' olduğu açıkça görülmektedir.",
+        "explanation": "Eyvah sözü korku ve telaş bildirir. Güçlü duyguyu vurgulayan cümlenin sonunda ünlem kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_6",
@@ -429,7 +429,7 @@
           "Nokta (.)"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kısa çizgi (-)' olduğu açıkça görülmektedir.",
+        "explanation": "Satır sonunda kelime hecesinden bölünür ve kalan bölümün sonraki satırda olduğunu kısa çizgi gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_7",
@@ -444,7 +444,7 @@
           "Soru İşareti (?)"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Virgül (,)' olduğu açıkça görülmektedir.",
+        "explanation": "Elma ve armut arasındaki virgül, art arda sıralanan meyve adlarını ayırır. Sondaki nokta cümleyi bitirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_8",
@@ -459,7 +459,7 @@
           "Zeynepi'n kalemi"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Zeynep'in kalemi' olduğu açıkça görülmektedir.",
+        "explanation": "Özel adın tamamı Zeynep, ek ise -in'dir. Kesme bu ikisinin arasına konur: Zeynep'in.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu3_yazim_noktalama_9",
@@ -482,14 +482,14 @@
       },
       {
         "id": "T2-G1-TÜRK-ÇEVREM-10",
-        "question": "'Hava' ve 'Göl' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ece, göldeki ördekleri gördü.” cümlesinde ördekler nerededir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Gölde",
+          "Evde",
+          "Okulda"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Hava' ve 'Göl' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "“Göldeki” sözü ördeklerin bulunduğu yeri belirtir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -1332,7 +1332,7 @@
           "Masanın altında"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Masanın altında sonucuna ulaşılır.",
+        "explanation": "Soruda kedinin masanın altında olduğu açıkça belirtilmiştir. Üstte vazo, sağda sandalye vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_1",
@@ -1347,7 +1347,7 @@
           "Konserve kutusu"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Konserve kutusu sonucuna ulaşılır.",
+        "explanation": "Konserve kutusunun iki dairesel tabanı ve eğri yan yüzeyi silindire benzer. Top küreye, zar küpe benzer.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_2",
@@ -1362,7 +1362,7 @@
           "Üçgen"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Üçgen sonucuna ulaşılır.",
+        "explanation": "Üçgenin üç kenarı ve üç köşesi vardır. Karenin dört köşesi bulunur; çemberin köşesi yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_3",
@@ -1377,7 +1377,7 @@
           "Zeka küpü"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Portakal sonucuna ulaşılır.",
+        "explanation": "Portakal küreye benzer; köşesi yoktur ve yuvarlanabilir. Kutunun ve küpün köşeleri vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_4",
@@ -1392,7 +1392,7 @@
           "Üçgen"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Dikdörtgen sonucuna ulaşılır.",
+        "explanation": "İkişer uzun ve kısa kenarı bulunan şekil dikdörtgendir. Karenin dört kenarı eşittir; üçgenin üç kenarı vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_5",
@@ -1407,7 +1407,7 @@
           "Üçgen"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Çember (Daire) sonucuna ulaşılır.",
+        "explanation": "Paranın yalnız çevresi çizilince çember oluşur. Çemberin iç bölgesiyle birlikte oluşturduğu şekle daire denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_6",
@@ -1445,7 +1445,7 @@
           "Kare"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Çember sonucuna ulaşılır.",
+        "explanation": "Üçgen, kare, çember sırası tekrar eder. İkinci üçgende başlayan grubun karesinden sonra çember gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_8",
@@ -1475,7 +1475,7 @@
           "Kare"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kare' olduğu açıkça görülmektedir.",
+        "explanation": "Seçeneklerde dört eşit kenarlı şekil karedir. Üçgen üç kenarlıdır; çember düz çizgilerden oluşmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu1_uzamsal_geometri_10",
@@ -1503,7 +1503,7 @@
           "On iki"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 7 ve 4 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı On bir çıkmaktadır.",
+        "explanation": "Ağaçtaki 7 elmayla yerdeki 4 elma birlikte sayılır: 7 + 4 = 11. On bir yanıtı toplamı verir.",
         "image": "images/tests/1-sinif-matematik-sayilar-ve-nicelikler-zor-test-2-soru-1.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_1",
@@ -1526,7 +1526,7 @@
           "15"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 12 ve 13 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 15 çıkmaktadır.",
+        "explanation": "Sayılar birer artıyor. 14'ten sonraki ve 16'dan önceki sayı 15'tir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_2",
@@ -1541,7 +1541,7 @@
           "Can"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 14 ve 17 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Efe çıkmaktadır.",
+        "explanation": "17, hem 14'ten hem 12'den büyüktür. 17 bilyesi olan Efe'nin bilyesi en fazladır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_3",
@@ -1556,7 +1556,7 @@
           "15"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '15' olduğu açıkça görülmektedir.",
+        "explanation": "Bir onluk 10 eder. 10 + 5 = 15 olduğu için sayı on beştir; 51 ise beş onluk ve bir birliktir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_4",
@@ -1571,7 +1571,7 @@
           "19"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 20 ve 18 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 19 çıkmaktadır.",
+        "explanation": "18 ile 20 arasındaki doğal sayı 19'dur: 18 < 19 < 20. Diğer seçenekler bu aralıkta değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_5",
@@ -1586,7 +1586,7 @@
           "14"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 2 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12 çıkmaktadır.",
+        "explanation": "İkişer saymada her adımda 2 eklenir. 10 + 2 = 12 olduğundan 10'dan sonra 12 söylenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_6",
@@ -1601,7 +1601,7 @@
           "14"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 16 ve 16 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 15 çıkmaktadır.",
+        "explanation": "Geriye birer saymada 1 çıkarılır. 16 − 1 = 15 olduğu için bir sonraki söylenen sayı 15'tir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_7",
@@ -1616,7 +1616,7 @@
           "19"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '19' olduğu açıkça görülmektedir.",
+        "explanation": "On dokuz, bir onluk ve dokuz birliktir. Onlar basamağına 1, birler basamağına 9 yazılır: 19.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_8",
@@ -1631,7 +1631,7 @@
           "12 tane yıldız"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 1 ve 10 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 10 tane arı çıkmaktadır.",
+        "explanation": "Bir onluk tam 10 nesnedir. 10 arı bir onluk oluşturur; 8 eksik, 12 fazla nesnedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_9",
@@ -1646,7 +1646,7 @@
           "18"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 18 ve 10 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 8 çıkmaktadır.",
+        "explanation": "Toplam 18 kalemden 10 mavi kalem çıkarılır: 18 − 10 = 8. Kalan 8 kalem kırmızıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu2_sayilar_1_20_10",
@@ -1930,7 +1930,7 @@
           "10"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 13 ve 3 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 10 çıkmaktadır.",
+        "explanation": "13 sayısı 10 ve 3 olarak ayrılır. 3 çıkarılınca geriye 10 kalır: 13 − 3 = 10.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu4_cikarma_6",
@@ -1983,7 +1983,7 @@
           "Sayma İşlemini"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Çıkarma İşlemini sonucuna ulaşılır.",
+        "explanation": "Çıkarma, bir miktarın eksilmesini veya iki miktar arasındaki farkı bulmayı sağlar. Çıkarma sonucuna fark ya da kalan denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu4_cikarma_9",
@@ -2026,7 +2026,7 @@
           "Türk Lirası"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Türk Lirası sonucuna ulaşılır.",
+        "explanation": "Türkiye'nin para birimi Türk lirasıdır; kısaltması TL'dir. Euro ve dolar başka para birimleridir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu5_paralar_1",
@@ -2041,7 +2041,7 @@
           "1 Lira"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 1 Lira sonucuna ulaşılır.",
+        "explanation": "1 lira 100 kuruştur. 100 kuruş hem 50 kuruştan hem 10 kuruştan büyük olduğundan en değerli seçenek 1 liradır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu5_paralar_2",
@@ -2056,7 +2056,7 @@
           "100 Lira"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 100 Lira sonucuna ulaşılır.",
+        "explanation": "Soruda banknotun üzerinde 100 yazdığı belirtilir. Bu sayı banknotun 100 lira değerinde olduğunu gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu5_paralar_3",
@@ -2146,7 +2146,7 @@
           "Meclis binasının"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Mustafa Kemal Atatürk'ün sonucuna ulaşılır.",
+        "explanation": "Türk lirası banknotlarının ve dolaşımdaki standart madeni paraların ön yüzünde Atatürk portresi bulunur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu5_paralar_9",
@@ -2449,7 +2449,7 @@
           "Muz"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Muz' olduğu açıkça görülmektedir.",
+        "explanation": "Tabloda muz 8, elma 5, çilek 4 kişi tarafından seçilmiştir. En büyük sayı 8 olduğu için en çok seçilen meyve muzdur.",
         "image": "images/tests/1-sinif-matematik-veriye-dayali-arastirma-zor-test-2-soru-6.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_6",
@@ -2486,7 +2486,7 @@
           "22"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 10 ve 12 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 12 çıkmaktadır.",
+        "explanation": "Erkek öğrenci sayısı 12 olarak verilmiştir. Bu satıra toplam öğrenci sayısı olan 22 değil, yalnız erkeklerin sayısı yazılır.",
         "image": "images/tests/1-sinif-matematik-veriye-dayali-arastirma-zor-test-2-soru-7.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_7",
@@ -2534,7 +2534,7 @@
           "Masanın boyu sürekli uzamaktadır."
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 8 ve 5 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Ali'nin karış uzunluğu babasınınkinden daha küçüktür. çıkmaktadır.",
+        "explanation": "Aynı uzunluğu daha küçük birimle ölçerken daha çok birim gerekir. Ali'nin karışı daha kısa olduğu için sayı 8 çıkmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_matematik_konu7_uzunluk_tablo_9",
@@ -4297,7 +4297,7 @@
           "My father"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “My sister” ifadesidir. My mother has a daughter. She is not me. Who is she? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Mother anne, daughter kız evlat demektir. Annenin kendimiz olmayan kız evladı kız kardeşimizdir: my sister.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -4572,7 +4572,7 @@
           "Bil - gi - sa - yar"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bil - gi - sa - yar' olduğu açıkça görülmektedir.",
+        "explanation": "Bilgisayar dört hecedir: bil-gi-sa-yar. Her hecede bir ünlü bulunur; ‘say-ar’ biçimindeki ayırma doğru değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu1_sozcukte_anlam_1",
@@ -4602,7 +4602,7 @@
           "ö - e - i"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'ö - e - i' olduğu açıkça görülmektedir.",
+        "explanation": "Öğrenci sözcüğündeki ünlüler sırasıyla ö, e ve i'dir. Ğ, r, n ve c ünsüzdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu1_sozcukte_anlam_3",
@@ -4617,7 +4617,7 @@
           "En sevdiğim meyveler yazın yetişir."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Öğretmenimin tahtaya yazdığı notları defterime yazıyorum.' olduğu açıkça görülmektedir.",
+        "explanation": "‘Defterime yazıyorum’ ifadesindeki yaz- bir eylemdir. Diğer cümlelerde yaz sözcüğü mevsim adıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu1_sozcukte_anlam_4",
@@ -4765,7 +4765,7 @@
           "3 - 2 - 1"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '2 - 3 - 1' olduğu açıkça görülmektedir.",
+        "explanation": "Ayşe önce uyanır (2), ardından yıkanır (3), sonra mutfakta kek çırpar (1). Doğru sıra 2-3-1'dir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu2_cumlede_anlam_3",
@@ -4780,7 +4780,7 @@
           "5N 1K sorusunun cevabı"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kurgusal (Hayal ürünü) bir ifade' olduğu açıkça görülmektedir.",
+        "explanation": "Yorulmak ve uykuya dalmak canlılara ait özelliklerdir. Güneşe bu özelliklerin verilmesi anlatımı hayal ürünü yapar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu2_cumlede_anlam_5",
@@ -4825,7 +4825,7 @@
           "Bir varmış bir yokmuş, uzak diyarlarda küçük bir köy varmış."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bir varmış bir yokmuş, uzak diyarlarda küçük bir köy varmış.' olduğu açıkça görülmektedir.",
+        "explanation": "‘Bir varmış bir yokmuş’ anlatının başlangıcıdır ve köyü tanıtır. ‘Sonunda’ ve ‘bundan böyle’ sonuç bölümünü düşündürür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu2_cumlede_anlam_8",
@@ -4855,7 +4855,7 @@
           "3 - 2 - 1"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '2 - 1 - 3' olduğu açıkça görülmektedir.",
+        "explanation": "Ödevleri bitirmek 2, oyuncakları toplamak 1, parka gitmek 3 numaralı olaydır. Önce-sonra-en sonunda sırası 2-1-3 olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu2_cumlede_anlam_10",
@@ -4913,7 +4913,7 @@
           "O kadar yoruldum ki hemen uyuyacağım"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalemimi sen mi aldın' olduğu açıkça görülmektedir.",
+        "explanation": "‘Sen mi aldın’ doğrudan soru sorar ve yanıt bekler. ‘Unuttum’ ile biten cümle ise bir durumu bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu3_yazim_noktalama_4",
@@ -4988,7 +4988,7 @@
           "Marketten 2. kg elma aldım."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ali, koşu yarışında 1. oldu.' olduğu açıkça görülmektedir.",
+        "explanation": "‘1. oldu’ ifadesi ‘birinci oldu’ diye okunur. Doktor kısaltmasındaki nokta sıra bildirmez; 2 kg miktarına sıra noktası konmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_turkce_konu3_yazim_noktalama_10",
@@ -4996,14 +4996,14 @@
       },
       {
         "id": "T2-G2-TÜRK-DOĞADA-08",
-        "question": "'Ateş' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Rüzgâr esince kuru yapraklar savruldu.” cümlesinde yapraklar neden savrulmuştur?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Rüzgâr estiği için",
+          "Yağmur yağdığı için",
+          "Güneş battığı için"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Ateş' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "“Esince” sözü yaprakların savrulmasının nedenini verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5011,14 +5011,14 @@
       },
       {
         "id": "T2-G2-TÜRK-DOĞADA-09",
-        "question": "'Araba' ve 'Pencere' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Yağmur dindi, çocuklar bahçeye çıktı.” Olayların doğru sırası hangisidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "İki olay aynı anda oldu.",
+          "Önce yağmur dindi, sonra çocuklar çıktı.",
+          "Önce çocuklar çıktı, sonra yağmur dindi."
         ],
         "correctAnswer": 1,
-        "explanation": "'Araba' ve 'Pencere' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Cümlede virgülden önce yağmurun dinmesi, sonra çocukların çıkması anlatılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5026,14 +5026,14 @@
       },
       {
         "id": "T2-G2-TÜRK-DOĞADA-10",
-        "question": "'Hava' ve 'Ev' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Toprak ıslandı, ardından küçük bir filiz göründü.” Cümlede görülen değişim hangisidir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Toprağın kuruması",
+          "Yaprakların dökülmesi",
+          "Filizin ortaya çıkması"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Hava' ve 'Ev' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "“Ardından” sözü ikinci olayı tanıtır; ikinci olay filizin görünmesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5054,14 +5054,14 @@
     "questions": [
       {
         "id": "T2-G2-TÜRK-OKUMAS-01",
-        "question": "'Muz' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Ada kitaplıktan ödünç aldığı öyküyü bitirdi. Kitabı ne yapması gerekir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Zamanında kitaplığa geri vermesi",
+          "Sayfalarını yırtması",
+          "Kitabı izinsiz saklaması"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Muz' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Ödünç alınan kitap ortak kullanım içindir; bitince geri verilmelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5069,14 +5069,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-02",
-        "question": "'Elma' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Mert öykünün sonunu merak ettiği için okumayı sürdürdü.” Mert neden okumayı sürdürdü?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Uyumak istediği için",
+          "Sonunu merak ettiği için",
+          "Kitabı kaybettiği için"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Elma' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Cümlede “merak ettiği için” okuma davranışının nedenini belirtir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5084,14 +5084,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-03",
-        "question": "'Kapı' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir kitabın kapağında “Ormandaki İz” yazıyor. Bu yazı kitabın hangi bölümüdür?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sayfa numarası",
+          "Yazarın adresi",
+          "Başlığı"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Kapı' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Kapakta öyküyü adlandıran söz, kitabın başlığıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5099,14 +5099,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-04",
-        "question": "'Deniz' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Elif önce resimlere baktı, sonra metni okudu.” Elif okumadan önce ne yaptı?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Resimlere baktı.",
+          "Kitabı kapattı.",
+          "Özet yazdı."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Deniz' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "“Önce” resimlere bakmayı, “sonra” metni okumayı sıralar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5114,14 +5114,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-05",
-        "question": "'Defter' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Öyküde “Kuş yuvaya döndü çünkü hava karardı.” yazıyor. Kuş niçin döndü?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Yemek bulduğu için",
+          "Hava karardığı için",
+          "Yuva yıkıldığı için"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Defter' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "“Çünkü” sözcüğü dönüşün gerekçesini, havanın kararmasını gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5129,14 +5129,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-06",
-        "question": "'Hava' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir okur anlamını bilmediği “patika” sözcüğünün yanında “dar orman yolu” açıklamasını gördü. Patika ne demektir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Geniş meydan",
+          "Büyük göl",
+          "Dar yol"
         ],
         "correctAnswer": 2,
-        "explanation": "'Hava' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Yanındaki “dar orman yolu” açıklaması patikanın anlamını verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5159,14 +5159,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-08",
-        "question": "'Masa' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Zeynep kitabı arkadaşına uzattı. Arkadaşı teşekkür etti.” Zeynep hangi davranışı gösterdi?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Paylaşma",
+          "Saklama",
+          "Yırtma"
         ],
         "correctAnswer": 0,
-        "explanation": "'Masa' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Kitabı arkadaşına uzatması onu paylaşmasıdır; metinde saklama veya yırtma yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5174,14 +5174,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-09",
-        "question": "'Masa' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Can yeni bir kitabın ilk sayfasını açtı.” Can hangi eyleme başlamak üzeredir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Koşmaya",
+          "Okumaya",
+          "Uyumaya"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Masa' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Kitabın ilk sayfasını açmak okumaya başlamaya hazırlıktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5189,14 +5189,14 @@
       },
       {
         "id": "T2-G2-TÜRK-OKUMAS-10",
-        "question": "'Ev' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Kitabı bitirince kahramanın cesaretini düşündüm.” Okur kitabı ne zaman düşündü?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Başlamadan önce",
+          "Kapağı görmeden önce",
+          "Bitirdikten sonra"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Ev' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "“Bitirince” sözü düşünmenin okuma tamamlandıktan sonra gerçekleştiğini bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5217,14 +5217,14 @@
     "questions": [
       {
         "id": "T2-G2-TÜRK-YETENE-01",
-        "question": "'Ev' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Ece ritim tutmayı, Bora resim çizmeyi seviyor. Ortak gösteride hangisi ikisinin ilgisini kullanır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ece müzik yapar, Bora afiş çizer.",
+          "İkisi de yalnız afiş çizer.",
+          "Hiçbiri görev almaz."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Ev' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Görevler çocukların ayrı ilgilerine uygun paylaştırılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5232,14 +5232,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-02",
-        "question": "'Göl' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“İlk denememde yapamadım; çalışınca öğrendim.” Bu sözden hangi sonuç çıkar?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Öğrenmek imkânsızdır.",
+          "Çalışmak beceriyi geliştirebilir.",
+          "İlk deneme son karardır."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Göl' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Tekrar deneme ve çalışma, sonradan başarmayı sağlamıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5247,14 +5247,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-03",
-        "question": "'Masa' ve 'Hava' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir arkadaşın şiir okumaya çekiniyor. Hangisi onu destekler?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sen asla okuyamazsın.",
+          "Kitabını saklayalım.",
+          "Birlikte kısa bir şiir deneyebiliriz."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Masa' ve 'Hava' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Birlikte deneme önerisi cesaret verir; küçümseme desteklemez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5262,14 +5262,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-04",
-        "question": "'Defter' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Deniz top sürmeyi seviyor ama henüz iyi başaramıyor. Ne yaparsa gelişebilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Uygun alanda düzenli çalışarak",
+          "Topu hiç kullanmayarak",
+          "Arkadaşlarını suçlayarak"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Defter' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Becerinin gelişmesi için güvenli biçimde tekrar yapmak yararlıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5277,14 +5277,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-05",
-        "question": "'Araba' ve 'Okul' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Mina yaptığı resmi arkadaşınınkinden farklı buldu. Hangi söz saygılıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Resmini göstermemelisin.",
+          "Farklı fikirler çizmişiz.",
+          "Seninki kötü."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Araba' ve 'Okul' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Farklı resimler farklı hayal gücünü yansıtır; kötü oldukları anlamına gelmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5292,14 +5292,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-06",
-        "question": "'Okul' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arda oyuncak yapımının adımlarını unutuyor. Ona yardım etmek için ne yapılabilir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Oyuncağı saklamak",
+          "Çabasını küçümsemek",
+          "Adımları sırayla göstermek"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Sırayla gösterilen adımlar Arda’nın yeniden deneyebilmesini sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5307,14 +5307,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-07",
-        "question": "'Elma' ve 'Hava' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Bu hafta bir sayfa okuyacağım.” diyen çocuğun hedefi nedir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Bir sayfa okumak",
+          "Kitabı kaybetmek",
+          "Okumayı bırakmak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Elma' ve 'Hava' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Cümlede ulaşılmak istenen iş açıkça bir sayfa okumaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5322,14 +5322,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-08",
-        "question": "'Yıldız' ve 'Öğretmen' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Eylül şarkı söylemeyi, kardeşi koşmayı seviyor. Bu durum neyi gösterir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Koşmak şarkıdan değersizdir.",
+          "İlgi alanları farklı olabilir.",
+          "Herkes aynı etkinliği sevmeli."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Yıldız' ve 'Öğretmen' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "İki kişi farklı etkinliklerden hoşlanabilir; bu normal bir farklılıktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5337,14 +5337,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-09",
-        "question": "'Araba' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arkadaşın yeni bir oyunu öğrenirken hata yaptı. Hangisi yardımcı olur?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Onu oyundan çıkarmak",
+          "Hatasıyla alay etmek",
+          "Kuralları yeniden açıklamak"
         ],
         "correctAnswer": 2,
-        "explanation": "'Araba' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Kuralı yeniden anlatmak öğrenmeye fırsat verir; alay etmek vermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5352,14 +5352,14 @@
       },
       {
         "id": "T2-G2-TÜRK-YETENE-10",
-        "question": "'Defter' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir beceriyi öğrenmek için küçük adımlarla çalışmak neden yararlıdır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Her adımda ilerlemeyi görürüz.",
+          "Hemen vazgeçmeyi sağlar.",
+          "Çalışmayı gereksiz kılar."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Defter' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Küçük adımlar zor işi parçalara ayırır ve ilerlemeyi izlemeyi kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5395,14 +5395,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-02",
-        "question": "'Ev' ve 'Muz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Ece oyuncak arabasının tekerleği dönmeyince nedenini anlamak için önce ne yapmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Tekerleği dikkatlice incelemek",
+          "Arabayı hemen atmak",
+          "Sorunu görmezden gelmek"
         ],
         "correctAnswer": 0,
-        "explanation": "'Ev' ve 'Muz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Sorunu çözmek için önce tekerleğin nasıl takıldığını gözlemek gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5410,14 +5410,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-03",
-        "question": "'Öğretmen' ve 'Deniz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Mert denedi, hata yaptı, yeniden denedi.” Bu olayın ana düşüncesi hangisidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Denemek gereksizdir.",
+          "Hatalardan öğrenip tekrar deneyebiliriz.",
+          "Hata yapan asla başaramaz."
         ],
         "correctAnswer": 1,
-        "explanation": "'Öğretmen' ve 'Deniz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Mert hatadan sonra vazgeçmeyip yeni deneme yapmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5425,14 +5425,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-04",
-        "question": "'Silgi' ve 'Köpek' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk kağıt uçağının neden kısa uçtuğunu merak ediyor. Hangi soru araştırmaya uygundur?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Uçağın adı en güzel mi?",
+          "Herkes beni seviyor mu?",
+          "Kanatları değiştirirsem uçuş değişir mi?"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Silgi' ve 'Köpek' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Kanat biçimi değiştirilip uçuş gözlenebilir; bu araştırılabilir bir sorudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5440,14 +5440,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-05",
-        "question": "'Armut' ve 'Kedi' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ali önce çizim yaptı, sonra modelini kurdu.” Ali modeli kurmadan önce ne yaptı?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Çizim yaptı.",
+          "Modeli kırdı.",
+          "Sonucu yazdı."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Armut' ve 'Kedi' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "“Önce” sözü çizimin model kurmadan önce yapıldığını gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5455,14 +5455,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-06",
-        "question": "'Kitap' ve 'Pencere' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Deneyde yalnız kâğıt türünü değiştiren öğrencinin amacı ne olabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Sonucu saklamak",
+          "Kâğıt türünün etkisini görmek",
+          "Bütün koşulları karıştırmak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Kitap' ve 'Pencere' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Tek bir koşulu değiştirmek farkın nedenini anlamayı kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5470,14 +5470,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-07",
-        "question": "'Elma' ve 'Ateş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Yeni bir fikir buldum.” cümlesindeki “yeni” sözcüğü neyi anlatır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Çok eski olanı",
+          "Kaybolanı",
+          "Daha önce olmayanı"
         ],
         "correctAnswer": 2,
-        "explanation": "'Elma' ve 'Ateş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Yeni, daha önce kullanılmamış veya görülmemiş olanı niteler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5485,14 +5485,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-08",
-        "question": "'Su' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir model ilk denemede devrildi. Güvenli bir sonraki adım hangisidir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Denge sorununu inceleyip düzeltmek",
+          "Başka çocukları suçlamak",
+          "Malzemeleri fırlatmak"
         ],
         "correctAnswer": 0,
-        "explanation": "'Su' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Modelin neden devrildiğini gözlemek yeni deneme için bilgi verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5500,14 +5500,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-09",
-        "question": "'Armut' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Su akmasın diye kapağı sıkıca kapattı.” Kapak niçin kapatıldı?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Kabı boyamak için",
+          "Suyun akmasını önlemek için",
+          "Suyu ısıtmak için"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Armut' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "“Akmasın diye” ifadesi yapılan işin amacını belirtir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5515,14 +5515,14 @@
       },
       {
         "id": "T2-G2-TÜRK-MUCITÇ-10",
-        "question": "'Köpek' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Yeni bir oyuncak tasarlarken ilk çizim ne işe yarar?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Oyuncağı hemen çalıştırır.",
+          "Malzemeyi yok eder.",
+          "Fikri görünür hâle getirir."
         ],
         "correctAnswer": 2,
-        "explanation": "'Köpek' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Çizim, parçaların nasıl birleşeceğini önceden düşünmeyi sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5543,14 +5543,14 @@
     "questions": [
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-01",
-        "question": "'Toprak' ve 'Kitap' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Dede torununa çocukluğunda oynadığı körebe oyununu anlattı. Hangi bilgi aktarılmış oldu?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Geçmişteki bir oyun",
+          "Yarının hava durumu",
+          "Yeni bir telefonun fiyatı"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Toprak' ve 'Kitap' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Dede kendi çocukluk oyununu anlatarak eski bir geleneği aktarmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5558,14 +5558,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-02",
-        "question": "'Okul' ve 'Muz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bayramda komşular birbirini ziyaret etti. Bu davranış hangi bağı güçlendirebilir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sınav sonucunu",
+          "Komşuluk bağını",
+          "Trafik yoğunluğunu"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Muz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Ziyaret, komşuların birbirleriyle görüşüp ilişki kurmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5573,14 +5573,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-03",
-        "question": "'Kapı' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ninem bana eski bir ninni öğretti.” Ninni nasıl aktarılmıştır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Bir makineden ağaca",
+          "Sadece yazılı sınavla",
+          "Bir büyükten çocuğa"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Kapı' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Nine ninniyi söyleyerek çocuğa öğretmiştir; bu sözlü aktarımdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5588,14 +5588,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-04",
-        "question": "'Kedi' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk yöresine ait yemeğin tarifini büyükannesinden öğreniyor. Ne öğrenmektedir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Ailesinden gelen bir mutfak bilgisini",
+          "Yeni bir trafik işaretini",
+          "Bir bilgisayar şifresini"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Kedi' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Yemek tarifi aile ve yöre kültürünün aktarılabilen bir parçasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5603,14 +5603,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-05",
-        "question": "'Armut' ve 'Ağaç' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Oyun farklı olsa da birlikte eğlendik.” Cümlede hangi tutum görülür?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Alay etme",
+          "Farklılığa saygı",
+          "Dışlama"
         ],
         "correctAnswer": 1,
-        "explanation": "'Armut' ve 'Ağaç' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Farklı oyunların birlikte oynanabilmesi başkasının tercihine saygıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5618,14 +5618,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-06",
-        "question": "'Öğrenci' ve 'Masa' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Kütüphanede eski bir masal kitabı bulan Ayşe onu nasıl korur?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Sayfalarını koparır.",
+          "Üzerine su döker.",
+          "Sayfalarını dikkatle çevirir."
         ],
         "correctAnswer": 2,
-        "explanation": "'Öğrenci' ve 'Masa' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Kitabı özenle kullanmak başka okurların da okuyabilmesini sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5633,14 +5633,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-07",
-        "question": "'Masa' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Babam bana çocukluğundaki sokak oyunlarını anlattı.” Bilgiyi kim vermiştir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Babası",
+          "Öğretmeni",
+          "Komşusu"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Masa' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Cümlede anlatma eylemini yapan kişi babasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5648,14 +5648,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-08",
-        "question": "'Kuş' ve 'Ağaç' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Yöresel bir türkü dinleyen çocuk hangi kültür ürününü tanımaktadır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ulaşımı",
+          "Müziği",
+          "Mimariyi"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Kuş' ve 'Ağaç' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Türkü bir müzik ve sözlü kültür ürünüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5663,14 +5663,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-09",
-        "question": "'Kitap' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir el işi ustası öğrencilere örme tekniğini gösterdi. Bu etkinliğin amacı ne olabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "El işini yasaklamak",
+          "Öğrencileri dışlamak",
+          "Beceri ve geleneği öğretmek"
         ],
         "correctAnswer": 2,
-        "explanation": "'Kitap' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Tekniğin gösterilmesi öğrencilerin beceriyi deneyerek öğrenmesini sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5678,14 +5678,14 @@
       },
       {
         "id": "T2-G2-TÜRK-KÜLTÜR-10",
-        "question": "'Öğretmen' ve 'Köpek' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Hepimiz farklı oyunlar biliyoruz.” cümlesinden hangi sonuç çıkar?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Birbirimizden yeni oyunlar öğrenebiliriz.",
+          "Yalnız tek oyun oynanmalıdır.",
+          "Eski oyunlar bilinemez."
         ],
         "correctAnswer": 0,
-        "explanation": "'Öğretmen' ve 'Köpek' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Farklı oyun bilgileri paylaşıldığında herkes yeni bir oyun öğrenebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5706,14 +5706,14 @@
     "questions": [
       {
         "id": "T2-G2-TÜRK-HAKLAR-01",
-        "question": "'Köpek' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıf kitaplığındaki kitapları herkes okuyabiliyor. Ali kitabı alınca ne yapmalıdır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "İşi bitince geri koymalıdır.",
+          "Eve izinsiz götürmelidir.",
+          "Sayfalarını koparmalıdır."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Köpek' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Ortak kitap geri bırakılırsa diğer öğrenciler de okuyabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5721,14 +5721,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-02",
-        "question": "'Hava' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrenci konuşurken sözünü kesmeden dinlemek hangi davranıştır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Dışlama",
+          "Saygılı dinleme",
+          "Alay etme"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Hava' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Sözünü bitirmesine izin vermek kişinin görüşüne saygıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5736,14 +5736,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-03",
-        "question": "'Okul' ve 'Defter' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ben oyun oynayacağım; sonra oyuncakları toplayacağım.” Çocuğun sorumluluğu hangisidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Oyunu yasaklamak",
+          "Arkadaşları kovmak",
+          "Oyuncakları toplamak"
         ],
         "correctAnswer": 2,
-        "explanation": "'Okul' ve 'Defter' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Oyun hakkıyla birlikte kullanılan eşyayı toplama görevi de vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5751,14 +5751,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-04",
-        "question": "'Kedi' ve 'Dağ' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıf kuralı belirlenirken herkes fikrini söylüyor. Bu neden önemlidir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Karara katılmayı sağlar.",
+          "Bir kişinin sözünü zorunlu kılar.",
+          "Hiç kimseyi dinletmez."
         ],
         "correctAnswer": 0,
-        "explanation": "'Kedi' ve 'Dağ' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Görüş bildirme fırsatı ortak kuralı birlikte oluşturmayı sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5766,14 +5766,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-05",
-        "question": "'Güneş' ve 'Defter' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arkadaşının kalemini ödünç alan öğrenci ne yapmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "İzinsiz saklamalıdır.",
+          "İşi bitince geri vermelidir.",
+          "Kalemi kırmalıdır."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Güneş' ve 'Defter' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Ödünç alınan eşya sahibine geri verilir; bu başkasının eşyasına saygıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5781,14 +5781,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-06",
-        "question": "'Yıldız' ve 'Pencere' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okul bahçesinde çöp gören çocuk hangi sorumluluğu yerine getirebilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Çöpü etrafa dağıtmak",
+          "Bahçeyi kirletmek",
+          "Çöpü güvenle uygun kutuya atmak"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Yıldız' ve 'Pencere' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Uygun çöp kutusunu kullanmak ortak alanın temiz kalmasına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5796,14 +5796,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-07",
-        "question": "'Yıldız' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk görüşünü söylerken başkasına hakaret ediyor. Hangisi doğru yaklaşım?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Fikrini saygılı sözlerle anlatmak",
+          "Hakareti sürdürmek",
+          "Kimseyi dinlememek"
         ],
         "correctAnswer": 0,
-        "explanation": "'Yıldız' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Görüş bildirme hakkı başkalarına zarar veren sözleri gerektirmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5811,14 +5811,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-08",
-        "question": "'Okul' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Oyun sırasında sıra bekleyen çocuk hangi kurala uyar?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Oyunu bozmak",
+          "Herkese oyun fırsatı tanımak",
+          "Sırayı zorla almak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Okul' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Sıra beklemek diğer çocukların da oyuna katılmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5841,14 +5841,14 @@
       },
       {
         "id": "T2-G2-TÜRK-HAKLAR-10",
-        "question": "'Göl' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrenci ders sırasında konuşmak istiyor. Ne yaparsa arkadaşlarını da dinlemiş olur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Herkesin sözünü keser.",
+          "Bağırarak konuşur.",
+          "Söz sırası isteyip bekler."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Göl' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Söz sırası beklemek başkalarının da konuşma hakkını korur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -5876,7 +5876,7 @@
           "Kırk sekiz"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Otuz sekiz' olduğu açıkça görülmektedir.",
+        "explanation": "3 onluk 30, 8 birlik 8 eder. 30 + 8 = 38 sayısı otuz sekiz diye okunur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu1_dogal_sayilar_1",
@@ -5891,7 +5891,7 @@
           "60"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 60 sonucuna ulaşılır.",
+        "explanation": "Onlar basamağı 6 olan sayılar 60 ile 69 arasındadır. Birler basamağındaki en küçük rakam 0 olduğu için yanıt 60'tır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu1_dogal_sayilar_2",
@@ -6159,7 +6159,7 @@
           "Sayıları yuvarlama"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Onlukları çıkararak işlem yapma' olduğu açıkça görülmektedir.",
+        "explanation": "60 ve 20 sayıları 6 onluk ile 2 onluk olarak düşünülmüştür. 6 − 2 = 4 onluk, yani 40 bulunur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu2_toplama_cikarma_9",
@@ -6217,7 +6217,7 @@
           "6 - 3"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 6 ve 3 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 6 x 3 çıkmaktadır.",
+        "explanation": "Her biri 3 çiçekli 6 eş grup vardır. 3'ü altı kez toplamak yerine 6 × 3 işlemi yapılır; toplam 18 çiçektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu3_carpma_2",
@@ -6337,7 +6337,7 @@
           "8 x 3 = 24"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '8 x 3 = 24' olduğu açıkça görülmektedir.",
+        "explanation": "Üç sıranın her birinde 8 araba vardır. 8 + 8 + 8 = 24 olduğundan 8 × 3 = 24 işlemi toplamı verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu3_carpma_10",
@@ -6380,7 +6380,7 @@
           "12 - 3 = 9"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '12 / 3 = 4' olduğu açıkça görülmektedir.",
+        "explanation": "12'den 3 sayısı dört kez çıkarıldığında sıfıra ulaşılır. Bu nedenle 12 ÷ 3 = 4'tür; bölüm çıkarma sayısını gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu4_bolme_2",
@@ -6528,7 +6528,7 @@
           "2 bütün elma"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 2 yarım elma sonucuna ulaşılır.",
+        "explanation": "Bütünün iki eş parçasından her biri yarımdır. Bir elma iki eş parçaya bölününce iki yarım elma elde edilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu5_kesirler_1",
@@ -6543,7 +6543,7 @@
           "Çeyreğini"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 4 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Çeyreğini çıkmaktadır.",
+        "explanation": "Dört eş parçadan birine çeyrek denir. Ayşe bu parçalardan birini yediği için pastanın çeyreğini yemiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu5_kesirler_2",
@@ -6588,7 +6588,7 @@
           "Tamamı boyanmış üçgen"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Tam ortadan iki eşit parçaya ayrılıp 1 parçası boyanmış daire sonucuna ulaşılır.",
+        "explanation": "Yarımı göstermek için bütün iki eş parçaya ayrılıp biri boyanır. Dörtte bir çeyrektir; tamamını boyamak bütünü gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu5_kesirler_5",
@@ -6633,7 +6633,7 @@
           "Çeyrek > Yarım > Bütün"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Bütün > Yarım > Çeyrek sonucuna ulaşılır.",
+        "explanation": "Aynı bütün karşılaştırıldığında bütün iki yarım, yarım iki çeyrek içerir. Bu yüzden bütün > yarım > çeyrek olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu5_kesirler_8",
@@ -6663,7 +6663,7 @@
           "45"
         ],
         "correctAnswer": 0,
-        "explanation": "Verilen 1 ve 60 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 15 çıkmaktadır.",
+        "explanation": "Çeyrek dört eş parçadan biridir. Bir saatin 60 dakikası dörde bölünür: 60 ÷ 4 = 15 dakika.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu5_kesirler_10",
@@ -6691,7 +6691,7 @@
           "Silindir"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Küp' olduğu açıkça görülmektedir.",
+        "explanation": "Küpün altı yüzü de eş karedir; 8 köşesi ve 12 ayrıtı vardır. Küre ve silindirin bu özellikleri yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_1",
@@ -6706,7 +6706,7 @@
           "Küp"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Küre sonucuna ulaşılır.",
+        "explanation": "Kürenin yüzeyi eğridir; köşesi veya ayrıtı yoktur. Küpün ve üçgen prizmanın köşeleri ve ayrıtları bulunur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_2",
@@ -6721,7 +6721,7 @@
           "Koni"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Koni sonucuna ulaşılır.",
+        "explanation": "Parti şapkası ve külah, dairesel tabandan tek tepeye daralır. Bu biçim koniye benzer.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_3",
@@ -6736,7 +6736,7 @@
           "İkisinin de hiç köşesinin olmaması"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İkisinin de 4 köşesi ve 4 kenarı olması' olduğu açıkça görülmektedir.",
+        "explanation": "Kare de dikdörtgen de dört kenarlı ve dört köşelidir. Dikdörtgenin tüm kenarlarının eşit olması gerekmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_4",
@@ -6766,7 +6766,7 @@
           "Kare prizma"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Silindir sonucuna ulaşılır.",
+        "explanation": "Silindir biçimindeki pil ve konserve kutusunda iki dairesel taban ve eğri yan yüzey görülür. Kürenin düz tabanı yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_6",
@@ -6781,7 +6781,7 @@
           "Daire"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Daire sonucuna ulaşılır.",
+        "explanation": "Üçgen-kare-daire grubu tekrar eder. İkinci grubun üçüncü şekli de daire olmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_7",
@@ -6796,7 +6796,7 @@
           "Dikdörtgen"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dikdörtgen' olduğu açıkça görülmektedir.",
+        "explanation": "Dört köşeli, karşılıklı kenarları eşit olan ve iki farklı kenar uzunluğu verilen şekil dikdörtgendir. Karede tüm kenarlar eşittir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_8",
@@ -6811,7 +6811,7 @@
           "Kibrit Kutusu (Dikdörtgen prizma)"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Madeni Para (Silindir tabanı) sonucuna ulaşılır.",
+        "explanation": "Paranın düz yüzü daire biçimindedir. Zarın yüzü kare, kibrit kutusunun yüzü dikdörtgendir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_matematik_konu6_geometri_9",
@@ -6854,7 +6854,7 @@
           "Ona okul kurallarını anlatıp uyum sağlamasına yardımcı olmalıyız."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ona okul kurallarını anlatıp uyum sağlamasına yardımcı olmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Yeni arkadaş okulun düzenini henüz bilmeyebilir. Kuralları açıklamak ve gruba katılmasını desteklemek uyumunu kolaylaştırır; dışlamak zorlaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_1",
@@ -6869,7 +6869,7 @@
           "Teneffüse çıkarken açık olan akıllı tahtayı ve lambaları kapatmak."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Teneffüse çıkarken açık olan akıllı tahtayı ve lambaları kapatmak.' olduğu açıkça görülmektedir.",
+        "explanation": "Kullanılmayan ışık ve akıllı tahtayı kapatmak gereksiz elektrik tüketimini önler. Suyu sürekli akıtmak ise suyu boşa harcar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_2",
@@ -6884,7 +6884,7 @@
           "Kurallar belirlenirken tüm öğrencilerin fikri alınmalı ve ortak karar verilmelidir."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kurallar belirlenirken tüm öğrencilerin fikri alınmalı ve ortak karar verilmelidir.' olduğu açıkça görülmektedir.",
+        "explanation": "Demokratik kararda herkes görüşünü söyleyebilir. Ortak karar alınması, yalnız güçlü bir kişinin isteğinin geçerli olmasından farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_3",
@@ -6899,7 +6899,7 @@
           "Geçmiş olsun."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Teşekkür ederim.' olduğu açıkça görülmektedir.",
+        "explanation": "Arkadaşımız silgisini paylaşarak bize yardım etmiştir. Bu yardım için teşekkür edilir; geçmiş olsun hastalık veya üzücü olay için kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_4",
@@ -6914,7 +6914,7 @@
           "Hızlı koşmamızı sağlar."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Okuldaki yerleri (kütüphane, müdür odası vb.) daha kolay bulmamızı sağlar.' olduğu açıkça görülmektedir.",
+        "explanation": "Kroki, okulun bölümlerinin birbirine göre yerini gösterir. Böylece kütüphane gibi bir bölüme hangi yönden gidileceğini bulabiliriz.",
         "image": "images/tests/2-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-2-soru-5.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_5",
@@ -6937,7 +6937,7 @@
           "Tüm işi tek bir kişiye yıkmalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Görev dağılımı yapıp herkesin sorumluluğunu yerine getirmesini sağlamalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "İşlerin paylaştırılması her üyenin katkıda bulunmasını sağlar. Tek kişiye bırakmak yükü artırır ve birlikte çalışmayı engeller.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_6",
@@ -6952,7 +6952,7 @@
           "Konuşmaktan çok sıkıldığımızın"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karşımızdaki kişiye önem verdiğimizin ve onu dinlediğimizin' olduğu açıkça görülmektedir.",
+        "explanation": "Konuşana yönelmek ve uygun göz teması kurmak dinlediğimizi gösterebilir. Ancak herkesin göz teması kurma biçimi farklı olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_7",
@@ -6982,7 +6982,7 @@
           "Çöp Kutusu"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dilek Kutusu' olduğu açıkça görülmektedir.",
+        "explanation": "Dilek kutusu öğrencilerin öneri ve şikâyetlerini iletmesi içindir. İlk yardım dolabı sağlık malzemelerini, çöp kutusu atıkları toplar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_9",
@@ -6997,7 +6997,7 @@
           "Sürekli ona acıyarak bakmalıyız."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sınıfa girip çıkarken kapıyı açarak ona kolaylık sağlayabiliriz.' olduğu açıkça görülmektedir.",
+        "explanation": "Arkadaşımız isterse kapıyı açmak geçişini kolaylaştırır. Yardım ihtiyacını sormak ve birlikte oyuna katılmak, dışlamaktan daha destekleyicidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu1_okulda_hayat_10",
@@ -7025,7 +7025,7 @@
           "Hala"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hala' olduğu açıkça görülmektedir.",
+        "explanation": "Babanın kız kardeşine hala denir. Annenin kız kardeşi teyzedir; yenge farklı bir akrabalık adıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_1",
@@ -7040,7 +7040,7 @@
           "Bina ve Kapı numarası"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Evdeki eşyaların rengi' olduğu açıkça görülmektedir.",
+        "explanation": "Adres, evin yerini bulmaya yarar. Sokak, bina ve kapı numarası konumu belirtir; evdeki eşyaların rengi belirtmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_2",
@@ -7055,7 +7055,7 @@
           "Televizyon"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Mektup ve Telgraf' olduğu açıkça görülmektedir.",
+        "explanation": "Mektup ve telgraf uzaktaki kişilere yazılı haber iletmek için kullanılmıştır. Cep telefonu bu iletişimin çok daha hızlı yapılmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_3",
@@ -7070,7 +7070,7 @@
           "Beslenme, barınma ve faturalara (İhtiyaçlar)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Beslenme, barınma ve faturalara (İhtiyaçlar)' olduğu açıkça görülmektedir.",
+        "explanation": "Beslenme ve barınma yaşamı sürdürmek için temel ihtiyaçlardır. Sınırlı bütçede bunlar karşılandıktan sonra oyuncak gibi isteklere yer ayrılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_4",
@@ -7085,7 +7085,7 @@
           "Paramızın tamamıyla her gün yeni oyuncaklar almalıyız."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gereksiz yanan lambaları ve açık televizyonu kapatmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Gereksiz ışık ve televizyonu kapatmak elektrik tüketimini azaltır. Daha az tüketim, aile bütçesindeki bu gideri düşürmeye yardımcı olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_5",
@@ -7100,7 +7100,7 @@
           "Yemekleri tek başına pişirmek"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Odamızı ve oyuncaklarımızı düzenli tutmak' olduğu açıkça görülmektedir.",
+        "explanation": "Oyuncakları toplamak çocuğun yaşına uygun bir görevdir. Kira ödeme ve ocakta tek başına yemek pişirme aynı tür çocuk sorumluluğu değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_6",
@@ -7115,7 +7115,7 @@
           "Zamanımızı verimli kullanmamızı, oyun ve derslerimize yeterli vakit ayırmamızı sağlar."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Zamanımızı verimli kullanmamızı, oyun ve derslerimize yeterli vakit ayırmamızı sağlar.' olduğu açıkça görülmektedir.",
+        "explanation": "Günlük plan ders, dinlenme ve oyun için zaman ayırır. Yapılacak işleri sıraya koymak unutmayı ve gecikmeyi azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_7",
@@ -7130,7 +7130,7 @@
           "Akrabalık ve sevgi bağlarımızı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Akrabalık ve sevgi bağlarımızı' olduğu açıkça görülmektedir.",
+        "explanation": "Ziyaret ve ilgi, akrabalarımıza onları düşündüğümüzü gösterir. Birlikte zaman geçirmek sevgi ve dayanışma bağlarını güçlendirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_8",
@@ -7160,7 +7160,7 @@
           "Onların zamanında hiç oyun yoktu."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Onlar daha çok sokak ve grup oyunları oynarken, bizler teknolojik aletlerle (tablet, bilgisayar) daha çok vakit geçiriyoruz.' olduğu açıkça görülmektedir.",
+        "explanation": "Geçmişte dijital araçlar bu kadar yaygın değildi. Oyun araçları zamanla değişmiştir; sokak ve grup oyunları bugün de oynanabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu2_evimizde_hayat_10",
@@ -7203,7 +7203,7 @@
           "Bütün gün sadece çikolata yemek"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Et, süt, sebze ve meyvelerden yeteri kadar, dengeli tüketmek' olduğu açıkça görülmektedir.",
+        "explanation": "Farklı besin grupları farklı ihtiyaçları karşılar. Yalnız çikolata veya cips tüketmek çeşitlilik sağlamaz; dengeli beslenme farklı grupları içerir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_2",
@@ -7218,7 +7218,7 @@
           "Karpuz"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Portakal' olduğu açıkça görülmektedir.",
+        "explanation": "Portakal kış meyveleri arasında sayılır. Kiraz ve karpuz ise ülkemizde genel olarak yaz mevsiminde yetişir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_3",
@@ -7248,7 +7248,7 @@
           "Hastaneye"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eczaneye' olduğu açıkça görülmektedir.",
+        "explanation": "Reçetede yazan ilaçlar eczaneden alınır. Eczacı ilaçların kullanımı konusunda bilgi verir; kütüphane kitap hizmeti sunar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_5",
@@ -7263,7 +7263,7 @@
           "Onları su şişelerine doldurup saklamalıyız."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Büyüklerimizden habersiz bunlarla oyun oynamamalı, onlara dokunmamalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Temizlik maddeleri içilmez, tadılmaz ve oyuncak olarak kullanılmaz. Çocuklar bu maddelerden uzak durmalı ve bir yetişkine haber vermelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_6",
@@ -7278,7 +7278,7 @@
           "Tabağımıza yiyebileceğimiz kadar yemek almak (israf etmemek)."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tabağımıza yiyebileceğimiz kadar yemek almak (israf etmemek).' olduğu açıkça görülmektedir.",
+        "explanation": "Yenebilecek kadar yemek almak artan yemeğin çöpe gitmesini önler. Ağız doluyken konuşmak ve sesli çiğnemek sofra görgüsüne uymaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_7",
@@ -7293,7 +7293,7 @@
           "Kemik ve kaslarımızın güçlenmesini, sağlıklı büyümemizi sağlar."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kemik ve kaslarımızın güçlenmesini, sağlıklı büyümemizi sağlar.' olduğu açıkça görülmektedir.",
+        "explanation": "Düzenli hareket kasların çalışmasını ve kemik gelişimini destekler. Sporun amacı boyu kısaltmak veya hastalık oluşturmak değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_8",
@@ -7308,7 +7308,7 @@
           "Yağmurluk ve su geçirmez bot"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yağmurluk ve su geçirmez bot' olduğu açıkça görülmektedir.",
+        "explanation": "Yağmurluk yağmur suyuna, su geçirmez botlar ıslak zemine karşı korur. Şort ve terlik bu koşullara uygun koruma sağlamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_9",
@@ -7323,7 +7323,7 @@
           "Marketin tabelasına"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Son Tüketim Tarihine (STT)' olduğu açıkça görülmektedir.",
+        "explanation": "Son tüketim tarihi gıdanın güvenle tüketilebileceği süreyle ilgilidir. Ambalaj rengi ürünün taze veya güvenli olduğunu göstermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayatbilgisi_konu3_saglikli_hayat_10",
@@ -7514,7 +7514,7 @@
           "Ankara"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ankara' olduğu açıkça görülmektedir.",
+        "explanation": "Türkiye'nin başkenti Ankara'dır. İstanbul ve İzmir büyük şehirlerimizdir ancak başkent değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_1",
@@ -7529,7 +7529,7 @@
           "Beyaz zemin üzerine kırmızı güneş"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kırmızı zemin üzerine beyaz ay ve yıldız' olduğu açıkça görülmektedir.",
+        "explanation": "Türk bayrağı kırmızı zemin üzerindeki beyaz ay ve yıldızdan oluşur. Diğer renk ve şekil birleşimleri bayrağımızı tanımlamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_2",
@@ -7544,7 +7544,7 @@
           "İstanbul"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Selanik' olduğu açıkça görülmektedir.",
+        "explanation": "Atatürk 1881'de Selanik'te doğmuştur. Ankara onun doğduğu şehir değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_3",
@@ -7574,7 +7574,7 @@
           "Gençlik ve Spor Bayramı"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ulusal Egemenlik ve Çocuk Bayramı' olduğu açıkça görülmektedir.",
+        "explanation": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır. Cumhuriyet Bayramı 29 Ekim, Gençlik ve Spor Bayramı 19 Mayıs'tır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_5",
@@ -7589,7 +7589,7 @@
           "Onları oyunlarımıza almamalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Onlara saygı göstermeli ve misafirperver davranmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Başka ülkeden gelmek kişinin saygı görme hakkını değiştirmez. Birlikte konuşmak ve oyunlara katılmasını sağlamak uyumu destekler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_6",
@@ -7604,7 +7604,7 @@
           "Cumhuriyet Bayramı"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ramazan Bayramı' olduğu açıkça görülmektedir.",
+        "explanation": "Ramazan Bayramı dinî bayramdır. Zafer ve Cumhuriyet bayramları ise tarihimizdeki millî olaylarla ilgilidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_7",
@@ -7619,7 +7619,7 @@
           "Muhtar"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Muhtar' olduğu açıkça görülmektedir.",
+        "explanation": "Muhtar mahalle veya köyün seçilmiş yöneticisidir. Müdür okul gibi bir kurumun, öğretmen eğitim sürecinin sorumlusudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_8",
@@ -7634,7 +7634,7 @@
           "Çiftçi"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çiftçi' olduğu açıkça görülmektedir.",
+        "explanation": "Çiftçi tarım ürünleri yetiştirerek besin üretimine katkı sağlar. Şoför ulaşım, polis güvenlik alanında çalışır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_9",
@@ -7649,7 +7649,7 @@
           "Ankara"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ankara' olduğu açıkça görülmektedir.",
+        "explanation": "Atatürk'ün mezarının bulunduğu Anıtkabir Ankara'dadır. Doğum yeri Selanik ile karıştırılmamalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu5_ulkemizde_10",
@@ -7692,7 +7692,7 @@
           "Su ve toprak"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karanlık ve susuz ortam' olduğu açıkça görülmektedir.",
+        "explanation": "Bitkinin yaşamı için suya ve uygun ışığa ihtiyacı vardır. Sürekli karanlık ve susuz bırakmak büyümeyi destekleyen bir koşul değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_2",
@@ -7707,7 +7707,7 @@
           "Geri dönüşüm kutularına"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Geri dönüşüm kutularına' olduğu açıkça görülmektedir.",
+        "explanation": "Kâğıt, plastik ve cam uygun geri dönüşüm kutularında ayrı toplanır. Suya atmak kirliliğe, karışık çöpe atmak geri kazanımın zorlaşmasına yol açar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_3",
@@ -7722,7 +7722,7 @@
           "Bal"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bal' olduğu açıkça görülmektedir.",
+        "explanation": "Arılar çiçeklerden topladıkları nektarı işleyerek bal üretir. Süt ve yumurta arılar tarafından üretilmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_4",
@@ -7737,7 +7737,7 @@
           "Kedi"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İnek' olduğu açıkça görülmektedir.",
+        "explanation": "İnekten elde edilen süt, peynir ve yoğurt yapımında kullanılabilir. Tavuk yumurta verir; bu süt ürünlerinin kaynağı değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_5",
@@ -7752,7 +7752,7 @@
           "Yağmur"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dolu' olduğu açıkça görülmektedir.",
+        "explanation": "Buz taneleri hâlinde düşen yağış doludur. Yağmur sıvı damlacıklar, sis ise yere yakın havada asılı damlacıklardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_6",
@@ -7767,7 +7767,7 @@
           "Merdivenlerden hızlıca inmek"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çök - Kapan - Tutun' olduğu açıkça görülmektedir.",
+        "explanation": "Sarsıntı sırasında çök-kapan-tutun hareketi başı ve boynu korumayı amaçlar. Merdivene koşmak veya atlamak yaralanma riskini artırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_7",
@@ -7797,7 +7797,7 @@
           "Hortum"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sel' olduğu açıkça görülmektedir.",
+        "explanation": "Taşan suların çevreyi kaplaması seldir. Çığ kar kütlesinin kayması, hortum ise dönerek ilerleyen hava olayıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_9",
@@ -7812,7 +7812,7 @@
           "Rüzgar"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yağmur' olduğu açıkça görülmektedir.",
+        "explanation": "Bulutlardaki su damlalarının sıvı olarak yere düşmesi yağmurdur. Kar buz kristalleri biçiminde, rüzgâr ise havanın hareketi olarak görülür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_2_sinif_hayat_konu6_dogada_10",
@@ -8932,7 +8932,7 @@
           "Eş anlamlı kelimelerdir."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eş sesli (sesteş) kelimelerdir.' olduğu açıkça görülmektedir.",
+        "explanation": "Birinci cümlede dolu bir yağış türüdür; ikincide boş olmayan anlamındadır. Yazılışı aynı, anlamları farklı olan bu kullanımlar sesteştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu1_sozcukte_anlam_7",
@@ -8955,14 +8955,14 @@
       },
       {
         "id": "T2-G3-TÜRK-DEĞERL-09",
-        "question": "Aşağıdaki kelimelerden hangisinin sonuna \"lik, lı, lık\" gibi ekler getirilirse kelimenin anlamı **değişmez**?\n(İpucu: Ek alınca yeni bir varlık adı oluşturanları eleyin).",
+        "question": "Ağaç sözcüğüne hangi ek getirilirse sözcük yalnızca çoğul olur, yeni bir kavram adı türemez?",
         "choices": [
           "-lar (Ağaçlar)",
           "-lık (Ağaçlık)",
           "-sız (Ağaçsız)"
         ],
-        "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '-lık (Ağaçlık)' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Ağaçlar sözcüğündeki -lar yalnız sayıca çokluk bildirir; yeni bir kavram adı türetmez. Ağaçlık ve ağaçsız ise yapım eki alır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu1_sozcukte_anlam_9",
@@ -9020,7 +9020,7 @@
           "Hayal ürünü"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karşılaştırma' olduğu açıkça görülmektedir.",
+        "explanation": "‘Daha hızlı’ ifadesi tavşanın hızını diğer hayvanların hızıyla karşılaştırır. Cümlede bu hızın nedeni açıklanmamıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu2_cumlede_anlam_2",
@@ -9035,7 +9035,7 @@
           "Bulutlar kendi aralarında konuşup kimin daha pofuduk olduğunu tartıştı."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bulutlar kendi aralarında konuşup kimin daha pofuduk olduğunu tartıştı.' olduğu açıkça görülmektedir.",
+        "explanation": "Bulutların konuşup tartışması insana ait davranışların bulutlara verilmesidir. Diğer olaylar gerçek yaşamda olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu2_cumlede_anlam_3",
@@ -9080,7 +9080,7 @@
           "Çalışkanlık ve üretkenlik yönünden"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çalışkanlık ve üretkenlik yönünden' olduğu açıkça görülmektedir.",
+        "explanation": "‘Çalışkan’ ve ‘üretken’ sözcükleri karşılaştırılan özellikleri belirtir. Cümlede büyüklük veya renk hakkında bilgi yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu2_cumlede_anlam_6",
@@ -9125,7 +9125,7 @@
           "Yağmur çok şiddetli yağınca sokaklar su içinde kaldı."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kardeşim ağlamaktan gözyaşlarıyla odayı göle çevirdi.' olduğu açıkça görülmektedir.",
+        "explanation": "Gözyaşlarının bir odayı göle çevirmesi gerçek ölçüyü aşar. Çok ağlamayı vurgulamak için abartılı anlatım kullanılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu2_cumlede_anlam_9",
@@ -9243,7 +9243,7 @@
           "Bu sabah saat 08.00'de uyandım."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yarışmayı 3. sırada tamamladım.' olduğu açıkça görülmektedir.",
+        "explanation": "3. ifadesi üçüncü diye okunarak yarışmadaki sırayı belirtir. Tarih ve saat içindeki noktalar sayıları ayırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu3_dil_bilgisi_6",
@@ -9258,7 +9258,7 @@
           "Akşam olunca hava aniden soğudu"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yarın okulda hangi derslerin olduğunu biliyor musun' olduğu açıkça görülmektedir.",
+        "explanation": "‘Biliyor musun’ doğrudan yanıt bekleyen sorudur. Diğer iki cümle bir olay veya yargı bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu3_dil_bilgisi_7",
@@ -9288,7 +9288,7 @@
           "Kutlamalar 29 Ekim'de yapılacak."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kardeşim ekim ayında doğdu.' olduğu açıkça görülmektedir.",
+        "explanation": "Belirli tarih bildiren 15 Haziran ve 29 Ekim'de ay adları büyük yazılır. Gün belirtilmeyen ‘ekim ayında’ ifadesinde küçük harf kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_turkce_konu3_dil_bilgisi_9",
@@ -9324,14 +9324,14 @@
     "questions": [
       {
         "id": "T2-G3-TÜRK-BILGIH-01",
-        "question": "'Masa' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrenci ansiklopedide “göç” maddesini arıyor. Sözcükleri hangi sıraya göre taramalıdır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Alfabetik sıraya göre",
+          "Sayfa rengine göre",
+          "Kitap kalınlığına göre"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Masa' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Ansiklopedi maddeleri alfabetik dizildiği için önce g harfine bakılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9339,14 +9339,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-02",
-        "question": "'Pencere' ve 'Okul' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir metindeki tarih ve yer bilgisini doğrulamak isteyen öğrenci hangi kaynağa bakabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Kaynağı hiç kontrol etmez.",
+          "Güvenilir bir kaynakta aynı olayı araştırır.",
+          "İlk duyduğu söylentiye inanır."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Pencere' ve 'Okul' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Aynı bilgiyi güvenilir bir kaynaktan karşılaştırmak doğrulamaya yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9354,14 +9354,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-03",
-        "question": "'Dağ' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ayşe yağmur başladığında şemsiyesini açtı.” Ayşe ne zaman şemsiyesini açtı?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Yağmurdan bir gün önce",
+          "Güneş battığında",
+          "Yağmur başladığında"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Dağ' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "“Başladığında” sözü eylemin gerçekleştiği zamanı bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9369,14 +9369,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-04",
-        "question": "'Okul' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bilmediği bir sözcüğün anlamını arayan öğrenci önce hangi aracı kullanabilir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sözlük",
+          "Termometre",
+          "Cetvel"
         ],
         "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Sözlük sözcüklerin anlamını açıklar; diğer araçlar ölçüm yapar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9384,14 +9384,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-05",
-        "question": "'Çanta' ve 'Kedi' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir haberde olayın geçtiği yer belirtilmiş. “Nerede?” sorusunun yanıtı hangi bilgidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Olayın tarihi",
+          "Olayın yeri",
+          "Olayın nedeni"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Çanta' ve 'Kedi' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "“Nerede?” sorusu mekânı sorar; neden ve tarih başka soruların yanıtıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9414,14 +9414,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-07",
-        "question": "'Kalem' ve 'Yıldız' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Kuşlar yuvalarına döndü çünkü hava karardı.” Bu cümlede gerekçe hangisidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Kuşların sayısı",
+          "Yuvanın rengi",
+          "Havanın kararması"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Kalem' ve 'Yıldız' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "“Çünkü”den sonra verilen bilgi dönüşün nedenidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9429,14 +9429,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-08",
-        "question": "'Çanta' ve 'Yıldız' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "İki kaynak aynı olay için farklı tarih veriyor. Öğrenci ne yapmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Tarihleri başka güvenilir kaynaktan doğrulamalıdır.",
+          "Rastgele birini seçmelidir.",
+          "İki tarihi birleştirmelidir."
         ],
         "correctAnswer": 0,
-        "explanation": "'Çanta' ve 'Yıldız' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Farklı bilgi, daha güvenilir kanıtla karşılaştırılarak çözülebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9444,14 +9444,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-09",
-        "question": "'Ağaç' ve 'Muz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Metnin başlığı “Su Tasarrufu”, örnekleri kapalı musluk ve kısa duş ise ana konu nedir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Kitap saymak",
+          "Suyu dikkatli kullanmak",
+          "Dağ gezisi yapmak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Ağaç' ve 'Muz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Başlık ve örnekler aynı davranışı, suyu boşa harcamamayı anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9459,14 +9459,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILGIH-10",
-        "question": "'Göl' ve 'Defter' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir olayın kim tarafından yapıldığını bulmak için hangi soruyu sorarız?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ne zaman?",
+          "Nerede?",
+          "Kim?"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Göl' ve 'Defter' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "“Kim?” eylemi yapan kişiyi; diğer sorular zaman ve yeri buldurur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9502,14 +9502,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-02",
-        "question": "'Yıldız' ve 'Deniz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Duru ilk denemede şiiri ezberleyemedi; her gün bir kıta çalıştı. Sonuçta ne oldu?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Küçük adımlarla ilerledi.",
+          "Hiç çalışmadı.",
+          "Şiiri yırttı."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Yıldız' ve 'Deniz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Her gün bir kıta çalışmak zor işi parçalara ayırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9517,14 +9517,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-03",
-        "question": "'Çanta' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Resim yapan Ali renkleri karıştırmayı öğrenmek istiyor. Hangisi araştırılabilir bir denemedir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Hiç boyaya dokunmamak",
+          "İki boyayı karıştırıp oluşan rengi gözlemek",
+          "Boyaların adını gizlemek"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Çanta' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "İki boyayı karıştırınca oluşan renk doğrudan gözlenebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9532,14 +9532,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-04",
-        "question": "'Toprak' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir arkadaşının bestelediği şarkıyı dinleyen çocuk hangisini söyleyerek yapıcı geri bildirim verir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Şarkını dinlemeyeceğim.",
+          "Hiçbir kısmı üzerinde çalışamazsın.",
+          "Nakaratını sevdim; ritmi biraz yavaşlatmayı dener misin?"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Toprak' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Belirli güçlü yanı ve denenebilir öneriyi söylemek gelişmeye yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9547,14 +9547,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-05",
-        "question": "'Masa' ve 'Armut' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Önce hareketleri öğrendim, sonra müzikle denedim.” İkinci adım hangisidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Müzikle denemek",
+          "Hareketleri öğrenmek",
+          "Gösteriyi bitirmek"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Masa' ve 'Armut' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "“Sonra” ikinci işi belirtir; bu iş hareketleri müzikle denemektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9562,14 +9562,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-06",
-        "question": "'Okul' ve 'Ateş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Zeynep kendi hızında satranç öğreniyor. Arkadaşı daha hızlı öğrendi. Hangisi doğrudur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sadece hızlı öğrenenler oynayabilir.",
+          "Öğrenme hızları farklı olabilir.",
+          "Zeynep asla öğrenemez."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Ateş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Farklı hızlar mümkündür; çalışma becerinin gelişmesine yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9577,14 +9577,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-07",
-        "question": "'Defter' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk tiyatroya hazırlanırken repliklerini unutuyor. Hangi çözümü deneyebilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Provalara hiç gitmemek",
+          "Arkadaşını suçlamak",
+          "Kısa bölümler hâlinde tekrar etmek"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Defter' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Metni bölerek tekrar etmek hatırlamayı kolaylaştırabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9592,14 +9592,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-08",
-        "question": "'Öğrenci' ve 'Dağ' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arda yaptığı maketin sağlam durmadığını gördü. Nasıl geliştirebilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Zayıf bağlantıları inceleyip güçlendirir.",
+          "Sonucu görmezden gelir.",
+          "Maketin adını değiştirir."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Öğrenci' ve 'Dağ' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Sorun bağlantılardaysa onları güçlendirmek maketin dengesini artırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9607,14 +9607,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-09",
-        "question": "'Güneş' ve 'Silgi' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Ece çok iyi koşar, Can güzel resim yapar.” Cümle hangi düşünceyi destekler?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Resim koşmadan değersizdir.",
+          "Yetenekler kişiden kişiye değişebilir.",
+          "Herkes aynı alanda iyidir."
         ],
         "correctAnswer": 1,
-        "explanation": "'Güneş' ve 'Silgi' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "İki çocuğun farklı güçlü yönleri vardır; biri diğerini değersizleştirmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9622,14 +9622,14 @@
       },
       {
         "id": "T2-G3-TÜRK-YETENE-10",
-        "question": "'Silgi' ve 'Kedi' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir yarışmada kazanamayan arkadaşına ne demek destekleyicidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Bir daha deneme.",
+          "Hatanla alay ediyorum.",
+          "Çalışmanı gördüm, istersen yeniden deneyelim."
         ],
         "correctAnswer": 2,
-        "explanation": "'Silgi' ve 'Kedi' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Çabayı fark etmek ve yeniden denemeyi önermek yapıcı destektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9650,14 +9650,14 @@
     "questions": [
       {
         "id": "T2-G3-TÜRK-BILIMY-01",
-        "question": "'Ateş' ve 'Kalem' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "İki bitkiye eşit su verilip biri aydınlıkta, biri karanlıkta tutuldu. Hangi etki araştırılır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Işığın etkisi",
+          "Saksının rengi",
+          "Su miktarının etkisi"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Ateş' ve 'Kalem' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Su eşittir; değiştirilen koşul ışık olduğundan etkisi incelenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9680,14 +9680,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-03",
-        "question": "'Hava' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir deneyin sonuçlarını başkalarının da anlaması için ne yapılmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ölçüler değiştirilmelidir.",
+          "Gözlemler açıkça kaydedilmelidir.",
+          "Sonuçlar saklanmalıdır."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Hava' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Kaydedilmiş gözlemler deneyin nasıl sonuçlandığını gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9695,14 +9695,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-04",
-        "question": "'Yıldız' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Mert mıknatısın hangi nesneleri çektiğini anlamak istiyor. Hangi karşılaştırma uygundur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "İki aynı demir ataş",
+          "İki aynı plastik düğme",
+          "Demir ataş ve plastik düğme"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Yıldız' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Farklı malzemeleri denemek mıknatısın maddeye göre etkisini gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9710,14 +9710,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-05",
-        "question": "'Buz' ve 'Kitap' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Tahminim doğru çıkmadı; yeni verileri inceledim.” Bu cümle bilimsel çalışmanın hangi yönünü gösterir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Kanıta göre düşünceyi değiştirmeyi",
+          "Sonucu önceden değiştirmeyi",
+          "Gözlemi saklamayı"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Buz' ve 'Kitap' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Tahmin kanıta uymadığında gözlem yeniden değerlendirilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9740,14 +9740,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-07",
-        "question": "'Su' ve 'Armut' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk gölgesinin öğleden sonra uzadığını fark etti. Hangi veri bu gözlemi karşılaştırmasını sağlar?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Defterin rengi",
+          "Aynı yerde farklı saatlerde gölge boyu",
+          "Ayakkabı numarası"
         ],
         "correctAnswer": 1,
-        "explanation": "'Su' ve 'Armut' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Gölge boyunu saatlere göre ölçmek değişimi gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9755,14 +9755,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-08",
-        "question": "'Defter' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir gözlem defterine “yaprak 4 cm” yazan öğrenci ne kaydetmiştir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Yalnız duygu",
+          "Bitkinin yaşı",
+          "Ölçülebilir bir uzunluk"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Defter' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Santimetre uzunluk birimidir; 4 cm yaprağın ölçüsünü bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9770,14 +9770,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-09",
-        "question": "'Muz' ve 'Buz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bilimsel bir soruda “hangi koşul değişti?” diye bakmak neden yararlıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Sonuçtaki farkın nedenini araştırmak için",
+          "Sonucu gizlemek için",
+          "Ölçüleri rastgele seçmek için"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Muz' ve 'Buz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Değişen koşul ile gözlenen sonuç karşılaştırılabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9785,14 +9785,14 @@
       },
       {
         "id": "T2-G3-TÜRK-BILIMY-10",
-        "question": "'Kedi' ve 'Muz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir araştırmada yağmur miktarı her gün aynı kapla toplandı. Aynı kap neden kullanılmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Yağmuru durdurmak için",
+          "Ölçümlerin karşılaştırılabilmesi için",
+          "Kabın rengini değiştirmek için"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Kedi' ve 'Muz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Ölçme yöntemi aynı kalırsa günler arasındaki fark yorumlanabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9813,14 +9813,14 @@
     "questions": [
       {
         "id": "T2-G3-TÜRK-MILLÎK-01",
-        "question": "'Muz' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Büyükannesinden öğrendiği ninniyi kardeşine söyleyen çocuk neyi aktarıyor?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sözlü kültür örneğini",
+          "Hava tahminini",
+          "Matematik formülünü"
         ],
         "correctAnswer": 0,
-        "explanation": "'Muz' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Ninni kuşaktan kuşağa söylenerek aktarılabilen bir kültür ürünüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9843,14 +9843,14 @@
       },
       {
         "id": "T2-G3-TÜRK-MILLÎK-03",
-        "question": "'Armut' ve 'Köpek' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir köyde farklı bayram yemekleri yapılıyor. Bunları öğrenmek için kime danışılabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Yemekle ilgisi olmayan sayaca",
+          "Yemeği hazırlayan köy sakinlerine",
+          "Rastgele bir reklam afişine"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Armut' ve 'Köpek' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Yemeği hazırlayan kişiler kullanılan malzeme ve geleneği doğrudan anlatabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9858,14 +9858,14 @@
       },
       {
         "id": "T2-G3-TÜRK-MILLÎK-04",
-        "question": "'Yıldız' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Eski fotoğraflara bakıp dedemin çocukluğunu dinledim.” Çocuk hangi iki kaynağı kullandı?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Yalnız hava durumu",
+          "Yalnız trafik levhası",
+          "Fotoğraf ve sözlü anlatım"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Yıldız' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Fotoğraf görsel belge, dedenin anlattığı anı sözlü kaynaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9873,14 +9873,14 @@
       },
       {
         "id": "T2-G3-TÜRK-MILLÎK-05",
-        "question": "'Çanta' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir yöresel oyunun kuralları unutulmasın diye ne yapılabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Kuralları yazıp birlikte oynamak",
+          "Oyunu yasaklamak",
+          "Malzemeleri saklamak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Çanta' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Yazma ve uygulama, kuralların başkalarına aktarılmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9903,14 +9903,14 @@
       },
       {
         "id": "T2-G3-TÜRK-MILLÎK-07",
-        "question": "'Elma' ve 'Ağaç' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Kültürümüzde konuklara ikram edilir.” cümlesinde ikram ne demektir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Eşyaları kilitleme",
+          "Konuklara yiyecek veya içecek sunma",
+          "Konukları dışarı çıkarma"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Elma' ve 'Ağaç' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "İkram, misafire bir şey sunmak anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9918,14 +9918,14 @@
       },
       {
         "id": "T2-G3-TÜRK-MILLÎK-08",
-        "question": "'Kapı' ve 'Göl' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Farklı yörelerin türkülerini dinleyen çocuk hangi farklılığı keşfeder?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Gezegenlerin sayısını",
+          "Hava basıncını",
+          "Ezgi ve söz çeşitliliğini"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Kapı' ve 'Göl' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Türküler yörelere göre farklı ezgi ve sözler taşıyabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9976,14 +9976,14 @@
     "questions": [
       {
         "id": "T2-G3-TÜRK-HAKVES-01",
-        "question": "'Köpek' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıf toplantısında söz isteyen herkes sırayla konuşuyor. Hangi hak korunuyor?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Görüşünü söyleme hakkı",
+          "Başkalarının sözünü kesme hakkı",
+          "Eşyayı izinsiz alma hakkı"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Köpek' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Sıra verilmesi herkesin düşüncesini ifade etmesine fırsat tanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -9991,14 +9991,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-02",
-        "question": "'Köpek' ve 'Ev' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Kütüphaneden kitap alan çocuğun sorumluluğu nedir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Kitabı izinsiz başkasına satmak",
+          "Kitabı zamanında ve sağlam geri vermek",
+          "Sayfalarını koparmak"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Köpek' ve 'Ev' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Ortak kitap başkaları da okuyabilsin diye özenle geri verilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10006,14 +10006,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-03",
-        "question": "'Su' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Oyun alanında küçük çocuklar da sıra bekliyor. Adil davranış hangisidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Sırayı zorla almak",
+          "Oyunu yalnız kendine ayırmak",
+          "Sıraya uymak"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Su' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Sıraya uyulursa alandaki herkes oyuna katılabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10021,14 +10021,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-04",
-        "question": "'Çanta' ve 'Öğretmen' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir öğrencinin fikrine katılmayan arkadaş hangisini söyleyebilir?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Ben farklı düşünüyorum; gerekçemi anlatayım.",
+          "Konuşmana izin vermem.",
+          "Seninle alay ederim."
         ],
         "correctAnswer": 0,
-        "explanation": "'Çanta' ve 'Öğretmen' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Farklı düşünce gerekçeyle ve saygılı sözlerle ifade edilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10036,14 +10036,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-05",
-        "question": "'Çanta' ve 'Ev' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "“Odamı toplamak benim görevim.” diyen çocuk neyi anlatır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Arkadaşının görevi",
+          "Evdeki sorumluluğunu",
+          "Oyun yasağını"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Çanta' ve 'Ev' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Kendi odasını düzenli tutmak çocuğun yaşına uygun sorumluluğudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10051,14 +10051,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-06",
-        "question": "'Okul' ve 'Öğretmen' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okul bahçesindeki bank herkese aittir. Nasıl kullanılmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Kırılarak",
+          "Eve götürülerek",
+          "Zarar vermeden"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Okul' ve 'Öğretmen' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Ortak eşya korunursa diğer öğrenciler de kullanabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10066,14 +10066,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-07",
-        "question": "'Muz' ve 'Göl' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk haksız davranıldığını düşünüyorsa ilk olarak ne yapabilir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Durumu güvenilir bir yetişkine anlatır.",
+          "Başkasına zarar verir.",
+          "Sorunu saklar."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Muz' ve 'Göl' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Durumu anlatmak yardım ve adil çözüm arama fırsatı verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10081,14 +10081,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-08",
-        "question": "'Su' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Herkesin kitap okuma saatine katılabilmesi için sınıf ne yapmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Okumak isteyeni dışlar.",
+          "Kitapları paylaşır ve sırayla kullanır.",
+          "Bütün kitapları bir kişi saklar."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Su' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Paylaşım herkesin okuma fırsatına erişmesine yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10096,14 +10096,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-09",
-        "question": "'Kuş' ve 'Yıldız' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arkadaşın konuşurken telefonla oyalanmak yerine ne yapmalısın?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Sözünü sürekli kesmelisin.",
+          "Alay etmelisin.",
+          "Sözünü dinlemelisin."
         ],
         "correctAnswer": 2,
-        "explanation": "'Kuş' ve 'Yıldız' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Dinlemek arkadaşın düşüncesine ve konuşma sırasına saygıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10111,14 +10111,14 @@
       },
       {
         "id": "T2-G3-TÜRK-HAKVES-10",
-        "question": "'Ev' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir hak kullanılırken başkasının hakkına zarar verilmemesi neden gerekir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir."
+          "Herkesin aynı haklardan yararlanabilmesi için",
+          "Yalnız bir kişinin kazanması için",
+          "Kuralların kaldırılması için"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Ev' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Haklar birlikte yaşanır; birinin davranışı başkasının hakkını engellememelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -10251,7 +10251,7 @@
           "29"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 5 ve 2 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı 29 çıkmaktadır.",
+        "explanation": "İlk terim 18'dir. Sırayla +5 ve −2 uygulanınca 18, 23, 21, 26, 24, 29 elde edilir; altıncı terim 29'dur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu1_dogal_sayilar_6",
@@ -10354,7 +10354,7 @@
           "Onlukları ve birlikleri ayırarak toplama"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Onlukları ve birlikleri ayırarak toplama' olduğu açıkça görülmektedir.",
+        "explanation": "43, 40 + 3; 28, 20 + 8 olarak ayrılmıştır. Önce onluklar, sonra birlikler toplanıp iki sonuç birleştirilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu2_dort_islem_2",
@@ -10474,7 +10474,7 @@
           "Çözümü \"25 x 4 = 100 ve 100 - 15 = 85\" olacak şekilde bir alışveriş hikayesi yazınız."
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Çözümü \"25 x 4 = 100 ve 100 - 15 = 85\" olacak şekilde bir alışveriş hikayesi yazınız. sonucuna ulaşılır.",
+        "explanation": "Problem kurmada verilen işlemlere uygun yeni bir olay ve soru yazılır. Diğer seçenekler hazırlanmış bir işlemi veya soruyu çözmeyi ister.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu2_dort_islem_10",
@@ -10502,7 +10502,7 @@
           "Yarım"
         ],
         "correctAnswer": 1,
-        "explanation": "Verilen 8 ve 1 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Birim kesir (Sekizde bir) çıkmaktadır.",
+        "explanation": "Pasta sekiz eş parçaya ayrılmış ve bir parça yenmiştir. Bu miktar 1/8'dir; payı 1 olduğu için birim kesirdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu3_kesirler_1",
@@ -10517,7 +10517,7 @@
           "1/9 (Dokuzda bir)"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 1/3 (Üçte bir) sonucuna ulaşılır.",
+        "explanation": "Aynı bütün üç eş parçaya bölününce her parça, altı veya dokuz parçaya bölünmesinden daha büyük olur. Bu nedenle 1/3 en büyüktür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu3_kesirler_2",
@@ -10577,7 +10577,7 @@
           "6/4"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '4/6' olduğu açıkça görülmektedir.",
+        "explanation": "Birim aralık altı eş parçadır; her adım 1/6'dır. Sıfırdan dört adım ilerlemek 4/6'yı gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu3_kesirler_6",
@@ -10622,7 +10622,7 @@
           "4/4"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında 4/4 sonucuna ulaşılır.",
+        "explanation": "Dört eş parçanın dördü de alındığında bütün alınmış olur: 4/4 = 1. Diğer kesirlerde pay paydadan küçüktür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu3_kesirler_9",
@@ -10665,7 +10665,7 @@
           "Işın"
         ],
         "correctAnswer": 1,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Doğru sonucuna ulaşılır.",
+        "explanation": "Doğru her iki yönde sonsuza uzatılabilir. Işının bir başlangıcı, doğru parçasının iki ucu vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_1",
@@ -10695,7 +10695,7 @@
           "Dik Açı"
         ],
         "correctAnswer": 2,
-        "explanation": "Verilen 03 ve 00 değerleri kullanılarak işlem yapıldığında, problemin doğru yanıtı Dik Açı çıkmaktadır.",
+        "explanation": "Saat üçte yelkovan 12'yi, akrep 3'ü gösterir. Aralarında çemberin dörtte biri, yani 90 derecelik dik açı oluşur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_3",
@@ -10710,7 +10710,7 @@
           "A"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında G sonucuna ulaşılır.",
+        "explanation": "Standart büyük blok G harfi katlandığında iki eş yarı oluşturmaz. A'nın dikey, E'nin yatay simetri doğrusu bulunabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_4",
@@ -10748,14 +10748,14 @@
       },
       {
         "id": "T2-G3-MATE-NESNEL-07",
-        "question": "Alt ve üst yüzeyi daire şeklinde olan, köşesi veya ayrıtı bulunmayan geometrik cisim aşağıdakilerden hangisidir? (Örnek: Konserve kutusu).",
+        "question": "Alt ve üst yüzeyi daire şeklinde olan geometrik cisim hangisidir? (Örnek: Konserve kutusu.)",
         "choices": [
           "Küre",
           "Silindir",
           "Koni"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Silindir' olduğu açıkça görülmektedir.",
+        "explanation": "Silindirin iki daire biçimli düz tabanı ve eğri yan yüzeyi vardır. Kürenin tabanı yoktur; koninin yalnız bir tabanı ve tepesi vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_7",
@@ -10770,7 +10770,7 @@
           "Çizgi"
         ],
         "correctAnswer": 0,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Nokta sonucuna ulaşılır.",
+        "explanation": "Kalemin ucu kâğıda bir kez dokundurulduğunda nokta modeli oluşur. Kalem hareket ettirilirse çizgi çizilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_8",
@@ -10785,7 +10785,7 @@
           "Dar Açı / Geniş Açı"
         ],
         "correctAnswer": 2,
-        "explanation": "Problemdeki sayısal veriler hesaplandığında Dar Açı / Geniş Açı sonucuna ulaşılır.",
+        "explanation": "90 dereceden küçük açıklık dar açı, 90 ile 180 derece arasındaki açıklık geniş açıdır. Açı türünü açıklığın ölçüsü belirler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_matematik_konu4_geometri_9",
@@ -11169,7 +11169,7 @@
           "Sınıf panosunu tek başına yırtmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İhtiyacı olan okullar için kitap veya kıyafet bağış kampanyası düzenlemek' olduğu açıkça görülmektedir.",
+        "explanation": "Kitap veya kıyafet bağışı başkalarının ihtiyacını karşılamaya yöneliktir. Yalnız kendine alışveriş yapmak toplumsal yardımlaşma örneği değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_2",
@@ -11184,7 +11184,7 @@
           "Onları oyunlarımıza almamalıyız."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Farklılıkları bir zenginlik olarak görüp herkese saygı ve sevgiyle yaklaşmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Boy, ilgi ve gereksinimler farklı olabilir. Her arkadaşın oyuna ve saygılı ilişkilere katılmasını sağlamak sınıfı güçlendirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_3",
@@ -11199,7 +11199,7 @@
           "Doktor"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doktor' olduğu açıkça görülmektedir.",
+        "explanation": "Doktor hastaları muayene edip tedavi eder. Mimar bina tasarlar, şoför taşıt kullanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_4",
@@ -11214,7 +11214,7 @@
           "Cumhuriyet (Demokrasi)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cumhuriyet (Demokrasi)' olduğu açıkça görülmektedir.",
+        "explanation": "Arkadaşların oy kullanarak temsilci seçmesi karar sürecine katılmadır. Bu, demokrasinin okul ölçeğindeki bir örneğidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_5",
@@ -11229,7 +11229,7 @@
           "Herkesin ilgi alanlarının ve yeteneklerinin farklı olabileceğini"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Herkesin ilgi alanlarının ve yeteneklerinin farklı olabileceğini' olduğu açıkça görülmektedir.",
+        "explanation": "Resim ve matematik farklı becerilerdir. Birinde başarılı olmak diğerinin zekâsını veya değerini azaltmaz; kişilerin güçlü yanları farklı olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_6",
@@ -11244,7 +11244,7 @@
           "Duvarların gerçek uzunluğunu birebir metreyle ölçerek çizmeye"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Okulu kuş bakışı (yukarıdan) bakıyormuş gibi basit ve ölçüsüz olarak kağıda çizmeye' olduğu açıkça görülmektedir.",
+        "explanation": "Kroki bir yerin kuş bakışı, basitleştirilmiş gösterimidir. Bütün duvarları gerçek uzunluğunda çizmek gerekmez.",
         "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-2-soru-7.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_7",
@@ -11282,7 +11282,7 @@
           "Gündüzleri boş sınıfların lambalarını açık bırakmak"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Teneffüse çıkarken açık olan akıllı tahtayı kapatmak' olduğu açıkça görülmektedir.",
+        "explanation": "Kullanılmayan akıllı tahtayı kapatmak elektrik israfını azaltır. Boş sınıfta lambayı açık bırakmak ise israfa yol açar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_9",
@@ -11297,7 +11297,7 @@
           "Dilek Kutusu"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dilek Kutusu' olduğu açıkça görülmektedir.",
+        "explanation": "Dilek kutusu öğrencilerin istek ve şikâyetlerini okul yönetimine ulaştırır. Diğer kutular atık veya ilk yardım malzemeleri içindir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu1_okulda_hayat_10",
@@ -11325,7 +11325,7 @@
           "Geçmişte televizyon, günümüzden daha gelişmişti."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Günümüzde teknoloji geliştiği için iletişim araçları ve oyun alışkanlıkları değişmiştir.' olduğu açıkça görülmektedir.",
+        "explanation": "İletişim ve oyun araçları teknolojinin gelişmesiyle değişmiştir. Geçmişte bugünkü tablet ve internet oyunları yoktu.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_1",
@@ -11340,7 +11340,7 @@
           "Aile içindeki işlerin (temizlik, bulaşık) tamamını sadece anneye yaptırmak"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aile içindeki işlerin (temizlik, bulaşık) tamamını sadece anneye yaptırmak' olduğu açıkça görülmektedir.",
+        "explanation": "Ev işlerinin tümünü bir kişiye yüklemek adil değildir. Görev paylaşımı ve aile üyelerini dinlemek ilişkilere katkı sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_2",
@@ -11355,7 +11355,7 @@
           "Evin yakınındaki bilinen yerleri (market, cami, park) referans alarak basit bir kroki çizmek"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Evin yakınındaki bilinen yerleri (market, cami, park) referans alarak basit bir kroki çizmek' olduğu açıkça görülmektedir.",
+        "explanation": "Kroki yakın çevredeki belirgin yerleri ve yönleri göstererek adres bulmayı kolaylaştırır. Evin iç odaları dışarıdan gelen kişiye yol tarif etmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_3",
@@ -11370,7 +11370,7 @@
           "İhtiyaçlarımıza (Kira, gıda, faturalar)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İhtiyaçlarımıza (Kira, gıda, faturalar)' olduğu açıkça görülmektedir.",
+        "explanation": "Kira, gıda ve faturalar temel ihtiyaç giderleridir. Bütçede bunlara yer ayırdıktan sonra istekler değerlendirilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_4",
@@ -11385,7 +11385,7 @@
           "Gaz lambası"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Akıllı cep telefonu (Smartphone)' olduğu açıkça görülmektedir.",
+        "explanation": "Akıllı telefonlar bakır tencere ve gaz lambasına göre çok daha yeni teknolojidir. Dedenin çocukluğunda hangisinin kullanıldığını onun yaşına göre değerlendirmek gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_5",
@@ -11400,7 +11400,7 @@
           "Karşılaştığımızda komşularımıza selam verip gülümsemek."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gece geç saatlerde evde yüksek sesle müzik dinlemek.' olduğu açıkça görülmektedir.",
+        "explanation": "Gece yüksek sesli müzik komşuların dinlenmesini engelleyebilir. Selam vermek ve hastaya iyi dilekte bulunmak nezaket örnekleridir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu2_evimizde_hayat_6",
@@ -11488,7 +11488,7 @@
           "Öksürürken veya hapşırırken ağzımızı dirseğimizin içiyle veya peçeteyle kapatmak."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Öksürürken veya hapşırırken ağzımızı dirseğimizin içiyle veya peçeteyle kapatmak.' olduğu açıkça görülmektedir.",
+        "explanation": "Dirsek içi veya peçete kullanmak öksürük ve hapşırıkla yayılan damlacıkların çevreye saçılmasını azaltır. Ortak bardak kullanmak bulaşma riskini artırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_1",
@@ -11518,7 +11518,7 @@
           "Son Tüketim Tarihi (STT) veya Son Kullanma Tarihi (SKT)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Son Tüketim Tarihi (STT) veya Son Kullanma Tarihi (SKT)' olduğu açıkça görülmektedir.",
+        "explanation": "Son tüketim tarihi geçtikten sonra çabuk bozulan ürünler tüketilmemelidir. Üretim tarihi ürünün ne zaman yapıldığını söyler, güvenli son günü tek başına göstermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_3",
@@ -11526,14 +11526,14 @@
       },
       {
         "id": "T2-G3-HAYA-AILEMV-04",
-        "question": "Aşağıdaki yiyecek gruplarından hangisini tüketmek vücudumuza enerji verir ve büyümemizi sağlarken, fazla tüketimi obeziteye (aşırı şişmanlığa) yol **açmaz**? (Sağlıklı beslenme tabağı).",
+        "question": "Dengeli bir beslenme tabağında aşağıdaki besin gruplarından hangisine de yer verilmelidir?",
         "choices": [
           "Cips, kola ve çikolatalar",
           "Hazır dondurulmuş pizzalar ve kızartmalar",
           "Sebzeler, meyveler ve süt ürünleri"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sebzeler, meyveler ve süt ürünleri' olduğu açıkça görülmektedir.",
+        "explanation": "Sebze, meyve ve süt ürünleri çeşitli besinler sağlar. Bu seçenekler dengeli ve uygun miktarda tüketildiğinde sağlıklı beslenmenin parçasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_4",
@@ -11548,7 +11548,7 @@
           "Diş Hekimi"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Veteriner Hekim' olduğu açıkça görülmektedir.",
+        "explanation": "Veteriner hekim hayvanların sağlığıyla ilgilenir. Eczacı ilaç hizmeti verir; diş hekimi insanların dişlerini tedavi eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_5",
@@ -11563,7 +11563,7 @@
           "Kemik ve kaslarımızın güçlenmesini sağlar."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çabuk hastalanmamıza ve sürekli yorgun olmamıza neden olur.' olduğu açıkça görülmektedir.",
+        "explanation": "Düzenli egzersiz kasları çalıştırır ve kendimizi iyi hissetmemize yardımcı olabilir. Sürekli hastalık ve yorgunluğa neden olduğu ifadesi yanlıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_6",
@@ -11578,7 +11578,7 @@
           "Hijyen sağlamak ve mikropların (hastalıkların) yayılmasını önlemek için"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hijyen sağlamak ve mikropların (hastalıkların) yayılmasını önlemek için' olduğu açıkça görülmektedir.",
+        "explanation": "Sifon ve el yıkama ortak alanın temiz kalmasını, hastalık etkenlerinin ellere ve yüzeylere taşınmasının azalmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_7",
@@ -11593,7 +11593,7 @@
           "Kalın pamuklu kaban ve bot"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İnce bir tişört ve şort' olduğu açıkça görülmektedir.",
+        "explanation": "İnce tişört ve şort soğuk havada yeterli koruma sağlamaz. Bere, kaban ve bot vücudu sıcak tutmaya yardımcı olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_8",
@@ -11608,7 +11608,7 @@
           "Marketin manav reyonuna"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eczaneye' olduğu açıkça görülmektedir.",
+        "explanation": "Reçetedeki ilaç eczaneden alınır. Eczacı kullanım bilgisi verir; ilacın dozu konusunda doktorun yazdığı talimata uyulur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_9",
@@ -11623,7 +11623,7 @@
           "TRT Logosu"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'TSE (Türk Standardları Enstitüsü) Damgası' olduğu açıkça görülmektedir.",
+        "explanation": "TSE işareti ilgili ürünün belirlenmiş standarda uygunluğunu gösterir. MEB ve TRT işaretleri bu ürün standardını anlatmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu3_saglikli_hayat_10",
@@ -11814,7 +11814,7 @@
           "Ankara - İç Anadolu Bölgesi"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ankara - İç Anadolu Bölgesi' olduğu açıkça görülmektedir.",
+        "explanation": "Başkent Ankara, İç Anadolu Bölgesi'ndedir. İstanbul Marmara'da, İzmir Ege'dedir fakat başkent değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_1",
@@ -11844,7 +11844,7 @@
           "29 Ekim 1923"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '29 Ekim 1923' olduğu açıkça görülmektedir.",
+        "explanation": "Cumhuriyet 29 Ekim 1923'te ilan edildi. 23 Nisan 1920 Meclisin açılması, 19 Mayıs 1919 Millî Mücadele'nin başlangıcıyla ilgilidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_3",
@@ -11874,7 +11874,7 @@
           "Akdeniz"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karadeniz' olduğu açıkça görülmektedir.",
+        "explanation": "Haritada kuzey üst taraftaysa Türkiye'nin kuzey kıyıları Karadeniz'e açılır. Ege batıda, Akdeniz güneyde yer alır.",
         "image": "images/tests/3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-zor-test-2-soru-5.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_5",
@@ -11897,7 +11897,7 @@
           "Yollar ve Köprüler"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Türk Bayrağı ve İstiklal Marşı' olduğu açıkça görülmektedir.",
+        "explanation": "Türk bayrağı ve İstiklal Marşı bağımsız devletin ortak simgeleridir. Hastane ve yol hizmet yapılarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_6",
@@ -11912,7 +11912,7 @@
           "Misafirperverlik, saygı ve empatiyle yaklaşıp onların uyum sağlamasına yardımcı olmalıyız."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Misafirperverlik, saygı ve empatiyle yaklaşıp onların uyum sağlamasına yardımcı olmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Ülkemize sığınan kişiler de saygı görmelidir. Empati kurup arkadaşlık etmek onların yeni çevreye uyumunu destekler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_7",
@@ -11927,7 +11927,7 @@
           "Başka ülkelerden alınan borçlar"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tüm vatandaşların devlete ödediği vergiler' olduğu açıkça görülmektedir.",
+        "explanation": "Kamu hizmetleri vergi gelirleri gibi kamu kaynaklarıyla finanse edilir. Yalnız zenginler değil, kurallara göre farklı kişiler vergi öder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_8",
@@ -11942,7 +11942,7 @@
           "Mimar Sinan"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Vecihi Hürkuş' olduğu açıkça görülmektedir.",
+        "explanation": "Vecihi Hürkuş Türk havacılık tarihinde uçak tasarlama ve uçurma çalışmalarıyla tanınır. Diğer kişiler şiir ve mimarlık alanındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_9",
@@ -11957,7 +11957,7 @@
           "Savaşlar çok kısa sürmüş ve kimse zorluk çekmemiştir."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kadınlar, çocuklar ve yaşlılar dahil tüm millet birlik olup vatanı savunmuştur.' olduğu açıkça görülmektedir.",
+        "explanation": "Millî Mücadele'de askerlerin yanı sıra halk da farklı biçimlerde destek verdi. Kadın, çocuk ve yaşlıların katkısı birlikteliği gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu5_ulkemizde_hayat_10",
@@ -12015,7 +12015,7 @@
           "Samanyolu"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kutup Yıldızı' olduğu açıkça görülmektedir.",
+        "explanation": "Kutup Yıldızı kuzey yönüne çok yakın görünür ve yön bulmada kullanılmıştır. Samanyolu tek bir yıldız değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_3",
@@ -12030,7 +12030,7 @@
           "Ormanlık alanlarda izinsiz ateş yakıp bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Geri dönüşüm yapabilen çöplerimizi (kağıt, plastik) ayrı kutulara atmak' olduğu açıkça görülmektedir.",
+        "explanation": "Kâğıt ve plastiği uygun kutuda toplamak yeniden kullanımına yardım eder. Yağı lavaboya dökmek ve ormanda ateş bırakmak kirlilik veya tehlike yaratır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_4",
@@ -12045,7 +12045,7 @@
           "Çığ"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sel' olduğu açıkça görülmektedir.",
+        "explanation": "Çok yağış veya eriyen karın su miktarını artırması taşkına, yani sele yol açabilir. Deprem yer sarsıntısı, çığ kar kaymasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_5",
@@ -12060,7 +12060,7 @@
           "Boş arazileri ve yamaçları ağaçlandırmak (Fidan dikmek)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş arazileri ve yamaçları ağaçlandırmak (Fidan dikmek)' olduğu açıkça görülmektedir.",
+        "explanation": "Bitkilerin kökleri toprağı tutar ve rüzgâr ile suyun taşımasını azaltır. Çıplak yamaçların ağaçlandırılması erozyon riskini düşürür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_6",
@@ -12075,7 +12075,7 @@
           "Bu canlıların doğal yaşam alanlarını Milli Park ilan edip koruma altına almalıdır."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bu canlıların doğal yaşam alanlarını Milli Park ilan edip koruma altına almalıdır.' olduğu açıkça görülmektedir.",
+        "explanation": "Türlerin yaşadığı yerleri korumak beslenme ve üremelerine devam etmelerine yardım eder. Yaşam alanını yok etmek tehlikeyi artırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_7",
@@ -12083,14 +12083,14 @@
       },
       {
         "id": "T2-G3-HAYA-BILIM,-08",
-        "question": "Dünyamızın çevresindeki zararlı güneş ışınlarını tutan ve küresel ısınmayı tetikleyen durumlarla incelen tabakaya ne ad verilir? (Deodorantlar ve zehirli gazlar bu tabakayı deler).",
+        "question": "Güneş’ten gelen zararlı morötesi ışınların bir bölümünü tutan ve bazı insan kaynaklı kimyasalların etkisiyle incelen atmosfer tabakası hangisidir?",
         "choices": [
           "Su Tabakası",
           "Ozon Tabakası",
           "Çekirdek"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ozon Tabakası' olduğu açıkça görülmektedir.",
+        "explanation": "Ozon tabakası Güneş'ten gelen zararlı morötesi ışınların bir bölümünü tutar. Bazı insan kaynaklı gazlar ozonu azaltabilir; küresel ısınma ayrı bir süreçtir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_8",
@@ -12105,7 +12105,7 @@
           "Doğu (E)"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kuzey (N)' olduğu açıkça görülmektedir.",
+        "explanation": "Pusulanın kuzeyi işaretleyen ucu N yönünü gösterir. Doğu E, güney S harfiyle belirtilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_9",
@@ -12120,7 +12120,7 @@
           "Sadece ormandaki ağaçlar"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Toprakta ve suda yaşayan bitkiler ve hayvanlar (tüm doğal denge)' olduğu açıkça görülmektedir.",
+        "explanation": "Kirlilik toprağı, suyu ve orada yaşayan canlıları etkileyebilir. Zarar yalnız insanlara veya yalnız ağaçlara sınırlı değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_hayatbilgisi_konu6_dogada_hayat_10",
@@ -12163,7 +12163,7 @@
           "Sinemada heyecanlı bir çizgi film izlerken"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sinemada heyecanlı bir çizgi film izlerken' olduğu açıkça görülmektedir.",
+        "explanation": "Sinemada görüntüyü gözlerimizle görür, sesi kulaklarımızla duyarız. Radyo örneğinde görüntü, sessiz okuma örneğinde ses yoktur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_2",
@@ -12193,7 +12193,7 @@
           "Radyo Sunuculuğu"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Otobüs Şoförlüğü' olduğu açıkça görülmektedir.",
+        "explanation": "Otobüs kullanırken yolu ve trafik işaretlerini görmek zorunludur. Parfüm uzmanlığı daha çok koku, radyo sunuculuğu ses ve konuşmayla ilgilidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_4",
@@ -12208,7 +12208,7 @@
           "Kazağımızın yumuşak mı sert mi olduğunu"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elmanın tatlı mı ekşi mi olduğunu' olduğu açıkça görülmektedir.",
+        "explanation": "Deri sıcaklık ve dokuyu algılar; tadın tatlı veya ekşi olduğunu dilimizdeki tat alma duyusuyla anlarız.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_5",
@@ -12216,14 +12216,14 @@
       },
       {
         "id": "T2-G3-FEN -BILIMS-06",
-        "question": "Tehlikeli durumlardan (örneğin yangın, gaz kaçağı) korunmak için duyu organlarımız bizi uyarır. Bir evde gaz kaçağı olduğunu ilk olarak hangi duyu organımızla hissederiz?",
+        "question": "Kokulandırılmış doğal gazın belirgin kokusunu hangi duyu organımızla algılayabiliriz?",
         "choices": [
           "Görme (Göz)",
           "İşitme (Kulak)",
           "Koklama (Burun)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Koklama (Burun)' olduğu açıkça görülmektedir.",
+        "explanation": "Kokulandırılmış doğal gaz sızıntısı burunla fark edilebilir; koku her zaman güvenilir değildir. Şüphede yetişkine haber verip ortamdan uzaklaşmak gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_6",
@@ -12238,7 +12238,7 @@
           "Dil"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Deri' olduğu açıkça görülmektedir.",
+        "explanation": "Deri dokunma yoluyla yüzeyin pürüzünü ve sıcaklığını algılar. Yuvarlaklığı da elle yoklayarak anlayabiliriz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_7",
@@ -12253,7 +12253,7 @@
           "Kulağımıza kaçan suyu sivri bir cisimle (kalem ucu vb.) temizlemeye çalışmak."
         ],
         "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Kulağımıza kaçan suyu sivri bir cisimle (kalem ucu vb.) temizlemeye çalışmak.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Sivri cisim kulağın hassas dokusuna zarar verebilir. Kulağa cisim sokmak yerine bir yetişkinden veya sağlık çalışanından yardım alınmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_8",
@@ -12311,7 +12311,7 @@
           "Kuvvet"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kuvvet' olduğu açıkça görülmektedir.",
+        "explanation": "Cismi iten veya çeken, hızını, yönünü ya da şeklini değiştiren etkiye kuvvet denir. Madde cismin yapıldığı şeydir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_1",
@@ -12326,7 +12326,7 @@
           "Parmağımızla elektrik düğmesine basmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yerdeki sandığı kendine doğru sürüklemek' olduğu açıkça görülmektedir.",
+        "explanation": "Sandığı kendimize doğru sürüklediğimizde çekme kuvveti uygularız. Arabayı ileri sürmek ve düğmeye basmak itmedir.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_2",
@@ -12349,7 +12349,7 @@
           "Cisim hızlanarak hareketine devam eder."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "explanation": "Cismin hareket yönündeki kuvvet, diğer etkiler aynıysa hızını artırır. Ters yöndeki kuvvet yavaşlatabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_3",
@@ -12364,7 +12364,7 @@
           "Yön değiştirme"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "explanation": "Kalecinin kuvveti topun geliş yönüne karşı uygulanır ve top geri döner. Bu, kuvvetin yön değiştirme etkisidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_4",
@@ -12379,7 +12379,7 @@
           "Esnek yay"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "explanation": "Ezilen teneke çoğu zaman ilk biçimine dönmez; sünger ve esnek yay bırakıldığında şekillerine geri dönebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_5",
@@ -12394,7 +12394,7 @@
           "Buzlu cam zemin"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kalın ve tüylü halı zemin' olduğu açıkça görülmektedir.",
+        "explanation": "Kalın halının pürüzlü yüzeyi sürtünmeyi artırır. Aynı biçimde itilen araba burada daha hızlı yavaşlayıp daha kısa gider.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_6",
@@ -12454,7 +12454,7 @@
           "S kutbu ile N kutbu"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'S kutbu ile S kutbu' olduğu açıkça görülmektedir.",
+        "explanation": "Aynı adlı kutuplar birbirini iter; S-S veya N-N buna örnektir. N-S kutupları birbirini çeker.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu2_kuvvet_10",
@@ -12482,7 +12482,7 @@
           "Laboratuvardaki ne olduğu bilinmeyen sıvılar"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ev yapımı taze sıkılmış meyve suyu' olduğu açıkça görülmektedir.",
+        "explanation": "Bilinen taze meyve suyu uygun şekilde hazırlanmışsa tüketilebilir. Çamaşır suyu ve bilinmeyen laboratuvar sıvıları tadılmaz veya doğrudan koklanmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_1",
@@ -12497,7 +12497,7 @@
           "Cam bardak"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cam bardak' olduğu açıkça görülmektedir.",
+        "explanation": "Cam bardak serttir ve ışığı geçirir, ancak darbe aldığında kırılabilir. Pamuk ve tahta bu üç özelliği birlikte taşımaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_2",
@@ -12512,7 +12512,7 @@
           "Uçan balonun içindeki hava"
         ],
         "correctAnswer": 0,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Zeytinyağı' seçeneğinde bulunmaktadır.",
+        "explanation": "Zeytinyağı sıvıdır; aktığı kabın biçimini alır. Taş katıdır, balondaki hava gazdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_3",
@@ -12542,7 +12542,7 @@
           "Pamuklu banyo havlusu"
         ],
         "correctAnswer": 0,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Plastik yağmurluk' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Plastik yağmurluk suyu emmek yerine üzerinden akıtır. Sünger ve pamuklu havlu suyu emebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_5",
@@ -12557,7 +12557,7 @@
           "Kar/Buz - Su Buharı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kar/Buz - Su Buharı' olduğu açıkça görülmektedir.",
+        "explanation": "Donmuş su buz veya kar biçiminde katıdır. Su buharı ise suyun gaz hâlidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_6",
@@ -12572,7 +12572,7 @@
           "1, 3 ve 4"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '1 ve 4' olduğu açıkça görülmektedir.",
+        "explanation": "Demir çivi ve taş genellikle sudan yoğundur, kovada batar. Kâğıt geminin davranışı yapısına ve ıslanmasına bağlıdır; kesin denemez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_7",
@@ -12587,7 +12587,7 @@
           "Demir toplu iğne"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Demir toplu iğne' olduğu açıkça görülmektedir.",
+        "explanation": "Demir mıknatısça çekilebilir. Cam bilye ve tahta kalem bu örnekte mıknatıs tarafından çekilmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_8",
@@ -12602,7 +12602,7 @@
           "Zımpara kağıdı"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayna yüzeyi' olduğu açıkça görülmektedir.",
+        "explanation": "Ayna yüzeyi düzgün ve pürüzsüzdür. Ağaç kabuğu ile zımpara kâğıdında girinti çıkıntılar vardır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_9",
@@ -12617,7 +12617,7 @@
           "Erime"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Erime' olduğu açıkça görülmektedir.",
+        "explanation": "Güneşte ısı alan dondurma katı hâlden sıvı hâle geçer. Bu değişime erime denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu3_madde_10",
@@ -12823,7 +12823,7 @@
           "Toprak (Mineraller)"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Karanlık ve havasız bir ortam' olduğu açıkça görülmektedir.",
+        "explanation": "Bitkiler büyümek için uygun su, ışık ve havaya ihtiyaç duyar. Karanlık ve havasız bırakmak gelişmeyi desteklemez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_2",
@@ -12838,7 +12838,7 @@
           "Evimizdeki büyük akvaryum"
         ],
         "correctAnswer": 0,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Okyanuslar ve denizler' seçeneğinde bulunmaktadır.",
+        "explanation": "Deniz ve okyanuslar doğada oluşmuştur. Hayvanat bahçesi ve evdeki akvaryum insanlarca oluşturulmuş çevredir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_3",
@@ -12853,7 +12853,7 @@
           "Hayvanların evsiz kalmasına"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Çevreyi güzelleştirmeye ve doğal yaşamı (canlıları) korumaya' olduğu açıkça görülmektedir.",
+        "explanation": "Ağaç dikmek yaşam alanları oluşturur; çöp atmamak su ve toprağın kirlenmesini azaltır. Bu davranışlar canlıları korur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_4",
@@ -12868,7 +12868,7 @@
           "Kutup Ayısı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kutup Ayısı' olduğu açıkça görülmektedir.",
+        "explanation": "Kutup ayısının doğal yaşam alanı soğuk kuzey kutup bölgesidir. Aslan ve deve daha sıcak bölgelerde yaşar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_5",
@@ -12913,7 +12913,7 @@
           "Uygun sıcaklık, nem (su) ve hava"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Uygun sıcaklık, nem (su) ve hava' olduğu açıkça görülmektedir.",
+        "explanation": "Çimlenme için tohumun suya, havaya ve uygun sıcaklığa ihtiyacı vardır. Yalnız karanlık veya rüzgâr yeterli değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_8",
@@ -12928,7 +12928,7 @@
           "Onları avlamak serbest bırakılmalıdır."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Doğal parklar kurularak koruma altına alınmalı ve avlanmaları yasaklanmalıdır.' olduğu açıkça görülmektedir.",
+        "explanation": "Korunan alanlar habitatları sürdürür; avlanmanın sınırlanması tehdit altındaki türlerin yaşamasına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_9",
@@ -12943,7 +12943,7 @@
           "Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ayçiçeği bitkisinin (Günebakan) gün içinde yüzünü Güneş'e doğru dönmesi' olduğu açıkça görülmektedir.",
+        "explanation": "Ayçiçeği ışık yönüne tepki olarak yön değiştirebilir. Rüzgârın yaprak dökmesi veya dalın kesilmesi dıştan zorlamadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu5_canlilar_dunyasi_10",
@@ -12971,7 +12971,7 @@
           "Pilli oyuncak araba"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Buzdolabı' olduğu açıkça görülmektedir.",
+        "explanation": "Buzdolabı priz üzerinden şebeke elektriği alır. Kumanda ve oyuncak araba örneklerinde pil kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_1",
@@ -12986,7 +12986,7 @@
           "Batarya"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Batarya' olduğu açıkça görülmektedir.",
+        "explanation": "Taşınabilir cihazlardaki şarj edilebilir pil grubuna batarya denir. Jeneratör ve dinamo ayrı elektrik üretim araçlarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_2",
@@ -13001,7 +13001,7 @@
           "Elektrikli Soba (Isıtıcı)"
         ],
         "correctAnswer": 1,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Çamaşır Makinesi' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Klima ortamı ısıtıp soğutabilir, soba ısıtır. Çamaşır makinesinin temel işi giysi yıkamaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_3",
@@ -13016,7 +13016,7 @@
           "Islak ellerle elektrik düğmelerine veya prizlere dokunmak"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Islak ellerle elektrik düğmelerine veya prizlere dokunmak' olduğu açıkça görülmektedir.",
+        "explanation": "Islak el ve su elektrik iletimini kolaylaştırabilir. Bu yüzden prize veya elektrikli düğmeye ıslak elle dokunmak tehlikelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_4",
@@ -13031,7 +13031,7 @@
           "Akü"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Jeneratör' olduğu açıkça görülmektedir.",
+        "explanation": "Jeneratör kesintide yakıt veya başka enerji kaynağından elektrik üretebilir. Pil ve akü sınırlı elektrik depolar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_5",
@@ -13046,7 +13046,7 @@
           "Akü"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Akü' olduğu açıkça görülmektedir.",
+        "explanation": "Akü otomobilin marş sistemine elektrik sağlar. Her taşıtın elektrik sistemi farklı olabilir; küçük düğme pil bu örneğe uymaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_6",
@@ -13061,7 +13061,7 @@
           "Düğme Pil"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Düğme Pil' olduğu açıkça görülmektedir.",
+        "explanation": "Düğme pil küçük saat ve hesap makineleri gibi cihazlara sığar. Akü otomobil gibi daha büyük araçlarda kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_7",
@@ -13076,7 +13076,7 @@
           "Buzdolabının kapağını uzun süre açık tutmak"
         ],
         "correctAnswer": 1,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Aydınlatmada enerji tasarruflu LED ampuller kullanmak' seçeneğinde bulunmaktadır.",
+        "explanation": "LED ampuller aynı aydınlatma için daha az elektrik kullanabilir. Açık bırakılmış televizyon ve buzdolabı kapağı enerji israfını artırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_8",
@@ -13091,7 +13091,7 @@
           "Kendiliğinden tekrar şarj olurlar."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İçindeki zararlı kimyasallar toprağı ve suyu zehirler, canlılara zarar verir.' olduğu açıkça görülmektedir.",
+        "explanation": "Atık pillerin içeriği doğaya karışabilir ve su ile toprağı kirletebilir. Bu yüzden piller özel toplama kutularına bırakılmalıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu6_elektrik_9",
@@ -13460,7 +13460,7 @@
           "Good afternoon!"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Good afternoon!' olduğu açıkça görülmektedir.",
+        "explanation": "Saat 15:00 öğleden sonradır. Good afternoon öğleden sonra selamı, good morning sabah selamıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_1",
@@ -13475,7 +13475,7 @@
           "nine"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'nine' olduğu açıkça görülmektedir.",
+        "explanation": "Parantezde 9 yazıyor. Dokuz sayısının İngilizcesi nine'dır; eight 8, ten 10 demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_2",
@@ -13490,7 +13490,7 @@
           "grandmother"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'aunt' olduğu açıkça görülmektedir.",
+        "explanation": "Mother's sister annenin kız kardeşidir. İngilizcede teyze aunt sözcüğüyle ifade edilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_3",
@@ -13505,7 +13505,7 @@
           "grandfather / old"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'grandfather / old' olduğu açıkça görülmektedir.",
+        "explanation": "White hair beyaz saç, walking stick baston demektir. Bu ipuçları ‘grandfather / old’ seçeneğindeki yaşlı dede betimlemesiyle uyuşur.",
         "image": "images/tests/3-sinif-ingilizce-school-life-zor-test-2-soru-4.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_4",
@@ -13528,7 +13528,7 @@
           "angry"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'hungry' olduğu açıkça görülmektedir.",
+        "explanation": "Hungry aç demektir. Büyük bir hamburger istemesi açlığa işaret eder; thirsty susamış demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_5",
@@ -13543,7 +13543,7 @@
           "Sad"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sad' olduğu açıkça görülmektedir.",
+        "explanation": "Jane sevdiği oyuncağı kaybetmiş ve ağlıyor. Bu durum sad, yani üzgün, olduğunu gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_6",
@@ -13558,7 +13558,7 @@
           "energetic and sad"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'tired and thirsty' olduğu açıkça görülmektedir.",
+        "explanation": "Koşu yorgunluğa, çok su içmek susamaya işaret eder. Tired yorgun, thirsty susamış anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_7",
@@ -13573,7 +13573,7 @@
           "A teacher"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A clown' olduğu açıkça görülmektedir.",
+        "explanation": "Kırmızı burun ve insanları güldürme ipuçları palyaçoyu anlatır. Clown palyaço demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_8",
@@ -13588,7 +13588,7 @@
           "aren't"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'isn't' olduğu açıkça görülmektedir.",
+        "explanation": "Is she sorusuna olumsuz yanıt ‘No, she isn't’ olur. She üçüncü tekil kişi olduğu için aren't kullanılmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu1_greetings_feelings_9",
@@ -13631,7 +13631,7 @@
           "A kite"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A kite' olduğu açıkça görülmektedir.",
+        "explanation": "Kuyruğu olan ve rüzgârda uçurulan oyuncak kite, yani uçurtmadır. Ball top, car arabadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_1",
@@ -13646,7 +13646,7 @@
           "I don't"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'I haven't' olduğu açıkça görülmektedir.",
+        "explanation": "Have you got sorusunun olumsuz kısa yanıtı ‘No, I haven't’ biçimindedir. Sonraki cümlede oyuncak bebeği olduğu söylenir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_2",
@@ -13661,7 +13661,7 @@
           "It is IN the box."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is IN the box.' olduğu açıkça görülmektedir.",
+        "explanation": "Görselde top kutunun içindeyse in kullanılır. On üstünde, under altında anlamındadır.",
         "image": "images/tests/3-sinif-ingilizce-classroom-life-zor-test-2-soru-3.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_3",
@@ -13684,7 +13684,7 @@
           "Living room"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bathroom' olduğu açıkça görülmektedir.",
+        "explanation": "Ellerimizi ve yüzümüzü yıkadığımız oda bathroom, yani banyodur. Living room oturma odasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_4",
@@ -13699,7 +13699,7 @@
           "She is in the garden."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'She is in the kitchen.' olduğu açıkça görülmektedir.",
+        "explanation": "Cooking dinner akşam yemeği pişirmek demektir. Yemek pişirilen oda kitchen, yani mutfaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_5",
@@ -13714,7 +13714,7 @@
           "hide and seek"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'chess' olduğu açıkça görülmektedir.",
+        "explanation": "Siyah beyaz taşlarla bir tahta üzerinde oynanan oyun chess, yani satrançtır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_6",
@@ -13729,7 +13729,7 @@
           "on"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'under' olduğu açıkça görülmektedir.",
+        "explanation": "Görselde kedi masanın altındadır. Under altında, on üstünde, in içinde anlamına gelir.",
         "image": "images/tests/3-sinif-ingilizce-classroom-life-zor-test-2-soru-7.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_7",
@@ -13752,7 +13752,7 @@
           "on"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'on' olduğu açıkça görülmektedir.",
+        "explanation": "Masa yüzeyinin üstündeki kitap için on the desk denir. Under altını, in içini anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_8",
@@ -13767,7 +13767,7 @@
           "Bathroom"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Living room' olduğu açıkça görülmektedir.",
+        "explanation": "Kanepeye oturup televizyon izlediğimiz oda living room, yani oturma odasıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_9",
@@ -13782,7 +13782,7 @@
           "Circle"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Circle' olduğu açıkça görülmektedir.",
+        "explanation": "Circle çember/daire biçiminde yuvarlaktır. Square kare, triangle üçgendir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu2_toys_house_10",
@@ -13810,7 +13810,7 @@
           "Library"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bakery' olduğu açıkça görülmektedir.",
+        "explanation": "Bread ekmek, cookies kurabiye demektir. Bu ürünler bakery, yani fırından alınır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_1",
@@ -13825,7 +13825,7 @@
           "Library"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Library' olduğu açıkça görülmektedir.",
+        "explanation": "Kitapların okunabildiği yer library, yani kütüphanedir. Park açık alan, bank banka anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_2",
@@ -13840,7 +13840,7 @@
           "Supermarket"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hospital' olduğu açıkça görülmektedir.",
+        "explanation": "Sick hasta, doctor doktor demektir. Doktoru görmek için gidilen sağlık kurumu hospital, yani hastanedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_3",
@@ -13855,7 +13855,7 @@
           "Turn left!"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Stop!' olduğu açıkça görülmektedir.",
+        "explanation": "Kırmızı trafik ışığı stop, yani dur, anlamına gelir. Go ilerle komutudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_4",
@@ -13870,7 +13870,7 @@
           "A train"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A plane' olduğu açıkça görülmektedir.",
+        "explanation": "Gökyüzünde uçan kanatlı taşıt plane, yani uçaktır. Ship gemi, train trendir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_5",
@@ -13885,7 +13885,7 @@
           "ship"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'school bus' olduğu açıkça görülmektedir.",
+        "explanation": "School bus okul servisi demektir ve öğrencileri okula taşır. Plane ve ship bu günlük yolculuğun olağan aracı değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_6",
@@ -13900,7 +13900,7 @@
           "ship"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'ship' olduğu açıkça görülmektedir.",
+        "explanation": "Sea denizdir; denizde ilerleyen taşıt ship, yani gemidir. Tren rayda, araba karada gider.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_7",
@@ -13915,7 +13915,7 @@
           "fly away"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'turn right' olduğu açıkça görülmektedir.",
+        "explanation": "Go straight ahead düz git, turn right sağa dön demektir. Jump up ve fly away yol tarifi değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_8",
@@ -13930,7 +13930,7 @@
           "It is on the railways."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is on the railways.' olduğu açıkça görülmektedir.",
+        "explanation": "Railways demiryollarıdır. Tren raylar üzerinde ilerlediği için on the railways yanıtı uygundur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_9",
@@ -13945,7 +13945,7 @@
           "Zoo"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Zoo' olduğu açıkça görülmektedir.",
+        "explanation": "Maymun, aslan ve ayı gibi hayvanların görülebildiği yer zoo, yani hayvanat bahçesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu3_city_transport_10",
@@ -13973,7 +13973,7 @@
           "It is rainy."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'It is sunny.' olduğu açıkça görülmektedir.",
+        "explanation": "Sun güneş demektir. Güneşli hava için sunny söylenir; snowy karlı, rainy yağmurludur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_1",
@@ -13988,7 +13988,7 @@
           "umbrella"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'umbrella' olduğu açıkça görülmektedir.",
+        "explanation": "Yağmurda ıslanmamak için umbrella, yani şemsiye alınır. Güneş gözlüğü ve şort yağmura karşı korumaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_2",
@@ -14003,7 +14003,7 @@
           "Snowy"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Snowy' olduğu açıkça görülmektedir.",
+        "explanation": "Her yer beyaz ve kardan adam yapılabiliyor. Bu ipuçları snowy, yani karlı havayı gösterir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_3",
@@ -14018,7 +14018,7 @@
           "it is"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'it is' olduğu açıkça görülmektedir.",
+        "explanation": "Is it windy sorusunun olumlu kısa yanıtı ‘Yes, it is’ olur. It isn't olumsuzdur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_4",
@@ -14033,7 +14033,7 @@
           "A cat"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'A frog' olduğu açıkça görülmektedir.",
+        "explanation": "Frog kurbağadır ve suda yüzebilir. Bird kuş, cat kedi demektir; ikisi de bu betime uymaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_6",
@@ -14048,7 +14048,7 @@
           "In the hospital"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'In the forest' olduğu açıkça görülmektedir.",
+        "explanation": "Çok sayıda ağaç ve hayvan bulunan doğal alan forest, yani ormandır.",
         "image": "images/tests/3-sinif-ingilizce-family-life-zor-test-2-soru-6.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_7",
@@ -14071,7 +14071,7 @@
           "cars"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'flowers' olduğu açıkça görülmektedir.",
+        "explanation": "İlkbaharda açan kırmızı, sarı ve pembe bitki bölümleri flowers, yani çiçeklerdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_8",
@@ -14086,7 +14086,7 @@
           "make a snowman"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'swim in the sea' olduğu açıkça görülmektedir.",
+        "explanation": "Güneşli günde denize girip yüzmek mümkün olabilir. Kardan adam yapmak karlı hava gerektirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_9",
@@ -14101,7 +14101,7 @@
           "White"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Green' olduğu açıkça görülmektedir.",
+        "explanation": "İlkbaharda açan pek çok yaprak green, yani yeşildir. Black siyah, white beyazdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_ingilizce_konu4_weather_nature_10",
@@ -14144,7 +14144,7 @@
           "The sea"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “The school” ifadesidir. The red house is between the school and the shop. What is next to the red house? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Between iki yerin arasında demektir. Ev okul ve dükkânın arasındaysa okul evin yanındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14159,7 +14159,7 @@
           "On the chair"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “Below the chair” ifadesidir. The ball is under the chair. Where must I look for it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Under the chair sandalyenin altında demektir. Below the chair aynı alt konumu anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14174,7 +14174,7 @@
           "Three"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “Three” ifadesidir. There are two bedrooms and one kitchen. How many rooms are named? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Two bedrooms iki yatak odası, one kitchen bir mutfaktır. 2 + 1 = 3 oda adı verilmiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14189,7 +14189,7 @@
           "In the bag"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “On the desk” ifadesidir. The book is on the desk, and the desk is by the window. Where is the book? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "On the desk masanın üzerinde demektir. Masanın pencere yanında olması kitabın masanın üzerindeki yerini değiştirmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14234,7 +14234,7 @@
           "Stay downstairs"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “Go up the stairs” ifadesidir. The bathroom is upstairs. I am downstairs. What should I do to reach it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Upstairs üst katta, downstairs alt katta demektir. Üst kattaki banyoya ulaşmak için merdivenden yukarı çıkılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14264,7 +14264,7 @@
           "The person living next door"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “The person living next door” ifadesidir. Our neighbour lives in the house next to ours. Who is our neighbour? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Neighbour komşudur; next to ours evimizin yanında demektir. Bu kişi yan evde yaşayandır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14279,7 +14279,7 @@
           "Four"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “One” ifadesidir. The table has four chairs. Three people sit down. How many chairs are empty? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Dört sandalyenin üçüne oturulursa 4 − 3 = 1 sandalye boş kalır. One bir demektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14322,7 +14322,7 @@
           "No, it is before nine."
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “Yes, it is.” ifadesidir. The museum opens at nine. We arrive at ten. Is it after opening time? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Müze 9'da açılır; 10, 9'dan sonradır. Bu nedenle ‘Yes, it is’ uygun yanıttır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14352,7 +14352,7 @@
           "Medicine"
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “Fruit” ifadesidir. I buy fruit at the market and then walk home. What do I buy? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Market alışverişinde alınan ürün fruit, yani meyvedir. Tickets bilet, medicine ilaçtır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14367,7 +14367,7 @@
           "Inside the library"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “Across from me” ifadesidir. The park is opposite the library. I am at the library. Where can I see the park? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Opposite karşısında demektir. Kütüphanenin karşısındaki parkı across from me yönünde görürüz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14412,7 +14412,7 @@
           "Dropping litter on the road"
         ],
         "correctAnswer": 1,
-        "explanation": "Doğru yanıt “Putting litter in a bin” ifadesidir. We must keep the city clean. Which action helps? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Litter çöp, bin çöp kutusudur. Çöpü kutuya koymak sokağı temiz tutar; yola bırakmak kirletir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14427,7 +14427,7 @@
           "A bus stop"
         ],
         "correctAnswer": 2,
-        "explanation": "Doğru yanıt “A bus stop” ifadesidir. A bus carries many passengers. Which place is suitable for waiting for it? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Bus stop otobüs durağıdır. Yolcular otobüsü durakta bekler; çatı veya banyo uygun yer değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14442,7 +14442,7 @@
           "Yes, it is a school day."
         ],
         "correctAnswer": 0,
-        "explanation": "Doğru yanıt “No, the school is closed.” ifadesidir. The school is closed on Sunday. Today is Sunday. Can we attend our usual class today? sorusundaki ipuçları bu seçeneği gösterir.",
+        "explanation": "Bugün pazar ve okulun kapalı olduğu söyleniyor. Olağan sınıf dersine bugün katılınamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -14551,7 +14551,7 @@
           "IV"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'III' olduğu açıkça görülmektedir.",
+        "explanation": "III. cümlede karıncaların topluluk halinde yaşayıp iş bölümü yaptığı anlatılır. Bu, sosyal yaşamlarına dair bilgidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_turkce_6",
@@ -14567,7 +14567,7 @@
           "Fayda - Yarar"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Fayda - Yarar' olduğu açıkça görülmektedir.",
+        "explanation": "Barış-savaş zıt anlamlıdır. Fayda-yarar ise yakın/eş anlamlıdır; bu yüzden ilişkisi farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_turkce_7",
@@ -14615,7 +14615,7 @@
           "Dağ Zirvelerindeki Kuşlar"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gökyüzünün Hızlı Avcıları: Kartallar' olduğu açıkça görülmektedir.",
+        "explanation": "Metin kartalların yuvalarını, keskin görüşünü ve hızlı avlanışını birlikte anlatır. Kapsamlı başlık bütün özelliklere değinir.",
         "image": "images/tests/4-sinif-turkce-okuma-anlama-zor-test-2-soru-10.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_turkce_10",
@@ -14668,7 +14668,7 @@
           "Güneş doğarken **ufukta** harika renkler oluştu."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bugün derste **hücre** yapısını inceledik.' olduğu açıkça görülmektedir.",
+        "explanation": "Hücre, fen bilimlerinde canlıların temel yapı birimi için kullanılan özel terimdir. Oyun ve tuz günlük anlamlarıyla verilmiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu1_sozcukte_anlam_2",
@@ -14700,7 +14700,7 @@
           "Taze - Bayat"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Taze - Bayat' olduğu açıkça görülmektedir.",
+        "explanation": "İlk üç çift karşıt anlamlıdır. Taze-bayat da karşıttır; fakir-yoksul gibi çiftler eş anlamlıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu1_sozcukte_anlam_4",
@@ -14764,7 +14764,7 @@
           "Yolumuzu kesen adam bize adres sordu."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eski dostuyla görüşmeyi çoktan kesmişti.' olduğu açıkça görülmektedir.",
+        "explanation": "‘Görüşmeyi kesmek’ dostuyla iletişime son vermektir. Pastayı kesmek fiziksel bölme anlamındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu1_sozcukte_anlam_8",
@@ -14780,7 +14780,7 @@
           "Anı - Hatıra"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İleri - Geri' olduğu açıkça görülmektedir.",
+        "explanation": "Doktor-hekim, vakit-zaman ve anı-hatıra eş anlamlıdır. İleri-geri ise karşıt anlamlıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu1_sozcukte_anlam_9",
@@ -14825,7 +14825,7 @@
           "Karşılaştırma"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Neden - Sonuç' olduğu açıkça görülmektedir.",
+        "explanation": "‘Yağdığı için’ maçın iptal edilme nedenini belirtir. Yağmur neden, iptal sonuçtur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu2_paragraf_ve_cumle_1",
@@ -14905,7 +14905,7 @@
           "Alfabemizde yirmi dokuz harf bulunur."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dünyanın en güzel rengi mavidir.' olduğu açıkça görülmektedir.",
+        "explanation": "En güzel renk kişisel beğeniye bağlıdır. Başkent gibi bilgiler doğrulanabilirken herkesin sevdiği renk aynı olmak zorunda değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu2_paragraf_ve_cumle_6",
@@ -14953,7 +14953,7 @@
           "III"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'IV' olduğu açıkça görülmektedir.",
+        "explanation": "İlk üç cümle kitap okuma, teknoloji ve kelime hazinesi arasında bağ kurar. IV. cümle yazarların tür seçimine geçerek akışı değiştirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu2_paragraf_ve_cumle_9",
@@ -14998,7 +14998,7 @@
           "Neden-sonuç ilişkisi"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Abartılı (Mübalağa) ifade' olduğu açıkça görülmektedir.",
+        "explanation": "Dalgaların bulutları ıslatması gerçek ölçünün ötesindedir. Büyüklüğü vurgulamak için abartı kullanılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_1",
@@ -15014,7 +15014,7 @@
           "Sabahın erken saatlerinde yağan kar, tüm sokakları beyaza bürüdü."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sabahın erken saatlerinde yağan kar, tüm sokakları beyaza bürüdü.' olduğu açıkça görülmektedir.",
+        "explanation": "Karın sokağı beyaza büründürebilmesi gerçek bir olaydır. Konuşan ağaçlar ve buluta zıplamak hayal ürünüdür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_2",
@@ -15062,7 +15062,7 @@
           "Bulaşıkları yıkamaktan mutlu olduğunu göstermeyi"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İşin ne kadar çok ve yorucu olduğunu abartarak anlatmayı' olduğu açıkça görülmektedir.",
+        "explanation": "‘Dağ gibi bulaşık’ sözü miktarı olduğundan çok büyük gösterir; işin fazlalığını ve zorluğunu abartır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_5",
@@ -15078,7 +15078,7 @@
           "Güneş yorulduğu için bugün erken batmaya karar verdi."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Rüzgarın şiddetinden devrilen ağaç, yolu trafiğe kapattı.' olduğu açıkça görülmektedir.",
+        "explanation": "Şiddetli rüzgâr ağacı devirebilir ve yol kapanabilir. Konuşan yıldızlar veya sihirli iksir gerçek olay değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_6",
@@ -15094,7 +15094,7 @@
           "Koşul"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Abartı' olduğu açıkça görülmektedir.",
+        "explanation": "Bir kişi dünyaları bir oturuşta yiyemez. Bu imkânsız miktar açlığı abartarak vurgular.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_7",
@@ -15110,7 +15110,7 @@
           "Hayal gücünü kullanarak kitap okumaktadır."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hayal gücünü kullanarak kitap okumaktadır.' olduğu açıkça görülmektedir.",
+        "explanation": "Kelimelere kanat verilmesi ve masal kahramanlarıyla çay içilmesi hayal gücüyle kurulan okuma dünyasını anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_8",
@@ -15126,7 +15126,7 @@
           "Keşke o sözleri söylerken biraz daha dikkatli olsaydım."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ne yani, bunca yolu sadece bana bir mektup vermek için mi geldin!' olduğu açıkça görülmektedir.",
+        "explanation": "Uzun yolu yalnız bir mektup için gelmiş olmasına inanamayarak sormak şaşkınlığı gösterir. ‘Keşke’ ise pişmanlık bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_9",
@@ -15142,7 +15142,7 @@
           "I"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'IV' olduğu açıkça görülmektedir.",
+        "explanation": "Uçak motorundaki arızayı aletle gidermeye çalışmak gerçek hayatta mümkündür. Diğer cümleler öykünün kurgu olaylarını anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu3_hayal_duygu_abarti_10",
@@ -15171,7 +15171,7 @@
           "Zaman: Kış mevsimi / Mekan: Dağ evi"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Zaman: Eski zamanlar / Mekan: Küçük bir köy' olduğu açıkça görülmektedir.",
+        "explanation": "Metin ‘eski zamanlarda’ ve ‘küçük bir köyde’ sözleriyle açılır. Bunlar hikâyenin zamanı ve yerini doğrudan bildirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_1",
@@ -15235,7 +15235,7 @@
           "Toprağa"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Beyaz inciye' olduğu açıkça görülmektedir.",
+        "explanation": "‘Birer beyaz inci gibi’ sözündeki gibi benzetmeyi gösterir. Leylekler renk ve görünüş bakımından beyaz inciye benzetilmiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_5",
@@ -15275,7 +15275,7 @@
           "Hakem ve Seyirciler"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bilge Kaplumbağa ve Tavşan' olduğu açıkça görülmektedir.",
+        "explanation": "Yarışın gelişimini ve sonucu kaplumbağa ile tavşanın davranışları belirler. Ağaç ve gölge olayın arka planıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_7",
@@ -17766,15 +17766,15 @@
     "questions": [
       {
         "id": "T2-G4-HAYA-BIREYV-01",
-        "question": "'Araba' ve 'Kitap' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıf başkanı seçilirken her öğrenci gizli oy kullandı. Bu uygulama hangi ilkeyi korur?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Özgür seçim",
+          "Zorla oy verme",
+          "Tek kişinin kararı",
+          "Oyların herkesin önünde açıklanması"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Araba' ve 'Kitap' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Gizli oy öğrencilerin baskı görmeden tercih yapabilmesini sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17782,15 +17782,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-02",
-        "question": "'Okul' ve 'Ağaç' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Arkadaşının görüşüne katılmayan Deniz hangisini söylemelidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Arkadaşlarının oyunu engellemelisin.",
+          "Farklı düşünüyorum; nedenimi açıklayayım.",
+          "Konuşamazsın.",
+          "Seni dinlemeyeceğim."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Okul' ve 'Ağaç' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Gerekçe açıklamak ve dinlemek saygılı tartışmayı sürdürür.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17798,15 +17798,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-03",
-        "question": "'Buz' ve 'Kapı' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Yeni öğrenci okulun yerlerini bilmiyor. Ona yardım ederken önce ne sorulabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Kaç oyun kazandığı",
+          "Sadece kendi sınıfını bulmasını istemek",
+          "Nereye gitmek istediği",
+          "Hangi takımı tuttuğu"
         ],
         "correctAnswer": 2,
-        "explanation": "'Buz' ve 'Kapı' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Gideceği yer bilinirse uygun yol tarif edilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17830,15 +17830,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-05",
-        "question": "'Buz' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıf etkinliğinde görevler adil paylaştırılmadı. Sorun nasıl çözülür?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Bütün işi bir kişiye bırakılır.",
+          "Kimse dinlenmez.",
+          "Görevleri hiç belirlememek",
+          "Herkesin görüşü alınarak görevler yeniden dağıtılır."
         ],
-        "correctAnswer": 0,
-        "explanation": "'Buz' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 3,
+        "explanation": "Ortak görüşme görevlerin beceri ve zamana göre dengelenmesini sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17846,15 +17846,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-06",
-        "question": "'Çanta' ve 'Ateş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir arkadaşının farklı dili konuştuğunu öğrenen çocuk nasıl yaklaşmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "İletişim kurmak için saygılı davranmalıdır.",
+          "Onunla alay etmelidir.",
+          "Oyuna almamalıdır.",
+          "Yalnız kendi dilini konuşmasını zorunlu kılmalıdır."
         ],
         "correctAnswer": 0,
-        "explanation": "'Çanta' ve 'Ateş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Dil farkı arkadaşlığı engellemez; saygılı iletişim uyumu kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17862,15 +17862,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-07",
-        "question": "'Muz' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okuldaki bir sorunu yönetime iletmek isteyen öğrenciler ne hazırlayabilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Sorunu yalnız duvara yazan bir not",
+          "Açık ve saygılı bir dilekçe",
+          "Asılsız söylenti",
+          "Kırıcı yazı"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Muz' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Dilekçe sorunu ve isteği ilgili kişiye düzenli biçimde ulaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17878,15 +17878,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-08",
-        "question": "'Kuş' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Ortak oyunda herkesin katılabilmesi için kural nasıl belirlenmelidir?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Bazı çocukları dışlayarak",
+          "Kuralları habersiz değiştirmek",
+          "Katılımcıların ihtiyaçları dinlenerek",
+          "Yalnız en hızlı çocuk seçerek"
         ],
-        "correctAnswer": 1,
-        "explanation": "'Kuş' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "İhtiyaçları dinlemek kuralların herkes için uygulanabilir olmasını sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17894,15 +17894,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-09",
-        "question": "'Dağ' ve 'Elma' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir arkadaşın üzgün görünüyor. Empati kuran kişi önce ne yapar?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Onun adına hemen karar verir.",
+          "Duygusuyla alay eder.",
+          "Üzüntüsünün nedenini uydurup yayar.",
+          "Nasıl hissettiğini sorup dinler."
         ],
         "correctAnswer": 3,
-        "explanation": "'Dağ' ve 'Elma' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "explanation": "Duyguyu sormak varsayım yerine kişinin kendi anlatımını dinlemeyi sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17910,15 +17910,15 @@
       },
       {
         "id": "T2-G4-HAYA-BIREYV-10",
-        "question": "'Deniz' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıfta yapılan ortak karar sonradan işe yaramadı. Ne yapılabilir?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Sonuçlar konuşulup karar yeniden gözden geçirilir.",
+          "Sorun yokmuş gibi davranılır.",
+          "Görüş bildirenler cezalandırılır.",
+          "Kararı yalnız başkanın değiştirmesi"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Deniz' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Ortak kararlar yeni bilgiyle değerlendirilip iyileştirilebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17955,15 +17955,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-02",
-        "question": "'Okul' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okul gezisinde bir öğrenci su içmeyi unuttu. Hangisi uygun alışkanlıktır?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Düzenli aralıklarla su içmek",
+          "Suyu tüm gün ertelemek",
+          "Yalnız şekerli içecek içmek",
+          "Suyu yalnız sabah içmek"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Okul' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Gün boyunca su içmek vücudun su gereksinimini karşılamaya yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -17971,15 +17971,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-03",
-        "question": "'Göl' ve 'Masa' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir çocuk paketli ürünün son tüketim tarihinin geçtiğini fark etti. Ne yapmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Ürünü tarihi geçtiği için çocuklara dağıtmalıdır.",
+          "Ürünü tüketmeyip bir yetişkine haber vermelidir.",
+          "Tarihi silmelidir.",
+          "Ürünü arkadaşına vermelidir."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Göl' ve 'Masa' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Tarihi geçmiş ürünü tüketmemek ve yetişkine bildirmek güvenli seçimdir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18003,15 +18003,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-05",
-        "question": "'Elma' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Eller ne zaman sabunla yıkanmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Sadece eller görünür kirliyse",
+          "Yalnız okul tatilinde",
+          "Yemekten önce ve tuvaletten sonra",
+          "Yalnız yeni yılın ilk günü"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Elma' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Bu zamanlarda el yıkamak mikropların yiyeceğe ve çevreye taşınmasını azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18019,15 +18019,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-06",
-        "question": "'Ateş' ve 'Muz' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Düzenli uyku öğrenmeyi nasıl etkileyebilir?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Uykuyu gereksiz kılar.",
+          "Sürekli uykusuzluğu sağlar.",
+          "Yorgunluğun her zaman artmasını sağlar.",
+          "Dinlenme ve dikkati destekler."
         ],
         "correctAnswer": 3,
-        "explanation": "'Ateş' ve 'Muz' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "explanation": "Yeterli uyku dinlenmiş hissetmeye ve derse dikkat etmeye yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18035,15 +18035,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-07",
-        "question": "'Ateş' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okul kantininde ara öğün seçen çocuk hangisini tercih edebilir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Meyve ve su",
+          "Yalnız şekerli içecek",
+          "Her gün yalnız cips",
+          "Her öğün yalnız tatlı"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Ateş' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Meyve ve su günlük beslenmeye çeşitlilik katar; tek tür işlenmiş atıştırmalık dengeli değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18083,15 +18083,15 @@
       },
       {
         "id": "T2-G4-HAYA-SAĞLIK-10",
-        "question": "'Silgi' ve 'Öğrenci' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Spor yapan çocuk yorulunca ne yapmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Kendisini çok zorlasa da hiç dinlenmemelidir.",
+          "Dinlenip su içmeli, zorlanıyorsa yetişkine haber vermelidir.",
+          "Ağrıyı gizleyip devam etmelidir.",
+          "Su içmeyi bırakmalıdır."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Silgi' ve 'Öğrenci' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Dinlenme ve gerektiğinde yardım isteme güvenli hareket alışkanlığıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18144,15 +18144,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-03",
-        "question": "'Öğrenci' ve 'Çanta' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Evde duman fark eden bir çocuk ilk olarak ne yapmalıdır?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Güvenli yere çıkıp yetişkin ve acil yardımdan destek istemelidir.",
+          "Dumanın içine girmelidir.",
+          "Saklanmalıdır.",
+          "Pencereyi açıp dumana yaklaşmalıdır."
         ],
-        "correctAnswer": 3,
-        "explanation": "'Öğrenci' ve 'Çanta' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Dumandan uzaklaşmak ve yardım çağırmak güvenliği öncelemektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18160,15 +18160,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-04",
-        "question": "'Öğrenci' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Yaya geçidinde ışık yeşil yansa bile karşıya geçmeden önce ne yapılmalıdır?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Araçlara hiç bakmadan yürümek",
+          "Araçların durduğunu iki yönden kontrol etmek",
+          "Telefon ekranına bakmak",
+          "Koşarak çıkmak"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Öğrenci' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Işık uygun olsa da araçların gerçekten durduğunu görmek gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18176,15 +18176,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-05",
-        "question": "'Göl' ve 'Kedi' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir arkadaşın yüzme bilmediği hâlde derin suya girmek istiyor. Hangisi güvenlidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Kimseye söylememek",
+          "Yalnız arkadaşına güvenip açılmak",
+          "Güvenli alanda yetişkin gözetimi istemek",
+          "Tek başına derine girmek"
         ],
         "correctAnswer": 2,
-        "explanation": "'Göl' ve 'Kedi' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Derin su risklidir; güvenli alan ve gözetim gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18192,15 +18192,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-06",
-        "question": "'Kalem' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bilinmeyen bir kişi internetten adres isteyen çocuğun yanıtı ne olmalıdır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Adresi hemen göndermelidir.",
+          "Arkadaşının adresini vermelidir.",
+          "Kişisel bilgiyi herkese açık yerde yazmalıdır.",
+          "Adresi paylaşmayıp güvenilir yetişkine söylemelidir."
         ],
-        "correctAnswer": 1,
-        "explanation": "'Kalem' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "correctAnswer": 3,
+        "explanation": "Kişisel adres bilinmeyen kişilere verilmemeli, durum yetişkine bildirilmelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18224,15 +18224,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-08",
-        "question": "'Dağ' ve 'Yıldız' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Deprem sırasında sınıftaki öğrenci hangi hareketi yapmalıdır?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Çök-kapan-tutun",
+          "Pencereden atlamak",
+          "Merdivene koşmak",
+          "Camların yanına geçmek"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Dağ' ve 'Yıldız' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Çök-kapan-tutun başı korumaya yardımcı olur; sarsıntıda koşmak tehlikelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18240,15 +18240,15 @@
       },
       {
         "id": "T2-G4-HAYA-GÜVENL-09",
-        "question": "'Armut' ve 'Güneş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Islak elle prize dokunmak isteyen çocuğa ne söylenmelidir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Islak elle kabloyu çekmelidir.",
+          "Durup elini kurutmalı ve yetişkinden yardım istemeli.",
+          "Prizi açmayı denemeli.",
+          "Metal eşya sokmalı."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Armut' ve 'Güneş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Su elektrik çarpması riskini artırır; çocuk prize müdahale etmemelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18285,15 +18285,15 @@
     "questions": [
       {
         "id": "T2-G4-HAYA-DOĞAVE-01",
-        "question": "'Masa' ve 'Dağ' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Piknikten sonra plastik şişeleri toplayan aile ne yapmıştır?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Atıkları uygun kutuya taşıyarak çevreyi korumuştur.",
+          "Toprağı kirletmiştir.",
+          "Su tüketimini artırmıştır.",
+          "Atıkları ormanda gizlemiştir."
         ],
-        "correctAnswer": 3,
-        "explanation": "'Masa' ve 'Dağ' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Atıkları doğada bırakmamak canlıların ve alanın korunmasına yardım eder.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18301,15 +18301,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-02",
-        "question": "'Yıldız' ve 'Araba' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir dereye yağ dökülürse hangi canlılar etkilenebilir?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Yalnız uzak şehirlerde yaşayanlar",
+          "Suda yaşayan canlılar",
+          "Yalnız bulutlar",
+          "Yalnız taşlar"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Yıldız' ve 'Araba' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 1,
+        "explanation": "Yağ suyu kirletir; orada yaşayan bitki ve hayvanları etkileyebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18317,15 +18317,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-03",
-        "question": "'Buz' ve 'Su' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Okul bahçesine ağaç diken öğrenciler uzun vadede neye katkı sağlar?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Gölgenin kaybolmasına",
+          "Bütün kuş yuvalarının kaybolmasına",
+          "Canlılar için yaşam alanına",
+          "Toprağın yok olmasına"
         ],
-        "correctAnswer": 0,
-        "explanation": "'Buz' ve 'Su' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "correctAnswer": 2,
+        "explanation": "Ağaçlar kuşlara ve başka canlılara barınma ve gölge sağlayabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18333,15 +18333,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-04",
-        "question": "'Armut' ve 'Kuş' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Çok sayıda boş cam şişeyi ayrı toplayan sınıfın amacı nedir?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Şişeleri dereye atmak",
+          "Kırıkları bahçeye yaymak",
+          "Camların kendiliğinden yok olmasına",
+          "Camın geri kazanılmasını kolaylaştırmak"
         ],
-        "correctAnswer": 2,
-        "explanation": "'Armut' ve 'Kuş' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 3,
+        "explanation": "Camın ayrı toplanması uygun biçimde işlenmesini kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18349,15 +18349,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-05",
-        "question": "'Kalem' ve 'Defter' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Sınıfta boş yere yanan ışıkları kapatmak hangi kaynağı korur?",
         "choices": [
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Elektrik enerjisini",
+          "Toprak miktarını",
+          "Hava sıcaklığını",
+          "Kitapların sayısını"
         ],
         "correctAnswer": 0,
-        "explanation": "'Kalem' ve 'Defter' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap A seçeneğidir.",
+        "explanation": "Kullanılmayan lambayı kapatmak gereksiz elektrik kullanımını azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18365,15 +18365,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-06",
-        "question": "'Defter' ve 'Okul' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Bir ormanda izinsiz ateş yakmanın hangi tehlikesi vardır?",
         "choices": [
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Yangın kesinlikle çıkmaz.",
+          "Yangın çıkabilir.",
+          "Ağaçlar hemen çoğalır.",
+          "Yağmur garanti olur."
         ],
         "correctAnswer": 1,
-        "explanation": "'Defter' ve 'Okul' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap B seçeneğidir.",
+        "explanation": "Kontrol edilmeyen ateş kuru bitkilere yayılıp orman yangınına neden olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18381,15 +18381,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-07",
-        "question": "'Muz' ve 'Hava' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Mahalledeki parkta kuşların yaşamasına ne yardım eder?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Yuvayı dağıtmak",
+          "Bütün kuşları kovmak",
+          "Ağaçları ve temiz suyu korumak",
+          "Bütün ağaçları kesmek"
         ],
         "correctAnswer": 2,
-        "explanation": "'Muz' ve 'Hava' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "explanation": "Kuşlar ağaçlarda barınabilir ve temiz suya gereksinim duyar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18397,15 +18397,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-08",
-        "question": "'Öğrenci' ve 'Okul' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Atık kâğıtlar yeniden kullanılacaksa önce ne yapılmalıdır?",
         "choices": [
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir.",
-          "İkisi de fiil (hareket) bildiren sözcüklerdir."
+          "Kâğıtlar suya atılmalıdır.",
+          "Kâğıtlar yakılmalıdır.",
+          "Kâğıtları toprağa gömmek",
+          "Temiz kâğıtlar uygun kutuda ayrılmalıdır."
         ],
-        "correctAnswer": 2,
-        "explanation": "'Öğrenci' ve 'Okul' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap C seçeneğidir.",
+        "correctAnswer": 3,
+        "explanation": "Uygun ayrıştırma geri dönüşümde kâğıdın işlenmesini kolaylaştırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18429,15 +18429,15 @@
       },
       {
         "id": "T2-G4-HAYA-DOĞAVE-10",
-        "question": "'Göl' ve 'Toprak' kelimeleri arasındaki ilişki incelendiğinde, hangisi bu kelimelerin ortak özelliğidir?",
+        "question": "Suyu tasarruflu kullanmak için diş fırçalarken hangi davranış uygundur?",
         "choices": [
-          "İkisi de fiil (hareket) bildiren sözcüklerdir.",
-          "İkisi de sadece kışın görülen doğa olaylarıdır.",
-          "İkisi de sayı belirten matematiksel terimlerdir.",
-          "İkisi de çevremizdeki varlıkları tanımlayan isimlerdir."
+          "Fırçalarken musluğu kapatmak",
+          "Suyu sürekli akıtmak",
+          "Musluğu açık bırakıp gitmek",
+          "Musluğu daha çok açmak"
         ],
-        "correctAnswer": 3,
-        "explanation": "'Göl' ve 'Toprak' kelimeleri hareket (fiil) değil, birer isim (varlık adı) oldukları için doğru cevap D seçeneğidir.",
+        "correctAnswer": 0,
+        "explanation": "Fırçalama sırasında akmayan su boşa harcanmamış olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": null,
@@ -18655,7 +18655,7 @@
           "Fosilleri inceleyen bilim dalına paleontoloji denir."
         ],
         "correctAnswer": 1,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Sadece hayvanların fosili oluşur, bitkilerin fosili oluşmaz.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Bitkiler de uygun koşullarda fosilleşebilir. Fosiller yalnız hayvanlara ait değildir; eski canlılar hakkında kanıt sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_2",
@@ -18703,7 +18703,7 @@
           "365 gün 6 saatte"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '365 gün 6 saatte' olduğu açıkça görülmektedir.",
+        "explanation": "Dünya'nın Güneş çevresindeki bir dolanımı yaklaşık 365 gün 6 saat sürer. 24 saat kendi ekseni çevresindeki dönüşe yakındır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_5",
@@ -18767,7 +18767,7 @@
           "Demir - Uzay mekiklerinin sadece dış kaplaması"
         ],
         "correctAnswer": 3,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Demir - Uzay mekiklerinin sadece dış kaplaması' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Demir pek çok yapıda ve makinede kullanılır; kullanımının yalnız uzay mekiği dış kaplamasıyla sınırlandığı ifadesi yanlıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_9",
@@ -18783,7 +18783,7 @@
           "Dünya Güneş'in etrafında saat yönünde döner."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dünya hem kendi etrafında hem de Güneş etrafında batıdan doğuya (saat yönünün tersine) doğru döner.' olduğu açıkça görülmektedir.",
+        "explanation": "Kuzeyden bakıldığında Dünya'nın günlük dönüşü ve Güneş çevresindeki dolanımı aynı genel yönde, saat yönünün tersinedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu1_yer_kabugu_10",
@@ -18876,7 +18876,7 @@
           "Sadece Vitaminler"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Su ve Mineraller' olduğu açıkça görülmektedir.",
+        "explanation": "Besinlerde su ve mineraller bulunabilir; ancak miktarları besine göre değişir. Vücutta su ısı düzenine ve kanın sıvı bölümüne katkı sağlar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_5",
@@ -18940,7 +18940,7 @@
           "Besin piramidine uygun, her besin grubundan yeterli miktarda"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Besin piramidine uygun, her besin grubundan yeterli miktarda' olduğu açıkça görülmektedir.",
+        "explanation": "Dengeli tabakta tek bir besin grubu yerine yeterli miktarda çeşitli gruplar bulunur. Yalnız fast food ya da yalnız et çeşitlilik sağlamaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_9",
@@ -18956,7 +18956,7 @@
           "Ekmek içindeki su donduğu için renk değiştirmiştir."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ekmek küflenmiştir ve kesinlikle tüketilmemelidir.' olduğu açıkça görülmektedir.",
+        "explanation": "Yeşil-gri pamuksu yapı küf belirtisidir. Küflü ekmeğin görünür kısmı çıkarılsa bile tüketilmemesi gerekir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu2_besinlerimiz_10",
@@ -18985,7 +18985,7 @@
           "Cisim hızlanarak hareketine devam eder."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Cisim hızlanarak hareketine devam eder.' olduğu açıkça görülmektedir.",
+        "explanation": "Hareket yönüne uygulanan kuvvet, ters etkiler aynıysa cismin hızını artırabilir. Topu ileri itmek buna örnektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_1",
@@ -19001,7 +19001,7 @@
           "Rüzgarın etkisiyle yel değirmeninin dönmesi"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Süngerin elle sıkılması' olduğu açıkça görülmektedir.",
+        "explanation": "Süngeri sıkınca biçimi değişir. Topa vurmak ve yel değirmenini döndürmek öncelikle hareketi etkiler.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_2",
@@ -19017,7 +19017,7 @@
           "Şekil değiştirme"
         ],
         "correctAnswer": 0,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Durdurma' seçeneğinde bulunmaktadır.",
+        "explanation": "Kaleci topun hareketini elleriyle durdurur. Kuvvetin burada gözlenen temel etkisi durdurmadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_3",
@@ -19033,7 +19033,7 @@
           "Yön değiştirme"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yön değiştirme' olduğu açıkça görülmektedir.",
+        "explanation": "Raket topu karşı oyuncuya doğru gönderir; böylece topun hareket yönü değişir. Kalıcı şekil değişikliği beklenmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_4",
@@ -19049,7 +19049,7 @@
           "Yatak yayı"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Boş içecek tenekesi' olduğu açıkça görülmektedir.",
+        "explanation": "Ezilmiş içecek tenekesi bırakılınca ilk biçimine kendiliğinden dönmez. Sünger ve lastik esnek olduğu için geri dönebilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_5",
@@ -19065,7 +19065,7 @@
           "Asfalt yol"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Buzlanmış zemin' olduğu açıkça görülmektedir.",
+        "explanation": "Buzlanmış yüzeyde tutunma ve sürtünme genellikle halı ile çakıla göre daha azdır. Bu nedenle cisim daha kolay kayar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_6",
@@ -19081,7 +19081,7 @@
           "Yön Değiştirme"
         ],
         "correctAnswer": 2,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Yavaşlatma ve Durdurma' seçeneğinde bulunmaktadır.",
+        "explanation": "Fren, tekerleklerin dönmesini yavaşlatıp bisikletin hızını düşürür; gerekirse durdurur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_7",
@@ -19097,7 +19097,7 @@
           "Sürtünme kuvveti"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Temas gerektirmeyen (uzaktan etkili) kuvvet' olduğu açıkça görülmektedir.",
+        "explanation": "Mıknatıs ve elektriklenmiş tarak nesneleri doğrudan dokunmadan çekebilir. Bu, temas gerektirmeyen kuvvettir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_8",
@@ -19113,7 +19113,7 @@
           "Halat çekme yarışında halatı kendine çekmek"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bebek arabasını ileri doğru hareket ettirmek' olduğu açıkça görülmektedir.",
+        "explanation": "Bebek arabasını önümüzde ileri götürürken onu iteriz. Çekmeceyi açmak ve halatı kendimize almak çekmedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_9",
@@ -19129,7 +19129,7 @@
           "Döndürme etkisi"
         ],
         "correctAnswer": 3,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Döndürme etkisi' seçeneğinde bulunmaktadır.",
+        "explanation": "Rüzgâr kanatlara kuvvet uygular ve rüzgâr gülünü ekseni etrafında döndürür. Gözlenen etki döndürmedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu3_kuvvetin_etkileri_10",
@@ -19158,7 +19158,7 @@
           "Mezura (Şerit metre)"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Eşit kollu terazi' olduğu açıkça görülmektedir.",
+        "explanation": "Eşit kollu terazi iki tarafın kütlesini karşılaştırır. Termometre sıcaklığı, mezura uzunluğu ölçer.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_1",
@@ -19174,7 +19174,7 @@
           "Uzunluğun"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kütlenin' olduğu açıkça görülmektedir.",
+        "explanation": "Kilogram kütle birimidir. ‘3 kg elma’ elmaların kütlesini belirtir; sıcaklık veya hacim birimi değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_2",
@@ -19190,7 +19190,7 @@
           "Dereceli silindir"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dereceli silindir' olduğu açıkça görülmektedir.",
+        "explanation": "Dereceli silindirde mL veya L işaretleri bulunur; sıvı düzeyi okunarak hacmi ölçülür. Terazi kütle ölçer.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_3",
@@ -19222,7 +19222,7 @@
           "Erime noktasına kadar ısıtılarak sıvı hacmi ölçülür."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İçinde belirli bir miktar su bulunan dereceli silindirin içine atılır ve suyun yükselme miktarına bakılır.' olduğu açıkça görülmektedir.",
+        "explanation": "Taş dereceli silindirdeki suya batırılınca su düzeyi yükselir. Önceki ve sonraki okuma farkı taşın hacmini verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_5",
@@ -19254,7 +19254,7 @@
           "4250 gram"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '4250 gram' olduğu açıkça görülmektedir.",
+        "explanation": "4 kg = 4000 g'dır. Buna 250 g eklenince toplam kütle 4250 g olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_7",
@@ -19302,7 +19302,7 @@
           "Uzunluğunu"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hacmini' olduğu açıkça görülmektedir.",
+        "explanation": "Litre hacim birimidir. ‘Net: 5 L’ içindeki yağın hacmini belirtir; kilogram gibi kütle birimi değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu4_madde_olculeri_kutle_hacim_10",
@@ -19331,7 +19331,7 @@
           "Meşale - Yağ Lambası (Kandil) - Mum - Ampul"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Meşale - Yağ Lambası (Kandil) - Mum - Ampul' olduğu açıkça görülmektedir.",
+        "explanation": "Tarihsel anlatıda açık alevli meşale, ardından kandil ve mum, daha sonra elektrikli ampul gelir. Ampul diğerlerinden daha yeni teknolojiye dayanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_1",
@@ -19347,7 +19347,7 @@
           "Floresan Lamba"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ampul' olduğu açıkça görülmektedir.",
+        "explanation": "Sorunun okul düzeyi anlatımında Edison elektrikli ampulü kullanışlı hâle getiren çalışmalarıyla anılır. Mum ve meşale elektriksiz ışık verir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_2",
@@ -19363,7 +19363,7 @@
           "Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir."
         ],
         "correctAnswer": 3,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Odadaki her yerin çok parlak ışıkla aydınlatılması göz sağlığı için en iyisidir.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Gereğinden parlak ışık kamaşma yaratabilir. Çalışma alanı uygun düzeyde aydınlatılmalı, ışık doğrudan göze gelmemelidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_3",
@@ -19379,7 +19379,7 @@
           "Ses Kirliliği"
         ],
         "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Işık Kirliliği' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Işığın gereksiz miktarda ve yanlış yönde kullanılması gökyüzünü ve çevreyi de aydınlatır. Bu duruma ışık kirliliği denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_4",
@@ -19427,7 +19427,7 @@
           "Kalp atışının hızlanmasına ve uykusuzluğa neden olur."
         ],
         "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Görme bozukluklarına sebep olur.' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Yüksek gürültü işitme ve uyku üzerinde etkili olabilir; doğrudan görme bozukluğu ses kirliliğinin tipik etkisi değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu5_aydinlatma_ses_8",
@@ -19528,15 +19528,15 @@
       },
       {
         "id": "T2-G4-FEN -BASITE-03",
-        "question": "Bir ton kullanılmış kağıdın geri dönüştürülmesiyle doğadaki kaç adet yetişkin ağacın kesilmesi önlenmiş olur?",
+        "question": "Kullanılmış kâğıdı geri dönüştürmenin çevre açısından amacı hangisidir?",
         "choices": [
-          "1",
-          "5",
-          "50",
-          "17"
+          "Yeni kâğıt üretiminde hammadde kullanımını azaltmak",
+          "Kâğıtları suya atmak",
+          "Ormanları kesmeyi hızlandırmak",
+          "Bütün kâğıtları yakmak"
         ],
-        "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '17' olduğu açıkça görülmektedir.",
+        "correctAnswer": 0,
+        "explanation": "Atık kâğıt yeniden işlenerek yeni ürünlerde kullanılabilir. Bu, yeni hammadde gereksinimini azaltmaya yardımcı olur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_4",
@@ -19568,7 +19568,7 @@
           "Kullanmadığı odaların ışıklarını kapatmalıdır."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dişlerini fırçalarken suyu sürekli açık bırakmalıdır.' olduğu açıkça görülmektedir.",
+        "explanation": "Diş fırçalarken sürekli akan su gereksiz tüketimdir. Musluğu kapatmak aynı temizlik sırasında suyu korur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_6",
@@ -19584,7 +19584,7 @@
           "Sobaya atıp yakmalıyız."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Atık pil toplama kutularına bırakmalıyız.' olduğu açıkça görülmektedir.",
+        "explanation": "Atık pil kutuları pilleri ayrı toplar; böylece zararlı içeriğin toprağa veya suya karışma riski azalır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_7",
@@ -19600,7 +19600,7 @@
           "Küresel Isınma"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Küresel Isınma' olduğu açıkça görülmektedir.",
+        "explanation": "Fosil yakıtların kullanımı sera gazlarını artırır. Isının atmosferde daha çok tutulması uzun dönem ortalama sıcaklığı yükseltir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_8",
@@ -19616,7 +19616,7 @@
           "AFAD"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'TEMA (Türkiye Erozyonla Mücadele, Ağaçlandırma ve Doğal Varlıkları Koruma Vakfı)' olduğu açıkça görülmektedir.",
+        "explanation": "TEMA erozyonla mücadele ve doğal varlıkları koruma üzerine çalışır. Diğer kurumların temel görevleri farklıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_fen_konu6_insan_ve_cevre_9",
@@ -19677,7 +19677,7 @@
           "Batı - Güney"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Batı - Güney' olduğu açıkça görülmektedir.",
+        "explanation": "Doğan Güneş'e bakmak doğuya dönmek demektir. Doğunun karşısı batı, doğuya bakarken sağ taraf güneydir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_1",
@@ -19693,7 +19693,7 @@
           "Önce Batı, sonra Kuzey"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Önce Güney, sonra Doğu' olduğu açıkça görülmektedir.",
+        "explanation": "Okul kütüphanenin kuzeyinde, hastane doğusundadır. Önce güneye gidip kütüphane hizasına, sonra doğuya gidip hastaneye ulaşılır.",
         "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-2.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_2",
@@ -19749,7 +19749,7 @@
           "Yükseltinin"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yükseltinin' olduğu açıkça görülmektedir.",
+        "explanation": "Fiziki haritada yeşilden sarı ve kahverengiye geçiş daha yüksek yerleri gösterir. Renkler doğrudan nüfus sayısını göstermez.",
         "image": "images/tests/4-sinif-sosyal-bilgiler-insanlar-yerler-ve-cevreler-zor-test-2-soru-5.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_5",
@@ -19789,7 +19789,7 @@
           "Çığ"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tsunami' olduğu açıkça görülmektedir.",
+        "explanation": "Türkiye'de deprem, sel ve çığ farklı bölgelerde görülebilir. Seçenekler arasında tsunami daha seyrek gerçekleşir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_7",
@@ -19805,7 +19805,7 @@
           "Güneydoğu"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Güneybatı' olduğu açıkça görülmektedir.",
+        "explanation": "İpucunda lodosun güneybatıdan estiği açıkça verilmiştir. Rüzgârlar geldikleri yönle adlandırıldığından yanıt güneybatıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_web_test_sosyal_8",
@@ -19866,7 +19866,7 @@
           "Sadece bankalardan para çekmek için kullanılır."
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Elektronik ortamda parmak izi gibi gizli bilgileri güvenle saklar.' olduğu açıkça görülmektedir.",
+        "explanation": "Kimlik kartındaki çip, kimlik doğrulamada kullanılan elektronik bilgileri korumalı biçimde taşıyabilir. Kartın kırılmasını önleyen parça değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_1",
@@ -19898,7 +19898,7 @@
           "Sarı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Turkuaz' olduğu açıkça görülmektedir.",
+        "explanation": "Yeni T.C. kimlik kartları kadın ve erkek için ayrı renkler yerine ortak turkuaz tonunda düzenlenmiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_3",
@@ -19946,7 +19946,7 @@
           "Ön yargı"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Empati' olduğu açıkça görülmektedir.",
+        "explanation": "Zeynep kendini Ayşe'nin yerine koyup üzüntüsünü anlamaya çalışır. Başkasının duygusunu düşünmeye empati denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_6",
@@ -19978,7 +19978,7 @@
           "10 Yıl"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '10 Yıl' olduğu açıkça görülmektedir.",
+        "explanation": "T.C. kimlik kartının geçerlilik süresi kart üzerinde yazılıdır; verilen seçenekler içinde 10 yıl buna karşılık gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_8",
@@ -20010,7 +20010,7 @@
           "Sadece aynı takımı tutanların birbiriyle arkadaş olması."
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Tekerlekli sandalye kullanan öğrenci için okul girişine rampa yapılması.' olduğu açıkça görülmektedir.",
+        "explanation": "Rampa, tekerlekli sandalye kullanan kişinin okula erişimini kolaylaştırır. Alay etmek veya dışlamak farklılıklara saygı değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu1_birey_ve_toplum_10",
@@ -20039,7 +20039,7 @@
           "Sınıf öğretmenine danışarak"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aile büyükleriyle sözlü tarih çalışması yaparak' olduğu açıkça görülmektedir.",
+        "explanation": "Aile bireyleri kendi yaşantılarını doğrudan anlatabilir. Sözlü tarih görüşmesi aile geçmişi için birinci elden bilgi sağlar; anılar belgeyle karşılaştırılabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_1",
@@ -20055,7 +20055,7 @@
           "Körebe"
         ],
         "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Bilgisayar oyunları' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Çelik çomak, saklambaç ve körebe kuşaktan kuşağa aktarılan oyunlardır. Bilgisayar oyunu bu geleneksel oyun türü değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_2",
@@ -20071,7 +20071,7 @@
           "Mimari"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Milli Kültür' olduğu açıkça görülmektedir.",
+        "explanation": "Kuşaktan kuşağa geçen yemek, tören, anlatı ve değerler millî kültürün parçalarıdır. Teknoloji bunların yalnız bir alanıyla ilişkili olabilir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_3",
@@ -20103,7 +20103,7 @@
           "Mantı"
         ],
         "correctAnswer": 0,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Hamburger' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Lahmacun, tarhana ve mantı ülkemizin yerleşik mutfak örnekleridir. Hamburger başka bir mutfak geleneğiyle özdeşleşmiştir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_5",
@@ -20135,7 +20135,7 @@
           "İzmir"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Selanik' olduğu açıkça görülmektedir.",
+        "explanation": "Atatürk'ün doğduğu ev Selanik'tedir. Ankara daha sonra başkent olmuş, doğduğu şehir değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_7",
@@ -20167,7 +20167,7 @@
           "Teknolojik gelişmelerimiz"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Gelenek ve göreneklerimiz' olduğu açıkça görülmektedir.",
+        "explanation": "Kına gecesi ve asker uğurlama toplulukça sürdürülen davranışlardır. Kuşaktan kuşağa aktarılmaları onları gelenek ve görenek yapar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu2_kultur_ve_miras_9",
@@ -20212,7 +20212,7 @@
           "Tüketim"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İcat (Buluş)' olduğu açıkça görülmektedir.",
+        "explanation": "Daha önce olmayan bir ürünün ortaya konması icattır. Keşif var olan bir şeyi fark etmektir; tüketim kullanmadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_1",
@@ -20228,7 +20228,7 @@
           "Ekran başında uzun süre vakit geçirerek hareketsiz (sedanter) bir yaşam sürülmesi"
         ],
         "correctAnswer": 3,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Ekran başında uzun süre vakit geçirerek hareketsiz (sedanter) bir yaşam sürülmesi' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "İletişim, tedavi ve ulaşım kolaylıkları olumlu örneklerdir. Uzun süre hareketsiz ekran başında kalmak sağlık açısından olumsuz etkidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_2",
@@ -20244,7 +20244,7 @@
           "İletişim"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aydınlatma' olduğu açıkça görülmektedir.",
+        "explanation": "Elektrikli ampulün geliştirilmesi karanlıkta daha kullanışlı aydınlatma sağladı. Bu gelişme aydınlatma alanındadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_3",
@@ -20260,7 +20260,7 @@
           "Akıllı cep telefonu (Smartphone)"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Akıllı cep telefonu (Smartphone)' olduğu açıkça görülmektedir.",
+        "explanation": "Duman ve telgraf eski iletişim yollarıdır; çevirmeli telefon da akıllı telefondan eskidir. En yeni seçenek akıllı telefondur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_4",
@@ -20276,7 +20276,7 @@
           "Elektronik atıkları özel geri dönüşüm kutularına atmak"
         ],
         "correctAnswer": 1,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Bilgisayar ekranına çok yakından ve karanlıkta bakmak' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Ekrana çok yakından ve karanlıkta uzun süre bakmak gözleri yorabilir. Elektronik atıkları ayrı toplamak ise uygun davranıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_5",
@@ -20324,7 +20324,7 @@
           "Bisiklet kullanarak"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ağaç kütükleri üzerinde kaydırarak' olduğu açıkça görülmektedir.",
+        "explanation": "Ağır yükler tekerlekten önce sürüklenebilir veya kütüklerin üzerinde kaydırılabilirdi. Tren ve bisiklet tekerlek kullanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_8",
@@ -20356,7 +20356,7 @@
           "Yeni yapılan binaların daha depreme dayanıklı olması"
         ],
         "correctAnswer": 2,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Fabrika atıklarının ve elektronik çöplerin doğayı kirletmesi' seçeneğinde bulunmaktadır.",
+        "explanation": "Fabrika atıkları ve elektronik çöpler uygun yönetilmezse toprak ve suyu kirletebilir. Bilgiye erişim bu tür çevresel zarar değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu3_teknoloji_ve_yasam_10",
@@ -20385,7 +20385,7 @@
           "Soğuktan korunmak için kaban"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Uzaktan kumandalı son model oyuncak araba' olduğu açıkça görülmektedir.",
+        "explanation": "Su ve yemek temel ihtiyaçtır. Yeni model oyuncak araba yaşamı sürdürmek için zorunlu değildir; bu nedenle istektir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_1",
@@ -20401,7 +20401,7 @@
           "\"Zeytin almak yerine sadece çikolata yiyerek beslenebilirsin.\""
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın '\"Öncelikle temel ihtiyaçlarımızı almalıyız, çikolata bir istektir ve şu an bütçemizde ona yer yok.\"' olduğu açıkça görülmektedir.",
+        "explanation": "Listedeki besin, defter ve giysi gereksinimleri önce karşılanmalıdır. Bütçe çikolataya yetmiyorsa isteği ertelemek planlı harcamadır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_2",
@@ -20417,7 +20417,7 @@
           "Son Tüketim Tarihine (STT)"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Son Tüketim Tarihine (STT)' olduğu açıkça görülmektedir.",
+        "explanation": "Son tüketim tarihi özellikle çabuk bozulan gıdanın güvenle tüketilebileceği süreyi gösterir. Kutu rengi veya reklam bunu göstermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_3",
@@ -20433,7 +20433,7 @@
           "Aile Bütçesi"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Aile Bütçesi' olduğu açıkça görülmektedir.",
+        "explanation": "Aile bütçesi aylık gelir ve giderleri birlikte planlar. Fatura tek bir alışveriş veya hizmetin belgesidir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_4",
@@ -20465,7 +20465,7 @@
           "Tapu"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Garanti Belgesi' olduğu açıkça görülmektedir.",
+        "explanation": "Garanti belgesi ürün için belirlenen garanti koşullarını ve süresini gösterir. Kullanma kılavuzu ise cihazın nasıl kullanılacağını anlatır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_6",
@@ -20481,7 +20481,7 @@
           "Tüketici haklarımızı arayabilmemiz için"
         ],
         "correctAnswer": 2,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Marketin bize hediye vermesini sağlamak için' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Fiş veya fatura alışverişin kanıtıdır ve tüketici hakkı aramada işe yarar. Marketin hediye vermesini zorunlu kılmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_7",
@@ -20497,7 +20497,7 @@
           "Atık kağıtları geri dönüşüm kutusuna atmak."
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Diş fırçalarken suyu açık bırakmak.' olduğu açıkça görülmektedir.",
+        "explanation": "Fırçalarken musluğun sürekli açık kalması temizliğe katkı sağlamadan su tüketir. Kapalı tutmak israfı azaltır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_8",
@@ -20513,7 +20513,7 @@
           "Ürünün belirli kalite ve güvenlik standartlarına uygun olarak üretildiği"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Ürünün belirli kalite ve güvenlik standartlarına uygun olarak üretildiği' olduğu açıkça görülmektedir.",
+        "explanation": "TSE işareti ürünün ilgili Türk standardına uygunluk değerlendirmesini gösterir. Fiyatını veya son tüketim tarihini belirtmez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu4_uretim_tuketim_butce_9",
@@ -20558,7 +20558,7 @@
           "Seyahat hakkı"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Yaşama hakkı' olduğu açıkça görülmektedir.",
+        "explanation": "Yaşama hakkı diğer haklardan yararlanmanın temelidir. Oyun ve eğitim hakları da önemlidir, ancak soru en temel hakkı sorar.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_1",
@@ -20574,7 +20574,7 @@
           "Ailedeki büyük kararları (taşınma, araba alma) tek başına vermek"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kendi odasını ve yatağını düzenli tutmak' olduğu açıkça görülmektedir.",
+        "explanation": "Kendi odasını düzenlemek öğrencinin yapabileceği bir görevdir. Kira ödemek veya aile kararlarını tek başına almak yetişkin sorumluluğudur.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_2",
@@ -20606,7 +20606,7 @@
           "Sorumluluk"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bağımsızlık' olduğu açıkça görülmektedir.",
+        "explanation": "Başka devletin yönetimi altında olmadan kendi kararlarını verebilme durumuna bağımsızlık denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_4",
@@ -20622,7 +20622,7 @@
           "Türk Lirası (Paramız)"
         ],
         "correctAnswer": 0,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'İstanbul Boğazı' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Bayrak ve İstiklal Marşı bağımsızlık simgeleridir. İstanbul Boğazı bir coğrafi yerdir, devlet simgesi değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_5",
@@ -20638,7 +20638,7 @@
           "Şiddet"
         ],
         "correctAnswer": 2,
-        "explanation": "İlgili konuya dair verilen en uygun ve doğru örnek 'Demokrasi (Demokratik katılım)' seçeneğinde bulunmaktadır.",
+        "explanation": "Adayın görüşlerini açıklayıp arkadaşlarının oyunu istemesi özgür seçime dayanır. Tehdit ve şiddet demokratik katılım değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_6",
@@ -20670,7 +20670,7 @@
           "Seçme Hakkı"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Dilekçe Hakkı' olduğu açıkça görülmektedir.",
+        "explanation": "Kişi isteğini veya şikâyetini kamu kurumuna yazılı dilekçeyle iletebilir. Buna dilekçe hakkı denir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_8",
@@ -20686,7 +20686,7 @@
           "Kendi malımız gibi korumak"
         ],
         "correctAnswer": 1,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Sadece ben kullanıyorum diye düşünüp eşyaları eve götürmek' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Ortak eşya herkese hizmet eder; izinsiz eve götürmek başkalarının kullanımını engeller. Özenle kullanmak doğru davranıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_9",
@@ -20702,7 +20702,7 @@
           "Hazırola geçerek bayrağa dönmeli ve saygıyla marşa eşlik etmeliyiz."
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Hazırola geçerek bayrağa dönmeli ve saygıyla marşa eşlik etmeliyiz.' olduğu açıkça görülmektedir.",
+        "explanation": "Marş sırasında saygı göstermek için hazır ol duruşunda durup marşa uygun biçimde eşlik edilir. Konuşmaya devam etmek uygun değildir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu5_etkin_vatandaslik_10",
@@ -20755,7 +20755,7 @@
           "Bulgaristan"
         ],
         "correctAnswer": 3,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Bulgaristan' olduğu açıkça görülmektedir.",
+        "explanation": "Bulgaristan Türkiye'nin Avrupa yönündeki kara komşularındandır. Irak ve Ermenistan doğu veya güneydoğu yönündedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_2",
@@ -20771,7 +20771,7 @@
           "Fransa"
         ],
         "correctAnswer": 3,
-        "explanation": "Seçeneklerdeki bilgiler incelendiğinde, 'Fransa' ifadesinin bilimsel veya olgusal olarak yanlış olduğu tespit edilir.",
+        "explanation": "Azerbaycan, Özbekistan ve Kazakistan Türk dili ve kültürüyle bağlantılı devletlerdir. Fransa bu grupta yer almaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_3",
@@ -20787,7 +20787,7 @@
           "Ekonomik krizlerin"
         ],
         "correctAnswer": 2,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Kültürel farklılıkların' olduğu açıkça görülmektedir.",
+        "explanation": "Yemek, giyim ve gelenek örneklerinin ülkeler arasında değişmesi kültürel farklılıkları gösterir; askerî güç hakkında bilgi vermez.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_4",
@@ -20803,7 +20803,7 @@
           "Siyasi alanda"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Sportif alanda' olduğu açıkça görülmektedir.",
+        "explanation": "Olimpiyat ve yarışmalar spor etkinlikleridir. Millî sporcuların burada aldığı dereceler sportif başarıdır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_5",
@@ -20835,7 +20835,7 @@
           "İsraf"
         ],
         "correctAnswer": 1,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'İhracat' olduğu açıkça görülmektedir.",
+        "explanation": "Türkiye'de yetişen ürünlerin başka ülkelere satılması ihracattır. İthalat başka ülkelerden ürün satın almaktır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_7",
@@ -20867,7 +20867,7 @@
           "Çin Seddi"
         ],
         "correctAnswer": 0,
-        "explanation": "Soruda verilen ipuçları incelendiğinde doğru yanıtın 'Keops Piramidi' olduğu açıkça görülmektedir.",
+        "explanation": "Keops Piramidi Mısır'daki Gize piramitlerindendir. Diğer yapılar ABD, Fransa ve Çin'dedir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_sosyal_konu6_kuresel_baglantilar_9",
