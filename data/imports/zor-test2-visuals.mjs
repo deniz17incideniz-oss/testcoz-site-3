@@ -1,0 +1,6 @@
+export const finalVisuals = [
+['snow','Kış günü'],['cage','Kafes ve hayvanlar'],['appleTree','Elma ağacı'],['strawberries','Tabaktaki çilekler'],['cookies','Kurabiyeler'],['digital','Dijital saat'],
+['table','Sevilen meyveler',{rows:[['Elma',5],['Muz',8],['Çilek',4]]}],['table','Sınıfımız',{rows:[['Kız',10],['Erkek',12]]}],['table','Hava durumu',{rows:[['Güneşli',4],['Yağmurlu',2],['Karlı',1]]}],
+['apples','Elmalar',{count:5}],['sun','Gökyüzü'],['schoolPlan','Okul krokisi'],['apple','Meyve'],['monkey','Ağaçtaki hayvan'],['wind','Ağaçlar'],['abacus','Abaküs'],
+['mountains','Dağların yükseklikleri',{rows:[['K','Sekiz yüz on iki metre'],['L','8 yüzlük + 2 onluk'],['M','800 + 4']]}],['schoolPlan','Okulun üstten görünüşü'],['seas','Türkiye ve çevresindeki denizler'],['forces','Günlük yaşamda hareket'],['grandfather','Aileden biri'],['ballBox','Kutu ve top'],['catTable','Masa ve kedi'],['forest','Doğal yaşam alanı'],['eagle','Gökyüzündeki kuş'],['story','Hikâye üzerinde düşünelim'],['neighbourhood','Mahalle krokisi'],['relief','Fiziki harita renkleri'],['borders','Türkiye ve kara komşuları'],['signs','İşaretler'],['teacher','Sınıfta'],['compass','Pusula'],['bird','Gökyüzünde'],['fish','Su altında'],['reading','Kitap okuyan çocuk']
+];

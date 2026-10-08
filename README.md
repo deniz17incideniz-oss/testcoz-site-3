@@ -60,6 +60,7 @@ npm ci
 npm run generate
 npm test
 npm run test:browser
+npm run audit:release-content
 node scripts/audit-question-quality.mjs
 ```
 
@@ -69,4 +70,14 @@ Sınıf/ders/rehber sayfalarının kaynağı `scripts/generate-seo-pages.mjs`; t
 
 Denetim raporları `outputs/` altında oluşur ve Git'e girmez. Yayın öncesi sınırlar ve manuel kontroller: `docs/QUALITY-REPORT.md`.
 
+`npm run audit:release-content` ayrı bir yayın kapısıdır: Zor Test 2'de çözüm anlatmayan açıklamaları, tekrarlanan içerik kalıplarını ve katalogdaki eksik Test 1 kapsamını raporlar. Başarısızken yapısal testlerin geçmesi yayın onayı değildir. Bu kontrol tüm soruların anlamsal doğruluğunu otomatik olarak kanıtlamaz.
+
+`npm run generate`, Test 2 verisini sınıf/ders bazında `data/runtime/` altında üretir; tarayıcı yalnız seçilen ders paketini yükler. Aynı adım SVG ölçülerini çıkarır; soru, yanlış inceleme ve kişisel test görselleri gerçek en/boy oranını kullanır. Kaynak soru dosyaları ve mevcut Test 1 içerikleri bu işlemle değiştirilmez.
+
 Ek denetimler: `npm run audit:questions` konu/seviye kapsamı ve tekrar adaylarını üretir; `npm run audit:secrets` credential desenlerini denetler. `node scripts/audit-content-similarity.mjs` landing benzerliğini raporlar. `npm run lighthouse` dört yerel mobil sayfayı ayrı sunucuda ölçer; AdSense engellenmez. Lighthouse ile tarayıcı testlerini sırayla çalıştırın. Raporlar akademik veya politika onayı değildir.
+
+## Zor Test 2 import
+
+`npm run import:zor-test2` converts the preserved final source into `data/tests/zor-test2-final.js`. The checked-in change log records only proven duplicate/answer corrections. Source and visual provenance: `data/imports/README.md`.
+
+Run `npm run generate`, then the regular checks. The additional validator requires 130 topics, 1300 questions, 35 SVGs, 10 questions per test, 3 options in grades 1–3 and 4 in grade 4. Existing Test 1 data is preserved. The legacy grade 4 Life Skills pages retain the existing noindex policy.

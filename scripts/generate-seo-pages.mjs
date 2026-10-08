@@ -148,7 +148,7 @@ function subjectPage(level, grade, subject) {
       .filter((test) => test.classLevel === level && test.subject === subject.id && test.topic === topic.id)
       .sort((a, b) => ["kolay", "orta", "zor"].indexOf(a.difficulty) - ["kolay", "orta", "zor"].indexOf(b.difficulty));
     const actions = available.length
-      ? available.map((test) => `<a class="difficulty-link badge-${test.difficulty}" href="../${test.pageUrl}">${cap(test.difficulty)}<small>10 Soru</small></a>`).join("")
+      ? available.map((test) => `<a class="difficulty-link badge-${test.difficulty}" href="../${test.pageUrl}">${cap(test.difficulty)} · Test ${test.testNumber}<small>10 Soru</small></a>`).join("")
       : `<div class="topic-explanation"><strong>Çalışma önerisi:</strong> ${esc(topicText(topic, subject))}</div>`;
     return `<article class="topic-card topic-card-with-levels"><div class="topic-card-left"><div class="topic-num">${index + 1}</div><div class="topic-info"><h3>${esc(topic.name)}</h3><p>${esc(topicText(topic, subject))}</p></div></div><div class="difficulty-actions">${actions}</div></article>`;
   }).join("");
@@ -304,10 +304,10 @@ for (const [key, grade] of Object.entries(catalog.grades)) {
   const level = Number(key);
   fs.writeFileSync(`sinif-${level}.html`, classPage(level, grade), "utf8");
   for (const subject of grade.subjects) {
-    if (level === 4 && subject.id === "hayat-bilgisi") continue;
+
     const name = `${level}-sinif-${subject.id}.html`;
     fs.writeFileSync(path.join(subjectDir, name), subjectPage(level, grade, subject), "utf8");
-    subjectUrls.push(`${SITE}/ders/${name}`);
+    if (!(level === 4 && subject.id === "hayat-bilgisi")) subjectUrls.push(`${SITE}/ders/${name}`);
   }
 }
 

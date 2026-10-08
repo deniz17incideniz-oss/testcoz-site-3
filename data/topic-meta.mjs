@@ -51,6 +51,12 @@ const rows = [
 const notes = new Map();
 for (const [keys, description, skills, preparationTip, parentTip] of rows) for(const key of keys.split('|')) notes.set(key,{description,skills:skills.split(';'),preparationTip,parentTip});
 const english = {
+ 'greetings':['selamlaşma ve vedalaşma','Selamlaşma sözleri','Karşılaşma ile ayrılma sözlerini, sabah ile akşamı ayır.'],
+ 'numbers':['birden ona kadar sayılar','Sayı sözcükleri','İngilizce sayı adını önce nesne sayısıyla eşleştir.'],
+ 'colours':['temel renkler','Renk sözcükleri','Bir nesnenin rengini söylerken adını değil rengini seç.'],
+ 'classroom':['sınıf eşyaları ve kişiler','Sınıf sözcükleri','Nesneyi veya kişiyi gösteren İngilizce kelimeye dikkat et.'],
+ 'family':['aile üyeleri','Aile sözcükleri','Mother, father, sister ve brother sözcüklerini kişiyle eşleştir.'],
+ 'animals':['hayvan adları','Hayvan sözcükleri','Hayvanın sesini veya özelliğini İngilizce adıyla eşleştir.'],
  'school-life':['okul yaşamı','Okul sözcükleri','Okuldaki bir nesneyi gösterip İngilizce adını hatırla.'],
  'classroom-life':['sınıf içi iletişim','Sınıf ifadeleri','Kimin konuştuğunu ve ne istediğini belirle.'],
  'personal-life':['kişisel tanıtım','Kendini tanıtma','Soru kalıbının hangi kişisel bilgiyi istediğine bak.'],
@@ -89,6 +95,16 @@ function completeMeta(meta, topicName, classLevel, difficulty, subject) {
  };
 }
 export function getTopicMeta({topic,topicName,subject,classLevel,difficulty}, samples=[]) {
+ if(classLevel===4&&subject==='matematik'&&topic==='dogal-sayilar')return {
+  description:'Çok basamaklı doğal sayıları okurken sayıyı bölüklerine ayır. Bir rakamın sayı değeri ile bulunduğu basamağın değerini ayrı düşün. Karşılaştırmalarda soldan başla; örüntülerde iki sayı arasındaki değişimi kontrol et.',
+  summary:'Basamak ve bölük bilgisi, sayı karşılaştırma ve sayı örüntüleri üzerine çalışma.',
+  skills:['Basamak değeri','Bölükleri okuma','Sayıları sıralama'],
+  learningGoals:['Bir sayıyı binler ve birler bölüklerine ayırarak okur.','Rakamın sayı değeriyle basamak değerini ayırt eder.','Sayıları verilen koşullara göre oluşturur ve karşılaştırır.'],
+  commonMistakes:['Sıfır bulunan bir basamağı atlayarak sayının değerini değiştirmek.','En büyük veya en küçük sayıyı kurarken sorudaki tek, çift ve farklı rakam koşullarından birini unutmak.'],
+  preparationTip:'248.517 sayısını bölüklerine ayır ve 4 rakamının neden 40.000 değerinde olduğunu açıkla.',
+  parentTip:'Sayının cevabını söylemek yerine öğrenciden her rakamın hangi basamakta olduğunu göstermesini isteyin. Hata varsa çözümlemeyi sayı ile yan yana karşılaştırın.',
+  afterTestTip:'Yanlış yaptığın soruda basamakları yeniden yaz. Sayıyı hem rakamla hem sözle göster; verilen bütün koşulları ayrı ayrı kontrol et.'
+ };
  if(notes.has(topic))return completeMeta(notes.get(topic),topicName,classLevel,difficulty,subject);
  if(english[topic]){const [theme,skill,tip]=english[topic];return completeMeta({description:`${topicName} çalışmasında ${theme} ile ilgili kısa İngilizce ifadeleri anlamlarıyla eşleştir. Diyalogda konuşan kişiyi ve verilen durumu belirlemek, bildiğin kelimeleri doğru bağlamda kullanmana yardımcı olur.`,skills:[skill,'Bağlamdan anlam','Diyalog tamamlama'],preparationTip:tip,parentTip:'Cevabı çevirmek yerine önce bilinen kelimeleri çocuğun bulmasını bekleyin; kısa bir diyalogla tekrar edin.'},topicName,classLevel,difficulty,subject);}
  // Turkish thematic units: source-grounded examples distinguish units and grades.

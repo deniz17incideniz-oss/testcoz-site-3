@@ -93,4 +93,11 @@ assert(originAllowed({ headers: { origin: "http://localhost:4173" } }), "Tanıml
 assert(!originAllowed({ headers: { origin: "https://testcoz.pro.evil.example" } }), "Benzer görünümlü saldırgan origin kabul edildi.");
 assert(!originAllowed({ headers: { origin: "http://preview.testcoz.example" } }), "Güvensiz uzak HTTP origin kabul edildi.");
 delete process.env.ALLOWED_ORIGINS;
+process.env.VERCEL_ENV = "preview";
+const ownPreview = "testcoz-site-3-git-codex-735016-deniz17incideniz-4044s-projects.vercel.app";
+assert(originAllowed({ headers: { origin: `https://${ownPreview}`, host: ownPreview } }), "Aynı origin önizleme isteği reddedildi.");
+assert(!originAllowed({ headers: { origin: `https://${ownPreview}`, host: "other-project.vercel.app" } }), "Başka deployment origin'i kabul edildi.");
+assert(!originAllowed({ headers: { origin: "https://evil.example", host: "evil.example" } }), "Vercel dışı preview origin kabul edildi.");
+delete process.env.VERCEL_ENV;
+assert(!originAllowed({ headers: { origin: `https://${ownPreview}`, host: ownPreview } }), "Production kısıtı preview origin'ini kabul etti.");
 console.log("✓ İsteğe bağlı telefon, bozuk çerez ve origin kontrolleri doğrulandı.");
