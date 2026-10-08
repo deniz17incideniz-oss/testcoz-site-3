@@ -127,7 +127,7 @@ function topicText(topic, subject) {
 }
 
 function classPage(level, grade) {
-  const visibleSubjects = grade.subjects.filter((subject) => level !== 4 || subject.id !== "hayat-bilgisi");
+  const visibleSubjects = grade.subjects;
   const content = gradeContent[level];
   const cards = visibleSubjects.map((subject) => `<article class="subject-card static-subject-card"><div class="subject-icon" aria-hidden="true">${subject.icon}</div><div class="subject-info"><h3>${esc(subject.name)}</h3><p>${esc(subject.description)}</p><span class="subject-topic-count">${subject.topics.length} konu</span><a class="btn btn-primary btn-sm" href="ders/${level}-sinif-${subject.id}.html">Konuları İncele</a></div></article>`).join("");
   const subjectList = visibleSubjects.map((subject) => `<li><strong>${esc(subject.name)}:</strong> ${esc(subject.description)} Bu derste öğrencinin seviyesine uygun konu kartları ve varsa kolay, orta, zor test bağlantıları yer alır.</li>`).join("");
@@ -307,7 +307,7 @@ for (const [key, grade] of Object.entries(catalog.grades)) {
 
     const name = `${level}-sinif-${subject.id}.html`;
     fs.writeFileSync(path.join(subjectDir, name), subjectPage(level, grade, subject), "utf8");
-    if (!(level === 4 && subject.id === "hayat-bilgisi")) subjectUrls.push(`${SITE}/ders/${name}`);
+    subjectUrls.push(`${SITE}/ders/${name}`);
   }
 }
 
@@ -336,7 +336,7 @@ const coreUrls = [
   "veli.html",
   ...[1, 2, 3, 4].map((level) => `sinif-${level}.html`),
 ].map((url) => `${SITE}/${url}`);
-const testUrls = tests.filter((test) => test.pageUrl && !(test.classLevel === 4 && test.subject === "hayat-bilgisi")).map((test) => `${SITE}/${test.pageUrl}`);
+const testUrls = tests.filter((test) => test.pageUrl).map((test) => `${SITE}/${test.pageUrl}`);
 const sitemapUrls = [...new Set([...coreUrls, ...subjectUrls, ...testUrls, ...guideUrls])];
 fs.writeFileSync(
   "sitemap.xml",
