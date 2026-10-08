@@ -7,7 +7,7 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 1 | Türkçe | 8 | 32 | 320 | 8 / 8 / 16 | — |
 | 1 | Matematik | 7 | 28 | 280 | 7 / 7 / 14 | — |
 | 1 | Hayat Bilgisi | 6 | 24 | 240 | 6 / 6 / 12 | — |
-| 1 | İngilizce | 6 | 6 | 60 | 0 / 0 / 6 | — |
+| 1 | İngilizce | 6 | 24 | 240 | 6 / 6 / 12 | — |
 | 2 | Türkçe | 8 | 32 | 320 | 8 / 8 / 16 | — |
 | 2 | Matematik | 6 | 24 | 240 | 6 / 6 / 12 | — |
 | 2 | Hayat Bilgisi | 6 | 24 | 240 | 6 / 6 / 12 | — |
@@ -51,12 +51,12 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 1 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 12 |
 | 1 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
 | 1 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
-| 1 | İngilizce | Greetings | 0 | 0 | 1 | 10 | 0 |
-| 1 | İngilizce | Numbers | 0 | 0 | 1 | 10 | 1 |
-| 1 | İngilizce | Colours | 0 | 0 | 1 | 10 | 1 |
-| 1 | İngilizce | Classroom | 0 | 0 | 1 | 10 | 0 |
-| 1 | İngilizce | Family | 0 | 0 | 1 | 10 | 0 |
-| 1 | İngilizce | Animals | 0 | 0 | 1 | 10 | 0 |
+| 1 | İngilizce | Greetings | 1 | 1 | 2 | 40 | 0 |
+| 1 | İngilizce | Numbers | 1 | 1 | 2 | 40 | 1 |
+| 1 | İngilizce | Colours | 1 | 1 | 2 | 40 | 1 |
+| 1 | İngilizce | Classroom | 1 | 1 | 2 | 40 | 0 |
+| 1 | İngilizce | Family | 1 | 1 | 2 | 40 | 0 |
+| 1 | İngilizce | Animals | 1 | 1 | 2 | 40 | 0 |
 | 2 | Türkçe | Değerlerimizle Varız | 1 | 1 | 2 | 40 | 12 |
 | 2 | Türkçe | Atatürk ve Çocuk | 1 | 1 | 2 | 40 | 12 |
 | 2 | Türkçe | Doğada Neler Oluyor? | 1 | 1 | 2 | 40 | 12 |

@@ -19,7 +19,7 @@ const questionTexts = new Set();
 const slugs = new Set();
 const questionIds = new Set();
 
-if (tests.length !== 502) throw new Error(`Toplam 502 test bulunmalı; bulunan: ${tests.length}.`);
+if (tests.length !== 520) throw new Error(`Toplam 520 test bulunmalı; bulunan: ${tests.length}.`);
 
 for (const test of tests) {
   for (const field of required) {
@@ -42,7 +42,8 @@ for (const test of tests) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);
     }
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
-    if (question.choices.length !== (test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4)) throw new Error(`${test.slug} ${index + 1}. soruda sınıf/test kuralına uygun şık sayısı olmalı.`);
+    const expectedChoices = test.classLevel === 1 && test.subject === 'ingilizce' && test.testNumber === 1 ? 3 : test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4;
+    if (question.choices.length !== expectedChoices) throw new Error(`${test.slug} ${index + 1}. soruda sınıf/test kuralına uygun şık sayısı olmalı.`);
     if (new Set(question.choices).size !== question.choices.length) throw new Error(`${test.slug} ${index + 1}. soruda tekrarlanan şık var.`);
     if (questionIds.has(question.id)) throw new Error(`Tekrarlanan soru kimliği: ${question.id}`);
     questionIds.add(question.id);
@@ -72,6 +73,7 @@ function validateGroup(classLevel, subject, expectedTests, expectedTopics) {
 validateGroup(1, "matematik", 21, 7);
 validateGroup(1, "turkce", 24, 8);
 validateGroup(1, "hayat-bilgisi", 18, 6);
+validateGroup(1, "ingilizce", 18, 6);
 validateGroup(2, "matematik", 18, 6);
 validateGroup(2, "turkce", 24, 8);
 validateGroup(2, "hayat-bilgisi", 18, 6);

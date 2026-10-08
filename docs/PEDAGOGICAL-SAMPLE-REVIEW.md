@@ -2,14 +2,14 @@
 
 ## Yöntem
 
-Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 55 birleşimde toplam 275 soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
+Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 57 birleşimde toplam 285 soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
 
 ## Dağılım
 
-- Sınıf: 1. sınıf 50, 2. sınıf 60, 3. sınıf 75, 4. sınıf 90.
-- Ders: fen-bilimleri 30, hayat-bilgisi 60, ingilizce 50, matematik 60, sosyal-bilgiler 15, turkce 60.
-- Zorluk: kolay 90, orta 90, zor 95.
-- Sonuç: PASS 245, WARNING 30, FAIL 0.
+- Sınıf: 1. sınıf 60, 2. sınıf 60, 3. sınıf 75, 4. sınıf 90.
+- Ders: fen-bilimleri 30, hayat-bilgisi 60, ingilizce 60, matematik 60, sosyal-bilgiler 15, turkce 60.
+- Zorluk: kolay 95, orta 95, zor 95.
+- Sonuç: PASS 254, WARNING 31, FAIL 0.
 
 ## Birleşim sonuçları
 
@@ -24,7 +24,9 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 1 | Hayat Bilgisi | kolay | 5 | 5 | 0 | 0 |
 | 1 | Hayat Bilgisi | orta | 5 | 5 | 0 | 0 |
 | 1 | Hayat Bilgisi | zor | 5 | 4 | 1 | 0 |
-| 1 | İngilizce | zor | 5 | 5 | 0 | 0 |
+| 1 | İngilizce | kolay | 5 | 5 | 0 | 0 |
+| 1 | İngilizce | orta | 5 | 4 | 1 | 0 |
+| 1 | İngilizce | zor | 5 | 4 | 1 | 0 |
 | 2 | Türkçe | kolay | 5 | 5 | 0 | 0 |
 | 2 | Türkçe | orta | 5 | 5 | 0 | 0 |
 | 2 | Türkçe | zor | 5 | 5 | 0 | 0 |
@@ -33,7 +35,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 2 | Matematik | zor | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | kolay | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | orta | 5 | 5 | 0 | 0 |
-| 2 | Hayat Bilgisi | zor | 5 | 4 | 1 | 0 |
+| 2 | Hayat Bilgisi | zor | 5 | 5 | 0 | 0 |
 | 2 | İngilizce | kolay | 5 | 3 | 2 | 0 |
 | 2 | İngilizce | orta | 5 | 4 | 1 | 0 |
 | 2 | İngilizce | zor | 5 | 5 | 0 | 0 |
@@ -73,7 +75,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 
 ## Bulguların ayrımı
 
-Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **30**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
+Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
 
 | Soru | Sınıf | Bulgusu |
 |---|---|---|
@@ -81,8 +83,9 @@ Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **30**. Kısa ama tek 
 | 1-sinif-matematik-veriye-dayali-arastirma-orta-test-1-soru-4 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 1-sinif-matematik-paralarimiz-zor-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 1-sinif-hayat-bilgisi-ailem-ve-toplum-zor-test-1-soru-7 | İnceleme önerisi | 1. sınıf için uzun soru kökü |
+| g1-en-numbers-orta-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
+| T2-G1-INGI-ANIMAL-10 | İnceleme önerisi | Zor seviye için muhakeme derinliği yeniden okunmalı |
 | 2-sinif-matematik-nesnelerin-geometrisi-2-orta-test-1-soru-10 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| T2-G2-HAYA-YAŞADI-08 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-family-life-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-6 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-orta-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
