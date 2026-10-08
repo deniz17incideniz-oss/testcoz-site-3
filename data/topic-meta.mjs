@@ -51,6 +51,12 @@ const rows = [
 const notes = new Map();
 for (const [keys, description, skills, preparationTip, parentTip] of rows) for(const key of keys.split('|')) notes.set(key,{description,skills:skills.split(';'),preparationTip,parentTip});
 const english = {
+ 'greetings':['selamlaşma ve vedalaşma','Selamlaşma sözleri','Karşılaşma ile ayrılma sözlerini, sabah ile akşamı ayır.'],
+ 'numbers':['birden ona kadar sayılar','Sayı sözcükleri','İngilizce sayı adını önce nesne sayısıyla eşleştir.'],
+ 'colours':['temel renkler','Renk sözcükleri','Bir nesnenin rengini söylerken adını değil rengini seç.'],
+ 'classroom':['sınıf eşyaları ve kişiler','Sınıf sözcükleri','Nesneyi veya kişiyi gösteren İngilizce kelimeye dikkat et.'],
+ 'family':['aile üyeleri','Aile sözcükleri','Mother, father, sister ve brother sözcüklerini kişiyle eşleştir.'],
+ 'animals':['hayvan adları','Hayvan sözcükleri','Hayvanın sesini veya özelliğini İngilizce adıyla eşleştir.'],
  'school-life':['okul yaşamı','Okul sözcükleri','Okuldaki bir nesneyi gösterip İngilizce adını hatırla.'],
  'classroom-life':['sınıf içi iletişim','Sınıf ifadeleri','Kimin konuştuğunu ve ne istediğini belirle.'],
  'personal-life':['kişisel tanıtım','Kendini tanıtma','Soru kalıbının hangi kişisel bilgiyi istediğine bak.'],
