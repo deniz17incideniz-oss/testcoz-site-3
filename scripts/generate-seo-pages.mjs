@@ -151,7 +151,7 @@ function subjectPage(level, grade, subject) {
     const actions = available.length
       ? available.map((test) => `<a class="difficulty-link badge-${test.difficulty}" href="../${test.pageUrl}">${cap(test.difficulty)} · Test ${test.testNumber}<small>10 Soru</small></a>`).join("")
       : `<div class="topic-explanation"><strong>Çalışma önerisi:</strong> ${esc(topicText(topic, subject, level))}</div>`;
-    const lesson=getLesson(topic.id);
+    const lesson=getLesson(topic.id, level);
     return `<article id="${esc(topic.id)}" class="topic-card topic-card-with-levels topic-lesson"><div class="topic-card-left"><div class="topic-num">${index + 1}</div><div class="topic-info"><h3>${esc(topic.name)}</h3><p>${esc(topicText(topic, subject, level))}</p><details class="lesson-details"><summary>Konuyu öğren: örnek, çözüm ve çalışma</summary><h4>Birlikte çözelim</h4><p>${esc(lesson.example)}</p><p><strong>Çözüm:</strong> ${esc(lesson.solution)}</p><h4>Burada sık karıştırılan</h4><p>${esc(lesson.mistake)}</p><h4>Şimdi sen dene</h4><p>${esc(lesson.practice)}</p><p class="study-note">Bu etkinlik puanlanan testin dışında bir çalışma örneğidir. <a href="../icerik-yaklasimimiz.html">İçerik hazırlama ve kontrol yöntemi</a></p></details></div></div><div class="difficulty-actions">${actions}</div></article>`;
   }).join("");
   return page({

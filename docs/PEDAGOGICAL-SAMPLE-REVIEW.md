@@ -143,7 +143,7 @@ Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'ler
 | 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3 | PASS | 1444 |
 | 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3 | PASS | 1348 |
 | 3 | Hayat Bilgisi | kolay | 3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-8 | PASS | 1491 |
-| 3 | Hayat Bilgisi | kolay | 3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10 | PASS | 1493 |
+| 3 | Hayat Bilgisi | kolay | 3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10 | PASS | 1518 |
 | 3 | İngilizce | zor | 3-sinif-ingilizce-personal-life-zor-test-1-soru-10 | PASS | 1526 |
 | 3 | İngilizce | zor | 3-sinif-ingilizce-life-in-the-city-and-the-world-zor-test-1-soru-10 | PASS | 1570 |
 | 3 | Matematik | zor | 3-sinif-matematik-sayilar-ve-nicelikler-1-zor-test-1-soru-10 | PASS | 1263 |

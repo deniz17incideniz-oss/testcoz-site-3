@@ -42,7 +42,7 @@ for (const test of tests) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);
     }
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
-    const expectedChoices = test.classLevel === 1 && test.subject === 'ingilizce' && test.testNumber === 1 ? 3 : test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4;
+    const expectedChoices = test.classLevel === 3 && test.subject === 'hayat-bilgisi' && test.topic === 'ben-ve-okulum' && test.testNumber === 1 ? 3 : test.classLevel === 1 && test.subject === 'ingilizce' && test.testNumber === 1 ? 3 : test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4;
     if (question.choices.length !== expectedChoices) throw new Error(`${test.slug} ${index + 1}. soruda sınıf/test kuralına uygun şık sayısı olmalı.`);
     if (new Set(question.choices).size !== question.choices.length) throw new Error(`${test.slug} ${index + 1}. soruda tekrarlanan şık var.`);
     if (questionIds.has(question.id)) throw new Error(`Tekrarlanan soru kimliği: ${question.id}`);

@@ -16,7 +16,8 @@
     "import:zor-test2": "node scripts/import-zor-test2.mjs",
     "audit:semantic": "node scripts/audit-semantic-risks.mjs",
     "audit:editorial-gate": "node scripts/audit-semantic-risks.mjs --strict",
-    "audit:session-revocation": "node scripts/validate-auth.mjs --require-revocation"
+    "audit:session-revocation": "node scripts/validate-auth.mjs --require-revocation",
+    "audit:deep-quality": "node scripts/audit-deep-quality.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

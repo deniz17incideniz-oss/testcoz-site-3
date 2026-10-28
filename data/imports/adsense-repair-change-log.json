@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 229,
+  "count": 259,
   "changes": [
     {
       "id": "T2-G3-INGI-SCHOOL-01",
@@ -16823,6 +16823,2154 @@
         "tags": [
           "hayat-bilgisi",
           "bilim-teknoloji-ve-sanat",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Eylül, sınıf ortamında grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı. Bu davranış hangisine örnektir?",
+        "choices": [
+          "okul yaşamına etkin ve sorumlu katılmak",
+          "bütün kararları tek başına vermek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranış, okul yaşamına etkin ve sorumlu katılmak için uygun bir örnektir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+        "options": [
+          "okul yaşamına etkin ve sorumlu katılmak",
+          "bütün kararları tek başına vermek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıfa yeni gelen Deniz teneffüste yalnız duruyor. Onu oyuna katmak isteyen Ece ne söylemelidir?",
+        "choices": [
+          "Bizimle oynamak ister misin?",
+          "Hangi oyunu oynayacağını ben seçtim.",
+          "Önce bizi bir hafta izle."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davet etmek Deniz’e katılma fırsatı verir; isterse kabul eder. Onun yerine karar vermek veya beklemesini şart koşmak katılımını desteklemez.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+        "options": [
+          "Bizimle oynamak ister misin?",
+          "Hangi oyunu oynayacağını ben seçtim.",
+          "Önce bizi bir hafta izle."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Ben ve Okulum görselinde doğru ve yanlış iki davranış vardır. Doğru olan hangisidir?",
+        "choices": [
+          "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+          "bütün kararları tek başına vermek",
+          "uyarıları dinlememek",
+          "başkasının hakkını engellemek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru ve yararlı davranış “grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı” seçeneğidir.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Doğru davranışı seç",
+          "data": {
+            "correct": "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+            "wrong": "bütün kararları tek başına vermek"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+        "imageAlt": "Doğru davranışı seç",
+        "options": [
+          "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+          "bütün kararları tek başına vermek",
+          "uyarıları dinlememek",
+          "başkasının hakkını engellemek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıf kitaplığından bir kitap ödünç alan Arda, kitabı bitirdi. Kitaplığın düzeni için ne yapmalıdır?",
+        "choices": [
+          "Kendi çantasına kalıcı olarak koymalıdır.",
+          "Kitabı belirlenen yerine geri koymalıdır.",
+          "En yakın sıranın üzerine bırakmalıdır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ortak kitaba diğer öğrencilerin de ulaşması gerekir. Belirlenen yere bırakmak kitabın bulunmasını sağlar; bir sırada unutmak bunu zorlaştırır.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+        "options": [
+          "Kendi çantasına kalıcı olarak koymalıdır.",
+          "Kitabı belirlenen yerine geri koymalıdır.",
+          "En yakın sıranın üzerine bırakmalıdır."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Eylül için aşağıdakilerden hangisi yaşına uygun bir sorumluluktur?",
+        "choices": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün görevleri başkasına bırakmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği gibi değiştirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“sınıf başkanlığı seçiminde kurallara uygun oy kullanmak” yaşına uygun bir sorumluluktur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+        "options": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün görevleri başkasına bırakmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği gibi değiştirmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Öğretmen konuşurken aklına bir soru gelen Zeynep nasıl söz almalıdır?",
+        "choices": [
+          "Arkadaşının kulağına soruyu söylemelidir.",
+          "Soru kaybolmasın diye hemen yüksek sesle konuşmalıdır.",
+          "Parmak kaldırıp söz verilmesini beklemelidir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Söz istemek, hem Zeynep’in sorusunu sormasını hem konuşanın dinlenmesini sağlar. Aynı anda konuşulduğunda anlatılanlar duyulmayabilir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+        "options": [
+          "Arkadaşının kulağına soruyu söylemelidir.",
+          "Soru kaybolmasın diye hemen yüksek sesle konuşmalıdır.",
+          "Parmak kaldırıp söz verilmesini beklemelidir."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Ben ve Okulum etkinliğinde ilk yapılması gereken hangisidir?",
+        "choices": [
+          "Yapılacak görevi birlikte belirlemek",
+          "Görevleri yeteneklere göre paylaşmak",
+          "Çalışmayı kontrol edip sunmak",
+          "grup görevini zamanında ve uyum içinde tamamladı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Etkinlik “Yapılacak görevi birlikte belirlemek” adımıyla başlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+        "options": [
+          "Yapılacak görevi birlikte belirlemek",
+          "Görevleri yeteneklere göre paylaşmak",
+          "Çalışmayı kontrol edip sunmak",
+          "grup görevini zamanında ve uyum içinde tamamladı"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Okul koridorunda üzerinde ad yazan bir kalemlik bulundu. Onu bulan öğrenci ne yapmalıdır?",
+        "choices": [
+          "Öğretmenine teslim edip nerede bulduğunu söylemelidir.",
+          "Adı yazılı olsa da kendi dolabına koymalıdır.",
+          "Sahibi gelir düşüncesiyle koridorun ortasına bırakmalıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Öğretmene yer bilgisini vererek teslim etmek eşyanın sahibine ulaşmasına yardımcı olur. Koridorda bırakılan eşya yeniden kaybolabilir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+        "options": [
+          "Öğretmenine teslim edip nerede bulduğunu söylemelidir.",
+          "Adı yazılı olsa da kendi dolabına koymalıdır.",
+          "Sahibi gelir düşüncesiyle koridorun ortasına bırakmalıdır."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Ben ve Okulum görselinde kullanılabilecek bir bilgi kaynağı verilmiştir. Bu kaynak hangisidir?",
+        "choices": [
+          "okul krokisi ve duyuru panosu",
+          "boş oyuncak kutusu",
+          "kapalı perde",
+          "kullanılmayan etiket"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“okul krokisi ve duyuru panosu” konuyla ilgili bilgi edinmeye yardım eder.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Bilgi kaynakları",
+          "data": {
+            "source": "okul krokisi ve duyuru panosu",
+            "topic": "Ben ve Okulum"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+        "imageAlt": "Bilgi kaynakları",
+        "options": [
+          "okul krokisi ve duyuru panosu",
+          "boş oyuncak kutusu",
+          "kapalı perde",
+          "kullanılmayan etiket"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Okul kütüphanesinde bazı öğrenciler okuyor. Kitap seçen Bora, arkadaşıyla nasıl konuşmalıdır?",
+        "choices": [
+          "Kütüphanenin öbür ucundan seslenerek.",
+          "Diğerlerini rahatsız etmeyecek alçak bir sesle.",
+          "Arkadaşı duysun diye sınıfta konuştuğu yüksek sesle."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kütüphane ortak okuma alanıdır. Alçak sesle konuşmak iletişim kurarken başkalarının dikkatini korur; uzaktan seslenmek sesi yükseltir.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+        "options": [
+          "Kütüphanenin öbür ucundan seslenerek.",
+          "Diğerlerini rahatsız etmeyecek alçak bir sesle.",
+          "Arkadaşı duysun diye sınıfta konuştuğu yüksek sesle."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Eylül neden grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı davranışını seçmiştir?",
+        "choices": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "işleri zorlaştırmak",
+          "başkalarını üzmek",
+          "sorunu gizlemek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranışın amacı her öğrencinin çalışmaya katkı sunabilmesitır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+        "options": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "işleri zorlaştırmak",
+          "başkalarını üzmek",
+          "sorunu gizlemek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Mina resim yapmayı seviyor; Oğuz ritim tutmayı seviyor. Bu bilgi hangisini gösterir?",
+        "choices": [
+          "Aynı sınıftaki herkes aynı etkinliği sevmelidir.",
+          "Resim sevenler başka etkinlik öğrenemez.",
+          "İnsanların ilgi alanları farklı olabilir."
+        ],
+        "correctAnswer": 2,
+        "explanation": "İki öğrenci farklı etkinliklerden hoşlanıyor. Bu, ilgi farkıdır; başka beceriler öğrenemeyeceklerini veya herkesin aynı olması gerektiğini göstermez.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+        "options": [
+          "Aynı sınıftaki herkes aynı etkinliği sevmelidir.",
+          "Resim sevenler başka etkinlik öğrenemez.",
+          "İnsanların ilgi alanları farklı olabilir."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Ben ve Okulum konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "farklı görüşleri söz kesmeden dinlemek",
+          "bütün kararları tek başına vermek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“farklı görüşleri söz kesmeden dinlemek” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+        "options": [
+          "farklı görüşleri söz kesmeden dinlemek",
+          "bütün kararları tek başına vermek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıfta görev çizelgesinde bugün çiçekleri kontrol etme görevi Ela’ya verilmiş. Ela önce ne yapmalıdır?",
+        "choices": [
+          "Toprağın sulamaya ihtiyacı olup olmadığını kontrol etmelidir.",
+          "Her teneffüste toprağa bol su dökmelidir.",
+          "Görev gününü beklemeden arkadaşının sırasını silmelidir."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Görevi yerine getirmek yalnız su dökmek değildir; bitkinin ihtiyacını kontrol etmek gerekir. İhtiyaçtan fazla sulamak bitkiye zarar verebilir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+        "options": [
+          "Toprağın sulamaya ihtiyacı olup olmadığını kontrol etmelidir.",
+          "Her teneffüste toprağa bol su dökmelidir.",
+          "Görev gününü beklemeden arkadaşının sırasını silmelidir."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Ben ve Okulum görselindeki soruna uygun çözüm hangisidir?",
+        "choices": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "yardım istememek",
+          "sorunu büyütmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruna uygun çözüm “öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak”dır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Sorun ve çözüm",
+          "data": {
+            "problem": "Grup çalışmasında iki öğrenci aynı görevi istiyor",
+            "solution": "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+        "imageAlt": "Sorun ve çözüm",
+        "options": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "yardım istememek",
+          "sorunu büyütmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Okulda yemek öncesi ellerini yıkayan Efe musluğu açık unuttu. Dönüp ne yapmalıdır?",
+        "choices": [
+          "Suyun daha hızlı akmasını sağlamalıdır.",
+          "Musluğu kapatmalıdır.",
+          "Lavaboda başka biri yoksa açık bırakmalıdır."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kullanılmayan musluğu kapatmak ortak su kaynağını korur. Lavabonun boş olması suyun boşa akmasını gerekli kılmaz.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+        "options": [
+          "Suyun daha hızlı akmasını sağlamalıdır.",
+          "Musluğu kapatmalıdır.",
+          "Lavaboda başka biri yoksa açık bırakmalıdır."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Eylül doğru davranışı seçtiğinde hangi sonuç ortaya çıkmıştır?",
+        "choices": [
+          "grup görevini zamanında ve uyum içinde tamamladı",
+          "sorun büyümüştür",
+          "kurallar gereksiz olmuştur",
+          "çalışma yarım kalmıştır"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Metindeki olumlu sonuç “grup görevini zamanında ve uyum içinde tamamladı” ifadesidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+        "options": [
+          "grup görevini zamanında ve uyum içinde tamamladı",
+          "sorun büyümüştür",
+          "kurallar gereksiz olmuştur",
+          "çalışma yarım kalmıştır"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir öğrenci okulda hangi hakkını kullanırken ders anlatımını dikkatle dinler?",
+        "choices": [
+          "İstediği anda bütün dersleri bitirme hakkını.",
+          "Sınıftaki tek konuşmacı olma hakkını.",
+          "Eğitim alma hakkını."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Derslere katılmak eğitim alma hakkıyla ilgilidir. Bu hak, dersin süresini tek başına belirleme veya başkalarının konuşmasını engelleme anlamına gelmez.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+        "options": [
+          "İstediği anda bütün dersleri bitirme hakkını.",
+          "Sınıftaki tek konuşmacı olma hakkını.",
+          "Eğitim alma hakkını."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf kolay: Ben ve Okulum olayı için en uygun başlık hangisidir?",
+        "choices": [
+          "Birlikte Başaran Sınıf",
+          "Kayıp Oyuncak",
+          "Yağmurlu Pencere",
+          "Sessiz Bir Gece"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Birlikte Başaran Sınıf” başlığı olayın konusunu en iyi yansıtır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Uygun başlığı bul",
+          "data": {
+            "title": "Birlikte Başaran Sınıf",
+            "hero": "Eylül",
+            "place": "sınıf"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+        "imageAlt": "Uygun başlığı bul",
+        "options": [
+          "Birlikte Başaran Sınıf",
+          "Kayıp Oyuncak",
+          "Yağmurlu Pencere",
+          "Sessiz Bir Gece"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıf başkanı seçilirken oy pusulasına kimin adı yazılmalıdır?",
+        "choices": [
+          "Öğrencinin kendi tercih ettiği adayın.",
+          "En yakın arkadaşının zorla söylediği adayın.",
+          "İlk oy kullanan kişinin seçtiği adayın."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Oy kullanırken her öğrenci kendi tercihini yapar. Arkadaş baskısı veya ilk oy verenin seçimi bütün öğrencilerin kararını belirlememelidir.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+        "options": [
+          "Öğrencinin kendi tercih ettiği adayın.",
+          "En yakın arkadaşının zorla söylediği adayın.",
+          "İlk oy kullanan kişinin seçtiği adayın."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Eylül bir sorunu fark edip durumu değerlendirdikten sonra öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak yolunu seçti. Bu davranıştan hangi sonuç çıkarılır?",
+        "choices": [
+          "Eylül iş birliğine önem veren adaletli bir öğrencidir",
+          "Eylül kuralları önemsemez",
+          "Eylül sorunu büyütmek ister",
+          "Eylül çevresini dinlemez"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sorunu düşünüp uygun çözüm seçmesi, eylül iş birliğine önem veren adaletli bir öğrencidir sonucunu destekler.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
+        "options": [
+          "Eylül iş birliğine önem veren adaletli bir öğrencidir",
+          "Eylül kuralları önemsemez",
+          "Eylül sorunu büyütmek ister",
+          "Eylül çevresini dinlemez"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "siralama",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Grup afiş hazırlıyor. Selin başlık yazmayı, Can resim yapmayı istiyor. İkisi de arkadaşlarını dinliyor. Hangi iş bölümü verilen bilgilere uygundur?",
+        "choices": [
+          "Selin başlığı yazar, Can resimleri çizer.",
+          "Can bütün işleri yapar, Selin yalnız izler.",
+          "İkisi de başlığı yazar, resimleri kimse hazırlamaz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "İş bölümü hem yapılacak işleri tamamlamalı hem öğrencilerin katkısını değerlendirmelidir. İlk plan iki ayrı işi karşılar; diğerlerinde görev veya katılım eksik kalır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
+        "options": [
+          "Selin başlığı yazar, Can resimleri çizer.",
+          "Can bütün işleri yapar, Selin yalnız izler.",
+          "İkisi de başlığı yazar, resimleri kimse hazırlamaz."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Ben ve Okulum görselindeki üç adımın ikincisi hangisidir?",
+        "choices": [
+          "Görevleri yeteneklere göre paylaşmak",
+          "Yapılacak görevi birlikte belirlemek",
+          "Çalışmayı kontrol edip sunmak",
+          "bütün kararları tek başına vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlk adımdan sonra “Görevleri yeteneklere göre paylaşmak” yapılır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Etkinlik sırası",
+          "data": {
+            "first": "Yapılacak görevi birlikte belirlemek",
+            "second": "Görevleri yeteneklere göre paylaşmak",
+            "third": "Çalışmayı kontrol edip sunmak"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
+        "imageAlt": "Etkinlik sırası",
+        "options": [
+          "Görevleri yeteneklere göre paylaşmak",
+          "Yapılacak görevi birlikte belirlemek",
+          "Çalışmayı kontrol edip sunmak",
+          "bütün kararları tek başına vermek"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Okul duyurusunda kütüphanenin salı ve perşembe günleri açık olduğu yazıyor. Ece çarşamba kitap almak istiyor. Duyuruya uygun plan hangisidir?",
+        "choices": [
+          "Kütüphanenin bütün hafta kapalı olduğunu söylemek.",
+          "Kitabını perşembe almak için plan yapmak.",
+          "Çarşamba açık olduğunu varsayıp gitmek."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Duyuruda çarşamba açık günler arasında yoktur, perşembe vardır. Bilgiyi okuyup uygun güne plan yapmak, tahminle hareket etmekten farklıdır.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
+        "options": [
+          "Kütüphanenin bütün hafta kapalı olduğunu söylemek.",
+          "Kitabını perşembe almak için plan yapmak.",
+          "Çarşamba açık olduğunu varsayıp gitmek."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: “Grup çalışmasında iki öğrenci aynı görevi istiyor.” Bu durumda en güvenli ve uygun çözüm hangisidir?",
+        "choices": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güvenli ve sorumlu çözüm doğru seçenekte verilmiştir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
+        "options": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "İki arkadaş aynı topu kullanmak istiyor. Teneffüsün ikisine de yetecek kadar uzun olduğunu biliyorlar. Hangi çözüm ikisinin isteğini de dikkate alır?",
+        "choices": [
+          "Topu ilk alanın bütün teneffüs kullanması.",
+          "İkisi istediği için topu kimsenin kullanmaması.",
+          "Kullanma sırasını ve süreyi birlikte belirlemek."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sıra ve süre üzerinde anlaşmak iki arkadaşın da oynamasına fırsat verir. Topu tek kişiye bırakmak veya kullanımı tamamen durdurmak iki isteği birlikte karşılamaz.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
+        "options": [
+          "Topu ilk alanın bütün teneffüs kullanması.",
+          "İkisi istediği için topu kimsenin kullanmaması.",
+          "Kullanma sırasını ve süreyi birlikte belirlemek."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Ben ve Okulum konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün kararları tek başına vermek",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
+        "options": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün kararları tek başına vermek",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Ayşe grup ödevindeki çizimini bitirdi ama grup arkadaşına haber vermedi. Arkadaşı çizimin hazır olmadığını sanıyor. Hangi davranış bu sorunu doğrudan çözer?",
+        "choices": [
+          "Hazır çizimi arkadaşına gösterip tamamlandığını bildirmek.",
+          "Aynı çizimi baştan bir kez daha yapmak.",
+          "Arkadaşının kendiliğinden anlamasını beklemek."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Buradaki eksik işin yapılması değil, tamamlandığının bildirilmesidir. Hazır ürünü paylaşmak grup arkadaşının doğru bilgiyle çalışmasını sağlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
+        "options": [
+          "Hazır çizimi arkadaşına gösterip tamamlandığını bildirmek.",
+          "Aynı çizimi baştan bir kez daha yapmak.",
+          "Arkadaşının kendiliğinden anlamasını beklemek."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Ben ve Okulum konuşma kartında “Kimden yardım isteyebilirim?” sorusu vardır. En uygun cevap hangisidir?",
+        "choices": [
+          "öğretmen veya okul rehberlik görevlisi",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu durumda güvenli yardım kaynağı “öğretmen veya okul rehberlik görevlisi”dır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Yardım kaynakları",
+          "data": {
+            "question": "Kimden yardım istemeliyim?",
+            "answer": "öğretmen veya okul rehberlik görevlisi"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
+        "imageAlt": "Yardım kaynakları",
+        "options": [
+          "öğretmen veya okul rehberlik görevlisi",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıfta bir arkadaşının sözünü sık sık kestiğini fark eden Eren, onun fikrini de duymak istiyor. Hangisi amacına uygundur?",
+        "choices": [
+          "Bir daha hiçbir grup konuşmasına katılmamak.",
+          "Konuşmasını bitirmesini bekleyip sonra kendi fikrini söylemek.",
+          "Daha hızlı konuşarak önce kendi fikrini bitirmek."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Söz sırasını beklemek iki kişinin de fikrini duyurmasına imkân verir. Hiç katılmamak veya daha hızlı konuşmak karşılıklı dinleme sorununu çözmez.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
+        "options": [
+          "Bir daha hiçbir grup konuşmasına katılmamak.",
+          "Konuşmasını bitirmesini bekleyip sonra kendi fikrini söylemek.",
+          "Daha hızlı konuşarak önce kendi fikrini bitirmek."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Eylül “farklı görüşleri söz kesmeden dinlemek” kuralına uyarsa bunun en önemli nedeni ne olur?",
+        "choices": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kuralın temel amacı her öğrencinin çalışmaya katkı sunabilmesitır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
+        "options": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Duyuru panosundaki eski bir afiş etkinliği pazartesi, tarihli yeni duyuru ise cuma gösteriyor. Yanlış gün gitmemek için ne yapılmalıdır?",
+        "choices": [
+          "Daha renkli olan afişteki günü seçmek.",
+          "İki günün ortası olduğu için çarşamba gitmek.",
+          "Yeni duyuruyu öğretmene gösterip gün değişikliğini doğrulamak."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çelişen bilgilerde renk veya ortalama gün güvenilir ölçüt değildir. Güncel duyuruyu yetkili öğretmenle kontrol etmek hangi bilginin geçerli olduğunu açıklığa kavuşturur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
+        "options": [
+          "Daha renkli olan afişteki günü seçmek.",
+          "İki günün ortası olduğu için çarşamba gitmek.",
+          "Yeni duyuruyu öğretmene gösterip gün değişikliğini doğrulamak."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı ile sınıf başkanlığı seçiminde kurallara uygun oy kullanmak davranışlarının ortak yönü nedir?",
+        "choices": [
+          "okul yaşamına etkin ve sorumlu katılmak",
+          "bütün kararları tek başına vermek",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İki davranış da okul yaşamına etkin ve sorumlu katılmak düşüncesini destekler.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
+        "options": [
+          "okul yaşamına etkin ve sorumlu katılmak",
+          "bütün kararları tek başına vermek",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Kaan cetvelini evde unutmuş. Yanındaki arkadaşının cetveli var ama arkadaşı onu kullanıyor. Kaan nasıl davranmalıdır?",
+        "choices": [
+          "İşi bitince ödünç alıp alamayacağını sormalıdır.",
+          "Cetveli hemen elinden almalıdır.",
+          "İzin istemeden çantasını aramalıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir aracı ödünç almak için sahibinin izni gerekir. Arkadaşının işinin bitmesini beklemek hem ihtiyacı belirtir hem onun kullanım hakkını korur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
+        "options": [
+          "İşi bitince ödünç alıp alamayacağını sormalıdır.",
+          "Cetveli hemen elinden almalıdır.",
+          "İzin istemeden çantasını aramalıdır."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Ben ve Okulum görselindeki yanlış davranışın yerine hangisi yapılmalıdır?",
+        "choices": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yanlış seçim yerine güvenli ve uygun çözüm uygulanmalıdır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Seçimini düzelt",
+          "data": {
+            "wrong": "bütün kararları tek başına vermek",
+            "better": "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
+        "imageAlt": "Seçimini düzelt",
+        "options": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıfın ortak boyalarından biri kırılmış. Duru bunu görmüş fakat kimin kırdığını bilmiyor. Öğretmene ne söylemesi uygundur?",
+        "choices": [
+          "Hiç görmediği hâlde arkadaşının kırdığını.",
+          "Boyanın kırık olduğunu, kimin kırdığını görmediğini.",
+          "Dün boyayı kullanan kişinin kesin kırdığını."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gördüğümüz durumu bildirmekle nedenini tahmin etmek farklıdır. Duru kırık boyayı gördüğünü söyleyebilir; bir kişiyi kanıt olmadan sorumlu tutamaz.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
+        "options": [
+          "Hiç görmediği hâlde arkadaşının kırdığını.",
+          "Boyanın kırık olduğunu, kimin kırdığını görmediğini.",
+          "Dün boyayı kullanan kişinin kesin kırdığını."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-9",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: grup görevini zamanında ve uyum içinde tamamladı sonucu hangi davranışla doğrudan ilişkilidir?",
+        "choices": [
+          "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+          "bütün kararları tek başına vermek",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Olumlu sonucu doğuran davranış “grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı”dır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-9",
+        "options": [
+          "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+          "bütün kararları tek başına vermek",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Grup sunumundan önce herkes kendi bölümünü hazırladı. Sunumun anlaşılır olması için sıradaki en yararlı çalışma hangisidir?",
+        "choices": [
+          "Hazırlanan bölümleri birbirinden saklamak.",
+          "Sunum sırasını konuşmadan aynı anda anlatmak.",
+          "Bölümleri sıraya koyup birlikte prova yapmak."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ayrı bölümler tamamlanınca aralarındaki sıra ve geçişler kontrol edilir. Birlikte prova yapmak tekrarları ve eksikleri görmeyi sağlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-9",
+        "options": [
+          "Hazırlanan bölümleri birbirinden saklamak.",
+          "Sunum sırasını konuşmadan aynı anda anlatmak.",
+          "Bölümleri sıraya koyup birlikte prova yapmak."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf orta: Ben ve Okulum görselinde “grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı → grup görevini zamanında ve uyum içinde tamamladı” bağlantısı vardır. Ana düşünce hangisidir?",
+        "choices": [
+          "okul yaşamına etkin ve sorumlu katılmak olumlu sonuçlar doğurur",
+          "bütün kararları tek başına vermek her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranış ve sonuç birlikte değerlendirildiğinde ana düşünce doğru seçenekte verilir.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Davranış ve sonuç",
+          "data": {
+            "action": "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+            "result": "grup görevini zamanında ve uyum içinde tamamladı"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10",
+        "imageAlt": "Davranış ve sonuç",
+        "options": [
+          "okul yaşamına etkin ve sorumlu katılmak olumlu sonuçlar doğurur",
+          "bütün kararları tek başına vermek her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Yeni öğrenci okulda kütüphaneyi arıyor. Kapılardaki yazıları henüz göremiyor. Hangi yardım onu doğru bilgiye ulaştırır?",
+        "choices": [
+          "Öğretmene birlikte sorup kütüphaneye kadar eşlik etmek.",
+          "Bilmediğin bir kapıyı kütüphane diye göstermek.",
+          "Her kapıyı tek başına denemesini istemek."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bilmediğimiz yeri tahmin etmek yerine doğru kaynağa başvurabiliriz. Öğretmene birlikte sormak ve eşlik etmek yeni öğrencinin güvenle öğrenmesini sağlar.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10",
+        "options": [
+          "Öğretmene birlikte sorup kütüphaneye kadar eşlik etmek.",
+          "Bilmediğin bir kapıyı kütüphane diye göstermek.",
+          "Her kapıyı tek başına denemesini istemek."
+        ],
+        "difficulty": "orta",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Eylül, sınıf ortamında “grup çalışmasında iki öğrenci aynı görevi istiyor” durumuyla karşılaştı. Durumu değerlendirdikten sonra öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak. Buna göre hangisi kesinlikle söylenebilir?",
+        "choices": [
+          "Eylül iş birliğine önem veren adaletli bir öğrencidir",
+          "Eylül düşünmeden davranmıştır",
+          "Eylül sorunu görmezden gelmiştir",
+          "Eylül yalnız kendi isteğini önemsemiştir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Uygun çözümü seçmesi, eylül iş birliğine önem veren adaletli bir öğrencidir olduğunu gösterir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+        "options": [
+          "Eylül iş birliğine önem veren adaletli bir öğrencidir",
+          "Eylül düşünmeden davranmıştır",
+          "Eylül sorunu görmezden gelmiştir",
+          "Eylül yalnız kendi isteğini önemsemiştir"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "siralama",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Üç kişilik grupta afiş, yazı ve sunum işleri var. Ece afişi hazırladı; Ali yazıyı tamamladı. Deniz henüz görev almadı. Herkesin katkı verdiği ve bütün işlerin tamamlandığı plan hangisidir?",
+        "choices": [
+          "Deniz sunumu hazırlar; grup birlikte son kontrolü yapar.",
+          "Ece sunumu da yapar; Deniz çalışmayı izler.",
+          "Deniz ikinci bir afiş yapar; sunum hazırlanmadan kalır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "İki koşul birlikte aranıyor: Her öğrenci katkı vermeli ve üç iş de tamamlanmalı. Deniz’in eksik kalan sunumu üstlenmesi iki koşulu sağlar; diğer planlarda biri eksik kalır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+        "options": [
+          "Deniz sunumu hazırlar; grup birlikte son kontrolü yapar.",
+          "Ece sunumu da yapar; Deniz çalışmayı izler.",
+          "Deniz ikinci bir afiş yapar; sunum hazırlanmadan kalır."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Ben ve Okulum olayının ilk ve son adımı görselde verilmiştir. Araya hangisi gelmelidir?",
+        "choices": [
+          "Görevleri yeteneklere göre paylaşmak",
+          "Yapılacak görevi birlikte belirlemek",
+          "Çalışmayı kontrol edip sunmak",
+          "bütün kararları tek başına vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru sıra içindeki orta adım “Görevleri yeteneklere göre paylaşmak”dır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Eksik adımı tamamla",
+          "data": {
+            "first": "Yapılacak görevi birlikte belirlemek",
+            "middle": "?",
+            "third": "Çalışmayı kontrol edip sunmak"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2",
+        "imageAlt": "Eksik adımı tamamla",
+        "options": [
+          "Görevleri yeteneklere göre paylaşmak",
+          "Yapılacak görevi birlikte belirlemek",
+          "Çalışmayı kontrol edip sunmak",
+          "bütün kararları tek başına vermek"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Bir grup kitap toplama kampanyası yapıyor. Okul, kitapların temiz ve ilkokul öğrencilerine uygun olmasını istiyor. Hangi kitap bu iki koşulu sağlar?",
+        "choices": [
+          "Temiz olan, yetişkinlere yönelik ileri matematik kitabı.",
+          "Temiz, sayfaları tam ve ilkokula uygun bir öykü kitabı.",
+          "Sayfaları eksik olan, ilkokula uygun bir öykü kitabı."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yalnız temiz olmak veya yalnız yaşa uygun olmak yetmez. Sayfaları tam, temiz ve ilkokul düzeyinde olan öykü kitabı birlikte verilen koşulları karşılar.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2",
+        "options": [
+          "Temiz olan, yetişkinlere yönelik ileri matematik kitabı.",
+          "Temiz, sayfaları tam ve ilkokula uygun bir öykü kitabı.",
+          "Sayfaları eksik olan, ilkokula uygun bir öykü kitabı."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-3",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Eylül “bütün kararları tek başına vermek” davranışının bir soruna yol açabileceğini düşünüyor. En doğru kararı hangisidir?",
+        "choices": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "aynı davranışı yapmak",
+          "sorunu gizlemek",
+          "uyarıyı önemsememek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Riskli veya yanlış durumda güvenli çözüm seçilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-3",
+        "options": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "aynı davranışı yapmak",
+          "sorunu gizlemek",
+          "uyarıyı önemsememek"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Sınıfça oyun seçilecek. Öğrenciler önce iki oyunun kurallarını dinledi, sonra gizli oy verdi. Seçilmeyen oyunu isteyenler de kazanan oyuna katıldı. Hangi sonuç verilen olayla desteklenir?",
+        "choices": [
+          "Bütün öğrenciler baştan beri aynı oyunu istemiştir.",
+          "Oylamadan sonra kimsenin farklı fikri kalmamıştır.",
+          "Öğrenciler tercihlerini belirtip ortak karara uymuştur."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Farklı oyunları isteyenler bulunduğu açıkça söyleniyor. Oylamaya katılıp sonuca uymaları ortak kararı kabul ettiklerini gösterir; herkesin fikrinin aynılaştığını göstermez.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-3",
+        "options": [
+          "Bütün öğrenciler baştan beri aynı oyunu istemiştir.",
+          "Oylamadan sonra kimsenin farklı fikri kalmamıştır.",
+          "Öğrenciler tercihlerini belirtip ortak karara uymuştur."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Ben ve Okulum konusunda bir davranış hem güvenli hem sorumlu olmalıdır. İki koşulu birlikte sağlayan hangisidir?",
+        "choices": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün kararları tek başına vermek",
+          "izinsiz araç kullanmak",
+          "ortak alana zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru seçenek hem güvenli hem sorumlu bir davranıştır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-4",
+        "options": [
+          "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak",
+          "bütün kararları tek başına vermek",
+          "izinsiz araç kullanmak",
+          "ortak alana zarar vermek"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Kütüphane kuralı: Bir öğrenci, aldığı kitabı geri getirmeden yeni kitap alamaz. Bora kitabını evde unutmuş; yeni bir kitap istiyor. Kurala ve Bora’nın ihtiyacına birlikte uygun çözüm hangisidir?",
+        "choices": [
+          "Eski kitabı getirip teslim ettikten sonra yeni kitabı almak.",
+          "Yeni kitabı şimdi alıp iki kitabı istediği zaman getirmek.",
+          "Bir arkadaşının adıyla yeni kitap almak."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kural yeni ödünç almadan önce iadeyi şart koşuyor. Eski kitabı getirip teslim etmek bu sırayı korur; başka adla almak kuralın amacını aşmaya çalışır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-4",
+        "options": [
+          "Eski kitabı getirip teslim ettikten sonra yeni kitabı almak.",
+          "Yeni kitabı şimdi alıp iki kitabı istediği zaman getirmek.",
+          "Bir arkadaşının adıyla yeni kitap almak."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-5",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Ben ve Okulum karar görselinde “grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı” ve “bütün kararları tek başına vermek” yolları vardır. Doğru yolun en güçlü gerekçesi hangisidir?",
+        "choices": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "daha çok sorun çıkarmak",
+          "kuralları geçersiz kılmak",
+          "sorumluluğu başkasına bırakmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru seçimin temel gerekçesi her öğrencinin çalışmaya katkı sunabilmesitır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "İki yol, bir karar",
+          "data": {
+            "right": "grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı",
+            "wrong": "bütün kararları tek başına vermek",
+            "reason": "her öğrencinin çalışmaya katkı sunabilmesi"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-5",
+        "imageAlt": "İki yol, bir karar",
+        "options": [
+          "her öğrencinin çalışmaya katkı sunabilmesi",
+          "daha çok sorun çıkarmak",
+          "kuralları geçersiz kılmak",
+          "sorumluluğu başkasına bırakmak"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Afiş için iki öneri var: büyük yazı kullanmak ve renkli zemin kullanmak. Denemede küçük yazı renkli zeminde okunmuyor. Grup hangi kararla hem fikirlere yer verir hem okunmayı sağlar?",
+        "choices": [
+          "Yalnız yazıyı büyütüp zeminin okunmayı etkileyip etkilemediğine bakmamak.",
+          "Büyük yazıyı okunaklı bir renkli zeminle deneyip uzaktan kontrol etmek.",
+          "Renkli olduğu için küçük yazılı afişi kontrol etmeden seçmek."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gözlem, okunurluğun kontrol edilmesi gerektiğini gösterir. Büyük yazı ve uygun zemin birlikte denenip uzaktan okunursa iki öneri de amaç doğrultusunda değerlendirilmiş olur.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-5",
+        "options": [
+          "Yalnız yazıyı büyütüp zeminin okunmayı etkileyip etkilemediğine bakmamak.",
+          "Büyük yazıyı okunaklı bir renkli zeminle deneyip uzaktan kontrol etmek.",
+          "Renkli olduğu için küçük yazılı afişi kontrol etmeden seçmek."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-6",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Karışık verilen adımlar doğru sıraya konacaktır: “Çalışmayı kontrol edip sunmak / Yapılacak görevi birlikte belirlemek / Görevleri yeteneklere göre paylaşmak”. Doğru sıra hangisidir?",
+        "choices": [
+          "Yapılacak görevi birlikte belirlemek → Görevleri yeteneklere göre paylaşmak → Çalışmayı kontrol edip sunmak",
+          "Çalışmayı kontrol edip sunmak → Görevleri yeteneklere göre paylaşmak → Yapılacak görevi birlikte belirlemek",
+          "Görevleri yeteneklere göre paylaşmak → Yapılacak görevi birlikte belirlemek → Çalışmayı kontrol edip sunmak",
+          "Yapılacak görevi birlikte belirlemek → Çalışmayı kontrol edip sunmak → Görevleri yeteneklere göre paylaşmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Adımlar başlangıç, uygulama ve sonuç sırasıyla dizilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-6",
+        "options": [
+          "Yapılacak görevi birlikte belirlemek → Görevleri yeteneklere göre paylaşmak → Çalışmayı kontrol edip sunmak",
+          "Çalışmayı kontrol edip sunmak → Görevleri yeteneklere göre paylaşmak → Yapılacak görevi birlikte belirlemek",
+          "Görevleri yeteneklere göre paylaşmak → Yapılacak görevi birlikte belirlemek → Çalışmayı kontrol edip sunmak",
+          "Yapılacak görevi birlikte belirlemek → Çalışmayı kontrol edip sunmak → Görevleri yeteneklere göre paylaşmak"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "siralama",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Öğretmen, sınıf temsilcisinin herkesin önerisini iletmesini istiyor. Temsilci kendi fikrinden farklı üç öneri duydu. Görevini doğru yapması için hangi plan gerekir?",
+        "choices": [
+          "Yalnız kendi fikrine benzeyen önerileri iletmek.",
+          "Üç öneriyi, sahiplerine sormadan kendi fikrine çevirmek.",
+          "Önerileri değiştirmeden not edip kendi önerisiyle birlikte iletmek."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Temsil görevi yalnız kişisel tercihi savunmak değildir. Farklı önerileri anlamını değiştirmeden iletmek, öğretmenin herkesin görüşünü öğrenmesini sağlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-6",
+        "options": [
+          "Yalnız kendi fikrine benzeyen önerileri iletmek.",
+          "Üç öneriyi, sahiplerine sormadan kendi fikrine çevirmek.",
+          "Önerileri değiştirmeden not edip kendi önerisiyle birlikte iletmek."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Eylül “farklı görüşleri söz kesmeden dinlemek” kuralını uyguluyor; çünkü amacı her öğrencinin çalışmaya katkı sunabilmesi. Burada neden-sonuç ilişkisi hangisidir?",
+        "choices": [
+          "Kuralın uygulanması ile amacı arasında",
+          "İki ilgisiz eşya arasında",
+          "Yalnız yer adları arasında",
+          "Başlık ile sayfa arasında"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kural uygulanır ve amaçlanan yarar bunun sonucunda sağlanır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-7",
+        "options": [
+          "Kuralın uygulanması ile amacı arasında",
+          "İki ilgisiz eşya arasında",
+          "Yalnız yer adları arasında",
+          "Başlık ile sayfa arasında"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "problem",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Sınıfın iki haftalık kâğıt kullanım kaydı şöyle: ilk hafta 60, ikinci hafta 40 yaprak. İkinci hafta boş arka yüzler de kullanılmış. Yalnız bu kayıttan hangi sonuç çıkarılabilir?",
+        "choices": [
+          "İkinci hafta 20 yaprak daha az kullanılmıştır.",
+          "İkinci hafta hiçbir öğrenci yazı yazmamıştır.",
+          "Bundan sonraki her hafta tam 40 yaprak kullanılacaktır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "60 ile 40 arasındaki fark 20’dir. Kayıt kullanımın azaldığını gösterir; hiç yazı yazılmadığını veya gelecekte hep aynı miktarın kullanılacağını kanıtlamaz.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-7",
+        "options": [
+          "İkinci hafta 20 yaprak daha az kullanılmıştır.",
+          "İkinci hafta hiçbir öğrenci yazı yazmamıştır.",
+          "Bundan sonraki her hafta tam 40 yaprak kullanılacaktır."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-8",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Ben ve Okulum çözüm görselindeki okul krokisi ve duyuru panosu, öğretmen veya okul rehberlik görevlisi ve sorumluluk bilgileri nasıl kullanılmalıdır?",
+        "choices": [
+          "Durumu anlamak, uygun kaynağı kullanmak ve sorumluluk almak",
+          "Kaynağı saklamak ve yardım istememek",
+          "Önce zarar vermek, sonra düşünmek",
+          "Rastgele bir seçim yapmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bilinçli çözüm bilgi, yardım ve sorumluluğu birlikte kullanır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Çözüm araçları",
+          "data": {
+            "source": "okul krokisi ve duyuru panosu",
+            "helper": "öğretmen veya okul rehberlik görevlisi",
+            "responsibility": "sınıf başkanlığı seçiminde kurallara uygun oy kullanmak"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-8",
+        "imageAlt": "Çözüm araçları",
+        "options": [
+          "Durumu anlamak, uygun kaynağı kullanmak ve sorumluluk almak",
+          "Kaynağı saklamak ve yardım istememek",
+          "Önce zarar vermek, sonra düşünmek",
+          "Rastgele bir seçim yapmak"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "İki arkadaş nöbet çizelgesinde aynı günü istiyor. İkisi de başka bir gün görev alabiliyor. Öğretmen herkesin haftada bir görev almasını istiyor. Hangi çözüm tüm bilgileri dikkate alır?",
+        "choices": [
+          "Bir arkadaşını çizelgeden tamamen çıkarmak.",
+          "Günleri anlaşarak ayırıp değişikliği öğretmene bildirmek.",
+          "İkisini aynı güne yazıp birini haftanın diğer gününe de yazmak."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Günleri ayırmak her birine bir görev verir; öğretmene bildirmek ortak çizelgenin doğru kalmasını sağlar. Diğer planlarda biri iki kez görev alır veya hiç görev alamaz.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-8",
+        "options": [
+          "Bir arkadaşını çizelgeden tamamen çıkarmak.",
+          "Günleri anlaşarak ayırıp değişikliği öğretmene bildirmek.",
+          "İkisini aynı güne yazıp birini haftanın diğer gününe de yazmak."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-9",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: “grup çalışmasında görevleri arkadaşlarıyla adil biçimde paylaştı yararlıdır; ancak farklı görüşleri söz kesmeden dinlemek kuralı da unutulmamalıdır.” cümlesi neyi vurgular?",
+        "choices": [
+          "Doğru davranışın kurallarla birlikte uygulanmasını",
+          "Kuralların gereksiz olduğunu",
+          "Her işin tek başına yapılmasını",
+          "Sorumlulukların ertelenmesini"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yararlı davranışlar güvenlik ve sorumluluk kurallarıyla uygulanmalıdır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-9",
+        "options": [
+          "Doğru davranışın kurallarla birlikte uygulanmasını",
+          "Kuralların gereksiz olduğunu",
+          "Her işin tek başına yapılmasını",
+          "Sorumlulukların ertelenmesini"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Okul bahçesinde oyun çizgileri silindiği için öğrenciler sınır konusunda anlaşamıyor. Öğrenciler öğretmene hangi öneriyi sunarsa sorunun nedenine yönelik çözüm üretir?",
+        "choices": [
+          "Daha çok top alınmasını.",
+          "Teneffüs zilinin daha yüksek çalmasını.",
+          "Oyun sınırlarının yetişkin yardımıyla yeniden belirginleştirilmesini."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Anlaşmazlığın nedeni sınırların görünmemesidir. Sınırları belirginleştirmek bu nedeni giderir; top sayısı ve zil sesi sınır bilgisini değiştirmez.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-9",
+        "options": [
+          "Daha çok top alınmasını.",
+          "Teneffüs zilinin daha yüksek çalmasını.",
+          "Oyun sınırlarının yetişkin yardımıyla yeniden belirginleştirilmesini."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-10",
+      "test": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.",
+      "before": {
+        "question": "3. sınıf zor: Ben ve Okulum görselindeki olay “Grup çalışmasında iki öğrenci aynı görevi istiyor” diye başlıyor ve “grup görevini zamanında ve uyum içinde tamamladı” diye bitiyor. Uygun ara adım hangisidir?",
+        "choices": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "sorunu büyütmek",
+          "yardım kaynaklarından uzaklaşmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sorunu olumlu sonuca bağlayan ara adım doğru çözümdür.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Sorundan çözüme",
+          "data": {
+            "problem": "Grup çalışmasında iki öğrenci aynı görevi istiyor",
+            "solution": "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+            "result": "grup görevini zamanında ve uyum içinde tamamladı"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-10",
+        "imageAlt": "Sorundan çözüme",
+        "options": [
+          "öğrencileri dinleyip görevleri adil biçimde yeniden paylaşmak",
+          "bütün kararları tek başına vermek",
+          "sorunu büyütmek",
+          "yardım kaynaklarından uzaklaşmak"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Sunum günü bir grup arkadaşı okula gelemedi. Onun yazılı notları grupta duruyor. Sunumda herkesin emeğini doğru belirtmek isteyen grup ne yapmalıdır?",
+        "choices": [
+          "Notlarından yararlanıp o bölümü arkadaşının hazırladığını söylemelidir.",
+          "Notları okuyup bütün bölümleri kendilerinin hazırladığını söylemelidir.",
+          "Arkadaşının adını notlardan silerek sunmalıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Arkadaşının katkısı okula gelemediği için yok olmaz. Notlarından yararlanırken emeğini belirtmek hem sunumu sürdürür hem çalışmanın kime ait olduğunu doğru aktarır.",
+        "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-10",
+        "options": [
+          "Notlarından yararlanıp o bölümü arkadaşının hazırladığını söylemelidir.",
+          "Notları okuyup bütün bölümleri kendilerinin hazırladığını söylemelidir.",
+          "Arkadaşının adını notlardan silerek sunmalıdır."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
+        "questionType": "metin-anlama",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
           "editorial-2026-10"
         ]
       }

@@ -3,7 +3,7 @@
   const allowed={1:['matematik','turkce','hayat-bilgisi','ingilizce'],2:['matematik','turkce','hayat-bilgisi','ingilizce'],3:['matematik','turkce','hayat-bilgisi','fen-bilimleri','ingilizce'],4:['matematik','turkce','hayat-bilgisi','fen-bilimleri','sosyal-bilgiler','ingilizce']};
   const files=allowed[grade]?.includes(subject)?(grade==='4'?['data/tests/4-tum-dersler.js',...(subject==='matematik'?['data/tests/4-matematik-zaman-olcme.js','data/tests/4-z-gemini-vetted.js']:[])]:['data/tests/'+grade+'-'+subject+'.js']):[];
   if(allowed[grade]?.includes(subject)) files.push('data/runtime/zor-test2-'+grade+'-'+subject+'.js');
-  const test1Repairs={2:['ingilizce'],3:['ingilizce','fen-bilimleri']};
+  const test1Repairs={"2":["ingilizce"],"3":["ingilizce","fen-bilimleri","hayat-bilgisi"]};
   if((params.get('test')||'1')==='1' && test1Repairs[grade]?.includes(subject)) files.push('data/runtime/editorial-'+grade+'-'+subject+'.js');
   if(files.length) files.unshift('data/runtime/image-dimensions.js');
   function load(src){return new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.onload=resolve;script.onerror=reject;document.body.appendChild(script);});}

@@ -15,8 +15,14 @@ process.env.GOOGLE_SHEETS_REGISTER_SHEET_NAME = "Kayitlar";
 process.env.JWT_SECRET = "test-secret-that-is-longer-than-thirty-two-characters";
 
 let rows = [];
+let failRevocation = false;
 global.fetch = async (url, options = {}) => {
   if (String(url).includes("oauth2.googleapis.com")) return new Response(JSON.stringify({ access_token: "token" }), { status: 200 });
+  if (String(url).includes('/values:batchUpdate')) {
+    if(failRevocation)return new Response('{}',{status:503});
+    for(const cell of JSON.parse(options.body).data){const index=Number(cell.range.match(/K(\d+)$/)[1])-1;rows[index][10]=cell.values[0][0];}
+    return new Response('{}',{status:200});
+  }
   if (options.method === "POST") {
     const values = JSON.parse(options.body).values;
     rows.push(...values);
@@ -62,10 +68,27 @@ const signedOut = await call(logout, { cookie });
 assert(signedOut.status === 200 && /^testcoz_session=; Path=\/; HttpOnly; Secure; SameSite=Lax; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT$/.test(String(signedOut.headers["Set-Cookie"])), "Çıkış çerezi temizlenmedi.");
 const sessionAfterLogout = await call(session, { method: "GET" });
 assert(sessionAfterLogout.status === 401, "Çıkış sonrası tarayıcı oturumu devam ediyor.");
-if (process.argv.includes('--require-revocation')) {
+{
   const replay = await call(session, { method: "GET", cookie });
   assert(replay.status === 401, `Sunucu tarafı oturum iptali eksik: çıkış öncesi çerez yeniden kullanıldığında HTTP ${replay.status}.`);
 }
+
+const {requireSessionUser}=await import('../api/_lib/session-user.js');
+const protectedResponse=response();
+assert(await requireSessionUser({headers:{cookie}},protectedResponse.res)===null && protectedResponse.output.status===401,'Revoked token accepted by protected API');
+const secondLogin=await call(login,{body:{email:'test@example.com',password:'Guvenli123'}});
+const secondCookie=String(secondLogin.headers['Set-Cookie']).split(';')[0];
+assert((await call(session,{method:'GET',cookie:secondCookie})).status===200,'Fresh login after revocation failed');
+await call(logout,{cookie});
+assert((await call(session,{method:'GET',cookie:secondCookie})).status===200,'Old logout invalidated fresh session');
+failRevocation=true;
+const failedLogout=await call(logout,{cookie:secondCookie});
+assert(failedLogout.status===503 && !failedLogout.headers['Set-Cookie'],'Failed write falsely confirmed logout');
+failRevocation=false;
+const preserved=rows[1].slice(0,10);
+await call(logout,{cookie:secondCookie});
+assert(JSON.stringify(rows[1].slice(0,10))===JSON.stringify(preserved),'Logout overwrote student data');
+assert((await call(session,{method:'GET',cookie:secondCookie})).status===401,'Second token not revoked');
 
 const validPrivateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
 process.env.GOOGLE_SHEETS_PRIVATE_KEY = "not-a-private-key";

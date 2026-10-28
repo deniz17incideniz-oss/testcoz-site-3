@@ -261,3 +261,6 @@ const scienceRows=[
 ];
 for(const [topic,row]of scienceRows)repairs.push({slug:`3-sinif-fen-bilimleri-${topic}-orta-test-1`,index:7,row,reason:'replace_generic_model_and_distractors'});
 repairs.push({slug:'2-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-zor-test-2',index:9,row:['Geri dönüşüm afişinde “Atıkları ayır” yazıyor. Hangi çizim bu mesajı açıklar?','Kâğıt ve camı ayrı kutulara koyan çocuk','Bütün atıkları tek kutuya atan çocuk','Aynı atıkları kutudan yere döken çocuk','Atıkları ayırmak, türlerine göre ayrı toplamak demektir. Kâğıt ve camın farklı kutulara konması hem başlığın anlamını gösterir hem izlenecek davranışı açıklar.'],reason:'replace_generic_distractor_with_relevant_actions'});
+
+import {schoolRepairs} from './school-repairs.mjs';
+for (const [difficulty, rows] of Object.entries(schoolRepairs)) test(3,'hayat-bilgisi','ben-ve-okulum',difficulty,1,rows,'Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.');

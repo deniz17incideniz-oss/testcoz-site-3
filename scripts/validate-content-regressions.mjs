@@ -22,7 +22,7 @@ let lessons=0;
 for(const [g,grade]of Object.entries(catalog.grades))for(const s of grade.subjects){
  const $=load(fs.readFileSync(`ders/${g}-sinif-${s.id}.html`,'utf8'));
  for(const topic of s.topics){
-  const lesson=getLesson(topic.id),card=$(`[id="${topic.id}"]`);
+  const lesson=getLesson(topic.id, Number(g)),card=$(`[id="${topic.id}"]`);
   assert.equal(card.length,1,topic.id);
   for(const field of ['example','solution','mistake','practice'])assert.ok(card.text().includes(lesson[field]),`${topic.id}/${field}`);
   lessons++;

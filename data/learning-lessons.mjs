@@ -106,4 +106,12 @@ for(const row of [...rows,...english,...turkish])for(const key of row[0].split('
  if(lessons.has(key))throw new Error(`Duplicate lesson ${key}`);
  lessons.set(key,{example:row[1],solution:row[2],mistake:row[3],practice:row[4]});
 }
-export function getLesson(topic){const lesson=lessons.get(topic);if(!lesson)throw new Error(`Missing authored lesson: ${topic}`);return lesson;}
+const gradeLessons = {
+ '3:ben-ve-okulum': {
+ example: 'Bir grupta iki öğrenci afişi çizmek istiyor; metni hazırlama görevini ise kimse almıyor. Görev dağılımında hangi iki şeyi birlikte düşünmeliyiz?',
+ solution: 'Hem her işin bir sorumlusu olmalı hem herkes katkı sunabilmeli. Öğrenciler isteklerini konuşur; çizimi paylaşırken bir öğrenci de metni hazırlamayı üstlenebilir. Sonunda metin ve resim birlikte kontrol edilir.',
+ mistake: 'Adil paylaşım herkesin aynı işi yapması demek değildir. Biri bütün işi yaparken diğerlerinin yalnız izlemesi de katılım sağlamaz. Görevin tamamlanması kadar herkesin katkısını da kontrol et.',
+ practice: 'Üç kişilik bir afiş çalışması için görev listesi hazırla: bilgi toplama, yazma ve çizme. Her işin yanına bir sorumlu yaz. Bir kişi gelemezse işini nasıl paylaşacağınızı ve emeğini nasıl belirteceğinizi açıklayın.'
+ }
+};
+export function getLesson(topic, grade){if(gradeLessons[grade+':'+topic])return gradeLessons[grade+':'+topic];const lesson=lessons.get(topic);if(!lesson)throw new Error(`Missing authored lesson: ${topic}`);return lesson;}

@@ -18,7 +18,7 @@ for(const p of repairs){
  assert.equal(digest(q),baseline[key]?.sha256,`Source question changed; review repair before applying: ${key}`);
  const row=p.row||[q.question,...q.choices.slice(q.correctAnswer),...q.choices.slice(0,q.correctAnswer),q.explanation];
  const [question,...rest]=row,explanation=rest.pop(),choices=rest;
- assert.equal(choices.length,q.choices.length,key); assert.equal(new Set(choices).size,choices.length,key);
+ assert.equal(choices.length,p.slug.startsWith('3-sinif-hayat-bilgisi-ben-ve-okulum-') && p.slug.endsWith('-test-1') ? 3 : q.choices.length,key); assert.equal(new Set(choices).size,choices.length,key);
  assert.ok((p.fields?.explanation || explanation).length>40,key);
  const shift=p.index%choices.length;
  const rotated=[...choices.slice(choices.length-shift),...choices.slice(0,choices.length-shift)];
@@ -48,3 +48,10 @@ for(const [key,subset] of groups) {
 }
 fs.writeFileSync('data/imports/adsense-repair-change-log.json',JSON.stringify({scope:'Authored repairs; no whole-bank editorial certification',count:changes.length,changes},null,2)+'\n');
 console.log(`Editorial repairs: ${changes.length} questions in ${new Set(changes.map(c=>c.test)).size} tests`);
+
+// Derive browser coverage from the same repair groups as the server bank.
+const manifest={};
+for(const key of groups.keys()){const [grade,...parts]=key.split('-');(manifest[grade]??=[]).push(parts.join('-'));}
+const loader=fs.readFileSync('js/test-loader.js','utf8');
+assert.equal((loader.match(/const test1Repairs=/g)||[]).length,1);
+fs.writeFileSync('js/test-loader.js',loader.replace(/const test1Repairs=.+?;/, 'const test1Repairs='+JSON.stringify(manifest)+';'));

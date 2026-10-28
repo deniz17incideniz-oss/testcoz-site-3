@@ -1,3 +1,5 @@
+> Historical bf989fa status. For the follow-up implementation and remaining limitations see [28 October deep-quality report](DEEP-QUALITY-2026-10-28.md).
+
 # TestÇöz — AdSense reddi sonrası uygulama ve açık kapılar
 
 Durum: **production ve yeniden AdSense başvurusu için hazır değil**. Bu belge, otomatik taramaları tüm içerik için insan editoryal onayı olarak göstermez.

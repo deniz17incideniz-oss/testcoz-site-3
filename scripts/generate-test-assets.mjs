@@ -112,7 +112,7 @@ function renderSvg(question) {
 
 function pageHtml(test) {
   const meta = getTopicMeta(test, test.questions);
-  const lesson = getLesson(test.topic);
+  const lesson = getLesson(test.topic, test.classLevel);
   const related = tests.filter(t => t.classLevel === test.classLevel && t.subject === test.subject && t.topic === test.topic && t.slug !== test.slug);
   const minutes = Math.ceil(test.questions.reduce((sum,q) => sum + q.estimatedTimeSeconds, 0) / 60);
   const query = `sinif=${test.classLevel}&ders=${test.subject}&konu=${test.topic}&zorluk=${test.difficulty}&test=${test.testNumber}`;
