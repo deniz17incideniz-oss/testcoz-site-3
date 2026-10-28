@@ -1,33 +1,34 @@
 # Soru kalite raporu
 
-- Yapısal kapsam: 5200 soru, 520 test; 1007 görselli soru.
+- Yapısal kapsam: 5200 soru, 520 test; 976 görselli soru.
 - Kaynak dağılımı: native 3828, matematiksel ve editoryal olarak yeniden doğrulanan Gemini 72.
 - Sınıf dağılımı: 1. sınıf 1080, 2. sınıf 1040, 3. sınıf 1360, 4. sınıf 1720.
-- Otomatik uyarı alan benzersiz soru: 1639; toplam uyarı olayı: 1760.
-- Aynı kök/seçenek/cevap: 175 grup / 205 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 175.
+- Otomatik uyarı alan benzersiz soru: 1581; toplam uyarı olayı: 1694.
+- Aynı kök/seçenek/cevap: 136 grup / 166 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 136.
 - Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bunlar editoryal adaydır; tek başına hata veya silme gerekçesi değildir.
 
 ## Kontrol sınıfları
 
 | Kontrol | Otomatik sonuç | Yorum |
 |---|---:|---|
-| Tek doğru cevap / geçerli indeks | PASS | Yapısal doğrulayıcı bütün soruları kontrol eder |
+| Geçerli cevap indeksi | Ayrı npm test kontrolü | İndeks geçerliliği tek doğru seçenek bulunduğunu kanıtlamaz |
+| Anlamsal olarak tek doğru cevap | TAMAMLANMADI | Seçeneklerin anlamı soru bazında incelenmelidir |
 | Hesaplama hatası | MANUEL | Gemini kabul listesi yeniden hesaplandı; native bankanın akademik doğruluğu öğretmen onayı ister |
-| Görsel-metne uyum | 756 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
-| Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 175 grup olası ortak şablon/false positive içerir |
+| Görsel-metne uyum | 731 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
+| Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 136 grup olası ortak şablon/false positive içerir |
 | Benzer soru | 55 grup | Sayısal kalıp sezgisi |
-| Zayıf çeldirici | 9 | Açık jenerik ifadeler aranır |
-| Zorluk ayrımı | 256 aday | Kısa zor kök + kısa çözüm sezgisi |
-| Yaşa uygunluk | 30 aday | Birinci sınıf uzun kök sezgisi |
+| Zayıf çeldirici | 0 | Açık jenerik ifadeler aranır |
+| Zorluk ayrımı | 253 aday | Kısa zor kök + kısa çözüm sezgisi |
+| Yaşa uygunluk | 29 aday | Birinci sınıf uzun kök sezgisi |
 | Dil/anlatım | 1 aday | Çift boşluk ve tekrarlı noktalama |
-| Açıklama yetersiz | 708 | Kısa çözüm sezgisi; kısa ama yeterli çözümler false positive olabilir |
+| Açıklama yetersiz | 680 | Kısa çözüm sezgisi; kısa ama yeterli çözümler false positive olabilir |
 | Görsel eksikliği | 0 | Dosya ve alt metin kontrolü |
 | Kazanım dışı içerik | MANUEL | Resmî kazanım kodu iddiası yok; öğretmen/müfredat editörü gerekir |
 | Slug/index uyumsuzluğu | 0 | Banka slug'ı ile landing yolu eşleştirilir |
 
-## Bu turdaki değişiklik
+## Değişiklik kaydı
 
-4. sınıf geometrinin 30 soruluk üç seviyesi önceki turda yeniden yazıldı. Bu tur Downloads içindeki özdeş iki Gemini ZIP'i güvenli biçimde denetlendi: 110 sorudan 33'ü yeniden hesaplanıp açıklamalı native biçime dönüştürüldü, 18'i kesin reddedildi, 59'u öğretmen/editör incelemesine bırakıldı. Eksik kaynak görsellere bağlı hiçbir soru eklenmedi. 4. sınıf sözel üreticisindeki açık jenerik çeldiriciler konu verileriyle değiştirildi. Soru sayısı, URL'ler ve her testteki 10 soru yapısı korundu.
+Güncel düzeltmeler ve önce/sonra değerleri `data/imports/adsense-repair-change-log.json` içinde tutulur. Bu rapor otomatik taramadır; geçmiş turlardaki işlemleri güncel kontrol gibi sunmaz.
 
 ## Sınırlar ve false positive ayrımı
 

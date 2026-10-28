@@ -3,6 +3,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { renderLearningVisual } from "./render-learning-visual.mjs";
 import { getTopicMeta } from "../data/topic-meta.mjs";
+import { getLesson } from "../data/learning-lessons.mjs";
 
 const context = { window: {} };
 vm.createContext(context);
@@ -111,6 +112,7 @@ function renderSvg(question) {
 
 function pageHtml(test) {
   const meta = getTopicMeta(test, test.questions);
+  const lesson = getLesson(test.topic);
   const related = tests.filter(t => t.classLevel === test.classLevel && t.subject === test.subject && t.topic === test.topic && t.slug !== test.slug);
   const minutes = Math.ceil(test.questions.reduce((sum,q) => sum + q.estimatedTimeSeconds, 0) / 60);
   const query = `sinif=${test.classLevel}&ders=${test.subject}&konu=${test.topic}&zorluk=${test.difficulty}&test=${test.testNumber}`;
@@ -118,6 +120,7 @@ function pageHtml(test) {
   const lower = label.toLocaleLowerCase("tr-TR");
   const runnerUrl = `../test.html?${query.replaceAll("&", "&amp;")}`;
   const subjectUrl = `../ders/${test.classLevel}-sinif-${test.subject}.html`;
+  const topicUrl = `${subjectUrl}#${test.topic}`;
   return `<!doctype html>
 <html lang="tr">
 <head>
@@ -137,17 +140,15 @@ function pageHtml(test) {
     <section class="section test-landing-section"><div class="container"><article class="study-content test-landing">
       <span class="eyebrow">${test.classLevel}. Sınıf ${esc(test.subjectName)} • ${label} Seviye</span>
       <h1>${test.classLevel}. Sınıf ${esc(test.subjectName)} ${esc(test.topicName)} ${label} Test ${test.testNumber}</h1>
-      <p>${esc(meta.description)}</p>
-      <h2>Bu testte neler var?</h2>
-      <ul><li>Soru sayısı: ${test.questions.length}</li><li>Seviye: ${label}</li><li>Ders: ${esc(test.subjectName)}</li><li>Konu: ${esc(test.topicName)}</li><li>Yaklaşık süre: ${minutes} dakika; bu bir süre sınırı değildir.</li></ul>
-      <h2>Bu test hangi becerileri geliştirir?</h2>
-      <ul>${meta.skills.map(skill => `<li>${esc(skill)}</li>`).join("")}</ul>
-      <h2>Öğrenme hedefleri</h2><ul>${meta.learningGoals.map(goal => `<li>${esc(goal)}</li>`).join("")}</ul>
-      <h2>Sık yapılan hatalar</h2><ul>${meta.commonMistakes.map(mistake => `<li>${esc(mistake)}</li>`).join("")}</ul>
-      <h2>Teste başlamadan önce</h2><p>${esc(meta.preparationTip)}</p>
-      <details class="sample-question"><summary>Bu seviyeden örnek bir soruyu incele</summary><p>${esc(test.questions[0].question)}</p>${test.questions[0].image ? `<img src="../${esc(test.questions[0].image)}" alt="${esc(test.questions[0].imageAlt)}" width="720" height="320" loading="lazy" class="question-image">` : ""}<ul>${test.questions[0].choices.map(c=>`<li>${esc(c)}</li>`).join("")}</ul><details><summary>Çözümü gör</summary><p>${esc(test.questions[0].explanation)}</p></details></details>
-      <div class="test-landing-actions"><a class="btn btn-primary btn-lg" href="${runnerUrl}">Teste Başla</a><a class="btn btn-secondary btn-lg" href="${subjectUrl}">Konuya Geri Dön</a></div>
-      <h2>Testi bitirdikten sonra ne yapmalısın?</h2><p>${esc(meta.afterTestTip)}</p><h3>Veliler için kısa öneri</h3><p>${esc(meta.parentTip)}</p><p>Sonuç ekranındaki Yanlışlarını Öğren bağlantısıyla boş ve yanlış sorularına dön. Açıklamayı okuduktan sonra çözüm yolunu kendi sözlerinle anlat.</p>
+      <p>${esc(meta.summary)}</p>
+      <p>${test.questions.length} soru · Yaklaşık ${minutes} dakika. Bu bir süre sınırı değildir; açıklamaları kendi hızında inceleyebilirsin.</p>
+      <p><a href="${topicUrl}">${esc(test.topicName)}: konu anlatımı ve çözümlü çalışma</a></p>
+      <h2>Başlamadan önce dikkat et</h2><p>${esc(lesson.mistake)}</p>
+      <h2>Bu testten iki çözümlü örnek</h2>
+      ${test.questions.slice(0,2).map((q,i)=>`<details class="sample-question"><summary>${i+1}. örneği incele</summary><p>${esc(q.question)}</p>${q.image ? `<img src="../${esc(q.image)}" alt="${esc(q.imageAlt)}" width="720" height="320" loading="lazy" class="question-image">` : ""}<ul>${q.choices.map(c=>`<li>${esc(c)}</li>`).join("")}</ul><details><summary>Cevap ve gerekçe</summary><p><strong>${esc(q.choices[q.correctAnswer])}</strong></p><p>${esc(q.explanation)}</p></details></details>`).join('')}
+      <div class="test-landing-actions"><a class="btn btn-primary btn-lg" href="${runnerUrl}">Teste Başla</a><a class="btn btn-secondary btn-lg" href="${topicUrl}">Konuya Geri Dön</a></div>
+      <h2>Testten sonra kısa çalışma</h2><p>${esc(lesson.practice)}</p><p>Yanlışlarını Öğren bölümünde kendi cevabını açıklamayla karşılaştır. Bir sonraki denemede cevabı ezberlemek yerine nedenini anlat. <a href="../veli.html">Veliler için sonuçları yorumlama</a></p>
+      <p class="study-note"><a href="../icerik-yaklasimimiz.html">Soruların hazırlanması ve kontrol sınırları</a> · <a href="../iletisim.html">İçerik hatası bildir</a></p>
       <nav aria-label="Aynı konunun diğer seviyeleri" class="difficulty-actions">${related.map(t=>`<a class="difficulty-link" href="../${t.pageUrl}">${esc(t.difficulty)} · Test ${t.testNumber}</a>`).join("")}</nav>
       <p class="study-note">Öğrenme alanı: ${esc(test.topicName)}. Buradaki beceriler çalışma odağını anlatır; resmî MEB öğrenme çıktısı kodları değildir. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p>
       <p class="study-note">Testleri kayıt olmadan çözebilirsiniz. İsteğe bağlı kayıt, günlük hedef ve öğrenci paneli gibi ek özellikler için sunulur.</p>

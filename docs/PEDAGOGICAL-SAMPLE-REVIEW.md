@@ -1,15 +1,15 @@
-# Pedagojik örnekleme — 20 Eylül 2026
+# Otomatik pedagojik örnekleme
 
 ## Yöntem
 
-Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 57 birleşimde toplam 285 soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
+Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. 57 birleşimde toplam 285 soru incelendi. Örnekleme; cevap indeksi ve seçenek tekilliği, kök ve açıklama uzunluğu gibi sezgisel işaretler, belirgin jenerik çeldiriciler ve görsel dosya/alt metin varlığına bakar. Açıklamanın gerçekten öğretip öğretmediğini, cevabın anlamsal doğruluğunu veya görsel uyumunu otomatik olarak belirlemez. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
 
 ## Dağılım
 
 - Sınıf: 1. sınıf 60, 2. sınıf 60, 3. sınıf 75, 4. sınıf 90.
 - Ders: fen-bilimleri 30, hayat-bilgisi 60, ingilizce 60, matematik 60, sosyal-bilgiler 15, turkce 60.
 - Zorluk: kolay 95, orta 95, zor 95.
-- Sonuç: PASS 254, WARNING 31, FAIL 0.
+- Sonuç: PASS 256, WARNING 29, FAIL 0.
 
 ## Birleşim sonuçları
 
@@ -36,7 +36,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 2 | Hayat Bilgisi | kolay | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | orta | 5 | 5 | 0 | 0 |
 | 2 | Hayat Bilgisi | zor | 5 | 5 | 0 | 0 |
-| 2 | İngilizce | kolay | 5 | 3 | 2 | 0 |
+| 2 | İngilizce | kolay | 5 | 4 | 1 | 0 |
 | 2 | İngilizce | orta | 5 | 4 | 1 | 0 |
 | 2 | İngilizce | zor | 5 | 5 | 0 | 0 |
 | 3 | Türkçe | kolay | 5 | 5 | 0 | 0 |
@@ -51,7 +51,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 | 3 | Fen Bilimleri | kolay | 5 | 5 | 0 | 0 |
 | 3 | Fen Bilimleri | orta | 5 | 5 | 0 | 0 |
 | 3 | Fen Bilimleri | zor | 5 | 5 | 0 | 0 |
-| 3 | İngilizce | kolay | 5 | 4 | 1 | 0 |
+| 3 | İngilizce | kolay | 5 | 5 | 0 | 0 |
 | 3 | İngilizce | orta | 5 | 3 | 2 | 0 |
 | 3 | İngilizce | zor | 5 | 5 | 0 | 0 |
 | 4 | Türkçe | kolay | 5 | 5 | 0 | 0 |
@@ -75,7 +75,7 @@ Seed: `testcoz-pedagogy-2026-09-20`. Her sınıf × ders × zorluk birleşiminde
 
 ## Bulguların ayrımı
 
-Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
+Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **29**. Kısa ama tek adımlı soru için yeterli açıklama gibi false positive: **11**.
 
 | Soru | Sınıf | Bulgusu |
 |---|---|---|
@@ -86,14 +86,12 @@ Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek 
 | g1-en-numbers-orta-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | T2-G1-INGI-ANIMAL-10 | İnceleme önerisi | Zor seviye için muhakeme derinliği yeniden okunmalı |
 | 2-sinif-matematik-nesnelerin-geometrisi-2-orta-test-1-soru-10 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| 2-sinif-ingilizce-family-life-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-6 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 2-sinif-ingilizce-homes-houses-and-neighbourhoods-orta-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | T2-G3-TÜRK-DOĞAYI-03 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-sayilar-ve-nicelikler-1-kolay-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-sayilar-ve-nicelikler-1-orta-test-1-soru-5 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-matematik-nesnelerin-geometrisi-2-zor-test-1-soru-10 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
-| 3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-ingilizce-life-in-the-city-and-the-world-orta-test-1-soru-4 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 3-sinif-ingilizce-life-in-the-city-and-the-world-orta-test-1-soru-7 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
 | 4-sinif-matematik-bolme-kolay-test-1-soru-9 | İnceleme önerisi | Kısa açıklama editörce yeniden okunmalı |
@@ -124,7 +122,7 @@ Kesin yapısal/teknik problem: **0**. İnceleme önerisi: **31**. Kısa ama tek 
 
 ## Görsel örneklem
 
-Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'lerde sabit piksel ölçüsü yerine `viewBox` kullanımı, dosya boyutu, alt metin ve cevap sızıntısı kontrol edildi. Mobil kesilme ve erişilebilirlik ayrıca Playwright 320–1440 px ile axe A/AA turunda doğrulandı. 4. sınıf bankasında görsel soru bulunmadığı için pedagojik gerekliliği olmayan dekoratif SVG üretilmedi.
+Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'lerde sabit piksel ölçüsü yerine `viewBox` kullanımı, dosya boyutu, alt metin ve cevap sızıntısı kontrol edildi. Mobil kesilme ve erişilebilirlik ayrıca Playwright 320–1440 px ile axe A/AA turunda doğrulandı. Bu örnekleme görselin bütün öğretim değerini veya canlı arayüzü doğrulamaz.
 
 | Sınıf | Ders | Zorluk | Soru | Sonuç | Bayt |
 |---:|---|---|---|---|---:|
@@ -163,4 +161,4 @@ Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'ler
 
 ## Karar
 
-**PASS:** Deterministik örneklemde kesin yapısal, cevap, dosya veya belirgin çeldirici hatası bulunmadı. WARNING satırları gerçek hata olarak sayılmaz; bağlamı ve öğretim hedefi nedeniyle editoryal takip önerisidir. 3.720 sorunun tamamının öğretmen onayı aldığı iddia edilmez.
+**PASS:** Deterministik örneklemde geçersiz cevap indeksi, eksik dosya veya belirgin jenerik çeldirici bulunmadı. WARNING satırları gerçek hata olarak sayılmaz; bağlamı ve öğretim hedefi nedeniyle editoryal takip önerisidir. 5200 sorunun tamamının öğretmen onayı aldığı iddia edilmez.

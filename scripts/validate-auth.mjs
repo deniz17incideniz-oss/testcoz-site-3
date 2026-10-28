@@ -62,6 +62,10 @@ const signedOut = await call(logout, { cookie });
 assert(signedOut.status === 200 && /^testcoz_session=; Path=\/; HttpOnly; Secure; SameSite=Lax; Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT$/.test(String(signedOut.headers["Set-Cookie"])), "Çıkış çerezi temizlenmedi.");
 const sessionAfterLogout = await call(session, { method: "GET" });
 assert(sessionAfterLogout.status === 401, "Çıkış sonrası tarayıcı oturumu devam ediyor.");
+if (process.argv.includes('--require-revocation')) {
+  const replay = await call(session, { method: "GET", cookie });
+  assert(replay.status === 401, `Sunucu tarafı oturum iptali eksik: çıkış öncesi çerez yeniden kullanıldığında HTTP ${replay.status}.`);
+}
 
 const validPrivateKey = process.env.GOOGLE_SHEETS_PRIVATE_KEY;
 process.env.GOOGLE_SHEETS_PRIVATE_KEY = "not-a-private-key";

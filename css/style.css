@@ -1904,3 +1904,14 @@ summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
 .test-info-title { min-height: 2.8em; }
 #questionArea { min-height: 420px; }
 .test-purpose-box summary { cursor: pointer; font-weight: 700; }
+
+/* Reading links remain distinguishable without relying on colour. */
+.study-content p a, .lesson-details a { text-decoration: underline; text-underline-offset: 3px; }
+.topic-lesson .topic-card-left { align-items: flex-start; }
+.topic-lesson .lesson-details { margin-top: 12px; max-width: 68ch; }
+.topic-lesson .lesson-details summary { cursor: pointer; font-weight: 700; color: #1e40af; padding: 8px 0; }
+.topic-lesson .lesson-details h4 { margin: 16px 0 6px; }
+.topic-lesson .lesson-details p { font-size: 1rem; line-height: 1.6; color: #334155; }
+@media (max-width: 640px) {
+  .topic-lesson .difficulty-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+}

@@ -24,7 +24,7 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 4 | Sosyal Bilgiler | 7 | 28 | 280 | 7 / 7 / 14 | — |
 | 4 | İngilizce | 6 | 24 | 240 | 6 / 6 / 12 | — |
 
-4. sınıf Hayat Bilgisi mevcut eski katalog/bankada korunur; güncel sınıf menüsünde gösterilmez. Yeni ders veya resmî kazanım kodu eklenmedi.
+4. sınıf Hayat Bilgisi eski katalog kapsamı olarak korunur ve sınıf menüsünde gösterilir; güncel resmî ders kapsamı iddiası değildir. Yeni ders veya resmî kazanım kodu eklenmedi.
 
 ## Konu ve seviye ayrıntısı
 
@@ -77,12 +77,12 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 2 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 12 |
 | 2 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
 | 2 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
-| 2 | İngilizce | School Life | 1 | 1 | 2 | 40 | 13 |
-| 2 | İngilizce | Classroom Life | 1 | 1 | 2 | 40 | 13 |
-| 2 | İngilizce | Personal Life | 1 | 1 | 2 | 40 | 13 |
-| 2 | İngilizce | Family Life | 1 | 1 | 2 | 40 | 12 |
-| 2 | İngilizce | Homes, Houses and Neighbourhoods | 1 | 1 | 2 | 40 | 12 |
-| 2 | İngilizce | Life in the City and the World | 1 | 1 | 2 | 40 | 12 |
+| 2 | İngilizce | School Life | 1 | 1 | 2 | 40 | 12 |
+| 2 | İngilizce | Classroom Life | 1 | 1 | 2 | 40 | 12 |
+| 2 | İngilizce | Personal Life | 1 | 1 | 2 | 40 | 12 |
+| 2 | İngilizce | Family Life | 1 | 1 | 2 | 40 | 11 |
+| 2 | İngilizce | Homes, Houses and Neighbourhoods | 1 | 1 | 2 | 40 | 11 |
+| 2 | İngilizce | Life in the City and the World | 1 | 1 | 2 | 40 | 11 |
 | 3 | Türkçe | Değerlerimizle Yaşıyoruz | 1 | 1 | 2 | 40 | 12 |
 | 3 | Türkçe | Atatürk ve Kahramanlarımız | 1 | 1 | 2 | 40 | 12 |
 | 3 | Türkçe | Doğayı Tanıyoruz | 1 | 1 | 2 | 40 | 12 |
@@ -103,20 +103,20 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 3 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 13 |
 | 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Bilimsel Keşif Yolculuğu | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Canlılar Dünyasına Yolculuk | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Yer Bilimciler İş Başında | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Maddeyi Tanıyalım, Karıştırıp Ayıralım | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Hareketi Keşfediyorum | 1 | 1 | 2 | 40 | 13 |
-| 3 | Fen Bilimleri | Yaşamımızı Kolaylaştıran Elektrik | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Toprağı Tanıyorum, Tarımı Keşfediyorum | 1 | 1 | 2 | 40 | 12 |
-| 3 | Fen Bilimleri | Canlıların Yaşam Alanlarına Yolculuk | 1 | 1 | 2 | 40 | 12 |
-| 3 | İngilizce | School Life | 1 | 1 | 2 | 40 | 13 |
-| 3 | İngilizce | Classroom Life | 1 | 1 | 2 | 40 | 14 |
-| 3 | İngilizce | Personal Life | 1 | 1 | 2 | 40 | 12 |
-| 3 | İngilizce | Family Life | 1 | 1 | 2 | 40 | 13 |
-| 3 | İngilizce | Homes, Houses and the Neighbourhood | 1 | 1 | 2 | 40 | 12 |
-| 3 | İngilizce | Life in the City and the World | 1 | 1 | 2 | 40 | 12 |
+| 3 | Fen Bilimleri | Bilimsel Keşif Yolculuğu | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Canlılar Dünyasına Yolculuk | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Yer Bilimciler İş Başında | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Maddeyi Tanıyalım, Karıştırıp Ayıralım | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Hareketi Keşfediyorum | 1 | 1 | 2 | 40 | 12 |
+| 3 | Fen Bilimleri | Yaşamımızı Kolaylaştıran Elektrik | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Toprağı Tanıyorum, Tarımı Keşfediyorum | 1 | 1 | 2 | 40 | 11 |
+| 3 | Fen Bilimleri | Canlıların Yaşam Alanlarına Yolculuk | 1 | 1 | 2 | 40 | 11 |
+| 3 | İngilizce | School Life | 1 | 1 | 2 | 40 | 12 |
+| 3 | İngilizce | Classroom Life | 1 | 1 | 2 | 40 | 13 |
+| 3 | İngilizce | Personal Life | 1 | 1 | 2 | 40 | 11 |
+| 3 | İngilizce | Family Life | 1 | 1 | 2 | 40 | 1 |
+| 3 | İngilizce | Homes, Houses and the Neighbourhood | 1 | 1 | 2 | 40 | 11 |
+| 3 | İngilizce | Life in the City and the World | 1 | 1 | 2 | 40 | 11 |
 | 4 | Türkçe | Okuma Anlama | 1 | 1 | 2 | 40 | 1 |
 | 4 | Türkçe | Söz Varlığı | 1 | 1 | 2 | 40 | 0 |
 | 4 | Türkçe | Cümle Bilgisi | 1 | 1 | 2 | 40 | 0 |
