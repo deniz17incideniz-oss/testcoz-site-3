@@ -1,3 +1,4 @@
+import {sessionVersionMatches} from './_lib/session-version.js';
 import { findUser, getRows, getSheetsConfigurationIssues } from "./_lib/sheets.js";
 import { cookieValue, verifySession } from "./_lib/security.js";
 
@@ -17,7 +18,7 @@ export default async function handler(req, res) {
   try {
     const { rows } = await getRows();
     const user = findUser(rows, String(data.sub).toLowerCase());
-    if (!user || String(user[9] || "").toLocaleLowerCase("tr-TR") !== "aktif") return res.status(401).json({ success: false, message: "Oturum bulunamadı." });
+    if (!user || !sessionVersionMatches(data, user) || String(user[9] || "").toLocaleLowerCase("tr-TR") !== "aktif") return res.status(401).json({ success: false, message: "Oturum bulunamadı." });
     return res.status(200).json({ success: true, user: { studentName: user[1], classLevel: String(user[2] || "").replace(/\D/g, ""), dailyGoal: Number(user[3]) || 0 } });
   } catch (error) {
     console.error("session api error:", error?.code || error?.name || "UNKNOWN");

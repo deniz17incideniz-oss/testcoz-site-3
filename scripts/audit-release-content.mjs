@@ -13,7 +13,7 @@ for(const [grade,g] of Object.entries(catalog.grades))for(const s of g.subjects)
  if(!tests.some(t=>t.classLevel===Number(grade)&&t.subject===s.id&&t.topic===topic.id&&t.difficulty===level&&t.testNumber===1))missing.push({grade,subject:s.id,topic:topic.id,level});
 }
 const counts=Object.fromEntries([...new Set(issues.map(i=>i.category))].map(c=>[c,issues.filter(i=>i.category===c).length]));
-const report={ready:issues.length===0&&missing.length===0,scope:'Explicit content-pattern checks, not complete semantic validation',counts,affectedQuestions:new Set(issues.map(i=>i.id)).size,missingTest1:missing,issues};
+const report={patternChecksPass:issues.length===0&&missing.length===0,scope:'Explicit Test 2 patterns and Test 1 coverage only; not whole-bank editorial validation or AdSense readiness',counts,affectedQuestions:new Set(issues.map(i=>i.id)).size,missingTest1:missing,issues};
 fs.mkdirSync('outputs',{recursive:true});fs.writeFileSync('outputs/release-content.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify({...report,issues:undefined,missingTest1:missing.length}));
-if(!report.ready) process.exitCode=1;
+if(!report.patternChecksPass) process.exitCode=1;

@@ -48,7 +48,7 @@ test('result edge cases calculate score and review only unresolved questions',as
    const correct=await page.evaluate(()=>window.TESTCOZ_TESTS.find(t=>t.classLevel===4&&t.subject==='matematik'&&t.topic==='dogal-sayilar'&&t.difficulty==='zor').questions.map(q=>q.correctAnswer));
    for(let i=0;i<10;i++){
     if(scenario.modes[i]==='blank')await page.locator('#skipQuestion').click();
-    else {const choice=scenario.modes[i]==='correct'?correct[i]:(correct[i]+1)%4;await page.locator(`[data-choice="${choice}"]`).click();await page.locator('#nextQuestion').click();}
+    else {const count=await page.locator('[data-choice]').count();const choice=scenario.modes[i]==='correct'?correct[i]:(correct[i]+1)%count;await page.locator(`[data-choice="${choice}"]`).click();await page.locator('#nextQuestion').click();}
    }
    await expect(page.locator('.result-score')).toHaveText(scenario.score);
    await expect(page.locator('.result-stat-val')).toHaveText(scenario.stats);

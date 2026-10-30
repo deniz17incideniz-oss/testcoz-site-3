@@ -60,6 +60,12 @@
     document.querySelector(".test-score").textContent = answers.filter(function (answer) { return answer !== null; }).length + " Cevaplandı";
   }
 
+  function evidenceCaption(question) {
+    if (question.visual?.type !== 'cards') return '';
+    const values = Object.values(question.visual.data || {}).filter(value => typeof value === 'string' || typeof value === 'number');
+    return '<div class="evidence-caption"><strong>Görseldeki bilgiler</strong><ul>' + values.map(value => '<li>' + utils.escapeHtml(String(value)) + '</li>').join('') + '</ul></div>';
+  }
+
   function renderQuestion(focusQuestion = true) {
     const question = test.questions[currentIndex];
     const selected = answers[currentIndex];
@@ -72,7 +78,7 @@
         '<span class="option-letter">' + letters[index] + '</span><span>' + utils.escapeHtml(choice) + '</span></button>';
     }).join("");
 
-    document.getElementById("questionArea").innerHTML = '<div class="question-card">' + image +
+    document.getElementById("questionArea").innerHTML = '<div class="question-card">' + image + evidenceCaption(question) +
       '<p class="question-text" tabindex="-1">' + utils.escapeHtml(question.question) + '</p><div class="options-grid">' + choices + '</div>' +
       '<a class="report-question" href="mailto:iletisim@testcoz.pro?subject=' + encodeURIComponent('Soruda hata bildirimi') + '&amp;body=' + encodeURIComponent('Sınıf: '+classLevel+'\nDers: '+subject.name+'\nKonu: '+topic.name+'\nZorluk: '+difficulty+'\nTest: '+testNumber+'\nSoru: '+(currentIndex+1)+'\nSoru kimliği: '+question.id+'\nHata açıklaması: ') + '">Soruda hata mı var?</a>' +
       '<div class="test-nav"><button type="button" class="btn btn-outline btn-sm" id="previousQuestion"' + (currentIndex === 0 ? " disabled" : "") + '>← Önceki</button>' +
@@ -178,7 +184,7 @@
         const isEmpty = answers[index] === null;
         return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
           (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" width="720" height="' + (window.TESTCOZ_IMAGE_DIMENSIONS?.[question.image]?.[1] || 320) + '" loading="lazy" decoding="async">' : '') +
-          '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
+          evidenceCaption(question) + '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
           '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
           '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
       }).join("") + '</section>'
