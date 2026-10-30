@@ -140,8 +140,8 @@ Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'ler
 | 2 | Matematik | zor | 2-sinif-matematik-sayilar-ve-nicelikler-2-zor-test-1-soru-5 | PASS | 1261 |
 | 2 | Türkçe | zor | 2-sinif-turkce-yeteneklerimizi-taniyoruz-zor-test-1-soru-2 | PASS | 1523 |
 | 2 | Türkçe | orta | 2-sinif-turkce-dogada-neler-oluyor-orta-test-1-soru-8 | PASS | 1360 |
-| 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3 | PASS | 1444 |
-| 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3 | PASS | 1348 |
+| 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3 | PASS | 1384 |
+| 3 | Fen Bilimleri | zor | 3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3 | PASS | 1346 |
 | 3 | Hayat Bilgisi | kolay | 3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-8 | PASS | 1491 |
 | 3 | Hayat Bilgisi | kolay | 3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10 | PASS | 1518 |
 | 3 | İngilizce | zor | 3-sinif-ingilizce-personal-life-zor-test-1-soru-10 | PASS | 1526 |

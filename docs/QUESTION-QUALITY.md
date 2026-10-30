@@ -4,7 +4,7 @@
 - Kaynak dağılımı: native 3828, matematiksel ve editoryal olarak yeniden doğrulanan Gemini 72.
 - Sınıf dağılımı: 1. sınıf 1080, 2. sınıf 1040, 3. sınıf 1360, 4. sınıf 1720.
 - Otomatik uyarı alan benzersiz soru: 1569; toplam uyarı olayı: 1682.
-- Aynı kök/seçenek/cevap: 136 grup / 166 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 136.
+- Aynı kök/seçenek/cevap: 132 grup / 138 fazla örnek. Aynı test içi: 0; farklı testlere yayılan: 132.
 - Konu içinde sayıları kaldırınca benzer kök: 55 grup. Bunlar editoryal adaydır; tek başına hata veya silme gerekçesi değildir.
 
 ## Kontrol sınıfları
@@ -15,7 +15,7 @@
 | Anlamsal olarak tek doğru cevap | TAMAMLANMADI | Seçeneklerin anlamı soru bazında incelenmelidir |
 | Hesaplama hatası | MANUEL | Gemini kabul listesi yeniden hesaplandı; native bankanın akademik doğruluğu öğretmen onayı ister |
 | Görsel-metne uyum | 719 aday | Kart tipi görseller için editör kontrolü; eksik dosya/alt metin 0 |
-| Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 136 grup olası ortak şablon/false positive içerir |
+| Duplicate soru | 0 aynı test içi grup | Farklı testlerdeki 132 grup olası ortak şablon/false positive içerir |
 | Benzer soru | 55 grup | Sayısal kalıp sezgisi |
 | Zayıf çeldirici | 0 | Açık jenerik ifadeler aranır |
 | Zorluk ayrımı | 253 aday | Kısa zor kök + kısa çözüm sezgisi |

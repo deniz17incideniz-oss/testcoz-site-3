@@ -264,3 +264,13 @@ repairs.push({slug:'2-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-zor-test-2',i
 
 import {schoolRepairs} from './school-repairs.mjs';
 for (const [difficulty, rows] of Object.entries(schoolRepairs)) test(3,'hayat-bilgisi','ben-ve-okulum',difficulty,1,rows,'Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.');
+
+import {scienceRepairs,scienceVisuals,scienceInferenceRepairs} from './science-repairs.mjs';
+for(const [topic,row] of Object.entries(scienceInferenceRepairs))repairs.push({slug:`3-sinif-fen-bilimleri-${topic}-orta-test-1`,index:0,row,reason:'The keyed prediction did not follow from the observation; replace with an evidence-bounded conclusion.'});
+for(const [topic,rows] of Object.entries(scienceRepairs)) {
+ test(3,'fen-bilimleri',topic,'zor',1,rows,'Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.');
+ for(const [n,index] of [2,5,8,9].entries()) {
+  const [title,first,second]=scienceVisuals[topic][n];
+  visualEvidence[`3-sinif-fen-bilimleri-${topic}-zor-test-1:${index}`]=[title,{first,second}];
+ }
+}

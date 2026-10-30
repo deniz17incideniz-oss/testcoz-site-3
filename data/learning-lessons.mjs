@@ -1,3 +1,4 @@
+import {scienceLessons} from './science-lessons.mjs';
 // Short authored worked examples, distinct from the scored question bank.
 // Fields: topic(s), example, solution, misconception, practice.
 const rows = [
@@ -114,4 +115,4 @@ const gradeLessons = {
  practice: 'Üç kişilik bir afiş çalışması için görev listesi hazırla: bilgi toplama, yazma ve çizme. Her işin yanına bir sorumlu yaz. Bir kişi gelemezse işini nasıl paylaşacağınızı ve emeğini nasıl belirteceğinizi açıklayın.'
  }
 };
-export function getLesson(topic, grade){if(gradeLessons[grade+':'+topic])return gradeLessons[grade+':'+topic];const lesson=lessons.get(topic);if(!lesson)throw new Error(`Missing authored lesson: ${topic}`);return lesson;}
+export function getLesson(topic, grade){if(Number(grade)===3&&scienceLessons[topic])return scienceLessons[topic];if(gradeLessons[grade+':'+topic])return gradeLessons[grade+':'+topic];const lesson=lessons.get(topic);if(!lesson)throw new Error(`Missing authored lesson: ${topic}`);return lesson;}

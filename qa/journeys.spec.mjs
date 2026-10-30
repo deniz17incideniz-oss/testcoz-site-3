@@ -21,7 +21,7 @@ for(const grade of [1,2,3,4])test(`grade ${grade} complete, wrong, skipped and r
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();
   for(const img of await page.locator('#questionArea img').all())await expect.poll(()=>img.evaluate(e=>e.complete&&e.naturalWidth>0)).toBeTruthy();
   if(i<7){await page.locator(`[data-choice="${correct[i]}"]`).click();await expect(page.locator('[aria-pressed="true"]')).toHaveCount(1);await page.locator('#nextQuestion').click();}
-  else if(i<9){await page.locator(`[data-choice="${(correct[i]+1)%4}"]`).click();await page.locator('#nextQuestion').click();}
+  else if(i<9){const count=await page.locator('[data-choice]').count();await page.locator(`[data-choice="${(correct[i]+1)%count}"]`).click();await page.locator('#nextQuestion').click();}
   else {await page.locator('[data-choice="0"]').click();await page.locator('#skipQuestion').click();}
  }
  await expect(page.locator('.result-score')).toHaveText('%70');
