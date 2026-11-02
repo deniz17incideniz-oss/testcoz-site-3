@@ -3,7 +3,6 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import {repairs,visualEvidence} from '../data/editorial-repairs.mjs';
-import {gradeChoices} from '../data/choice-policy.mjs';
 
 const ctx={window:{},URLSearchParams}; vm.createContext(ctx);
 for(const file of ['data/test-normalizer.js',...fs.readdirSync('data/tests').filter(f=>f.endsWith('.js')&&f!=='zz-editorial-repairs.js').sort().map(f=>'data/tests/'+f)]) vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
@@ -36,18 +35,7 @@ for(const p of repairs){
  changes.push({id:q.id,test:p.slug,reason:p.reason,before,after:structuredClone(q)});
 }
 assert.equal(seen.size,Object.keys(baseline).length,'Repair baseline contains stale entries');
-const choiceChanges=[];
-for(const t of bank)for(const [index,q]of t.questions.entries()){
- const fields=gradeChoices(t,q);if(!fields)continue;
- const before={choices:q.choices.slice(),correctAnswer:q.correctAnswer};
- assert.equal(fields.choices[fields.correctAnswer],q.choices[q.correctAnswer],`Answer changed: ${q.id}`);
- Object.assign(q,fields);
- const existing=patches.find(p=>p.slug===t.slug&&p.index===index);
- if(existing)Object.assign(existing.fields,fields);else patches.push({slug:t.slug,index,fields,remove:[]});
- choiceChanges.push({id:q.id,test:t.slug,before,after:{choices:q.choices.slice(),correctAnswer:q.correctAnswer}});
-}
 for(const change of changes)change.after=structuredClone(bank.find(t=>t.slug===change.test).questions.find(q=>q.id===change.id));
-fs.writeFileSync('data/imports/grade-choice-change-log.json',JSON.stringify({scope:'Structural choice-count correction; no semantic or difficulty certification',count:choiceChanges.length,changes:choiceChanges},null,2)+'\n');
 const generated=`// Generated from data/editorial-repairs.mjs; do not edit.\n(function(){const patches=${JSON.stringify(patches)};for(const p of patches){const t=(window.TESTCOZ_TESTS||[]).find(t=>t.slug===p.slug);if(!t)continue;const q=t.questions[p.index];Object.assign(q,p.fields);for(const key of p.remove)delete q[key];}})();\n`;
 fs.writeFileSync('data/tests/zz-editorial-repairs.js',generated);
 const groups=new Map();

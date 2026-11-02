@@ -5085,7 +5085,8 @@
         "choices": [
           "Anne",
           "Baba",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Büyükbaba"
         ],
         "correctAnswer": 0,
         "explanation": "Mother anne demektir. Father baba, sister kız kardeş, grandfather büyükbabadır. This is ile bir kişi tanıtılır.",
@@ -5095,7 +5096,8 @@
         "options": [
           "Anne",
           "Baba",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Büyükbaba"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5162,7 +5164,8 @@
         "choices": [
           "Büyükanne",
           "Erkek kardeş",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Anne"
         ],
         "correctAnswer": 1,
         "explanation": "Brother erkek kardeş demektir. Kişi Can’ın kendi erkek kardeşi olduğunu söylüyor. Sister kız kardeş için kullanılır.",
@@ -5170,7 +5173,8 @@
         "options": [
           "Büyükanne",
           "Erkek kardeş",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Anne"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5229,7 +5233,8 @@
         "choices": [
           "Sister",
           "Grandmother",
-          "Dad"
+          "Dad",
+          "Mum"
         ],
         "correctAnswer": 2,
         "explanation": "Notta Cem’in yanında Dad yazıyor. Dad baba, Mum anne demektir; bu iki sözcük aile içinde sık kullanılır.",
@@ -5239,7 +5244,8 @@
         "options": [
           "Sister",
           "Grandmother",
-          "Dad"
+          "Dad",
+          "Mum"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5298,9 +5304,10 @@
         "choices": [
           "O benim erkek kardeşim.",
           "O benim annem.",
+          "O benim büyükannem.",
           "O benim kız kardeşim."
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Sister kız kardeş demektir. She kadın veya kız için kullanılan o zamiridir; my ise benim anlamındadır.",
         "image": null,
         "visual": null,
@@ -5308,6 +5315,7 @@
         "options": [
           "O benim erkek kardeşim.",
           "O benim annem.",
+          "O benim büyükannem.",
           "O benim kız kardeşim."
         ],
         "difficulty": "kolay",
@@ -5375,7 +5383,8 @@
         "choices": [
           "Büyükanne ve büyükbaba",
           "Anne ve baba",
-          "Kız kardeş ve erkek kardeş"
+          "Kız kardeş ve erkek kardeş",
+          "Teyze ve amca"
         ],
         "correctAnswer": 0,
         "explanation": "Grandmother büyükanne, grandfather büyükbabadır. Mother ve father sözcüklerinin başındaki grand-, önceki kuşağı belirtir.",
@@ -5383,7 +5392,8 @@
         "options": [
           "Büyükanne ve büyükbaba",
           "Anne ve baba",
-          "Kız kardeş ve erkek kardeş"
+          "Kız kardeş ve erkek kardeş",
+          "Teyze ve amca"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5442,7 +5452,8 @@
         "choices": [
           "Büyükannesine",
           "Babasına",
-          "Annesine"
+          "Annesine",
+          "Kız kardeşine"
         ],
         "correctAnswer": 1,
         "explanation": "Help yardım etmek, my father babam demektir. Cümle babaya yardım etmeyi anlatır; diğer aile üyelerini söylemez.",
@@ -5452,7 +5463,8 @@
         "options": [
           "Büyükannesine",
           "Babasına",
-          "Annesine"
+          "Annesine",
+          "Kız kardeşine"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5511,7 +5523,8 @@
         "choices": [
           "Father — büyükanne",
           "Brother — anne",
-          "Sister — kız kardeş"
+          "Sister — kız kardeş",
+          "Mother — erkek kardeş"
         ],
         "correctAnswer": 2,
         "explanation": "Sister kız kardeştir. Diğer eşleştirmelerde mother anne, father baba ve brother erkek kardeş olmalıydı.",
@@ -5521,7 +5534,8 @@
         "options": [
           "Father — büyükanne",
           "Brother — anne",
-          "Sister — kız kardeş"
+          "Sister — kız kardeş",
+          "Mother — erkek kardeş"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5588,14 +5602,16 @@
         "choices": [
           "He is happy.",
           "He is at home.",
+          "He is ten.",
           "He is my father."
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Who kim sorusudur. He is my father kişinin babamız olduğunu belirtir; diğerleri duygu, yer ve yaş bildirir.",
         "id": "3-sinif-ingilizce-family-life-kolay-test-1-soru-8",
         "options": [
           "He is happy.",
           "He is at home.",
+          "He is ten.",
           "He is my father."
         ],
         "difficulty": "kolay",
@@ -5655,7 +5671,8 @@
         "choices": [
           "Teyze",
           "Dede",
-          "Erkek kardeş"
+          "Erkek kardeş",
+          "Baba"
         ],
         "correctAnswer": 0,
         "explanation": "Aunt teyze veya hala anlamındadır. Visits us bizi ziyaret eder demektir. Seçeneklerde aunt ile eşleşen kişi teyzedir.",
@@ -5665,7 +5682,8 @@
         "options": [
           "Teyze",
           "Dede",
-          "Erkek kardeş"
+          "Erkek kardeş",
+          "Baba"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5732,7 +5750,8 @@
         "choices": [
           "Kitabım",
           "Ailem",
-          "Sınıfım"
+          "Sınıfım",
+          "Bahçem"
         ],
         "correctAnswer": 1,
         "explanation": "Family aile demektir. My family benim ailem anlamına gelir; class sınıf, garden bahçe, book kitaptır.",
@@ -5740,7 +5759,8 @@
         "options": [
           "Kitabım",
           "Ailem",
-          "Sınıfım"
+          "Sınıfım",
+          "Bahçem"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -5799,7 +5819,8 @@
         "choices": [
           "Konuşanın annesi",
           "Konuşanın kız kardeşi",
-          "Konuşanın teyzesi"
+          "Konuşanın teyzesi",
+          "Konuşanın büyükannesi"
         ],
         "correctAnswer": 0,
         "explanation": "Her name is onun adı demektir. Önce tanıtılan kişi mother, yani anne olduğu için Aylin annenin adıdır.",
@@ -5809,7 +5830,8 @@
         "options": [
           "Konuşanın annesi",
           "Konuşanın kız kardeşi",
-          "Konuşanın teyzesi"
+          "Konuşanın teyzesi",
+          "Konuşanın büyükannesi"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -5877,7 +5899,8 @@
         "choices": [
           "Baba",
           "Erkek kardeş",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Anne"
         ],
         "correctAnswer": 1,
         "explanation": "Draws resim çizer, reads okur demektir. Draws eylemini yapan kişi brother yani erkek kardeştir.",
@@ -5885,7 +5908,8 @@
         "options": [
           "Baba",
           "Erkek kardeş",
-          "Kız kardeş"
+          "Kız kardeş",
+          "Anne"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -5944,7 +5968,8 @@
         "choices": [
           "Aunt and uncle",
           "Grandmother and grandfather",
-          "Mother and father"
+          "Mother and father",
+          "Sister and brother"
         ],
         "correctAnswer": 2,
         "explanation": "Parents anne ve babayı birlikte adlandırır. Kardeşler veya büyük ebeveynler için aynı sözcük kullanılmaz.",
@@ -5954,7 +5979,8 @@
         "options": [
           "Aunt and uncle",
           "Grandmother and grandfather",
-          "Mother and father"
+          "Mother and father",
+          "Sister and brother"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6013,9 +6039,10 @@
         "choices": [
           "Kız kardeş",
           "Anne",
+          "Hala",
           "Kuzen"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Not my sister kız kardeşim değil demektir. Cümlede doğru ilişki cousin yani kuzen olarak verilir.",
         "image": null,
         "visual": null,
@@ -6023,6 +6050,7 @@
         "options": [
           "Kız kardeş",
           "Anne",
+          "Hala",
           "Kuzen"
         ],
         "difficulty": "orta",
@@ -6090,7 +6118,8 @@
         "choices": [
           "In the garden.",
           "In the kitchen.",
-          "In the bedroom."
+          "In the bedroom.",
+          "At school."
         ],
         "correctAnswer": 0,
         "explanation": "Mum anne demektir; anne garden yani bahçededir. Kitchen mutfaktır ve babanın bulunduğu yeri anlatır.",
@@ -6098,7 +6127,8 @@
         "options": [
           "In the garden.",
           "In the kitchen.",
-          "In the bedroom."
+          "In the bedroom.",
+          "At school."
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6157,7 +6187,8 @@
         "choices": [
           "Kardeşinden altı yaş büyüktür.",
           "Kardeşinden iki yaş büyüktür.",
-          "Kardeşinden iki yaş küçüktür."
+          "Kardeşinden iki yaş küçüktür.",
+          "Kardeşiyle aynı yaştadır."
         ],
         "correctAnswer": 1,
         "explanation": "Eight 8, six 6 demektir. 8 − 6 = 2 olduğu için konuşan kişi kardeşinden iki yaş büyüktür.",
@@ -6167,7 +6198,8 @@
         "options": [
           "Kardeşinden altı yaş büyüktür.",
           "Kardeşinden iki yaş büyüktür.",
-          "Kardeşinden iki yaş küçüktür."
+          "Kardeşinden iki yaş küçüktür.",
+          "Kardeşiyle aynı yaştadır."
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6226,7 +6258,8 @@
         "choices": [
           "Yemek pişirmediklerini",
           "Yalnız kahvaltı yaptıklarını",
-          "Birlikte yemek yediklerini"
+          "Birlikte yemek yediklerini",
+          "Ayrı ayrı yemek yediklerini"
         ],
         "correctAnswer": 2,
         "explanation": "Together birlikte anlamındadır. Eat dinner akşam yemeği yemek demektir; cümle aile üyelerinin birlikte yediğini söyler.",
@@ -6236,7 +6269,8 @@
         "options": [
           "Yemek pişirmediklerini",
           "Yalnız kahvaltı yaptıklarını",
-          "Birlikte yemek yediklerini"
+          "Birlikte yemek yediklerini",
+          "Ayrı ayrı yemek yediklerini"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6304,14 +6338,16 @@
         "choices": [
           "Dede",
           "Baba",
+          "Erkek kardeş",
           "Dayı"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Mother’s brother annemin erkek kardeşi demektir; Türkçede dayıdır. İngilizcede bu aile üyesi uncle olarak adlandırılır.",
         "id": "3-sinif-ingilizce-family-life-orta-test-1-soru-8",
         "options": [
           "Dede",
           "Baba",
+          "Erkek kardeş",
           "Dayı"
         ],
         "difficulty": "orta",
@@ -6371,7 +6407,8 @@
         "choices": [
           "Sofraya tabak koymak",
           "Oyuncakları bahçeye taşımak",
-          "Kitabı kapatmak"
+          "Kitabı kapatmak",
+          "Pencereyi açmak"
         ],
         "correctAnswer": 0,
         "explanation": "Set the table sofrayı kurmak demektir. Tabak koymak sofra hazırlamanın parçasıdır; diğer eylemler istenen işle ilgili değildir.",
@@ -6381,7 +6418,8 @@
         "options": [
           "Sofraya tabak koymak",
           "Oyuncakları bahçeye taşımak",
-          "Kitabı kapatmak"
+          "Kitabı kapatmak",
+          "Pencereyi açmak"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6448,7 +6486,8 @@
         "choices": [
           "Büyük erkek kardeş",
           "Küçük kız kardeş",
-          "Büyük kız kardeş"
+          "Büyük kız kardeş",
+          "Küçük erkek kardeş"
         ],
         "correctAnswer": 1,
         "explanation": "Little küçük, sister kız kardeş demektir. İki sözcük birlikte okunmalıdır; yalnız little sözcüğü kardeşin kız olduğunu söylemez.",
@@ -6456,7 +6495,8 @@
         "options": [
           "Büyük erkek kardeş",
           "Küçük kız kardeş",
-          "Büyük kız kardeş"
+          "Büyük kız kardeş",
+          "Küçük erkek kardeş"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -6515,7 +6555,8 @@
         "choices": [
           "Erkek kardeşi",
           "Babası",
-          "Kuzeni"
+          "Kuzeni",
+          "Büyükbabası"
         ],
         "correctAnswer": 0,
         "explanation": "İlk cümle Ece’nin konuşanın kız kardeşi olduğunu, ikinci cümle konuşanın onun brother yani erkek kardeşi olduğunu açıkça belirtir.",
@@ -6525,7 +6566,8 @@
         "options": [
           "Erkek kardeşi",
           "Babası",
-          "Kuzeni"
+          "Kuzeni",
+          "Büyükbabası"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -6593,7 +6635,8 @@
         "choices": [
           "He is my grandfather.",
           "He is my cousin.",
-          "He is my uncle."
+          "He is my uncle.",
+          "He is my father."
         ],
         "correctAnswer": 1,
         "explanation": "Aunt teyze veya hala, son erkek evlat demektir. Teyze veya halanın oğlu cousin yani kuzen olur; yaşı bu ilişkiyi değiştirmez.",
@@ -6601,7 +6644,8 @@
         "options": [
           "He is my grandfather.",
           "He is my cousin.",
-          "He is my uncle."
+          "He is my uncle.",
+          "He is my father."
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -6660,7 +6704,8 @@
         "choices": [
           "Both parents",
           "Neither parent",
-          "Mum"
+          "Mum",
+          "Dad"
         ],
         "correctAnswer": 2,
         "explanation": "After sonra, before önce demektir. Anne yemekten sonra, baba yemekten önce okur; soruda after dinner isteniyor.",
@@ -6670,7 +6715,8 @@
         "options": [
           "Both parents",
           "Neither parent",
-          "Mum"
+          "Mum",
+          "Dad"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -6729,9 +6775,10 @@
         "choices": [
           "The brother",
           "The speaker",
+          "All three are the same age",
           "The sister"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Ten 10, seven 7, nine 9 demektir. En büyük sayı 10 olduğundan kız kardeş yaşça en büyüktür.",
         "image": null,
         "visual": null,
@@ -6739,6 +6786,7 @@
         "options": [
           "The brother",
           "The speaker",
+          "All three are the same age",
           "The sister"
         ],
         "difficulty": "zor",
@@ -6806,7 +6854,8 @@
         "choices": [
           "Mother and uncle",
           "Mother and cousin",
-          "Father and brother"
+          "Father and brother",
+          "Sister and grandfather"
         ],
         "correctAnswer": 0,
         "explanation": "My mum annem, my uncle dayım demektir. Metinde büyükannenin iki çocuğu bu kişiler olarak sayılıyor; kuzen onun torunu olabilir.",
@@ -6814,7 +6863,8 @@
         "options": [
           "Mother and uncle",
           "Mother and cousin",
-          "Father and brother"
+          "Father and brother",
+          "Sister and grandfather"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -6873,7 +6923,8 @@
         "choices": [
           "Hayır; Eren okuyor, Ela resim çiziyor.",
           "Hayır; Eren resim çiziyor, Ela okuyor.",
-          "Evet; ikisi de okuyor."
+          "Evet; ikisi de okuyor.",
+          "Evet; ikisi de resim çiziyor."
         ],
         "correctAnswer": 1,
         "explanation": "Draws çiziyor, reads okuyor demektir. With kiminle yaptığını bildirir; farklı eylemler olduğu için aynı etkinlik değildir.",
@@ -6883,7 +6934,8 @@
         "options": [
           "Hayır; Eren okuyor, Ela resim çiziyor.",
           "Hayır; Eren resim çiziyor, Ela okuyor.",
-          "Evet; ikisi de okuyor."
+          "Evet; ikisi de okuyor.",
+          "Evet; ikisi de resim çiziyor."
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -6942,7 +6994,8 @@
         "choices": [
           "Satın alır",
           "Sular",
-          "Keser"
+          "Keser",
+          "Yıkar"
         ],
         "correctAnswer": 2,
         "explanation": "First–then–finally sırası yıkama, kesme, yeme biçimindedir. Hemen önceki adım kesmedir; yıkamak daha önce yapılır.",
@@ -6952,7 +7005,8 @@
         "options": [
           "Satın alır",
           "Sular",
-          "Keser"
+          "Keser",
+          "Yıkar"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -7019,14 +7073,16 @@
         "choices": [
           "Erkek kardeşin sevdiği oyun",
           "Konuşanın sevdiği oyun",
+          "İki kişinin farklı oyun sevdiği",
           "İkisinin de sevdiği bir oyun"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Metin birinin futbolu, diğerinin satrancı sevdiğini söyler. İkisinin de sevdiği bir oyun belirtilmediği için ortak tercih ayrıca sorulmalıdır.",
         "id": "3-sinif-ingilizce-family-life-zor-test-1-soru-8",
         "options": [
           "Erkek kardeşin sevdiği oyun",
           "Konuşanın sevdiği oyun",
+          "İki kişinin farklı oyun sevdiği",
           "İkisinin de sevdiği bir oyun"
         ],
         "difficulty": "zor",
@@ -7086,7 +7142,8 @@
         "choices": [
           "Hala",
           "Anne",
-          "Büyükanne"
+          "Büyükanne",
+          "Kız kardeş"
         ],
         "correctAnswer": 0,
         "explanation": "Father’s sister babanın kız kardeşidir; Türkçede hala, İngilizcede aunt denir. Not my mother ifadesi anne seçeneğini de eler.",
@@ -7096,7 +7153,8 @@
         "options": [
           "Hala",
           "Anne",
-          "Büyükanne"
+          "Büyükanne",
+          "Kız kardeş"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -7164,7 +7222,8 @@
         "choices": [
           "Baba sofrayı tek başına kuruyor.",
           "Aile üyeleri yemek hazırlığında farklı işler yapıyor.",
-          "Herkes aynı anda yemek pişiriyor."
+          "Herkes aynı anda yemek pişiriyor.",
+          "Kız kardeş evde değil."
         ],
         "correctAnswer": 1,
         "explanation": "Baba yemek pişiriyor, iki kardeş sofrayı kuruyor. Böylece farklı görevleri paylaşıyorlar; herkesin aynı işi yaptığı söylenemez.",
@@ -7172,7 +7231,8 @@
         "options": [
           "Baba sofrayı tek başına kuruyor.",
           "Aile üyeleri yemek hazırlığında farklı işler yapıyor.",
-          "Herkes aynı anda yemek pişiriyor."
+          "Herkes aynı anda yemek pişiriyor.",
+          "Kız kardeş evde değil."
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -11107,7 +11167,8 @@
         "choices": [
           "It is next to the classroom.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where yer sorar. It is next to the classroom, sınıfın yanında demektir ve kütüphanenin yerini bildirir; selamlaşma veya renk söylemek yer sorusunu cevaplamaz.",
@@ -11117,7 +11178,8 @@
         "options": [
           "It is next to the classroom.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -11178,7 +11240,8 @@
         "choices": [
           "school — okul",
           "school — kütüphane",
-          "library — oyun alanı"
+          "library — oyun alanı",
+          "playground — okul"
         ],
         "correctAnswer": 0,
         "explanation": "School okul demektir. Okul sözcüğü bir yerin adıdır; sınıf eşyası veya farklı bir yer adıyla yapılan eşleştirme doğru olmaz.",
@@ -11188,7 +11251,8 @@
         "options": [
           "school — okul",
           "school — kütüphane",
-          "library — oyun alanı"
+          "library — oyun alanı",
+          "playground — okul"
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -11257,7 +11321,8 @@
         "choices": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where yer sorar. It is next to the classroom, sınıfın yanında demektir ve kütüphanenin yerini bildirir; selamlaşma veya renk söylemek yer sorusunu cevaplamaz.",
@@ -11275,7 +11340,8 @@
         "options": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -11336,7 +11402,8 @@
         "choices": [
           "reads a book in the library.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Reads a book kitap okuyor, in the library kütüphanede demektir. Emma’nın yaptığı iş okumaktır; uyuduğu veya eve gittiği söylenmiyor.",
@@ -11346,7 +11413,8 @@
         "options": [
           "reads a book in the library.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -11415,7 +11483,8 @@
         "choices": [
           "Yemek yeme — yemekhane",
           "Kitap okuma — kütüphane",
-          "Kitap okuma — oyun alanı"
+          "Kitap okuma — oyun alanı",
+          "Oyun oynama — kütüphane"
         ],
         "correctAnswer": 1,
         "explanation": "Reads a book kitap okuyor, in the library kütüphanede demektir. Doğru cevap hem işi hem yeri birlikte karşılamalıdır.",
@@ -11423,7 +11492,8 @@
         "options": [
           "Yemek yeme — yemekhane",
           "Kitap okuma — kütüphane",
-          "Kitap okuma — oyun alanı"
+          "Kitap okuma — oyun alanı",
+          "Oyun oynama — kütüphane"
         ],
         "difficulty": "orta",
         "skill": "School Life",
@@ -11482,7 +11552,8 @@
         "choices": [
           "Öğle yemeği yemek için",
           "Sınıfı temizlemek için",
-          "Öykü kitabı okumak için"
+          "Öykü kitabı okumak için",
+          "Bahçede oynamak için"
         ],
         "correctAnswer": 2,
         "explanation": "İlk cümlede storybook istediği, son cümlede okuduğu belirtilir. Bu bilgiler kütüphaneye kitap okumak için gittiğini gösterir.",
@@ -11492,7 +11563,8 @@
         "options": [
           "Öğle yemeği yemek için",
           "Sınıfı temizlemek için",
-          "Öykü kitabı okumak için"
+          "Öykü kitabı okumak için",
+          "Bahçede oynamak için"
         ],
         "difficulty": "zor",
         "skill": "School Life",
@@ -11551,7 +11623,8 @@
         "choices": [
           "It is a ruler.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
@@ -11561,7 +11634,8 @@
         "options": [
           "It is a ruler.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -11622,7 +11696,8 @@
         "choices": [
           "pencil — kurşun kalem",
           "pencil — tahta",
-          "board — sınıf"
+          "board — sınıf",
+          "classroom — kurşun kalem"
         ],
         "correctAnswer": 0,
         "explanation": "Pencil kurşun kalem, board tahta, classroom sınıf demektir. Bu eşleştirmede pencil ile kurşun kalem aynı nesneyi adlandırır.",
@@ -11632,7 +11707,8 @@
         "options": [
           "pencil — kurşun kalem",
           "pencil — tahta",
-          "board — sınıf"
+          "board — sınıf",
+          "classroom — kurşun kalem"
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -11701,7 +11777,8 @@
         "choices": [
           "What is this? — It is a ruler.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
@@ -11719,7 +11796,8 @@
         "options": [
           "What is this? — It is a ruler.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -11780,7 +11858,8 @@
         "choices": [
           "puts his notebook on the desk.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Puts his notebook on the desk, defterini sıranın üstüne koyar demektir. Eylem defteri yerleştirmektir; metin kaybetme veya uyumadan söz etmez.",
@@ -11790,7 +11869,8 @@
         "options": [
           "puts his notebook on the desk.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -11859,7 +11939,8 @@
         "choices": [
           "Kalem — kutunun içine",
           "Defter — sıranın üstüne",
-          "Defter — çantanın içine"
+          "Defter — çantanın içine",
+          "Kitap — sıranın altına"
         ],
         "correctAnswer": 1,
         "explanation": "Notebook defter, on the desk sıranın üstü demektir. Hem nesne hem konum doğru eşleştirilmelidir.",
@@ -11867,7 +11948,8 @@
         "options": [
           "Kalem — kutunun içine",
           "Defter — sıranın üstüne",
-          "Defter — çantanın içine"
+          "Defter — çantanın içine",
+          "Kitap — sıranın altına"
         ],
         "difficulty": "orta",
         "skill": "Classroom Life",
@@ -11926,7 +12008,8 @@
         "choices": [
           "Sıradan pencereye geldi.",
           "Çantadan yere düştü.",
-          "Çantadan sıranın üstüne geldi."
+          "Çantadan sıranın üstüne geldi.",
+          "Sıradan çantaya girdi."
         ],
         "correctAnswer": 2,
         "explanation": "Başlangıçta in his bag çantanın içinde, sonunda on the desk sıranın üstündedir. Takes it out dışarı çıkarmayı anlatır.",
@@ -11936,7 +12019,8 @@
         "options": [
           "Sıradan pencereye geldi.",
           "Çantadan yere düştü.",
-          "Çantadan sıranın üstüne geldi."
+          "Çantadan sıranın üstüne geldi.",
+          "Sıradan çantaya girdi."
         ],
         "difficulty": "zor",
         "skill": "Classroom Life",
@@ -11995,7 +12079,8 @@
         "choices": [
           "I am eight years old.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "How old are you yaşını sorar. I am eight years old sekiz yaşındayım demektir; renk veya selamlaşma sözü yaş bilgisi vermez.",
@@ -12005,7 +12090,8 @@
         "options": [
           "I am eight years old.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -12066,7 +12152,8 @@
         "choices": [
           "happy — mutlu",
           "happy — diş fırçası",
-          "toothbrush — banyo"
+          "toothbrush — banyo",
+          "bathroom — mutlu"
         ],
         "correctAnswer": 0,
         "explanation": "Happy mutlu demektir. Toothbrush diş fırçası, bathroom banyodur; bunlar happy sözcüğünün karşılığı değildir.",
@@ -12076,7 +12163,8 @@
         "options": [
           "happy — mutlu",
           "happy — diş fırçası",
-          "toothbrush — banyo"
+          "toothbrush — banyo",
+          "bathroom — mutlu"
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -12145,7 +12233,8 @@
         "choices": [
           "How old are you? — I am eight years old.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "How old are you yaşını sorar. I am eight years old sekiz yaşındayım demektir; renk veya selamlaşma sözü yaş bilgisi vermez.",
@@ -12163,7 +12252,8 @@
         "options": [
           "How old are you? — I am eight years old.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -12224,7 +12314,8 @@
         "choices": [
           "washes her hands before lunch.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Washes her hands before lunch, öğle yemeğinden önce ellerini yıkar demektir. Washes eylem, hands yıkanan şey, before lunch zaman bilgisidir.",
@@ -12234,7 +12325,8 @@
         "options": [
           "washes her hands before lunch.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -12303,7 +12395,8 @@
         "choices": [
           "Yüz yıkama — uykudan sonra",
           "El yıkama — yemekten önce",
-          "El yıkama — yemekten sonra"
+          "El yıkama — yemekten sonra",
+          "Diş fırçalama — yemekten önce"
         ],
         "correctAnswer": 1,
         "explanation": "Washes her hands el yıkamak, before lunch öğle yemeğinden önce demektir. Eylem ve zaman birlikte okunmalıdır.",
@@ -12311,7 +12404,8 @@
         "options": [
           "Yüz yıkama — uykudan sonra",
           "El yıkama — yemekten önce",
-          "El yıkama — yemekten sonra"
+          "El yıkama — yemekten sonra",
+          "Diş fırçalama — yemekten önce"
         ],
         "difficulty": "orta",
         "skill": "Personal Life",
@@ -12370,7 +12464,8 @@
         "choices": [
           "Öğle yemeğini bitirdiği için",
           "Uyumaya gittiği için",
-          "Dışarıda oynarken elleri kirlendiği için"
+          "Dışarıda oynarken elleri kirlendiği için",
+          "Ellerinin temiz kalmasını istemediği için"
         ],
         "correctAnswer": 2,
         "explanation": "Her hands get dirty elleri kirlenir demektir. Ardından yıkama, kirlenmeyle ilişkilidir; before lunch yemeğin henüz başlamadığını gösterir.",
@@ -12380,7 +12475,8 @@
         "options": [
           "Öğle yemeğini bitirdiği için",
           "Uyumaya gittiği için",
-          "Dışarıda oynarken elleri kirlendiği için"
+          "Dışarıda oynarken elleri kirlendiği için",
+          "Ellerinin temiz kalmasını istemediği için"
         ],
         "difficulty": "zor",
         "skill": "Personal Life",
@@ -12439,7 +12535,8 @@
         "choices": [
           "She is my sister.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Who is she, o kim sorusudur. She is my sister onun kız kardeş olduğunu bildirir; selamlaşma veya bir renk söylemek kişiyi tanıtmaz.",
@@ -12449,7 +12546,8 @@
         "options": [
           "She is my sister.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -12510,7 +12608,8 @@
         "choices": [
           "mother — anne",
           "mother — aile fotoğrafı",
-          "family photo — oturma odası"
+          "family photo — oturma odası",
+          "living room — anne"
         ],
         "correctAnswer": 0,
         "explanation": "Mother anne demektir. Family photo aile fotoğrafı, living room oturma odasıdır; mother sözcüğünün anlamı bu nesne veya yer adları değildir.",
@@ -12520,7 +12619,8 @@
         "options": [
           "mother — anne",
           "mother — aile fotoğrafı",
-          "family photo — oturma odası"
+          "family photo — oturma odası",
+          "living room — anne"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -12589,7 +12689,8 @@
         "choices": [
           "Who is she? — She is my sister.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Who is she, o kim sorusudur. She is my sister onun kız kardeş olduğunu bildirir; selamlaşma veya bir renk söylemek kişiyi tanıtmaz.",
@@ -12607,7 +12708,8 @@
         "options": [
           "Who is she? — She is my sister.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -12668,7 +12770,8 @@
         "choices": [
           "helps his father set the table.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Helps his father set the table, babasına sofrayı kurarken yardım eder demektir. Jack’in işi sofra hazırlığıdır; metin uyuduğunu veya çantasını kaybettiğini söylemez.",
@@ -12678,7 +12781,8 @@
         "options": [
           "helps his father set the table.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -12747,7 +12851,8 @@
         "choices": [
           "Büyükannesiyle bahçe sulama",
           "Babasıyla sofrayı hazırlama",
-          "Annesiyle kitap okuma"
+          "Annesiyle kitap okuma",
+          "Kardeşiyle oyun oynama"
         ],
         "correctAnswer": 1,
         "explanation": "His father babası, set the table sofrayı kurmak demektir. Hem kişi hem iş doğru eşleştirilmelidir.",
@@ -12755,7 +12860,8 @@
         "options": [
           "Büyükannesiyle bahçe sulama",
           "Babasıyla sofrayı hazırlama",
-          "Annesiyle kitap okuma"
+          "Annesiyle kitap okuma",
+          "Kardeşiyle oyun oynama"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
@@ -12814,7 +12920,8 @@
         "choices": [
           "Bulaşık yıkama",
           "Alışveriş yapma",
-          "Sofrayı hazırlama"
+          "Sofrayı hazırlama",
+          "Yemek pişirme"
         ],
         "correctAnswer": 2,
         "explanation": "Puts plates on the table masaya tabak koyar demektir. Bu sofra hazırlığıdır; yemeği pişiren kişi Dad olarak belirtilmiştir.",
@@ -12824,7 +12931,8 @@
         "options": [
           "Bulaşık yıkama",
           "Alışveriş yapma",
-          "Sofrayı hazırlama"
+          "Sofrayı hazırlama",
+          "Yemek pişirme"
         ],
         "difficulty": "zor",
         "skill": "Family Life",
@@ -12883,7 +12991,8 @@
         "choices": [
           "It is under the table.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where is the cat kedinin yerini sorar. It is under the table masanın altında demektir ve yer bildirir; selam veya renk cevabı bu bilgiyi vermez.",
@@ -12893,7 +13002,8 @@
         "options": [
           "It is under the table.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -12954,7 +13064,8 @@
         "choices": [
           "kitchen — mutfak",
           "kitchen — kanepe",
-          "sofa — yatak odası"
+          "sofa — yatak odası",
+          "bedroom — mutfak"
         ],
         "correctAnswer": 0,
         "explanation": "Kitchen mutfak demektir. Sofa kanepe, bedroom yatak odasıdır; mutfak sözcüğü kitchen ile eşleşir.",
@@ -12964,7 +13075,8 @@
         "options": [
           "kitchen — mutfak",
           "kitchen — kanepe",
-          "sofa — yatak odası"
+          "sofa — yatak odası",
+          "bedroom — mutfak"
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -13033,7 +13145,8 @@
         "choices": [
           "Where is the cat? — It is under the table.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where is the cat kedinin yerini sorar. It is under the table masanın altında demektir ve yer bildirir; selam veya renk cevabı bu bilgiyi vermez.",
@@ -13051,7 +13164,8 @@
         "options": [
           "Where is the cat? — It is under the table.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -13112,7 +13226,8 @@
         "choices": [
           "sees a bakery next to her house.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Sees a bakery next to her house, evinin yanında bir fırın görür demektir. Next to iki yerin yan yana olduğunu anlatır; metinde uyuma veya eve dönme eylemi yoktur.",
@@ -13122,7 +13237,8 @@
         "options": [
           "sees a bakery next to her house.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -13191,7 +13307,8 @@
         "choices": [
           "Parkın karşısında",
           "Evin yanında",
-          "Evin içinde"
+          "Evin içinde",
+          "Okulun altında"
         ],
         "correctAnswer": 1,
         "explanation": "Bakery fırın, next to her house evinin yanında demektir. Next to ile inside veya opposite aynı yer ilişkisini anlatmaz.",
@@ -13199,7 +13316,8 @@
         "options": [
           "Parkın karşısında",
           "Evin yanında",
-          "Evin içinde"
+          "Evin içinde",
+          "Okulun altında"
         ],
         "difficulty": "orta",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -13258,7 +13376,8 @@
         "choices": [
           "İlaç almak için eczaneye",
           "Oynamak için parka",
-          "Ekmek almak için fırına"
+          "Ekmek almak için fırına",
+          "Kitap almak için kütüphaneye"
         ],
         "correctAnswer": 2,
         "explanation": "Needs bread ekmek ihtiyacını bildirir. Bakery fırındır; there önceki cümledeki fırını gösterir. İhtiyaç ile yer birleştirilir.",
@@ -13268,7 +13387,8 @@
         "options": [
           "İlaç almak için eczaneye",
           "Oynamak için parka",
-          "Ekmek almak için fırına"
+          "Ekmek almak için fırına",
+          "Kitap almak için kütüphaneye"
         ],
         "difficulty": "zor",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -13327,7 +13447,8 @@
         "choices": [
           "I live in Türkiye.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where do you live nerede yaşıyorsun demektir. I live in Türkiye, Türkiye’de yaşıyorum anlamıyla istenen yeri bildirir; selamlaşma veya renk belirtme yeterli olmaz.",
@@ -13337,7 +13458,8 @@
         "options": [
           "I live in Türkiye.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -13398,7 +13520,8 @@
         "choices": [
           "bus — otobüs",
           "bus — şehir haritası",
-          "city map — şehir merkezi"
+          "city map — şehir merkezi",
+          "city centre — otobüs"
         ],
         "correctAnswer": 0,
         "explanation": "Bus otobüs demektir. City map şehir haritası, city centre şehir merkezidir; bunlar bir ulaşım aracı olan bus ile aynı anlamda değildir.",
@@ -13408,7 +13531,8 @@
         "options": [
           "bus — otobüs",
           "bus — şehir haritası",
-          "city map — şehir merkezi"
+          "city map — şehir merkezi",
+          "city centre — otobüs"
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -13477,7 +13601,8 @@
         "choices": [
           "Where do you live? — I live in Türkiye.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where do you live nerede yaşıyorsun demektir. I live in Türkiye, Türkiye’de yaşıyorum anlamıyla istenen yeri bildirir; selamlaşma veya renk belirtme yeterli olmaz.",
@@ -13495,7 +13620,8 @@
         "options": [
           "Where do you live? — I live in Türkiye.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -13556,7 +13682,8 @@
         "choices": [
           "finds the museum on the city map.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Finds the museum on the city map, şehir haritasında müzeyi bulur demektir. Alex’in yaptığı iş harita üzerinde yer bulmaktır; metin uyuduğunu söylemez.",
@@ -13566,7 +13693,8 @@
         "options": [
           "finds the museum on the city map.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -13635,7 +13763,8 @@
         "choices": [
           "Parkı — saatle",
           "Müzeyi — şehir haritasıyla",
-          "Otobüsü — takvimle"
+          "Otobüsü — takvimle",
+          "Okulu — sözlükle"
         ],
         "correctAnswer": 1,
         "explanation": "Museum müze, city map şehir haritasıdır. Finds bulur demektir; doğru cevap bulunan yer ile kullanılan kaynağı eşleştirir.",
@@ -13643,7 +13772,8 @@
         "options": [
           "Parkı — saatle",
           "Müzeyi — şehir haritasıyla",
-          "Otobüsü — takvimle"
+          "Otobüsü — takvimle",
+          "Okulu — sözlükle"
         ],
         "difficulty": "orta",
         "skill": "Life in the City and the World",
@@ -13702,7 +13832,8 @@
         "choices": [
           "Müze biletini ödemeye",
           "Müzedeki nesneleri temizlemeye",
-          "Müzenin yerini bulmaya"
+          "Müzenin yerini bulmaya",
+          "Müzenin rengini değiştirmeye"
         ],
         "correctAnswer": 2,
         "explanation": "Cannot find it onu bulamıyor demektir. Harita yerleri gösterir; Alex’in müzenin yerini bulmasına yardımcı olur, ödeme aracı değildir.",
@@ -13712,7 +13843,8 @@
         "options": [
           "Müze biletini ödemeye",
           "Müzedeki nesneleri temizlemeye",
-          "Müzenin yerini bulmaya"
+          "Müzenin yerini bulmaya",
+          "Müzenin rengini değiştirmeye"
         ],
         "difficulty": "zor",
         "skill": "Life in the City and the World",
@@ -13771,7 +13903,8 @@
         "choices": [
           "It is next to the classroom.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where yer sorar. It is next to the classroom, sınıfın yanında demektir ve kütüphanenin yerini bildirir; selamlaşma veya renk söylemek yer sorusunu cevaplamaz.",
@@ -13781,7 +13914,8 @@
         "options": [
           "It is next to the classroom.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -13842,7 +13976,8 @@
         "choices": [
           "school — okul",
           "school — kütüphane",
-          "library — oyun alanı"
+          "library — oyun alanı",
+          "playground — okul"
         ],
         "correctAnswer": 0,
         "explanation": "School okul demektir. Okul sözcüğü bir yerin adıdır; sınıf eşyası veya farklı bir yer adıyla yapılan eşleştirme doğru olmaz.",
@@ -13852,7 +13987,8 @@
         "options": [
           "school — okul",
           "school — kütüphane",
-          "library — oyun alanı"
+          "library — oyun alanı",
+          "playground — okul"
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -13921,7 +14057,8 @@
         "choices": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where yer sorar. It is next to the classroom, sınıfın yanında demektir ve kütüphanenin yerini bildirir; selamlaşma veya renk söylemek yer sorusunu cevaplamaz.",
@@ -13939,7 +14076,8 @@
         "options": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -14000,7 +14138,8 @@
         "choices": [
           "reads a book in the library.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Reads a book kitap okuyor, in the library kütüphanede demektir. Emma’nın yaptığı iş okumaktır; uyuduğu veya eve gittiği söylenmiyor.",
@@ -14010,7 +14149,8 @@
         "options": [
           "reads a book in the library.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "School Life",
@@ -14079,7 +14219,8 @@
         "choices": [
           "Yemek yeme — yemekhane",
           "Kitap okuma — kütüphane",
-          "Kitap okuma — oyun alanı"
+          "Kitap okuma — oyun alanı",
+          "Oyun oynama — kütüphane"
         ],
         "correctAnswer": 1,
         "explanation": "Reads a book kitap okuyor, in the library kütüphanede demektir. Doğru cevap hem işi hem yeri birlikte karşılamalıdır.",
@@ -14087,7 +14228,8 @@
         "options": [
           "Yemek yeme — yemekhane",
           "Kitap okuma — kütüphane",
-          "Kitap okuma — oyun alanı"
+          "Kitap okuma — oyun alanı",
+          "Oyun oynama — kütüphane"
         ],
         "difficulty": "orta",
         "skill": "School Life",
@@ -14146,7 +14288,8 @@
         "choices": [
           "Öğle yemeği yemek için",
           "Sınıfı temizlemek için",
-          "Öykü kitabı okumak için"
+          "Öykü kitabı okumak için",
+          "Bahçede oynamak için"
         ],
         "correctAnswer": 2,
         "explanation": "İlk cümlede storybook istediği, son cümlede okuduğu belirtilir. Bu bilgiler kütüphaneye kitap okumak için gittiğini gösterir.",
@@ -14156,7 +14299,8 @@
         "options": [
           "Öğle yemeği yemek için",
           "Sınıfı temizlemek için",
-          "Öykü kitabı okumak için"
+          "Öykü kitabı okumak için",
+          "Bahçede oynamak için"
         ],
         "difficulty": "zor",
         "skill": "School Life",
@@ -14215,7 +14359,8 @@
         "choices": [
           "It is a ruler.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
@@ -14225,7 +14370,8 @@
         "options": [
           "It is a ruler.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -14286,7 +14432,8 @@
         "choices": [
           "pencil — kurşun kalem",
           "pencil — tahta",
-          "board — sınıf"
+          "board — sınıf",
+          "classroom — kurşun kalem"
         ],
         "correctAnswer": 0,
         "explanation": "Pencil kurşun kalem, board tahta, classroom sınıf demektir. Bu eşleştirmede pencil ile kurşun kalem aynı nesneyi adlandırır.",
@@ -14296,7 +14443,8 @@
         "options": [
           "pencil — kurşun kalem",
           "pencil — tahta",
-          "board — sınıf"
+          "board — sınıf",
+          "classroom — kurşun kalem"
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -14365,7 +14513,8 @@
         "choices": [
           "What is this? — It is a ruler.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
@@ -14383,7 +14532,8 @@
         "options": [
           "What is this? — It is a ruler.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -14444,7 +14594,8 @@
         "choices": [
           "puts his notebook on the desk.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Puts his notebook on the desk, defterini sıranın üstüne koyar demektir. Eylem defteri yerleştirmektir; metin kaybetme veya uyumadan söz etmez.",
@@ -14454,7 +14605,8 @@
         "options": [
           "puts his notebook on the desk.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Classroom Life",
@@ -14523,7 +14675,8 @@
         "choices": [
           "Kalem — kutunun içine",
           "Defter — sıranın üstüne",
-          "Defter — çantanın içine"
+          "Defter — çantanın içine",
+          "Kitap — sıranın altına"
         ],
         "correctAnswer": 1,
         "explanation": "Notebook defter, on the desk sıranın üstü demektir. Hem nesne hem konum doğru eşleştirilmelidir.",
@@ -14531,7 +14684,8 @@
         "options": [
           "Kalem — kutunun içine",
           "Defter — sıranın üstüne",
-          "Defter — çantanın içine"
+          "Defter — çantanın içine",
+          "Kitap — sıranın altına"
         ],
         "difficulty": "orta",
         "skill": "Classroom Life",
@@ -14590,7 +14744,8 @@
         "choices": [
           "Sıradan pencereye geldi.",
           "Çantadan yere düştü.",
-          "Çantadan sıranın üstüne geldi."
+          "Çantadan sıranın üstüne geldi.",
+          "Sıradan çantaya girdi."
         ],
         "correctAnswer": 2,
         "explanation": "Başlangıçta in his bag çantanın içinde, sonunda on the desk sıranın üstündedir. Takes it out dışarı çıkarmayı anlatır.",
@@ -14600,7 +14755,8 @@
         "options": [
           "Sıradan pencereye geldi.",
           "Çantadan yere düştü.",
-          "Çantadan sıranın üstüne geldi."
+          "Çantadan sıranın üstüne geldi.",
+          "Sıradan çantaya girdi."
         ],
         "difficulty": "zor",
         "skill": "Classroom Life",
@@ -14659,7 +14815,8 @@
         "choices": [
           "I am eight years old.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "How old are you yaşını sorar. I am eight years old sekiz yaşındayım demektir; renk veya selamlaşma sözü yaş bilgisi vermez.",
@@ -14669,7 +14826,8 @@
         "options": [
           "I am eight years old.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -14730,7 +14888,8 @@
         "choices": [
           "happy — mutlu",
           "happy — diş fırçası",
-          "toothbrush — banyo"
+          "toothbrush — banyo",
+          "bathroom — mutlu"
         ],
         "correctAnswer": 0,
         "explanation": "Happy mutlu demektir. Toothbrush diş fırçası, bathroom banyodur; bunlar happy sözcüğünün karşılığı değildir.",
@@ -14740,7 +14899,8 @@
         "options": [
           "happy — mutlu",
           "happy — diş fırçası",
-          "toothbrush — banyo"
+          "toothbrush — banyo",
+          "bathroom — mutlu"
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -14809,7 +14969,8 @@
         "choices": [
           "How old are you? — I am eight years old.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "How old are you yaşını sorar. I am eight years old sekiz yaşındayım demektir; renk veya selamlaşma sözü yaş bilgisi vermez.",
@@ -14827,7 +14988,8 @@
         "options": [
           "How old are you? — I am eight years old.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -14888,7 +15050,8 @@
         "choices": [
           "washes her hands before lunch.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Washes her hands before lunch, öğle yemeğinden önce ellerini yıkar demektir. Washes eylem, hands yıkanan şey, before lunch zaman bilgisidir.",
@@ -14898,7 +15061,8 @@
         "options": [
           "washes her hands before lunch.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -14967,7 +15131,8 @@
         "choices": [
           "Yüz yıkama — uykudan sonra",
           "El yıkama — yemekten önce",
-          "El yıkama — yemekten sonra"
+          "El yıkama — yemekten sonra",
+          "Diş fırçalama — yemekten önce"
         ],
         "correctAnswer": 1,
         "explanation": "Washes her hands el yıkamak, before lunch öğle yemeğinden önce demektir. Eylem ve zaman birlikte okunmalıdır.",
@@ -14975,7 +15140,8 @@
         "options": [
           "Yüz yıkama — uykudan sonra",
           "El yıkama — yemekten önce",
-          "El yıkama — yemekten sonra"
+          "El yıkama — yemekten sonra",
+          "Diş fırçalama — yemekten önce"
         ],
         "difficulty": "orta",
         "skill": "Personal Life",
@@ -15034,7 +15200,8 @@
         "choices": [
           "Öğle yemeğini bitirdiği için",
           "Uyumaya gittiği için",
-          "Dışarıda oynarken elleri kirlendiği için"
+          "Dışarıda oynarken elleri kirlendiği için",
+          "Ellerinin temiz kalmasını istemediği için"
         ],
         "correctAnswer": 2,
         "explanation": "Her hands get dirty elleri kirlenir demektir. Ardından yıkama, kirlenmeyle ilişkilidir; before lunch yemeğin henüz başlamadığını gösterir.",
@@ -15044,7 +15211,8 @@
         "options": [
           "Öğle yemeğini bitirdiği için",
           "Uyumaya gittiği için",
-          "Dışarıda oynarken elleri kirlendiği için"
+          "Dışarıda oynarken elleri kirlendiği için",
+          "Ellerinin temiz kalmasını istemediği için"
         ],
         "difficulty": "zor",
         "skill": "Personal Life",
@@ -15103,7 +15271,8 @@
         "choices": [
           "It is under the table.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where is the cat kedinin yerini sorar. It is under the table masanın altında demektir ve yer bildirir; selam veya renk cevabı bu bilgiyi vermez.",
@@ -15113,7 +15282,8 @@
         "options": [
           "It is under the table.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15174,7 +15344,8 @@
         "choices": [
           "kitchen — mutfak",
           "kitchen — kanepe",
-          "sofa — yatak odası"
+          "sofa — yatak odası",
+          "bedroom — mutfak"
         ],
         "correctAnswer": 0,
         "explanation": "Kitchen mutfak demektir. Sofa kanepe, bedroom yatak odasıdır; mutfak sözcüğü kitchen ile eşleşir.",
@@ -15184,7 +15355,8 @@
         "options": [
           "kitchen — mutfak",
           "kitchen — kanepe",
-          "sofa — yatak odası"
+          "sofa — yatak odası",
+          "bedroom — mutfak"
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15253,7 +15425,8 @@
         "choices": [
           "Where is the cat? — It is under the table.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where is the cat kedinin yerini sorar. It is under the table masanın altında demektir ve yer bildirir; selam veya renk cevabı bu bilgiyi vermez.",
@@ -15271,7 +15444,8 @@
         "options": [
           "Where is the cat? — It is under the table.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15332,7 +15506,8 @@
         "choices": [
           "sees a bakery next to her house.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Sees a bakery next to her house, evinin yanında bir fırın görür demektir. Next to iki yerin yan yana olduğunu anlatır; metinde uyuma veya eve dönme eylemi yoktur.",
@@ -15342,7 +15517,8 @@
         "options": [
           "sees a bakery next to her house.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15411,7 +15587,8 @@
         "choices": [
           "Parkın karşısında",
           "Evin yanında",
-          "Evin içinde"
+          "Evin içinde",
+          "Okulun altında"
         ],
         "correctAnswer": 1,
         "explanation": "Bakery fırın, next to her house evinin yanında demektir. Next to ile inside veya opposite aynı yer ilişkisini anlatmaz.",
@@ -15419,7 +15596,8 @@
         "options": [
           "Parkın karşısında",
           "Evin yanında",
-          "Evin içinde"
+          "Evin içinde",
+          "Okulun altında"
         ],
         "difficulty": "orta",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15478,7 +15656,8 @@
         "choices": [
           "İlaç almak için eczaneye",
           "Oynamak için parka",
-          "Ekmek almak için fırına"
+          "Ekmek almak için fırına",
+          "Kitap almak için kütüphaneye"
         ],
         "correctAnswer": 2,
         "explanation": "Needs bread ekmek ihtiyacını bildirir. Bakery fırındır; there önceki cümledeki fırını gösterir. İhtiyaç ile yer birleştirilir.",
@@ -15488,7 +15667,8 @@
         "options": [
           "İlaç almak için eczaneye",
           "Oynamak için parka",
-          "Ekmek almak için fırına"
+          "Ekmek almak için fırına",
+          "Kitap almak için kütüphaneye"
         ],
         "difficulty": "zor",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -15547,7 +15727,8 @@
         "choices": [
           "I live in Türkiye.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "correctAnswer": 0,
         "explanation": "Where do you live nerede yaşıyorsun demektir. I live in Türkiye, Türkiye’de yaşıyorum anlamıyla istenen yeri bildirir; selamlaşma veya renk belirtme yeterli olmaz.",
@@ -15557,7 +15738,8 @@
         "options": [
           "I live in Türkiye.",
           "Good morning.",
-          "It is red."
+          "It is red.",
+          "Thank you."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -15618,7 +15800,8 @@
         "choices": [
           "bus — otobüs",
           "bus — şehir haritası",
-          "city map — şehir merkezi"
+          "city map — şehir merkezi",
+          "city centre — otobüs"
         ],
         "correctAnswer": 0,
         "explanation": "Bus otobüs demektir. City map şehir haritası, city centre şehir merkezidir; bunlar bir ulaşım aracı olan bus ile aynı anlamda değildir.",
@@ -15628,7 +15811,8 @@
         "options": [
           "bus — otobüs",
           "bus — şehir haritası",
-          "city map — şehir merkezi"
+          "city map — şehir merkezi",
+          "city centre — otobüs"
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -15697,7 +15881,8 @@
         "choices": [
           "Where do you live? — I live in Türkiye.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "correctAnswer": 0,
         "explanation": "Where do you live nerede yaşıyorsun demektir. I live in Türkiye, Türkiye’de yaşıyorum anlamıyla istenen yeri bildirir; selamlaşma veya renk belirtme yeterli olmaz.",
@@ -15715,7 +15900,8 @@
         "options": [
           "Where do you live? — I live in Türkiye.",
           "Hello! — Goodbye!",
-          "What is this? — I am fine."
+          "What is this? — I am fine.",
+          "How are you? — It is blue."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -15776,7 +15962,8 @@
         "choices": [
           "finds the museum on the city map.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "correctAnswer": 0,
         "explanation": "Finds the museum on the city map, şehir haritasında müzeyi bulur demektir. Alex’in yaptığı iş harita üzerinde yer bulmaktır; metin uyuduğunu söylemez.",
@@ -15786,7 +15973,8 @@
         "options": [
           "finds the museum on the city map.",
           "She sleeps all day.",
-          "She loses her bag."
+          "She loses her bag.",
+          "She goes home."
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -15855,7 +16043,8 @@
         "choices": [
           "Parkı — saatle",
           "Müzeyi — şehir haritasıyla",
-          "Otobüsü — takvimle"
+          "Otobüsü — takvimle",
+          "Okulu — sözlükle"
         ],
         "correctAnswer": 1,
         "explanation": "Museum müze, city map şehir haritasıdır. Finds bulur demektir; doğru cevap bulunan yer ile kullanılan kaynağı eşleştirir.",
@@ -15863,7 +16052,8 @@
         "options": [
           "Parkı — saatle",
           "Müzeyi — şehir haritasıyla",
-          "Otobüsü — takvimle"
+          "Otobüsü — takvimle",
+          "Okulu — sözlükle"
         ],
         "difficulty": "orta",
         "skill": "Life in the City and the World",
@@ -15922,7 +16112,8 @@
         "choices": [
           "Müze biletini ödemeye",
           "Müzedeki nesneleri temizlemeye",
-          "Müzenin yerini bulmaya"
+          "Müzenin yerini bulmaya",
+          "Müzenin rengini değiştirmeye"
         ],
         "correctAnswer": 2,
         "explanation": "Cannot find it onu bulamıyor demektir. Harita yerleri gösterir; Alex’in müzenin yerini bulmasına yardımcı olur, ödeme aracı değildir.",
@@ -15932,7 +16123,8 @@
         "options": [
           "Müze biletini ödemeye",
           "Müzedeki nesneleri temizlemeye",
-          "Müzenin yerini bulmaya"
+          "Müzenin yerini bulmaya",
+          "Müzenin rengini değiştirmeye"
         ],
         "difficulty": "zor",
         "skill": "Life in the City and the World",
@@ -15999,14 +16191,16 @@
         "choices": [
           "Yalnız saksının rengi",
           "Yalnız tohumun satın alındığı yer",
+          "Her gün farklı cetvelle tahmin edilen boy",
           "Her gün aynı yöntemle ölçülen boy ve tarih"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Boy ve tarih büyümenin zaman içindeki değişimini gösterir. Aynı yöntemle ölçmek sonuçları karşılaştırmayı kolaylaştırır.",
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-orta-test-1-soru-8",
         "options": [
           "Yalnız saksının rengi",
           "Yalnız tohumun satın alındığı yer",
+          "Her gün farklı cetvelle tahmin edilen boy",
           "Her gün aynı yöntemle ölçülen boy ve tarih"
         ],
         "difficulty": "orta",
@@ -16074,14 +16268,16 @@
         "choices": [
           "Yürüyerek yer değiştirme",
           "Aynı tür besinleri yeme",
+          "Aynı büyüklüğe ulaşma",
           "Büyüme ve gelişme"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Hem bitki hem kedi büyür ve gelişir. Bitki yürümez; canlıların beslenme biçimi ve ulaştığı büyüklük aynı olmak zorunda değildir.",
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-orta-test-1-soru-8",
         "options": [
           "Yürüyerek yer değiştirme",
           "Aynı tür besinleri yeme",
+          "Aynı büyüklüğe ulaşma",
           "Büyüme ve gelişme"
         ],
         "difficulty": "orta",
@@ -16149,14 +16345,16 @@
         "choices": [
           "Toprak yağmurla yok oldu.",
           "Dere toprağı hiç etkilemedi.",
+          "Yağmur bütün taşları eritti.",
           "Akan su toprağı sürükledi."
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Yüzeyden akan su toprağı başka yere taşır. Toprak yok olmaz; bir yerde azalırken başka yerde birikebilir.",
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-orta-test-1-soru-8",
         "options": [
           "Toprak yağmurla yok oldu.",
           "Dere toprağı hiç etkilemedi.",
+          "Yağmur bütün taşları eritti.",
           "Akan su toprağı sürükledi."
         ],
         "difficulty": "orta",
@@ -16224,14 +16422,16 @@
         "choices": [
           "İkisinin aynı kapta olması",
           "İkisinin kuru olması",
+          "Karışımın toplam miktarı",
           "Tane büyüklüğü"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Uygun elek ince kumu geçirir, iri çakılları tutar. Bu yöntem tanecik büyüklüğü farkına dayanır.",
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-orta-test-1-soru-8",
         "options": [
           "İkisinin aynı kapta olması",
           "İkisinin kuru olması",
+          "Karışımın toplam miktarı",
           "Tane büyüklüğü"
         ],
         "difficulty": "orta",
@@ -16299,14 +16499,16 @@
         "choices": [
           "Topun kütlesini artırma",
           "Topu sürekli hızlandırma",
+          "Topun malzemesini değiştirme",
           "Hareketi durdurma"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Top hareket ederken kalecinin etkisiyle durur. Bu, kuvvetin hareketi durdurabildiğini gösterir; kütle veya malzeme değişimi gözlenmez.",
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-orta-test-1-soru-8",
         "options": [
           "Topun kütlesini artırma",
           "Topu sürekli hızlandırma",
+          "Topun malzemesini değiştirme",
           "Hareketi durdurma"
         ],
         "difficulty": "orta",
@@ -16374,14 +16576,16 @@
         "choices": [
           "Fener yalnız güneş ışığında çalışır.",
           "Pilin rengi ışığın tek nedenidir.",
+          "Fener elektrik kullanmaz.",
           "Fener çalışmak için pilden enerji alır."
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Pil değişince fenerin çalışması, gerekli enerjinin pilden sağlandığını destekler. Renk veya güneş koşulu değişken olarak verilmemiştir.",
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-orta-test-1-soru-8",
         "options": [
           "Fener yalnız güneş ışığında çalışır.",
           "Pilin rengi ışığın tek nedenidir.",
+          "Fener elektrik kullanmaz.",
           "Fener çalışmak için pilden enerji alır."
         ],
         "difficulty": "orta",
@@ -16449,14 +16653,16 @@
         "choices": [
           "Yağmurun yağmasını durdurur.",
           "Topraktaki bütün suyu yok eder.",
+          "Toprağı tamamen taşa çevirir.",
           "Toprağın tutulmasına yardımcı olur."
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Kökler toprak parçalarının tutulmasına yardımcı olur; böylece akan suyun taşıdığı miktar azalabilir. Yağışı durdurmaz veya toprağı taşa dönüştürmez.",
         "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-orta-test-1-soru-8",
         "options": [
           "Yağmurun yağmasını durdurur.",
           "Topraktaki bütün suyu yok eder.",
+          "Toprağı tamamen taşa çevirir.",
           "Toprağın tutulmasına yardımcı olur."
         ],
         "difficulty": "orta",
@@ -16524,14 +16730,16 @@
         "choices": [
           "Tüy rengini değiştirme",
           "Kanat sayısını artırma",
+          "Günün uzunluğunu değiştirme",
           "Barınma"
         ],
-        "correctAnswer": 2,
+        "correctAnswer": 3,
         "explanation": "Yuva kuşun barınma ve yavrularını koruma alanıdır. Ağacın kesilmesi bu alanı ortadan kaldırır; diğer seçenekler barınma ihtiyacı değildir.",
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-orta-test-1-soru-8",
         "options": [
           "Tüy rengini değiştirme",
           "Kanat sayısını artırma",
+          "Günün uzunluğunu değiştirme",
           "Barınma"
         ],
         "difficulty": "orta",

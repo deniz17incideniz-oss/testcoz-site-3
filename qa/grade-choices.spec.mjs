@@ -5,11 +5,11 @@ for(const t of tests.filter(t=>t.classLevel<=3&&t.testNumber===1))groups.set(`${
 for(const [key,t]of groups)test(`all browser choices and answer keys match the source for ${key}`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());
  await page.goto(`/test.html?sinif=${t.classLevel}&ders=${t.subject}&konu=${t.topic}&zorluk=${t.difficulty}&test=1`);
- await expect(page.locator('[data-choice]')).toHaveCount(3);
+ await expect(page.locator('[data-choice]')).toHaveCount(t.questions[0].choices.length);
  const actual=await page.evaluate(()=>window.TestCozTestNormalizer.normalizeAllTests(window.TESTCOZ_TESTS).filter(t=>t.testNumber===1).flatMap(t=>t.questions.map(q=>({id:q.id,choices:q.choices,answer:q.choices[q.correctAnswer]}))));
  const expected=tests.filter(x=>x.classLevel===t.classLevel&&x.subject===t.subject&&x.testNumber===1).flatMap(t=>t.questions.map(q=>({id:q.id,choices:q.choices,answer:q.choices[q.correctAnswer]})));
  expect(actual).toEqual(expected);
- expect(actual.every(q=>q.choices.length===3)).toBe(true);
+ expect(actual.every(q=>[3,4].includes(q.choices.length))).toBe(true);
 });
 
 test('science evidence cards and wrong-answer explanations fit a mobile screen',async({page})=>{
