@@ -23868,14 +23868,14 @@
         ]
       },
       "after": {
-        "question": "Araba kayıtları: A: aynı sürede önce 2, sonra 4 karo. B: aynı sürede önce 5, sonra 3 karo. Karolar eşit. Hangi eşleştirme doğrudur?",
+        "question": "Eşit süreli iki aralıkta A arabası önce 2, sonra 4 karo; B arabası önce 5, sonra 3 karo gidiyor. Karolar eşit. Kaydedilen yollara göre hangisi doğrudur?",
         "choices": [
-          "A yavaşlıyor, B hızlanıyor.",
-          "İkisinin de hızı değişmiyor.",
-          "A hızlanıyor, B yavaşlıyor."
+          "A’nın aldığı yol azalmış, B’nin aldığı yol artmıştır.",
+          "İki arabanın da aldığı yol değişmemiştir.",
+          "A’nın aldığı yol artmış, B’nin aldığı yol azalmıştır."
         ],
         "correctAnswer": 2,
-        "explanation": "Eşit zaman aralıklarında daha çok yol almak hızlanmayı, daha az yol almak yavaşlamayı gösterir. A’nın yolu artarken B’ninki azalıyor.",
+        "explanation": "A’nın yolu 2 karodan 4 karoya çıkar; B’nin yolu 5 karodan 3 karoya iner. Kayıtlar her aralıktaki toplam yolu gösterir; hareketin her anındaki hızı göstermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-9.svg",
         "visual": {
           "type": "cards",
@@ -23888,13 +23888,13 @@
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-9",
         "imageAlt": "A: önce 2, sonra 4 karo. B: önce 5, sonra 3 karo",
         "options": [
-          "A yavaşlıyor, B hızlanıyor.",
-          "İkisinin de hızı değişmiyor.",
-          "A hızlanıyor, B yavaşlıyor."
+          "A’nın aldığı yol azalmış, B’nin aldığı yol artmıştır.",
+          "İki arabanın da aldığı yol değişmemiştir.",
+          "A’nın aldığı yol artmış, B’nin aldığı yol azalmıştır."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Eşit aralıklarda hız değişimini karşılaştırma",
+        "subSkill": "Eşit aralıklarda alınan yolu karşılaştırma",
         "questionType": "gorsel-okuma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,

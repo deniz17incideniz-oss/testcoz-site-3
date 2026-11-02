@@ -22,10 +22,13 @@ test('movement evidence card and reasoning remain consistent on a narrow screen'
  await expect(page.locator('#questionArea')).toContainText('B: düz yolda yavaşlıyor');
  await expect(page.locator('#questionArea img')).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
- for(let i=5;i<10;i++)await page.locator('#skipQuestion').click();
+ for(let i=0;i<3;i++)await page.locator('#skipQuestion').click();
+ await expect(page.locator('#questionArea')).toContainText('Kaydedilen yollara göre hangisi doğrudur?');
+ await page.locator('#skipQuestion').click();await page.locator('#skipQuestion').click();
  await page.getByRole('link',{name:'Yanlışlarını Öğren',exact:true}).click();
  await expect(page.locator('#wrongReview')).toContainText('A’nın yönü, B’nin hızı değişir.');
  await expect(page.locator('#wrongReview')).toContainText('A virajı döndüğü için yön değiştirir');
+ await expect(page.locator('#wrongReview')).toContainText('Kayıtlar her aralıktaki toplam yolu gösterir; hareketin her anındaki hızı göstermez.');
 });
 for(const width of [320,375,768,1440])test(`school lesson and quiz accessible at ${width}`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width,height:900});
