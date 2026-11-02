@@ -23276,26 +23276,26 @@
         ]
       },
       "after": {
-        "question": "Duran oyuncak araba itiliyor, sonra hareket ediyor. Aynı araba elle tutulunca duruyor. İki olay birlikte neyi gösterir?",
+        "question": "Duran bir oyuncak arabaya itme uygulanınca araba hareket ediyor. Hareketli araba daha sonra elle tutulunca duruyor. Bu iki gözlemi birlikte açıklayan ifade hangisidir?",
         "choices": [
-          "Kuvvet hareketi başlatabilir ve durdurabilir.",
-          "Kuvvet yalnız hızlandırır, durduramaz.",
-          "Hareket için cismin renginin değişmesi gerekir."
+          "Kuvvet duran cismi hareket ettirebilir ve hareketli cismi durdurabilir.",
+          "Kuvvet yalnız duran cisimleri etkiler.",
+          "Kuvvet uygulanan her cisim mutlaka hızlanır."
         ],
         "correctAnswer": 0,
-        "explanation": "İtme duran arabanın hareketini başlatmış, tutma hareketini durdurmuştur. Kuvvetin farklı etkileri vardır; renk değişimi bu olayların nedeni değildir.",
+        "explanation": "İtme duran arabayı harekete geçirmiştir; elle tutma ise hareketli arabayı durdurmuştur. Aynı tür etkiyi her durumda beklemek iki gözlemi birden açıklamaz.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-1",
         "options": [
-          "Kuvvet hareketi başlatabilir ve durdurabilir.",
-          "Kuvvet yalnız hızlandırır, durduramaz.",
-          "Hareket için cismin renginin değişmesi gerekir."
+          "Kuvvet duran cismi hareket ettirebilir ve hareketli cismi durdurabilir.",
+          "Kuvvet yalnız duran cisimleri etkiler.",
+          "Kuvvet uygulanan her cisim mutlaka hızlanır."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Kuvvetin farklı etkilerini karşılaştırma",
+        "questionType": "cikarim",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23345,26 +23345,26 @@
         ]
       },
       "after": {
-        "question": "Ece topa yandan vurunca top önceki yolundan farklı yönde gidiyor. Topun hangi hareket özelliği değişmiştir?",
+        "question": "Kuzeye giden bir topa yandan vuruluyor ve top doğuya yöneliyor. Topun aldığı yolun süreleri ölçülmüyor. Hangi sonuç kesin olarak söylenebilir?",
         "choices": [
-          "Kütlesi",
-          "Yönü",
-          "Yapıldığı malzeme"
+          "Topun hızı kesinlikle aynı kalmıştır.",
+          "Topun hareket yönü değişmiştir.",
+          "Topun hızı kesinlikle artmıştır."
         ],
         "correctAnswer": 1,
-        "explanation": "Yandan uygulanan kuvvet topun gittiği yönü değiştirmiştir. Bu gözlem topun malzemesinin veya kütlesinin değiştiğini göstermez.",
+        "explanation": "Kuzeyden doğuya yönelmesi hareket yönünün değiştiğini gösterir. Süre ve yol ölçülmediği için hızın artıp artmadığı ya da aynı kalıp kalmadığı söylenemez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-2",
         "options": [
-          "Kütlesi",
-          "Yönü",
-          "Yapıldığı malzeme"
+          "Topun hızı kesinlikle aynı kalmıştır.",
+          "Topun hareket yönü değişmiştir.",
+          "Topun hızı kesinlikle artmıştır."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Yön ve hız bilgisini ayırt etme",
+        "questionType": "cikarim",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23448,8 +23448,8 @@
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Eşit sürelerde alınan yolu karşılaştırma",
+        "questionType": "gorsel-okuma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": true,
@@ -23499,26 +23499,26 @@
         ]
       },
       "after": {
-        "question": "Salıncaktaki çocuk ileri gidip geri dönüyor. Dönen bisiklet tekerleği ise ekseni çevresinde hareket ediyor. Eşleştirme hangisidir?",
+        "question": "Bir salıncak ileri geri gidiyor. Aynı anda bisiklet tekerleğindeki işaret, tekerlek sabit ekseni çevresinde döndükçe bir tur atıyor. Hareketler nasıl eşleştirilir?",
         "choices": [
-          "Salıncak sallanır, tekerlek döner.",
-          "İkisi de yalnız düz bir yolda ilerler.",
-          "Salıncak hiç hareket etmez, tekerlek sallanır."
+          "Salıncak sallanma, tekerlek dönme hareketi yapar.",
+          "Salıncak dönme, tekerlek sallanma hareketi yapar.",
+          "İkisi de yalnız sallanma hareketi yapar."
         ],
         "correctAnswer": 0,
-        "explanation": "Salıncak iki yönde gidip gelerek sallanır. Tekerleğin ekseni çevresindeki hareketi dönmedir; bu iki hareket biçimi aynı değildir.",
+        "explanation": "Salıncak iki yönde gidip gelerek sallanır. Tekerlekteki işaret ise sabit eksen çevresinde tur atar; bu dönme hareketidir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-4",
         "options": [
-          "Salıncak sallanır, tekerlek döner.",
-          "İkisi de yalnız düz bir yolda ilerler.",
-          "Salıncak hiç hareket etmez, tekerlek sallanır."
+          "Salıncak sallanma, tekerlek dönme hareketi yapar.",
+          "Salıncak dönme, tekerlek sallanma hareketi yapar.",
+          "İkisi de yalnız sallanma hareketi yapar."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Sallanma ve dönme hareketlerini ayırt etme",
+        "questionType": "karsilastirma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23568,26 +23568,26 @@
         ]
       },
       "after": {
-        "question": "Aynı oyuncak araba aynı başlangıçtan halı ve düz zeminde bırakılıyor. Halıda daha kısa yol alıyor. Hangi yorum ölçülü bir sonuçtur?",
+        "question": "Aynı oyuncak araba aynı rampanın aynı yüksekliğinden serbest bırakılıyor. Rampa sonunda bir denemede halıda, diğerinde düz zeminde ilerliyor. Halıda daha kısa yol alıyor. Hangi sonuç bu denemeye uygundur?",
         "choices": [
-          "Bütün arabalar her zeminde aynı uzaklığa gider.",
-          "Zemin türü arabanın ilerlemesini etkileyebilir.",
-          "Araba halıda artık hiç hareket edemez."
+          "Rampanın yüksekliği bu iki denemede farklıdır.",
+          "Zemin türü arabanın aldığı yolu etkilemiş olabilir.",
+          "Bütün arabalar halıda aynı uzaklıkta durur."
         ],
         "correctAnswer": 1,
-        "explanation": "Bu denemede zeminle birlikte ilerlenen yol değişmiştir. Halıda kısa yol almak hiç hareket etmemek değildir; sonucu tüm araçlar için aynı sayıya genelleyemeyiz.",
+        "explanation": "Araba ve rampanın bırakılma yüksekliği aynı tutulmuş, zemin değiştirilmiştir. Bu denemede yol farkı zeminle ilişkili olabilir; tek sonuç bütün arabalara genellenemez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-5",
         "options": [
-          "Bütün arabalar her zeminde aynı uzaklığa gider.",
-          "Zemin türü arabanın ilerlemesini etkileyebilir.",
-          "Araba halıda artık hiç hareket edemez."
+          "Rampanın yüksekliği bu iki denemede farklıdır.",
+          "Zemin türü arabanın aldığı yolu etkilemiş olabilir.",
+          "Bütün arabalar halıda aynı uzaklıkta durur."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Kontrollü denemede zemin etkisini yorumlama",
+        "questionType": "cikarim",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23645,34 +23645,34 @@
         ]
       },
       "after": {
-        "question": "Hareket kartları: A: durağa yaklaşırken yavaşlayan otobüs. B: duraktan kalkıp hızlanan otobüs. Hangisinde hız azalmaktadır?",
+        "question": "İki otobüs hareket kartında A virajı dönerken aynı hızla gidiyor, B ise düz yolda yavaşlıyor. Hangi eşleştirme doğrudur?",
         "choices": [
-          "B’de; kalkmak hızın azaldığını gösterir.",
-          "İkisinde de; bütün otobüsler aynı hızdadır.",
-          "A’da; durmaya hazırlanırken daha yavaş ilerler."
+          "A’nın hızı, B’nin yönü değişir.",
+          "İkisinin de yalnız yönü değişir.",
+          "A’nın yönü, B’nin hızı değişir."
         ],
         "correctAnswer": 2,
-        "explanation": "Yavaşlama hızın azalmasıdır. A durağa yaklaşırken yavaşlar; B ise kalktıktan sonra hızlanır. Aynı araç türü aynı hareket durumunda olmak zorunda değildir.",
+        "explanation": "A virajı döndüğü için yön değiştirir; kartta hızı aynı kalır. B düz yolda yavaşladığı için hızı değişir, yönünün değiştiği söylenmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-6.svg",
         "visual": {
           "type": "cards",
           "title": "Otobüs hareketleri",
           "data": {
-            "first": "Durağa yaklaşırken yavaşlıyor",
-            "second": "Duraktan kalkıp hızlanıyor"
+            "first": "A: virajda aynı hız",
+            "second": "B: düz yolda yavaşlıyor"
           }
         },
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-6",
-        "imageAlt": "Durağa yaklaşırken yavaşlıyor. Duraktan kalkıp hızlanıyor",
+        "imageAlt": "A: virajda aynı hız. B: düz yolda yavaşlıyor",
         "options": [
-          "B’de; kalkmak hızın azaldığını gösterir.",
-          "İkisinde de; bütün otobüsler aynı hızdadır.",
-          "A’da; durmaya hazırlanırken daha yavaş ilerler."
+          "A’nın hızı, B’nin yönü değişir.",
+          "İkisinin de yalnız yönü değişir.",
+          "A’nın yönü, B’nin hızı değişir."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Hız ve yön değişimini ayırt etme",
+        "questionType": "gorsel-okuma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": true,
@@ -23722,26 +23722,26 @@
         ]
       },
       "after": {
-        "question": "Çekmeceyi açmak için kendimize doğru kuvvet uyguluyoruz; kapatırken içeri doğru kuvvet uyguluyoruz. Bu iki hareket hangileridir?",
+        "question": "Bir çocuk çekmeceyi kendine doğru açıyor, sonra elini çekmecenin dış yüzüne koyup içeri doğru kapatıyor. Sırayla hangi kuvvetleri uygular?",
         "choices": [
-          "Çekme ve itme",
-          "Yalnız çekme",
-          "Yalnız dönme"
+          "Önce çekme, sonra itme",
+          "Önce itme, sonra çekme",
+          "Her iki durumda da çekme"
         ],
         "correctAnswer": 0,
-        "explanation": "Kendimize doğru uygulanan kuvvet çekmedir. Çekmeceyi içeri göndermek itmedir; çekmece bu örnekte ekseni çevresinde dönmez.",
+        "explanation": "Çekmeceyi kendine doğru getirirken çeker. İçeri göndermek için dış yüzüne kuvvet uyguladığında iter; iki aşamada kuvvetin yönü farklıdır.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-7",
         "options": [
-          "Çekme ve itme",
-          "Yalnız çekme",
-          "Yalnız dönme"
+          "Önce çekme, sonra itme",
+          "Önce itme, sonra çekme",
+          "Her iki durumda da çekme"
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "İtme ve çekmeyi karşılaştırma",
+        "questionType": "siralama",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23791,26 +23791,26 @@
         ]
       },
       "after": {
-        "question": "Yumuşak oyun hamuruna basınca biçimi değişiyor. “Kuvvet yalnız hareketi değiştirir.” cümlesi neden eksiktir?",
+        "question": "Ece süngeri sıkınca biçimi değişiyor; Ali duran topa vurunca top hareket ediyor. İki gözlemi birlikte açıklayan sonuç hangisidir?",
         "choices": [
-          "Biçim değişimi için kuvvet hiçbir zaman gerekmez.",
-          "Kuvvet bazı cisimlerin biçimini de değiştirebilir.",
-          "Hamur madde olmadığı için örnek sayılmaz."
+          "Kuvvet uygulanan her cisim yalnız hareket eder.",
+          "Kuvvet cismin biçimini veya hareketini değiştirebilir.",
+          "Kuvvet uygulanan her cisim yalnız biçim değiştirir."
         ],
         "correctAnswer": 1,
-        "explanation": "Hamura basmak kuvvet uygulamaktır ve biçim değişmiştir. Bu, kuvvetin yalnız hız veya yönle sınırlı olmayan bir etkisini gösterir.",
+        "explanation": "Sünger örneğinde sıkma biçimi, top örneğinde vurma hareket durumunu değiştirmiştir. İki etkiyi de kapsayan sonuç, kuvvetin farklı etkiler yapabilmesidir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-8",
         "options": [
-          "Biçim değişimi için kuvvet hiçbir zaman gerekmez.",
-          "Kuvvet bazı cisimlerin biçimini de değiştirebilir.",
-          "Hamur madde olmadığı için örnek sayılmaz."
+          "Kuvvet uygulanan her cisim yalnız hareket eder.",
+          "Kuvvet cismin biçimini veya hareketini değiştirebilir.",
+          "Kuvvet uygulanan her cisim yalnız biçim değiştirir."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Kuvvetin biçim ve hareket etkilerini karşılaştırma",
+        "questionType": "cikarim",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -23894,8 +23894,8 @@
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Eşit aralıklarda hız değişimini karşılaştırma",
+        "questionType": "gorsel-okuma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": true,
@@ -23954,14 +23954,14 @@
         ]
       },
       "after": {
-        "question": "Bir deneyde oyuncak top duvara çarpıp geri dönüyor. Çocuk “Top durmadan hep aynı yönde gitti.” diyor. Hangi gözlem bu sözü düzeltir?",
+        "question": "Top duvara doğru ilerleyip çarptıktan sonra geri dönüyor. Bu gözleme göre hangi ifade desteklenir?",
         "choices": [
-          "Geri dönmesi hareket yönünün değiştiğini gösterir.",
-          "Duvarın rengi topun yönünü değiştirmez.",
-          "Topun yuvarlak olması bütün hareketleri aynı yapar."
+          "Çarpışmadan sonra topun hareket yönü değişmiştir.",
+          "Top bütün yol boyunca aynı yönde gitmiştir.",
+          "Topun çarpışma öncesi ve sonrası hızı kesinlikle eşittir."
         ],
         "correctAnswer": 0,
-        "explanation": "Geri dönmek önceki yönün tersine hareket etmektir. Duvarla etkileşim topun yönünü değiştirmiştir; topun yuvarlaklığı yönün sabit kaldığını göstermez.",
+        "explanation": "Duvara doğru gitmek ile geri dönmek zıt yönleri gösterir. Yalnız yön bilgisi verildiği için çarpışma öncesi ve sonrası hızların eşit olduğu çıkarılamaz.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-10.svg",
         "visual": {
           "type": "cards",
@@ -23974,14 +23974,14 @@
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-10",
         "imageAlt": "Duvara doğru hareket. Duvara çarpma → geri dönme",
         "options": [
-          "Geri dönmesi hareket yönünün değiştiğini gösterir.",
-          "Duvarın rengi topun yönünü değiştirmez.",
-          "Topun yuvarlak olması bütün hareketleri aynı yapar."
+          "Çarpışmadan sonra topun hareket yönü değişmiştir.",
+          "Top bütün yol boyunca aynı yönde gitmiştir.",
+          "Topun çarpışma öncesi ve sonrası hızı kesinlikle eşittir."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
-        "subSkill": "Verilen bilgileri ilişkilendirerek gerekçe kurma",
-        "questionType": "metin-anlama",
+        "subSkill": "Çarpışma sonrası yön değişimini yorumlama",
+        "questionType": "gorsel-okuma",
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": true,

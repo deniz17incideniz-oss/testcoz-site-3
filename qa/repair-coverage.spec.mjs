@@ -10,7 +10,22 @@ for(const slug of [...new Set(repairs.map(p=>p.slug))])test(`repaired runtime ${
  for(const p of repairs.filter(p=>p.slug===slug)){
   const expected=t.questions[p.index],q=actual[p.index];
   expect(q.question,q.id).toBe(expected.question);expect(q.choices,q.id).toEqual(expected.choices);expect(q.correctAnswer,q.id).toBe(expected.correctAnswer);expect(q.explanation,q.id).toBe(expected.explanation);expect(q.image||null,q.id).toBe(expected.image||null);
+  if(p.metadata){expect(q.subSkill,q.id).toBe(expected.subSkill);expect(q.questionType,q.id).toBe(expected.questionType);}
  }
+});
+
+test('movement evidence card and reasoning remain consistent on a narrow screen',async({page})=>{
+ await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width:320,height:850});
+ await page.goto('/test.html?sinif=3&ders=fen-bilimleri&konu=hareketi-kesfediyorum&zorluk=zor&test=1');
+ for(let i=0;i<5;i++)await page.locator('#skipQuestion').click();
+ await expect(page.locator('#questionArea')).toContainText('A: virajda aynı hız');
+ await expect(page.locator('#questionArea')).toContainText('B: düz yolda yavaşlıyor');
+ await expect(page.locator('#questionArea img')).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+ for(let i=5;i<10;i++)await page.locator('#skipQuestion').click();
+ await page.getByRole('link',{name:'Yanlışlarını Öğren',exact:true}).click();
+ await expect(page.locator('#wrongReview')).toContainText('A’nın yönü, B’nin hızı değişir.');
+ await expect(page.locator('#wrongReview')).toContainText('A virajı döndüğü için yön değiştirir');
 });
 for(const width of [320,375,768,1440])test(`school lesson and quiz accessible at ${width}`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width,height:900});

@@ -281,6 +281,14 @@ import {scienceRepairs,scienceVisuals,scienceInferenceRepairs} from './science-r
 for(const [topic,row] of Object.entries(scienceInferenceRepairs))repairs.push({slug:`3-sinif-fen-bilimleri-${topic}-orta-test-1`,index:0,row,reason:'The keyed prediction did not follow from the observation; replace with an evidence-bounded conclusion.'});
 for(const [topic,rows] of Object.entries(scienceRepairs)) {
  test(3,'fen-bilimleri',topic,'zor',1,rows,'Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.');
+ if(topic==='hareketi-kesfediyorum') {
+  const skills=[['Kuvvetin farklı etkilerini karşılaştırma','cikarim'],['Yön ve hız bilgisini ayırt etme','cikarim'],['Eşit sürelerde alınan yolu karşılaştırma','gorsel-okuma'],['Sallanma ve dönme hareketlerini ayırt etme','karsilastirma'],['Kontrollü denemede zemin etkisini yorumlama','cikarim'],['Hız ve yön değişimini ayırt etme','gorsel-okuma'],['İtme ve çekmeyi karşılaştırma','siralama'],['Kuvvetin biçim ve hareket etkilerini karşılaştırma','cikarim'],['Eşit aralıklarda hız değişimini karşılaştırma','gorsel-okuma'],['Çarpışma sonrası yön değişimini yorumlama','gorsel-okuma']];
+  for(const [index,[subSkill,questionType]] of skills.entries()) {
+   const repair=repairs.find(p=>p.slug==='3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1'&&p.index===index);
+   if(!repair) throw new Error(`Missing motion repair ${index}`);
+   repair.metadata={subSkill,questionType};
+  }
+ }
  for(const [n,index] of [2,5,8,9].entries()) {
   const [title,first,second]=scienceVisuals[topic][n];
   visualEvidence[`3-sinif-fen-bilimleri-${topic}-zor-test-1:${index}`]=[title,{first,second}];
