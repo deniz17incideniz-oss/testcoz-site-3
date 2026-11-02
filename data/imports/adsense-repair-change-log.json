@@ -1,7 +1,697 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 347,
+  "count": 357,
   "changes": [
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 19431 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "600",
+          "400",
+          "500",
+          "300"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
+        "options": [
+          "600",
+          "400",
+          "500",
+          "300"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "48 315 sayısında 8 rakamının basamak değeri kaçtır?",
+        "choices": [
+          "8 000",
+          "800",
+          "80",
+          "8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "8 rakamı binler basamağındadır. Bu yüzden basamak değeri 8 × 1 000 = 8 000 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
+        "options": [
+          "8 000",
+          "800",
+          "80",
+          "8"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Basamak değeri",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 19862 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "1000",
+          "800",
+          "900",
+          "700"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-2",
+        "options": [
+          "1000",
+          "800",
+          "900",
+          "700"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "“Altmış iki bin yüz dört” sayısı rakamlarla nasıl yazılır?",
+        "choices": [
+          "62 140",
+          "62 104",
+          "62 014",
+          "6 214"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Altmış iki bin 62 000, yüz dört 104 eder. 62 000 + 104 = 62 104 olarak yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-2",
+        "options": [
+          "62 140",
+          "62 104",
+          "62 014",
+          "6 214"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayıyı rakamlarla yazma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 20293 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "300",
+          "100",
+          "400",
+          "200"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-3",
+        "options": [
+          "300",
+          "100",
+          "400",
+          "200"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "305 620 sayısında binler bölüğü hangi rakamlardan oluşur?",
+        "choices": [
+          "306",
+          "520",
+          "305",
+          "620"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sayı sağdan üçlü gruplara ayrılır: 305 | 620. Soldaki 305 binler bölüğü, sağdaki 620 birler bölüğüdür.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-3",
+        "options": [
+          "306",
+          "520",
+          "305",
+          "620"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı bölükleri",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 20724 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "700",
+          "800",
+          "600",
+          "900"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-4",
+        "options": [
+          "700",
+          "800",
+          "600",
+          "900"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "70 000 + 4 000 + 300 + 8 çözümlemesi hangi sayıya aittir?",
+        "choices": [
+          "74 380",
+          "70 438",
+          "74 038",
+          "74 308"
+        ],
+        "correctAnswer": 3,
+        "explanation": "On binler 7, binler 4, yüzler 3, onlar 0 ve birler 8 olur. Bu rakamlar birlikte 74 308 sayısını oluşturur.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-4",
+        "options": [
+          "74 380",
+          "70 438",
+          "74 038",
+          "74 308"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı çözümleme",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 21155 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "300",
+          "100",
+          "200",
+          "0"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-5",
+        "options": [
+          "300",
+          "100",
+          "200",
+          "0"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aşağıdaki sayılardan hangisi en büyüktür?",
+        "choices": [
+          "53 410",
+          "53 140",
+          "50 999",
+          "49 999"
+        ],
+        "correctAnswer": 0,
+        "explanation": "53 410 ve 53 140 ilk iki basamakta eşittir. Yüzler basamağında 4, 1’den büyük olduğundan en büyük sayı 53 410’dur.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-5",
+        "options": [
+          "53 410",
+          "53 140",
+          "50 999",
+          "49 999"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Doğal sayıları karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 21586 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "700",
+          "500",
+          "600",
+          "400"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-6",
+        "options": [
+          "700",
+          "500",
+          "600",
+          "400"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "28 675 ile 28 705 sayıları arasına hangi işaret yazılmalıdır?",
+        "choices": [
+          "+",
+          "<",
+          ">",
+          "="
+        ],
+        "correctAnswer": 1,
+        "explanation": "İki sayının binleri eşittir. Yüzler basamağında 6, 7’den küçük olduğu için 28 675 < 28 705 yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-6",
+        "options": [
+          "+",
+          "<",
+          ">",
+          "="
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Karşılaştırma işaretleri",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 22017 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "100",
+          "-100",
+          "200",
+          "0"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-7",
+        "options": [
+          "100",
+          "-100",
+          "200",
+          "0"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "4, 0, 7 ve 2 rakamları birer kez kullanılarak yazılabilecek en küçük dört basamaklı sayı hangisidir?",
+        "choices": [
+          "4 027",
+          "7 420",
+          "2 047",
+          "2 407"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dört basamaklı sayı sıfırla başlayamaz. En küçük sıfır olmayan rakam 2 başa, kalan 0, 4 ve 7 ise küçükten büyüğe yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-7",
+        "options": [
+          "4 027",
+          "7 420",
+          "2 047",
+          "2 407"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Rakamlarla sayı oluşturma",
+        "questionType": "siralama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 22448 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "500",
+          "300",
+          "600",
+          "400"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-8",
+        "options": [
+          "500",
+          "300",
+          "600",
+          "400"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "12 450 sayısından sonra gelen doğal sayı hangisidir?",
+        "choices": [
+          "12 449",
+          "12 460",
+          "12 550",
+          "12 451"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bir doğal sayıdan sonra gelen sayı, o sayının 1 fazlasıdır: 12 450 + 1 = 12 451.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-8",
+        "options": [
+          "12 449",
+          "12 460",
+          "12 550",
+          "12 451"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Ardışık doğal sayılar",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 22879 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "900",
+          "700",
+          "1000",
+          "800"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-9",
+        "options": [
+          "900",
+          "700",
+          "1000",
+          "800"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "3 600, 3 700, 3 800, … örüntüsünde boş yere hangi sayı gelir?",
+        "choices": [
+          "3 900",
+          "3 810",
+          "4 000",
+          "3 850"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Her adımda sayı 100 artıyor. 3 800 + 100 = 3 900 olduğundan boş yere 3 900 yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-9",
+        "options": [
+          "3 900",
+          "3 810",
+          "4 000",
+          "3 850"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı örüntüleri",
+        "questionType": "oruntu",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-dogal-sayilar-kolay-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_fundamentals",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Doğal Sayılar: 23310 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "200",
+          "500",
+          "300",
+          "400"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-10",
+        "options": [
+          "200",
+          "500",
+          "300",
+          "400"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kütüphanenin üç bölümünde sırasıyla 6 000, 300 ve 20 kitap vardır. Toplam kitap sayısı kaçtır?",
+        "choices": [
+          "6 032",
+          "6 320",
+          "6 230",
+          "6 302"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bölümlerdeki kitap sayıları toplanır: 6 000 + 300 + 20 = 6 320. Onlar basamağında 2, birler basamağında 0 vardır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-10",
+        "options": [
+          "6 032",
+          "6 320",
+          "6 230",
+          "6 302"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Basamak değerleriyle toplama",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
     {
       "id": "T2-G3-INGI-SCHOOL-01",
       "test": "3-sinif-ingilizce-school-life-zor-test-2",

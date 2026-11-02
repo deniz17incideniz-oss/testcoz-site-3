@@ -1386,5 +1386,45 @@
   "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-orta-test-1:0": {
     "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-orta-test-1-soru-1",
     "sha256": "eef97cb386aa8b4a6681f150d7594acf4f7bc7ff4f3a72d8d74f13cf745e75e5"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:0": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
+    "sha256": "9c864b6ccbb290ebdf5030a3956b1a1848d0bac6afd3b96b9dbec1a12ef320e0"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:1": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-2",
+    "sha256": "ddd870d8d1f8fb761299be24be2a5502c2e461997bc953f2d1aa5ccaf6a09b8e"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:2": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-3",
+    "sha256": "c01f1fb34057d8221ee400fc9341f8524ba5c92b2811fa4889959eaa71430df7"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:3": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-4",
+    "sha256": "ee227176ba228224f47bdcab3899cebe192eaf0d5eedf962c2187efadd2fd7a7"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:4": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-5",
+    "sha256": "4bc1cc0428c0b5c72b149d523715755ccf86c2b2ca6fcc25bba8360de7ff1ede"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:5": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-6",
+    "sha256": "25d79856813ba85f2f10c966c6e06921c596e559399595581641348ae37f7ecb"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:6": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-7",
+    "sha256": "0c8e57a045ad96f31550744ca212b22dd534c1d9b3ff3f885da6848649c2b887"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:7": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-8",
+    "sha256": "7ca1d5465ba3db07cc27c73f76055b0480efc2ee2676f3b77a02226095c63e35"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:8": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-9",
+    "sha256": "548f83767b2ad93c443732cd680eafc4b30f9e71afbb293f59f7319eeb8124cb"
+  },
+  "4-sinif-matematik-dogal-sayilar-kolay-test-1:9": {
+    "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-10",
+    "sha256": "6f5e52693fddf6b8ab8bc108094df841f3dd5a9d22ec0f437d5e2463a1d315f9"
   }
 }

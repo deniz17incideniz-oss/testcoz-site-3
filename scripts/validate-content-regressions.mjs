@@ -14,6 +14,7 @@ for(const p of repairs){
  const t=tests.find(t=>t.slug===p.slug),q=t.questions[p.index];
  if(p.row)assert.equal(q.question,p.row[0],`Repair not used by runtime bank: ${p.slug}/${p.index}`);
  if(p.row)assert.equal(q.choices[q.correctAnswer],p.row[1],q.id);
+ if(p.metadata)for(const [key,value]of Object.entries(p.metadata))assert.equal(q[key],value,`${q.id}/${key}`);
  if(p.fields)for(const [key,value]of Object.entries(p.fields))assert.deepEqual(q[key],value,q.id);
  assert.deepEqual(q.options,q.choices,q.id);
  assert.deepEqual(inspectSemanticRisk(t,q),[],`Repaired question has semantic pattern risk: ${q.id}`);

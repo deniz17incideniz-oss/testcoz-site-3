@@ -23,6 +23,7 @@ for(const p of repairs){
  const shift=p.index%choices.length;
  const rotated=[...choices.slice(choices.length-shift),...choices.slice(0,choices.length-shift)];
  let fields={question,choices:rotated,options:rotated,correctAnswer:shift,explanation,skill:t.topicName,subSkill:'Verilen bilgileri ilişkilendirerek gerekçe kurma',questionType:'metin-anlama',cognitiveLevel:t.difficulty==='kolay'?'anlama':t.difficulty==='orta'?'uygulama':'yorumlama',tags:[t.subject,t.topic,'editorial-2026-10']};
+ if(p.metadata)Object.assign(fields,p.metadata);
  if(p.fields)fields={...p.fields};
  const remove=[];
  if(q.image&&!p.fields){
