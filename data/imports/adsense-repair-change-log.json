@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 397,
+  "count": 407,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -2064,6 +2064,696 @@
         "questionType": "problem",
         "cognitiveLevel": "anlama",
         "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 2537 + 1283 işleminin sonucu kaçtır?",
+        "choices": [
+          "3820",
+          "3830",
+          "3810",
+          "3840"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-1",
+        "options": [
+          "3820",
+          "3830",
+          "3810",
+          "3840"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "3 685 + 2 749 işleminin sonucu kaçtır?",
+        "choices": [
+          "6 434",
+          "6 334",
+          "6 424",
+          "5 434"
+        ],
+        "correctAnswer": 0,
+        "explanation": "3 685 + 2 700 = 6 385; kalan 49 eklenince 6 434 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-1",
+        "options": [
+          "6 434",
+          "6 334",
+          "6 424",
+          "5 434"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Eldeli toplama",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 2674 + 1366 işleminin sonucu kaçtır?",
+        "choices": [
+          "4040",
+          "4050",
+          "4030",
+          "4060"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-2",
+        "options": [
+          "4040",
+          "4050",
+          "4030",
+          "4060"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir müzeyi cumartesi 2 375, pazar 1 860 kişi ziyaret etti. İki günde kaç ziyaretçi geldi?",
+        "choices": [
+          "3 235",
+          "4 235",
+          "4 135",
+          "4 225"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İki günün ziyaretçi sayıları toplanır: 2 375 + 1 800 = 4 175; 60 daha eklenince 4 235 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-2",
+        "options": [
+          "3 235",
+          "4 235",
+          "4 135",
+          "4 225"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 2811 + 1449 işleminin sonucu kaçtır?",
+        "choices": [
+          "4280",
+          "4260",
+          "4270",
+          "4250"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-3",
+        "options": [
+          "4280",
+          "4260",
+          "4270",
+          "4250"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "4 650 + 2 350 + 1 480 işleminde önce hangi iki sayı toplanırsa tam binlik elde edilir?",
+        "choices": [
+          "2 350 ve 1 480",
+          "Hiçbiri",
+          "4 650 ve 2 350",
+          "4 650 ve 1 480"
+        ],
+        "correctAnswer": 2,
+        "explanation": "4 650 + 2 350 = 7 000. Sonra 1 480 eklenerek toplam 8 480 bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-3",
+        "options": [
+          "2 350 ve 1 480",
+          "Hiçbiri",
+          "4 650 ve 2 350",
+          "4 650 ve 1 480"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Toplamada uygun gruplama",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 2948 + 1532 işleminin sonucu kaçtır?",
+        "choices": [
+          "4500",
+          "4480",
+          "4490",
+          "4470"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-4",
+        "options": [
+          "4500",
+          "4480",
+          "4490",
+          "4470"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir toplama işleminde birinci toplanan 3 725, toplam 8 000’dir. İkinci toplanan kaçtır?",
+        "choices": [
+          "4 375",
+          "5 275",
+          "4 225",
+          "4 275"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bilinmeyen toplanan 8 000 − 3 725 = 4 275 olur. Kontrol: 3 725 + 4 275 = 8 000.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-4",
+        "options": [
+          "4 375",
+          "5 275",
+          "4 225",
+          "4 275"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Eksik toplananı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3085 + 1615 işleminin sonucu kaçtır?",
+        "choices": [
+          "4690",
+          "4720",
+          "4700",
+          "4710"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-5",
+        "options": [
+          "4690",
+          "4720",
+          "4700",
+          "4710"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir bahçede 1 425 lale, 875 sümbül ve 1 200 gül vardır. Toplam kaç çiçek vardır?",
+        "choices": [
+          "3 500",
+          "3 400",
+          "3 600",
+          "2 500"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 425 + 875 = 2 300; 2 300 + 1 200 = 3 500 çiçek vardır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-5",
+        "options": [
+          "3 500",
+          "3 400",
+          "3 600",
+          "2 500"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Üç sayıyla toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3222 + 1698 işleminin sonucu kaçtır?",
+        "choices": [
+          "4910",
+          "4940",
+          "4920",
+          "4930"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-6",
+        "options": [
+          "4910",
+          "4940",
+          "4920",
+          "4930"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "2 468 + 3 521 işlemini sayıları en yakın yüzlüğe yuvarlayarak tahmin eden biri hangi sonucu bulur?",
+        "choices": [
+          "6 100",
+          "6 000",
+          "5 900",
+          "5 000"
+        ],
+        "correctAnswer": 1,
+        "explanation": "2 468 en yakın yüzlüğe 2 500, 3 521 ise 3 500 olarak yuvarlanır. Tahmin 2 500 + 3 500 = 6 000’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-6",
+        "options": [
+          "6 100",
+          "6 000",
+          "5 900",
+          "5 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Toplamı tahmin etme",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3359 + 1781 işleminin sonucu kaçtır?",
+        "choices": [
+          "5130",
+          "5160",
+          "5140",
+          "5150"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-7",
+        "options": [
+          "5130",
+          "5160",
+          "5140",
+          "5150"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir sayı 5 240 ile toplandığında 7 950 oluyor. Bu sayı kaçtır?",
+        "choices": [
+          "3 710",
+          "13 190",
+          "2 710",
+          "2 610"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksik toplananı bulmak için 7 950 − 5 240 = 2 710 yapılır. 5 240 + 2 710 = 7 950 ile doğrulanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-7",
+        "options": [
+          "3 710",
+          "13 190",
+          "2 710",
+          "2 610"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Eksik toplananı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3496 + 1864 işleminin sonucu kaçtır?",
+        "choices": [
+          "5350",
+          "5380",
+          "5360",
+          "5370"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-8",
+        "options": [
+          "5350",
+          "5380",
+          "5360",
+          "5370"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "3 150 + 2 875 toplamına 100 eklenirse yeni toplam kaç olur?",
+        "choices": [
+          "6 025",
+          "6 115",
+          "7 025",
+          "6 125"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce 3 150 + 2 875 = 6 025 bulunur. Buna 100 eklenince 6 125 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-8",
+        "options": [
+          "6 025",
+          "6 115",
+          "7 025",
+          "6 125"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Toplamdaki değişim",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3633 + 1947 işleminin sonucu kaçtır?",
+        "choices": [
+          "5590",
+          "5570",
+          "5600",
+          "5580"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-9",
+        "options": [
+          "5590",
+          "5570",
+          "5600",
+          "5580"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir depoya sabah 2 480, öğleden sonra 1 350 kutu geldi. Akşam 670 kutu daha gelirse toplam kaç kutu gelmiş olur?",
+        "choices": [
+          "4 500",
+          "3 830",
+          "4 400",
+          "4 600"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gelen kutular 2 480 + 1 350 + 670 olarak toplanır. 1 350 + 670 = 2 020; 2 480 + 2 020 = 4 500.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-9",
+        "options": [
+          "4 500",
+          "3 830",
+          "4 400",
+          "4 600"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Üç sayıyla toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-toplama-orta-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_applications",
+      "before": {
+        "question": "4. sınıf Matematik orta — Toplama: 3770 + 2030 işleminin sonucu kaçtır?",
+        "choices": [
+          "5820",
+          "5800",
+          "5810",
+          "5790"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-10",
+        "options": [
+          "5820",
+          "5800",
+          "5810",
+          "5790"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "4 375 + 1 625 işleminin sonucunu kontrol etmek için hangi çıkarma işlemi yapılabilir?",
+        "choices": [
+          "6 000 − 1 625 = 4 475",
+          "6 000 − 1 625 = 4 375",
+          "6 000 − 4 375 = 1 725",
+          "4 375 − 1 625 = 6 000"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplam 6 000’dir. Toplamdan bir toplananı çıkarınca diğer toplanan bulunur: 6 000 − 1 625 = 4 375.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-orta-test-1-soru-10",
+        "options": [
+          "6 000 − 1 625 = 4 475",
+          "6 000 − 1 625 = 4 375",
+          "6 000 − 4 375 = 1 725",
+          "4 375 − 1 625 = 6 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Toplama",
+        "subSkill": "Toplamayı çıkarma ile kontrol",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
         "hasVisual": false,
         "tags": [
           "matematik",

@@ -1586,5 +1586,45 @@
   "4-sinif-matematik-toplama-kolay-test-1:9": {
     "id": "4-sinif-matematik-toplama-kolay-test-1-soru-10",
     "sha256": "a0f619b0b8b2bf46c082b45fc4159d611d1e8f2a2014e7e75b74d0ab623b2d0d"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:0": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-1",
+    "sha256": "289f57ebc24b8d742a244c665680c748df5f6225c784b71f86a3abef5ab71ff6"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:1": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-2",
+    "sha256": "a1e6d7e1e8e8df1518841993773887857203c0d5a7323513e30669d2ebb2429a"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:2": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-3",
+    "sha256": "0d73397c456e3641345e7a0450b9bac686b7f552d31264e5808cfbb47feea8b4"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:3": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-4",
+    "sha256": "42b89a3f28bc018f0bfb8878d3567d2b985b0677a37d4568aa14f51345944131"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:4": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-5",
+    "sha256": "7ac2eece6ec794af82eeb2d058080c0a6ead63317e01bf1b63a9601cdd6cfe43"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:5": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-6",
+    "sha256": "13a44c7d74eb2941af322bcfd8fff930da7e8f5759fe2b54a2a779b40aa952bb"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:6": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-7",
+    "sha256": "f3e0a2ab33ffc2a5e76daf026e0888b6e0e4bc13e11bb181588fb5f7f664584d"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:7": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-8",
+    "sha256": "f27ec981b4b491582d2fb41a650d9aac4cbfbaf12513980f85bb0a329e2915ce"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:8": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-9",
+    "sha256": "11683d959afb944b2430f6a70a24c125614ea3875f0fb1164ec075522c893ee7"
+  },
+  "4-sinif-matematik-toplama-orta-test-1:9": {
+    "id": "4-sinif-matematik-toplama-orta-test-1-soru-10",
+    "sha256": "de7d34d052378cef5c87a714057f39f8eced819e478fa21143aba73406e30a2c"
   }
 }

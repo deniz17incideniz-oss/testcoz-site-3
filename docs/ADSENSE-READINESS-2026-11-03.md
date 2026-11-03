@@ -15,6 +15,8 @@ Bu belge anlık bir çalışma kaydıdır. AdSense onayı veya hukukî uygunluk 
 
 ## İçerik çalışması ve öncelik
 
+- Devam çalışmasında 4. sınıf Toplama kolay ve orta Test 1'de tekrar eden 20 soru çeşitlendirilip çözümleri yazıldı. Bölme, çevre, sıvı, uzunluk, veri ve zaman alıştırmalarında bağlamı eksik altı yönerge kendi başına anlaşılır hâle getirildi. Bu çalışma tüm bankanın pedagojik onayı değildir.
+
 1. Yanlış cevap, konu uyuşmazlığı, gerçekçi olmayan problem ve görsel uyuşmazlığını önce incele ve kanıtlanan hataları kaynakta düzelt.
 2. Aynı testte tek kalıbın sayı değişimleriyle tekrarlandığı örnekleri incele. 4. sınıf Kesirler kolay ve orta Test 1'deki 20 kayıt ve Doğal Sayılar orta Test 1'deki 10 kayıt bu çalışmada değiştirildi; aynı kimlik ve adresler korundu, konuya özgü kavramlar ve işlemli açıklamalar eklendi. Bu son doğal sayılar değişikliğinden önceki otomatik taramada en az beş kaydı aynı sayısal kalıba düşen 28 test/grup örneği ve toplam 464 sayısal şablon grubu vardı. Bunlar tespit adayıdır; tümü onaylanmış hata sayısı değildir.
 3. Kısa veya soru kökünü tekrarlayan açıklamaları tek tek değerlendir; öğrencinin çözüm yolunu görebildiği açıklamalar üret. Zor etiketini yalnız uzun metinle haklı gösterme.
