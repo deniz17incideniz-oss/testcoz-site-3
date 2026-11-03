@@ -1506,5 +1506,45 @@
   "4-sinif-matematik-kesirler-orta-test-1:9": {
     "id": "4-sinif-matematik-kesirler-orta-test-1-soru-10",
     "sha256": "8ea0a8a97e42340e4d0f7dcd090d99164c2bccec17c177d9847a22e4d2795980"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:0": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-1",
+    "sha256": "c88ce4e82acd5b75d85d2da967b6b5f52d33158ba018e8815de1dc6653c3ae02"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:1": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-2",
+    "sha256": "c9c933ad26fe5d2e145e044a17428de5b3db3048f99791cfdf44bb7578b50a8c"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:2": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-3",
+    "sha256": "86f080eb107abb20fe105ebff9d940e3ab54663c41511cf9a7e5a3a631fc8129"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:3": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-4",
+    "sha256": "a15b601cb7a6ee86f8e16b56372e92e0bc7aa70fc4b5783d37eed75ffa62d84e"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:4": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-5",
+    "sha256": "6160c41ed019a4ca69d080c6694f827106c2784ba1c2596e6e6108e862e06384"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:5": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-6",
+    "sha256": "a441ebc5521768bdbdffd212db5d2d69d3a7ad63503e6e6d67a1f9b16fc64099"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:6": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-7",
+    "sha256": "1d8f26b750d31dd68ca26f869b3ba368d2537db71628a5f48b9854239e99abd4"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:7": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-8",
+    "sha256": "b9c717d439910220be77f9ac0fc97e35cf0c0573a06d2938316583e58a08ac8f"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:8": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-9",
+    "sha256": "66f89bd62b8bb30ae77ed87fa5d0881bfbb2f37093c8fafc7466ca3553334ab4"
+  },
+  "4-sinif-matematik-dogal-sayilar-orta-test-1:9": {
+    "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-10",
+    "sha256": "482557e2495959745eaecc000c64b5b40ceffe81a4db497e87effbbaeb031555"
   }
 }

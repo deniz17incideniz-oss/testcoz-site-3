@@ -1,12 +1,13 @@
 // Authored repairs: retain test routes and question IDs. Not a certification of the full bank.
 // Each row: prompt, correct answer, plausible distractors, explanation.
 export const repairs = [];
-import {naturalNumbersEasy} from './natural-numbers-repairs.mjs';
+import {naturalNumbersEasy,naturalNumbersMedium} from './natural-numbers-repairs.mjs';
 import {fractionsEasy,fractionsMedium} from './fractions-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
 test(4, 'matematik', 'dogal-sayilar', 'kolay', 1, naturalNumbersEasy, 'replace_repeated_place_value_template_with_varied_fundamentals');
+test(4, 'matematik', 'dogal-sayilar', 'orta', 1, naturalNumbersMedium, 'replace_repeated_place_value_template_with_varied_application');
 for(const [difficulty,rows] of [['kolay',fractionsEasy],['orta',fractionsMedium]]) {
   test(4,'matematik','kesirler',difficulty,1,rows,'replace_repeated_fraction_template_with_varied_explained_questions');
   const skills=difficulty==='kolay'
@@ -27,6 +28,16 @@ for (const [index, [subSkill, questionType]] of naturalNumberSkills.entries()) {
   const repair = repairs.find(p => p.slug === '4-sinif-matematik-dogal-sayilar-kolay-test-1' && p.index === index);
   if (!repair) throw new Error(`Missing natural numbers repair ${index}`);
   repair.metadata = {subSkill, questionType};
+}
+const naturalNumberMediumSkills = [
+ ['Basamak değeri','islem'], ['Sayıyı rakamlarla yazma','eslestirme'], ['Sayı çözümleme','eslestirme'],
+ ['En yakın bine yuvarlama','islem'], ['Doğal sayıları karşılaştırma','karsilastirma'], ['Rakamlarla en büyük sayıyı oluşturma','siralama'],
+ ['Ardışık doğal sayılar','islem'], ['Sayı örüntüleri','oruntu'], ['Sayı bölükleri','eslestirme'], ['Basamaklara göre sayı oluşturma','eslestirme']
+];
+for (const [index,[subSkill,questionType]] of naturalNumberMediumSkills.entries()) {
+ const repair=repairs.find(p=>p.slug==='4-sinif-matematik-dogal-sayilar-orta-test-1'&&p.index===index);
+ if(!repair)throw new Error(`Missing medium natural numbers repair ${index}`);
+ repair.metadata={subSkill,questionType};
 }
 const english = {
  'school-life': [

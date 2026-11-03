@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 377,
+  "count": 387,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -684,6 +684,696 @@
         "questionType": "problem",
         "cognitiveLevel": "anlama",
         "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 26431 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "500",
+          "300",
+          "600",
+          "400"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-1",
+        "options": [
+          "500",
+          "300",
+          "600",
+          "400"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "408 507 sayısındaki 8 rakamının basamak değeri kaçtır?",
+        "choices": [
+          "8 000",
+          "800",
+          "80 000",
+          "8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "408 507 sayısında 8 binler basamağındadır. Basamak değeri 8 × 1 000 = 8 000 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-1",
+        "options": [
+          "8 000",
+          "800",
+          "80 000",
+          "8"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Basamak değeri",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 26862 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "900",
+          "700",
+          "1000",
+          "800"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-2",
+        "options": [
+          "900",
+          "700",
+          "1000",
+          "800"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "“Üç yüz bin kırk beş” sayısı rakamlarla nasıl yazılır?",
+        "choices": [
+          "30 045",
+          "300 045",
+          "300 450",
+          "300 405"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Üç yüz bin 300 000, kırk beş 45’tir. 300 000 + 45 = 300 045; eksik basamaklar sıfırla gösterilir.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-2",
+        "options": [
+          "30 045",
+          "300 045",
+          "300 450",
+          "300 405"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayıyı rakamlarla yazma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 27293 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "200",
+          "300",
+          "100",
+          "400"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-3",
+        "options": [
+          "200",
+          "300",
+          "100",
+          "400"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "600 000 + 40 000 + 3 000 + 50 çözümlemesi hangi sayıya aittir?",
+        "choices": [
+          "640 350",
+          "603 450",
+          "643 050",
+          "643 500"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yüz binler 6, on binler 4, binler 3 ve onlar 5’tir. Yüzler ile birler basamağı sıfır olduğundan sayı 643 050’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-3",
+        "options": [
+          "640 350",
+          "603 450",
+          "643 050",
+          "643 500"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı çözümleme",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 27724 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "900",
+          "700",
+          "800",
+          "600"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-4",
+        "options": [
+          "900",
+          "700",
+          "800",
+          "600"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "4 759 sayısı en yakın bine yuvarlandığında kaç olur?",
+        "choices": [
+          "4 000",
+          "4 800",
+          "6 000",
+          "5 000"
+        ],
+        "correctAnswer": 3,
+        "explanation": "En yakın bine yuvarlarken yüzler basamağına bakılır. 4 759’da yüzler basamağı 7 olduğu için binlik bir artırılır: 5 000.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-4",
+        "options": [
+          "4 000",
+          "4 800",
+          "6 000",
+          "5 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "En yakın bine yuvarlama",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 28155 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "0",
+          "300",
+          "100",
+          "200"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-5",
+        "options": [
+          "0",
+          "300",
+          "100",
+          "200"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "209 870 ile 210 009 sayıları karşılaştırıldığında hangi ifade doğrudur?",
+        "choices": [
+          "209 870 < 210 009",
+          "209 870 > 210 009",
+          "209 870 = 210 009",
+          "İki sayı karşılaştırılamaz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüz binler basamakları eşittir. On binler basamağında 0, 1’den küçük olduğundan 209 870 daha küçüktür.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-5",
+        "options": [
+          "209 870 < 210 009",
+          "209 870 > 210 009",
+          "209 870 = 210 009",
+          "İki sayı karşılaştırılamaz."
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Doğal sayıları karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 28586 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "400",
+          "700",
+          "500",
+          "600"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-6",
+        "options": [
+          "400",
+          "700",
+          "500",
+          "600"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "0, 2, 3, 5 ve 7 rakamları birer kez kullanılarak yazılabilecek en büyük beş basamaklı sayı hangisidir?",
+        "choices": [
+          "70 532",
+          "75 320",
+          "75 302",
+          "73 520"
+        ],
+        "correctAnswer": 1,
+        "explanation": "En büyük sayıyı oluşturmak için rakamlar soldan sağa büyükten küçüğe yazılır: 7, 5, 3, 2, 0. Sonuç 75 320’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-6",
+        "options": [
+          "70 532",
+          "75 320",
+          "75 302",
+          "73 520"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Rakamlarla en büyük sayıyı oluşturma",
+        "questionType": "siralama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 29017 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "0",
+          "100",
+          "-100",
+          "200"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-7",
+        "options": [
+          "0",
+          "100",
+          "-100",
+          "200"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "99 999 sayısından hemen sonra gelen doğal sayı hangisidir?",
+        "choices": [
+          "99 990",
+          "100 001",
+          "100 000",
+          "99 100"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bir sonraki doğal sayı için 1 eklenir. 99 999 + 1 = 100 000; elde her basamaktan geçer.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-7",
+        "options": [
+          "99 990",
+          "100 001",
+          "100 000",
+          "99 100"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Ardışık doğal sayılar",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 29448 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "400",
+          "500",
+          "300",
+          "600"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-8",
+        "options": [
+          "400",
+          "500",
+          "300",
+          "600"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "125 000, 130 000, 135 000, … örüntüsünde sıradaki sayı kaçtır?",
+        "choices": [
+          "136 000",
+          "139 000",
+          "145 000",
+          "140 000"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ardışık terimler arasındaki fark 5 000’dir. Bu yüzden 135 000 + 5 000 = 140 000 yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-8",
+        "options": [
+          "136 000",
+          "139 000",
+          "145 000",
+          "140 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı örüntüleri",
+        "questionType": "oruntu",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 29879 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "800",
+          "900",
+          "700",
+          "1000"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-9",
+        "options": [
+          "800",
+          "900",
+          "700",
+          "1000"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "305 040 sayısının binler ve birler bölükleri sırasıyla hangileridir?",
+        "choices": [
+          "305 ve 040",
+          "040 ve 305",
+          "30 ve 504",
+          "305 ve 40 000"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sayı sağdan üçlü gruplara ayrılır: 305 | 040. Soldaki binler bölüğü 305, sağdaki birler bölüğü 040’tır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-9",
+        "options": [
+          "305 ve 040",
+          "040 ve 305",
+          "30 ve 504",
+          "305 ve 40 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Sayı bölükleri",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-dogal-sayilar-orta-test-1",
+      "reason": "replace_repeated_place_value_template_with_varied_application",
+      "before": {
+        "question": "4. sınıf Matematik orta — Doğal Sayılar: 30310 sayısının yüzler basamağındaki rakamın basamak değeri kaçtır?",
+        "choices": [
+          "300",
+          "400",
+          "200",
+          "500"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yüzler basamağındaki rakam 100 ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-10",
+        "options": [
+          "300",
+          "400",
+          "200",
+          "500"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "dogal-sayilar",
+          "dogal-sayilar",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "On binler basamağı 5, binler basamağı 3, yüzler basamağı 0, onlar basamağı 7 ve birler basamağı 2 olan sayı hangisidir?",
+        "choices": [
+          "53 270",
+          "53 072",
+          "53 702",
+          "50 372"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rakamlar belirtilen basamak sırasına yerleştirilir: 5 | 3 | 0 | 7 | 2. Bu sayı 53 072’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-dogal-sayilar-orta-test-1-soru-10",
+        "options": [
+          "53 270",
+          "53 072",
+          "53 702",
+          "50 372"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğal Sayılar",
+        "subSkill": "Basamaklara göre sayı oluşturma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
         "hasVisual": false,
         "tags": [
           "matematik",
