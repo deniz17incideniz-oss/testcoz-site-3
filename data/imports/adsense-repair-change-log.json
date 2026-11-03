@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 407,
+  "count": 427,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -2758,6 +2758,1386 @@
         "tags": [
           "matematik",
           "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1358 − 397 işleminin sonucu kaçtır?",
+        "choices": [
+          "961",
+          "971",
+          "951",
+          "981"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-1",
+        "options": [
+          "961",
+          "971",
+          "951",
+          "981"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "3 764 − 1 352 işleminin sonucu kaçtır?",
+        "choices": [
+          "2 412",
+          "2 512",
+          "2 422",
+          "2 312"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Basamakları hizalayarak çıkarırız: 4 − 2 = 2, 6 − 5 = 1, 7 − 3 = 4 ve 3 − 1 = 2. Sonuç 2 412.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-1",
+        "options": [
+          "2 412",
+          "2 512",
+          "2 422",
+          "2 312"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Basamaklarına göre çıkarma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1466 − 444 işleminin sonucu kaçtır?",
+        "choices": [
+          "1032",
+          "1012",
+          "1042",
+          "1022"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-2",
+        "options": [
+          "1032",
+          "1012",
+          "1042",
+          "1022"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "2 403 − 581 işleminin sonucu kaçtır?",
+        "choices": [
+          "1 828",
+          "1 822",
+          "1 922",
+          "1 832"
+        ],
+        "correctAnswer": 1,
+        "explanation": "2 403’ten önce 500 çıkarınca 1 903 kalır. 81 daha çıkarınca 1 822 bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-2",
+        "options": [
+          "1 828",
+          "1 822",
+          "1 922",
+          "1 832"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Çıkarma stratejisi",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1574 − 491 işleminin sonucu kaçtır?",
+        "choices": [
+          "1103",
+          "1083",
+          "1093",
+          "1073"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-3",
+        "options": [
+          "1103",
+          "1083",
+          "1093",
+          "1073"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kitaplıkta 1 250 kitap vardı. 320 kitap ödünç verildi. Kitaplıkta kaç kitap kaldı?",
+        "choices": [
+          "1 030",
+          "1 570",
+          "930",
+          "970"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ödünç verilen kitaplar azalır: 1 250 − 300 = 950, 950 − 20 = 930 kitap kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-3",
+        "options": [
+          "1 030",
+          "1 570",
+          "930",
+          "970"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Kalan miktar problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1682 − 538 işleminin sonucu kaçtır?",
+        "choices": [
+          "1154",
+          "1134",
+          "1164",
+          "1144"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-4",
+        "options": [
+          "1154",
+          "1134",
+          "1164",
+          "1144"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "5 000 sayısından 1 000 çıkarılırsa kaç kalır?",
+        "choices": [
+          "4 900",
+          "5 100",
+          "6 000",
+          "4 000"
+        ],
+        "correctAnswer": 3,
+        "explanation": "5 binlikten 1 binlik çıkarılırsa 4 binlik, yani 4 000 kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-4",
+        "options": [
+          "4 900",
+          "5 100",
+          "6 000",
+          "4 000"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Zihinden çıkarma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1790 − 585 işleminin sonucu kaçtır?",
+        "choices": [
+          "1225",
+          "1205",
+          "1215",
+          "1195"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-5",
+        "options": [
+          "1225",
+          "1205",
+          "1215",
+          "1195"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çıkarma işleminde eksilen 2 850, çıkan 700’dür. Fark kaçtır?",
+        "choices": [
+          "2 150",
+          "2 250",
+          "2 780",
+          "3 550"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilenden çıkan çıkarılır: 2 850 − 700 = 2 150.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-5",
+        "options": [
+          "2 150",
+          "2 250",
+          "2 780",
+          "3 550"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Eksilen çıkan fark",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 1898 − 632 işleminin sonucu kaçtır?",
+        "choices": [
+          "1276",
+          "1256",
+          "1286",
+          "1266"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-6",
+        "options": [
+          "1276",
+          "1256",
+          "1286",
+          "1266"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir okulda 875 öğrenciden 425’i geziye katıldı. Geziye katılmayan kaç öğrenci vardır?",
+        "choices": [
+          "1 300",
+          "450",
+          "350",
+          "550"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplamdan katılanları çıkarırız: 875 − 425 = 450 öğrenci katılmamıştır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-6",
+        "options": [
+          "1 300",
+          "450",
+          "350",
+          "550"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Fark problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 2006 − 679 işleminin sonucu kaçtır?",
+        "choices": [
+          "1317",
+          "1347",
+          "1327",
+          "1337"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-7",
+        "options": [
+          "1317",
+          "1347",
+          "1327",
+          "1337"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çıkarma işleminde 3 600 − □ = 2 400 ise kutuya kaç yazılmalıdır?",
+        "choices": [
+          "1 400",
+          "6 000",
+          "1 200",
+          "1 100"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen ile fark arasındaki sayı çıkanı verir: 3 600 − 2 400 = 1 200. Kontrol: 3 600 − 1 200 = 2 400.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-7",
+        "options": [
+          "1 400",
+          "6 000",
+          "1 200",
+          "1 100"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Eksik çıkanı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 2114 − 726 işleminin sonucu kaçtır?",
+        "choices": [
+          "1408",
+          "1388",
+          "1398",
+          "1378"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-8",
+        "options": [
+          "1408",
+          "1388",
+          "1398",
+          "1378"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "2 740 − 300 işlemini zihinden yapan Arda hangi sonucu bulur?",
+        "choices": [
+          "2 710",
+          "2 470",
+          "2 040",
+          "2 440"
+        ],
+        "correctAnswer": 3,
+        "explanation": "300, üç yüzlüktür. 2 740’tan üç yüzlük çıkarılırsa 2 440 kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-8",
+        "options": [
+          "2 710",
+          "2 470",
+          "2 040",
+          "2 440"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Zihinden çıkarma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 2222 − 773 işleminin sonucu kaçtır?",
+        "choices": [
+          "1459",
+          "1439",
+          "1469",
+          "1449"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-9",
+        "options": [
+          "1459",
+          "1439",
+          "1469",
+          "1449"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir koşucu 1 000 metrelik yolun 650 metresini koştu. Bitişe kaç metre kaldı?",
+        "choices": [
+          "350",
+          "250",
+          "450",
+          "1 650"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yolun tamamından koşulan mesafe çıkarılır: 1 000 − 650 = 350 metre.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-9",
+        "options": [
+          "350",
+          "250",
+          "450",
+          "1 650"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Kalan mesafe problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-cikarma-kolay-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çıkarma: 2330 − 820 işleminin sonucu kaçtır?",
+        "choices": [
+          "1500",
+          "1530",
+          "1510",
+          "1520"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-10",
+        "options": [
+          "1500",
+          "1530",
+          "1510",
+          "1520"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "4 200 − 1 300 = 2 900 işleminin sonucunu hangi işlemle kontrol edebiliriz?",
+        "choices": [
+          "2 900 − 1 300 = 4 200",
+          "2 900 + 1 300 = 4 200",
+          "2 900 + 1 300 = 3 200",
+          "4 200 + 1 300 = 2 900"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fark ile çıkan toplanınca eksilen bulunur: 2 900 + 1 300 = 4 200.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-10",
+        "options": [
+          "2 900 − 1 300 = 4 200",
+          "2 900 + 1 300 = 4 200",
+          "2 900 + 1 300 = 3 200",
+          "4 200 + 1 300 = 2 900"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çıkarma",
+        "subSkill": "Çıkarmayı toplamayla kontrol",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 2608 − 747 işleminin sonucu kaçtır?",
+        "choices": [
+          "1851",
+          "1881",
+          "1861",
+          "1871"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-1",
+        "options": [
+          "1851",
+          "1881",
+          "1861",
+          "1871"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "6 204 − 2 785 işleminin sonucu kaçtır?",
+        "choices": [
+          "3 419",
+          "3 519",
+          "3 429",
+          "4 419"
+        ],
+        "correctAnswer": 0,
+        "explanation": "6 204 − 2 700 = 3 504; 85 daha çıkarılınca 3 419 kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-1",
+        "options": [
+          "3 419",
+          "3 519",
+          "3 429",
+          "4 419"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Çıkarma stratejisi",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 2716 − 794 işleminin sonucu kaçtır?",
+        "choices": [
+          "1922",
+          "1932",
+          "1912",
+          "1942"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-2",
+        "options": [
+          "1922",
+          "1932",
+          "1912",
+          "1942"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir müzeyi ay boyunca 8 425 kişi ziyaret etti. Bunların 3 760’ı öğrenciydi. Öğrenci olmayan kaç ziyaretçi vardı?",
+        "choices": [
+          "5 665",
+          "4 665",
+          "4 765",
+          "4 655"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tüm ziyaretçilerden öğrenciler çıkarılır: 8 425 − 3 700 = 4 725; 60 daha çıkarılırsa 4 665 kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-2",
+        "options": [
+          "5 665",
+          "4 665",
+          "4 765",
+          "4 655"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Fark problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 2824 − 841 işleminin sonucu kaçtır?",
+        "choices": [
+          "1993",
+          "1973",
+          "2003",
+          "1983"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-3",
+        "options": [
+          "1993",
+          "1973",
+          "2003",
+          "1983"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir çıkarma işleminde eksilen 7 200, fark 2 850’dir. Çıkan sayı kaçtır?",
+        "choices": [
+          "5 350",
+          "10 050",
+          "4 350",
+          "4 450"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilenden fark çıkarılarak çıkan bulunur: 7 200 − 2 850 = 4 350. Kontrol: 7 200 − 4 350 = 2 850.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-3",
+        "options": [
+          "5 350",
+          "10 050",
+          "4 350",
+          "4 450"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Eksik çıkanı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 2932 − 888 işleminin sonucu kaçtır?",
+        "choices": [
+          "2044",
+          "2054",
+          "2034",
+          "2064"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-4",
+        "options": [
+          "2044",
+          "2054",
+          "2034",
+          "2064"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir depodaki 6 000 kutunun önce 1 250’si, sonra 750’si gönderildi. Depoda kaç kutu kaldı?",
+        "choices": [
+          "5 000",
+          "4 750",
+          "3 000",
+          "4 000"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gönderilen kutular toplam 1 250 + 750 = 2 000’dir. 6 000 − 2 000 = 4 000 kutu kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-4",
+        "options": [
+          "5 000",
+          "4 750",
+          "3 000",
+          "4 000"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "İki adımlı çıkarma problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3040 − 935 işleminin sonucu kaçtır?",
+        "choices": [
+          "2105",
+          "2115",
+          "2095",
+          "2125"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-5",
+        "options": [
+          "2105",
+          "2115",
+          "2095",
+          "2125"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir okul kampanyasında 5 480 kitap toplandı. Hedef 7 000 kitapsa hedefe ulaşmak için kaç kitap daha gerekir?",
+        "choices": [
+          "1 520",
+          "1 420",
+          "2 520",
+          "12 480"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Hedef ile toplanan sayı arasındaki fark bulunur: 7 000 − 5 480 = 1 520.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-5",
+        "options": [
+          "1 520",
+          "1 420",
+          "2 520",
+          "12 480"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Hedefe kalan miktar",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3148 − 982 işleminin sonucu kaçtır?",
+        "choices": [
+          "2186",
+          "2166",
+          "2176",
+          "2156"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-6",
+        "options": [
+          "2186",
+          "2166",
+          "2176",
+          "2156"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "4 682 − 1 274 işlemini sayıları en yakın yüzlüğe yuvarlayarak tahmin eden biri hangi sonucu bulur?",
+        "choices": [
+          "3 000",
+          "3 400",
+          "3 300",
+          "3 500"
+        ],
+        "correctAnswer": 1,
+        "explanation": "4 682 en yakın yüzlüğe 4 700, 1 274 ise 1 300 yuvarlanır. Tahmini fark 4 700 − 1 300 = 3 400’dür.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-6",
+        "options": [
+          "3 000",
+          "3 400",
+          "3 300",
+          "3 500"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Farkı tahmin etme",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3256 − 1029 işleminin sonucu kaçtır?",
+        "choices": [
+          "2227",
+          "2237",
+          "2217",
+          "2247"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-7",
+        "options": [
+          "2227",
+          "2237",
+          "2217",
+          "2247"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir çıkarma işleminde çıkan 1 850 ve fark 2 375 ise eksilen sayı kaçtır?",
+        "choices": [
+          "525",
+          "4 325",
+          "4 225",
+          "4 125"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen, çıkan ile farkın toplamıdır: 1 850 + 2 375 = 4 225.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-7",
+        "options": [
+          "525",
+          "4 325",
+          "4 225",
+          "4 125"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Eksileni bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3364 − 1076 işleminin sonucu kaçtır?",
+        "choices": [
+          "2278",
+          "2308",
+          "2288",
+          "2298"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-8",
+        "options": [
+          "2278",
+          "2308",
+          "2288",
+          "2298"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "5 430 − 2 180 farkından 200 çıkarılırsa yeni sonuç kaç olur?",
+        "choices": [
+          "3 250",
+          "3 450",
+          "2 950",
+          "3 050"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce 5 430 − 2 180 = 3 250 bulunur. Ardından 3 250 − 200 = 3 050 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-8",
+        "options": [
+          "3 250",
+          "3 450",
+          "2 950",
+          "3 050"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Farktaki değişim",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3472 − 1123 işleminin sonucu kaçtır?",
+        "choices": [
+          "2369",
+          "2349",
+          "2359",
+          "2339"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-9",
+        "options": [
+          "2369",
+          "2349",
+          "2359",
+          "2339"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir okulun kütüphanesinde 4 500 kitap vardı. 780 kitap ödünç verildi, sonra bunların 250’si geri getirildi. Kitaplıkta kaç kitap vardır?",
+        "choices": [
+          "3 970",
+          "3 720",
+          "4 030",
+          "4 470"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce 4 500 − 780 = 3 720 kalır. Geri getirilen 250 kitap eklenince 3 970 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-9",
+        "options": [
+          "3 970",
+          "3 720",
+          "4 030",
+          "4 470"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "İki adımlı problem",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-cikarma-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-cikarma-orta-test-1",
+      "reason": "replace_repeated_subtraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çıkarma: 3580 − 1170 işleminin sonucu kaçtır?",
+        "choices": [
+          "2420",
+          "2400",
+          "2430",
+          "2410"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Eksilen sayıdan çıkan sayı çıkarılır.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-10",
+        "options": [
+          "2420",
+          "2400",
+          "2430",
+          "2410"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
+          "cikarma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "6 300 − 2 475 = 3 825 sonucunu kontrol etmek için hangi işlem doğrudur?",
+        "choices": [
+          "3 825 − 2 475 = 6 300",
+          "3 825 + 2 475 = 6 300",
+          "3 825 + 2 475 = 6 200",
+          "6 300 + 2 475 = 3 825"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fark ile çıkanın toplamı eksileni vermelidir: 3 825 + 2 475 = 6 300.",
+        "image": null,
+        "id": "4-sinif-matematik-cikarma-orta-test-1-soru-10",
+        "options": [
+          "3 825 − 2 475 = 6 300",
+          "3 825 + 2 475 = 6 300",
+          "3 825 + 2 475 = 6 200",
+          "6 300 + 2 475 = 3 825"
+        ],
+        "difficulty": "orta",
+        "skill": "Çıkarma",
+        "subSkill": "Çıkarmayı toplamayla kontrol",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "cikarma",
           "editorial-2026-10"
         ]
       }

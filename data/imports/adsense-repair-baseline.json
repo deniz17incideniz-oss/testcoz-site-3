@@ -1626,5 +1626,85 @@
   "4-sinif-matematik-toplama-orta-test-1:9": {
     "id": "4-sinif-matematik-toplama-orta-test-1-soru-10",
     "sha256": "de7d34d052378cef5c87a714057f39f8eced819e478fa21143aba73406e30a2c"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:0": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-1",
+    "sha256": "7b03bfbf66b71cefa2c7389f07f482c88e28947bc264bdd7183a86ec98f9f77f"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:1": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-2",
+    "sha256": "08f9fc11ce2c53ce65a82e17c0544afcc607b164dd0ed9a92254682c279547ec"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:2": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-3",
+    "sha256": "b9eaac7b4d5294da6215f6af01f6601e5ed515750d85d4dd19ad8e26d6469b2d"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:3": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-4",
+    "sha256": "ce8415da833a30ca10e6970f7ab00318100dae98da625329a0f1f3d0900801ce"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:4": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-5",
+    "sha256": "b0500f8809ce0224f6960599913c9d0f4e13f786450453e9af7106e2f5d658ef"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:5": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-6",
+    "sha256": "8146a17a437638a368b64cad4f0a6fe40e5d62cf1dc9978558650125d3e0cc58"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:6": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-7",
+    "sha256": "0fffda210ce0beb8481d394b6158a012adcb0a720ca154c3bf8b93e35d445acc"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:7": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-8",
+    "sha256": "4b17bddea551378d57d3df861b04a88d08f00cedc17176e3821649275aec7ee6"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:8": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-9",
+    "sha256": "d2976d8151ce31eb6d23ccb79179be6e3f8f75ca1d83ca1585006e502070bed4"
+  },
+  "4-sinif-matematik-cikarma-kolay-test-1:9": {
+    "id": "4-sinif-matematik-cikarma-kolay-test-1-soru-10",
+    "sha256": "1a9e286733d160c05ba3194b9ac1006af71194acb6a065e71c80ad9655cf3bfe"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:0": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-1",
+    "sha256": "2361f0ba7c0c9c229940411c8138f4232f2cae465f12d6488fd3517d6835d393"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:1": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-2",
+    "sha256": "a34289996792e3875ea47b3ad30480b473e80101dc04dbfb6c0f95110517ba53"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:2": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-3",
+    "sha256": "bc1d0de6f94cc886e9956755282ac934fd1f48d5a5fd85678f601c34f9cd772e"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:3": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-4",
+    "sha256": "34f8db6dc862f5dc37f660bfe32448855d95b26b28274110723ef7ed94e211e7"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:4": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-5",
+    "sha256": "a2e79bc2ff5b0e60c68adbf2aa2e3498f8c9418e696b7fdcea1324655890d620"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:5": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-6",
+    "sha256": "902e02cb115cdb7b560fae9792485e3ff90222ba92f4211520cea1a8ef4c4a1a"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:6": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-7",
+    "sha256": "5d05fd4cf1198d41c5cbd97241c841269757922d429271eb8c08aec7cea3d061"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:7": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-8",
+    "sha256": "f334b0e272e4fa99968b67136935c0dd3c539e9a43e25a632cfdd75a45df4869"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:8": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-9",
+    "sha256": "fa9e5c15c0fec020ea7591bb0aa41efad208e8f56cc40bdd27a6148f533703f8"
+  },
+  "4-sinif-matematik-cikarma-orta-test-1:9": {
+    "id": "4-sinif-matematik-cikarma-orta-test-1-soru-10",
+    "sha256": "5fa3ecc07f13953c7a97fd093f5a6422ea81c2033b989900a1382443100c5ca3"
   }
 }
