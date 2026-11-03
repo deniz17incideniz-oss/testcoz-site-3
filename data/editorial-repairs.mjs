@@ -2,10 +2,22 @@
 // Each row: prompt, correct answer, plausible distractors, explanation.
 export const repairs = [];
 import {naturalNumbersEasy} from './natural-numbers-repairs.mjs';
+import {fractionsEasy,fractionsMedium} from './fractions-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
 test(4, 'matematik', 'dogal-sayilar', 'kolay', 1, naturalNumbersEasy, 'replace_repeated_place_value_template_with_varied_fundamentals');
+for(const [difficulty,rows] of [['kolay',fractionsEasy],['orta',fractionsMedium]]) {
+  test(4,'matematik','kesirler',difficulty,1,rows,'replace_repeated_fraction_template_with_varied_explained_questions');
+  const skills=difficulty==='kolay'
+    ? [['Kesri modelden yazma','eslestirme'],['Kesri modelden yazma','eslestirme'],['Birim kesir','eslestirme'],['Eş paydalı kesirleri karşılaştırma','karsilastirma'],['Birim kesir','eslestirme'],['Denk kesirler','karsilastirma'],['Bütüne eşit kesir','eslestirme'],['Çokluğun birim kesrini bulma','problem'],['Çokluğun kesrini bulma','problem'],['Kalan parçayı bulma','problem']]
+    : [['Denk kesirler','eslestirme'],['Eş paydalı kesirleri karşılaştırma','karsilastirma'],['Çokluğun kesrini bulma','problem'],['Kalan kısmı kesirle gösterme','problem'],['Denk kesirlerle karşılaştırma','karsilastirma'],['Çokluğun kalanını bulma','problem'],['Bileşik kesri tam sayılı kesre dönüştürme','eslestirme'],['Çokluğun kalanını bulma','problem'],['Birim kesirden bütünü bulma','problem'],['Denk kesirleri karşılaştırma','karsilastirma']];
+  for(const [index,[subSkill,questionType]] of skills.entries()) {
+    const repair=repairs.find(p=>p.slug===`4-sinif-matematik-kesirler-${difficulty}-test-1`&&p.index===index);
+    if(!repair)throw new Error(`Missing fraction repair ${difficulty}/${index}`);
+    repair.metadata={subSkill,questionType};
+  }
+}
 const naturalNumberSkills = [
  ['Basamak değeri','islem'], ['Sayıyı rakamlarla yazma','eslestirme'], ['Sayı bölükleri','eslestirme'],
  ['Sayı çözümleme','eslestirme'], ['Doğal sayıları karşılaştırma','karsilastirma'], ['Karşılaştırma işaretleri','karsilastirma'],

@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 357,
+  "count": 377,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -688,6 +688,1386 @@
         "tags": [
           "matematik",
           "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 20 sayısının 2/5'ü kaçtır?",
+        "choices": [
+          "16",
+          "8",
+          "12",
+          "4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-1",
+        "options": [
+          "16",
+          "8",
+          "12",
+          "4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Eş büyüklükte 8 parçaya ayrılmış bir pizzanın 3 parçası yeniyor. Pizzanın yenilen kısmı hangi kesirdir?",
+        "choices": [
+          "3/8",
+          "8/3",
+          "5/8",
+          "3/5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bütün 8 eş parçadır; yenilen parça sayısı 3’tür. Pay 3, payda 8 olduğu için yenilen kısım 3/8 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-1",
+        "options": [
+          "3/8",
+          "8/3",
+          "5/8",
+          "3/5"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Kesri modelden yazma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 30 sayısının 3/6'ü kaçtır?",
+        "choices": [
+          "10",
+          "25",
+          "15",
+          "20"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-2",
+        "options": [
+          "10",
+          "25",
+          "15",
+          "20"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kurdele 6 eş parçaya ayrılıyor ve 4 parçası kullanılıyor. Kullanılan kısım hangi kesirdir?",
+        "choices": [
+          "4/2",
+          "4/6",
+          "6/4",
+          "2/6"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplam eş parça sayısı 6, kullanılan parça sayısı 4’tür. Kullanılan bölüm 4/6 ile gösterilir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-2",
+        "options": [
+          "4/2",
+          "4/6",
+          "6/4",
+          "2/6"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Kesri modelden yazma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 24 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "12",
+          "0",
+          "18",
+          "6"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-3",
+        "options": [
+          "12",
+          "0",
+          "18",
+          "6"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aşağıdakilerden hangisi birim kesirdir?",
+        "choices": [
+          "7/2",
+          "7/7",
+          "1/7",
+          "2/7"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Birim kesrin payı 1’dir. 1/7, bütün 7 eş parçaya ayrıldığında bu parçalardan birini gösterir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-3",
+        "options": [
+          "7/2",
+          "7/7",
+          "1/7",
+          "2/7"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Birim kesir",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 35 sayısının 1/5'ü kaçtır?",
+        "choices": [
+          "7",
+          "14",
+          "0",
+          "21"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-4",
+        "options": [
+          "7",
+          "14",
+          "0",
+          "21"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aynı büyüklükteki iki çikolatanın biri 8 eş parçaya, diğeri de 8 eş parçaya ayrılıyor. 3/8 ile 5/8 karşılaştırıldığında hangisi büyüktür?",
+        "choices": [
+          "3/8",
+          "İkisi eşittir.",
+          "Bütünler bilinmediğinden karşılaştırılamaz.",
+          "5/8"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bütünler aynı büyüklükte ve parçalar eşittir. Sekiz eş parçanın 5’i, 3’ünden fazla olduğundan 5/8 daha büyüktür.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-4",
+        "options": [
+          "3/8",
+          "İkisi eşittir.",
+          "Bütünler bilinmediğinden karşılaştırılamaz.",
+          "5/8"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Eş paydalı kesirleri karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 48 sayısının 1/6'ü kaçtır?",
+        "choices": [
+          "16",
+          "0",
+          "24",
+          "8"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-5",
+        "options": [
+          "16",
+          "0",
+          "24",
+          "8"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir bütün 4 eş parçaya ayrılıyor. Bu parçalardan birinin gösterimi hangisidir?",
+        "choices": [
+          "1/4",
+          "4/1",
+          "4/4",
+          "3/4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dört eş parçanın bir tanesi seçilmiştir. Seçilen parça sayısı paya, toplam parça sayısı paydaya yazılır: 1/4.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-5",
+        "options": [
+          "1/4",
+          "4/1",
+          "4/4",
+          "3/4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Birim kesir",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 36 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "9",
+          "18",
+          "0",
+          "27"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-6",
+        "options": [
+          "9",
+          "18",
+          "0",
+          "27"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aynı büyüklükteki bütünler için hangi iki kesir aynı miktarı gösterir?",
+        "choices": [
+          "2/4 ve 4/1",
+          "1/2 ve 2/4",
+          "1/2 ve 1/4",
+          "1/4 ve 3/4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bir bütün iki eş parçaya ayrıldığında bir parçası yarımdır. Dört eş parçanın ikisi de aynı yarımı oluşturur: 1/2 = 2/4.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-6",
+        "options": [
+          "2/4 ve 4/1",
+          "1/2 ve 2/4",
+          "1/2 ve 1/4",
+          "1/4 ve 3/4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Denk kesirler",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 50 sayısının 4/5'ü kaçtır?",
+        "choices": [
+          "40",
+          "50",
+          "30",
+          "60"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-7",
+        "options": [
+          "40",
+          "50",
+          "30",
+          "60"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aşağıdaki kesirlerden hangisi bir bütüne eşittir?",
+        "choices": [
+          "3/5",
+          "4/5",
+          "5/5",
+          "1/5"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Beş eş parçanın beşi de alındığında bütün tamamlanır. Bu nedenle 5/5, 1 bütüne eşittir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-7",
+        "options": [
+          "3/5",
+          "4/5",
+          "5/5",
+          "1/5"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Bütüne eşit kesir",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 66 sayısının 4/6'ü kaçtır?",
+        "choices": [
+          "44",
+          "55",
+          "33",
+          "66"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-8",
+        "options": [
+          "44",
+          "55",
+          "33",
+          "66"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "12 kalemin 1/3’ü kırmızıdır. Kaç kırmızı kalem vardır?",
+        "choices": [
+          "3",
+          "8",
+          "9",
+          "4"
+        ],
+        "correctAnswer": 3,
+        "explanation": "12 kalem 3 eş gruba ayrılır: 12 ÷ 3 = 4. Bu gruplardan biri kırmızı olduğundan 4 kalem kırmızıdır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-8",
+        "options": [
+          "3",
+          "8",
+          "9",
+          "4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Çokluğun birim kesrini bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 48 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "36",
+          "12",
+          "24",
+          "0"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-9",
+        "options": [
+          "36",
+          "12",
+          "24",
+          "0"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "20 cevizin 2/5’i yeniyor. Kaç ceviz yenmiştir?",
+        "choices": [
+          "8",
+          "4",
+          "10",
+          "12"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce 20 ÷ 5 = 4 ile bir eş parçadaki ceviz bulunur. İki parça 4 × 2 = 8 cevizdir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-9",
+        "options": [
+          "8",
+          "4",
+          "10",
+          "12"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Çokluğun kesrini bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-kesirler-kolay-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Kesirler: 65 sayısının 3/5'ü kaçtır?",
+        "choices": [
+          "52",
+          "26",
+          "65",
+          "39"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-10",
+        "options": [
+          "52",
+          "26",
+          "65",
+          "39"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "12 eş parçalık bir kâğıdın 3/4’ü boyanıyor. Kaç parça boyanmadan kalır?",
+        "choices": [
+          "9",
+          "3",
+          "4",
+          "6"
+        ],
+        "correctAnswer": 1,
+        "explanation": "12 ÷ 4 = 3 parça bir çeyrektir. Boyanan 3 çeyrek 9 parça, boyanmayan son çeyrek 3 parçadır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-kolay-test-1-soru-10",
+        "options": [
+          "9",
+          "3",
+          "4",
+          "6"
+        ],
+        "difficulty": "kolay",
+        "skill": "Kesirler",
+        "subSkill": "Kalan parçayı bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 35 sayısının 2/5'ü kaçtır?",
+        "choices": [
+          "21",
+          "7",
+          "28",
+          "14"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-1",
+        "options": [
+          "21",
+          "7",
+          "28",
+          "14"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "3/4 = ?/12 eşitliğinde soru işareti yerine hangi sayı gelmelidir?",
+        "choices": [
+          "9",
+          "3",
+          "6",
+          "8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "4 eş parça 12 eş parçaya dönüşürken her biri 3 parçaya ayrılır. Pay da 3 × 3 = 9 olur; 3/4 = 9/12.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-1",
+        "options": [
+          "9",
+          "3",
+          "6",
+          "8"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Denk kesirler",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 48 sayısının 3/6'ü kaçtır?",
+        "choices": [
+          "40",
+          "24",
+          "32",
+          "16"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-2",
+        "options": [
+          "40",
+          "24",
+          "32",
+          "16"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Aynı büyüklükteki iki kurdelenin 5/8’i ve 3/8’i kullanılıyor. Hangisinde kullanılan miktar daha fazladır?",
+        "choices": [
+          "Eş parça sayıları bilinmediği için karşılaştırılamaz.",
+          "5/8’i kullanılan kurdelede",
+          "3/8’i kullanılan kurdelede",
+          "İkisinde de eşittir."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kurdeleler aynı büyüklükte ve ikisi de 8 eş parçaya ayrılmıştır. 5 parça, 3 parçadan fazla olduğu için 5/8 daha büyüktür.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-2",
+        "options": [
+          "Eş parça sayıları bilinmediği için karşılaştırılamaz.",
+          "5/8’i kullanılan kurdelede",
+          "3/8’i kullanılan kurdelede",
+          "İkisinde de eşittir."
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Eş paydalı kesirleri karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 36 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "9",
+          "18",
+          "0",
+          "27"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-3",
+        "options": [
+          "9",
+          "18",
+          "0",
+          "27"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "24 sayfalık bir öykünün 3/8’ini okuyan Ece kaç sayfa okumuştur?",
+        "choices": [
+          "8",
+          "16",
+          "9",
+          "3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "24 ÷ 8 = 3 sayfa bir eş parçadır. Ece 3 parça okuduğundan 3 × 3 = 9 sayfa okumuştur.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-3",
+        "options": [
+          "8",
+          "16",
+          "9",
+          "3"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Çokluğun kesrini bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 50 sayısının 1/5'ü kaçtır?",
+        "choices": [
+          "20",
+          "0",
+          "30",
+          "10"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-4",
+        "options": [
+          "20",
+          "0",
+          "30",
+          "10"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir sürahinin tamamı 12 eş bardak su alıyor. Başlangıçta dolu sürahiden 7 bardak içiliyor. Suyun başlangıçtaki bütünün kaçta kaçı kalır?",
+        "choices": [
+          "7/12",
+          "5/7",
+          "12/5",
+          "5/12"
+        ],
+        "correctAnswer": 3,
+        "explanation": "12 eş bardaktan 7’si içilirse 12 − 7 = 5 bardak kalır. Başlangıçtaki bütün 12 bardak olduğundan kalan miktar 5/12’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-4",
+        "options": [
+          "7/12",
+          "5/7",
+          "12/5",
+          "5/12"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Kalan kısmı kesirle gösterme",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 66 sayısının 1/6'ü kaçtır?",
+        "choices": [
+          "22",
+          "0",
+          "33",
+          "11"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-5",
+        "options": [
+          "22",
+          "0",
+          "33",
+          "11"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Eş büyüklükteki iki kâğıdın birinin 1/2’si, diğerinin 3/8’i boyalıdır. Hangisinin boyalı alanı daha büyüktür?",
+        "choices": [
+          "1/2’si boyalı olanın",
+          "3/8’i boyalı olanın",
+          "Boyalı alanlar eşittir.",
+          "Kâğıtlar eşit olduğu için karşılaştırılamaz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "1/2, 8 eş parçanın 4’üne karşılık gelir: 1/2 = 4/8. 4/8, 3/8’den büyük olduğundan yarısı boyalı alan daha büyüktür.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-5",
+        "options": [
+          "1/2’si boyalı olanın",
+          "3/8’i boyalı olanın",
+          "Boyalı alanlar eşittir.",
+          "Kâğıtlar eşit olduğu için karşılaştırılamaz."
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Denk kesirlerle karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 48 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "36",
+          "12",
+          "24",
+          "0"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-6",
+        "options": [
+          "36",
+          "12",
+          "24",
+          "0"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "18 boncuğun 2/3’ü kullanılıyor. Kullanılmayan kaç boncuk kalır?",
+        "choices": [
+          "12",
+          "6",
+          "3",
+          "9"
+        ],
+        "correctAnswer": 1,
+        "explanation": "18 ÷ 3 = 6 boncuk bir eş gruptur. İki grup 12 boncuktur; 18 − 12 = 6 boncuk kullanılmadan kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-6",
+        "options": [
+          "12",
+          "6",
+          "3",
+          "9"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Çokluğun kalanını bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 65 sayısının 4/5'ü kaçtır?",
+        "choices": [
+          "39",
+          "78",
+          "52",
+          "65"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-7",
+        "options": [
+          "39",
+          "78",
+          "52",
+          "65"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "5/4 kesri hangi ifadeye eşittir?",
+        "choices": [
+          "2 bütün 1/4",
+          "5 bütün 1/4",
+          "1 bütün 1/4",
+          "1 bütün 3/4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "4/4 bir bütündür. 5/4 = 4/4 + 1/4 olduğundan sonuç 1 bütün 1/4’tür.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-7",
+        "options": [
+          "2 bütün 1/4",
+          "5 bütün 1/4",
+          "1 bütün 1/4",
+          "1 bütün 3/4"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Bileşik kesri tam sayılı kesre dönüştürme",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 84 sayısının 4/6'ü kaçtır?",
+        "choices": [
+          "56",
+          "70",
+          "42",
+          "84"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-8",
+        "options": [
+          "56",
+          "70",
+          "42",
+          "84"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "20 öğrencinin 3/4’ü geziye katılıyor. Katılmayan öğrenci sayısı kaçtır?",
+        "choices": [
+          "3",
+          "12",
+          "15",
+          "5"
+        ],
+        "correctAnswer": 3,
+        "explanation": "20 ÷ 4 = 5 öğrencilik eş gruplar oluşur. Dört grubun üçü katılır; kalan bir grupta 5 öğrenci vardır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-8",
+        "options": [
+          "3",
+          "12",
+          "15",
+          "5"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Çokluğun kalanını bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 60 sayısının 1/4'ü kaçtır?",
+        "choices": [
+          "30",
+          "0",
+          "45",
+          "15"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-9",
+        "options": [
+          "30",
+          "0",
+          "45",
+          "15"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir ipin 1/5’i 6 metredir. İpin tamamı kaç metredir?",
+        "choices": [
+          "30",
+          "11",
+          "24",
+          "36"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İpin tamamı 5 eş parçadan oluşur. Bir parça 6 metre olduğuna göre 5 × 6 = 30 metredir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-9",
+        "options": [
+          "30",
+          "11",
+          "24",
+          "36"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Birim kesirden bütünü bulma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-kesirler-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-kesirler-orta-test-1",
+      "reason": "replace_repeated_fraction_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik orta — Kesirler: 80 sayısının 3/5'ü kaçtır?",
+        "choices": [
+          "32",
+          "80",
+          "48",
+          "64"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Önce sayı paydaya bölünür, sonra pay ile çarpılır.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-10",
+        "options": [
+          "32",
+          "80",
+          "48",
+          "64"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
+          "kesirler",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Aynı büyüklükteki bütünler için 4/6 ile 2/3 arasındaki ilişki hangisidir?",
+        "choices": [
+          "Karşılaştırılamazlar.",
+          "4/6 = 2/3",
+          "4/6 > 2/3",
+          "4/6 < 2/3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "2/3’ün payını ve paydasını 2 ile çarparsak 4/6 elde ederiz. Aynı büyüklükteki bütünlerde iki kesir eşit miktarı gösterir.",
+        "image": null,
+        "id": "4-sinif-matematik-kesirler-orta-test-1-soru-10",
+        "options": [
+          "Karşılaştırılamazlar.",
+          "4/6 = 2/3",
+          "4/6 > 2/3",
+          "4/6 < 2/3"
+        ],
+        "difficulty": "orta",
+        "skill": "Kesirler",
+        "subSkill": "Denk kesirleri karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "kesirler",
           "editorial-2026-10"
         ]
       }
