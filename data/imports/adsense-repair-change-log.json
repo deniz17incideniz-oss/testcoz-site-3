@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 427,
+  "count": 437,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -2758,6 +2758,696 @@
         "tags": [
           "matematik",
           "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 13 × 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "60",
+          "75",
+          "65",
+          "70"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-1",
+        "options": [
+          "60",
+          "75",
+          "65",
+          "70"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kırtasiyeci her birinde 12 kalem bulunan 5 paket satmıştır. Toplam kaç kalem satmıştır?",
+        "choices": [
+          "60",
+          "50",
+          "65",
+          "70"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Her pakette 12 kalem vardır. 12 × 5 = 60 olduğundan 5 pakette toplam 60 kalem bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-1",
+        "options": [
+          "60",
+          "50",
+          "65",
+          "70"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Eş gruplarla çarpma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 14 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "84",
+          "90",
+          "78",
+          "96"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-2",
+        "options": [
+          "84",
+          "90",
+          "78",
+          "96"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "45 × 10 işleminin sonucu kaçtır?",
+        "choices": [
+          "4 500",
+          "450",
+          "45",
+          "405"
+        ],
+        "correctAnswer": 1,
+        "explanation": "45 onluk, 450 birlik eder. Bir doğal sayı 10 ile çarpıldığında sağına bir sıfır yazılarak sonuç bulunabilir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-2",
+        "options": [
+          "4 500",
+          "450",
+          "45",
+          "405"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "10 ile çarpma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 15 × 7 işleminin sonucu kaçtır?",
+        "choices": [
+          "98",
+          "119",
+          "105",
+          "112"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-3",
+        "options": [
+          "98",
+          "119",
+          "105",
+          "112"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Çarpma işleminde çarpanların yerleri değiştirilirse çarpım nasıl değişir?",
+        "choices": [
+          "Çarpım küçülür.",
+          "Çarpım iki katına çıkar.",
+          "Çarpım değişmez.",
+          "Çarpım büyür."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpmanın değişme özelliğine göre çarpanların yerleri değişse de sonuç değişmez. Örneğin 3 × 4 = 4 × 3 = 12.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-3",
+        "options": [
+          "Çarpım küçülür.",
+          "Çarpım iki katına çıkar.",
+          "Çarpım değişmez.",
+          "Çarpım büyür."
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Çarpmanın değişme özelliği",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 16 × 4 işleminin sonucu kaçtır?",
+        "choices": [
+          "64",
+          "68",
+          "60",
+          "72"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-4",
+        "options": [
+          "64",
+          "68",
+          "60",
+          "72"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "24 × 3 işlemini 24 sayısını 20 ve 4 olarak ayırarak yaparsak hangi toplamı buluruz?",
+        "choices": [
+          "40 + 12 = 52",
+          "60 + 8 = 68",
+          "20 + 12 = 32",
+          "60 + 12 = 72"
+        ],
+        "correctAnswer": 3,
+        "explanation": "20 × 3 = 60 ve 4 × 3 = 12 bulunur. Sonra 60 + 12 = 72 hesaplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-4",
+        "options": [
+          "40 + 12 = 52",
+          "60 + 8 = 68",
+          "20 + 12 = 32",
+          "60 + 12 = 72"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı basamaklara ayırma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 17 × 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "80",
+          "95",
+          "85",
+          "90"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-5",
+        "options": [
+          "80",
+          "95",
+          "85",
+          "90"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çiftlikte 100 tavuk vardır. Her tavuğun 2 ayağı olduğuna göre toplam kaç tavuk ayağı vardır?",
+        "choices": [
+          "200",
+          "100",
+          "120",
+          "220"
+        ],
+        "correctAnswer": 0,
+        "explanation": "100 tavuğun her birinde 2 ayak olduğundan 100 × 2 = 200 ayak vardır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-5",
+        "options": [
+          "200",
+          "100",
+          "120",
+          "220"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "100 ile çarpma problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 18 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "108",
+          "114",
+          "102",
+          "120"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-6",
+        "options": [
+          "108",
+          "114",
+          "102",
+          "120"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Her sepette 15 elma bulunan 4 sepet vardır. Toplam elma sayısını bulmak için hangi işlem yapılmalıdır?",
+        "choices": [
+          "15 ÷ 4",
+          "15 × 4",
+          "15 + 4",
+          "15 − 4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dört eş grubun her birinde 15 elma vardır. Toplamı 15 + 15 + 15 + 15 veya 15 × 4 ile bulabiliriz.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-6",
+        "options": [
+          "15 ÷ 4",
+          "15 × 4",
+          "15 + 4",
+          "15 − 4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Eş gruplarda işlemi seçme",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 19 × 7 işleminin sonucu kaçtır?",
+        "choices": [
+          "126",
+          "147",
+          "133",
+          "140"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-7",
+        "options": [
+          "126",
+          "147",
+          "133",
+          "140"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "14 × □ = 56 işleminde kutuya hangi sayı yazılmalıdır?",
+        "choices": [
+          "5",
+          "6",
+          "4",
+          "3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "14’ü dört kez toplarsak 14 + 14 + 14 + 14 = 56 olur. Eksik çarpan 4’tür.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-7",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "3"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Eksik çarpanı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 20 × 4 işleminin sonucu kaçtır?",
+        "choices": [
+          "88",
+          "80",
+          "84",
+          "76"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-8",
+        "options": [
+          "88",
+          "80",
+          "84",
+          "76"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "25 × 6 işlemini tahmin ederken 25’i en yakın onluğa yuvarlayıp 6’yı aynı bırakırsak hangi işlemi yaparız?",
+        "choices": [
+          "20 × 6 = 120",
+          "25 × 5 = 125",
+          "25 × 10 = 250",
+          "30 × 6 = 180"
+        ],
+        "correctAnswer": 3,
+        "explanation": "25 en yakın onluğa yuvarlanınca 30 olur. Diğer çarpan aynı kalır; tahmini sonuç 30 × 6 = 180’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-8",
+        "options": [
+          "20 × 6 = 120",
+          "25 × 5 = 125",
+          "25 × 10 = 250",
+          "30 × 6 = 180"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı tahmin etme",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 21 × 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "110",
+          "100",
+          "115",
+          "105"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-9",
+        "options": [
+          "110",
+          "100",
+          "115",
+          "105"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kütüphanede her rafta 30 kitap bulunan 10 raf vardır. Toplam kaç kitap vardır?",
+        "choices": [
+          "300",
+          "30",
+          "100",
+          "310"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Her raftaki 30 kitap 10 eş rafta bulunduğundan 30 × 10 = 300 kitap vardır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-9",
+        "options": [
+          "300",
+          "30",
+          "100",
+          "310"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "10 ile çarpma problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-carpma-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Çarpma: 22 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "144",
+          "132",
+          "138",
+          "126"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-10",
+        "options": [
+          "144",
+          "132",
+          "138",
+          "126"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "42 × 2 işlemini 42 sayısını 40 ve 2 olarak ayırarak yaparsak hangi toplamı buluruz?",
+        "choices": [
+          "8 + 2",
+          "80 + 4",
+          "40 + 2",
+          "40 + 4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "40 × 2 = 80 ve 2 × 2 = 4 bulunur. İki kısım 80 + 4 olarak toplanır ve sonuç 84 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-kolay-test-1-soru-10",
+        "options": [
+          "8 + 2",
+          "80 + 4",
+          "40 + 2",
+          "40 + 4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı basamaklara ayırma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
           "editorial-2026-10"
         ]
       }
