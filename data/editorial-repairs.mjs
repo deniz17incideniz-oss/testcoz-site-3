@@ -3,11 +3,19 @@
 export const repairs = [];
 import {naturalNumbersEasy,naturalNumbersMedium} from './natural-numbers-repairs.mjs';
 import {fractionsEasy,fractionsMedium} from './fractions-repairs.mjs';
+import {additionEasy} from './addition-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
 test(4, 'matematik', 'dogal-sayilar', 'kolay', 1, naturalNumbersEasy, 'replace_repeated_place_value_template_with_varied_fundamentals');
 test(4, 'matematik', 'dogal-sayilar', 'orta', 1, naturalNumbersMedium, 'replace_repeated_place_value_template_with_varied_application');
+test(4, 'matematik', 'toplama', 'kolay', 1, additionEasy, 'replace_repeated_addition_template_with_varied_explained_questions');
+const additionSkills = [['Basamaklarına göre toplama','islem'],['Eldeli toplama','islem'],['Toplama problemi','problem'],['Zihinden toplama','islem'],['Toplamada değişme özelliği','karsilastirma'],['Eksik toplananı bulma','islem'],['Toplama problemi','problem'],['Toplamada uygun gruplama','islem'],['Yüzlük ekleme','islem'],['Toplama problemi','problem']];
+for (const [index,[subSkill,questionType]] of additionSkills.entries()) {
+ const repair=repairs.find(p=>p.slug==='4-sinif-matematik-toplama-kolay-test-1'&&p.index===index);
+ if(!repair)throw new Error(`Missing addition repair ${index}`);
+ repair.metadata={subSkill,questionType};
+}
 for(const [difficulty,rows] of [['kolay',fractionsEasy],['orta',fractionsMedium]]) {
   test(4,'matematik','kesirler',difficulty,1,rows,'replace_repeated_fraction_template_with_varied_explained_questions');
   const skills=difficulty==='kolay'

@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 387,
+  "count": 397,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -1378,6 +1378,696 @@
         "tags": [
           "matematik",
           "dogal-sayilar",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 1337 + 683 işleminin sonucu kaçtır?",
+        "choices": [
+          "2020",
+          "2030",
+          "2010",
+          "2040"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-1",
+        "options": [
+          "2020",
+          "2030",
+          "2010",
+          "2040"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "2 345 + 1 234 işleminin sonucu kaçtır?",
+        "choices": [
+          "3 579",
+          "3 569",
+          "3 679",
+          "3 479"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Basamakları aynı hizaya getirip toplarız: 2 345 + 1 234 = 3 579.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-1",
+        "options": [
+          "3 579",
+          "3 569",
+          "3 679",
+          "3 479"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Basamaklarına göre toplama",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 1474 + 766 işleminin sonucu kaçtır?",
+        "choices": [
+          "2240",
+          "2250",
+          "2230",
+          "2260"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-2",
+        "options": [
+          "2240",
+          "2250",
+          "2230",
+          "2260"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "1 786 + 945 işleminin sonucu kaçtır?",
+        "choices": [
+          "2 831",
+          "2 731",
+          "2 621",
+          "2 721"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Birler 6 + 5 = 11 eder; 1 yazılır, 1 onluk elde edilir. Basamaklar toplanınca sonuç 2 731 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-2",
+        "options": [
+          "2 831",
+          "2 731",
+          "2 621",
+          "2 721"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Eldeli toplama",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 1611 + 849 işleminin sonucu kaçtır?",
+        "choices": [
+          "2480",
+          "2460",
+          "2470",
+          "2450"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-3",
+        "options": [
+          "2480",
+          "2460",
+          "2470",
+          "2450"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kütüphaneye pazartesi 1 250, salı 730 kitap getirildi. İki günde toplam kaç kitap getirildi?",
+        "choices": [
+          "1 920",
+          "2 080",
+          "1 980",
+          "1 880"
+        ],
+        "correctAnswer": 2,
+        "explanation": "İki günün sayıları toplanır: 1 250 + 700 = 1 950; 30 daha eklenince 1 980 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-3",
+        "options": [
+          "1 920",
+          "2 080",
+          "1 980",
+          "1 880"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 1748 + 932 işleminin sonucu kaçtır?",
+        "choices": [
+          "2700",
+          "2680",
+          "2690",
+          "2670"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-4",
+        "options": [
+          "2700",
+          "2680",
+          "2690",
+          "2670"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "3 400 + 600 işlemini zihinden yapan Ece hangi sonuca ulaşır?",
+        "choices": [
+          "3 460",
+          "3 600",
+          "4 600",
+          "4 000"
+        ],
+        "correctAnswer": 3,
+        "explanation": "3 400’e 600 eklenince 400 ve 600 bir binlik oluşturur: 3 000 + 1 000 = 4 000.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-4",
+        "options": [
+          "3 460",
+          "3 600",
+          "4 600",
+          "4 000"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Zihinden toplama",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 1885 + 1015 işleminin sonucu kaçtır?",
+        "choices": [
+          "2890",
+          "2920",
+          "2900",
+          "2910"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-5",
+        "options": [
+          "2890",
+          "2920",
+          "2900",
+          "2910"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "2 400 + 1 300 toplamı hangi işlemin sonucuna eşittir?",
+        "choices": [
+          "1 300 + 2 400",
+          "2 400 + 1 400",
+          "2 300 + 1 300",
+          "2 400 + 1 200"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananların yerleri değişse de toplam değişmez. Bu nedenle 1 300 + 2 400 aynı sonucu verir.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-5",
+        "options": [
+          "1 300 + 2 400",
+          "2 400 + 1 400",
+          "2 300 + 1 300",
+          "2 400 + 1 200"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Toplamada değişme özelliği",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 2022 + 1098 işleminin sonucu kaçtır?",
+        "choices": [
+          "3130",
+          "3110",
+          "3140",
+          "3120"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-6",
+        "options": [
+          "3130",
+          "3110",
+          "3140",
+          "3120"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir toplama işleminde toplananlardan biri 2 150, toplam 3 800’dür. Diğer toplanan kaçtır?",
+        "choices": [
+          "5 950",
+          "1 650",
+          "1 750",
+          "1 550"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Eksik toplananı bulmak için toplamdan bilinen toplananı çıkarırız: 3 800 − 2 150 = 1 650.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-6",
+        "options": [
+          "5 950",
+          "1 650",
+          "1 750",
+          "1 550"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Eksik toplananı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 2159 + 1181 işleminin sonucu kaçtır?",
+        "choices": [
+          "3350",
+          "3330",
+          "3360",
+          "3340"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-7",
+        "options": [
+          "3350",
+          "3330",
+          "3360",
+          "3340"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir okul gezisine 245 öğrenci ve 28 öğretmen katılıyor. Geziye toplam kaç kişi katılıyor?",
+        "choices": [
+          "283",
+          "217",
+          "273",
+          "263"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Öğrenci ve öğretmen sayıları toplanır: 245 + 20 = 265, 265 + 8 = 273.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-7",
+        "options": [
+          "283",
+          "217",
+          "273",
+          "263"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 2296 + 1264 işleminin sonucu kaçtır?",
+        "choices": [
+          "3570",
+          "3550",
+          "3580",
+          "3560"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-8",
+        "options": [
+          "3570",
+          "3550",
+          "3580",
+          "3560"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "1 420 + 580 + 2 000 işlemini kolay yoldan yapan öğrenci önce hangi iki sayıyı toplarsa bir tam binlik elde eder?",
+        "choices": [
+          "1 420 ve 2 000",
+          "580 ve 2 000",
+          "Hiçbiri",
+          "1 420 ve 580"
+        ],
+        "correctAnswer": 3,
+        "explanation": "1 420 + 580 = 2 000 olduğundan önce bu iki sayı toplanabilir. Ardından 2 000 + 2 000 = 4 000 bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-8",
+        "options": [
+          "1 420 ve 2 000",
+          "580 ve 2 000",
+          "Hiçbiri",
+          "1 420 ve 580"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Toplamada uygun gruplama",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 2433 + 1347 işleminin sonucu kaçtır?",
+        "choices": [
+          "3780",
+          "3790",
+          "3770",
+          "3800"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-9",
+        "options": [
+          "3780",
+          "3790",
+          "3770",
+          "3800"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "3 218 sayısına 100 eklenirse hangi sayı elde edilir?",
+        "choices": [
+          "3 318",
+          "3 228",
+          "3 218",
+          "4 218"
+        ],
+        "correctAnswer": 0,
+        "explanation": "100 eklemek yüzler basamağını bir artırır: 3 218 + 100 = 3 318.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-9",
+        "options": [
+          "3 318",
+          "3 228",
+          "3 218",
+          "4 218"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Yüzlük ekleme",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-toplama-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-toplama-kolay-test-1",
+      "reason": "replace_repeated_addition_template_with_varied_explained_questions",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Toplama: 2570 + 1430 işleminin sonucu kaçtır?",
+        "choices": [
+          "4020",
+          "4000",
+          "4010",
+          "3990"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Toplananlar basamaklarına göre toplanır.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-10",
+        "options": [
+          "4020",
+          "4000",
+          "4010",
+          "3990"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
+          "toplama",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çiftlikte 1 275 elma ağacı ve 1 125 armut ağacı vardır. Ağaçların toplam sayısı kaçtır?",
+        "choices": [
+          "2 500",
+          "2 400",
+          "2 300",
+          "2 410"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Elma ve armut ağaçları birlikte sayılır: 1 275 + 1 125 = 2 400.",
+        "image": null,
+        "id": "4-sinif-matematik-toplama-kolay-test-1-soru-10",
+        "options": [
+          "2 500",
+          "2 400",
+          "2 300",
+          "2 410"
+        ],
+        "difficulty": "kolay",
+        "skill": "Toplama",
+        "subSkill": "Toplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "toplama",
           "editorial-2026-10"
         ]
       }
