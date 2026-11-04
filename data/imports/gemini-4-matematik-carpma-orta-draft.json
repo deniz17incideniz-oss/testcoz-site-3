@@ -1,0 +1,161 @@
+{
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.5-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "carpma",
+  "difficulty": "orta",
+  "createdAt": "2026-11-04T14:51:12.678Z",
+  "questions": [
+    {
+      "question": "Bir okulda her birinde 24 öğrenci bulunan 15 sınıf vardır. Bu okuldaki toplam öğrenci sayısı kaçtır?",
+      "choices": [
+        "350",
+        "360",
+        "370",
+        "380"
+      ],
+      "correctAnswer": "360",
+      "explanation": "Toplam öğrenci sayısını bulmak için sınıf sayısı ile bir sınıftaki öğrenci sayısı çarpılır. 15 ile 24 sayılarını çarptığımızda 24 ile 10'un çarpımı 240, 24 ile 5'in çarpımı 120 eder; ikisinin toplamı 360 sonucunu verir.",
+      "subSkill": "Gerçekçi eş grup problemi",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "48 x 50 işleminin sonucunu kısa yoldan bulmak isteyen Kerem, aşağıdaki yöntemlerden hangisini uygulamalıdır?",
+      "choices": [
+        "Önce 48'i 100 ile çarpar, sonra sonucu 2'ye böler.",
+        "Önce 48'i 10 ile çarpar, sonra 5 ile toplar.",
+        "Önce 48'i 5 ile çarpar, sonra 10 ile çıkarır.",
+        "Önce 48'i 2 ile çarpar, sonra sonucu 100 ile böler."
+      ],
+      "correctAnswer": "Önce 48'i 100 ile çarpar, sonra sonucu 2'ye böler.",
+      "explanation": "50 ile kısa yoldan çarpma yapmak için sayı önce 100 ile çarpılır, elde edilen sonuç 2'ye bölünür. Çünkü 50 sayısı 100'ün yarısıdır ve bu yöntem işlemi çok daha hızlı ve hatasız yapmayı sağlar.",
+      "subSkill": "Kısa yoldan 10 ve 100 ile çarpma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir kırtasiyeci 325 adet defteri kolilere yerleştiriyor. Her kolide 100 adet defter olduğuna göre, bu işlemde tam dolan koli sayısı ve artan defter sayısı aşağıdakilerden hangisidir?",
+      "choices": [
+        "3 koli, 25 defter artar",
+        "30 koli, 25 defter artar",
+        "3 koli, 250 defter artar",
+        "32 koli, 5 defter artar"
+      ],
+      "correctAnswer": "3 koli, 25 defter artar",
+      "explanation": "325 sayısı 100 ile bölündüğünde bölüm 3, kalan ise 25'tir. Yani 3 tam koli dolar ve geriye 25 adet defter artar. Yüzlük ile yapılan bu tür bölme ve çarpma ilişkilerinde kalan doğrudan basamak değerinden okunabilir.",
+      "subSkill": "Kısa yoldan 10 ve 100 ile çarpma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir çiftlikte her gün ortalama 35 litre süt elde edilmektedir. Şubat ayı 28 gün sürdüğüne göre, bu ay boyunca toplam kaç litre süt üretilmiştir?",
+      "choices": [
+        "920",
+        "950",
+        "980",
+        "1015"
+      ],
+      "correctAnswer": "980",
+      "explanation": "Günlük süt miktarı ile gün sayısı çarpılarak toplam miktar bulunur. 35 ile 28'i çarpmak için önce 35 ile 8 çarpılır (280), ardından 35 ile 20 çarpılır (700). Toplamda 280 ile 700'ün toplamı 980 litre sütü verir.",
+      "subSkill": "Gerçekçi eş grup problemi",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki çarpma işlemlerinden hangisinin sonucu diğerlerinden farklıdır?",
+      "choices": [
+        "45 x 16",
+        "16 x 45",
+        "30 x 24",
+        "Hiçbiri"
+      ],
+      "correctAnswer": "Hiçbiri",
+      "explanation": "Çarpma işleminde çarpanların yer değiştirmesi sonucu değiştirmez; bu çarpmanın değişme özelliğidir. A seçeneğindeki 45 x 16 ile B seçeneğindeki 16 x 45 aynı sonucu verir. C seçeneği ise farklı sayı ikilisi içerdiği için bu soru bağlamında seçeneklerin yapısı incelenmelidir.",
+      "subSkill": "Çarpmanın değişme özelliği",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir doğal sayının basamaklarına ayrılarak çarpılması işleminde (40 x 12) + (7 x 12) şeklinde ifade edilen işlem hangi sayının 12 ile çarpımını gösterir?",
+      "choices": [
+        "47",
+        "407",
+        "470",
+        "74"
+      ],
+      "correctAnswer": "47",
+      "explanation": "Verilen işlemde 12 sayısı hem 40 ile hem de 7 ile ayrı ayrı çarpılmıştır. Bu durum, 40 ve 7 sayılarını toplayarak oluşturulan 47 sayısının 12 ile çarpıldığını, yani dağılma özelliğinin uygulandığını gösterir.",
+      "subSkill": "Basamaklara ayırma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir çarpma işleminde birinci çarpan 38, çarpım ise 456'dır. Buna göre verilmeyen ikinci çarpan kaçtır?",
+      "choices": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Bir çarpma işleminde verilmeyen çarpanı bulmak için çarpım, verilen çarpana bölünür. 456 sayısı 38'e bölündüğünde sonuç 12 çıkar. Kontrol etmek için 38 ile 12'yi çarptığımızda gerçekten 456 elde ederiz.",
+      "subSkill": "İşlemde eksik çarpan",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Zeynep, 78 ile 43 sayılarını çarpmadan önce sayıları en yakın onluğa yuvarlayarak bir tahmin yapıyor. Zeynep'in bulduğu tahmini sonuç kaçtır?",
+      "choices": [
+        "3200",
+        "3500",
+        "4000",
+        "3600"
+      ],
+      "correctAnswer": "3200",
+      "explanation": "Tahmin yaparken 78 en yakın onluk olan 80'e, 43 ise en yakın onluk olan 40'a yuvarlanır. Yuvarlanan bu sayılar birbiriyle çarpılır: 80 x 40 = 3200. Zeynep bu sayede işlemin sonucunu kolayca tahmin etmiştir.",
+      "subSkill": "Sonucu uygun yolla tahmin veya kontrol etme",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir sinema salonunda 18 sıra ve her sırada 25 koltuk bulunmaktadır. Biletlerin tamamı satıldığında sinema salonu yönetimi kaç bilet satmış olur?",
+      "choices": [
+        "400",
+        "425",
+        "450",
+        "475"
+      ],
+      "correctAnswer": "450",
+      "explanation": "Toplam bilet sayısını bulmak için sıra sayısı ile bir sıradaki koltuk sayısı çarpılır. 18 ile 25'i çarpmak için 18'i önce 100 ile çarpıp dörde bölebiliriz veya 18 x 25 işlemini doğrudan yaparak 450 sonucuna ulaşırız.",
+      "subSkill": "Gerçekçi eş grup problemi",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki işlemlerden hangisinin sonucu 52 x 19 işleminin sonucuna en yakındır?",
+      "choices": [
+        "50 x 20",
+        "60 x 20",
+        "50 x 10",
+        "60 x 10"
+      ],
+      "correctAnswer": "50 x 20",
+      "explanation": "52 sayısı en yakın onluk olan 50'ye, 19 sayısı ise en yakın onluk olan 20'ye yuvarlanır. Bu iki yuvarlanmış sayının çarpımı olan 50 x 20, orijinal işlemin sonucuna en yakın tahmini değeri verir.",
+      "subSkill": "Sonucu uygun yolla tahmin veya kontrol etme",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ]
+}

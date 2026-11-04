@@ -17,6 +17,7 @@ export function validateDraft(data, expectedCount, choiceCount) {
   }
   if (!q.question.trim() || !q.correctAnswer.trim() || !q.subSkill.trim() || !q.questionType.trim()) throw new Error(`Question ${i+1}: required content is empty`);
   if(q.explanation.trim().length<40)throw new Error(`Question ${i+1}: explanation is shorter than 40 characters`);
+  if(/soruda hata olmaması için|bir seçeneği değiştirelim|seçeneklerde düzeltme yaparsak|doğru kurgu için/iu.test(q.explanation))throw new Error(`Question ${i+1}: model reports an unresolved question error`);
   if (!Array.isArray(q.choices) || q.choices.length !== choiceCount || q.choices.some(c=>typeof c !== 'string' || !c.trim())) throw new Error(`Question ${i+1}: invalid choices`);
   const normal = s=>s.trim().toLocaleLowerCase('tr-TR');
   const choices=q.choices.map(normal);
@@ -40,10 +41,18 @@ async function api(model, payload) {
   method:'POST',headers:{'content-type':'application/json','x-goog-api-key':key},body:JSON.stringify(payload),signal:AbortSignal.timeout(120000)
  });
  const data=await response.json().catch(()=>({}));
- if(!response.ok)throw new Error(`Gemini API HTTP ${response.status}: ${String(data.error?.status || 'request failed')}`);
+ if(!response.ok){const error=new Error(`Gemini API HTTP ${response.status}: ${String(data.error?.status || 'request failed')}`);error.httpStatus=response.status;throw error;}
  const candidate=data.candidates?.[0];
  if(!candidate || (candidate.finishReason && candidate.finishReason !== 'STOP'))throw new Error(`Gemini did not finish normally: ${candidate?.finishReason || data.promptFeedback?.blockReason || 'no candidate'}`);
  return candidate.content?.parts || [];
+}
+
+export async function textWithFallback(request,model,hasOverride=false) {
+ try{return {parts:await request(model),model}} catch(error) {
+  if(error.httpStatus!==503 || hasOverride || model==='gemini-3.5-flash-lite')throw error;
+  const fallback='gemini-3.5-flash-lite';
+  return {parts:await request(fallback),model:fallback};
+ }
 }
 
 async function main() {
@@ -55,11 +64,16 @@ async function main() {
   const choiceCount=cls<=3?3:4;
   const extra=cls===4&&subject==='matematik'&&topic==='carpma'?'Farklı beceriler kullan: basamaklara ayırma, kısa yoldan 10 ve 100 ile çarpma, gerçekçi eş grup problemi, işlemde eksik çarpan, çarpmanın değişme özelliği ve sonucu uygun yolla tahmin veya kontrol etme. Yalnız tek basamaklı çarpım tablosunu soran sorular hazırlama. Aynı eş grup hikâyesini farklı nesnelerle tekrarlama. Sayılar ve kazanımlar 4. sınıfa uygun olsun.':'Beceri türlerini olabildiğince çeşitlendir; aynı problemi yalnız nesne veya sayı değiştirerek tekrarlama.';
   const prompt=`Türkiye ilkokulu için ${cls}. sınıf, ders ${subject}, konu ${topic}, ${difficulty} düzeyinde ${count} özgün çoktan seçmeli soru taslağı hazırla. Her soruda tam ${choiceCount} farklı seçenek, yalnız bir doğru cevap ve öğrenciye çözüm yolunu gösteren en az 60 karakterlik Türkçe açıklama olsun. Sınıf düzeyine uygun, farklı becerileri ölçen, konu dışına çıkmayan, gerçekçi ve birbirini tekrar etmeyen sorular hazırla. ${extra} Görsel sadece öğrenme için gerçekten gerekliyse imageBrief alanına metinsiz bir görsel betimi, imageAlt alanına soruyu çözmeye yetecek doğru alternatif metin yaz; diğer sorularda iki alan da boş olsun. Görselde sayı veya metin güvenilirliği gerekiyorsa görsel isteme; verileri soru metnine koy. Resmî onay veya doğrulanmamış kaynak iddia etme. Bu sorular yayınlanmayacak taslaklardır.`;
-  const parts=await api(textModel,{contents:[{parts:[{text:prompt}]}],generationConfig:{responseMimeType:'application/json',responseSchema:schema}});
+  const payload={contents:[{parts:[{text:prompt}]}],generationConfig:{responseMimeType:'application/json',responseSchema:schema}};
+  // A single fallback for temporary server outages. Never retry quota/billing errors.
+  const {parts,model:usedModel}=await textWithFallback(model=>api(model,payload),textModel,Boolean(process.env.TESTCOZ_GEMINI_TEXT_MODEL));
   const raw=parts.filter(p=>p.text).map(p=>p.text).join('');let result;try{result=JSON.parse(raw)}catch{throw new Error('Gemini returned invalid JSON')}
-  validateDraft(result,count,choiceCount);fs.mkdirSync(outDir,{recursive:true});
+  fs.mkdirSync(outDir,{recursive:true});
   const stamp=new Date().toISOString().replace(/[:.]/g,'-');const file=path.join(outDir,`${grade}-${subject}-${topic}-${difficulty}-${stamp}.json`);
-  fs.writeFileSync(file,JSON.stringify({status:'DRAFT_REQUIRES_EDITORIAL_REVIEW',model:textModel,grade:cls,subject,topic,difficulty,createdAt:new Date().toISOString(),...result},null,2)+'\n',{flag:'wx'});
+  const draft={...result,status:'DRAFT_NOT_VALIDATED',model:usedModel,grade:cls,subject,topic,difficulty,createdAt:new Date().toISOString()};
+  fs.writeFileSync(file,JSON.stringify(draft,null,2)+'\n',{flag:'wx'});
+  try{validateDraft(result,count,choiceCount)}catch(error){console.error(`Unvalidated draft retained: ${file}`);throw error;}
+  draft.status='DRAFT_REQUIRES_EDITORIAL_REVIEW';fs.writeFileSync(file,JSON.stringify(draft,null,2)+'\n');
   console.log(`Draft saved: ${file}`);console.log('Schema checks passed; answers, curriculum fit and image accuracy need independent review.');
  } else if(mode==='image') {
   const [filename,indexArg]=args;const absolute=path.resolve(filename||'');const relative=path.relative(outDir,absolute);

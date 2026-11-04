@@ -6,6 +6,18 @@
   const test1Repairs={"2":["ingilizce"],"3":["ingilizce","fen-bilimleri","hayat-bilgisi"],"4":["matematik"]};
   if((params.get('test')||'1')==='1' && test1Repairs[grade]?.includes(subject)) files.push('data/runtime/editorial-'+grade+'-'+subject+'.js');
   if(files.length) files.unshift('data/runtime/image-dimensions.js');
-  function load(src){return new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.onload=resolve;script.onerror=reject;document.body.appendChild(script);});}
-  (async()=>{try{for(const file of files)await load(file);await load('js/test-runner.js');}catch{document.getElementById('testTitle').textContent='Test yüklenemedi';document.getElementById('testSubtitle').textContent='Bağlantını kontrol edip sayfayı yeniden açabilirsin.';}})();
+  function load(src){return new Promise((resolve,reject)=>{
+    const script=document.createElement('script');script.src=src;
+    const timer=setTimeout(()=>{script.onload=null;script.onerror=null;script.remove();reject(new Error('Script loading timed out'));},15000);
+    script.onload=()=>{clearTimeout(timer);resolve();};
+    script.onerror=()=>{clearTimeout(timer);script.remove();reject(new Error('Script loading failed'));};
+    document.body.appendChild(script);
+  });}
+  (async()=>{try{for(const file of files)await load(file);await load('js/test-runner.js');}catch{
+    document.getElementById('testTitle').textContent='Test yüklenemedi';
+    const subtitle=document.getElementById('testSubtitle');subtitle.setAttribute('role','alert');
+    subtitle.textContent='Bağlantını kontrol edip yeniden deneyebilirsin. ';
+    const retry=document.createElement('button');retry.type='button';retry.className='btn btn-outline';retry.textContent='Yeniden Dene';
+    retry.addEventListener('click',()=>location.reload());subtitle.appendChild(retry);
+  }})();
 })();

@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 437,
+  "count": 457,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -3444,6 +3444,1386 @@
         "questionType": "islem",
         "cognitiveLevel": "anlama",
         "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 36 ÷ 4 işleminin sonucu kaçtır?",
+        "choices": [
+          "8",
+          "11",
+          "9",
+          "10"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bölüm 9dir; çünkü 9 × 4 = 36.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-1",
+        "options": [
+          "8",
+          "11",
+          "9",
+          "10"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çiftçi 48 kilogram elmayı, her birine 6 kilogram koyarak poşetlere dolduruyor. Kaç poşet kullanır?",
+        "choices": [
+          "8",
+          "6",
+          "7",
+          "9"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Toplam 48 kilogramı her poşetteki 6 kilograma böleriz: 48 ÷ 6 = 8 poşet.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-1",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "9"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Gruplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 50 ÷ 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "12",
+          "10",
+          "11",
+          "9"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bölüm 10dir; çünkü 10 × 5 = 50.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-2",
+        "options": [
+          "12",
+          "10",
+          "11",
+          "9"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "36 sayısının çeyreğini bulmak için hangi işlem yapılır?",
+        "choices": [
+          "36 + 4",
+          "36 ÷ 4",
+          "36 × 4",
+          "36 − 4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çeyrek dört eş parçadan biridir. 36’yı 4 eş parçaya ayırırız: 36 ÷ 4 = 9.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-2",
+        "options": [
+          "36 + 4",
+          "36 ÷ 4",
+          "36 × 4",
+          "36 − 4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Çeyreği bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 66 ÷ 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "13",
+          "11",
+          "12",
+          "10"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bölüm 11dir; çünkü 11 × 6 = 66.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-3",
+        "options": [
+          "13",
+          "11",
+          "12",
+          "10"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir bölme işleminde bölen 7, bölüm 9 ve kalan 3 ise bölünen kaçtır?",
+        "choices": [
+          "60",
+          "70",
+          "66",
+          "63"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bölen ile bölüm çarpılıp kalan eklenir: 7 × 9 + 3 = 66. Kalan 3, bölen 7’den küçüktür.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-3",
+        "options": [
+          "60",
+          "70",
+          "66",
+          "63"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Bölüneni bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 36 ÷ 3 işleminin sonucu kaçtır?",
+        "choices": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bölüm 12dir; çünkü 12 × 3 = 36.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-4",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Hangi bölme işleminin sonucu diğerlerinden farklıdır?",
+        "choices": [
+          "72 ÷ 9",
+          "56 ÷ 7",
+          "48 ÷ 6",
+          "45 ÷ 5"
+        ],
+        "correctAnswer": 3,
+        "explanation": "45 ÷ 5 = 9’dur. Diğer üç işlemin sonucu 8 olduğu için farklı olan 45 ÷ 5’tir.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-4",
+        "options": [
+          "72 ÷ 9",
+          "56 ÷ 7",
+          "48 ÷ 6",
+          "45 ÷ 5"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Bölümleri karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 52 ÷ 4 işleminin sonucu kaçtır?",
+        "choices": [
+          "13",
+          "14",
+          "12",
+          "15"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bölüm 13dir; çünkü 13 × 4 = 52.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-5",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "15"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "84 kitap, her rafta eşit sayıda kitap olacak şekilde 4 rafa yerleştiriliyor. Her rafta kaç kitap olur?",
+        "choices": [
+          "21",
+          "22",
+          "24",
+          "20"
+        ],
+        "correctAnswer": 0,
+        "explanation": "84 kitabı 4 eş gruba ayırırız: 84 ÷ 4 = 21. Kontrol: 21 × 4 = 84.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-5",
+        "options": [
+          "21",
+          "22",
+          "24",
+          "20"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Eşit paylaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 70 ÷ 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "15",
+          "13",
+          "16",
+          "14"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bölüm 14dir; çünkü 14 × 5 = 70.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-6",
+        "options": [
+          "15",
+          "13",
+          "16",
+          "14"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Hangi bölme işleminde kalan sıfır değildir?",
+        "choices": [
+          "90 ÷ 3",
+          "75 ÷ 6",
+          "55 ÷ 5",
+          "64 ÷ 4"
+        ],
+        "correctAnswer": 1,
+        "explanation": "75 = 6 × 12 + 3 olduğundan kalan 3’tür. Diğer üç işlem kalansızdır.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-6",
+        "options": [
+          "90 ÷ 3",
+          "75 ÷ 6",
+          "55 ÷ 5",
+          "64 ÷ 4"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Kalanı yorumlama",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 90 ÷ 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "15",
+          "16",
+          "14",
+          "17"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bölüm 15dir; çünkü 15 × 6 = 90.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-7",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "17"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Kerem 60 lirasını 5 gün boyunca her gün eşit miktarda harcıyor ve parasının tamamı bitiyor. Günde kaç lira harcar?",
+        "choices": [
+          "11",
+          "15",
+          "12",
+          "10"
+        ],
+        "correctAnswer": 2,
+        "explanation": "60 lira 5 güne eşit paylaştırılır: 60 ÷ 5 = 12 lira. Kontrol: 12 × 5 = 60.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-7",
+        "options": [
+          "11",
+          "15",
+          "12",
+          "10"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Eşit paylaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 48 ÷ 3 işleminin sonucu kaçtır?",
+        "choices": [
+          "16",
+          "17",
+          "15",
+          "18"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bölüm 16dir; çünkü 16 × 3 = 48.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-8",
+        "options": [
+          "16",
+          "17",
+          "15",
+          "18"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "96 koltuk, her sırada 8 koltuk olacak şekilde dizilmiştir. Kaç sıra vardır?",
+        "choices": [
+          "10",
+          "11",
+          "14",
+          "12"
+        ],
+        "correctAnswer": 3,
+        "explanation": "96 koltuğu sekizerli sıralara ayırırız: 96 ÷ 8 = 12 sıra.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-8",
+        "options": [
+          "10",
+          "11",
+          "14",
+          "12"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Gruplama problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 68 ÷ 4 işleminin sonucu kaçtır?",
+        "choices": [
+          "19",
+          "17",
+          "18",
+          "16"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bölüm 17dir; çünkü 17 × 4 = 68.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-9",
+        "options": [
+          "19",
+          "17",
+          "18",
+          "16"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "720 ÷ 9 işleminin sonucu kaçtır?",
+        "choices": [
+          "80",
+          "8",
+          "70",
+          "90"
+        ],
+        "correctAnswer": 0,
+        "explanation": "72 ÷ 9 = 8’dir. 720, 72’nin on katı olduğundan 720 ÷ 9 = 80 olur.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-9",
+        "options": [
+          "80",
+          "8",
+          "70",
+          "90"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Zihinden bölme",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-bolme-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-bolme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_division_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Bölme: 90 ÷ 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "20",
+          "18",
+          "19",
+          "17"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bölüm 18dir; çünkü 18 × 5 = 90.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-10",
+        "options": [
+          "20",
+          "18",
+          "19",
+          "17"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "bolme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Zeynep’in 87 boncuğu var. Bir bilezik için 7 boncuk kullanırsa en fazla kaç tam bilezik yapar?",
+        "choices": [
+          "14",
+          "12",
+          "11",
+          "13"
+        ],
+        "correctAnswer": 1,
+        "explanation": "87 = 7 × 12 + 3. Kalan 3 boncuk bir bilezik için yetmediğinden en fazla 12 tam bilezik yapılır.",
+        "image": null,
+        "id": "4-sinif-matematik-bolme-kolay-test-1-soru-10",
+        "options": [
+          "14",
+          "12",
+          "11",
+          "13"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bölme",
+        "subSkill": "Kalanı yorumlama",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 25 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "144",
+          "162",
+          "150",
+          "156"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-1",
+        "options": [
+          "144",
+          "162",
+          "150",
+          "156"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir okulda her birinde 24 öğrenci bulunan 15 sınıf vardır. Toplam kaç öğrenci vardır?",
+        "choices": [
+          "360",
+          "350",
+          "370",
+          "380"
+        ],
+        "correctAnswer": 0,
+        "explanation": "24 × 10 = 240 ve 24 × 5 = 120. İkisi toplanınca 240 + 120 = 360 öğrenci bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-1",
+        "options": [
+          "360",
+          "350",
+          "370",
+          "380"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Eş gruplarla çarpma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 26 × 7 işleminin sonucu kaçtır?",
+        "choices": [
+          "182",
+          "189",
+          "175",
+          "196"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-2",
+        "options": [
+          "182",
+          "189",
+          "175",
+          "196"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "48 × 50 işlemini kısa yoldan hesaplamak için hangi yöntem kullanılabilir?",
+        "choices": [
+          "48’i 2 ile çarpıp sonucu 100’e bölmek",
+          "48’i 100 ile çarpıp sonucu 2’ye bölmek",
+          "48’i 10 ile çarpıp 5 eklemek",
+          "48’i 5 ile çarpıp 10 çıkarmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "50, 100’ün yarısıdır. 48 × 100 = 4 800; yarısı 2 400’dür. Bu, 48 × 50 sonucudur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-2",
+        "options": [
+          "48’i 2 ile çarpıp sonucu 100’e bölmek",
+          "48’i 100 ile çarpıp sonucu 2’ye bölmek",
+          "48’i 10 ile çarpıp 5 eklemek",
+          "48’i 5 ile çarpıp 10 çıkarmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "50 ile zihinden çarpma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 27 × 8 işleminin sonucu kaçtır?",
+        "choices": [
+          "208",
+          "232",
+          "216",
+          "224"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-3",
+        "options": [
+          "208",
+          "232",
+          "216",
+          "224"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir depoya her gün 325 defter geliyor. Üç günde toplam kaç defter gelir?",
+        "choices": [
+          "650",
+          "1 025",
+          "975",
+          "925"
+        ],
+        "correctAnswer": 2,
+        "explanation": "325 × 3 = 975. Ayrı ayrı 300 × 3 = 900, 20 × 3 = 60 ve 5 × 3 = 15; toplam 975’tir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-3",
+        "options": [
+          "650",
+          "1 025",
+          "975",
+          "925"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Üç basamaklı sayıyla çarpma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 28 × 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "140",
+          "145",
+          "135",
+          "150"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-4",
+        "options": [
+          "140",
+          "145",
+          "135",
+          "150"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir çiftlikte 28 gün boyunca her gün 35 litre süt elde ediliyor. Toplam kaç litre süt elde edilir?",
+        "choices": [
+          "920",
+          "950",
+          "1 015",
+          "980"
+        ],
+        "correctAnswer": 3,
+        "explanation": "35 × 20 = 700 ve 35 × 8 = 280. Toplam 700 + 280 = 980 litredir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-4",
+        "options": [
+          "920",
+          "950",
+          "1 015",
+          "980"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "İki basamaklı sayılarla çarpma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 29 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "168",
+          "186",
+          "174",
+          "180"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-5",
+        "options": [
+          "168",
+          "186",
+          "174",
+          "180"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "45 × 16, 16 × 45 ve 30 × 24 işlemlerinin sonuçları için hangisi doğrudur?",
+        "choices": [
+          "Üçünün sonucu da eşittir.",
+          "Yalnız ilk ikisi eşittir.",
+          "Yalnız son ikisi eşittir.",
+          "Üçünün sonucu da farklıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "45 × 16 = 720; değişme özelliğiyle 16 × 45 = 720. Ayrıca 30 × 24 = 720 olduğundan üçü de eşittir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-5",
+        "options": [
+          "Üçünün sonucu da eşittir.",
+          "Yalnız ilk ikisi eşittir.",
+          "Yalnız son ikisi eşittir.",
+          "Üçünün sonucu da farklıdır."
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımları karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 30 × 7 işleminin sonucu kaçtır?",
+        "choices": [
+          "224",
+          "210",
+          "217",
+          "203"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-6",
+        "options": [
+          "224",
+          "210",
+          "217",
+          "203"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "(40 × 12) + (7 × 12) işlemi hangi sayının 12 ile çarpımını gösterir?",
+        "choices": [
+          "74",
+          "47",
+          "407",
+          "470"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Her iki terimde de 12 çarpanı vardır. 40 + 7 = 47 olduğundan işlem 47 × 12’ye eşittir.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-6",
+        "options": [
+          "74",
+          "47",
+          "407",
+          "470"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı basamaklara ayırma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 31 × 8 işleminin sonucu kaçtır?",
+        "choices": [
+          "256",
+          "240",
+          "264",
+          "248"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-7",
+        "options": [
+          "256",
+          "240",
+          "264",
+          "248"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "38 × □ = 456 işleminde kutuya hangi sayı yazılır?",
+        "choices": [
+          "13",
+          "14",
+          "12",
+          "11"
+        ],
+        "correctAnswer": 2,
+        "explanation": "38 × 10 = 380 ve 38 × 2 = 76. 380 + 76 = 456 olduğundan kutuya 12 yazılır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-7",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "11"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Eksik çarpanı bulma",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 32 × 5 işleminin sonucu kaçtır?",
+        "choices": [
+          "170",
+          "160",
+          "165",
+          "155"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-8",
+        "options": [
+          "170",
+          "160",
+          "165",
+          "155"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "78 × 43 işlemi için iki sayı da en yakın onluğa yuvarlanırsa tahmini sonuç kaç olur?",
+        "choices": [
+          "3 500",
+          "4 000",
+          "3 600",
+          "3 200"
+        ],
+        "correctAnswer": 3,
+        "explanation": "78 en yakın onluğa 80, 43 ise 40 yuvarlanır. Tahmini çarpım 80 × 40 = 3 200’dür.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-8",
+        "options": [
+          "3 500",
+          "4 000",
+          "3 600",
+          "3 200"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı tahmin etme",
+        "questionType": "islem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 33 × 6 işleminin sonucu kaçtır?",
+        "choices": [
+          "204",
+          "192",
+          "210",
+          "198"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-9",
+        "options": [
+          "204",
+          "192",
+          "210",
+          "198"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir sinema salonunda 18 sıra ve her sırada 25 koltuk vardır. Koltukların hepsi için birer bilet satılırsa kaç bilet satılır?",
+        "choices": [
+          "450",
+          "400",
+          "425",
+          "475"
+        ],
+        "correctAnswer": 0,
+        "explanation": "25 × 10 = 250 ve 25 × 8 = 200. 250 + 200 = 450 bilet satılır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-9",
+        "options": [
+          "450",
+          "400",
+          "425",
+          "475"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Eş gruplarla çarpma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-carpma-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-carpma-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_multiplication_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Çarpma: 34 × 7 işleminin sonucu kaçtır?",
+        "choices": [
+          "252",
+          "238",
+          "245",
+          "231"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çarpma, eşit grupların toplamını kısa yoldan bulur.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-10",
+        "options": [
+          "252",
+          "238",
+          "245",
+          "231"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "carpma",
+          "carpma",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Hangi işlemin sonucu 52 × 19 sonucuna en yakındır?",
+        "choices": [
+          "60 × 10",
+          "50 × 20",
+          "60 × 20",
+          "50 × 10"
+        ],
+        "correctAnswer": 1,
+        "explanation": "52 × 19 = 988 ve 50 × 20 = 1 000’dir; fark 12’dir. Diğer seçeneklerin sonuçları 988’den daha uzaktır.",
+        "image": null,
+        "id": "4-sinif-matematik-carpma-orta-test-1-soru-10",
+        "options": [
+          "60 × 10",
+          "50 × 20",
+          "60 × 20",
+          "50 × 10"
+        ],
+        "difficulty": "orta",
+        "skill": "Çarpma",
+        "subSkill": "Çarpımı karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
         "hasVisual": false,
         "tags": [
           "matematik",

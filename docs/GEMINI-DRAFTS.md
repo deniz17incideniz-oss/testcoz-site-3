@@ -21,4 +21,6 @@ Görseller ayrı API çağrılarıdır ve ek maliyet oluşturabilir. Görselin v
 
 Varsayılan modeller `gemini-3.1-flash-lite` ve `gemini-3.1-flash-image` olup hesap/ülke/kota uygunluğu değişebilir. Gerekirse `TESTCOZ_GEMINI_TEXT_MODEL` veya `TESTCOZ_GEMINI_IMAGE_MODEL` ortam değişkeniyle değiştirilebilir. Bağlantının gerçekleştiği ancak gerçek API isteğiyle doğrulanabilir.
 
+Varsayılan metin modeli 503 hizmet hatası döndürürse araç bir kez `gemini-3.5-flash-lite` dener ve taslakta gerçekten kullanılan modeli kaydeder. Kota ve faturalandırma hatalarında tekrar deneme veya ücretli katmana geçiş yapılmaz; açıkça seçilmiş model de otomatik değiştirilmez.
+
 Kaynaklar: https://ai.google.dev/gemini-api/docs/api-key, https://ai.google.dev/gemini-api/docs/structured-output, https://ai.google.dev/gemini-api/docs/image-generation, https://ai.google.dev/gemini-api/docs/pricing
