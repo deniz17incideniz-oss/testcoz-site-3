@@ -11,3 +11,16 @@ export const schoolEasy=[
  ['Ders sırasında arkadaşın bir şey anlatırken ne yapmalısın?', 'Onu dinlemelisin.', 'Sözünü kesmelisin.', 'Başka bir arkadaşınla konuşmalısın.', 'Konuşan arkadaşını dinlemek, onun anlatmasına ve herkesin anlamasına yardımcı olur.'],
  ['Arkadaşınla aynı oyuncağı istiyorsunuz. Birlikte ne yapabilirsiniz?', 'Sırayla oynamayı konuşabiliriz.', 'Oyuncağı zorla alabiliriz.', 'Oyuncağı saklayabiliriz.', 'Sırayla oynamayı konuşmak iki arkadaşın da oyuncağı kullanabilmesi için bir çözümdür.']
 ];
+
+export const schoolMedium=[
+ ['Yeni bir öğrenci sınıfını bulamıyor. Sınıfın yerini biliyorsan ne yapabilirsin?', 'Sınıfı ona nazikçe gösterebilirim.', 'Onunla alay edebilirim.', 'Sorunu görmezden gelebilirim.', 'Yolunu bulamayan arkadaşına sınıfın yerini göstermek yardım etmenin bir yoludur.'],
+ ['Mert koridorda yavaş yürüyor, Ada ise koşuyor. Hangisinin davranışı çarpışma riskini azaltır?', 'Mert’in yavaş yürümesi', 'Ada’nın koşması', 'İkisinin de koşması', 'Koridorda yavaş ve dikkatli yürümek başkalarına çarpma olasılığını azaltır.'],
+ ['Okulda kendini iyi hissetmiyorsun. Kimden yardım isteyebilirsin?', 'Öğretmeninden', 'Hiç kimseden', 'Yalnızca bahçedeki oyuncaklardan', 'Öğretmenine nasıl hissettiğini söylemek, ihtiyacın olan yardıma ulaşmanı sağlar.'],
+ ['Kitap okumak isteyen bir öğrenci okulda hangi bölüme gidebilir?', 'Kütüphaneye', 'Tuvalete', 'Merdivene', 'Kütüphanede kitaplara ulaşılabilir ve okuma yapılabilir.'],
+ ['Arkadaşın kalemini düşürdü ve senden yardım istedi. Ne yapabilirsin?', 'Kalemi alıp ona verebilirim.', 'Kalemi çantama saklayabilirim.', 'Kalemin üstüne basabilirim.', 'Arkadaşına kalemini uzatmak, onun istediği yardımı nazikçe karşılamaktır.'],
+ ['Sınıftaki ortak boyaları kullandıktan sonra ne yapmalısın?', 'Yerlerine koymalıyım.', 'Kapaklarını açık bırakmalıyım.', 'Kimsenin bulamayacağı yere saklamalıyım.', 'Ortak boyaları kapatıp yerine koymak, diğer öğrencilerin de kullanmasını kolaylaştırır.'],
+ ['Ders zili çalınca derse hazırlanmak için ne yapabilirsin?', 'Sınıfa gidip araçlarımı hazırlayabilirim.', 'Koridorda koşmaya devam edebilirim.', 'Ders araçlarımı saklayabilirim.', 'Ders başlayınca sınıfa gidip gerekli araçları hazırlamak derse katılmana yardımcı olur.'],
+ ['Sınıfta bir arkadaşın konuşurken sen de bir şey söylemek istiyorsun. Ne yapabilirsin?', 'Onu dinleyip söz isteyebilirim.', 'Sözünü kesebilirim.', 'Daha yüksek sesle konuşabilirim.', 'Arkadaşını dinleyip söz istemek, ikinizin de düşüncesini anlatmasına yardımcı olur.'],
+ ['Bir arkadaşın resim yapmayı, sen top oynamayı seviyorsun. Bu durumda hangisi doğrudur?', 'Farklı şeyleri sevebiliriz.', 'Herkes aynı oyunu sevmelidir.', 'Arkadaş olamayız.', 'Arkadaşların farklı ilgileri olabilir. Farklı etkinlikleri sevmek arkadaş olmaya engel değildir.'],
+ ['Sen ve arkadaşın aynı kitabı okumak istiyorsunuz. Nasıl anlaşabilirsiniz?', 'Sırayla okumayı konuşabiliriz.', 'Kitabı birbirimizden çekebiliriz.', 'Kitabı gizleyebiliriz.', 'Sırayla okumak için konuşmak iki arkadaşın da kitaptan yararlanmasını sağlayabilir.']
+];

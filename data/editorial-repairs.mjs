@@ -9,7 +9,8 @@ import {geminiMultiplicationEasy} from './gemini-multiplication-repairs.mjs';
 import {divisionEasy,divisionMedium} from './gemini-division-repairs.mjs';
 import {multiplicationMedium} from './gemini-multiplication-medium.mjs';
 import {lengthEasy,lengthMedium} from './gemini-length-repairs.mjs';
-import {schoolEasy} from './gemini-school-repairs.mjs';
+import {schoolEasy,schoolMedium} from './gemini-school-repairs.mjs';
+import {safetyEasy} from './gemini-safety-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
@@ -21,6 +22,16 @@ test(4,'matematik','carpma','kolay',1,geminiMultiplicationEasy,'reviewed_gemini_
 test(4,'matematik','bolme','kolay',1,divisionEasy,'reviewed_gemini_draft_replaces_repeated_division_template');
 test(4,'matematik','bolme','orta',1,divisionMedium,'reviewed_gemini_draft_replaces_repeated_division_template');
 test(1,'hayat-bilgisi','ben-ve-okulum','kolay',1,schoolEasy,'reviewed_gemini_grade_one_school_questions');
+test(1,'hayat-bilgisi','ben-ve-okulum','orta',1,schoolMedium,'reviewed_gemini_grade_one_school_questions');
+test(1,'hayat-bilgisi','sagligim-ve-guvenligim','kolay',1,safetyEasy,'reviewed_gemini_grade_one_safety_questions');
+for(const [slug,skills] of [
+ ['1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1',['Yardımlaşma','Okulda güvenli davranış','Yardım isteme','Okul bölümlerini tanıma','Yardımlaşma','Ortak eşyalara özen','Derse hazırlanma','Söz isteme','Farklılıklara saygı','Paylaşma']],
+ ['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1',['Trafik güvenliği','El temizliği','Kişisel sınırlar','Güvenli yardım isteme','Diş temizliği','Elektrik güvenliği','Dengeli beslenme','Yaralanmada yardım','Çevre temizliği','Güvenli ortak alanlar']]
+]) for(const [index,subSkill] of skills.entries()) {
+ const repair=repairs.find(p=>p.slug===slug&&p.index===index);
+ if(!repair)throw new Error(`Missing grade-one repair ${slug}/${index}`);
+ repair.metadata={subSkill,questionType:index===1?'gorsel-okuma':'cikarim'};
+}
 const schoolSkills=[['Okula hazırlık','eslestirme'],['Okulda güvenli davranış','cikarim'],['Okul çalışanlarını tanıma','eslestirme'],['Okul bölümlerini tanıma','eslestirme'],['Yardım isteme','cikarim'],['Ortak alanları tanıma','eslestirme'],['Ortak eşyalara özen','cikarim'],['Söz isteme','cikarim'],['Dinleme','cikarim'],['Anlaşmazlığı çözme','cikarim']];
 for(const [index,[subSkill,questionType]] of schoolSkills.entries()) {
  const repair=repairs.find(p=>p.slug==='1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1'&&p.index===index);
@@ -322,6 +333,10 @@ const shortRepairs = [
  ['life-in-the-city-and-the-world',9,['“The bus goes to the museum.” Otobüsün gittiği yer neresi?','Museum','Library','Market','Goes to bir yere gider demektir. Verilen hedef museum yani müzedir; kütüphane veya market değildir.']]
 ];
 for(const [topic,index,row] of shortRepairs)repairs.push({slug:`2-sinif-ingilizce-${topic}-zor-test-2`,index,row,reason:'off_topic_translation_template'});
+Object.assign(visualEvidence,{
+ '1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:1':['Koridordaki iki öğrenci',{first:'Mert: yavaş yürüyor',second:'Ada: koşuyor'}],
+ '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['İki öğrencinin davranışı',{first:'Ece: yemekten önce ellerini yıkıyor',second:'Bora: ellerini yıkamadan yemek yiyor'}]
+});
 Object.assign(visualEvidence,{
  '2-sinif-ingilizce-classroom-life-zor-test-2:1':['Classroom colours',{first:'Pencil: red',second:'Book: blue'}],
  '2-sinif-ingilizce-personal-life-zor-test-2:5':['About Ece',{first:'Name: Ece',second:'Age: eight'}]

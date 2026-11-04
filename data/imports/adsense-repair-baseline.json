@@ -1986,5 +1986,85 @@
   "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1:9": {
     "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
     "sha256": "61b542fd5032e0c6de3b4931039b5e6d96009106b8806061c58cb3a64ec58e24"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:0": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
+    "sha256": "fa4467f9b34ae06e4d04f35951c8f0a81c819457a8429b31356f0eea6dbe40a2"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:1": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
+    "sha256": "9c36ed11d3782968daaed1b4c98b5d353e3f45088f34f98a7927741db60000eb"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:2": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
+    "sha256": "694086959c1a0ba7db4f526533bf812f7aa1e24cb3ceb422b2d34bdd9f8460a4"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:3": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
+    "sha256": "d9c61b651e8a4fbc807fa4ecc1dbbe211827ab8c3fa992a3b5a71bfa0a6af979"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:4": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
+    "sha256": "c1af98bc4e0a9698909d74c54bdfec2d9e5c86cb8487b98890d23d6188b4a5e6"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:5": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
+    "sha256": "6330269a17a20d16c5aeb4451749c343351fd4ca66e8da9b4e0691391539a01a"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:6": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
+    "sha256": "be772f875663796b7c8a941f67d97c8d11ec2ef6aa54ad1660590434e2d984ec"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:7": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
+    "sha256": "5cd965d0a06213656fa2f6cf23d1e58a42d7690a266472b086c6085ea0342fe6"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:8": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-9",
+    "sha256": "9482c1569548697f935a760dd651e94e888df82869a62a0fc1af1e9ec280ec47"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:9": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10",
+    "sha256": "b65304aae7b1876df72fb71dc3e2c4f015e564551086af9d170ae681cc54e3c7"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:0": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-1",
+    "sha256": "fe0827ff4ff40574a1549446c576297bc02748c3eda90680f7f004060a1e6fa7"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2",
+    "sha256": "9bffff7d20e668ea2aebd72b7ff4ac8ccf47b42f96457308c820582867187a7e"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:2": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-3",
+    "sha256": "5b97f16ee377a769383eb0cdafcd8e7d5db8c98b2d588cddd2b622660c955d9f"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:3": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-4",
+    "sha256": "c760ce4e2634251a70e35dcba8287f3d9591ad13893b06ba434933c878c5cff9"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:4": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-5",
+    "sha256": "d6332b448673a9a757070812283ee09770edc6a3d8b4d20b8f31ca3d96e14ddf"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:5": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-6",
+    "sha256": "d7e6cf9b2ed0897f82f20c1dda02fc111a9d41ebab46ae18da5ca0cc163903bf"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:6": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
+    "sha256": "659a9b59a6bea60aa1229d16bc5b27271568224c9ab9e6276ddfc6d4d262219e"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:7": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-8",
+    "sha256": "0ac3c173bd6b18d80362ab42ec10e0fc0c0e166c29754d2902f55740fec15b0b"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:8": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-9",
+    "sha256": "5b8e73937f1bba6ebd4a7dd6f2aa2344008e6b282c8693d1ed16b578122b9028"
+  },
+  "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:9": {
+    "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-10",
+    "sha256": "56fde074b0b9ef5e7e1db742d3dc4cd7c6ee30070b152859eb0a1ffa6deb7068"
   }
 }
