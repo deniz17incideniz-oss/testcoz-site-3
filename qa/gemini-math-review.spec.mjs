@@ -2,8 +2,9 @@ import {test,expect} from '@playwright/test';
 
 for(const [topic,difficulty,skip,question,wrong,explanation] of [
  ['bolme','kolay',3,'Hangi bölme işleminin sonucu','72 ÷ 9','45 ÷ 5 = 9'],
+ ['bolme','orta',4,'diğer üç işlemin bölümünden','480 ÷ 6','360 ÷ 4 = 90'],
  ['carpma','orta',4,'45 × 16','Yalnız ilk ikisi eşittir.','30 × 24 = 720']
-]) test(`${topic}: reviewed comparison and explanation on mobile`,async({page})=>{
+]) test(`${topic} ${difficulty}: reviewed comparison and explanation on mobile`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());
  await page.setViewportSize({width:320,height:850});
  await page.goto(`/tests/4-sinif-matematik-${topic}-${difficulty}-test-1.html`);

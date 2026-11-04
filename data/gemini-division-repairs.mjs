@@ -11,3 +11,17 @@ export const divisionEasy = [
  ['720 ÷ 9 işleminin sonucu kaçtır?', '80', '8', '70', '90', '72 ÷ 9 = 8’dir. 720, 72’nin on katı olduğundan 720 ÷ 9 = 80 olur.'],
  ['Zeynep’in 87 boncuğu var. Bir bilezik için 7 boncuk kullanırsa en fazla kaç tam bilezik yapar?', '12', '11', '13', '14', '87 = 7 × 12 + 3. Kalan 3 boncuk bir bilezik için yetmediğinden en fazla 12 tam bilezik yapılır.']
 ];
+
+// The initial medium draft contained ambiguous and out-of-scope questions; edited after independent review.
+export const divisionMedium = [
+ ['96 öğrenci, her grupta 4 öğrenci olacak şekilde ayrılıyor. Kaç grup oluşur?', '24', '22', '26', '28', '96 ÷ 4 = 24. Kontrol için 24 gruptaki 4’er öğrenci sayılır: 24 × 4 = 96.'],
+ ['87 litre süt, beşer litrelik bidonlara dolduruluyor. Tam dolu bidonlar doldurulduktan sonra kaç litre süt artar?', '2', '1', '3', '4', '5 × 17 = 85 litre tam bidonlara konur. 87 − 85 = 2 litre artar.'],
+ ['Bir bölme işleminde bölen 7, bölüm 14 ve kalan 3’tür. Bölünen kaçtır?', '101', '95', '98', '104', 'Bölen ile bölüm çarpılır, kalan eklenir: 7 × 14 + 3 = 98 + 3 = 101. Kalan 3, bölen 7’den küçüktür.'],
+ ['150 elma, her poşette 6 elma olacak şekilde paketleniyor. Her poşetin fiyatı 45 TL’dir. Kaç poşet hazırlanır?', '25', '20', '30', '35', 'Poşet sayısı için 150 ÷ 6 = 25 hesaplanır. Poşet fiyatı bu soruda gerekli değildir.'],
+ ['Aşağıdaki işlemlerden hangisinin bölümü, diğer üç işlemin bölümünden farklıdır?', '360 ÷ 4', '480 ÷ 6', '400 ÷ 5', '240 ÷ 3', '360 ÷ 4 = 90’dır. Diğer üç işlemin sonucu 80 olduğu için farklı olan 360 ÷ 4’tür.'],
+ ['Bir bölme işleminde bölen 5, bölüm 18 ve kalan 2’dir. Bölünen kaçtır?', '92', '90', '88', '95', '5 × 18 = 90. Kalan 2 eklenince bölünen 92 olur; 92 = 5 × 18 + 2.'],
+ ['144 kalem, her kutuya 6 kalem konularak paketleniyor. Kaç kutu gerekir?', '24', '22', '23', '25', '144 ÷ 6 = 24. Kontrol: 24 kutunun her birindeki 6 kalem toplam 24 × 6 = 144 kalem eder.'],
+ ['Birler basamağı 0 olan en küçük üç basamaklı sayı 5’e bölünürse bölüm kaç olur?', '20', '10', '100', '200', 'En küçük üç basamaklı sayı 100’dür ve birler basamağı 0’dır. 100 ÷ 5 = 20.'],
+ ['420 fidan, her sırada 7 fidan olacak şekilde dikiliyor. Kaç sıra oluşur?', '60', '50', '70', '80', 'Fidanları yedişerli sıralara ayırırız: 420 ÷ 7 = 60. Kontrol: 60 × 7 = 420.'],
+ ['232 kurabiye sekizerli paketlenirse kaç kurabiye artar?', '0', '2', '4', '6', '232 = 8 × 29. Bölme kalansız olduğu için paketlemeden sonra kurabiye artmaz.']
+];

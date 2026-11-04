@@ -1826,5 +1826,45 @@
   "4-sinif-matematik-carpma-orta-test-1:9": {
     "id": "4-sinif-matematik-carpma-orta-test-1-soru-10",
     "sha256": "96df4483f4aeb9627778a4cfc63c7dfc80c5454e364e5c25ec5b6c5af2818521"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:0": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-1",
+    "sha256": "8795919ca104d1b75cacdcd6635f315a100f12604b32d450c0e932a8d13d9fac"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:1": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-2",
+    "sha256": "7f1dff74a3490aab5d3dc6571220bc0e08b6a764da7231f24091854b52754830"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:2": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-3",
+    "sha256": "b99f3c88d4d8b54e40f1e418769483dabb4ee0e99c61314893790a07c3834ffb"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:3": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-4",
+    "sha256": "f717744a163cfe80022abebeda6620659d5d4eb88f19ea2c5c94c3c7a4814550"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:4": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-5",
+    "sha256": "b04ef8aacb0b9e0dd5daad28c835576b9a01607791789ccdce6016d54c917d02"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:5": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-6",
+    "sha256": "795648f7903141aeedc36cd958bd55a53ff82c20a1e91fed4318cdbfdd609afe"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:6": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-7",
+    "sha256": "ce8357f1a0a9fc97df9a2d89eb3ce182714adddaa7b3bffb8899822174cc1e27"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:7": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-8",
+    "sha256": "4e14ec3bb266e12f0c969a310f369401f65f1206d25c82e10baa7d31c3538164"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:8": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-9",
+    "sha256": "a9dde63ae09b842d88a6bff670f3df8cbff1903b5864e1072c428e7e50a2c5dd"
+  },
+  "4-sinif-matematik-bolme-orta-test-1:9": {
+    "id": "4-sinif-matematik-bolme-orta-test-1-soru-10",
+    "sha256": "e0d9bfa0b9f9624f0624391f88d3e7dcea95ec90f4192b4e14e16dc579ee916c"
   }
 }

@@ -6,7 +6,7 @@ import {fractionsEasy,fractionsMedium} from './fractions-repairs.mjs';
 import {additionEasy,additionMedium} from './addition-repairs.mjs';
 import {subtractionEasy,subtractionMedium} from './subtraction-repairs.mjs';
 import {geminiMultiplicationEasy} from './gemini-multiplication-repairs.mjs';
-import {divisionEasy} from './gemini-division-repairs.mjs';
+import {divisionEasy,divisionMedium} from './gemini-division-repairs.mjs';
 import {multiplicationMedium} from './gemini-multiplication-medium.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
@@ -17,6 +17,13 @@ test(4, 'matematik', 'toplama', 'kolay', 1, additionEasy, 'replace_repeated_addi
 test(4, 'matematik', 'toplama', 'orta', 1, additionMedium, 'replace_repeated_addition_template_with_varied_applications');
 test(4,'matematik','carpma','kolay',1,geminiMultiplicationEasy,'reviewed_gemini_draft_replaces_repeated_multiplication_template');
 test(4,'matematik','bolme','kolay',1,divisionEasy,'reviewed_gemini_draft_replaces_repeated_division_template');
+test(4,'matematik','bolme','orta',1,divisionMedium,'reviewed_gemini_draft_replaces_repeated_division_template');
+const divisionMediumSkills=[['Gruplama problemi','problem'],['Kalanı yorumlama','problem'],['Bölüneni bulma','islem'],['Gereksiz bilgiyi ayırma','problem'],['Bölümleri karşılaştırma','karsilastirma'],['Bölüneni bulma','islem'],['Eşit gruplama','problem'],['Basamak ve bölme','islem'],['Gruplama problemi','problem'],['Kalanı yorumlama','problem']];
+for(const [index,[subSkill,questionType]] of divisionMediumSkills.entries()) {
+ const repair=repairs.find(p=>p.slug==='4-sinif-matematik-bolme-orta-test-1'&&p.index===index);
+ if(!repair)throw new Error(`Missing medium division repair ${index}`);
+ repair.metadata={subSkill,questionType};
+}
 test(4,'matematik','carpma','orta',1,multiplicationMedium,'reviewed_gemini_draft_replaces_repeated_multiplication_template');
 const multiplicationMediumSkills=[['Eş gruplarla çarpma','problem'],['50 ile zihinden çarpma','islem'],['Üç basamaklı sayıyla çarpma','problem'],['İki basamaklı sayılarla çarpma','problem'],['Çarpımları karşılaştırma','karsilastirma'],['Çarpımı basamaklara ayırma','islem'],['Eksik çarpanı bulma','islem'],['Çarpımı tahmin etme','islem'],['Eş gruplarla çarpma','problem'],['Çarpımı karşılaştırma','karsilastirma']];
 for(const [index,[subSkill,questionType]] of multiplicationMediumSkills.entries()) {
