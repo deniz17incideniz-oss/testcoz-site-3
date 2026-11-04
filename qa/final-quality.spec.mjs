@@ -10,7 +10,7 @@ for(const grade of [1,2,3,4])test(`grade ${grade} hard test, back navigation and
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const bank=tests.find(t=>t.classLevel===grade&&t.subject==='matematik'&&t.difficulty==='zor'&&(grade!==4||t.topic==='geometrik-cisimler'));
  await page.goto('/'+bank.pageUrl);await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
- await page.locator('[data-choice="1"]').click();await page.locator('#nextQuestion').click();await page.locator('#previousQuestion').click();await expect(page.locator('[data-choice="1"]')).toHaveAttribute('aria-pressed','true');
+ await page.locator('[data-choice="1"]').click();await page.locator('#nextQuestion').click();await page.locator('#previousQuestion').click();await expect(page.locator('[data-choice="1"]')).toHaveAttribute('aria-checked','true');
  for(let i=0;i<10;i++)await page.locator('#skipQuestion').click();
  await expect(page.locator('.result-score')).toHaveText('%0');await expect(page.locator('.wrong-item')).toHaveCount(10);
  await expect(page.getByRole('link',{name:'Bir Üst Seviyeyi Dene'})).toHaveCount(0);

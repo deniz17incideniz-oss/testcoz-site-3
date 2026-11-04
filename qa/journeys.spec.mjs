@@ -20,7 +20,7 @@ for(const grade of [1,2,3,4])test(`grade ${grade} complete, wrong, skipped and r
  for(let i=0;i<10;i++){
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();
   for(const img of await page.locator('#questionArea img').all())await expect.poll(()=>img.evaluate(e=>e.complete&&e.naturalWidth>0)).toBeTruthy();
-  if(i<7){await page.locator(`[data-choice="${correct[i]}"]`).click();await expect(page.locator('[aria-pressed="true"]')).toHaveCount(1);await page.locator('#nextQuestion').click();}
+  if(i<7){await page.locator(`[data-choice="${correct[i]}"]`).click();await expect(page.locator('[data-choice][aria-checked="true"]')).toHaveCount(1);await page.locator('#nextQuestion').click();}
   else if(i<9){const count=await page.locator('[data-choice]').count();await page.locator(`[data-choice="${(correct[i]+1)%count}"]`).click();await page.locator('#nextQuestion').click();}
   else {await page.locator('[data-choice="0"]').click();await page.locator('#skipQuestion').click();}
  }
@@ -28,7 +28,7 @@ for(const grade of [1,2,3,4])test(`grade ${grade} complete, wrong, skipped and r
  await expect(page.locator('.result-stat-val')).toHaveText(['7','2','1']);await expect(page.locator('.wrong-item')).toHaveCount(3);
  await page.getByRole('link',{name:'Yanlışlarını Öğren',exact:true}).click();await expect(page.locator('#wrongReview')).toBeFocused();
  if(grade===1)await page.screenshot({path:'outputs/result-mobile.png',fullPage:true});
- await page.locator('#restartTest').click();await expect(page.locator('.test-counter')).toHaveText('Soru 1 / 10');await expect(page.locator('[aria-pressed="true"]')).toHaveCount(0);
+ await page.locator('#restartTest').click();await expect(page.locator('.test-counter')).toHaveText('Soru 1 / 10');await expect(page.locator('[data-choice][aria-checked="true"]')).toHaveCount(0);
  expect(errors).toEqual([]);
 });
 test('registration, login, panel and logout UI with explicit API fixtures',async({page})=>{

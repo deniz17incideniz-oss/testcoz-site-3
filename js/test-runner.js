@@ -74,12 +74,13 @@
       : "";
     const choices = question.choices.map(function (choice, index) {
       const selectedClass = selected === index ? " is-selected" : "";
-      return '<button type="button" class="option-btn' + selectedClass + '" data-choice="' + index + '" aria-pressed="' + (selected === index) + '">' +
+      const tabIndex = selected === index || (selected === null && index === 0) ? 0 : -1;
+      return '<button type="button" role="radio" class="option-btn' + selectedClass + '" data-choice="' + index + '" aria-checked="' + (selected === index) + '" tabindex="' + tabIndex + '">' +
         '<span class="option-letter">' + letters[index] + '</span><span>' + utils.escapeHtml(choice) + '</span></button>';
     }).join("");
 
     document.getElementById("questionArea").innerHTML = '<div class="question-card">' + image + evidenceCaption(question) +
-      '<p class="question-text" tabindex="-1">' + utils.escapeHtml(question.question) + '</p><div class="options-grid">' + choices + '</div>' +
+      '<p class="question-text" id="currentQuestionText" tabindex="-1">' + utils.escapeHtml(question.question) + '</p><div class="options-grid" role="radiogroup" aria-labelledby="currentQuestionText">' + choices + '</div>' +
       '<a class="report-question" href="mailto:iletisim@testcoz.pro?subject=' + encodeURIComponent('Soruda hata bildirimi') + '&amp;body=' + encodeURIComponent('Sınıf: '+classLevel+'\nDers: '+subject.name+'\nKonu: '+topic.name+'\nZorluk: '+difficulty+'\nTest: '+testNumber+'\nSoru: '+(currentIndex+1)+'\nSoru kimliği: '+question.id+'\nHata açıklaması: ') + '">Soruda hata mı var?</a>' +
       '<div class="test-nav"><button type="button" class="btn btn-outline btn-sm" id="previousQuestion"' + (currentIndex === 0 ? " disabled" : "") + '>← Önceki</button>' +
       '<button type="button" class="btn btn-ghost btn-sm" id="skipQuestion">Geç</button>' +
@@ -87,15 +88,26 @@
     updateProgress();
     if (focusQuestion) document.querySelector(".question-text").focus({preventScroll:true});
 
-    document.querySelectorAll("[data-choice]").forEach(function (button) {
-      button.addEventListener("click", function () {
+    const choiceButtons = Array.from(document.querySelectorAll("[data-choice]"));
+    function selectChoice(button) {
         answers[currentIndex] = Number(button.dataset.choice);
-        document.querySelectorAll("[data-choice]").forEach(function(option) {
+        choiceButtons.forEach(function(option) {
           const active = option === button;
           option.classList.toggle("is-selected", active);
-          option.setAttribute("aria-pressed", String(active));
+          option.setAttribute("aria-checked", String(active));
+          option.tabIndex = active ? 0 : -1;
         });
         updateProgress();
+    }
+    choiceButtons.forEach(function (button, index) {
+      button.addEventListener("click", function () { selectChoice(button); });
+      button.addEventListener("keydown", function (event) {
+        const forward = event.key === "ArrowRight" || event.key === "ArrowDown";
+        const backward = event.key === "ArrowLeft" || event.key === "ArrowUp";
+        if (!forward && !backward) return;
+        event.preventDefault();
+        const next = choiceButtons[(index + (forward ? 1 : -1) + choiceButtons.length) % choiceButtons.length];
+        selectChoice(next);next.focus();
       });
     });
     document.getElementById("previousQuestion").addEventListener("click", function () {
