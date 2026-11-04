@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 467,
+  "count": 487,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -4828,6 +4828,1386 @@
         "tags": [
           "matematik",
           "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-1",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 4 m 25 cm kaç santimetredir?",
+        "choices": [
+          "450",
+          "400",
+          "475",
+          "425"
+        ],
+        "correctAnswer": 3,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-1",
+        "options": [
+          "450",
+          "400",
+          "475",
+          "425"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aslı’nın boyu 1 metre 35 santimetredir. Boyu kaç santimetredir?",
+        "choices": [
+          "135 cm",
+          "105 cm",
+          "150 cm",
+          "1 350 cm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir. 100 + 35 = 135 santimetre bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-1",
+        "options": [
+          "135 cm",
+          "105 cm",
+          "150 cm",
+          "1 350 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Metre santimetre dönüşümü",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-2",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 5 m 50 cm kaç santimetredir?",
+        "choices": [
+          "550",
+          "575",
+          "525",
+          "600"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-2",
+        "options": [
+          "550",
+          "575",
+          "525",
+          "600"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir adımı 50 santimetre olan Kerem 10 eşit adım yürürse kaç metre yol alır?",
+        "choices": [
+          "5000 m",
+          "5 m",
+          "50 m",
+          "500 m"
+        ],
+        "correctAnswer": 1,
+        "explanation": "10 adımda 10 × 50 = 500 santimetre yol alır. 500 santimetre 5 metredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-2",
+        "options": [
+          "5000 m",
+          "5 m",
+          "50 m",
+          "500 m"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Uzunluk problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-3",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 6 m 75 cm kaç santimetredir?",
+        "choices": [
+          "675",
+          "700",
+          "650",
+          "725"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-3",
+        "options": [
+          "675",
+          "700",
+          "650",
+          "725"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "3 metrelik bir şeridin 1 metre 20 santimetresi kullanıldı. Geriye kaç santimetre kaldı?",
+        "choices": [
+          "220 cm",
+          "420 cm",
+          "180 cm",
+          "18 cm"
+        ],
+        "correctAnswer": 2,
+        "explanation": "3 metre 300 cm, 1 metre 20 santimetre 120 cm’dir. 300 − 120 = 180 cm kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-3",
+        "options": [
+          "220 cm",
+          "420 cm",
+          "180 cm",
+          "18 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Kalan uzunluk",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-4",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 7 m 0 cm kaç santimetredir?",
+        "choices": [
+          "725",
+          "675",
+          "750",
+          "700"
+        ],
+        "correctAnswer": 3,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-4",
+        "options": [
+          "725",
+          "675",
+          "750",
+          "700"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "İki şehir arasındaki yol uzunluğunu ifade etmek için hangi birim daha uygundur?",
+        "choices": [
+          "Milimetre",
+          "Santimetre",
+          "Karış",
+          "Kilometre"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Şehirler arasındaki uzun yollar için kilometre kullanmak uygundur; santimetre ve milimetre daha küçük uzunluklar için kullanılır.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-4",
+        "options": [
+          "Milimetre",
+          "Santimetre",
+          "Karış",
+          "Kilometre"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Uygun birimi seçme",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-5",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 8 m 25 cm kaç santimetredir?",
+        "choices": [
+          "850",
+          "800",
+          "875",
+          "825"
+        ],
+        "correctAnswer": 3,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-5",
+        "options": [
+          "850",
+          "800",
+          "875",
+          "825"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kenarı 25 santimetre olan karenin çevresi kaç santimetredir?",
+        "choices": [
+          "100 cm",
+          "50 cm",
+          "75 cm",
+          "125 cm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Karenin dört eş kenarı vardır. 25 + 25 + 25 + 25 = 100 santimetre.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-5",
+        "options": [
+          "100 cm",
+          "50 cm",
+          "75 cm",
+          "125 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Çevre uzunluğu",
+        "questionType": "islem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-6",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 9 m 50 cm kaç santimetredir?",
+        "choices": [
+          "950",
+          "975",
+          "925",
+          "1000"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-6",
+        "options": [
+          "950",
+          "975",
+          "925",
+          "1000"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir kalem 12 cm, bir silgi 40 mm uzunluğundadır. Kalem silgiden kaç santimetre uzundur?",
+        "choices": [
+          "116 cm",
+          "8 cm",
+          "28 cm",
+          "38 cm"
+        ],
+        "correctAnswer": 1,
+        "explanation": "40 mm = 4 cm. Aynı birimle karşılaştırırsak 12 − 4 = 8 cm fark bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-6",
+        "options": [
+          "116 cm",
+          "8 cm",
+          "28 cm",
+          "38 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Milimetre santimetre dönüşümü",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-7",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 10 m 75 cm kaç santimetredir?",
+        "choices": [
+          "1125",
+          "1075",
+          "1100",
+          "1050"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-7",
+        "options": [
+          "1125",
+          "1075",
+          "1100",
+          "1050"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Hangisi 1 metreye eşittir?",
+        "choices": [
+          "1 000 cm",
+          "100 mm",
+          "100 cm",
+          "10 cm"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1 metre 100 santimetredir. 100 milimetre ise 10 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-7",
+        "options": [
+          "1 000 cm",
+          "100 mm",
+          "100 cm",
+          "10 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Metre santimetre eşitliği",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-8",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 11 m 0 cm kaç santimetredir?",
+        "choices": [
+          "1100",
+          "1125",
+          "1075",
+          "1150"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-8",
+        "options": [
+          "1100",
+          "1125",
+          "1075",
+          "1150"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "4 metrelik kumaştan, her biri 50 santimetre olan kaç eş parça kesilebilir?",
+        "choices": [
+          "2 parça",
+          "4 parça",
+          "20 parça",
+          "8 parça"
+        ],
+        "correctAnswer": 3,
+        "explanation": "4 metre = 400 cm. Her biri 50 cm olan 8 parça 8 × 50 = 400 cm eder.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-8",
+        "options": [
+          "2 parça",
+          "4 parça",
+          "20 parça",
+          "8 parça"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Eş parçalara ayırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-9",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 12 m 25 cm kaç santimetredir?",
+        "choices": [
+          "1225",
+          "1250",
+          "1200",
+          "1275"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-9",
+        "options": [
+          "1225",
+          "1250",
+          "1200",
+          "1275"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir oda kapısının yüksekliği için hangi tahmin en uygundur?",
+        "choices": [
+          "2 metre",
+          "2 milimetre",
+          "2 santimetre",
+          "2 kilometre"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir oda kapısı bir insandan biraz daha yüksek olabilir; yaklaşık 2 metre, diğer seçeneklerden daha gerçekçi bir tahmindir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-9",
+        "options": [
+          "2 metre",
+          "2 milimetre",
+          "2 santimetre",
+          "2 kilometre"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Uzunluğu tahmin etme",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-10",
+      "test": "4-sinif-matematik-uzunluk-olcme-kolay-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik kolay — Uzunluk Ölçme: 13 m 50 cm kaç santimetredir?",
+        "choices": [
+          "1400",
+          "1350",
+          "1375",
+          "1325"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-10",
+        "options": [
+          "1400",
+          "1350",
+          "1375",
+          "1325"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Buse’nin boyu 128 cm idi. 7 cm uzayınca boyu kaç metre kaç santimetre olur?",
+        "choices": [
+          "135 m",
+          "1 m 35 cm",
+          "1 m 5 cm",
+          "2 m 35 cm"
+        ],
+        "correctAnswer": 1,
+        "explanation": "128 + 7 = 135 cm. 135 cm, 100 cm + 35 cm yani 1 m 35 cm’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-10",
+        "options": [
+          "135 m",
+          "1 m 35 cm",
+          "1 m 5 cm",
+          "2 m 35 cm"
+        ],
+        "difficulty": "kolay",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Boy uzunluğu problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-1",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 7 m 25 cm kaç santimetredir?",
+        "choices": [
+          "725",
+          "750",
+          "700",
+          "775"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-1",
+        "options": [
+          "725",
+          "750",
+          "700",
+          "775"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "3 metrelik kumaşın önce 125 cm’si, sonra 90 cm’si kesiliyor. Kaç santimetre kumaş kalır?",
+        "choices": [
+          "85 cm",
+          "175 cm",
+          "210 cm",
+          "285 cm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "3 m = 300 cm. Kesilen 125 + 90 = 215 cm’dir; 300 − 215 = 85 cm kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-1",
+        "options": [
+          "85 cm",
+          "175 cm",
+          "210 cm",
+          "285 cm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Kalan uzunluk",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-2",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 8 m 50 cm kaç santimetredir?",
+        "choices": [
+          "900",
+          "850",
+          "875",
+          "825"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-2",
+        "options": [
+          "900",
+          "850",
+          "875",
+          "825"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Kerem 1 km 250 m, Deniz 980 m koşuyor. Kerem kaç metre daha fazla koşmuştur?",
+        "choices": [
+          "350 m",
+          "270 m",
+          "170 m",
+          "250 m"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 km 250 m = 1 250 m. Fark 1 250 − 980 = 270 metredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-2",
+        "options": [
+          "350 m",
+          "270 m",
+          "170 m",
+          "250 m"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Kilometre metre dönüşümü",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-3",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 9 m 75 cm kaç santimetredir?",
+        "choices": [
+          "1025",
+          "975",
+          "1000",
+          "950"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-3",
+        "options": [
+          "1025",
+          "975",
+          "1000",
+          "950"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Çevresi 240 cm olan kare masanın bir kenarı kaç milimetredir?",
+        "choices": [
+          "2 400 mm",
+          "6 000 mm",
+          "600 mm",
+          "60 mm"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bir kenar 240 ÷ 4 = 60 cm’dir. 1 cm = 10 mm olduğundan 60 cm = 600 mm olur.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-3",
+        "options": [
+          "2 400 mm",
+          "6 000 mm",
+          "600 mm",
+          "60 mm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Çevre ve milimetre dönüşümü",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-4",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 10 m 0 cm kaç santimetredir?",
+        "choices": [
+          "1050",
+          "1000",
+          "1025",
+          "975"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-4",
+        "options": [
+          "1050",
+          "1000",
+          "1025",
+          "975"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Ev ile okul arası 750 metredir. Zeynep aynı gün iki kez evden okula gidip eve dönüyor. Toplam kaç metre yürür?",
+        "choices": [
+          "1 500 m",
+          "2 250 m",
+          "6 000 m",
+          "3 000 m"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bir gidiş ve dönüş 750 + 750 = 1 500 m’dir. İki gidiş-dönüş 1 500 × 2 = 3 000 m eder.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-4",
+        "options": [
+          "1 500 m",
+          "2 250 m",
+          "6 000 m",
+          "3 000 m"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Gidiş dönüş mesafesi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-5",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 11 m 25 cm kaç santimetredir?",
+        "choices": [
+          "1175",
+          "1125",
+          "1150",
+          "1100"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-5",
+        "options": [
+          "1175",
+          "1125",
+          "1150",
+          "1100"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "2 metrelik bir çubuktan, her biri 40 cm olan kaç eş parça elde edilir?",
+        "choices": [
+          "5 parça",
+          "4 parça",
+          "20 parça",
+          "50 parça"
+        ],
+        "correctAnswer": 0,
+        "explanation": "2 m = 200 cm. Beş parça 5 × 40 = 200 cm eder; dolayısıyla 5 eş parça elde edilir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-5",
+        "options": [
+          "5 parça",
+          "4 parça",
+          "20 parça",
+          "50 parça"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Eş parçalara ayırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-6",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 12 m 50 cm kaç santimetredir?",
+        "choices": [
+          "1225",
+          "1300",
+          "1250",
+          "1275"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-6",
+        "options": [
+          "1225",
+          "1300",
+          "1250",
+          "1275"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir böceğin modeli 9 mm uzunluğundadır. Bu modellerden 20 tanesi aralıksız uç uca konulursa toplam kaç santimetre olur?",
+        "choices": [
+          "9 cm",
+          "18 cm",
+          "180 cm",
+          "1 800 cm"
+        ],
+        "correctAnswer": 1,
+        "explanation": "20 × 9 = 180 mm. 10 mm = 1 cm olduğundan 180 mm = 18 cm’dir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-6",
+        "options": [
+          "9 cm",
+          "18 cm",
+          "180 cm",
+          "1 800 cm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Milimetre santimetre dönüşümü",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-7",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 13 m 75 cm kaç santimetredir?",
+        "choices": [
+          "1350",
+          "1425",
+          "1375",
+          "1400"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-7",
+        "options": [
+          "1350",
+          "1425",
+          "1375",
+          "1400"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Ayşe’nin boyu 1 m 35 cm’dir. Annesi Ayşe’den 38 cm uzundur. Annesinin boyu kaç santimetredir?",
+        "choices": [
+          "168 cm",
+          "178 cm",
+          "173 cm",
+          "163 cm"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1 m 35 cm = 135 cm. 135 + 38 = 173 santimetre bulunur.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-7",
+        "options": [
+          "168 cm",
+          "178 cm",
+          "173 cm",
+          "163 cm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Boy uzunluğu problemi",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-8",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 14 m 0 cm kaç santimetredir?",
+        "choices": [
+          "1450",
+          "1400",
+          "1425",
+          "1375"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-8",
+        "options": [
+          "1450",
+          "1400",
+          "1425",
+          "1375"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Kenarları 85 cm ve 45 cm olan dikdörtgenin çevresine iki sıra kurdele sarılacak. Kaç metre kaç santimetre kurdele gerekir?",
+        "choices": [
+          "2 m 60 cm",
+          "5 m 2 cm",
+          "10 m 40 cm",
+          "5 m 20 cm"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bir çevre 85 + 45 + 85 + 45 = 260 cm’dir. İki sıra 520 cm, yani 5 m 20 cm olur.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-8",
+        "options": [
+          "2 m 60 cm",
+          "5 m 2 cm",
+          "10 m 40 cm",
+          "5 m 20 cm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Çevre uzunluğu",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-9",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 15 m 25 cm kaç santimetredir?",
+        "choices": [
+          "1575",
+          "1525",
+          "1550",
+          "1500"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-9",
+        "options": [
+          "1575",
+          "1525",
+          "1550",
+          "1500"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir otobüs 450 km’lik yolun 320 km’sini gitti. Kalan yol kaç metredir?",
+        "choices": [
+          "130 000 m",
+          "13 000 m",
+          "320 000 m",
+          "770 000 m"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kalan yol 450 − 320 = 130 km’dir. 1 km = 1 000 m olduğundan 130 km = 130 000 m.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-9",
+        "options": [
+          "130 000 m",
+          "13 000 m",
+          "320 000 m",
+          "770 000 m"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Kilometre metre dönüşümü",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-10",
+      "test": "4-sinif-matematik-uzunluk-olcme-orta-test-1",
+      "reason": "reviewed_gemini_draft_replaces_repeated_length_template",
+      "before": {
+        "question": "4. sınıf Matematik orta — Uzunluk Ölçme: 16 m 50 cm kaç santimetredir?",
+        "choices": [
+          "1625",
+          "1700",
+          "1650",
+          "1675"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1 metre 100 santimetredir.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-10",
+        "options": [
+          "1625",
+          "1700",
+          "1650",
+          "1675"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
+          "uzunluk-olcme",
+          "problem",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "6 metrelik ipin ucundan her gün 15 cm kesiliyor. 8 gün sonra ipin uzunluğu kaç santimetre olur?",
+        "choices": [
+          "600 cm",
+          "480 cm",
+          "120 cm",
+          "570 cm"
+        ],
+        "correctAnswer": 1,
+        "explanation": "6 m = 600 cm. Sekiz günde 8 × 15 = 120 cm kesilir; 600 − 120 = 480 cm kalır.",
+        "image": null,
+        "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-10",
+        "options": [
+          "600 cm",
+          "480 cm",
+          "120 cm",
+          "570 cm"
+        ],
+        "difficulty": "orta",
+        "skill": "Uzunluk Ölçme",
+        "subSkill": "Kalan uzunluk",
+        "questionType": "problem",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "matematik",
+          "uzunluk-olcme",
           "editorial-2026-10"
         ]
       }

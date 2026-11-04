@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "question": "Asli'nin boyu 1 metre 35 santimetredir. Asli'nin boyu santimetre cinsinden kacar santimetredir?",
+      "choices": [
+        "105 cm",
+        "135 cm",
+        "150 cm",
+        "1350 cm"
+      ],
+      "correctAnswer": "135 cm",
+      "explanation": "1 metre 100 santimetreye esittir. 100 cm ile 35 cm toplandiginda Asli'nin boyu toplam 135 santimetre olarak bulunur.",
+      "subSkill": "Uzunluk birimleri arasinda donusturme",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir adimi 50 santimetre olan Kerem, okul bahçesinde 10 adim yürümüstür. Kerem'in yüridugu toplam mesafe kaç metredir?",
+      "choices": [
+        "5 m",
+        "50 m",
+        "500 m",
+        "5000 m"
+      ],
+      "correctAnswer": "5 m",
+      "explanation": "Kerem'in 1 adimi 50 cm'dir. 10 adim yürüdügüne göre 10 ile 50 carpilir; toplam 500 cm yol almistir. 500 cm ise 5 metreye esittir.",
+      "subSkill": "Standart uzunluk olculeri ile problem cozme",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yilbasi agaci icin alinan 3 metrelik isik seridinin 1 metre 20 santimetresi kullanilmistir. Geriye kullanilmayan kact santimetre isik seridi kalmistir?",
+      "choices": [
+        "180 cm",
+        "18 cm",
+        "220 cm",
+        "420 cm"
+      ],
+      "correctAnswer": "180 cm",
+      "explanation": "3 metre 300 santimetredir. 1 metre 20 santimetre ise 120 santimetredir. 300 santimetreden 120 santimetre cikarildiginda geriye 180 santimetre kalir.",
+      "subSkill": "Uzunluklari cikarama islemi yapma",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Sinif tahtasinin genisligini olcmek en uygun hangi uzunluk olcusu birimi kullanilmalidir?",
+      "choices": [
+        "Milimetre",
+        "Santimetre",
+        "Metre",
+        "Kilometre"
+      ],
+      "correctAnswer": "Metre",
+      "explanation": "Sinif tahtasi gibi buyuk nesnelerin genisligi ne cok kucuk oldugu icin milimetre veya santimetre ile ne de cok uzak mesafeler oldugu icin kilometre ile olculur; en uygun olcu birimi metredir.",
+      "subSkill": "Uygun uzunluk olcusu birimini secme",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir kenar uzunlugu 25 santimetre olan kare seklindeki tablonun cevre uzunlugu kac santimetredir?",
+      "choices": [
+        "50 cm",
+        "75 cm",
+        "100 cm",
+        "125 cm"
+      ],
+      "correctAnswer": "100 cm",
+      "explanation": "Karenin 4 esit kenari vardir. Bir kenari 25 cm olduguna göre, cevre uzunlugunu bulmak icin 4 ile 25 carpilir ve sonuc 100 santimetre bulunur.",
+      "subSkill": "Geometrik sekillerin cevre uzunlugunu hesaplama",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ceyda'nin kalemi 12 cm, silgisi ise 40 mm uzunlugundadir. Ceyda'nin kalemi silgisinden kac santimetre daha uzundur?",
+      "choices": [
+        "8 cm",
+        "28 cm",
+        "38 cm",
+        "116 cm"
+      ],
+      "correctAnswer": "8 cm",
+      "explanation": "Silginin uzunlugu 40 mm'dir ve bu 4 cm'ye esittir. Kalemin uzunlugu 12 cm'dir. 12 cm'den 4 cm cikarildiginda kalemin silgiden 8 cm daha uzun oldugu anlasilir.",
+      "subSkill": "Farkli birimleri karsilastirma ve islem yapma",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ankara ile Eskisehir arasi yaklasik 235 kilometredir. Bu iki sehir arasindaki mesafe hangi birimle ifade edilmistir?",
+      "choices": [
+        "Kilometre",
+        "Metre",
+        "Santimetre",
+        "Milimetre"
+      ],
+      "correctAnswer": "Kilometre",
+      "explanation": "Sehirler arasi gibi cok uzak mesafeler, diger standart olculerle ifade edilemeyecek kadar buyuk oldugu icin kilometre (km) birimi ile olculur ve ifade edilir.",
+      "subSkill": "Temel olcu birimlerinin kullanim alanlarini tanima",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir top kumasin uzunlugu 4 metredir. Bu kumastan her biri 50 santimetre uzunlugunda kac adet es parca kesilip cikarilabilir?",
+      "choices": [
+        "2 parca",
+        "4 parca",
+        "8 parca",
+        "20 parca"
+      ],
+      "correctAnswer": "8 parca",
+      "explanation": "4 metre 400 santimetredir. 400 santimetrelik kumas 50 santimetrelik es parcalara ayrilacagi icin 400 sayisi 50 sayisina bolunur ve 8 parca elde edilir.",
+      "subSkill": "Uzunluk birimleriyle bolme islemi yapma",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Hangisinin uzunlugu tahmini olarak 1 metredir?",
+      "choices": [
+        "Karincanin boyu",
+        "Kapi kollarinin yerden yuksekligi",
+        "Bir silginin boyu",
+        "Okul sirasinin genisligi"
+      ],
+      "correctAnswer": "Kapi kollarinin yerden yuksekligi",
+      "explanation": "Bina kapi kollarinin yerden yuksekligi standart olarak yaklasik 1 metre civarindadir. Silgi santimetre, karinca milimetre, sira ise 1 metreden farkli olculerdedir.",
+      "subSkill": "Uzunluklari tahmin etme becerisi",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Buse'nin boyu gecen yil 128 santimetreydi. Buse bu yil 7 santimetre uzadigina göre, simdi boyu kac metre kac santimetredir?",
+      "choices": [
+        "1 metre 5 santimetre",
+        "1 metre 35 santimetre",
+        "2 metre 35 santimetre",
+        "135 metre"
+      ],
+      "correctAnswer": "1 metre 35 santimetre",
+      "explanation": "Buse'nin boyu 128 cm'ye 7 cm eklenerek 135 cm bulunur. 135 santimetre ise 1 metre 35 santimetre olarak ifade edilir.",
+      "subSkill": "Uzunluk olculerini toplama ve donusturme",
+      "questionType": "coktan_secmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_NOT_VALIDATED",
+  "model": "gemini-3.5-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "uzunluk-olcme",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-04T15:57:57.203Z",
+  "reviewNote": "Original Gemini draft; semantic and language issues require editorial correction."
+}

@@ -1866,5 +1866,85 @@
   "4-sinif-matematik-bolme-orta-test-1:9": {
     "id": "4-sinif-matematik-bolme-orta-test-1-soru-10",
     "sha256": "e0d9bfa0b9f9624f0624391f88d3e7dcea95ec90f4192b4e14e16dc579ee916c"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:0": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-1",
+    "sha256": "f7800f1f2768d52f1cae4ff85b950317f6710d1c63df89a010b8f62cffbe85b0"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:1": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-2",
+    "sha256": "3de4ac0a2873d123b067e6f5e36e8a5466295ccb16117b39c5ab5ded77996557"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:2": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-3",
+    "sha256": "32ff9df4feac97db2d032139b8c90c38d90cbb4b348904c304aeb71398a8c51c"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:3": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-4",
+    "sha256": "6aadb1309eb24a84f324c61eb75f70520e2e0ce59fd6dc528676b7cd3c386c33"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:4": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-5",
+    "sha256": "47ab8eef17082d88219bb3ab0ec76492bc0983e5dca070c8be4d31719c57a513"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:5": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-6",
+    "sha256": "45d3d79fc075f3d5f5cf6802c1de9f0815a17ab04fc7f98148a6f48929875d17"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:6": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-7",
+    "sha256": "4e7de1ada04155a31893cb8ff314609379d97e6b68050ceb8c606028c6235e21"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:7": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-8",
+    "sha256": "fe0b5ba1621818f642c5ad8bee2e3a76c668ab6cc70f57e35c1954f7c2859849"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:8": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-9",
+    "sha256": "a73a25f5d9fe5fdd05fa9b8a87ecde09e884cb021c2265e823621effc6e005fc"
+  },
+  "4-sinif-matematik-uzunluk-olcme-kolay-test-1:9": {
+    "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-10",
+    "sha256": "0d13e26f7e26068e2673ad0e4a9bee8f456d08735f3fa9b5e23dc6959dd8c84c"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:0": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-1",
+    "sha256": "b5ff71c679e8ac833ccb34527d40cdc10fab86206bb49c358fe25313c6b334bc"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:1": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-2",
+    "sha256": "8633488dfba08d09cd7d3f3a8651c4412d946d5663ff44d1b307a0fbe725c056"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:2": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-3",
+    "sha256": "86ecb5b900504728f424e0abfc401ad8a44c00c3611229eda94b6283a49dc085"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:3": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-4",
+    "sha256": "43194fed6ab5a2f15f2483eba34fc850a75d991544ef72847be25491b1e628e7"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:4": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-5",
+    "sha256": "0849fc38af92974ff611183508130a32f90275f300b479c8268dad5ce20d6b11"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:5": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-6",
+    "sha256": "cf3ed4b57ba4aeb72c30a49f851385c89d78bd1a02f954005b630fb5879a791a"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:6": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-7",
+    "sha256": "80bc063da164e352a1f0c32a01ab81668a747bba0d686c5a18fa19c6dd9d0779"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:7": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-8",
+    "sha256": "7201f55d5708becdaf7c52073f6dd5b4c4fa68557dcdf9f63d98154975027997"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:8": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-9",
+    "sha256": "239c405eeb3cd5799ef0945aa82e1212da804b072fa7c36a2c7dde11db9ac47b"
+  },
+  "4-sinif-matematik-uzunluk-olcme-orta-test-1:9": {
+    "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-10",
+    "sha256": "e933554a9c84c2f69d26413e8b2f7745c1872421a2f3af81d1ac9f32df7353f5"
   }
 }

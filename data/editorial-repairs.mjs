@@ -8,6 +8,7 @@ import {subtractionEasy,subtractionMedium} from './subtraction-repairs.mjs';
 import {geminiMultiplicationEasy} from './gemini-multiplication-repairs.mjs';
 import {divisionEasy,divisionMedium} from './gemini-division-repairs.mjs';
 import {multiplicationMedium} from './gemini-multiplication-medium.mjs';
+import {lengthEasy,lengthMedium} from './gemini-length-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
@@ -18,6 +19,17 @@ test(4, 'matematik', 'toplama', 'orta', 1, additionMedium, 'replace_repeated_add
 test(4,'matematik','carpma','kolay',1,geminiMultiplicationEasy,'reviewed_gemini_draft_replaces_repeated_multiplication_template');
 test(4,'matematik','bolme','kolay',1,divisionEasy,'reviewed_gemini_draft_replaces_repeated_division_template');
 test(4,'matematik','bolme','orta',1,divisionMedium,'reviewed_gemini_draft_replaces_repeated_division_template');
+for(const [difficulty,rows,skills] of [
+ ['kolay',lengthEasy,[['Metre santimetre dönüşümü','islem'],['Uzunluk problemi','problem'],['Kalan uzunluk','problem'],['Uygun birimi seçme','eslestirme'],['Çevre uzunluğu','islem'],['Milimetre santimetre dönüşümü','problem'],['Metre santimetre eşitliği','eslestirme'],['Eş parçalara ayırma','problem'],['Uzunluğu tahmin etme','problem'],['Boy uzunluğu problemi','problem']]],
+ ['orta',lengthMedium,[['Kalan uzunluk','problem'],['Kilometre metre dönüşümü','problem'],['Çevre ve milimetre dönüşümü','problem'],['Gidiş dönüş mesafesi','problem'],['Eş parçalara ayırma','problem'],['Milimetre santimetre dönüşümü','problem'],['Boy uzunluğu problemi','problem'],['Çevre uzunluğu','problem'],['Kilometre metre dönüşümü','problem'],['Kalan uzunluk','problem']]]
+]) {
+ test(4,'matematik','uzunluk-olcme',difficulty,1,rows,'reviewed_gemini_draft_replaces_repeated_length_template');
+ for(const [index,[subSkill,questionType]] of skills.entries()) {
+  const repair=repairs.find(p=>p.slug===`4-sinif-matematik-uzunluk-olcme-${difficulty}-test-1`&&p.index===index);
+  if(!repair)throw new Error(`Missing length repair ${difficulty}/${index}`);
+  repair.metadata={subSkill,questionType};
+ }
+}
 const divisionMediumSkills=[['Gruplama problemi','problem'],['Kalanı yorumlama','problem'],['Bölüneni bulma','islem'],['Gereksiz bilgiyi ayırma','problem'],['Bölümleri karşılaştırma','karsilastirma'],['Bölüneni bulma','islem'],['Eşit gruplama','problem'],['Basamak ve bölme','islem'],['Gruplama problemi','problem'],['Kalanı yorumlama','problem']];
 for(const [index,[subSkill,questionType]] of divisionMediumSkills.entries()) {
  const repair=repairs.find(p=>p.slug==='4-sinif-matematik-bolme-orta-test-1'&&p.index===index);
