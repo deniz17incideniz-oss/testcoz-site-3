@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 487,
+  "count": 497,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -4828,6 +4828,721 @@
         "tags": [
           "matematik",
           "bolme",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Elif, sınıf ortamında söz almak için parmak kaldırmak. Bu davranış hangisine örnektir?",
+        "choices": [
+          "okul kurallarına uymak",
+          "arkadaşının sözünü kesmek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "söz almak için parmak kaldırmak, okul kurallarına uymak için uygun bir davranıştır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+        "options": [
+          "okul kurallarına uymak",
+          "arkadaşının sözünü kesmek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Yarınki dersler için hangi kitapları çantana koyacağını öğrenmek istiyorsun. Neye bakabilirsin?",
+        "choices": [
+          "Ders programına",
+          "Hava durumuna",
+          "Televizyon saatine"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ders programı, ertesi gün gerekli olan kitap ve araçları seçmene yardım eder.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
+        "options": [
+          "Ders programına",
+          "Hava durumuna",
+          "Televizyon saatine"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Okula hazırlık",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Görselde Ben ve Okulum konusuyla ilgili iki davranış var. Güvenli ve doğru olan hangisidir?",
+        "choices": [
+          "söz almak için parmak kaldırmak",
+          "arkadaşının sözünü kesmek",
+          "uyarıları dinlememek",
+          "eşyaları izinsiz almak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru seçenek “söz almak için parmak kaldırmak” davranışıdır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Doğru davranışı seç",
+          "data": {
+            "correct": "söz almak için parmak kaldırmak",
+            "wrong": "arkadaşının sözünü kesmek"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+        "imageAlt": "Doğru davranışı seç",
+        "options": [
+          "söz almak için parmak kaldırmak",
+          "arkadaşının sözünü kesmek",
+          "uyarıları dinlememek",
+          "eşyaları izinsiz almak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Teneffüste koridorda nasıl hareket etmek daha güvenlidir?",
+        "choices": [
+          "Arkadaşlarını itmek",
+          "Sakin yürümek",
+          "Hızla koşmak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Koridorda sakin yürümek çarpışma ve düşme olasılığını azaltır.",
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
+        "options": [
+          "Arkadaşlarını itmek",
+          "Sakin yürümek",
+          "Hızla koşmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Okulda güvenli davranış",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Elif için aşağıdakilerden hangisi yaşına uygun bir sorumluluktur?",
+        "choices": [
+          "kullandığı sınıf araçlarını yerine koymak",
+          "bütün işleri başkasına yaptırmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği zaman değiştirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“kullandığı sınıf araçlarını yerine koymak” yaşına uygun ve yerine getirilebilir bir sorumluluktur.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+        "options": [
+          "kullandığı sınıf araçlarını yerine koymak",
+          "bütün işleri başkasına yaptırmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği zaman değiştirmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Okulda çalışan kişilerden biri hangisidir?",
+        "choices": [
+          "Mahalledeki manav",
+          "Otobüs şoförü",
+          "Okul müdürü"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Okul müdürü okulda görev yapar ve okulun yönetiminden sorumludur.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
+        "options": [
+          "Mahalledeki manav",
+          "Otobüs şoförü",
+          "Okul müdürü"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Okul çalışanlarını tanıma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Ben ve Okulum etkinliğinde yapılacak işler hangi sırayla başlamalıdır?",
+        "choices": [
+          "Ders araçlarını hazırlamak",
+          "Öğretmeni dikkatle dinlemek",
+          "Etkinliği tamamlayıp araçları toplamak",
+          "sınıfta düzenli bir konuşma ortamı oluşur"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Etkinliğin ilk adımı “Ders araçlarını hazırlamak”dır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+        "options": [
+          "Ders araçlarını hazırlamak",
+          "Öğretmeni dikkatle dinlemek",
+          "Etkinliği tamamlayıp araçları toplamak",
+          "sınıfta düzenli bir konuşma ortamı oluşur"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "siralama",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Okul kütüphanesi ne için kullanılabilir?",
+        "choices": [
+          "Kitap okumak için",
+          "Top oynamak için",
+          "Yemek pişirmek için"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kütüphanede kitaplara ulaşabilir ve kitap okuyabilirsin.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
+        "options": [
+          "Kitap okumak için",
+          "Top oynamak için",
+          "Yemek pişirmek için"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Okul bölümlerini tanıma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Görselde Elifın yararlanabileceği bir bilgi kaynağı gösteriliyor. Bu kaynak hangisidir?",
+        "choices": [
+          "okul krokisi",
+          "oyuncak kutusu",
+          "boş kâğıt",
+          "kapalı perde"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“okul krokisi” konuyla ilgili bilgi edinmeye yardımcı olur.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Bilgi kaynağını tanı",
+          "data": {
+            "source": "okul krokisi",
+            "topic": "Ben ve Okulum"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+        "imageAlt": "Bilgi kaynağını tanı",
+        "options": [
+          "okul krokisi",
+          "oyuncak kutusu",
+          "boş kâğıt",
+          "kapalı perde"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Arkadaşın okulda düştü ve canının acıdığını söylüyor. Ne yapabilirsin?",
+        "choices": [
+          "Kimseye söylemeden uzaklaşmak",
+          "Bir öğretmene haber vermek",
+          "Onunla alay etmek"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bir öğretmene haber vermek, arkadaşının ihtiyaç duyduğu yardıma ulaşmasını sağlar.",
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
+        "options": [
+          "Kimseye söylemeden uzaklaşmak",
+          "Bir öğretmene haber vermek",
+          "Onunla alay etmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Yardım isteme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Elif neden söz almak için parmak kaldırmak davranışını seçmelidir?",
+        "choices": [
+          "herkesin birbirini rahatça dinleyebilmesi",
+          "daha çok gürültü yapmak",
+          "işleri geciktirmek",
+          "başkalarını üzmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu davranışın amacı herkesin birbirini rahatça dinleyebilmesitır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+        "options": [
+          "herkesin birbirini rahatça dinleyebilmesi",
+          "daha çok gürültü yapmak",
+          "işleri geciktirmek",
+          "başkalarını üzmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Hangisi okuldaki ortak kullanım alanıdır?",
+        "choices": [
+          "Evdeki mutfak",
+          "Evdeki yatak odası",
+          "Okul bahçesi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Okul bahçesini okuldaki kişiler ortak kullanabilir. Evdeki odalar okul alanı değildir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
+        "options": [
+          "Evdeki mutfak",
+          "Evdeki yatak odası",
+          "Okul bahçesi"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Ortak alanları tanıma",
+        "questionType": "eslestirme",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Ben ve Okulum konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "koridorda sakin yürümek",
+          "arkadaşının sözünü kesmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“koridorda sakin yürümek” herkes için yararlı ve doğru bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+        "options": [
+          "koridorda sakin yürümek",
+          "arkadaşının sözünü kesmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıftaki ortak kitapları nasıl kullanmalıyız?",
+        "choices": [
+          "Özenle kullanıp yerine koymalıyız.",
+          "Sayfalarını yırtmalıyız.",
+          "Kitapları saklamalıyız."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kitapları özenle kullanıp yerine koyarsak başkaları da onlardan yararlanabilir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
+        "options": [
+          "Özenle kullanıp yerine koymalıyız.",
+          "Sayfalarını yırtmalıyız.",
+          "Kitapları saklamalıyız."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Ortak eşyalara özen",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Ben ve Okulum konusunda görselde dört davranış kartı vardır. Hangisi olumlu bir seçimdir?",
+        "choices": [
+          "ona sınıfın yerini nazikçe göstermek",
+          "arkadaşının sözünü kesmek",
+          "yardım isteğini küçümsemek",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruna uygun olumlu seçim “ona sınıfın yerini nazikçe göstermek”dır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Olumlu seçim kartları",
+          "data": {
+            "problem": "Yeni öğrenci sınıfını bulamıyor",
+            "solution": "ona sınıfın yerini nazikçe göstermek"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+        "imageAlt": "Olumlu seçim kartları",
+        "options": [
+          "ona sınıfın yerini nazikçe göstermek",
+          "arkadaşının sözünü kesmek",
+          "yardım isteğini küçümsemek",
+          "sorunu saklamak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Öğretmenine soru sormak istiyorsun. Ne yapabilirsin?",
+        "choices": [
+          "Herkesten yüksek sesle konuşabilirsin.",
+          "Parmağını kaldırıp söz isteyebilirsin.",
+          "Arkadaşının sözünü kesebilirsin."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Parmak kaldırıp sıra beklemek herkesin konuşanı duymasına yardımcı olur.",
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
+        "options": [
+          "Herkesten yüksek sesle konuşabilirsin.",
+          "Parmağını kaldırıp söz isteyebilirsin.",
+          "Arkadaşının sözünü kesebilirsin."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Söz isteme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Elif doğru davranışı seçtiğinde hangi sonuç ortaya çıkar?",
+        "choices": [
+          "sınıfta düzenli bir konuşma ortamı oluşur",
+          "sorun büyür",
+          "kurallar gereksiz olur",
+          "çevresindekiler zarar görür"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru davranışın olumlu sonucu “sınıfta düzenli bir konuşma ortamı oluşur” ifadesidir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+        "options": [
+          "sınıfta düzenli bir konuşma ortamı oluşur",
+          "sorun büyür",
+          "kurallar gereksiz olur",
+          "çevresindekiler zarar görür"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Ders sırasında arkadaşın bir şey anlatırken ne yapmalısın?",
+        "choices": [
+          "Sözünü kesmelisin.",
+          "Başka bir arkadaşınla konuşmalısın.",
+          "Onu dinlemelisin."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Konuşan arkadaşını dinlemek, onun anlatmasına ve herkesin anlamasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
+        "options": [
+          "Sözünü kesmelisin.",
+          "Başka bir arkadaşınla konuşmalısın.",
+          "Onu dinlemelisin."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dinleme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_school_questions",
+      "before": {
+        "question": "Görseldeki başlıklardan hangisi Ben ve Okulum konusundaki bu olaya en uygundur?",
+        "choices": [
+          "Okulumda Güzel Bir Gün",
+          "Kayıp Oyuncak",
+          "Uykulu Bir Sabah",
+          "Yağmurlu Pencere"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Okulumda Güzel Bir Gün” başlığı konuyu ve olumlu davranışı en iyi yansıtır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Uygun başlığı bul",
+          "data": {
+            "title": "Okulumda Güzel Bir Gün",
+            "hero": "Elif",
+            "place": "sınıf"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+        "imageAlt": "Uygun başlığı bul",
+        "options": [
+          "Okulumda Güzel Bir Gün",
+          "Kayıp Oyuncak",
+          "Uykulu Bir Sabah",
+          "Yağmurlu Pencere"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Arkadaşınla aynı oyuncağı istiyorsunuz. Birlikte ne yapabilirsiniz?",
+        "choices": [
+          "Sırayla oynamayı konuşabiliriz.",
+          "Oyuncağı zorla alabiliriz.",
+          "Oyuncağı saklayabiliriz."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sırayla oynamayı konuşmak iki arkadaşın da oyuncağı kullanabilmesi için bir çözümdür.",
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
+        "options": [
+          "Sırayla oynamayı konuşabiliriz.",
+          "Oyuncağı zorla alabiliriz.",
+          "Oyuncağı saklayabiliriz."
+        ],
+        "difficulty": "kolay",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Anlaşmazlığı çözme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
           "editorial-2026-10"
         ]
       }

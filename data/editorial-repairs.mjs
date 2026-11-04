@@ -9,6 +9,7 @@ import {geminiMultiplicationEasy} from './gemini-multiplication-repairs.mjs';
 import {divisionEasy,divisionMedium} from './gemini-division-repairs.mjs';
 import {multiplicationMedium} from './gemini-multiplication-medium.mjs';
 import {lengthEasy,lengthMedium} from './gemini-length-repairs.mjs';
+import {schoolEasy} from './gemini-school-repairs.mjs';
 function test(grade, subject, topic, difficulty, number, rows, reason) {
   rows.forEach((row,index)=>repairs.push({slug:`${grade}-sinif-${subject}-${topic}-${difficulty}-test-${number}`,index, row, reason}));
 }
@@ -19,6 +20,13 @@ test(4, 'matematik', 'toplama', 'orta', 1, additionMedium, 'replace_repeated_add
 test(4,'matematik','carpma','kolay',1,geminiMultiplicationEasy,'reviewed_gemini_draft_replaces_repeated_multiplication_template');
 test(4,'matematik','bolme','kolay',1,divisionEasy,'reviewed_gemini_draft_replaces_repeated_division_template');
 test(4,'matematik','bolme','orta',1,divisionMedium,'reviewed_gemini_draft_replaces_repeated_division_template');
+test(1,'hayat-bilgisi','ben-ve-okulum','kolay',1,schoolEasy,'reviewed_gemini_grade_one_school_questions');
+const schoolSkills=[['Okula hazırlık','eslestirme'],['Okulda güvenli davranış','cikarim'],['Okul çalışanlarını tanıma','eslestirme'],['Okul bölümlerini tanıma','eslestirme'],['Yardım isteme','cikarim'],['Ortak alanları tanıma','eslestirme'],['Ortak eşyalara özen','cikarim'],['Söz isteme','cikarim'],['Dinleme','cikarim'],['Anlaşmazlığı çözme','cikarim']];
+for(const [index,[subSkill,questionType]] of schoolSkills.entries()) {
+ const repair=repairs.find(p=>p.slug==='1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1'&&p.index===index);
+ if(!repair)throw new Error(`Missing school repair ${index}`);
+ repair.metadata={subSkill,questionType};
+}
 for(const [difficulty,rows,skills] of [
  ['kolay',lengthEasy,[['Metre santimetre dönüşümü','islem'],['Uzunluk problemi','problem'],['Kalan uzunluk','problem'],['Uygun birimi seçme','eslestirme'],['Çevre uzunluğu','islem'],['Milimetre santimetre dönüşümü','problem'],['Metre santimetre eşitliği','eslestirme'],['Eş parçalara ayırma','problem'],['Uzunluğu tahmin etme','problem'],['Boy uzunluğu problemi','problem']]],
  ['orta',lengthMedium,[['Kalan uzunluk','problem'],['Kilometre metre dönüşümü','problem'],['Çevre ve milimetre dönüşümü','problem'],['Gidiş dönüş mesafesi','problem'],['Eş parçalara ayırma','problem'],['Milimetre santimetre dönüşümü','problem'],['Boy uzunluğu problemi','problem'],['Çevre uzunluğu','problem'],['Kilometre metre dönüşümü','problem'],['Kalan uzunluk','problem']]]
