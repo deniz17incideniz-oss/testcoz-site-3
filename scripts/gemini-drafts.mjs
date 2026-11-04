@@ -8,6 +8,19 @@ const textModel = process.env.TESTCOZ_GEMINI_TEXT_MODEL || 'gemini-3.1-flash-lit
 const imageModel = process.env.TESTCOZ_GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image';
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
+// Only parse complete, unambiguous integer length expressions; never infer missing units.
+export function lengthInMillimetres(value) {
+ const input=value.trim().toLocaleLowerCase('tr-TR');
+ const pattern=/\s*(\d+(?:[ .]\d{3})*)\s*(kilometre|santimetre|milimetre|metre|km|cm|mm|m)(?=\s|$)/gy;
+ const factors={kilometre:1000000,km:1000000,metre:1000,m:1000,santimetre:10,cm:10,milimetre:1,mm:1};
+ let total=0,matched=0,position=0;
+ while(position<input.length){pattern.lastIndex=position;const match=pattern.exec(input);if(!match)return null;
+  const number=Number(match[1].replace(/[ .]/g,''));if(!Number.isSafeInteger(number))return null;
+  total+=number*factors[match[2]];if(!Number.isSafeInteger(total))return null;position=pattern.lastIndex;matched++;
+ }
+ return matched?total:null;
+}
+
 export function validateDraft(data, expectedCount, choiceCount) {
  if (!data || !Array.isArray(data.questions) || data.questions.length !== expectedCount) throw new Error(`Expected ${expectedCount} questions`);
  const seen = new Set();
@@ -22,6 +35,8 @@ export function validateDraft(data, expectedCount, choiceCount) {
   const normal = s=>s.trim().toLocaleLowerCase('tr-TR');
   const choices=q.choices.map(normal);
   if(new Set(choices).size!==choiceCount || choices.filter(c=>c===normal(q.correctAnswer)).length!==1) throw new Error(`Question ${i+1}: ambiguous choices or key`);
+  const lengths=q.choices.map(lengthInMillimetres);
+  if(lengths.every(x=>x!==null) && new Set(lengths).size!==choiceCount)throw new Error(`Question ${i+1}: equivalent length choices`);
   const key=normal(q.question); if(seen.has(key))throw new Error(`Question ${i+1}: repeated question`);seen.add(key);
   if(Boolean(q.imageBrief.trim())!==Boolean(q.imageAlt.trim()))throw new Error(`Question ${i+1}: image brief and alt must be paired`);
  }

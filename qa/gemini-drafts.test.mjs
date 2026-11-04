@@ -1,10 +1,11 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {validateDraft,textWithFallback} from '../scripts/gemini-drafts.mjs';
+import {validateDraft,textWithFallback,lengthInMillimetres} from '../scripts/gemini-drafts.mjs';
 
 const item=()=>({question:'Bir örnek soru?',choices:['Bir','İki','Üç'],correctAnswer:'İki',explanation:'İşlem adımlarını açıklayan yeterli uzunlukta örnek bir açıklama.',subSkill:'Örnek beceri',questionType:'problem',imageBrief:'',imageAlt:''});
 test('accepts a complete draft without treating it as editorial approval',()=>assert.equal(validateDraft({questions:[item()]},1,3).questions.length,1));
 test('rejects duplicate choices and a missing answer',()=>{const q=item();q.choices=['Bir','Bir','Üç'];assert.throws(()=>validateDraft({questions:[q]},1,3));});
+test('detects equivalent length choices without guessing non-length expressions',()=>{const q=item();q.choices=['260 cm','520 cm','5 metre 20 santimetre','10 metre 40 santimetre'];q.correctAnswer='520 cm';assert.throws(()=>validateDraft({questions:[q]},1,4),/equivalent length/);assert.equal(lengthInMillimetres('1 250 mm'),1250);assert.equal(lengthInMillimetres('5 metre 20 santimetre'),5200);assert.equal(lengthInMillimetres('5 m kumaş'),null);assert.equal(lengthInMillimetres('5 m²'),null);});
 test('rejects orphan image brief',()=>{const q=item();q.imageBrief='Bir üçgen.';assert.throws(()=>validateDraft({questions:[q]},1,3));});
 test('rejects an unresolved self-reported option error',()=>{const q=item();q.explanation='Soruda hata olmaması için bir seçeneği değiştirelim. Diğer bütün sonuçlar eşittir.';assert.throws(()=>validateDraft({questions:[q]},1,3),/unresolved/);});
 test('rejects the self-correction observed in a multiplication or division explanation',()=>{const q=item();q.explanation='Ancak seçeneklerde düzeltme yaparsak, sonuç farklı olacak şekilde yeniden yazabiliriz.';assert.throws(()=>validateDraft({questions:[q]},1,3),/unresolved/);});
