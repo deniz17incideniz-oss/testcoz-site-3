@@ -2226,5 +2226,85 @@
   "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:9": {
     "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
     "sha256": "93e5eb9a8471e2064d7afd1ca7276c735bb92353094c3b3acc707e8a626512da"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:0": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-1",
+    "sha256": "4f463bc3770ac615dcc7c722d7b6b22dbab4398db5beb47f33de45467e5a571d"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:1": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-2",
+    "sha256": "8b88b36013dfff85c1036b315d3605dc5d2b1993aa7edaf0855bd1d65df53112"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:2": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-3",
+    "sha256": "03fb0e09cb15df6365803bbe10dceae788ec5830c59be086cdd20e40c44e4ecb"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:3": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
+    "sha256": "d7e5a15f950b6ca89ffecf0706248b40ade1bbf8065abb11d48744af7b86fb24"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:4": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-5",
+    "sha256": "5bcc74dacf3fc8cdf588db247190a87ea3f9b5e76592f2a8b798c7afea0826bc"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:5": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-6",
+    "sha256": "0fdc0e88ef576609c169725615735f25ecfacc932f1527ceeda8d38ad8f10137"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:6": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-7",
+    "sha256": "b9b9ee19b35a011ae19d13f3cb671de8ba0a5bd1408f3798f58bc65564d4ef26"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:7": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-8",
+    "sha256": "783d55879eebc93d3935a5631ad8f8ffdfea9519bbdf10e4016e9b5e2c0911d4"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:8": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-9",
+    "sha256": "7f214b8be062beea2c4a05cc4e959cf906e22e11d746746bba0a6fe5849ad60a"
+  },
+  "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:9": {
+    "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-10",
+    "sha256": "2970c16068165dbeee819e4fbd67f034b4a1e22c009f6af28014e1a21e48e75f"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:0": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
+    "sha256": "f0f592a625bc4dfce26651bd06ac93b10c32a5149ffc7f85918cf9b2635ab665"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
+    "sha256": "1accff1c8411fc5da263bd0ce710d461e4163274f3305e5b6fa884b9d54e7d9d"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:2": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
+    "sha256": "3f6f07bb8a436c880c06a85ce1d6ad2d4bfdb49aa9e795eb95af2e7e30f0ec9c"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:3": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
+    "sha256": "408352e30ef87e3e1af5517680daf74657c54cf0580c0efcd16784e156a94bd3"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:4": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
+    "sha256": "a4ac613672cb281d3b5fabb364a5a12df255bbb40719dc16b290ae9b691701d0"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:5": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
+    "sha256": "ace090de48f35f7a2c62d3e01d77a3e96c92f70e763ecab6274d429efe9f345a"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:6": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+    "sha256": "91cc89754312a1ea72214a1623e1cc97ffc85d0a0749c8827752eb48083e4050"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:7": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
+    "sha256": "edc5125346963dd075a8424f8ef622375007af6eaf970e225d2e4301a9d94313"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:8": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
+    "sha256": "9a9a9dcb7e665d48a274108e94e6eaa5eaa9358555c441d7ab3a0f50a302d773"
+  },
+  "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:9": {
+    "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
+    "sha256": "e35dd06d75c6095f11ac1e401aacdef648668cdb1cf9f1df5c5dbc21a6fbccac"
   }
 }
