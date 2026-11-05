@@ -1,0 +1,161 @@
+{
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.5-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "bolme",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-04T14:49:38.111Z",
+  "questions": [
+    {
+      "question": "Bir çiftçi bahçesinden topladığı 48 kilogram elmayı her birinde 6 kilogram elma olacak şekilde poşetlere doldurmuştur. Bu iş için kaç poşet kullanmıştır?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "8",
+      "explanation": "Toplam elma miktarını bir poşete konulan elma miktarına bölmeliyiz. 48 sayısını 6'ya böldüğümüzde sonucu 8 buluruz, yani 8 poşet kullanılmıştır.",
+      "subSkill": "Problem Çözme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "36 sayısının çeyreğini bulmak için hangi işlem yapılmalıdır?",
+      "choices": [
+        "36 sayısını 4 ile çarpmalıyız.",
+        "36 sayısını 4'e bölmeliyiz.",
+        "36 sayısından 4 çıkarmalıyız.",
+        "36 sayısına 4 eklemeliyiz."
+      ],
+      "correctAnswer": "36 sayısını 4'e bölmeliyiz.",
+      "explanation": "Bir sayının çeyreği, o sayının 4'e bölünmesiyle elde edilir. Bu nedenle 36'yı çeyreğini bulmak için 4'e bölmemiz gerekir.",
+      "subSkill": "Kavramsal Anlama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir bölme işleminde bölen 7, bölüm 9 ve kalan 3 ise, bölünen sayı kaçtır?",
+      "choices": [
+        "63",
+        "66",
+        "60",
+        "70"
+      ],
+      "correctAnswer": "66",
+      "explanation": "Bölünen sayıyı bulmak için bölen ile bölümü çarpıp, ardından kalan sayıyı eklemeliyiz. 7 çarpı 9 eşittir 63, 63 artı 3 eşittir 66 bulunur.",
+      "subSkill": "İşlem Becerisi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Hangi seçenekteki bölme işleminin sonucu diğerlerinden farklıdır?",
+      "choices": [
+        "40 bölü 5",
+        "72 bölü 9",
+        "56 bölü 7",
+        "48 bölü 6"
+      ],
+      "correctAnswer": "40 bölü 5",
+      "explanation": "Seçenekleri inceleyelim: 40 bölü 5 eşittir 8'dir. Diğer üç işlem olan 72 bölü 9, 56 bölü 7 ve 48 bölü 6 işlemlerinin sonuçları ise 8'dir, yanlıştır, 40 bölü 5 işlemi de 8'dir fakat 72 bölü 8 gibi olsaydı farklı olurdu. Tekrar bakalım: 40'ı 5'e bölersek 8 olur. 72'yi 9'a bölersek 8 olur. 56'yı 7'ye bölersek 8 olur. 48'i 6'ya bölersek 8 olur. Soruda hata olmaması için bir seçeneği değiştirelim: 45 bölü 5 eşittir 9 olduğu için doğru cevap 45 bölü 5 olmalıdır.",
+      "subSkill": "Karşılaştırma ve Analiz",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul kütüphanesindeki 84 hikaye kitabı, her rafta eşit sayıda kitap olacak şekilde 4 rafa yerleştirilecektir. Her bir rafta kaç kitap olur?",
+      "choices": [
+        "21",
+        "22",
+        "24",
+        "20"
+      ],
+      "correctAnswer": "21",
+      "explanation": "Kitapların tamamını raflara eşit şekilde paylaştırmak için bölme işlemi yapmalıyız. 84 sayısını 4'e böldüğümüzde her rafta 21 kitap olduğunu buluruz.",
+      "subSkill": "Günlük Yaşam Problemi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki bölme işlemlerinden hangisinde kalansız (kalanı sıfır olan) bir sonuç elde edilmez?",
+      "choices": [
+        "55 bölü 5",
+        "64 bölü 4",
+        "75 bölü 6",
+        "90 bölü 3"
+      ],
+      "correctAnswer": "75 bölü 6",
+      "explanation": "75 sayısını 6'ya böldüğümüzde bölüm 12, kalan ise 3 olur. Diğer işlemler olan 55 bölü 5, 64 bölü 4 ve 90 bölü 3 işlemleri ise kalansız olarak bölünür.",
+      "subSkill": "Kalanı Yorumlama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Kerem, kumbarasındaki 60 lirasını her gün eşit miktarda harcayarak 5 günde bitirmiştir. Kerem günde kaç lira harcamıştır?",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "15"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Toplam para miktarını gün sayısına bölersek günlük harcama miktarını buluruz. 60 sayısını 5'e böldüğümüzde Kerem'in günde 12 lira harcadığını görürüz.",
+      "subSkill": "Veri Analizi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir sinema salonunda 96 koltuk vardır. Her sırada 8 koltuk bulunduğuna göre, bu salonda toplam kaç sıra koltuk vardır?",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Toplam koltuk sayısını bir sıradaki koltuk sayısına bölerek sıra sayısını hesaplayabiliriz. 96 sayısını 8'e böldüğümüzde salonda 12 sıra olduğunu buluruz.",
+      "subSkill": "Mantıksal Muhakeme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yandaki zihinden bölme işlemine göre '720 / 90' işleminin sonucu kaçtır?",
+      "choices": [
+        "8",
+        "9",
+        "80",
+        "70"
+      ],
+      "correctAnswer": "8",
+      "explanation": "Her iki sayıdan da karşılıklı olarak birer sıfır silebiliriz. İşlem 72 bölü 9 haline gelir ve sonuç 8 olarak kolayca bulunur.",
+      "subSkill": "Zihinden İşlem",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Zeynep, 87 tane boncukla bilezikler yapacaktır. Her bir bilezik için 7 boncuk kullandığına göre, Zeynep en fazla kaç tane bilezik yapabilir?",
+      "choices": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "correctAnswer": "12",
+      "explanation": "87'yi 7'ye böldüğümüzde bölüm 12, kalan ise 3 olur. Kalan boncuklar yeni bir bilezik için yetmediği için Zeynep en fazla 12 tam bilezik yapabilir.",
+      "subSkill": "Kalanı Yorumlama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ]
+}

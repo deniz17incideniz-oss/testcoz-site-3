@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Okul çantanı hazırlarken aşağıdakilerden hangisini yanına alman en doğrudur?",
+      "choices": [
+        "En sevdiğin oyuncak arabayı",
+        "Ders programına uygun kitap ve defterleri",
+        "Evdeki tüm boyama kalemlerini"
+      ],
+      "correctAnswer": "Ders programına uygun kitap ve defterleri",
+      "explanation": "Okul çantası, derslerde ihtiyaç duyduğumuz araç ve gereçleri taşımak içindir. Ders programına uygun hazırlık yapmak sorumluluk bilincimizi geliştirir.",
+      "subSkill": "Sorumluluk bilinci",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul koridorunda yürürken aşağıdakilerden hangisini yapmalısın?",
+      "choices": [
+        "Koşarak hızlıca sınıfa gitmeliyim",
+        "Arkadaşlarımla yüksek sesle konuşmalıyım",
+        "Sağ taraftan yavaşça ve dikkatli yürümeliyim"
+      ],
+      "correctAnswer": "Sağ taraftan yavaşça ve dikkatli yürümeliyim",
+      "explanation": "Okul koridorları güvenli alanlardır. Koşmak düşmelere veya çarpışmalara yol açabilir. Bu nedenle sağdan yürüyerek kurallara uymalıyız.",
+      "subSkill": "Okul kuralları",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda kendini kötü hissettiğinde veya yardıma ihtiyacın olduğunda ilk olarak kime başvurmalısın?",
+      "choices": [
+        "Tanımadığın bir yetişkine",
+        "Sınıf öğretmenine veya okul görevlisine",
+        "Bahçede oyun oynayan herhangi bir öğrenciye"
+      ],
+      "correctAnswer": "Sınıf öğretmenine veya okul görevlisine",
+      "explanation": "Okulda güvenliğimizi sağlamakla görevli kişiler öğretmenler ve okul personelidir. Herhangi bir sorunda onlardan yardım istemek en güvenli yoldur.",
+      "subSkill": "Okul içi güvenlik",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulun bölümleri ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+      "choices": [
+        "Kütüphane kitap okuduğumuz yerdir",
+        "Tuvaletleri temiz bırakmalıyız",
+        "Okul bahçesi sadece ders çalışılan yerdir"
+      ],
+      "correctAnswer": "Okul bahçesi sadece ders çalışılan yerdir",
+      "explanation": "Okul bahçesi teneffüslerde oyun oynadığımız ve arkadaşlık ilişkilerimizi geliştirdiğimiz bir alandır, dersler ise genellikle sınıflarda yapılır.",
+      "subSkill": "Okul mekanlarını tanıma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Arkadaşın elindeki kalemini düşürdüğünde ona nasıl davranman beklenir?",
+      "choices": [
+        "Kalemi alıp ona vermeli ve yardımlaşmalısın",
+        "Onun kalemi almasını bekleyip izlemelisin",
+        "Kalemi yerden alıp çantana atmalısın"
+      ],
+      "correctAnswer": "Kalemi alıp ona vermeli ve yardımlaşmalısın",
+      "explanation": "Okul ortamında arkadaşlık ilişkileri yardımlaşma üzerine kuruludur. Bir arkadaşımızın zor durumunda ona destek olmak nazik bir davranıştır.",
+      "subSkill": "Sosyal beceriler",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul eşyalarımızı korumak için aşağıdakilerden hangisi en uygun davranıştır?",
+      "choices": [
+        "Sıraların üzerine yazı yazmak",
+        "Okul panolarına zarar vermemek ve temiz tutmak",
+        "Çöp kutusuna çöp atmamak"
+      ],
+      "correctAnswer": "Okul panolarına zarar vermemek ve temiz tutmak",
+      "explanation": "Okul eşyaları ortak kullanım alanlarımızdır. Onlara zarar vermemek hem çevre bilincini hem de ortak değerlere sahip çıkmayı gösterir.",
+      "subSkill": "Okul kaynaklarını koruma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ders zili çaldığında yapman gereken en doğru davranış hangisidir?",
+      "choices": [
+        "Bahçede oyun oynamaya devam etmek",
+        "Hemen sınıfa girip yerime oturmak",
+        "Koridorda arkadaşlarımla sohbet etmek"
+      ],
+      "correctAnswer": "Hemen sınıfa girip yerime oturmak",
+      "explanation": "Zil çaldığında ders saatinin başladığını anlarız. Sınıfa zamanında girmek öğrenme sürecine katılım göstermek için temel kuraldır.",
+      "subSkill": "Zaman yönetimi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda kendi eşyalarını başkalarından ayırmak için ne yapmalısın?",
+      "choices": [
+        "Tüm eşyaların üzerine isim etiketleri yapıştırmalısın",
+        "Başkalarının eşyalarını kullanmalısın",
+        "Sadece en sevdiğin eşyaları getirmelisin"
+      ],
+      "correctAnswer": "Tüm eşyaların üzerine isim etiketleri yapıştırmalısın",
+      "explanation": "Kişisel eşyaların karışmaması ve kaybolmaması için üzerine isim yazmak veya etiketlemek en etkili yöntemdir, böylece eşyalarımızı tanıyabiliriz.",
+      "subSkill": "Kişisel sorumluluk",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda teneffüs vaktini verimli kullanmak için aşağıdakilerden hangisi doğrudur?",
+      "choices": [
+        "Sadece tek başına kitap okumalısın",
+        "İhtiyaçlarını gidermeli ve arkadaşlarınla oyun oynamalısın",
+        "Sınıfta sessizce oturup beklemelisin"
+      ],
+      "correctAnswer": "İhtiyaçlarını gidermeli ve arkadaşlarınla oyun oynamalısın",
+      "explanation": "Teneffüsler dinlenme ve sosyalleşme vaktidir. İhtiyaçlarımızı karşıladıktan sonra arkadaşlık bağlarımızı güçlendirecek oyunlar oynamak daha sağlıklıdır.",
+      "subSkill": "Teneffüs yönetimi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Sınıf içinde bir arkadaşın konuşurken ne yapmalısın?",
+      "choices": [
+        "Onun sözünü kesip ben konuşmalıyım",
+        "Onu dikkatle ve sözünü kesmeden dinlemeliyim",
+        "Başka bir arkadaşımla konuşmaya başlamalıyım"
+      ],
+      "correctAnswer": "Onu dikkatle ve sözünü kesmeden dinlemeliyim",
+      "explanation": "İyi bir dinleyici olmak, saygının temelidir. Arkadaşımız konuşurken sözünü kesmemek, birbirimizi anlamamızı sağlar ve iletişimi güçlendirir.",
+      "subSkill": "İletişim kuralları",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "ben-ve-okulum",
+  "difficulty": "orta",
+  "createdAt": "2026-11-04T16:36:18.626Z"
+}

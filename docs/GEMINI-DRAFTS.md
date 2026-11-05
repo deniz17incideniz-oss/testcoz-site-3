@@ -1,0 +1,32 @@
+# Gemini ile soru ve görsel taslakları
+
+Bu araç yalnız editör incelemesine yönelik taslak üretir. Siteyi, soru bankasını veya PR'ı otomatik olarak değiştirmez. API kullanımı ve görsel üretimi, seçilen model ve hesap kotasına göre ücretlendirilir. Küçük bir denemeyle başlayın; Google AI Studio kullanım ve faturalandırma ekranlarını kontrol edin. Öğrenci hesap bilgilerini, sonuçlarını, kişisel bilgileri veya API anahtarını istemlere koymayın.
+
+Windows'ta anahtarı kullanıcı ortam değişkeni olarak kaydettikten sonra yeni bir PowerShell penceresinde, ya da var olan pencerede `GEMINI_API_KEY` değerini kullanıcı ortamından içeri alarak çalıştırın. Anahtarı terminal komutuna, dosyaya, depoya veya sohbete yazmayın.
+
+```powershell
+$env:GEMINI_API_KEY = [Environment]::GetEnvironmentVariable('GEMINI_API_KEY', 'User')
+node scripts/gemini-drafts.mjs questions 4 matematik carpma kolay 10
+```
+
+Sınıf 1–3 için 3, sınıf 4 için 4 seçenek istenir. Sınıf, ders ve konu kimlikleri gerçek katalogla eşleştirilir; seçilen Test 1’in kamusal soru kökleri yalnız tekrarları önlemek için isteme eklenir. Öğrenci hesabı veya sonucu kullanılmaz. Öğrenme amacı genel bir editör başlangıcıdır, resmî kazanım doğrulaması yerine geçmez. Çıktı `outputs/gemini-drafts/` altında, Git tarafından izlenmeyen bir JSON dosyasıdır. Konu ve ders alanlarında bankadaki kısa adresler kullanılır.
+
+Görsel üretilmesi gereken bir taslak sorusu varsa, dosya yolu ve soru numarası kullanılır:
+
+```powershell
+# Yalnız kullanıcı açıkça ücretli görsel API maliyetini onayladıktan sonra:
+$env:TESTCOZ_ALLOW_PAID_IMAGE = '1'
+node scripts/gemini-drafts.mjs image outputs/gemini-drafts/DOSYA.json 1
+```
+
+Görseller ayrı API çağrılarıdır ve ek maliyet oluşturabilir. Görselin veri, sayı, nesne sayısı ve soruyla tutarlılığı elle incelenmelidir. Görseldeki sayı, grafik veya metne otomatik olarak güvenilmez. Şema doğrulaması doğru cevap, uygun çeldirici, seviye veya pedagojik kaliteyi kanıtlamaz. Gerekli düzeltmeler editör tarafından mevcut kaynak ve üretici süreci üzerinden yapılır; görsel açıklaması ve erişilebilir alternatif metin de doğrulanır. İlgili testin önce/sonra kayıtları ve kimlikleri korunur.
+
+Seçeneklerin tamamı açıkça tam sayılı uzunluk ölçüsü olduğunda araç, aynı uzunluğun farklı birimlerle tekrarını da işaretler (örneğin `520 cm` ve `5 metre 20 santimetre`). Bu kontrol yalnız tanınan uzunluk ifadelerine uygulanır; tüm eşdeğer cevapları veya diğer belirsizlikleri yakaladığını varsaymayın.
+
+Varsayılan modeller `gemini-3.1-flash-lite` ve `gemini-3.1-flash-image` olup hesap/ülke/kota uygunluğu değişebilir. Gerekirse `TESTCOZ_GEMINI_TEXT_MODEL` veya `TESTCOZ_GEMINI_IMAGE_MODEL` ortam değişkeniyle değiştirilebilir. Bağlantının gerçekleştiği ancak gerçek API isteğiyle doğrulanabilir.
+
+Varsayılan metin modeli 503 hizmet hatası döndürürse araç bir kez `gemini-3.5-flash-lite` dener ve taslakta gerçekten kullanılan modeli kaydeder. Kota ve faturalandırma hatalarında tekrar deneme veya ücretli katmana geçiş yapılmaz; açıkça seçilmiş model de otomatik değiştirilmez.
+
+Kaynaklar: https://ai.google.dev/gemini-api/docs/api-key, https://ai.google.dev/gemini-api/docs/structured-output, https://ai.google.dev/gemini-api/docs/image-generation, https://ai.google.dev/gemini-api/docs/pricing
+
+Görsel API çağrıları varsayılan olarak kapalıdır. Bu anahtar yalnız insan onayı işaretidir; sağlayıcıda harcama sınırı veya ücretsiz kota garantisi değildir. Google AI Studio faturalandırma durumu ve bütçesi ayrıca kontrol edilmelidir.

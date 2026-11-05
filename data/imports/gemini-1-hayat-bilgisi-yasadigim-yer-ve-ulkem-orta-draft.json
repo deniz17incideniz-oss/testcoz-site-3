@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Yaşadığımız yerin yönetiminden sorumlu olan en yetkili kişi kimdir?",
+      "choices": [
+        "Muhtar",
+        "Öğretmen",
+        "Belediye Başkanı"
+      ],
+      "correctAnswer": "Belediye Başkanı",
+      "explanation": "Belediye başkanı, ilçemizin veya şehrimizin genel düzeninden, yolların yapılmasından ve temizlik gibi hizmetlerden sorumlu olan seçilmiş yöneticidir.",
+      "subSkill": "Yerel Yönetim",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ülkemizin ismidir?",
+      "choices": [
+        "Ankara",
+        "Türkiye",
+        "İstanbul"
+      ],
+      "correctAnswer": "Türkiye",
+      "explanation": "Türkiye, bizim vatanımızdır. Ankara başkentimiz, İstanbul ise en büyük şehrimizdir ancak ülkemizin adı Türkiye'dir.",
+      "subSkill": "Ülke Bilgisi",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okuldan eve dönerken yolumuzu karıştırmamak için aşağıdakilerden hangisini kullanmak en doğrudur?",
+      "choices": [
+        "Yakındaki bir ağaç",
+        "Belirgin bir bina",
+        "Arkadaşımın çantası"
+      ],
+      "correctAnswer": "Belirgin bir bina",
+      "explanation": "Yol tarif ederken veya evimizin yerini anlatırken okul, market veya cami gibi sabit ve dikkat çekici yerler referans olarak kullanılmalıdır.",
+      "subSkill": "Konum Belirleme",
+      "questionType": "Analiz",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "İstiklal Marşı törenlerinde nasıl davranmalıyız?",
+      "choices": [
+        "Konuşarak beklemeliyiz",
+        "Hazır ol duruşunda durmalıyız",
+        "Başka yöne bakmalıyız"
+      ],
+      "correctAnswer": "Hazır ol duruşunda durmalıyız",
+      "explanation": "İstiklal Marşı, bağımsızlığımızın sembolüdür. Okunduğu sırada saygı duruşunda beklemek ve konuşmamak bir vatandaşlık görevidir.",
+      "subSkill": "Milli Değerler",
+      "questionType": "Değerlendirme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Adresimizde aşağıdakilerden hangisinin bulunması zorunlu değildir?",
+      "choices": [
+        "Sokak ismi",
+        "Apartman ismi",
+        "Bakkalın adı"
+      ],
+      "correctAnswer": "Bakkalın adı",
+      "explanation": "Adres bilgilerimizde mahalle, sokak, bina numarası ve posta kodu yer alır. Bakkal veya komşu isimleri resmi adres bilgisi değildir.",
+      "subSkill": "Kişisel Bilgi",
+      "questionType": "Ayırt Etme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ülkemizin başkenti aşağıdakilerden hangisidir?",
+      "choices": [
+        "Ankara",
+        "İzmir",
+        "Bursa"
+      ],
+      "correctAnswer": "Ankara",
+      "explanation": "Türkiye Cumhuriyeti'nin başkenti Ankara'dır. Ankara, ülkemizin yönetim merkezidir ve Türkiye'nin tam ortasında yer alır.",
+      "subSkill": "Ülke Bilgisi",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Mahallemizde yardıma ihtiyacı olan yaşlı bir komşumuzu gördüğümüzde ne yapmalıyız?",
+      "choices": [
+        "Göremezlikten gelmeliyiz",
+        "Ona nazikçe yardım etmeliyiz",
+        "Hemen oradan uzaklaşmalıyız"
+      ],
+      "correctAnswer": "Ona nazikçe yardım etmeliyiz",
+      "explanation": "Toplumsal yaşamda yardımlaşma ve dayanışma çok önemlidir. Yaşlılarımıza ve ihtiyaç sahiplerine karşı duyarlı davranmak iyi bir yurttaşlık davranışıdır.",
+      "subSkill": "Toplumsal İlişkiler",
+      "questionType": "Davranış",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi ülkemizin bağımsızlık sembollerinden biridir?",
+      "choices": [
+        "Bayrağımız",
+        "Okul çantamız",
+        "Evimizin anahtarı"
+      ],
+      "correctAnswer": "Bayrağımız",
+      "explanation": "Ay yıldızlı al bayrağımız, bağımsızlığımızın ve ülkemizin en önemli sembolüdür. Ona her zaman saygı göstermeli ve korumalıyız.",
+      "subSkill": "Milli Değerler",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yaşadığımız yerin temiz tutulması için hangisini yapmak en doğrudur?",
+      "choices": [
+        "Çöpleri sokağa atmak",
+        "Çöpleri çöp kutusuna atmak",
+        "Çöpleri rüzgara bırakmak"
+      ],
+      "correctAnswer": "Çöpleri çöp kutusuna atmak",
+      "explanation": "Yaşadığımız çevreyi temiz tutmak hepimizin sorumluluğudur. Atıklarımızı yerlere değil, mutlaka çöp kutularına atmalıyız.",
+      "subSkill": "Çevre Bilinci",
+      "questionType": "Analiz",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Hangi kurum evlerimize su ve elektrik gibi hizmetlerin ulaştırılmasını planlar?",
+      "choices": [
+        "Belediye",
+        "Hastane",
+        "Okul"
+      ],
+      "correctAnswer": "Belediye",
+      "explanation": "Belediyeler, yerleşim yerindeki altyapı hizmetlerini, çevre düzenlemesini ve şehrin temel ihtiyaçlarının karşılanmasını sağlayan kurumlardır.",
+      "subSkill": "Yerel Yönetim",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "yasadigim-yer-ve-ulkem",
+  "difficulty": "orta",
+  "createdAt": "2026-11-05T12:57:21.239Z"
+}

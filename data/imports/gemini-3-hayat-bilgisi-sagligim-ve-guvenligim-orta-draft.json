@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "question": "Okulda oyun oynarken arkadaşın düşüp dizini yaraladığında, sağlık ve güvenlik kurallarına göre yapman gereken en doğru davranış hangisidir?",
+      "choices": [
+        "Yarasına hemen kendi çantamdaki kremi sürmek",
+        "Hiçbir şey yapmadan sadece arkadaşımı izlemek",
+        "Hemen bir öğretmene veya görevli bir yetişkine haber vermek"
+      ],
+      "correctAnswer": "Hemen bir öğretmene veya görevli bir yetişkine haber vermek",
+      "explanation": "Okul kazalarında yaralanan bir öğrenciye müdahale etmek uzmanlık gerektirir. En güvenli davranış, durumu hemen yetişkinlere bildirmektir; bu hem arkadaşının hem de senin sağlığını korur.",
+      "subSkill": "Güvenlik kurallarını uygulama",
+      "questionType": "Uygulama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Dengeli beslenmek isteyen Elif, beslenme çantasını hazırlarken sadece çikolata ve bisküvi koymuştur. Elif'in bu davranışı sağlığı açısından nasıl değerlendirilmelidir?",
+      "choices": [
+        "Gün boyu enerji vereceği için doğrudur",
+        "Vücudun ihtiyacı olan farklı besin gruplarını içermediği için yanlıştır",
+        "Çantada yer kaplamadığı için çok mantıklı bir tercihtir"
+      ],
+      "correctAnswer": "Vücudun ihtiyacı olan farklı besin gruplarını içermediği için yanlıştır",
+      "explanation": "Sağlıklı bir gelişim için beslenme çantasında karbonhidrat, protein, vitamin ve mineralleri içeren çeşitli besinler olmalıdır. Sadece şekerli gıdalar tüketmek sağlığımızı olumsuz etkiler.",
+      "subSkill": "Beslenme ve sağlık ilişkisi",
+      "questionType": "Analiz",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul çıkışı eve dönerken servis bekleyen Can, kaldırımda beklemek yerine yola inerek arkadaşlarıyla top oynamaktadır. Can'ın bu davranışı hakkında hangisi söylenebilir?",
+      "choices": [
+        "Dışarıda oyun oynamak çok eğlenceli olduğu için doğrudur",
+        "Trafik kurallarına aykırıdır ve ciddi bir kaza riski taşır",
+        "Top oynamak sağlığa yararlı olduğu için güvenlikten önemlidir"
+      ],
+      "correctAnswer": "Trafik kurallarına aykırıdır ve ciddi bir kaza riski taşır",
+      "explanation": "Yol kenarlarında veya taşıt trafiğinin olduğu alanlarda oynamak hayati tehlike yaratır. Güvenlik kuralları her zaman eğlenceden önce gelir ve kazaları önlemek için bunlara uyulmalıdır.",
+      "subSkill": "Güvenli yaşam",
+      "questionType": "Değerlendirme",
+      "imageBrief": "Bir yol kenarında elinde top olan ve kaldırımda değil de taşıt yolunda bekleyen bir öğrenci görseli.",
+      "imageAlt": "Kaldırımın dışına çıkarak yola inmiş, trafik akışının olduğu alanda bekleyen çocuk görseli."
+    },
+    {
+      "question": "Acil durumlar için hazırladığın 'Güvenlik Kartı'nda hangi bilginin bulunması zorunlu değildir?",
+      "choices": [
+        "Ebeveynlerinin telefon numarası",
+        "Yaşadığın evin açık adresi",
+        "En sevdiğin oyuncağın markası"
+      ],
+      "correctAnswer": "En sevdiğin oyuncağın markası",
+      "explanation": "Güvenlik kartları acil durumlarda bize yardım edecek kişilere ulaşmamızı sağlar. İletişim numaraları ve adres bilgilerimiz hayat kurtarıcıdır, ancak kişisel ilgi alanlarımız güvenlik için gerekli değildir.",
+      "subSkill": "Kişisel güvenlik önlemleri",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 3,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "orta",
+  "createdAt": "2026-11-05T13:18:20.333Z"
+}
