@@ -13,3 +13,7 @@ Bu değişiklik yalnız aşağıdaki yedi kimliği yeniden yazar; soru sayısı,
 Soru kaynaklarına müdahale etmeden `zy-safety-hotfix.js` katmanı yüklenir; Test 2 dışarıda tutulur. Üretim süreçleri de aynı veriyi kullanır. Ayrı karşılaştırma 520 testte 5.200 kalıcı kimliği ve diğer 5.193 kaydı doğrular. Paket kilidi mevcut PR #5 ile aynı güvenlik güncellemelerine getirildi; clean `npm ci` ve `npm audit` sıfır bilinen açık gösterdi. Otomatik testler, kısmi tarayıcı denemesi ve bu dar düzeltme tüm bankanın eğitim kalitesini veya AdSense uygunluğunu belgelemez.
 
 PR #5 hâlâ daha geniş çalışma olarak korunur; ana dala bu düzeltme alındıktan sonra üretici ve yükleyici birleşimi ayrıca doğrulanmalıdır. Hedef tüm PR #5'i bu düzeltmeyle birleştirmek değildir.
+
+## Yerel ve Preview doğrulaması
+
+Ayrı çalışma alanında `npm test` ve 80 tarayıcı testi geçti. Testlerde 320 px ekranda ikinci ve üçüncü sınıf ilaç soruları ile üçüncü sınıf trafik sorusunun seçenekleri ve yanlış cevap açıklamaları kontrol edildi. Vercel Preview `51a1082`, canlıda daha önce gözlenen ikinci sınıf ilaç sorusunun yerine yetişkine haber vermeyi içeren üç seçenekli soruyu gösterdi. Bu kanıt Preview içindir; production deploy ile karıştırılmamalıdır.
