@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import {repairs,visualEvidence} from '../data/editorial-repairs.mjs';
 
 const ctx={window:{},URLSearchParams}; vm.createContext(ctx);
-for(const file of ['data/test-normalizer.js',...fs.readdirSync('data/tests').filter(f=>f.endsWith('.js')&&f!=='zz-editorial-repairs.js').sort().map(f=>'data/tests/'+f)]) vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
+for(const file of ['data/test-normalizer.js',...fs.readdirSync('data/tests').filter(f=>f.endsWith('.js')&&f!=='zz-editorial-repairs.js'&&f!=='zy-safety-hotfix.js').sort().map(f=>'data/tests/'+f)]) vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
 const bank=ctx.window.TestCozTestNormalizer.normalizeAllTests(ctx.window.TESTCOZ_TESTS);
 const changes=[],patches=[],seen=new Set();
 const baseline=JSON.parse(fs.readFileSync('data/imports/adsense-repair-baseline.json','utf8'));
