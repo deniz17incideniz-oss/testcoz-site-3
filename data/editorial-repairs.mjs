@@ -38,6 +38,9 @@ test(2,'hayat-bilgisi','sagligim-ve-guvenligim','zor',1,safetyHardTwo,'reviewed_
 test(3,'hayat-bilgisi','sagligim-ve-guvenligim','zor',1,safetyHardThree,'reviewed_gemini_grade_three_safety_questions');
 // Individually reviewed P0/P1 repairs in grade 3 medium; untouched records keep their original choices.
 for(const [index,row,subSkill,questionType] of [
+ [1,['Bisiklete binmeden önce İpek kaskının kayışını bağlıyor; Can ise kayışı açık bırakıyor. Hangisi kaskı daha güvenli kullanır?', 'İpek', 'Can', 'İkisi de', 'Kaskın başa uygun oturması ve kayışının bağlanması düşme durumunda başı korumaya yardımcı olur.'],'Kask kullanımı','gorsel-okuma'],
+ [4,['Hangi durumda 112 Acil Çağrı Merkezi aranmalıdır?', 'Binada görülen yangın için acil yardım gerektiğinde', 'Bir oyunun kuralları merak edildiğinde', 'Okul çantasındaki kalem bulunamadığında', '112, yangın gibi acil durumlarda yardım istemek için kullanılır; gereksiz çağrılar yardım ulaşmasını geciktirebilir.'],'Acil yardım','cikarim'],
+ [7,['Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise ilacı izinsiz kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?', 'Ece’nin yetişkine haber vermesi', 'Arda’nın ilacı izinsiz kullanması', 'İkisinin de ilacı denemesi', 'İlaçlar yanlış kullanıldığında zarar verebilir. Çocuklar ilaç kullanmadan önce yetişkin ve sağlık uzmanı desteği almalıdır.'],'İlaç güvenliği','gorsel-okuma'],
  [3,['Okulda koridordaki kırık camı gören bir öğrenci ne yapmalıdır?', 'Camdan uzak durup bir yetişkine haber vermelidir.', 'Camları çıplak elle toplamalıdır.', 'Camın üstünden koşmalıdır.', 'Kırık cam kesebilir. Öğrencinin camdan uzak durup bir yetişkine haber vermesi yardım alınmasını sağlar.'],'Kesici maddelerden korunma','cikarim'],
  [5,['Bir yaya, geçitte yeşil ışığı bekledikten sonra çevresindeki araçları da kontrol ediyor. Bu davranışın amacı nedir?', 'Karşıya güvenli geçişe yardımcı olmak', 'Dengeli besin alımını sağlamak', 'Dişleri temizlemek', 'Yaya ışığı ve araç kontrolü karşıya geçerken trafik durumunu değerlendirmeye yardımcı olur.'],'Yaya güvenliği','cikarim'],
  [8,['Dengeli beslenmek isteyen Ece, çantasında yalnızca bisküvi olduğunu fark ediyor. Çeşitliliği artırmak için hangisini ekleyebilir?', 'Meyve ve peynirli sandviç', 'Yalnızca ikinci bir paket bisküvi', 'Yalnızca şekerli içecek', 'Meyve ve peynirli sandviç eklemek, yalnızca bisküvi içeren öğüne farklı besinler katar.'],'Dengeli beslenme','cikarim'],
@@ -384,6 +387,10 @@ const shortRepairs = [
  ['life-in-the-city-and-the-world',9,['“The bus goes to the museum.” Otobüsün gittiği yer neresi?','Museum','Library','Market','Goes to bir yere gider demektir. Verilen hedef museum yani müzedir; kütüphane veya market değildir.']]
 ];
 for(const [topic,index,row] of shortRepairs)repairs.push({slug:`2-sinif-ingilizce-${topic}-zor-test-2`,index,row,reason:'off_topic_translation_template'});
+Object.assign(visualEvidence,{
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['İki öğrencinin kask kullanımı',{first:'İpek: kaskının kayışını bağlıyor',second:'Can: kask kayışını açık bırakıyor'}],
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:7':['İlaç kutusu bulan iki öğrenci',{first:'Ece: bir yetişkine haber veriyor',second:'Arda: ilacı izinsiz kullanıyor'}]
+});
 Object.assign(visualEvidence,{
  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:9':['İki öğrencinin diş fırçası kullanımı',{first:'Zeynep: kendi diş fırçasını kullanıyor',second:'Arda: arkadaşının fırçasını kullanıyor'}]
 });

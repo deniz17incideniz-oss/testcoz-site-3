@@ -98,7 +98,7 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 3 | Matematik | Nesnelerin Geometrisi (2) | 1 | 1 | 2 | 40 | 12 |
 | 3 | Matematik | Veriye Dayalı Araştırma | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Ben ve Okulum | 1 | 1 | 2 | 40 | 1 |
-| 3 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 9 |
+| 3 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 8 |
 | 3 | Hayat Bilgisi | Ailem ve Toplum | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 13 |
 | 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |

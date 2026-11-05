@@ -19,7 +19,7 @@ const historicalIds=new Set(log.changes.map(entry=>entry.id));
 for(const [id,change] of reviewed){
  assert.ok(historicalIds.has(id),`Reviewed choice record is not in historical migration: ${id}`);
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
- if(change.reason==='reviewed_gemini_grade_three_safety_medium_p0')assert.ok([4,6,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
+ if(change.reason==='reviewed_gemini_grade_three_safety_medium_p0')assert.ok([2,4,5,6,8,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
  assert.equal(change.after.choices.length,3,`Reviewed question must have three choices: ${id}`);
 }
 const questions=new Map(tests.flatMap(t=>t.questions.map(q=>[q.id,q])));

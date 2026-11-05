@@ -2402,5 +2402,17 @@
   "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:9": {
     "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
     "sha256": "6f90c3e03d9522d49b9e30ee0924369f9ada8a1c32036634610c1426abc60ae9"
+  },
+  "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1": {
+    "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+    "sha256": "0532a9bf6c5497a99276457615311fbe7148da2c07d6b8d21adc50594ec28b4a"
+  },
+  "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:4": {
+    "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+    "sha256": "57cd4a80461d1b0f6fe72e3ccc91e0b77b7a2f70c54eb56d4c6a088dfb9316bb"
+  },
+  "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:7": {
+    "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+    "sha256": "7c224938a6fe1cf6fa7c0295107e3c12f337560efa2d2c89fa51d531ba845865"
   }
 }

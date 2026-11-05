@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 601,
+  "count": 604,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -12796,6 +12796,252 @@
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: Sağlığım ve Güvenliğim görselindeki üç adımın ikincisi hangisidir?",
+        "choices": [
+          "Güvenli bir yere geçmek",
+          "Tehlikeyi fark edip sakin kalmak",
+          "Uygun kişiden veya kurumdan yardım istemek",
+          "ilaçları yetişkine sormadan kullanmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlk adımdan sonra “Güvenli bir yere geçmek” yapılır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Etkinlik sırası",
+          "data": {
+            "first": "Tehlikeyi fark edip sakin kalmak",
+            "second": "Güvenli bir yere geçmek",
+            "third": "Uygun kişiden veya kurumdan yardım istemek"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+        "imageAlt": "Etkinlik sırası",
+        "options": [
+          "Güvenli bir yere geçmek",
+          "Tehlikeyi fark edip sakin kalmak",
+          "Uygun kişiden veya kurumdan yardım istemek",
+          "ilaçları yetişkine sormadan kullanmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Bisiklete binmeden önce İpek kaskının kayışını bağlıyor; Can ise kayışı açık bırakıyor. Hangisi kaskı daha güvenli kullanır?",
+        "choices": [
+          "İkisi de",
+          "İpek",
+          "Can"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kaskın başa uygun oturması ve kayışının bağlanması düşme durumunda başı korumaya yardımcı olur.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "İki öğrencinin kask kullanımı",
+          "data": {
+            "first": "İpek: kaskının kayışını bağlıyor",
+            "second": "Can: kask kayışını açık bırakıyor"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+        "imageAlt": "İpek: kaskının kayışını bağlıyor. Can: kask kayışını açık bırakıyor",
+        "options": [
+          "İkisi de",
+          "İpek",
+          "Can"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Kask kullanımı",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: Sağlığım ve Güvenliğim konuşma kartında “Kimden yardım isteyebilirim?” sorusu vardır. En uygun cevap hangisidir?",
+        "choices": [
+          "güvendiği yetişkin ve gerektiğinde 112",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu durumda güvenli yardım kaynağı “güvendiği yetişkin ve gerektiğinde 112”dır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Yardım kaynakları",
+          "data": {
+            "question": "Kimden yardım istemeliyim?",
+            "answer": "güvendiği yetişkin ve gerektiğinde 112"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+        "imageAlt": "Yardım kaynakları",
+        "options": [
+          "güvendiği yetişkin ve gerektiğinde 112",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Hangi durumda 112 Acil Çağrı Merkezi aranmalıdır?",
+        "choices": [
+          "Okul çantasındaki kalem bulunamadığında",
+          "Binada görülen yangın için acil yardım gerektiğinde",
+          "Bir oyunun kuralları merak edildiğinde"
+        ],
+        "correctAnswer": 1,
+        "explanation": "112, yangın gibi acil durumlarda yardım istemek için kullanılır; gereksiz çağrılar yardım ulaşmasını geciktirebilir.",
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+        "options": [
+          "Okul çantasındaki kalem bulunamadığında",
+          "Binada görülen yangın için acil yardım gerektiğinde",
+          "Bir oyunun kuralları merak edildiğinde"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Acil yardım",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: Sağlığım ve Güvenliğim görselindeki yanlış davranışın yerine hangisi yapılmalıdır?",
+        "choices": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yanlış seçim yerine güvenli ve uygun çözüm uygulanmalıdır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Seçimini düzelt",
+          "data": {
+            "wrong": "ilaçları yetişkine sormadan kullanmak",
+            "better": "yola çıkmadan kaskı uygun biçimde düzeltmek"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+        "imageAlt": "Seçimini düzelt",
+        "options": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise ilacı izinsiz kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?",
+        "choices": [
+          "İkisinin de ilacı denemesi",
+          "Ece’nin yetişkine haber vermesi",
+          "Arda’nın ilacı izinsiz kullanması"
+        ],
+        "correctAnswer": 1,
+        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Çocuklar ilaç kullanmadan önce yetişkin ve sağlık uzmanı desteği almalıdır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "İlaç kutusu bulan iki öğrenci",
+          "data": {
+            "first": "Ece: bir yetişkine haber veriyor",
+            "second": "Arda: ilacı izinsiz kullanıyor"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+        "imageAlt": "Ece: bir yetişkine haber veriyor. Arda: ilacı izinsiz kullanıyor",
+        "options": [
+          "İkisinin de ilacı denemesi",
+          "Ece’nin yetişkine haber vermesi",
+          "Arda’nın ilacı izinsiz kullanması"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "İlaç güvenliği",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
         "tags": [
           "hayat-bilgisi",
           "sagligim-ve-guvenligim",
