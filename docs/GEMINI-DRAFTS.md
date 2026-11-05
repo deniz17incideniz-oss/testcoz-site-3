@@ -9,11 +9,13 @@ $env:GEMINI_API_KEY = [Environment]::GetEnvironmentVariable('GEMINI_API_KEY', 'U
 node scripts/gemini-drafts.mjs questions 4 matematik carpma kolay 10
 ```
 
-Sınıf 1–3 için 3, sınıf 4 için 4 seçenek istenir. Seçilen konu ve seviye editör tarafından mevcut bankayla ve güncel öğretim programıyla eşleştirilmelidir. Çıktı `outputs/gemini-drafts/` altında, Git tarafından izlenmeyen bir JSON dosyasıdır. Konu ve ders alanlarında bankadaki kısa adresler kullanılır.
+Sınıf 1–3 için 3, sınıf 4 için 4 seçenek istenir. Sınıf, ders ve konu kimlikleri gerçek katalogla eşleştirilir; seçilen Test 1’in kamusal soru kökleri yalnız tekrarları önlemek için isteme eklenir. Öğrenci hesabı veya sonucu kullanılmaz. Öğrenme amacı genel bir editör başlangıcıdır, resmî kazanım doğrulaması yerine geçmez. Çıktı `outputs/gemini-drafts/` altında, Git tarafından izlenmeyen bir JSON dosyasıdır. Konu ve ders alanlarında bankadaki kısa adresler kullanılır.
 
 Görsel üretilmesi gereken bir taslak sorusu varsa, dosya yolu ve soru numarası kullanılır:
 
 ```powershell
+# Yalnız kullanıcı açıkça ücretli görsel API maliyetini onayladıktan sonra:
+$env:TESTCOZ_ALLOW_PAID_IMAGE = '1'
 node scripts/gemini-drafts.mjs image outputs/gemini-drafts/DOSYA.json 1
 ```
 
@@ -26,3 +28,5 @@ Varsayılan modeller `gemini-3.1-flash-lite` ve `gemini-3.1-flash-image` olup he
 Varsayılan metin modeli 503 hizmet hatası döndürürse araç bir kez `gemini-3.5-flash-lite` dener ve taslakta gerçekten kullanılan modeli kaydeder. Kota ve faturalandırma hatalarında tekrar deneme veya ücretli katmana geçiş yapılmaz; açıkça seçilmiş model de otomatik değiştirilmez.
 
 Kaynaklar: https://ai.google.dev/gemini-api/docs/api-key, https://ai.google.dev/gemini-api/docs/structured-output, https://ai.google.dev/gemini-api/docs/image-generation, https://ai.google.dev/gemini-api/docs/pricing
+
+Görsel API çağrıları varsayılan olarak kapalıdır. Bu anahtar yalnız insan onayı işaretidir; sağlayıcıda harcama sınırı veya ücretsiz kota garantisi değildir. Google AI Studio faturalandırma durumu ve bütçesi ayrıca kontrol edilmelidir.

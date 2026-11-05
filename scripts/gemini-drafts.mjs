@@ -2,11 +2,25 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {tests,catalog} from './load-bank.mjs';
 
 const outDir = path.resolve('outputs/gemini-drafts');
 const textModel = process.env.TESTCOZ_GEMINI_TEXT_MODEL || 'gemini-3.1-flash-lite';
 const imageModel = process.env.TESTCOZ_GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image';
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+// Public, authored question data only: never use account, session, sheet or result data.
+export function questionContext(grade,subject,topic,difficulty) {
+ const cls=Number(grade), group=catalog.grades[cls]?.subjects.find(s=>s.id===subject);
+ const item=group?.topics.find(t=>t.id===topic);
+ if(!item || !['kolay','orta','zor'].includes(difficulty))throw new Error('Konu katalogda bulunamadı. Sınıf, ders ve konu kimliklerini kontrol edin.');
+ const selected=tests.find(t=>t.classLevel===cls&&t.subject===subject&&t.topic===topic&&t.difficulty===difficulty&&t.testNumber===1);
+ if(!selected)throw new Error('Katalogdaki konu için uygun Test 1 bulunamadı.');
+ return {grade:cls,subject:group.name,topic:item.name,topicId:topic,difficulty,existingQuestions:selected.questions.map(q=>q.question)};
+}
+export function assertImagePermission(env=process.env) {
+ if(env.TESTCOZ_ALLOW_PAID_IMAGE!=='1')throw new Error('Görsel API çağrısı kapalı: ücretsiz kota doğrulanmadı ve ücretli kullanım onaylanmadı. Yerel SVG kullanın.');
+}
 
 // Only parse complete, unambiguous integer length expressions; never infer missing units.
 export function lengthInMillimetres(value) {
@@ -77,8 +91,9 @@ async function main() {
   const count=Number(number), cls=Number(grade);
   if(![1,2,3,4].includes(cls) || !slugPattern.test(subject||'') || !slugPattern.test(topic||'') || !['kolay','orta','zor'].includes(difficulty) || !Number.isInteger(count) || count<1 || count>10)throw new Error('Usage: node scripts/gemini-drafts.mjs questions <1-4> <subject-slug> <topic-slug> <kolay|orta|zor> [1-10]');
   const choiceCount=cls<=3?3:4;
+  const context=questionContext(cls,subject,topic,difficulty);
   const extra=cls===4&&subject==='matematik'&&topic==='carpma'?'Farklı beceriler kullan: basamaklara ayırma, kısa yoldan 10 ve 100 ile çarpma, gerçekçi eş grup problemi, işlemde eksik çarpan, çarpmanın değişme özelliği ve sonucu uygun yolla tahmin veya kontrol etme. Yalnız tek basamaklı çarpım tablosunu soran sorular hazırlama. Aynı eş grup hikâyesini farklı nesnelerle tekrarlama. Sayılar ve kazanımlar 4. sınıfa uygun olsun.':'Beceri türlerini olabildiğince çeşitlendir; aynı problemi yalnız nesne veya sayı değiştirerek tekrarlama.';
-  const prompt=`Türkiye ilkokulu için ${cls}. sınıf, ders ${subject}, konu ${topic}, ${difficulty} düzeyinde ${count} özgün çoktan seçmeli soru taslağı hazırla. Her soruda tam ${choiceCount} farklı seçenek, yalnız bir doğru cevap ve öğrenciye çözüm yolunu gösteren en az 60 karakterlik Türkçe açıklama olsun. Sınıf düzeyine uygun, farklı becerileri ölçen, konu dışına çıkmayan, gerçekçi ve birbirini tekrar etmeyen sorular hazırla. ${extra} Görsel sadece öğrenme için gerçekten gerekliyse imageBrief alanına metinsiz bir görsel betimi, imageAlt alanına soruyu çözmeye yetecek doğru alternatif metin yaz; diğer sorularda iki alan da boş olsun. Görselde sayı veya metin güvenilirliği gerekiyorsa görsel isteme; verileri soru metnine koy. Resmî onay veya doğrulanmamış kaynak iddia etme. Bu sorular yayınlanmayacak taslaklardır.`;
+  const prompt=`Türkiye ilkokulu için ${cls}. sınıf, ders ${context.subject} (${subject}), konu ${context.topic} (${topic}), ${difficulty} düzeyinde ${count} özgün çoktan seçmeli soru taslağı hazırla. Öğrenme amacı: ${context.topic} alanında sınıf düzeyine uygun bilgi, karşılaştırma ve günlük yaşamda uygulama becerisi. Bilişsel işlem: ${difficulty==='kolay'?'anlama':difficulty==='orta'?'uygulama':'yaşa uygun karşılaştırma ve çıkarım'}; zor soruyu yalnızca uzatarak zorlaştırma. Şu mevcut soru kökleri yalnız tekrarları ve sorunlu kalıpları önlemek için verilmiştir; doğruluğu veya cevabı için kaynak sayma: ${JSON.stringify(context.existingQuestions)}. Her soruda tam ${choiceCount} farklı seçenek, yalnız bir doğru cevap ve öğrenciye çözüm yolunu gösteren en az 60 karakterlik Türkçe açıklama olsun. Sınıf düzeyine uygun, farklı becerileri ölçen, konu dışına çıkmayan, gerçekçi ve birbirini tekrar etmeyen sorular hazırla. ${extra} Görsel sadece öğrenme için gerçekten gerekliyse imageBrief alanına metinsiz bir görsel betimi, imageAlt alanına soruyu çözmeye yetecek doğru alternatif metin yaz; diğer sorularda iki alan da boş olsun. Görselde sayı veya metin güvenilirliği gerekiyorsa görsel isteme; verileri soru metnine koy. Resmî onay veya doğrulanmamış kaynak iddia etme. Bu sorular yayınlanmayacak taslaklardır.`;
   const payload={contents:[{parts:[{text:prompt}]}],generationConfig:{responseMimeType:'application/json',responseSchema:schema}};
   // A single fallback for temporary server outages. Never retry quota/billing errors.
   const {parts,model:usedModel}=await textWithFallback(model=>api(model,payload),textModel,Boolean(process.env.TESTCOZ_GEMINI_TEXT_MODEL));
@@ -91,6 +106,7 @@ async function main() {
   draft.status='DRAFT_REQUIRES_EDITORIAL_REVIEW';fs.writeFileSync(file,JSON.stringify(draft,null,2)+'\n');
   console.log(`Draft saved: ${file}`);console.log('Schema checks passed; answers, curriculum fit and image accuracy need independent review.');
  } else if(mode==='image') {
+  assertImagePermission();
   const [filename,indexArg]=args;const absolute=path.resolve(filename||'');const relative=path.relative(outDir,absolute);
   if(relative.startsWith('..') || path.isAbsolute(relative) || path.extname(absolute)!=='.json')throw new Error('Image input must be a draft JSON inside outputs/gemini-drafts');
   const draft=JSON.parse(fs.readFileSync(absolute,'utf8'));const index=Number(indexArg)-1;

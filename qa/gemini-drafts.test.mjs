@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {validateDraft,textWithFallback,lengthInMillimetres} from '../scripts/gemini-drafts.mjs';
+import {validateDraft,textWithFallback,lengthInMillimetres,questionContext,assertImagePermission} from '../scripts/gemini-drafts.mjs';
 
 const item=()=>({question:'Bir örnek soru?',choices:['Bir','İki','Üç'],correctAnswer:'İki',explanation:'İşlem adımlarını açıklayan yeterli uzunlukta örnek bir açıklama.',subSkill:'Örnek beceri',questionType:'problem',imageBrief:'',imageAlt:''});
 test('accepts a complete draft without treating it as editorial approval',()=>assert.equal(validateDraft({questions:[item()]},1,3).questions.length,1));
@@ -12,3 +12,6 @@ test('rejects the self-correction observed in a multiplication or division expla
 test('rejects repeated questions',()=>assert.throws(()=>validateDraft({questions:[item(),item()]},2,3)));
 test('falls back once after 503 and records the actual model',async()=>{const calls=[];const r=await textWithFallback(async model=>{calls.push(model);if(calls.length===1)throw Object.assign(new Error('unavailable'),{httpStatus:503});return ['draft'];},'gemini-3.1-flash-lite');assert.deepEqual(calls,['gemini-3.1-flash-lite','gemini-3.5-flash-lite']);assert.equal(r.model,'gemini-3.5-flash-lite');});
 test('does not retry quota errors or override a chosen model',async()=>{for(const [status,override] of [[429,false],[503,true]]){let calls=0;await assert.rejects(textWithFallback(async()=>{calls++;throw Object.assign(new Error('error'),{httpStatus:status});},'gemini-3.1-flash-lite',override));assert.equal(calls,1);}});
+
+test('uses actual catalog topic and public bank questions',()=>{const c=questionContext(2,'hayat-bilgisi','sagligim-ve-guvenligim','zor');assert.equal(c.topic,'Sağlığım ve Güvenliğim');assert.equal(c.existingQuestions.length,10);assert.throws(()=>questionContext(2,'hayat-bilgisi','olmayan-konu','zor'),/katalogda/);});
+test('blocks potentially paid image calls by default',()=>{assert.throws(()=>assertImagePermission({}),/ücretli kullanım onaylanmadı/);assert.doesNotThrow(()=>assertImagePermission({TESTCOZ_ALLOW_PAID_IMAGE:'1'}));});
