@@ -15,6 +15,16 @@ const required = ["classLevel", "subject", "topic", "difficulty", "testNumber", 
 const difficulties = new Set(["kolay", "orta", "zor"]);
 const questionTypes = new Set(["problem", "gorsel-okuma", "tablo-yorumlama", "metin-anlama", "islem", "karsilastirma", "siralama", "cikarim", "eslestirme", "oruntu"]);
 const cognitiveLevels = new Set(["hatirlama", "anlama", "uygulama", "yorumlama", "problem-cozme"]);
+// These seven questions were individually rewritten and reviewed; other Test 1 options retain their historical counts.
+const reviewedThreeChoices = new Set([
+  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-3',
+  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-7',
+  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-10',
+  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6',
+  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-3',
+  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-7',
+  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-10'
+]);
 const questionTexts = new Set();
 const slugs = new Set();
 const questionIds = new Set();
@@ -42,7 +52,7 @@ for (const test of tests) {
       if (!(field in question)) throw new Error(`${test.slug} ${index + 1}. soruda ${field} eksik.`);
     }
     if (!Array.isArray(question.choices) || question.choices.length < 2) throw new Error("Şık yapısı geçersiz.");
-    const expectedChoices = test.classLevel === 1 && test.subject === 'ingilizce' && test.testNumber === 1 ? 3 : test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4;
+    const expectedChoices = reviewedThreeChoices.has(question.id) ? 3 : test.classLevel === 1 && test.subject === 'ingilizce' && test.testNumber === 1 ? 3 : test.testNumber === 2 && test.classLevel <= 3 ? 3 : 4;
     if (question.choices.length !== expectedChoices) throw new Error(`${test.slug} ${index + 1}. soruda sınıf/test kuralına uygun şık sayısı olmalı.`);
     if (new Set(question.choices).size !== question.choices.length) throw new Error(`${test.slug} ${index + 1}. soruda tekrarlanan şık var.`);
     if (questionIds.has(question.id)) throw new Error(`Tekrarlanan soru kimliği: ${question.id}`);
