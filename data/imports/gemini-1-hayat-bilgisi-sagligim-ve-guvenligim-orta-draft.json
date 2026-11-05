@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Okul bahçesinde oyun oynarken bir arkadaşın yere düştü ve dizini yaraladı. İlk olarak ne yapmalısın?",
+      "choices": [
+        "Onu olduğu yerde bırakıp oyuna devam etmeliyim.",
+        "Hemen bir öğretmene veya görevli bir büyüğe haber vermeliyim.",
+        "Kendi başıma yaraya dokunarak temizlemeye çalışmalıyım."
+      ],
+      "correctAnswer": "Hemen bir öğretmene veya görevli bir büyüğe haber vermeliyim.",
+      "explanation": "Okulda meydana gelen kazalarda güvenliğimiz için mutlaka bir yetişkinden yardım istemeliyiz. Kendi başımıza müdahale etmek bazen yaralanmayı büyütebilir, bu yüzden öğretmenlerimize haber vermek en doğru adımdır.",
+      "subSkill": "Acil durumlarda yardım isteme",
+      "questionType": "Durum analizi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Eve geldiğinde ellerinin temiz olması için en sağlıklı yöntem hangisidir?",
+      "choices": [
+        "Ellerimi sadece soğuk su ile çalkalamak.",
+        "Sadece peçete ile ellerimi silmek.",
+        "Bol su ve sabunla en az 20 saniye boyunca yıkamak."
+      ],
+      "correctAnswer": "Bol su ve sabunla en az 20 saniye boyunca yıkamak.",
+      "explanation": "Mikroplardan arınmak ve sağlığımızı korumak için ellerimizi sabunla ovuşturarak yıkamalıyız. 20 saniye süren yıkama işlemi, ellerimizdeki tüm kir ve zararlı bakterilerin yok olmasını sağlar.",
+      "subSkill": "Kişisel hijyen",
+      "questionType": "Bilgi kavrama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yolda yürürken trafik ışıklarında kırmızı yanıyorsa ne yapmalısın?",
+      "choices": [
+        "Hızlıca karşıya geçmeliyim.",
+        "Kırmızı ışıkta beklemeli, yeşil yanınca karşıya geçmeliyim.",
+        "Hiç durmadan yolu kontrol edip geçmeliyim."
+      ],
+      "correctAnswer": "Kırmızı ışıkta beklemeli, yeşil yanınca karşıya geçmeliyim.",
+      "explanation": "Trafik kuralları hayatımızı korumak içindir. Kırmızı ışık 'dur' demektir ve araçların geçiş hakkı olduğunu belirtir. Yeşil ışık yanana kadar beklemek hayati bir güvenlik kuralıdır.",
+      "subSkill": "Trafik güvenliği",
+      "questionType": "Kural uygulama",
+      "imageBrief": "Üç renkli dikey trafik ışığı direği; kırmızı ışık yanıyor.",
+      "imageAlt": "Trafik lambasında kırmızı ışığın yandığı bir görsel."
+    },
+    {
+      "question": "Mutfakta yemek hazırlanan bir yere gittiğinde hangi davranış güvenli değildir?",
+      "choices": [
+        "Ocakta yanan ateşin veya sıcak kapların yakınına yaklaşmak.",
+        "Mutfağa girmeden önce büyüklerden izin almak.",
+        "Kesici aletlerden uzak durmak."
+      ],
+      "correctAnswer": "Ocakta yanan ateşin veya sıcak kapların yakınına yaklaşmak.",
+      "explanation": "Mutfak, kesici aletler ve sıcak yüzeyler nedeniyle tehlikeli olabilir. Ocakta yemek pişerken oraya yaklaşmak yanıklara sebep olabilir. Güvenliğimiz için mutfaktaki sıcak alanlardan uzak durmalıyız.",
+      "subSkill": "Ev kazalarından korunma",
+      "questionType": "Tehlike tanımlama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Dengeli ve sağlıklı beslenmek isteyen bir öğrenci öğle yemeğinde aşağıdakilerden hangisini seçmelidir?",
+      "choices": [
+        "Sadece şekerli gazlı içecekler ve cips.",
+        "Taze sebze, meyve, süt ve evde yapılmış yemekler.",
+        "Sadece beyaz ekmek ve çikolata."
+      ],
+      "correctAnswer": "Taze sebze, meyve, süt ve evde yapılmış yemekler.",
+      "explanation": "Sağlıklı büyümek ve vücudumuzun ihtiyaç duyduğu vitaminleri almak için dengeli beslenmeliyiz. İşlenmiş gıdalar yerine doğal gıdalar tercih etmek hastalıklara karşı direncimizi artırır.",
+      "subSkill": "Sağlıklı beslenme",
+      "questionType": "Karar verme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Tanımadığın bir kişi yolda sana yaklaşıp 'Ailen seni almamı söyledi, gel benimle' derse ne yapmalısın?",
+      "choices": [
+        "Onunla gitmeli ve nereye gideceğimizi sormalıyım.",
+        "Hemen oradan uzaklaşıp kalabalık bir yere veya tanıdığım birine gitmeliyim.",
+        "Sadece ismini sormalıyım."
+      ],
+      "correctAnswer": "Hemen oradan uzaklaşıp kalabalık bir yere veya tanıdığım birine gitmeliyim.",
+      "explanation": "Tanımadığımız kişilerle hiçbir yere gitmemeli ve onlara asla kapıyı açmamalıyız. Kötü niyetli kişilerden korunmak için güvenli bölgelere sığınmak ve ailemizle iletişime geçmek en doğrusudur.",
+      "subSkill": "Güvenlik/Yabancılarla iletişim",
+      "questionType": "Güvenlik tepkisi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Grip veya nezle olduğunda okulda arkadaşlarına bulaştırmamak için ne yapmalısın?",
+      "choices": [
+        "Hapşırırken ağzımı kolumun iç kısmıyla veya mendille kapatmalıyım.",
+        "Arkadaşlarımla yakın mesafede oyun oynamaya devam etmeliyim.",
+        "Hapşırırken elimi ağzıma koyup sonra başka yerlere dokunmalıyım."
+      ],
+      "correctAnswer": "Hapşırırken ağzımı kolumun iç kısmıyla veya mendille kapatmalıyım.",
+      "explanation": "Hastalıkların yayılmasını önlemek için kişisel hijyen kurallarına uymalıyız. Hapşırırken ağzımızı kapatarak mikropların havaya ve çevremize yayılmasını engelleyerek arkadaşlarımızı korumuş oluruz.",
+      "subSkill": "Bulaşıcı hastalıklardan korunma",
+      "questionType": "Kural uygulama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "İlaçlar hakkında aşağıdakilerden hangisi doğrudur?",
+      "choices": [
+        "İlaçları şeker sanıp istediğim zaman yiyebilirim.",
+        "Sadece doktorun önerdiği zaman ve yetişkin gözetiminde kullanmalıyım.",
+        "Kendimi yorgun hissettiğimde dolaptaki herhangi bir ilacı içebilirim."
+      ],
+      "correctAnswer": "Sadece doktorun önerdiği zaman ve yetişkin gözetiminde kullanmalıyım.",
+      "explanation": "İlaçlar doğru kullanılmadığında sağlığımız için büyük bir tehdittir. Bilinçsiz ilaç kullanımı zehirlenmelere yol açabilir. Bu nedenle ilaçlar yalnızca uzman tavsiyesiyle ve ebeveyn denetiminde alınmalıdır.",
+      "subSkill": "Sağlık okuryazarlığı",
+      "questionType": "Bilgi doğrulama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul servisine binerken veya inerken hangisini yapmak güvenli bir davranıştır?",
+      "choices": [
+        "Servis tamamen durmadan kapıya yaklaşmamalı ve sırayla binmeliyim.",
+        "Hareket halindeki servise koşarak binmeye çalışmalıyım.",
+        "İnerken hemen yola atlamalıyım."
+      ],
+      "correctAnswer": "Servis tamamen durmadan kapıya yaklaşmamalı ve sırayla binmeliyim.",
+      "explanation": "Taşıt kazalarından korunmak için servis ve otobüs gibi araçların tamamen durmasını beklemeliyiz. İniş ve binişlerde sabırlı olmak ve sırayı takip etmek düşmeleri ve çarpmaları önler.",
+      "subSkill": "Ulaşım güvenliği",
+      "questionType": "Güvenlik tepkisi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Dişlerimizi günde kaç kez ve nasıl fırçalamalıyız?",
+      "choices": [
+        "Sadece tatillerde, hızlıca fırçalamalıyız.",
+        "Sabah kahvaltıdan sonra ve gece yatmadan önce, özenle fırçalamalıyız.",
+        "Sadece dişimiz ağrıdığında fırçalamalıyız."
+      ],
+      "correctAnswer": "Sabah kahvaltıdan sonra ve gece yatmadan önce, özenle fırçalamalıyız.",
+      "explanation": "Ağız ve diş sağlığı genel sağlığımızın temelidir. Diş çürüklerini önlemek için düzenli fırçalama şarttır. Gece yatmadan önce fırçalamak, bakterilerin gece boyunca dişlere zarar vermesini engeller.",
+      "subSkill": "Kişisel bakım",
+      "questionType": "Bilgi kavrama",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "orta",
+  "createdAt": "2026-11-05T11:02:54.669Z"
+}

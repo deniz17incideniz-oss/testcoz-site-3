@@ -7,14 +7,15 @@ assert.equal(log.count,2312);
 const editorial=JSON.parse(fs.readFileSync('data/imports/adsense-repair-change-log.json','utf8'));
 const allowedReviews=new Map([
  ['reviewed_gemini_grade_one_school_questions',new Set(['1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1','1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1'])],
- ['reviewed_gemini_grade_one_safety_questions',new Set(['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1'])]
+ ['reviewed_gemini_grade_one_safety_questions',new Set(['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
+ ['reviewed_gemini_grade_two_safety_questions',new Set(['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1'])]
 ]);
 const reviewed=new Map(editorial.changes.filter(change=>allowedReviews.has(change.reason)).map(change=>[change.id,change]));
 const historicalIds=new Set(log.changes.map(entry=>entry.id));
 for(const [id,change] of reviewed){
  assert.ok(historicalIds.has(id),`Reviewed choice record is not in historical migration: ${id}`);
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
- assert.equal(change.after.choices.length,3,`Reviewed grade-one question must have three choices: ${id}`);
+ assert.equal(change.after.choices.length,3,`Reviewed question must have three choices: ${id}`);
 }
 const questions=new Map(tests.flatMap(t=>t.questions.map(q=>[q.id,q])));
 for(const entry of log.changes){
