@@ -8,7 +8,8 @@ const editorial=JSON.parse(fs.readFileSync('data/imports/adsense-repair-change-l
 const allowedReviews=new Map([
  ['reviewed_gemini_grade_one_school_questions',new Set(['1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1','1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1'])],
  ['reviewed_gemini_grade_one_safety_questions',new Set(['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
- ['reviewed_gemini_grade_two_safety_questions',new Set(['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
+ ['reviewed_gemini_grade_two_safety_questions',new Set(['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1','2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1'])],
+ ['reviewed_gemini_grade_three_safety_questions',new Set(['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1'])],
  ['reviewed_gemini_grade_one_community_questions',new Set(['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1','1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1'])],
  ['reviewed_gemini_grade_two_community_questions',new Set(['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1'])]
 ]);
