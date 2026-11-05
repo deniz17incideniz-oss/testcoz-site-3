@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 597,
+  "count": 601,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -12796,6 +12796,298 @@
         "cognitiveLevel": "yorumlama",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Sağlığım ve Güvenliğim konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "acil durumda adresini ve güvenilir kişileri bilmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+        "options": [
+          "acil durumda adresini ve güvenilir kişileri bilmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Okulda koridordaki kırık camı gören bir öğrenci ne yapmalıdır?",
+        "choices": [
+          "Camdan uzak durup bir yetişkine haber vermelidir.",
+          "Camları çıplak elle toplamalıdır.",
+          "Camın üstünden koşmalıdır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kırık cam kesebilir. Öğrencinin camdan uzak durup bir yetişkine haber vermesi yardım alınmasını sağlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+        "options": [
+          "Camdan uzak durup bir yetişkine haber vermelidir.",
+          "Camları çıplak elle toplamalıdır.",
+          "Camın üstünden koşmalıdır."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Kesici maddelerden korunma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: Bora “trafikte yaya geçidi ve ışıkları kullanmak” kuralına uyarsa bunun en önemli nedeni ne olur?",
+        "choices": [
+          "bedenin ihtiyaç duyduğu besinleri dengeli biçimde almak",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kuralın temel amacı bedenin ihtiyaç duyduğu besinleri dengeli biçimde almaktır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+        "options": [
+          "bedenin ihtiyaç duyduğu besinleri dengeli biçimde almak",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir yaya, geçitte yeşil ışığı bekledikten sonra çevresindeki araçları da kontrol ediyor. Bu davranışın amacı nedir?",
+        "choices": [
+          "Dengeli besin alımını sağlamak",
+          "Dişleri temizlemek",
+          "Karşıya güvenli geçişe yardımcı olmak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yaya ışığı ve araç kontrolü karşıya geçerken trafik durumunu değerlendirmeye yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+        "options": [
+          "Dengeli besin alımını sağlamak",
+          "Dişleri temizlemek",
+          "Karşıya güvenli geçişe yardımcı olmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Yaya güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: gün boyunca daha zinde ve dikkatli kaldı sonucu hangi davranışla doğrudan ilişkilidir?",
+        "choices": [
+          "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+          "ilaçları yetişkine sormadan kullanmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Olumlu sonucu doğuran davranış “beslenme çantasına farklı besin gruplarından yiyecekler koydu”dır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+        "options": [
+          "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+          "ilaçları yetişkine sormadan kullanmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Dengeli beslenmek isteyen Ece, çantasında yalnızca bisküvi olduğunu fark ediyor. Çeşitliliği artırmak için hangisini ekleyebilir?",
+        "choices": [
+          "Yalnızca ikinci bir paket bisküvi",
+          "Yalnızca şekerli içecek",
+          "Meyve ve peynirli sandviç"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Meyve ve peynirli sandviç eklemek, yalnızca bisküvi içeren öğüne farklı besinler katar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+        "options": [
+          "Yalnızca ikinci bir paket bisküvi",
+          "Yalnızca şekerli içecek",
+          "Meyve ve peynirli sandviç"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dengeli beslenme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_three_safety_medium_p0",
+      "before": {
+        "question": "3. sınıf orta: Sağlığım ve Güvenliğim görselinde “beslenme çantasına farklı besin gruplarından yiyecekler koydu → gün boyunca daha zinde ve dikkatli kaldı” bağlantısı vardır. Ana düşünce hangisidir?",
+        "choices": [
+          "sağlıklı seçimler yapıp risklerden korunmak olumlu sonuçlar doğurur",
+          "ilaçları yetişkine sormadan kullanmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranış ve sonuç birlikte değerlendirildiğinde ana düşünce doğru seçenekte verilir.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Davranış ve sonuç",
+          "data": {
+            "action": "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+            "result": "gün boyunca daha zinde ve dikkatli kaldı"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+        "imageAlt": "Davranış ve sonuç",
+        "options": [
+          "sağlıklı seçimler yapıp risklerden korunmak olumlu sonuçlar doğurur",
+          "ilaçları yetişkine sormadan kullanmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Zeynep kendi diş fırçasını kullanıyor, Arda ise arkadaşının fırçasını kullanıyor. Kişisel temizlik için hangi davranış uygundur?",
+        "choices": [
+          "Zeynep’in kendi fırçasını kullanması",
+          "Arda’nın arkadaşının fırçasını kullanması",
+          "İkisinin aynı fırçayı paylaşması"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Diş fırçası kişisel bir eşyadır. Kendi fırçasını kullanmak ağız hijyenine özen göstermeye yardımcı olur.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "İki öğrencinin diş fırçası kullanımı",
+          "data": {
+            "first": "Zeynep: kendi diş fırçasını kullanıyor",
+            "second": "Arda: arkadaşının fırçasını kullanıyor"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+        "imageAlt": "Zeynep: kendi diş fırçasını kullanıyor. Arda: arkadaşının fırçasını kullanıyor",
+        "options": [
+          "Zeynep’in kendi fırçasını kullanması",
+          "Arda’nın arkadaşının fırçasını kullanması",
+          "İkisinin aynı fırçayı paylaşması"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Kişisel temizlik",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
         "tags": [
           "hayat-bilgisi",
           "sagligim-ve-guvenligim",

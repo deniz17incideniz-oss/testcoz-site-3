@@ -17,3 +17,7 @@ Bu kayıt iki Test 1 için yapılan editoryal çalışmayı açıklar; tam soru 
 ## Kontrol sınırı
 
 Yanıtlar, açıklamalar ve mevcut yaş düzeyine uygunluk elle incelendi; yanlış ilaç kullanımı, güvenli geçiş ve 112 kullanımı için güvenilir resmî rehber esas alındı. Otomatik kontroller eşsiz kimlik, şema, bağlantı ve bazı tekrarları denetler; bütün seçeneklerin pedagojik gücünü veya ulusal müfredat uyumunu kesin olarak kanıtlamaz. Bu nedenle zor düzeyi ve çeldiriciler öğretmen incelemesine açıktır. Canlıya yayın ve AdSense değerlendirmesi ayrı kapılardır.
+
+## Pilot sonrası öncelikli düzeltme
+
+`3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6` trafik kuralının gerekçesi olarak dengeli beslenmeyi veriyordu. Aynı testte 4. soruda yanlış sınıf etiketi, 9 ve 10. sorularda ise dayanağı belirsiz neden-sonuç vardı. Dört kayıt yeniden yazıldı; 10. soru için kişisel diş fırçası kullanımını anlatan yerel kart üretildi. Diğer altı kayıt ve seçenekleri bu dört kayıtlık çalışmada değiştirilmedi. Eski ve yeni içerik değişiklik günlüğünde yer alır.

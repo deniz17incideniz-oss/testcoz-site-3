@@ -36,6 +36,13 @@ test(1,'hayat-bilgisi','yasadigim-yer-ve-ulkem','orta',1,placeMediumOne,'reviewe
 test(2,'hayat-bilgisi','yasadigim-yer-ve-ulkem','kolay',1,placeEasyTwo,'reviewed_gemini_grade_two_community_questions');
 test(2,'hayat-bilgisi','sagligim-ve-guvenligim','zor',1,safetyHardTwo,'reviewed_gemini_grade_two_safety_questions');
 test(3,'hayat-bilgisi','sagligim-ve-guvenligim','zor',1,safetyHardThree,'reviewed_gemini_grade_three_safety_questions');
+// Individually reviewed P0/P1 repairs in grade 3 medium; untouched records keep their original choices.
+for(const [index,row,subSkill,questionType] of [
+ [3,['Okulda koridordaki kırık camı gören bir öğrenci ne yapmalıdır?', 'Camdan uzak durup bir yetişkine haber vermelidir.', 'Camları çıplak elle toplamalıdır.', 'Camın üstünden koşmalıdır.', 'Kırık cam kesebilir. Öğrencinin camdan uzak durup bir yetişkine haber vermesi yardım alınmasını sağlar.'],'Kesici maddelerden korunma','cikarim'],
+ [5,['Bir yaya, geçitte yeşil ışığı bekledikten sonra çevresindeki araçları da kontrol ediyor. Bu davranışın amacı nedir?', 'Karşıya güvenli geçişe yardımcı olmak', 'Dengeli besin alımını sağlamak', 'Dişleri temizlemek', 'Yaya ışığı ve araç kontrolü karşıya geçerken trafik durumunu değerlendirmeye yardımcı olur.'],'Yaya güvenliği','cikarim'],
+ [8,['Dengeli beslenmek isteyen Ece, çantasında yalnızca bisküvi olduğunu fark ediyor. Çeşitliliği artırmak için hangisini ekleyebilir?', 'Meyve ve peynirli sandviç', 'Yalnızca ikinci bir paket bisküvi', 'Yalnızca şekerli içecek', 'Meyve ve peynirli sandviç eklemek, yalnızca bisküvi içeren öğüne farklı besinler katar.'],'Dengeli beslenme','cikarim'],
+ [9,['Zeynep kendi diş fırçasını kullanıyor, Arda ise arkadaşının fırçasını kullanıyor. Kişisel temizlik için hangi davranış uygundur?', 'Zeynep’in kendi fırçasını kullanması', 'Arda’nın arkadaşının fırçasını kullanması', 'İkisinin aynı fırçayı paylaşması', 'Diş fırçası kişisel bir eşyadır. Kendi fırçasını kullanmak ağız hijyenine özen göstermeye yardımcı olur.'],'Kişisel temizlik','gorsel-okuma']
+]) repairs.push({slug:'3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1',index,row,reason:'reviewed_gemini_grade_three_safety_medium_p0',metadata:{subSkill,questionType}});
 for(const [slug,skills] of [
  ['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1',['Kask kullanımı','Kaygan alan güvenliği','İlaç güvenliği','Acil yardımda konum','Dengeli beslenme','Yaralanmada yardım','Yaya güvenliği','Servis güvenliği','Elektrik güvenliği','Solunum hijyeni']],
  ['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1',['Elektrik güvenliği','Emniyet kemeri','İlaç güvenliği','Acil yardımda konum','Bisiklet güvenliği','Yaya güvenliği','Dengeli beslenme','Yaralanmada yardım','Solunum hijyeni','Güvenli yardım isteme']]
@@ -377,6 +384,9 @@ const shortRepairs = [
  ['life-in-the-city-and-the-world',9,['“The bus goes to the museum.” Otobüsün gittiği yer neresi?','Museum','Library','Market','Goes to bir yere gider demektir. Verilen hedef museum yani müzedir; kütüphane veya market değildir.']]
 ];
 for(const [topic,index,row] of shortRepairs)repairs.push({slug:`2-sinif-ingilizce-${topic}-zor-test-2`,index,row,reason:'off_topic_translation_template'});
+Object.assign(visualEvidence,{
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:9':['İki öğrencinin diş fırçası kullanımı',{first:'Zeynep: kendi diş fırçasını kullanıyor',second:'Arda: arkadaşının fırçasını kullanıyor'}]
+});
 Object.assign(visualEvidence,{
  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Kaygan zemindeki iki öğrenci',{first:'Ela: uzak durup yetişkine haber veriyor',second:'Can: suyun üzerinden koşuyor'}],
  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Servisteki iki öğrenci',{first:'Efe: emniyet kemerini takıyor',second:'Duru: kemerini çıkarmış'}]
