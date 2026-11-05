@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Okul bahçesinde oyun oynarken arkadaşın yere düşüp dizini yaraladığında, yapman gereken en doğru davranış hangisidir?",
+      "choices": [
+        "Hemen onu güldürmeye çalışmak",
+        "Bir öğretmeninden veya görevliden yardım istemek",
+        "Kendi yara bandımı ona yapıştırmak"
+      ],
+      "correctAnswer": "Bir öğretmeninden veya görevliden yardım istemek",
+      "explanation": "Okul ortamında yaşanan yaralanmalarda, profesyonel yardım alabilecek bir yetişkini haberdar etmek en güvenli ve doğru ilk müdahale yöntemidir.",
+      "subSkill": "Güvenlik kurallarına uyma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "El hijyenini korumak için ellerimizi hangi durumlarda yıkamalıyız?",
+      "choices": [
+        "Sadece akşamları yatmadan önce",
+        "Yemeklerden önce ve tuvaletten çıktıktan sonra",
+        "Sadece dışarıdan eve gelince"
+      ],
+      "correctAnswer": "Yemeklerden önce ve tuvaletten çıktıktan sonra",
+      "explanation": "Sağlığımızı korumak için mikropların en çok bulaştığı yemek öncesi ve tuvalet sonrası süreçlerde el temizliğine dikkat etmek oldukça kritiktir.",
+      "subSkill": "Sağlıklı yaşam",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki yiyeceklerden hangisi sağlıklı bir kahvaltı tabağında olması gereken gıdalardan biridir?",
+      "choices": [
+        "Asitli içecekler ve cips",
+        "Haşlanmış yumurta ve peynir",
+        "Hazır paketli şekerli gıdalar"
+      ],
+      "correctAnswer": "Haşlanmış yumurta ve peynir",
+      "explanation": "Vücudumuzun enerji ihtiyacını karşılamak için protein ve kalsiyum açısından zengin olan yumurta ve peynir gibi doğal besinleri tüketmeliyiz.",
+      "subSkill": "Sağlıklı beslenme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Tanımadığımız biri bize yolda yaklaşıp şeker ikram ederse ne yapmalıyız?",
+      "choices": [
+        "Teşekkür edip şekeri almalıyız",
+        "Sessizce kabul edip hızlıca yürümeliyiz",
+        "Kesinlikle almamalı ve oradan uzaklaşmalıyız"
+      ],
+      "correctAnswer": "Kesinlikle almamalı ve oradan uzaklaşmalıyız",
+      "explanation": "Tanımadığımız kişilerden gelen yiyecek veya teklifleri kabul etmemek, kişisel güvenliğimizi korumak için hayati bir kuraldır.",
+      "subSkill": "Güvenli sosyal etkileşim",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bisiklet kullanırken kendimizi kazalardan korumak için en önemli önlem hangisidir?",
+      "choices": [
+        "Kask, dizlik ve dirseklik takmak",
+        "Sadece hızlı sürmeye çalışmak",
+        "Bisikletin rengine önem vermek"
+      ],
+      "correctAnswer": "Kask, dizlik ve dirseklik takmak",
+      "explanation": "Bisiklet, kaykay veya paten gibi araçları kullanırken koruyucu ekipman takmak, düşme anında vücudumuzu ciddi yaralanmalara karşı korur.",
+      "subSkill": "Güvenlik ekipmanları kullanımı",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "Kask, dizlik ve dirseklik takan mutlu bir çocuk çizimi",
+      "imageAlt": "Bisiklet sürerken kask, dizlik ve dirseklik takan çocuk görseli"
+    },
+    {
+      "question": "Evdeki temizlik malzemeleri (çamaşır suyu, deterjan vb.) ile ilgili hangi ifade doğrudur?",
+      "choices": [
+        "Oyun oynamak için kullanabiliriz",
+        "Kendi başımıza koklayabiliriz",
+        "Yetişkin gözetimi olmadan asla dokunmamalıyız"
+      ],
+      "correctAnswer": "Yetişkin gözetimi olmadan asla dokunmamalıyız",
+      "explanation": "Temizlik malzemeleri kimyasal içeriklerinden dolayı zehirli olabilir; bu yüzden çocuklar için tehlikelidir ve uzak durulmalıdır.",
+      "subSkill": "Ev içi güvenlik",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Mevsime uygun giyinmek sağlığımızı nasıl korur?",
+      "choices": [
+        "Vücut ısımızı dengede tutarak hastalıklardan korur",
+        "Sadece kıyafetlerimizin güzel görünmesini sağlar",
+        "Daha hızlı koşmamıza yardımcı olur"
+      ],
+      "correctAnswer": "Vücut ısımızı dengede tutarak hastalıklardan korur",
+      "explanation": "Soğuk havalarda kalın, sıcak havalarda ince ve pamuklu kıyafetler seçmek vücut ısısını korur ve bizi hastalıklara karşı dirençli kılar.",
+      "subSkill": "Sağlıklı yaşam ve giyim",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yaya geçidinde karşıdan karşıya geçerken ilk yapılması gereken nedir?",
+      "choices": [
+        "Koşarak karşıya geçmek",
+        "Durup sağa, sola ve tekrar sağa bakmak",
+        "Gözlerimizi kapatıp hızlıca yürümek"
+      ],
+      "correctAnswer": "Durup sağa, sola ve tekrar sağa bakmak",
+      "explanation": "Trafikte güvenli geçiş yapabilmek için araçların gelip gelmediğini kontrol etmek, kazaları önlemek için atılacak en temel adımdır.",
+      "subSkill": "Trafik güvenliği",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "Yaya geçidi başında duran ve trafiği kontrol eden bir öğrenci",
+      "imageAlt": "Yaya geçidinde durup sağa sola bakan çocuk görseli"
+    },
+    {
+      "question": "Düzenli uyku uyumanın vücudumuz için önemi nedir?",
+      "choices": [
+        "Sadece daha çok oyun oynamamızı sağlar",
+        "Vücudumuzun dinlenmesini ve büyümesini sağlar",
+        "Sadece vakit geçirmemizi sağlar"
+      ],
+      "correctAnswer": "Vücudumuzun dinlenmesini ve büyümesini sağlar",
+      "explanation": "Uyku sırasında vücudumuzun enerjisi yenilenir, zihnimiz dinlenir ve büyüme hormonları sayesinde sağlıklı gelişimimiz desteklenir.",
+      "subSkill": "Sağlıklı yaşam",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Acil bir durumda (yangın, kaza vb.) yardım çağırmak için aranması gereken numara hangisidir?",
+      "choices": [
+        "112 Acil Çağrı Merkezi",
+        "Sadece ailemizin telefon numarası",
+        "En yakın arkadaşımızın numarası"
+      ],
+      "correctAnswer": "112 Acil Çağrı Merkezi",
+      "explanation": "Türkiye'de tüm acil yardım ihtiyaçları için tek bir numara vardır; bu numara 112'dir ve sadece gerçek acil durumlarda aranmalıdır.",
+      "subSkill": "Güvenlik bilinci",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 2,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "orta",
+  "createdAt": "2026-11-05T12:44:33.183Z"
+}

@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 537,
+  "count": 557,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -8443,6 +8443,1456 @@
         "tags": [
           "hayat-bilgisi",
           "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Bora bir sorunu fark edip durumu değerlendirdikten sonra yola çıkmadan kaskı uygun biçimde düzeltmek yolunu seçti. Bu davranıştan hangi sonuç çıkarılır?",
+        "choices": [
+          "Bora sağlığını korurken olası riskleri de düşünür",
+          "Bora kuralları önemsemez",
+          "Bora sorunu büyütmek ister",
+          "Bora çevresini dinlemez"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sorunu düşünüp uygun çözüm seçmesi, bora sağlığını korurken olası riskleri de düşünür sonucunu destekler.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
+        "options": [
+          "Bora sağlığını korurken olası riskleri de düşünür",
+          "Bora kuralları önemsemez",
+          "Bora sorunu büyütmek ister",
+          "Bora çevresini dinlemez"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "siralama",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bisiklet sürmeye hazırlanıyorsun. Kaskının kayışı gevşek. Ne yapmalısın?",
+        "choices": [
+          "Sürmeden önce kayışı uygun biçimde ayarlamalıyım.",
+          "Kaskı çıkarıp hızla sürmeliyim.",
+          "Gevşek kayışı görmezden gelmeliyim."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kaskın başa uygun oturması ve kayışının bağlanması, düşme durumunda başın korunmasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
+        "options": [
+          "Sürmeden önce kayışı uygun biçimde ayarlamalıyım.",
+          "Kaskı çıkarıp hızla sürmeliyim.",
+          "Gevşek kayışı görmezden gelmeliyim."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Bisiklet güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Sağlığım ve Güvenliğim görselindeki üç adımın ikincisi hangisidir?",
+        "choices": [
+          "Güvenli bir yere geçmek",
+          "Tehlikeyi fark edip sakin kalmak",
+          "Uygun kişiden veya kurumdan yardım istemek",
+          "ilaçları yetişkine sormadan kullanmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlk adımdan sonra “Güvenli bir yere geçmek” yapılır.",
+        "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Etkinlik sırası",
+          "data": {
+            "first": "Tehlikeyi fark edip sakin kalmak",
+            "second": "Güvenli bir yere geçmek",
+            "third": "Uygun kişiden veya kurumdan yardım istemek"
+          }
+        },
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+        "imageAlt": "Etkinlik sırası",
+        "options": [
+          "Güvenli bir yere geçmek",
+          "Tehlikeyi fark edip sakin kalmak",
+          "Uygun kişiden veya kurumdan yardım istemek",
+          "ilaçları yetişkine sormadan kullanmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Ela bisiklet sürerken kaskını takıp kayışını bağlıyor. Can kaskını takmıyor. Hangi davranış başı korumaya yardımcı olur?",
+        "choices": [
+          "İkisinin de kasksız sürmesi",
+          "Ela’nın kaskını uygun takması",
+          "Can’ın kask takmaması"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Başa uygun takılmış ve kayışı bağlanmış kask, düşme durumunda baş yaralanması riskini azaltmaya yardımcı olur.",
+        "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Bisiklet kullanan iki öğrenci",
+          "data": {
+            "first": "Ela: kaskını takıp kayışını bağlıyor",
+            "second": "Can: kaskını takmıyor"
+          }
+        },
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
+        "imageAlt": "Ela: kaskını takıp kayışını bağlıyor. Can: kaskını takmıyor",
+        "options": [
+          "İkisinin de kasksız sürmesi",
+          "Ela’nın kaskını uygun takması",
+          "Can’ın kask takmaması"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Kask kullanımı",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "“Bisiklet yoluna çıkmadan önce kaskının bağı gevşek görünüyor.” Bu durumda en güvenli ve uygun çözüm hangisidir?",
+        "choices": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güvenli ve sorumlu çözüm doğru seçenekte verilmiştir.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
+        "options": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "siralama",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Arkadaşın bahçede düşüp yaralandı. Ne yapman yardım almasını kolaylaştırır?",
+        "choices": [
+          "Yarayı başkalarından gizlemek",
+          "Arkadaşınla alay etmek",
+          "Bir öğretmene veya görevliye haber vermek"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bir yetişkine haber vermek, yaralanmanın değerlendirilmesine ve gerekli yardımın alınmasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
+        "options": [
+          "Yarayı başkalarından gizlemek",
+          "Arkadaşınla alay etmek",
+          "Bir öğretmene veya görevliye haber vermek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Yaralanmada yardım",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "2. sınıf Sağlığım ve Güvenliğim konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "acil durumda adresini ve güvenilir kişileri bilmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+        "options": [
+          "acil durumda adresini ve güvenilir kişileri bilmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Yemekten önce ve tuvaletten sonra elleri yıkamak neden önemlidir?",
+        "choices": [
+          "Ellerdeki kir ve mikropların azalmasına yardımcı olur.",
+          "Elleri kalıcı olarak mikroplardan tamamen arındırır.",
+          "Su içme ihtiyacını ortadan kaldırır."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ellerin sabun ve suyla yıkanması kirin ve birçok mikrobun uzaklaştırılmasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
+        "options": [
+          "Ellerdeki kir ve mikropların azalmasına yardımcı olur.",
+          "Elleri kalıcı olarak mikroplardan tamamen arındırır.",
+          "Su içme ihtiyacını ortadan kaldırır."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "El temizliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Sağlığım ve Güvenliğim konuşma kartında “Kimden yardım isteyebilirim?” sorusu vardır. En uygun cevap hangisidir?",
+        "choices": [
+          "güvendiği yetişkin ve gerektiğinde 112",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu durumda güvenli yardım kaynağı “güvendiği yetişkin ve gerektiğinde 112”dır.",
+        "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Yardım kaynakları",
+          "data": {
+            "question": "Kimden yardım istemeliyim?",
+            "answer": "güvendiği yetişkin ve gerektiğinde 112"
+          }
+        },
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+        "imageAlt": "Yardım kaynakları",
+        "options": [
+          "güvendiği yetişkin ve gerektiğinde 112",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Evde üzerinde tehlike işareti olan bir temizlik maddesi gördün. Ne yapmalısın?",
+        "choices": [
+          "Arkadaşlarımla oyun için kullanmalıyım.",
+          "Ondan uzak durup bir yetişkine haber vermeliyim.",
+          "İçindeki sıvının tadına bakmalıyım."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bazı temizlik maddeleri yutulduğunda veya yanlış kullanıldığında zarar verebilir; yetişkine haber vermelisin.",
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
+        "options": [
+          "Arkadaşlarımla oyun için kullanmalıyım.",
+          "Ondan uzak durup bir yetişkine haber vermeliyim.",
+          "İçindeki sıvının tadına bakmalıyım."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Evde güvenlik",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Bora “trafikte yaya geçidi ve ışıkları kullanmak” kuralına uyarsa bunun en önemli nedeni ne olur?",
+        "choices": [
+          "bedenin ihtiyaç duyduğu besinleri dengeli biçimde almak",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kuralın temel amacı bedenin ihtiyaç duyduğu besinleri dengeli biçimde almaktır.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+        "options": [
+          "bedenin ihtiyaç duyduğu besinleri dengeli biçimde almak",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Yaya geçidini kullanmak ve trafik ışıklarına uymak neden önemlidir?",
+        "choices": [
+          "Besinlerin dengeli alınmasını sağlar.",
+          "Dişlerin temizlenmesine yardımcı olur.",
+          "Karşıya geçerken güvenliği artırmaya yardımcı olur."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yaya geçidi ve ışıklar trafikte geçişi düzenlemeye yardımcı olur. Geçerken araçların durumuna da dikkat edilir.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
+        "options": [
+          "Besinlerin dengeli alınmasını sağlar.",
+          "Dişlerin temizlenmesine yardımcı olur.",
+          "Karşıya geçerken güvenliği artırmaya yardımcı olur."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Yaya güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "beslenme çantasına farklı besin gruplarından yiyecekler koydu ile acil durumda adresini ve güvenilir kişileri bilmek davranışlarının ortak yönü nedir?",
+        "choices": [
+          "sağlıklı seçimler yapıp risklerden korunmak",
+          "ilaçları yetişkine sormadan kullanmak",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İki davranış da sağlıklı seçimler yapıp risklerden korunmak düşüncesini destekler.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
+        "options": [
+          "sağlıklı seçimler yapıp risklerden korunmak",
+          "ilaçları yetişkine sormadan kullanmak",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Yangın gibi acil bir durumda yardım çağırmak için hangi numara aranır?",
+        "choices": [
+          "112",
+          "118",
+          "123"
+        ],
+        "correctAnswer": 0,
+        "explanation": "112, Türkiye’de acil yardım çağrıları için kullanılan numaradır. Gereksiz yere meşgul edilmemelidir.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
+        "options": [
+          "112",
+          "118",
+          "123"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Acil yardım",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Sağlığım ve Güvenliğim görselindeki yanlış davranışın yerine hangisi yapılmalıdır?",
+        "choices": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yanlış seçim yerine güvenli ve uygun çözüm uygulanmalıdır.",
+        "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Seçimini düzelt",
+          "data": {
+            "wrong": "ilaçları yetişkine sormadan kullanmak",
+            "better": "yola çıkmadan kaskı uygun biçimde düzeltmek"
+          }
+        },
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+        "imageAlt": "Seçimini düzelt",
+        "options": [
+          "yola çıkmadan kaskı uygun biçimde düzeltmek",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Bir oyuncak kablosunun yıprandığını gördün. Nasıl davranmalısın?",
+        "choices": [
+          "Kablonun üstüne su dökmeliyim.",
+          "Kabloya dokunmadan bir yetişkine haber vermeliyim.",
+          "Kabloyu çekerek incelemeliyim."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Yıpranmış elektrik kablosu tehlikeli olabilir. Ona dokunmadan uzak durup bir yetişkine haber vermelisin.",
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
+        "options": [
+          "Kablonun üstüne su dökmeliyim.",
+          "Kabloya dokunmadan bir yetişkine haber vermeliyim.",
+          "Kabloyu çekerek incelemeliyim."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Elektrik güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "gün boyunca daha zinde ve dikkatli kaldı sonucu hangi davranışla doğrudan ilişkilidir?",
+        "choices": [
+          "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+          "ilaçları yetişkine sormadan kullanmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Olumlu sonucu doğuran davranış “beslenme çantasına farklı besin gruplarından yiyecekler koydu”dır.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+        "options": [
+          "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+          "ilaçları yetişkine sormadan kullanmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Gece yeterince uyumak vücudumuza nasıl yardımcı olur?",
+        "choices": [
+          "Yemek yememize artık gerek bırakmaz.",
+          "Bütün hastalıkları kesin olarak önler.",
+          "Dinlenmemize ve gelişimimize destek olur."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Düzenli ve yeterli uyku, dinlenmemizi ve sağlıklı gelişimimizi destekler.",
+        "image": null,
+        "visual": null,
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
+        "options": [
+          "Yemek yememize artık gerek bırakmaz.",
+          "Bütün hastalıkları kesin olarak önler.",
+          "Dinlenmemize ve gelişimimize destek olur."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Düzenli uyku",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+      "test": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1",
+      "reason": "reviewed_gemini_grade_two_safety_questions",
+      "before": {
+        "question": "Sağlığım ve Güvenliğim görselinde “beslenme çantasına farklı besin gruplarından yiyecekler koydu → gün boyunca daha zinde ve dikkatli kaldı” bağlantısı vardır. Ana düşünce hangisidir?",
+        "choices": [
+          "sağlıklı seçimler yapıp risklerden korunmak olumlu sonuçlar doğurur",
+          "ilaçları yetişkine sormadan kullanmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranış ve sonuç birlikte değerlendirildiğinde ana düşünce doğru seçenekte verilir.",
+        "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Davranış ve sonuç",
+          "data": {
+            "action": "beslenme çantasına farklı besin gruplarından yiyecekler koydu",
+            "result": "gün boyunca daha zinde ve dikkatli kaldı"
+          }
+        },
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+        "imageAlt": "Davranış ve sonuç",
+        "options": [
+          "sağlıklı seçimler yapıp risklerden korunmak olumlu sonuçlar doğurur",
+          "ilaçları yetişkine sormadan kullanmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Üzerinde adı yazılı olmayan bir ilaç buldun. Ne yapmalısın?",
+        "choices": [
+          "İlacı kullanmadan bir yetişkine haber vermeliyim.",
+          "Ne olduğunu anlamak için ilacı içmeliyim.",
+          "İlacı arkadaşıma vermeliyim."
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Bulduğun ilacı kullanmadan bir yetişkine haber ver.",
+        "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
+        "options": [
+          "İlacı kullanmadan bir yetişkine haber vermeliyim.",
+          "Ne olduğunu anlamak için ilacı içmeliyim.",
+          "İlacı arkadaşıma vermeliyim."
+        ],
+        "difficulty": "orta",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "İlaç güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Arda, şehir meydanı ortamında Türk bayrağına saygılı davranmak. Bu davranış hangisine örnektir?",
+        "choices": [
+          "yaşadığı yeri ve ülkesini tanımak",
+          "tarihî bir yapının duvarını çizmek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Türk bayrağına saygılı davranmak, yaşadığı yeri ve ülkesini tanımak için uygun bir davranıştır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
+        "options": [
+          "yaşadığı yeri ve ülkesini tanımak",
+          "tarihî bir yapının duvarını çizmek",
+          "kuralları önemsememek",
+          "sorumluluktan kaçmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Yaşadığımız ülkenin adı hangisidir?",
+        "choices": [
+          "Türkiye",
+          "Ankara",
+          "İzmir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Türkiye ülkemizin adıdır. Ankara ve İzmir ise Türkiye’de bulunan şehirlerdir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
+        "options": [
+          "Türkiye",
+          "Ankara",
+          "İzmir"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Ülkemizi tanıma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Görselde Yaşadığım Yer ve Ülkem konusuyla ilgili iki davranış var. Güvenli ve doğru olan hangisidir?",
+        "choices": [
+          "Türk bayrağına saygılı davranmak",
+          "tarihî bir yapının duvarını çizmek",
+          "uyarıları dinlememek",
+          "eşyaları izinsiz almak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru seçenek “Türk bayrağına saygılı davranmak” davranışıdır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Doğru davranışı seç",
+          "data": {
+            "correct": "Türk bayrağına saygılı davranmak",
+            "wrong": "tarihî bir yapının duvarını çizmek"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
+        "imageAlt": "Doğru davranışı seç",
+        "options": [
+          "Türk bayrağına saygılı davranmak",
+          "tarihî bir yapının duvarını çizmek",
+          "uyarıları dinlememek",
+          "eşyaları izinsiz almak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Ece çöpünü parkta kutuya atıyor. Ali ise yere bırakıyor. Hangisi parkın temiz kalmasına yardımcı olur?",
+        "choices": [
+          "İkisinin de çöpü yere atması",
+          "Ece’nin çöpünü kutuya atması",
+          "Ali’nin çöpünü yere bırakması"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Çöpü kutuya atmak, herkesin kullandığı parkın temiz kalmasına yardımcı olur.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Parktaki iki öğrenci",
+          "data": {
+            "first": "Ece: çöpünü kutuya atıyor",
+            "second": "Ali: çöpünü yere bırakıyor"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
+        "imageAlt": "Ece: çöpünü kutuya atıyor. Ali: çöpünü yere bırakıyor",
+        "options": [
+          "İkisinin de çöpü yere atması",
+          "Ece’nin çöpünü kutuya atması",
+          "Ali’nin çöpünü yere bırakması"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Çevre temizliği",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Arda için aşağıdakilerden hangisi yaşına uygun bir sorumluluktur?",
+        "choices": [
+          "millî bayram törenini dikkatle izlemek",
+          "bütün işleri başkasına yaptırmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği zaman değiştirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“millî bayram törenini dikkatle izlemek” yaşına uygun ve yerine getirilebilir bir sorumluluktur.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
+        "options": [
+          "millî bayram törenini dikkatle izlemek",
+          "bütün işleri başkasına yaptırmak",
+          "tehlikeli araçları tek başına kullanmak",
+          "kuralları istediği zaman değiştirmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Aşağıdakilerden hangisi mahallede ortak kullanılan bir alandır?",
+        "choices": [
+          "Evdeki yatak odası",
+          "Evdeki mutfak",
+          "Park"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mahalle parkı birçok kişinin birlikte yararlanabildiği ortak bir alandır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
+        "options": [
+          "Evdeki yatak odası",
+          "Evdeki mutfak",
+          "Park"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Ortak alanlar",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Yaşadığım Yer ve Ülkem etkinliğinde yapılacak işler hangi sırayla başlamalıdır?",
+        "choices": [
+          "Haritada yaşadığı şehri bulmak",
+          "Şehrin önemli yerlerini öğrenmek",
+          "Öğrendiklerini sınıfta paylaşmak",
+          "yaşadığı yere ait değerleri gelecek için korur"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Etkinliğin ilk adımı “Haritada yaşadığı şehri bulmak”dır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
+        "options": [
+          "Haritada yaşadığı şehri bulmak",
+          "Şehrin önemli yerlerini öğrenmek",
+          "Öğrendiklerini sınıfta paylaşmak",
+          "yaşadığı yere ait değerleri gelecek için korur"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "siralama",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Türkiye’nin başkenti hangisidir?",
+        "choices": [
+          "Ankara",
+          "Antalya",
+          "İzmir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ankara, Türkiye Cumhuriyeti’nin başkentidir ve ülke yönetiminin merkezidir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
+        "options": [
+          "Ankara",
+          "Antalya",
+          "İzmir"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Başkentimizi tanıma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Görselde Ardaın yararlanabileceği bir bilgi kaynağı gösteriliyor. Bu kaynak hangisidir?",
+        "choices": [
+          "Türkiye haritası",
+          "oyuncak kutusu",
+          "boş kâğıt",
+          "kapalı perde"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Türkiye haritası” konuyla ilgili bilgi edinmeye yardımcı olur.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Bilgi kaynağını tanı",
+          "data": {
+            "source": "Türkiye haritası",
+            "topic": "Yaşadığım Yer ve Ülkem"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
+        "imageAlt": "Bilgi kaynağını tanı",
+        "options": [
+          "Türkiye haritası",
+          "oyuncak kutusu",
+          "boş kâğıt",
+          "kapalı perde"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Yaşadığın çevredeki sokakları ve yerleri göstermek için hangisinden yararlanabilirsin?",
+        "choices": [
+          "Kapalı bir kutudan",
+          "Basit bir krokiden",
+          "Boş bir defter sayfasından"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kroki, bir yerin ve çevresindeki önemli noktaların kuş bakışı basit gösterimidir.",
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
+        "options": [
+          "Kapalı bir kutudan",
+          "Basit bir krokiden",
+          "Boş bir defter sayfasından"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Krokiyi tanıma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Arda neden Türk bayrağına saygılı davranmak davranışını seçmelidir?",
+        "choices": [
+          "ortak değerleri ve kültürel mirası korumak",
+          "daha çok gürültü yapmak",
+          "işleri geciktirmek",
+          "başkalarını üzmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu davranışın amacı ortak değerleri ve kültürel mirası korumaktır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
+        "options": [
+          "ortak değerleri ve kültürel mirası korumak",
+          "daha çok gürültü yapmak",
+          "işleri geciktirmek",
+          "başkalarını üzmek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Türk bayrağının üzerinde hangi şekiller vardır?",
+        "choices": [
+          "Güneş ve bulut",
+          "Üçgen ve kare",
+          "Ay ve yıldız"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Türk bayrağında kırmızı zemin üzerinde beyaz ay ve yıldız bulunur.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
+        "options": [
+          "Güneş ve bulut",
+          "Üçgen ve kare",
+          "Ay ve yıldız"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Bayrağımızı tanıma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Yaşadığım Yer ve Ülkem konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "tarihî ve ortak alanlara zarar vermemek",
+          "tarihî bir yapının duvarını çizmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“tarihî ve ortak alanlara zarar vermemek” herkes için yararlı ve doğru bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+        "options": [
+          "tarihî ve ortak alanlara zarar vermemek",
+          "tarihî bir yapının duvarını çizmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Yerde başkasına ait olabilecek bir cüzdan gördün. Ne yapabilirsin?",
+        "choices": [
+          "Güvendiğim bir yetişkine haber verebilirim.",
+          "Cüzdanı gizlice kendime alabilirim.",
+          "İçindekileri arkadaşlarıma dağıtabilirim."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güvendiğin bir yetişkine haber vermek, kayıp eşyanın sahibine ulaştırılmasına yardımcı olabilir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+        "options": [
+          "Güvendiğim bir yetişkine haber verebilirim.",
+          "Cüzdanı gizlice kendime alabilirim.",
+          "İçindekileri arkadaşlarıma dağıtabilirim."
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Kayıp eşya",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Yaşadığım Yer ve Ülkem konusunda görselde dört davranış kartı vardır. Hangisi olumlu bir seçimdir?",
+        "choices": [
+          "bildiği yönü nazikçe tarif etmek",
+          "tarihî bir yapının duvarını çizmek",
+          "yardım isteğini küçümsemek",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Soruna uygun olumlu seçim “bildiği yönü nazikçe tarif etmek”dır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Olumlu seçim kartları",
+          "data": {
+            "problem": "Bir ziyaretçi müzenin yolunu soruyor",
+            "solution": "bildiği yönü nazikçe tarif etmek"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
+        "imageAlt": "Olumlu seçim kartları",
+        "options": [
+          "bildiği yönü nazikçe tarif etmek",
+          "tarihî bir yapının duvarını çizmek",
+          "yardım isteğini küçümsemek",
+          "sorunu saklamak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Parktaki banklar herkesin kullanımı içindir. Bu banklara nasıl davranmalıyız?",
+        "choices": [
+          "Onlara zarar vermeliyiz.",
+          "Onları temiz ve sağlam tutmalıyız.",
+          "Üzerlerine yazılar yazmalıyız."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ortak bankları temiz ve sağlam kullanmak, başkalarının da onlardan yararlanmasını sağlar.",
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
+        "options": [
+          "Onlara zarar vermeliyiz.",
+          "Onları temiz ve sağlam tutmalıyız.",
+          "Üzerlerine yazılar yazmalıyız."
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Ortak eşyalara özen",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Arda doğru davranışı seçtiğinde hangi sonuç ortaya çıkar?",
+        "choices": [
+          "yaşadığı yere ait değerleri gelecek için korur",
+          "sorun büyür",
+          "kurallar gereksiz olur",
+          "çevresindekiler zarar görür"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Doğru davranışın olumlu sonucu “yaşadığı yere ait değerleri gelecek için korur” ifadesidir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
+        "options": [
+          "yaşadığı yere ait değerleri gelecek için korur",
+          "sorun büyür",
+          "kurallar gereksiz olur",
+          "çevresindekiler zarar görür"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Tanımadığın biri ev adresini soruyor. Ne yapabilirsin?",
+        "choices": [
+          "Adresimi hemen söylemeliyim.",
+          "Aileme haber vermeden onunla gitmeliyim.",
+          "Paylaşmadan önce güvendiğim bir yetişkine danışabilirim."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ev adresi kişisel bilgidir. Paylaşmadan önce güvendiğin bir yetişkine danışabilirsin.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
+        "options": [
+          "Adresimi hemen söylemeliyim.",
+          "Aileme haber vermeden onunla gitmeliyim.",
+          "Paylaşmadan önce güvendiğim bir yetişkine danışabilirim."
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Kişisel bilgi güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
+      "test": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_gemini_grade_one_community_questions",
+      "before": {
+        "question": "Görseldeki başlıklardan hangisi Yaşadığım Yer ve Ülkem konusundaki bu olaya en uygundur?",
+        "choices": [
+          "Yaşadığım Yer, Güzel Ülkem",
+          "Kayıp Oyuncak",
+          "Uykulu Bir Sabah",
+          "Yağmurlu Pencere"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Yaşadığım Yer, Güzel Ülkem” başlığı konuyu ve olumlu davranışı en iyi yansıtır.",
+        "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Uygun başlığı bul",
+          "data": {
+            "title": "Yaşadığım Yer, Güzel Ülkem",
+            "hero": "Arda",
+            "place": "şehir meydanı"
+          }
+        },
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
+        "imageAlt": "Uygun başlığı bul",
+        "options": [
+          "Yaşadığım Yer, Güzel Ülkem",
+          "Kayıp Oyuncak",
+          "Uykulu Bir Sabah",
+          "Yağmurlu Pencere"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Hasta olduğunda sağlık hizmeti almak için hangi yere gidilebilir?",
+        "choices": [
+          "Sağlık merkezine",
+          "Kırtasiyeye",
+          "Oyuncakçıya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sağlık merkezi, sağlık hizmeti almak için başvurulabilecek yerlerden biridir.",
+        "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
+        "options": [
+          "Sağlık merkezine",
+          "Kırtasiyeye",
+          "Oyuncakçıya"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Sağlık hizmetleri",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
           "editorial-2026-10"
         ]
       }
