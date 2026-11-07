@@ -46,11 +46,12 @@ export function validateDraft(data, expectedCount, choiceCount) {
   if(q.explanation.trim().length<40)throw new Error(`Question ${i+1}: explanation is shorter than 40 characters`);
   if(/soruda hata olmaması için|bir seçeneği değiştirelim|seçeneklerde düzeltme yaparsak|doğru kurgu için/iu.test(q.explanation))throw new Error(`Question ${i+1}: model reports an unresolved question error`);
   if (!Array.isArray(q.choices) || q.choices.length !== choiceCount || q.choices.some(c=>typeof c !== 'string' || !c.trim())) throw new Error(`Question ${i+1}: invalid choices`);
-  const normal = s=>s.trim().toLocaleLowerCase('tr-TR');
+  const normal = s=>s.trim().replace(/\s+/gu,' ').toLocaleLowerCase('tr-TR');
   const choices=q.choices.map(normal);
   if(new Set(choices).size!==choiceCount || choices.filter(c=>c===normal(q.correctAnswer)).length!==1) throw new Error(`Question ${i+1}: ambiguous choices or key`);
-  const lengths=q.choices.map(lengthInMillimetres);
-  if(lengths.every(x=>x!==null) && new Set(lengths).size!==choiceCount)throw new Error(`Question ${i+1}: equivalent length choices`);
+  // Compare every unambiguously parsed length even when another option is text.
+  const lengths=q.choices.map(lengthInMillimetres).filter(x=>x!==null);
+  if(new Set(lengths).size!==lengths.length)throw new Error(`Question ${i+1}: equivalent length choices`);
   const key=normal(q.question); if(seen.has(key))throw new Error(`Question ${i+1}: repeated question`);seen.add(key);
   if(Boolean(q.imageBrief.trim())!==Boolean(q.imageAlt.trim()))throw new Error(`Question ${i+1}: image brief and alt must be paired`);
  }

@@ -1,0 +1,21 @@
+# TestÇöz iş kuyruğu
+
+Bu dosya kanıt ve devam noktasıdır; otomatik tarama pedagojik onay değildir. Durumlar yalnız doğrulandıkları ortam için kullanılır.
+
+| ID | Öncelik | Kanıt ve kapsam | Beklenen sonuç / doğrulama | Durum ve ilişki |
+|---|---|---|---|---|
+| P0-01 | P0 | Yedi güvenlik sorusunda yanlış cevap veya görsel eşleşmesi; `data/tests/zy-safety-hotfix.js` | Kimlikleri koruyan düzeltme; CI, Preview ve canlı örnek kontrolü | DEPLOYED: PR #6, main `35c16b1`; yalnız bir soru canlı tarayıcıda tek tek görüldü |
+| P0-02 | P0 | PR #5: 604 değişiklik, 103 test; `data/editorial-repairs.mjs`, `data/tests/zz-editorial-repairs.js` ve değişiklik kaydı | Main ile 5.200 ID karşılaştırması; yedi hotfix regresyonu ve kayıt bazlı içerik/görsel incelemesi | IN PROGRESS: PR #5; 604 sayısı canlıdaki yediyi içerir |
+| P0-03 | P0 | PR #5 oturum sürümü; API, çerez ve Sheets K sütunu | Eski veri, hata, çıkış ve replay kontrollerini fixture ve yetkili Preview kanıtıyla ayrı doğrula | IN PROGRESS: PR #5; production hesap kontrolü kanıtlanmadı |
+| P1-01 | P1 | Canlı 2. sınıf güvenlik zor testinde ilk iki soruda anlatım ve görsel inceleme ihtiyacı | PR #5 düzeltmelerini bağımsız incele, güvenli yayınla, canlıda doğrula | IN PROGRESS: PR #5 |
+| P1-02 | P1 | 2.312 eski seçenek değişikliği geri alındı; kalanı soru bazında değerlendirilmeli | `validate-choice-restoration`, sınıf ve ders bazında editoryal inceleme | IN PROGRESS: PR #5; mekanik şık silme yapılmaz |
+| P1-03 | P1 | Soru bankasında muhtemel tekrar, açıklama ve görsel riskleri | Tüm banka yapısal taraması ve risk odaklı insan değerlendirmesi; kesin hataları ID ile kaydet | TODO |
+| P1-04 | P1 | Ortak konu anahtarları ve 520 test landing sayfası içerik değeri | `data/learning-lessons.mjs`, `data/science-lessons.mjs` ve generator kaynaklarından sınıfa uygun ders örnekleri | TODO |
+| P2-01 | P2 | Gemini ölçü seçeneklerinde metinli bir seçenek varsa eşdeğer uzunluklar kaçabiliyor; `scripts/gemini-drafts.mjs` | Karma seçeneklerde eşdeğerleri ve boşluk farkıyla yinelenen şıkları reddet; birim testleri | VERIFIED: yerel birim testleri ve `npm test`; PR #5 dalında, yayınlanmadı |
+| P2-02 | P2 | Taslak üretimi kota, tekrar, onay ve görsel incelemesine bağlı | Gerçek API ve mock kanıtını ayır; taslaklar doğrudan yayınlanmasın; ücretli görsel izinsiz kullanılmasın | TODO |
+| P3-01 | P3 | Erişilebilirlik, mobil, panel ve performans kontrolleri ortama bağlı | 320–1440 px, ekran okuyucu ve production performansı; hesap akışını kişisel veriye dokunmadan doğrula | TODO |
+| P3-02 | P3 | Eski Search Console, ads.txt, CMP ve çocuklara yönelik işlem kayıtları güncel olmayabilir | Panelleri ve gerçek rıza davranışını doğrula; içerik kalitesini ayrı incele | TODO; yeniden AdSense başvurusu kullanıcı onayı olmadan gönderilmez |
+
+Son doğrulanan temel: `main` `35c16b1a39337ba7f9ec8c096d75df4080802063`, PR #5 `4d59e62bef90f0414ba3b0380b9eb5aedeec7c37` için GitHub kontrolleri başarılı. Bunlar değişebilir; sonraki oturumda yeniden kontrol edilmelidir.
+
+7 Kasım bağımsız karşılaştırması: main ve PR #5 verilerinde 520 test ve 5.200 farklı soru kimliği bulundu; eklenen veya kaybolan kimlik yok. Soru, seçenek, cevap, açıklama ve görsel alanlarında 597 kayıt main'den farklıydı; hepsi 604 kayıtlık editoryal değişiklik listesinde yer aldı. Kalan yedi kayıt main'deki hotfix ile aynı alanlara sahipti. Bu sayısal kontrol içerik doğruluğunu veya tüm cevapların tek anlamlı olduğunu kanıtlamaz. `npm test`, derin tarama, editoryal model taraması, fixture oturum testi, `npm audit` ve üretim komutu yerel değişikliklerle geçti; gerçek Sheets oturumu ve production rıza akışı değildir. Derin taramadaki 2.871 işaretin her biri ayrı doğrulanmış hata sayılmaz.
