@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 604,
+  "count": 613,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -12799,6 +12799,627 @@
         "tags": [
           "hayat-bilgisi",
           "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Sağlığım ve Güvenliğim konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "trafikte yaya geçidi ve ışıkları kullanmak",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“trafikte yaya geçidi ve ışıkları kullanmak” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
+        "options": [
+          "trafikte yaya geçidi ve ışıkları kullanmak",
+          "ilaçları yetişkine sormadan kullanmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "sagligim-ve-guvenligim",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Yaya geçidine gelen Deniz, ışığın kırmızı olduğunu görüyor. Güvenli geçiş için ne yapmalıdır?",
+        "choices": [
+          "Kaldırımda bekleyip yeşil ışıkta yolu kontrol etmek",
+          "Kırmızı ışıkta araçların arasından geçmek",
+          "Geçidin yanında yola koşmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kırmızı yaya ışığında kaldırımda beklenir. Yeşil yandığında da geçmeden önce araçların durduğunu kontrol etmek güvenliğe yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
+        "options": [
+          "Kaldırımda bekleyip yeşil ışıkta yolu kontrol etmek",
+          "Kırmızı ışıkta araçların arasından geçmek",
+          "Geçidin yanında yola koşmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Sağlığım ve Güvenliğim",
+        "subSkill": "Yaya güvenliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "sagligim-ve-guvenligim",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Ailem ve Toplum konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "ortak alanlarda başkalarının haklarına saygı göstermek",
+          "ortak sorumlulukları sürekli başkasına bırakmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“ortak alanlarda başkalarının haklarına saygı göstermek” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1-soru-7",
+        "options": [
+          "ortak alanlarda başkalarının haklarına saygı göstermek",
+          "ortak sorumlulukları sürekli başkasına bırakmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ailem ve Toplum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ailem-ve-toplum",
+          "ailem-ve-toplum",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Apartmandaki ortak oyun alanını kullanan çocuklar hangi davranışla başkalarının hakkına saygı gösterir?",
+        "choices": [
+          "Oyundan sonra alanı temiz bırakmak",
+          "Oyuncakları başkaları kullanamasın diye saklamak",
+          "Çöpleri oyun alanında bırakmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ortak alanı temiz bırakmak, alanı daha sonra kullanacak kişilerin de yararlanmasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1-soru-7",
+        "options": [
+          "Oyundan sonra alanı temiz bırakmak",
+          "Oyuncakları başkaları kullanamasın diye saklamak",
+          "Çöpleri oyun alanında bırakmak"
+        ],
+        "difficulty": "kolay",
+        "skill": "Ailem ve Toplum",
+        "subSkill": "Ortak alanların kullanımı",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ailem-ve-toplum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Ailem ve Toplum konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "yaşına uygun ev görevini zamanında yerine getirmek",
+          "ortak sorumlulukları sürekli başkasına bırakmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1-soru-4",
+        "options": [
+          "yaşına uygun ev görevini zamanında yerine getirmek",
+          "ortak sorumlulukları sürekli başkasına bırakmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Ailem ve Toplum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ailem-ve-toplum",
+          "ailem-ve-toplum",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Ece evde sofrayı hazırlamayı üstlendi. Oyun oynamak da istiyor. Hem sorumluluğunu yerine getirmek hem oyun oynamak için ne yapabilir?",
+        "choices": [
+          "Sofrayı hazırladıktan sonra oyun oynayabilir",
+          "Görevini haber vermeden bırakabilir",
+          "Sofrayı başkasının hazırlamasını bekleyebilir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Üstlendiği görevi tamamlamak aile içindeki iş bölümüne katkı sağlar; ardından oyununa zaman ayırabilir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1-soru-4",
+        "options": [
+          "Sofrayı hazırladıktan sonra oyun oynayabilir",
+          "Görevini haber vermeden bırakabilir",
+          "Sofrayı başkasının hazırlamasını bekleyebilir"
+        ],
+        "difficulty": "orta",
+        "skill": "Ailem ve Toplum",
+        "subSkill": "Ailede sorumluluk",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ailem-ve-toplum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Yaşadığım Yer ve Ülkem konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "kültürel ve tarihî alanları korumak",
+          "tarihî bir eserin üzerine yazı yazmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“kültürel ve tarihî alanları korumak” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+        "options": [
+          "kültürel ve tarihî alanları korumak",
+          "tarihî bir eserin üzerine yazı yazmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Bir müzeyi gezen öğrencilerden hangisi tarihî eserin korunmasına yardımcı olur?",
+        "choices": [
+          "Eserlere dokunmadan görevlilerin uyarılarına uyan öğrenci",
+          "Eserin üzerine adını yazan öğrenci",
+          "Eserden küçük bir parça koparan öğrenci"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Müzedeki kurallara uymak ve eserlere zarar vermemek, tarihî eserlerin gelecek kuşaklara ulaşmasına yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+        "options": [
+          "Eserlere dokunmadan görevlilerin uyarılarına uyan öğrenci",
+          "Eserin üzerine adını yazan öğrenci",
+          "Eserden küçük bir parça koparan öğrenci"
+        ],
+        "difficulty": "kolay",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Tarihî eserleri koruma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Yaşadığım Yer ve Ülkem konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "millî günlerde ortak değerlere saygılı davranmak",
+          "tarihî bir eserin üzerine yazı yazmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
+        "options": [
+          "millî günlerde ortak değerlere saygılı davranmak",
+          "tarihî bir eserin üzerine yazı yazmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "yasadigim-yer-ve-ulkem",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Mahallesindeki tarihî çeşmenin üzerine yazı yazıldığını gören Selin ne yapabilir?",
+        "choices": [
+          "Çeşmeye dokunmadan durumu bir yetişkine veya ilgili görevlilere bildirebilir",
+          "Yazıyı çoğaltıp arkadaşlarına gösterebilir",
+          "Çeşmeden bir parça koparabilir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tarihî yapılara zarar vermemek ve görülen zararı sorumlu kişilere bildirmek, ortak kültürel mirasın korunmasına katkı sağlar.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
+        "options": [
+          "Çeşmeye dokunmadan durumu bir yetişkine veya ilgili görevlilere bildirebilir",
+          "Yazıyı çoğaltıp arkadaşlarına gösterebilir",
+          "Çeşmeden bir parça koparabilir"
+        ],
+        "difficulty": "orta",
+        "skill": "Yaşadığım Yer ve Ülkem",
+        "subSkill": "Kültürel mirası koruma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "yasadigim-yer-ve-ulkem",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Doğa ve Çevre konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "canlıların yaşam alanlarını bozmamak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“canlıların yaşam alanlarını bozmamak” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1-soru-7",
+        "options": [
+          "canlıların yaşam alanlarını bozmamak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Parkta bir kuş yuvası gören çocuk, canlıların yaşam alanını korumak için ne yapmalıdır?",
+        "choices": [
+          "Yuvaya dokunmadan uzaktan gözlemlemelidir",
+          "Yuvayı yerinden indirip eve götürmelidir",
+          "Yuvaya taş atmalıdır"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yuvaya dokunmadan gözlem yapmak, kuşların barındığı alana zarar vermemeye yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1-soru-7",
+        "options": [
+          "Yuvaya dokunmadan uzaktan gözlemlemelidir",
+          "Yuvayı yerinden indirip eve götürmelidir",
+          "Yuvaya taş atmalıdır"
+        ],
+        "difficulty": "kolay",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Canlıların yaşam alanları",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Doğa ve Çevre konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "su ve elektriği gereksiz yere kullanmamak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
+        "options": [
+          "su ve elektriği gereksiz yere kullanmamak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Elini yıkayan Arda, sabunlanırken suyun akmaya devam ettiğini fark ediyor. Suyu daha özenli kullanmak için ne yapabilir?",
+        "choices": [
+          "Sabunlanırken musluğu kapatıp durulanırken açabilir",
+          "Musluğu daha fazla açabilir",
+          "Ellerini yıkamayı tamamen bırakabilir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sabunlanma sırasında musluğu kapatmak, temizlikten vazgeçmeden gereksiz su kullanımını azaltır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
+        "options": [
+          "Sabunlanırken musluğu kapatıp durulanırken açabilir",
+          "Musluğu daha fazla açabilir",
+          "Ellerini yıkamayı tamamen bırakabilir"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Su tasarrufu",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf kolay: 2. sınıf Bilim, Teknoloji ve Sanat konusunda uyulması gereken doğru kural hangisidir?",
+        "choices": [
+          "araçları yönergelerine ve yetişkin rehberliğine göre kullanmak",
+          "elektronik aracı izin almadan sökmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“araçları yönergelerine ve yetişkin rehberliğine göre kullanmak” güvenli ve saygılı bir kuraldır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
+        "options": [
+          "araçları yönergelerine ve yetişkin rehberliğine göre kullanmak",
+          "elektronik aracı izin almadan sökmek",
+          "uyarıları görmezden gelmek",
+          "ortak eşyalara zarar vermek"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bilim, Teknoloji ve Sanat",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "bilim-teknoloji-ve-sanat",
+          "bilim-teknoloji-ve-sanat",
+          "karsilastirma",
+          "anlama"
+        ]
+      },
+      "after": {
+        "question": "Mert bir elektrikli cihazın kablosunun hasarlı olduğunu fark etti. Ne yapmalıdır?",
+        "choices": [
+          "Cihaza dokunmadan durumu bir yetişkine bildirmelidir",
+          "Hasarlı kabloyu elle düzeltmeye çalışmalıdır",
+          "Cihazı kullanmaya devam etmelidir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Hasarlı elektrik kablosu tehlikeli olabilir. Cihaza dokunmadan bir yetişkine haber vermek güvenli bir davranıştır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
+        "options": [
+          "Cihaza dokunmadan durumu bir yetişkine bildirmelidir",
+          "Hasarlı kabloyu elle düzeltmeye çalışmalıdır",
+          "Cihazı kullanmaya devam etmelidir"
+        ],
+        "difficulty": "kolay",
+        "skill": "Bilim, Teknoloji ve Sanat",
+        "subSkill": "Teknoloji araçlarında güvenlik",
+        "questionType": "cikarim",
+        "cognitiveLevel": "anlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "bilim-teknoloji-ve-sanat",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1-soru-4",
+      "test": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1",
+      "reason": "reviewed_grade_three_topic_questions",
+      "before": {
+        "question": "3. sınıf orta: 2. sınıf Bilim, Teknoloji ve Sanat konusunda hem haklara hem sorumluluklara uygun davranış hangisidir?",
+        "choices": [
+          "dijital içerik kullanırken kaynak ve süre kurallarına uymak",
+          "elektronik aracı izin almadan sökmek",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haklar kullanılırken sorumluluklar da yerine getirilmelidir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1-soru-4",
+        "options": [
+          "dijital içerik kullanırken kaynak ve süre kurallarına uymak",
+          "elektronik aracı izin almadan sökmek",
+          "yalnız kendi isteğini düşünmek",
+          "ortak kuralları yok saymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Bilim, Teknoloji ve Sanat",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "bilim-teknoloji-ve-sanat",
+          "bilim-teknoloji-ve-sanat",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir öğrenci sunumunda internetten bulduğu bir görseli kullanmak istiyor. Hangi davranış daha uygundur?",
+        "choices": [
+          "Kullanım iznini kontrol edip kaynağını belirtmek",
+          "Görseli kendisi çizmiş gibi göstermek",
+          "Kaynağı saklayıp her görselin serbest olduğunu varsaymak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bir görselin kullanım koşullarını kontrol etmek ve kaynağını belirtmek, başkalarının emeğine saygı göstermeye yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1-soru-4",
+        "options": [
+          "Kullanım iznini kontrol edip kaynağını belirtmek",
+          "Görseli kendisi çizmiş gibi göstermek",
+          "Kaynağı saklayıp her görselin serbest olduğunu varsaymak"
+        ],
+        "difficulty": "orta",
+        "skill": "Bilim, Teknoloji ve Sanat",
+        "subSkill": "Dijital içerik ve kaynak",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "bilim-teknoloji-ve-sanat",
           "editorial-2026-10"
         ]
       }

@@ -2414,5 +2414,41 @@
   "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:7": {
     "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
     "sha256": "7c224938a6fe1cf6fa7c0295107e3c12f337560efa2d2c89fa51d531ba845865"
+  },
+  "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
+    "sha256": "26545329e3948d27568fbde0e3985aa0a66bdbfe6153145d6fa7c74b4766e32f"
+  },
+  "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-kolay-test-1-soru-7",
+    "sha256": "d30f0320028bf91c2f7d31ca6ea4927070caee183449113a96134732af8b41ab"
+  },
+  "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1:3": {
+    "id": "3-sinif-hayat-bilgisi-ailem-ve-toplum-orta-test-1-soru-4",
+    "sha256": "c1e2fd19305609112f7cd9e7ee2466acf090681bc973ef8e4d71ab025401b0bf"
+  },
+  "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
+    "sha256": "e004530114c634398ea576c3151bc9abda6f754c7610b108755bb923eb890ef9"
+  },
+  "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:3": {
+    "id": "3-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
+    "sha256": "a88c61d872e2f69fe34fb1631f25161da715bf250aa54c0b9e67bbcfc391ad5d"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-kolay-test-1-soru-7",
+    "sha256": "109c69c8bcd8ed9fef9c28795695339249c437250a2483fc40b3cfa75fc7717b"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:3": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
+    "sha256": "00571413c90f6955fba7c99512ece09dc13e6d070c0c7d03f19132e896348fa1"
+  },
+  "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
+    "sha256": "371ae246ec23d8c2e06771804a0f7d2071d0e2dcca33e91a0cca275dace4beae"
+  },
+  "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1:3": {
+    "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1-soru-4",
+    "sha256": "7cd283fcfed2f5f83a95fe8c0b503ee5ecae63feee2f51f79674f4c479d68e65"
   }
 }
