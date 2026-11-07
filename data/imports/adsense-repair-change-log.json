@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 613,
+  "count": 622,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -13420,6 +13420,652 @@
         "tags": [
           "hayat-bilgisi",
           "bilim-teknoloji-ve-sanat",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-1",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Toprak bir sorunu fark edip durumu değerlendirdikten sonra güvenliyse musluğu kapatıp bir görevliye haber vermek yolunu seçti. Bu davranıştan hangi sonuç çıkarılır?",
+        "choices": [
+          "Toprak kaynakları koruyan çevre bilincine sahip bir öğrencidir",
+          "Toprak kuralları önemsemez",
+          "Toprak sorunu büyütmek ister",
+          "Toprak çevresini dinlemez"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sorunu düşünüp uygun çözüm seçmesi, toprak kaynakları koruyan çevre bilincine sahip bir öğrencidir sonucunu destekler.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-1",
+        "options": [
+          "Toprak kaynakları koruyan çevre bilincine sahip bir öğrencidir",
+          "Toprak kuralları önemsemez",
+          "Toprak sorunu büyütmek ister",
+          "Toprak çevresini dinlemez"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "siralama",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Piknikten sonra yerde ambalajlar kaldığını gören çocuklar çevreyi korumak için ne yapabilir?",
+        "choices": [
+          "Ambalajları toplayıp uygun atık kutusuna bırakabilirler",
+          "Ambalajları rüzgârın taşımasını bekleyebilirler",
+          "Ambalajları çalıların arasına saklayabilirler"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Atıkları yerde bırakmamak çevrenin kirlenmesini azaltmaya yardımcı olur. Toplanan ambalajlar uygun kutulara bırakılmalıdır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-1",
+        "options": [
+          "Ambalajları toplayıp uygun atık kutusuna bırakabilirler",
+          "Ambalajları rüzgârın taşımasını bekleyebilirler",
+          "Ambalajları çalıların arasına saklayabilirler"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Çevre temizliği",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Doğa ve Çevre görselindeki üç adımın ikincisi hangisidir?",
+        "choices": [
+          "Uygun geri dönüşüm kutusunu seçmek",
+          "Atığın türünü belirlemek",
+          "Sonuçları gözlem tablosuna kaydetmek",
+          "kullanılabilir kâğıtları çöpe atmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İlk adımdan sonra “Uygun geri dönüşüm kutusunu seçmek” yapılır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Etkinlik sırası",
+          "data": {
+            "first": "Atığın türünü belirlemek",
+            "second": "Uygun geri dönüşüm kutusunu seçmek",
+            "third": "Sonuçları gözlem tablosuna kaydetmek"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2",
+        "imageAlt": "Etkinlik sırası",
+        "options": [
+          "Uygun geri dönüşüm kutusunu seçmek",
+          "Atığın türünü belirlemek",
+          "Sonuçları gözlem tablosuna kaydetmek",
+          "kullanılabilir kâğıtları çöpe atmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sınıfta kâğıt ve plastik için ayrı atık kutuları var. Boş bir kâğıt kutu hangi kutuya atılmalıdır?",
+        "choices": [
+          "Genel çöp kutusuna",
+          "Kâğıt atık kutusuna",
+          "Plastik atık kutusuna"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Atığın yapıldığı malzeme belirlenir; kâğıt kutu, bunun için ayrılmış kâğıt atık kutusuna bırakılır.",
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2",
+        "options": [
+          "Genel çöp kutusuna",
+          "Kâğıt atık kutusuna",
+          "Plastik atık kutusuna"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Atıkları ayırma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: “Parkta musluk açık kalmış ve su boşa akıyor.” Bu durumda en güvenli ve uygun çözüm hangisidir?",
+        "choices": [
+          "güvenliyse musluğu kapatıp bir görevliye haber vermek",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güvenli ve sorumlu çözüm doğru seçenekte verilmiştir.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
+        "options": [
+          "güvenliyse musluğu kapatıp bir görevliye haber vermek",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "hiçbir şey olmamış gibi davranmak",
+          "sorunu başkasına yüklemek"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Parkta bir musluğun açık kaldığını ve suyun boşa aktığını gören Deniz ne yapabilir?",
+        "choices": [
+          "Musluğu daha fazla açıp uzaklaşabilir",
+          "Suyu boşa akmaya bırakıp kimseye haber vermeyebilir",
+          "Güvenliyse musluğu kapatıp durumu bir görevliye bildirebilir"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Güvenliyse musluğu kapatmak gereksiz su kaybını durdurur; görevliye haber vermek sorunun incelenmesine yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
+        "options": [
+          "Musluğu daha fazla açıp uzaklaşabilir",
+          "Suyu boşa akmaya bırakıp kimseye haber vermeyebilir",
+          "Güvenliyse musluğu kapatıp durumu bir görevliye bildirebilir"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Su kaynaklarını koruma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Doğa ve Çevre konuşma kartında “Kimden yardım isteyebilirim?” sorusu vardır. En uygun cevap hangisidir?",
+        "choices": [
+          "çevre görevlisi veya güvendiği yetişkin",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bu durumda güvenli yardım kaynağı “çevre görevlisi veya güvendiği yetişkin”dır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Yardım kaynakları",
+          "data": {
+            "question": "Kimden yardım istemeliyim?",
+            "answer": "çevre görevlisi veya güvendiği yetişkin"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
+        "imageAlt": "Yardım kaynakları",
+        "options": [
+          "çevre görevlisi veya güvendiği yetişkin",
+          "tanımadığı biri",
+          "hiç kimse",
+          "yalnızca yaşıtı"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Bir çocuk parkta tanımadığı bir sıvının yere döküldüğünü görüyor. Ne yapmalıdır?",
+        "choices": [
+          "Sıvının ne olduğunu anlamak için koklamalıdır",
+          "Sıvıya dokunmadan güvenilir bir yetişkine veya görevliye haber vermelidir",
+          "Sıvıyı eliyle temizlemelidir"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tanımadığı bir maddeye dokunmamak ve durumu yetişkine bildirmek, olası bir tehlikeden uzak durmaya yardımcı olur.",
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
+        "options": [
+          "Sıvının ne olduğunu anlamak için koklamalıdır",
+          "Sıvıya dokunmadan güvenilir bir yetişkine veya görevliye haber vermelidir",
+          "Sıvıyı eliyle temizlemelidir"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Güvenli yardım isteme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Toprak “canlıların yaşam alanlarını bozmamak” kuralına uyarsa bunun en önemli nedeni ne olur?",
+        "choices": [
+          "atıkların yeniden değerlendirilmesi ve kaynakların korunması",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kuralın temel amacı atıkların yeniden değerlendirilmesi ve kaynakların korunmasıtır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
+        "options": [
+          "atıkların yeniden değerlendirilmesi ve kaynakların korunması",
+          "daha çok sorun çıkarmak",
+          "çevresini rahatsız etmek",
+          "işini geciktirmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir göletin çevresindeki bitkiler ve canlılar neden korunmalıdır?",
+        "choices": [
+          "Çünkü her gölette yalnızca bir tür canlı yaşar",
+          "Çünkü canlılar suya ve barınağa ihtiyaç duymaz",
+          "Çünkü gölet ve çevresi canlılar için yaşam alanıdır"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gölet ve çevresi farklı canlılara su, besin ve barınak sağlayabilir. Bu alanı korumak yaşam koşullarını korumaya yardımcı olur.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
+        "options": [
+          "Çünkü her gölette yalnızca bir tür canlı yaşar",
+          "Çünkü canlılar suya ve barınağa ihtiyaç duymaz",
+          "Çünkü gölet ve çevresi canlılar için yaşam alanıdır"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Yaşam alanlarını koruma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: sınıfın atıklarını türlerine göre ayıran kutular hazırladı ile su ve elektriği gereksiz yere kullanmamak davranışlarının ortak yönü nedir?",
+        "choices": [
+          "doğal kaynakları bilinçli kullanıp çevreyi korumak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "İki davranış da doğal kaynakları bilinçli kullanıp çevreyi korumak düşüncesini destekler.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
+        "options": [
+          "doğal kaynakları bilinçli kullanıp çevreyi korumak",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "başkalarına zarar vermek",
+          "kurallardan kaçmak"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Gündüz, güneş ışığıyla yeterince aydınlanan boş bir sınıfta lambalar yanıyor. Gereksiz enerji kullanımını azaltmak için ne yapılabilir?",
+        "choices": [
+          "Lambalar kapatılabilir",
+          "Lambalara ek olarak diğer ışıklar da açılabilir",
+          "Pencereler kapatılıp ışıklar açık bırakılabilir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yeterli gün ışığı varsa ve sınıfta kimse yoksa lambaları kapatmak gereksiz elektrik tüketimini azaltır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
+        "options": [
+          "Lambalar kapatılabilir",
+          "Lambalara ek olarak diğer ışıklar da açılabilir",
+          "Pencereler kapatılıp ışıklar açık bırakılabilir"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Elektrik tasarrufu",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Doğa ve Çevre görselindeki yanlış davranışın yerine hangisi yapılmalıdır?",
+        "choices": [
+          "güvenliyse musluğu kapatıp bir görevliye haber vermek",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yanlış seçim yerine güvenli ve uygun çözüm uygulanmalıdır.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Seçimini düzelt",
+          "data": {
+            "wrong": "kullanılabilir kâğıtları çöpe atmak",
+            "better": "güvenliyse musluğu kapatıp bir görevliye haber vermek"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8",
+        "imageAlt": "Seçimini düzelt",
+        "options": [
+          "güvenliyse musluğu kapatıp bir görevliye haber vermek",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "uyarıyı gizlemek",
+          "yardımı reddetmek"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Sağlam bir karton kutuyu hemen çöpe atmak yerine kalemlerini düzenlemek için kullanan öğrenci ne yapmış olur?",
+        "choices": [
+          "Kutunun neden yapıldığını değiştirmiş olur",
+          "Kutuyu yeniden kullanmış olur",
+          "Kutuyu mutlaka yeni bir ürüne dönüştürmüş olur"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sağlam bir eşyayı başka bir amaçla yeniden kullanmak, onu hemen atmak yerine daha uzun süre değerlendirmektir.",
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8",
+        "options": [
+          "Kutunun neden yapıldığını değiştirmiş olur",
+          "Kutuyu yeniden kullanmış olur",
+          "Kutuyu mutlaka yeni bir ürüne dönüştürmüş olur"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Yeniden kullanım",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-9",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: sınıfta çöpe giden atık miktarı azaldı sonucu hangi davranışla doğrudan ilişkilidir?",
+        "choices": [
+          "sınıfın atıklarını türlerine göre ayıran kutular hazırladı",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Olumlu sonucu doğuran davranış “sınıfın atıklarını türlerine göre ayıran kutular hazırladı”dır.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-9",
+        "options": [
+          "sınıfın atıklarını türlerine göre ayıran kutular hazırladı",
+          "kullanılabilir kâğıtları çöpe atmak",
+          "kuralları unutmak",
+          "sorunu saklamak"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "karsilastirma",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "karsilastirma",
+          "uygulama"
+        ]
+      },
+      "after": {
+        "question": "Bir sınıfta pazartesi 12, salı 7 yaprak kâğıt atıldı. Salı günü kaç yaprak daha az kâğıt atılmıştır?",
+        "choices": [
+          "7 yaprak",
+          "12 yaprak",
+          "5 yaprak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "İki gün arasındaki fark 12 − 7 = 5 yapraktır. Ölçüm, farkı gösterir; tek başına azalmanın nedenini açıklamaz.",
+        "image": null,
+        "visual": null,
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-9",
+        "options": [
+          "7 yaprak",
+          "12 yaprak",
+          "5 yaprak"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Çevre verisini karşılaştırma",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
+      "test": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1",
+      "reason": "reviewed_grade_three_environment_test",
+      "before": {
+        "question": "3. sınıf orta: Doğa ve Çevre görselinde “sınıfın atıklarını türlerine göre ayıran kutular hazırladı → sınıfta çöpe giden atık miktarı azaldı” bağlantısı vardır. Ana düşünce hangisidir?",
+        "choices": [
+          "doğal kaynakları bilinçli kullanıp çevreyi korumak olumlu sonuçlar doğurur",
+          "kullanılabilir kâğıtları çöpe atmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Davranış ve sonuç birlikte değerlendirildiğinde ana düşünce doğru seçenekte verilir.",
+        "image": "images/tests/3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Davranış ve sonuç",
+          "data": {
+            "action": "sınıfın atıklarını türlerine göre ayıran kutular hazırladı",
+            "result": "sınıfta çöpe giden atık miktarı azaldı"
+          }
+        },
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
+        "imageAlt": "Davranış ve sonuç",
+        "options": [
+          "doğal kaynakları bilinçli kullanıp çevreyi korumak olumlu sonuçlar doğurur",
+          "kullanılabilir kâğıtları çöpe atmak her zaman doğrudur",
+          "Kuralların hiçbir yararı yoktur",
+          "Sorumluluklar yalnız yetişkinlere aittir"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": true,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
+          "doga-ve-cevre",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Evi okula yakın olan bir öğrenci, güvenli bir yürüyüş yolu ve yetişkininin uygun bulduğu koşullar varsa yürümeyi seçiyor. Bu seçim nasıl bir katkı sağlayabilir?",
+        "choices": [
+          "Araç kullanımını azaltarak hava kirliliğinin azalmasına katkı sağlayabilir",
+          "Yürümek tüm hava kirliliğini tek başına bitirir",
+          "Yürümek havayı temizlemek için çevredeki araçları hemen durdurur"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Güvenli koşullarda kısa mesafede araç yerine yürümek, araçtan kaynaklanan emisyonların azalmasına katkı sağlayabilir; tek başına bütün kirliliği ortadan kaldırmaz.",
+        "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
+        "options": [
+          "Araç kullanımını azaltarak hava kirliliğinin azalmasına katkı sağlayabilir",
+          "Yürümek tüm hava kirliliğini tek başına bitirir",
+          "Yürümek havayı temizlemek için çevredeki araçları hemen durdurur"
+        ],
+        "difficulty": "orta",
+        "skill": "Doğa ve Çevre",
+        "subSkill": "Ulaşım ve çevre",
+        "questionType": "cikarim",
+        "cognitiveLevel": "uygulama",
+        "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "doga-ve-cevre",
           "editorial-2026-10"
         ]
       }

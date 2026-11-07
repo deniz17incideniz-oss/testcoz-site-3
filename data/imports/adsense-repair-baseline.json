@@ -2450,5 +2450,41 @@
   "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1:3": {
     "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-orta-test-1-soru-4",
     "sha256": "7cd283fcfed2f5f83a95fe8c0b503ee5ecae63feee2f51f79674f4c479d68e65"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:0": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-1",
+    "sha256": "1c7cd71c73e8274dc8377590bb462918aec691f37e6e84cb761a3ce2c19d9a44"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:1": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2",
+    "sha256": "a7d158f01016016eaf4eb077b86d6a116548855648a8907f605d020cb5067cc2"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:2": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
+    "sha256": "61bb908a11dae6de524f38621d17e889ac82b6c5c2254a363decf7e9d5ef68d4"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:4": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
+    "sha256": "917a5369686d3bd347018946aa107ade0cffe6d21e9596e0e44d4c236b2fef63"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:5": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
+    "sha256": "4a6eac453139db9a8ead1240892469c726561c955806ccac72728e2fa979e347"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:6": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
+    "sha256": "b3a77017f7e4a199e870d722deb47d0f6194f8cf3beb77603b18e22c44a86ad9"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:7": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8",
+    "sha256": "884fa168a269d06203a727e6f9a01c4b1e59ab75d0e3c6b06d19e6107f5b8766"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:8": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-9",
+    "sha256": "f632a894b1e52d8b6fba437b50b4120bf63992630c61cd48919702b73a3610f8"
+  },
+  "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:9": {
+    "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
+    "sha256": "994f15abb3eb5106149406cea2795d54d5362ec5cac0387eda46e75db53a64fa"
   }
 }

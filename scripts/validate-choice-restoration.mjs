@@ -12,6 +12,7 @@ const allowedReviews=new Map([
  ['reviewed_gemini_grade_three_safety_medium_p0',new Set(['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
  ['reviewed_gemini_grade_three_safety_questions',new Set(['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1'])],
  ['reviewed_grade_three_topic_questions',new Set(['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1',...['ailem-ve-toplum','yasadigim-yer-ve-ulkem','doga-ve-cevre','bilim-teknoloji-ve-sanat'].flatMap(topic=>['kolay','orta'].map(level=>`3-sinif-hayat-bilgisi-${topic}-${level}-test-1`))])],
+ ['reviewed_grade_three_environment_test',new Set(['3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1'])],
  ['reviewed_gemini_grade_one_community_questions',new Set(['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1','1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1'])],
  ['reviewed_gemini_grade_two_community_questions',new Set(['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1'])]
 ]);
@@ -22,6 +23,7 @@ for(const [id,change] of reviewed){
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
  if(change.reason==='reviewed_gemini_grade_three_safety_medium_p0')assert.ok([2,4,5,6,8,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
  if(change.reason==='reviewed_grade_three_topic_questions')assert.equal(Number(id.split('-').at(-1)),change.test.includes('-kolay-')?7:4,`Unexpected reviewed question: ${id}`);
+ if(change.reason==='reviewed_grade_three_environment_test')assert.ok([1,2,3,5,6,7,8,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
  assert.equal(change.after.choices.length,3,`Reviewed question must have three choices: ${id}`);
 }
 const questions=new Map(tests.flatMap(t=>t.questions.map(q=>[q.id,q])));
