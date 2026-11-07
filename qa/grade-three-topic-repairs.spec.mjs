@@ -7,7 +7,7 @@ for(const [topic,level,step,fragment,answer] of [
  ['yasadigim-yer-ve-ulkem','kolay',6,'müzeyi gezen öğrencilerden','Eserlere dokunmadan'],
  ['yasadigim-yer-ve-ulkem','orta',3,'tarihî çeşmenin üzerine','durumu bir yetişkine'],
  ['doga-ve-cevre','kolay',6,'bir kuş yuvası','Yuvaya dokunmadan'],
- ['doga-ve-cevre','orta',3,'sabunlanırken suyun','musluğu kapatıp'],
+ ['doga-ve-cevre','orta',3,'genç fidanın büyümesine','ihtiyacına göre sulanmasına'],
  ['bilim-teknoloji-ve-sanat','kolay',6,'kablosunun hasarlı','Cihaza dokunmadan'],
  ['bilim-teknoloji-ve-sanat','orta',3,'görseli kullanmak istiyor','Kullanım iznini kontrol']
 ]) test(`grade 3 ${topic} ${level} reviewed question`,async({page})=>{

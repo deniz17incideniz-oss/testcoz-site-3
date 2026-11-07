@@ -13256,25 +13256,25 @@
         ]
       },
       "after": {
-        "question": "Elini yıkayan Arda, sabunlanırken suyun akmaya devam ettiğini fark ediyor. Suyu daha özenli kullanmak için ne yapabilir?",
+        "question": "Okul bahçesine dikilen genç fidanın büyümesine yardımcı olmak isteyen öğrenciler ne yapabilir?",
         "choices": [
-          "Sabunlanırken musluğu kapatıp durulanırken açabilir",
-          "Musluğu daha fazla açabilir",
-          "Ellerini yıkamayı tamamen bırakabilir"
+          "Fidanın ihtiyacına göre sulanmasına yardımcı olabilirler",
+          "Dallarını oyun için koparabilirler",
+          "Toprağını dağıtıp köklerini açıkta bırakabilirler"
         ],
         "correctAnswer": 0,
-        "explanation": "Sabunlanma sırasında musluğu kapatmak, temizlikten vazgeçmeden gereksiz su kullanımını azaltır.",
+        "explanation": "Fidanlar büyümek için uygun koşullara ve suya ihtiyaç duyar. Dallarını ve köklerini korumak da bitkiye zarar vermemeye yardımcı olur.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
         "options": [
-          "Sabunlanırken musluğu kapatıp durulanırken açabilir",
-          "Musluğu daha fazla açabilir",
-          "Ellerini yıkamayı tamamen bırakabilir"
+          "Fidanın ihtiyacına göre sulanmasına yardımcı olabilirler",
+          "Dallarını oyun için koparabilirler",
+          "Toprağını dağıtıp köklerini açıkta bırakabilirler"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",
-        "subSkill": "Su tasarrufu",
+        "subSkill": "Bitkileri koruma",
         "questionType": "cikarim",
         "cognitiveLevel": "uygulama",
         "estimatedTimeSeconds": 85,
