@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {tests} from './load-bank.mjs';
 // Historical snapshot of the unreviewed migration, retained as evidence.
@@ -18,6 +19,12 @@ const allowedReviews=new Map([
 ]);
 const reviewed=new Map(editorial.changes.filter(change=>allowedReviews.has(change.reason)).map(change=>[change.id,change]));
 const historicalIds=new Set(log.changes.map(entry=>entry.id));
+const schoolSlug='1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1';
+const schoolIndices=[2,4,6,9];
+const schoolContext={window:{TESTCOZ_TESTS:[{slug:schoolSlug,questions:Array.from({length:10},()=>({}))}]}};
+vm.runInNewContext(fs.readFileSync('data/tests/zyz-school-hotfix.js','utf8'),schoolContext);
+const schoolReviewed=new Map(schoolIndices.map(index=>[`${schoolSlug}-soru-${index+1}`,schoolContext.window.TESTCOZ_TESTS[0].questions[index]]));
+for(const [id,q] of schoolReviewed){assert.ok(historicalIds.has(id),`School hotfix missing historical entry: ${id}`);assert.ok(!reviewed.has(id),`Overlapping school editorial repair: ${id}`);assert.equal(q.choices.length,3);}
 for(const [id,change] of reviewed){
  assert.ok(historicalIds.has(id),`Reviewed choice record is not in historical migration: ${id}`);
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
@@ -36,9 +43,13 @@ for(const entry of log.changes){
   assert.equal(review.before.correctAnswer,entry.before.correctAnswer,`Reviewed source answer mismatch: ${entry.id}`);
   assert.deepEqual(Array.from(q.choices),review.after.choices,`Reviewed choices mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,review.after.correctAnswer,`Reviewed answer mismatch: ${entry.id}`);
+ } else if(schoolReviewed.has(entry.id)) {
+  const patch=schoolReviewed.get(entry.id);
+  assert.deepEqual(Array.from(q.choices),Array.from(patch.choices),`School hotfix choices mismatch: ${entry.id}`);
+  assert.equal(q.correctAnswer,patch.correctAnswer,`School hotfix answer mismatch: ${entry.id}`);
  } else {
   assert.deepEqual(Array.from(q.choices),entry.before.choices,`Unreviewed choice removal: ${entry.id}`);
   assert.equal(q.correctAnswer,entry.before.correctAnswer,`Changed answer index: ${entry.id}`);
  }
 }
-console.log(`Choice history verified: ${log.count-reviewed.size} unchanged, ${reviewed.size} individually reviewed replacements.`);
+console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size} unchanged, ${reviewed.size+schoolReviewed.size} individually reviewed replacements.`);

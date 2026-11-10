@@ -1,0 +1,9 @@
+# 1. sınıf Ben ve Okulum soruları — dar düzeltme
+
+Canlı `main` üzerindeki zor Test 1, üçüncü soruda arkadaşının sözünü kesmeyle ilgili bir durum soruyor; cevap anahtarı sınıfın yerini göstermeyi işaretliyordu. Bu durum 11 Kasım'da canlı test ekranında gözlendi. Yedinci soru koridorda yürümeyi dinleme amacıyla ilgisiz biçimde ilişkilendiriyordu. Onuncu soruda sınıfını bulamayan öğrenciye yardım, sınıfta konuşma düzeninin oluşmasıyla gerekçesiz ilişkilendiriliyor; kart doğru seçeneği de açıkça veriyordu. Beşinci sorunun kartı gerekçeyi doğrudan gösteriyordu.
+
+Üçüncü, beşinci, yedinci ve onuncu sorular aynı kimliklerle yeniden yazıldı. Konuşma sırasını bekleme, söz alarak konuşma, koridorda sakin yürüme ve sınıfını bulamayan arkadaşına yardım konuları ayrı gerekçelerle sorulur. Her soru bireysel olarak üç seçenekli yazıldı; diğer soruların seçenekleri değiştirilmedi. Beşinci ve onuncu soru ile eski kartlar arasındaki ilişki kaldırıldı; SVG dosyaları silinmedi. Önceki soru ve seçenekler Git geçmişinde, yeni kayıtlar `data/tests/zyz-school-hotfix.js` dosyasındadır.
+
+[MEB sınıfta söz hakkı rehberi](https://orgm.meb.gov.tr/meb_iys_dosyalar/2025_05/06133757_zihin.pdf) söz alarak konuşmayı olumlu sınıf kuralına örnek verir. Yürümek çarpma ve düşme riskini azaltmaya yardımcı olabilir; bu, kazaların tamamen önleneceği anlamına gelmez. Zor seviye ve çeldiriciler ayrıca editoryal incelemeye açıktır; bu paket diğer 5.196 sorunun doğruluğuna ilişkin belge değildir.
+
+Karşılaştırma: 520 test ve 5.200 soru kimliği korunur; normalleştirilmiş kayıt düzeyinde yalnız bu dört soru değişir. Önceki yedi güvenlik düzeltmesi dahil diğer 5.196 kayıt korunur. Üretilmiş görsel boyut tablosundan yalnız artık kullanılmayan iki referans çıkarılmıştır. Testler ve yayın bilgileri PR'da ilgili commit için ayrıca doğrulanmalıdır.
