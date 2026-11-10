@@ -8,6 +8,7 @@ assert.equal(log.count,2312);
 const editorial=JSON.parse(fs.readFileSync('data/imports/adsense-repair-change-log.json','utf8'));
 const allowedReviews=new Map([
  ['reviewed_gemini_grade_one_school_questions',new Set(['1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1','1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1'])],
+ ['reviewed_gemini_grade_one_school_hard_candidate',new Set(['1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1'])],
  ['reviewed_gemini_grade_one_safety_questions',new Set(['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
  ['reviewed_gemini_grade_two_safety_questions',new Set(['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1','2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1','2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1'])],
  ['reviewed_gemini_grade_three_safety_medium_p0',new Set(['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1'])],
@@ -29,6 +30,7 @@ for(const [id,change] of reviewed){
  assert.ok(historicalIds.has(id),`Reviewed choice record is not in historical migration: ${id}`);
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
  if(change.reason==='reviewed_gemini_grade_three_safety_medium_p0')assert.ok([2,4,5,6,8,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
+ if(change.reason==='reviewed_gemini_grade_one_school_hard_candidate')assert.equal(Number(id.split('-').at(-1)),1,`Unexpected reviewed question: ${id}`);
  if(change.reason==='reviewed_grade_three_topic_questions')assert.equal(Number(id.split('-').at(-1)),change.test.includes('-kolay-')?7:4,`Unexpected reviewed question: ${id}`);
  if(change.reason==='reviewed_grade_three_environment_test')assert.ok([1,2,3,5,6,7,8,9,10].includes(Number(id.split('-').at(-1))),`Unexpected reviewed question: ${id}`);
  assert.equal(change.after.choices.length,3,`Reviewed question must have three choices: ${id}`);

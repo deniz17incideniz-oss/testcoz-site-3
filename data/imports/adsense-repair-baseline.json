@@ -2486,5 +2486,9 @@
   "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1:9": {
     "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
     "sha256": "994f15abb3eb5106149406cea2795d54d5362ec5cac0387eda46e75db53a64fa"
+  },
+  "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1:0": {
+    "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+    "sha256": "cf515f9241eb90d4a88b6df653d3db012309125fe595787ccdabcd4afa37bd08"
   }
 }

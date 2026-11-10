@@ -24,6 +24,13 @@ const ledger=JSON.parse(fs.readFileSync(path,'utf8'));
 assert.ok(Array.isArray(ledger.records));
 const records=new Map(ledger.records.map(r=>[r.id,r]));
 assert.equal(records.size,ledger.records.length,'Duplicate review IDs');
+if(process.argv.includes('--add-unreviewed')){
+ const source=new Map(log.changes.map(c=>[c.id,c]));
+ for(const r of ledger.records){const c=source.get(r.id);assert.ok(c,`Unexpected review ID: ${r.id}`);assert.equal(r.content_sha256,digest(c.after,questions.get(c.id).t),`Stale review after content change: ${r.id}`);}
+ for(const c of log.changes)if(!records.has(c.id)){
+  const r={id:c.id,content_sha256:digest(c.after,questions.get(c.id).t),status:'NOT_REVIEWED',evidence:''};ledger.records.push(r);records.set(r.id,r);
+ }
+}
 assert.equal(records.size,log.changes.length,'Review ledger does not cover the current editorial log');
 const counts={VERIFIED:0,NEEDS_REVISION:0,REJECTED:0,NOT_REVIEWED:0};
 for(const c of log.changes){
@@ -34,4 +41,5 @@ for(const c of log.changes){
  if(r.status!=='NOT_REVIEWED')assert.ok(r.evidence.trim().length>=20,`Review needs substantive evidence: ${c.id}`);
  counts[r.status]++;
 }
+if(process.argv.includes('--add-unreviewed'))fs.writeFileSync(path,JSON.stringify(ledger,null,2)+'\n');
 console.log(JSON.stringify({scope:'Coverage and content fingerprints only; no semantic certification',records:records.size,counts}));

@@ -27,6 +27,14 @@ test(4,'matematik','bolme','kolay',1,divisionEasy,'reviewed_gemini_draft_replace
 test(4,'matematik','bolme','orta',1,divisionMedium,'reviewed_gemini_draft_replaces_repeated_division_template');
 test(1,'hayat-bilgisi','ben-ve-okulum','kolay',1,schoolEasy,'reviewed_gemini_grade_one_school_questions');
 test(1,'hayat-bilgisi','ben-ve-okulum','orta',1,schoolMedium,'reviewed_gemini_grade_one_school_questions');
+// Revised from a Gemini draft; checked against official first-aid guidance.
+repairs.push({slug:'1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1',index:0,row:[
+ 'Okul bahçesinde düşen arkadaşın yaralandı. Ne yapmalısın?',
+ 'Öğretmene hemen haber vermeliyim.',
+ 'Arkadaşımı hemen koşmaya zorlamalıyım.',
+ 'Onu görmezden gelip oyunuma dönmeliyim.',
+ 'Yaralanan arkadaşın için hemen bir yetişkine haber ver. Etrafta tehlike yoksa onu gereksiz yere hareket ettirmeye çalışma.'
+],reason:'reviewed_gemini_grade_one_school_hard_candidate',metadata:{subSkill:'Yaralanmada yardım isteme',questionType:'cikarim'}});
 test(1,'hayat-bilgisi','sagligim-ve-guvenligim','kolay',1,safetyEasy,'reviewed_gemini_grade_one_safety_questions');
 test(1,'hayat-bilgisi','sagligim-ve-guvenligim','orta',1,safetyMediumOne,'reviewed_gemini_grade_one_safety_questions');
 test(2,'hayat-bilgisi','sagligim-ve-guvenligim','kolay',1,safetyEasyTwo,'reviewed_gemini_grade_two_safety_questions');

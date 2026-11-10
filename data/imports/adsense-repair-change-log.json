@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 622,
+  "count": 623,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -6264,6 +6264,75 @@
         "questionType": "cikarim",
         "cognitiveLevel": "uygulama",
         "estimatedTimeSeconds": 85,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+      "test": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1",
+      "reason": "reviewed_gemini_grade_one_school_hard_candidate",
+      "before": {
+        "question": "Elif, sınıf ortamında “yeni öğrenci sınıfını bulamıyor” durumuyla karşılaştı. Önce tehlike veya ihtiyacı fark etti, sonra ona sınıfın yerini nazikçe göstermek. Buna göre hangisi kesinlikle söylenebilir?",
+        "choices": [
+          "Elif okuluna ve arkadaşlarına karşı özenlidir",
+          "Elif düşünmeden davranmıştır",
+          "Elif sorunu görmezden gelmiştir",
+          "Elif yalnız kendi isteğini önemsemiştir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Durumu değerlendirip uygun çözümü seçmesi, elif okuluna ve arkadaşlarına karşı özenlidir olduğunu gösterir.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+        "options": [
+          "Elif okuluna ve arkadaşlarına karşı özenlidir",
+          "Elif düşünmeden davranmıştır",
+          "Elif sorunu görmezden gelmiştir",
+          "Elif yalnız kendi isteğini önemsemiştir"
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
+        "questionType": "siralama",
+        "cognitiveLevel": "problem-cozme",
+        "estimatedTimeSeconds": 110,
+        "hasVisual": false,
+        "tags": [
+          "hayat-bilgisi",
+          "ben-ve-okulum",
+          "ben-ve-okulum",
+          "siralama",
+          "problem-cozme"
+        ]
+      },
+      "after": {
+        "question": "Okul bahçesinde düşen arkadaşın yaralandı. Ne yapmalısın?",
+        "choices": [
+          "Öğretmene hemen haber vermeliyim.",
+          "Arkadaşımı hemen koşmaya zorlamalıyım.",
+          "Onu görmezden gelip oyunuma dönmeliyim."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Yaralanan arkadaşın için hemen bir yetişkine haber ver. Etrafta tehlike yoksa onu gereksiz yere hareket ettirmeye çalışma.",
+        "image": null,
+        "visual": null,
+        "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
+        "options": [
+          "Öğretmene hemen haber vermeliyim.",
+          "Arkadaşımı hemen koşmaya zorlamalıyım.",
+          "Onu görmezden gelip oyunuma dönmeliyim."
+        ],
+        "difficulty": "zor",
+        "skill": "Ben ve Okulum",
+        "subSkill": "Yaralanmada yardım isteme",
+        "questionType": "cikarim",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 110,
         "hasVisual": false,
         "tags": [
           "hayat-bilgisi",
