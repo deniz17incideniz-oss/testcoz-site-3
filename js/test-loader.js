@@ -4,6 +4,7 @@
   const files=allowed[grade]?.includes(subject)?(grade==='4'?['data/tests/4-tum-dersler.js',...(subject==='matematik'?['data/tests/4-matematik-zaman-olcme.js','data/tests/4-z-gemini-vetted.js']:[])]:['data/tests/'+grade+'-'+subject+'.js']):[];
   if(allowed[grade]?.includes(subject)) files.push('data/runtime/zor-test2-'+grade+'-'+subject+'.js');
   if (grade==='1' && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zyz-school-hotfix.js');
+  if (grade==='1' && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zyz2-grade1-safety.js');
   const test1Repairs={"1":["hayat-bilgisi"],"2":["hayat-bilgisi","ingilizce"],"3":["hayat-bilgisi","ingilizce","fen-bilimleri"],"4":["matematik"]};
   if((params.get('test')||'1')==='1' && test1Repairs[grade]?.includes(subject)) files.push('data/runtime/editorial-'+grade+'-'+subject+'.js');
   if(files.length) files.unshift('data/runtime/image-dimensions.js');

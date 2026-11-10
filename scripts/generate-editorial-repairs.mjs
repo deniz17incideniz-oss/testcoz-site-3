@@ -5,17 +5,19 @@ import crypto from 'node:crypto';
 import {repairs,visualEvidence} from '../data/editorial-repairs.mjs';
 
 const ctx={window:{},URLSearchParams}; vm.createContext(ctx);
-for(const file of ['data/test-normalizer.js',...fs.readdirSync('data/tests').filter(f=>f.endsWith('.js')&&!['zz-editorial-repairs.js','zy-safety-hotfix.js','zyz-school-hotfix.js'].includes(f)).sort().map(f=>'data/tests/'+f)]) vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
+for(const file of ['data/test-normalizer.js',...fs.readdirSync('data/tests').filter(f=>f.endsWith('.js')&&!['zz-editorial-repairs.js','zy-safety-hotfix.js','zyz-school-hotfix.js','zyz2-grade1-safety.js'].includes(f)).sort().map(f=>'data/tests/'+f)]) vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
 const bank=ctx.window.TestCozTestNormalizer.normalizeAllTests(ctx.window.TESTCOZ_TESTS);
 const changes=[],patches=[],seen=new Set();
 const baseline=JSON.parse(fs.readFileSync('data/imports/adsense-repair-baseline.json','utf8'));
 // A repair must explicitly migrate or retire the separate school hotfix, not silently override it.
 const schoolHotfixKeys=new Set([2,4,6,9].map(i=>`1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1:${i}`));
+const gradeOneSafetyKeys=new Set([4,6,8,9].map(i=>`1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:${i}`));
 const digest=q=>crypto.createHash('sha256').update(JSON.stringify([q.question,q.choices,q.correctAnswer,q.explanation,q.image??null])).digest('hex');
 for(const p of repairs){
  const t=bank.find(t=>t.slug===p.slug); assert.ok(t,p.slug);
  const q=t.questions[p.index],key=`${p.slug}:${p.index}`;
  assert.ok(!schoolHotfixKeys.has(key),`Editorial repair conflicts with school hotfix: ${key}`);
+ assert.ok(!gradeOneSafetyKeys.has(key),`Editorial repair conflicts with first-grade safety hotfix: ${key}`);
  assert.ok(q,key); assert.ok(!seen.has(key),`Duplicate repair ${key}`); seen.add(key);
  assert.equal(q.id,baseline[key]?.id,`Source question ID changed: ${key}`);
  assert.equal(digest(q),baseline[key]?.sha256,`Source question changed; review repair before applying: ${key}`);

@@ -26,6 +26,11 @@ const schoolContext={window:{TESTCOZ_TESTS:[{slug:schoolSlug,questions:Array.fro
 vm.runInNewContext(fs.readFileSync('data/tests/zyz-school-hotfix.js','utf8'),schoolContext);
 const schoolReviewed=new Map(schoolIndices.map(index=>[`${schoolSlug}-soru-${index+1}`,schoolContext.window.TESTCOZ_TESTS[0].questions[index]]));
 for(const [id,q] of schoolReviewed){assert.ok(historicalIds.has(id),`School hotfix missing historical entry: ${id}`);assert.ok(!reviewed.has(id),`Overlapping school editorial repair: ${id}`);assert.equal(q.choices.length,3);}
+const safetySlug='1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1',safetyIndices=[4,6,8,9];
+const safetyContext={window:{TESTCOZ_TESTS:[{slug:safetySlug,questions:Array.from({length:10},()=>({}))}]}};
+vm.runInNewContext(fs.readFileSync('data/tests/zyz2-grade1-safety.js','utf8'),safetyContext);
+const safetyReviewed=new Map(safetyIndices.map(index=>[`${safetySlug}-soru-${index+1}`,safetyContext.window.TESTCOZ_TESTS[0].questions[index]]));
+for(const [id,q] of safetyReviewed){assert.ok(historicalIds.has(id),`Safety hotfix missing historical entry: ${id}`);assert.ok(!reviewed.has(id),`Overlapping safety editorial repair: ${id}`);assert.equal(q.choices.length,3);}
 for(const [id,change] of reviewed){
  assert.ok(historicalIds.has(id),`Reviewed choice record is not in historical migration: ${id}`);
  assert.ok(allowedReviews.get(change.reason)?.has(change.test),`Unexpected reviewed test: ${id}`);
@@ -49,9 +54,13 @@ for(const entry of log.changes){
   const patch=schoolReviewed.get(entry.id);
   assert.deepEqual(Array.from(q.choices),Array.from(patch.choices),`School hotfix choices mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,patch.correctAnswer,`School hotfix answer mismatch: ${entry.id}`);
+ } else if(safetyReviewed.has(entry.id)) {
+  const patch=safetyReviewed.get(entry.id);
+  assert.deepEqual(Array.from(q.choices),Array.from(patch.choices),`First-grade safety choices mismatch: ${entry.id}`);
+  assert.equal(q.correctAnswer,patch.correctAnswer,`First-grade safety answer mismatch: ${entry.id}`);
  } else {
   assert.deepEqual(Array.from(q.choices),entry.before.choices,`Unreviewed choice removal: ${entry.id}`);
   assert.equal(q.correctAnswer,entry.before.correctAnswer,`Changed answer index: ${entry.id}`);
  }
 }
-console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size} unchanged, ${reviewed.size+schoolReviewed.size} individually reviewed replacements.`);
+console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size-safetyReviewed.size} unchanged, ${reviewed.size+schoolReviewed.size+safetyReviewed.size} individually reviewed replacements.`);
