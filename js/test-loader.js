@@ -5,6 +5,7 @@
   if(allowed[grade]?.includes(subject)) files.push('data/runtime/zor-test2-'+grade+'-'+subject+'.js');
   if ((grade==='2'||grade==='3') && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zy-safety-hotfix.js');
   if (grade==='1' && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zyz-school-hotfix.js');
+  if (grade==='1' && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zyz2-grade1-safety.js');
   if(files.length) files.unshift('data/runtime/image-dimensions.js');
   function load(src){return new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.onload=resolve;script.onerror=reject;document.body.appendChild(script);});}
   (async()=>{try{for(const file of files)await load(file);await load('js/test-runner.js');}catch{document.getElementById('testTitle').textContent='Test yüklenemedi';document.getElementById('testSubtitle').textContent='Bağlantını kontrol edip sayfayı yeniden açabilirsin.';}})();
