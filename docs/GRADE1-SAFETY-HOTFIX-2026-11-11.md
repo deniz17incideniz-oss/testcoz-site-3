@@ -1,0 +1,7 @@
+# 1. sınıf sağlık ve güvenlik testi — dar düzeltme
+
+Zor Test 1'in 5. sorusu el yıkamayı kazaları önlemekle, 7. sorusu kişisel bilgileri paylaşmamayı mikroplardan korunmakla ilişkilendiriyordu. Her iki gerekçe de sorulan davranışın geçerli açıklaması değildi; 5. ve 10. soruların eski kartları ayrıca doğru cevabı gösteriyordu. 9. soru birbiriyle bağlantısız el yıkama ve kişisel bilgi kurallarını aynı cümlede ilişkilendiriyordu.
+
+Beşinci, yedinci, dokuzuncu ve onuncu sorular el temizliği, kişisel bilgileri koruma, kişisel diş fırçası ve yıpranmış elektrik kablosu için ayrı, kısa durumlarla yeniden yazıldı. Aynı soru kimlikleri korunur. Her kayıt bireysel olarak üç seçenekli hazırlanmıştır; diğer seçenekler mekanik biçimde değiştirilmez. İki eski kartın soru bağlantısı kaldırıldı; SVG dosyaları silinmedi. Önceki içerik Git geçmişindedir, yeni kayıtlar `data/tests/zyz2-grade1-safety.js` dosyasındadır.
+
+İncelemede [Sağlık Bakanlığı el hijyeni](https://suhutdh.saglik.gov.tr/TR-1189381/el-hijyeni.html), [kişisel diş fırçası](https://nuhcimentoadsm.saglik.gov.tr/TR-235287/dogru-dis-fircalama-nasil-olmalidir-.html), [MEB güvenli internet](https://lapseki.meb.gov.tr/www/internetin-bilincli-ve-guvenli-kullanimi-icin-ailelere-tavsiyeler/icerik/297) ve [elektrik güvenliği](https://www.csgb.gov.tr/Media/ywsn2z2h/%C4%B0n%C5%9Faat-sekt%C3%B6r%C3%BCnde-%C4%B0sg-rehberi.pdf) kaynakları kullanıldı. Diğer sorular ve zor seviye uygunluğu ayrıca incelenmelidir.
