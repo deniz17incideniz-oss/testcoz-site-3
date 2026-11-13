@@ -13677,21 +13677,21 @@
         ]
       },
       "after": {
-        "question": "Parkta bir musluğun açık kaldığını ve suyun boşa aktığını gören Deniz ne yapabilir?",
+        "question": "Parktaki bir musluk kapatıldığı hâlde su sızdırmaya devam ediyor. Deniz, su kaybının giderilmesine yardımcı olmak için ne yapabilir?",
         "choices": [
-          "Musluğu daha fazla açıp uzaklaşabilir",
-          "Suyu boşa akmaya bırakıp kimseye haber vermeyebilir",
-          "Güvenliyse musluğu kapatıp durumu bir görevliye bildirebilir"
+          "Suyun kendiliğinden durmasını bekleyebilir",
+          "Kimseye haber vermeden su tasarrufu afişi hazırlamakla yetinebilir",
+          "Durumu güvenilir bir yetişkine veya park görevlisine bildirebilir"
         ],
         "correctAnswer": 2,
-        "explanation": "Güvenliyse musluğu kapatmak gereksiz su kaybını durdurur; görevliye haber vermek sorunun incelenmesine yardımcı olur.",
+        "explanation": "Musluk kapalıyken su akmaya devam ediyorsa güvenilir bir yetişkine veya görevliye haber vermek, arızanın yetkili kişilerce incelenmesine yardımcı olur.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
         "options": [
-          "Musluğu daha fazla açıp uzaklaşabilir",
-          "Suyu boşa akmaya bırakıp kimseye haber vermeyebilir",
-          "Güvenliyse musluğu kapatıp durumu bir görevliye bildirebilir"
+          "Suyun kendiliğinden durmasını bekleyebilir",
+          "Kimseye haber vermeden su tasarrufu afişi hazırlamakla yetinebilir",
+          "Durumu güvenilir bir yetişkine veya park görevlisine bildirebilir"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",
@@ -13821,21 +13821,21 @@
         ]
       },
       "after": {
-        "question": "Bir göletin çevresindeki bitkiler ve canlılar neden korunmalıdır?",
+        "question": "Göletin çevresindeki bitkiler ve canlılar hakkında hangisi doğrudur?",
         "choices": [
-          "Çünkü her gölette yalnızca bir tür canlı yaşar",
-          "Çünkü canlılar suya ve barınağa ihtiyaç duymaz",
-          "Çünkü gölet ve çevresi canlılar için yaşam alanıdır"
+          "Sudaki canlıların çevredeki bitkilerle hiçbir ilişkisi yoktur",
+          "Gölet çevresinde yaşayan her canlı aynı besinle beslenir",
+          "Gölet ve çevresi farklı canlılara yaşam alanı sağlayabilir"
         ],
         "correctAnswer": 2,
-        "explanation": "Gölet ve çevresi farklı canlılara su, besin ve barınak sağlayabilir. Bu alanı korumak yaşam koşullarını korumaya yardımcı olur.",
+        "explanation": "Gölet ve çevresi farklı canlılara su, besin veya barınak sağlayabilir. Canlıların ihtiyaçları aynı olmak zorunda değildir ve çevrelerindeki diğer canlılarla ilişkileri olabilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
         "options": [
-          "Çünkü her gölette yalnızca bir tür canlı yaşar",
-          "Çünkü canlılar suya ve barınağa ihtiyaç duymaz",
-          "Çünkü gölet ve çevresi canlılar için yaşam alanıdır"
+          "Sudaki canlıların çevredeki bitkilerle hiçbir ilişkisi yoktur",
+          "Gölet çevresinde yaşayan her canlı aynı besinle beslenir",
+          "Gölet ve çevresi farklı canlılara yaşam alanı sağlayabilir"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",

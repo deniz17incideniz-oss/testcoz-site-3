@@ -1149,9 +1149,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
-      "content_sha256": "597328904361df4414124149d3550be5eb9fb9af0631ac31f9fd5678a0514d2a",
-      "status": "NEEDS_REVISION",
-      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Güvenliyse musluğu kapatmak ve görevliye bildirmek uygun; diğer iki seçenek orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
+      "content_sha256": "b81d200a6c929efae26344b22cd0566bae0f519d7f2a739f953f88ec1e125b62",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kapalı musluk sızdırırken güvenilir yetişkine veya görevliye haber vermek tek uygun seçenektir; arızayı beklemek ya da yalnızca afiş hazırlamak bildirim yerine geçmez. Açıklama uyumlu ve çocuk onarım yapmaya yönlendirilmiyor; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
@@ -1161,9 +1161,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
-      "content_sha256": "d18198a796894a5f03a483e5d54debaddd20ea12f717e1a094e7f426cd17bad5",
+      "content_sha256": "d3ed815df50f1d0582213221828a525429368b44c0e25c55527b2891946ad648",
       "status": "NEEDS_REVISION",
-      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Gölet yaşam alanıdır; diğer seçeneklerdeki yalnızca bir tür ve suya ihtiyaç duymaz ifadeleri orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
+      "evidence": "Bağımsız Codex incelemesi, 14 Kasım 2026: Yaşam alanı seçeneği tek doğru ve açıklama uyumlu; ancak hiçbir ve her ifadeleri çeldiricileri kolaylaştırdığı için orta düzeyde iyileştirme adayı olarak kalıyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
