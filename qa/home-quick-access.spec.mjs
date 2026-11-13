@@ -13,3 +13,12 @@ test('ana sayfada sınıf seçimi mobil ilk ekranda ve bağlantılar erişilebil
   await cards.first().focus();
   await expect(cards.first()).toBeFocused();
 });
+
+test('hızlı seçim gerçek bir testi açar', async ({page}) => {
+ await page.goto('/'); const form=page.locator('#quick-test'); await expect(form).toBeVisible();
+ await form.locator('[name=grade]').selectOption('1'); await form.locator('[name=subject]').selectOption('matematik');
+ await form.locator('[name=topic]').selectOption('sayilar-ve-nicelikler');
+ await expect(form.locator('[name=test] option')).toHaveCount(5);
+ await form.locator('[name=test]').selectOption({index:1}); await form.getByRole('button',{name:'Testi başlat'}).click();
+ await expect(page).toHaveURL(/test\.html\?/); await expect(page.locator('#questionArea')).toBeVisible();
+});
