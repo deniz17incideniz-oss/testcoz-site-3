@@ -1938,3 +1938,11 @@ summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
 .quick-form select { min-height: 48px; width: 100%; border: 1px solid #9aaac2; border-radius: 10px; background: white; padding: 8px; font: inherit; color: #172b4d; }
 .quick-form select:focus-visible, .quick-form button:focus-visible { outline: 3px solid #153f98; outline-offset: 2px; }
 @media (max-width: 800px) { .quick-form:not([hidden]) { grid-template-columns: repeat(2,minmax(0,1fr)); } .quick-form button { grid-column: 1 / -1; } }
+
+/* Ders ve konular önce, çalışma rehberi hemen ardından gelir. */
+.navigation-heading { margin: 0 0 20px; }
+.static-subject-grid, .topic-list { margin-bottom: 36px; }
+.static-subject-card { border: 1px solid #d5e3f5; border-radius: 20px; background: #f5f9ff; }
+.static-subject-card:nth-child(4n+2) { background: #f1edff; }
+.static-subject-card:nth-child(4n+3) { background: #eaf8f2; }
+.static-subject-card:nth-child(4n+4) { background: #fff3e7; }

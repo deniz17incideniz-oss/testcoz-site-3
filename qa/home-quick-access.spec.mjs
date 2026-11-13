@@ -22,3 +22,15 @@ test('hızlı seçim gerçek bir testi açar', async ({page}) => {
  await form.locator('[name=test]').selectOption({index:1}); await form.getByRole('button',{name:'Testi başlat'}).click();
  await expect(page).toHaveURL(/test\.html\?/); await expect(page.locator('#questionArea')).toBeVisible();
 });
+
+test('sınıf ve ders sayfalarında navigasyon açıklamalardan önce gelir', async ({page}) => {
+ await page.goto('/sinif-1.html');
+ const cls=await page.locator('.static-subject-grid').boundingBox();
+ const guide=await page.locator('.class-content').boundingBox();
+ expect(cls.y).toBeLessThan(guide.y);
+ await page.goto('/ders/1-sinif-matematik.html');
+ const topics=await page.locator('.topic-list').boundingBox();
+ const content=await page.locator('.subject-content').boundingBox();
+ expect(topics.y).toBeLessThan(content.y);
+ await expect(page.locator('.topic-list a').first()).toBeVisible();
+});
