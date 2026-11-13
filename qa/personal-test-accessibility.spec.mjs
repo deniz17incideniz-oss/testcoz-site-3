@@ -32,6 +32,23 @@ test('klavyeyle seçim ve geçme odak ile cevap durumunu korur', async ({ page }
   await expect(page.locator('.test-score')).toHaveText('0 Cevaplandı');
 });
 
+for (const button of ['#nextQuestion', '#skipQuestion']) {
+  test(`${button} çift tıklanırsa yalnızca bir soru ilerler`, async ({ page }) => {
+    await openPersonalTest(page, route => route.fulfill({ json: { success: true } }));
+    await page.locator(button).dblclick();
+    await expect(page.locator('.test-counter')).toHaveText('Soru 2 / 10');
+  });
+}
+
+test('Önceki çift tıklanırsa yalnızca bir soru geri gider', async ({ page }) => {
+  await openPersonalTest(page, route => route.fulfill({ json: { success: true } }));
+  await page.locator('#nextQuestion').click();
+  await page.locator('#nextQuestion').click();
+  await expect(page.locator('.test-counter')).toHaveText('Soru 3 / 10');
+  await page.locator('#previousQuestion').dblclick();
+  await expect(page.locator('.test-counter')).toHaveText('Soru 2 / 10');
+});
+
 for (const status of [200, 401, 500]) {
   test(`kişisel sonuç kaydı ${status} yanıtını öğrenciye bildirir`, async ({ page }) => {
     let submitted;
@@ -60,3 +77,17 @@ test('ağ hatasında sonuç kaydı doğrulanmadığını gösterir', async ({ pa
   }
   await expect(page.locator('#personalSaveStatus')).toContainText('Kalıcı kayıt doğrulanamadı');
 });
+
+for (const [label, response] of [
+  ['success false', { status: 200, json: { success: false } }],
+  ['geçersiz JSON', { status: 200, contentType: 'application/json', body: '{invalid' }]
+]) {
+  test(`${label} yanıtı kayıt başarısı olarak gösterilmez`, async ({ page }) => {
+    await openPersonalTest(page, route => route.fulfill(response));
+    for (let index = 0; index < questions.length; index++) {
+      await page.getByRole('button', { name: 'Geç', exact: true }).click();
+    }
+    await expect(page.locator('#personalSaveStatus')).toContainText('Kalıcı kayıt doğrulanamadı');
+    await expect(page.locator('#personalSaveStatus')).not.toHaveClass(/success/);
+  });
+}

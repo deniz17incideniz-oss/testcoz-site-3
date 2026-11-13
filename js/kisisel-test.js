@@ -59,9 +59,9 @@
         next.focus();
       });
     });
-    document.getElementById("previousQuestion").addEventListener("click", function () { if (currentIndex > 0) { currentIndex -= 1; renderQuestion(); } });
-    document.getElementById("skipQuestion").addEventListener("click", function () { answers[currentIndex] = null; goNext(); });
-    document.getElementById("nextQuestion").addEventListener("click", goNext);
+    document.getElementById("previousQuestion").addEventListener("click", function (event) { if (event.detail > 1) return; if (currentIndex > 0) { currentIndex -= 1; renderQuestion(); } });
+    document.getElementById("skipQuestion").addEventListener("click", function (event) { if (event.detail > 1) return; answers[currentIndex] = null; goNext(); });
+    document.getElementById("nextQuestion").addEventListener("click", function (event) { if (event.detail <= 1) goNext(); });
   }
 
   function goNext() {
@@ -95,10 +95,11 @@
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({ personalTestId: test.id, questionIds: test.questions.map(function (q) { return q.id; }), answers })
-    }).then(function (response) {
+    }).then(async function (response) {
+      const result = await response.json().catch(function () { return null; });
       if (response.status === 401) {
         saveStatus.textContent = "Oturumunuz sona erdi. Sonuç kaydı doğrulanamadı; devam etmek için yeniden giriş yapabilirsiniz.";
-      } else if (!response.ok) {
+      } else if (!response.ok || !result || result.success !== true) {
         saveStatus.textContent = "Sonucunuz ekranda gösterildi. Kalıcı kayıt doğrulanamadı; bilgilerinizi panelinizden kontrol edebilirsiniz.";
       } else {
         saveStatus.classList.add("success");
