@@ -17,6 +17,8 @@ const questionTypes = new Set(["problem", "gorsel-okuma", "tablo-yorumlama", "me
 const cognitiveLevels = new Set(["hatirlama", "anlama", "uygulama", "yorumlama", "problem-cozme"]);
 // These seven questions were individually rewritten and reviewed; other Test 1 options retain their historical counts.
 const reviewedThreeChoices = new Set([
+  '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2',
+  '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-6',
   '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-1',
   '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-3',
   '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-4',
