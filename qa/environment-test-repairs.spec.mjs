@@ -10,7 +10,7 @@ test('grade 3 environment test removes contradictory cards and explains habitat 
   await expect(area.locator('[data-choice]')).toHaveCount(3);
   if([2,5,8,10].includes(i))await expect(area.locator('img')).toHaveCount(0);
   if(i===6){await expect(area).toContainText('yaşam alanıdır');await area.locator('[data-choice]').filter({hasText:'yalnızca bir tür'}).click();await page.locator('#nextQuestion').click();}
-  else if(i===8){await expect(area).toContainText('yeniden kullanmış');await area.locator('[data-choice]').filter({hasText:'mutlaka yeni bir ürüne'}).click();await page.locator('#nextQuestion').click();}
+  else if(i===8){await expect(area).toContainText('yeniden kullanmış');await area.locator('[data-choice]').filter({hasText:'geri dönüşüm tesisinde ham maddeye'}).click();await page.locator('#nextQuestion').click();}
   else {if(i===9)await expect(area).toContainText('12');await page.locator('#skipQuestion').click();}
  }
  await expect(page.locator('.wrong-item').filter({hasText:'gölet'})).toContainText('barınak');

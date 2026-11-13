@@ -5301,7 +5301,7 @@
         "choices": [
           "Özenle kullanıp yerine koymalıyız.",
           "Sayfalarını yırtmalıyız.",
-          "Kitapları saklamalıyız."
+          "Başkaları bulamasın diye kitapları gizlemeliyiz."
         ],
         "correctAnswer": 0,
         "explanation": "Kitapları özenle kullanıp yerine koyarsak başkaları da onlardan yararlanabilir.",
@@ -5311,7 +5311,7 @@
         "options": [
           "Özenle kullanıp yerine koymalıyız.",
           "Sayfalarını yırtmalıyız.",
-          "Kitapları saklamalıyız."
+          "Başkaları bulamasın diye kitapları gizlemeliyiz."
         ],
         "difficulty": "kolay",
         "skill": "Ben ve Okulum",
@@ -13971,7 +13971,7 @@
         "choices": [
           "Kutunun neden yapıldığını değiştirmiş olur",
           "Kutuyu yeniden kullanmış olur",
-          "Kutuyu mutlaka yeni bir ürüne dönüştürmüş olur"
+          "Kutuyu geri dönüşüm tesisinde ham maddeye dönüştürmüş olur"
         ],
         "correctAnswer": 1,
         "explanation": "Sağlam bir eşyayı başka bir amaçla yeniden kullanmak, onu hemen atmak yerine daha uzun süre değerlendirmektir.",
@@ -13979,7 +13979,7 @@
         "options": [
           "Kutunun neden yapıldığını değiştirmiş olur",
           "Kutuyu yeniden kullanmış olur",
-          "Kutuyu mutlaka yeni bir ürüne dönüştürmüş olur"
+          "Kutuyu geri dönüşüm tesisinde ham maddeye dönüştürmüş olur"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",

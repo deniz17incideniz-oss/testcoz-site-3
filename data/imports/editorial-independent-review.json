@@ -424,62 +424,62 @@
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
       "content_sha256": "5bc72bb9fc686857c72c04cc91706aa5d098c3355f136ef0ffc972acb46da60d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Ders programı, ertesi gün için kitap seçimine yardımcı olur; seçenekler verilen duruma göre ayrışıyor. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
       "content_sha256": "ca0c1167ca762b9c9110582d722fd58b3dca5a600fce64153ce030cab5390074",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Koridorda sakin yürümek çarpışma ve düşme olasılığını azaltır; diğer davranışlar güvenli değildir. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
       "content_sha256": "d263fef94dd3e76f7fd0cb9d5b9c2a19d25a5bc6f2286bed89b2eb4b7e840bf1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Okul müdürü okul çalışanıdır; diğer iki seçenek okul dışında açıkça tanımlandığı için çeldiriciler zayıf. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
       "content_sha256": "4e3e476819bc5477922e8510c3bb427c44d8521287277a8a25f189d8f58b8d95",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Kütüphane kitap okumak için kullanılır; top oynama ve yemek pişirme seçenekleri kolay eleniyor. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
       "content_sha256": "283ed154edfd1e8f21dd7d68575df2df34a4e10a9ffc535943e80c8f0ab817fa",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Düşen ve canı acıyan arkadaş için öğretmene haber vermek uygun; diğer davranışlar kolay eleniyor. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
       "content_sha256": "832294163213c529b2d486202b13cf8b6799476bae340b2afd3c9f90f8d6abe5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Okul bahçesi ortak okul alanıdır; evdeki iki oda okulda olmadığı için çeldiriciler zayıf. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
-      "content_sha256": "660cb5a1108ae75ddda93988bedf5656601bed5ac63ced4e98b5cd247a15fef7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "a8c710542e4ba5271fa6334629c31f4ff2d6b6d41291db0f63489ab523970e0b",
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Saklamak fiilinin koruma anlamındaki belirsizliği giderildi; kitapları yırtma ve gizleme seçenekleri kolay eleniyor. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
       "content_sha256": "a5b969f478b9aceb693faaf70b459b8dde89eb3c2d3974e0900ea7ab637de9eb",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Parmak kaldırıp söz isteme sınıfta soruyu uygun biçimde sormaya yarar; açıklama seçenekle tutarlı. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
       "content_sha256": "e0b9a13e8f17d8dce1401427fd2737572a1f633e200a8dc0caa1d1af1f2fb874",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Konuşan arkadaşını dinlemek uygun davranıştır; söz kesme ve başka biriyle konuşma bunu karşılamaz. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
       "content_sha256": "671734acd1ebc5940234cc19a2527a110b111c3a6d9dbfeab3a8398de7f3084f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Sırayla oynamayı konuşmak paylaşım için uygun çözüm; zorla alma ve saklama seçenekleri kolay eleniyor. Birinci sınıf kolay düzey dikkate alınmalı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
@@ -1120,8 +1120,8 @@
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
       "content_sha256": "98c66703aaf99201763bdf62e9363cdac14bba62f53d1e9e143d6fa7bfa237b9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: İhtiyacına göre sulama uygun; dal koparma ve kökleri açığa çıkarma seçenekleri orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
@@ -1138,56 +1138,56 @@
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-1",
       "content_sha256": "9584a8e57e99ce9f4cbd1af5c90bd09c51eaac15915bb7fa494e67d5ccf06096",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Cevap çevre temizliğine uygun; rüzgârı bekleme ve çalılara saklama seçenekleri orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-2",
       "content_sha256": "99fa5e577e92e9332e52664d7a83e9f059ca8fa4285691288bd2b61a1400a761",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Kâğıt kutu kâğıt atık kutusuna ayrılır; üç seçenek ayrışıyor ve açıklama verilen malzemeyle tutarlı. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-3",
       "content_sha256": "597328904361df4414124149d3550be5eb9fb9af0631ac31f9fd5678a0514d2a",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Güvenliyse musluğu kapatmak ve görevliye bildirmek uygun; diğer iki seçenek orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-5",
       "content_sha256": "7f63887768f6ec1bd7ea7c71f5dd773498139eb6fecd33e74d307b35d6806a8b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Bilinmeyen sıvıya dokunmadan yetişkine haber verme güvenli; ancak güvenlik odaklı durumun doğa ve çevre kazanımıyla ilişkisi açık değil. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-6",
       "content_sha256": "d18198a796894a5f03a483e5d54debaddd20ea12f717e1a094e7f426cd17bad5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Gölet yaşam alanıdır; diğer seçeneklerdeki yalnızca bir tür ve suya ihtiyaç duymaz ifadeleri orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-7",
       "content_sha256": "8fff12f256013d2484f73e1a2b938c14692ad4741fcec8ae4dce93a5132e421b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Boş ve yeterince aydınlık sınıfta lambaları kapatma uygun; diğer seçenekler orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-8",
-      "content_sha256": "66213523e89aebe40f8e8898bcfb9a61937a6ceccfe7300e6a03bef334dc162b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "c6009ef97dd7da8e6783a862435f9d854610680bf631dbabba7097996a5a85e1",
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Yeni ürüne dönüştürme ifadesindeki belirsizlik giderildi; geri dönüşüm ve yeniden kullanım ayrımı açıklanabilir, ancak malzemeyi değiştirme seçeneği zayıf. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-9",
       "content_sha256": "4e2d95705856dce9cd3b05450444d6b5fc1213af0aaa28fbcd074d479d2373f1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: 12 - 7 = 5 yaprak; seçenekler ayrışıyor ve açıklama veriden neden çıkarılamayacağını doğru belirtiyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
       "content_sha256": "8dafbc728b06268294680f029059dac9485a11ca10fe6562804e87db09428a56",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Codex ikinci incelemesi, 14 Kasım 2026: Güvenli koşullarda araç yerine yürümek emisyonu azaltmaya katkı sağlayabilir; diğer seçeneklerdeki tüm ve hemen ifadeleri orta düzey için kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
