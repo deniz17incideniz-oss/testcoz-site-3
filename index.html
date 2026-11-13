@@ -63,6 +63,18 @@
       </div>
     </section>
 
+    <section class="quick-section" aria-labelledby="quickHeading">
+      <div class="container"><h2 id="quickHeading">Hızlı test seç</h2><p>Sınıfını ve çalışmak istediğin konuyu seç.</p>
+        <form id="quick-test" class="quick-form" hidden="">
+          <label>Sınıf<select name="grade" required=""><option value="">Sınıf seç</option><option value="1">1. Sınıf</option><option value="2">2. Sınıf</option><option value="3">3. Sınıf</option><option value="4">4. Sınıf</option></select></label>
+          <label>Ders<select name="subject" required="" disabled=""><option value="">Ders seç</option></select></label>
+          <label>Konu<select name="topic" required="" disabled=""><option value="">Konu seç</option></select></label>
+          <label>Test<select name="test" required="" disabled=""><option value="">Test seç</option></select></label>
+          <button type="submit" class="btn btn-primary">Testi başlat</button>
+        </form>
+      </div>
+    </section>
+
     <section class="section bg-gray" aria-labelledby="featuresHeading">
       <div class="container">
         <div class="section-header"><h2 id="featuresHeading">Öğrenmeyi Destekleyen Test Deneyimi</h2><p>Öğrenciler ve veliler için anlaşılır, güvenli ve sade bir çalışma ortamı.</p></div>
@@ -121,6 +133,10 @@
       <div class="footer-col"><h2>Yasal</h2><ul><li><a href="gizlilik-politikasi.html">Gizlilik Politikası</a></li><li><a href="kullanim-sartlari.html">Kullanım Şartları</a></li></ul></div>
     </div><div class="footer-bottom"><p>© 2026 testcoz.pro. Tüm hakları saklıdır.</p><div class="footer-bottom-links"><a href="gizlilik-politikasi.html">Gizlilik</a><a href="kullanim-sartlari.html">Şartlar</a><a href="iletisim.html">İletişim</a></div></div><p class="footer-note">1–4. sınıf öğrencileri için seviyeli ve açıklamalı ilkokul testleri. testcoz.pro, Millî Eğitim Bakanlığı’nın resmî sitesi değildir.</p></div>
   </footer>
+  <script src="js/utils.js" defer=""></script>
+  <script src="data/catalog.js" defer=""></script>
+  <script src="data/quick-test-manifest.js" defer=""></script>
+  <script src="js/quick-test.js" defer=""></script>
   <script src="js/main.js" defer=""></script>
 
 

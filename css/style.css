@@ -1929,3 +1929,12 @@ summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
  #siniflar .class-card-title { font-size: 1.1rem; }
 }
 @media (prefers-reduced-motion: reduce) { #siniflar .class-card { transition: none; } }
+
+.quick-section { padding: 28px 0 38px; background: #fff; }
+.quick-section h2 { margin: 0 0 4px; color: #172b4d; }
+.quick-section p { margin: 0 0 16px; color: #40536d; }
+.quick-form:not([hidden]) { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)) auto; align-items: end; gap: 12px; }
+.quick-form label { display: grid; gap: 5px; font-weight: 700; color: #243858; }
+.quick-form select { min-height: 48px; width: 100%; border: 1px solid #9aaac2; border-radius: 10px; background: white; padding: 8px; font: inherit; color: #172b4d; }
+.quick-form select:focus-visible, .quick-form button:focus-visible { outline: 3px solid #153f98; outline-offset: 2px; }
+@media (max-width: 800px) { .quick-form:not([hidden]) { grid-template-columns: repeat(2,minmax(0,1fr)); } .quick-form button { grid-column: 1 / -1; } }
