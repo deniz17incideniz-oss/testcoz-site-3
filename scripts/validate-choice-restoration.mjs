@@ -26,7 +26,7 @@ const schoolContext={window:{TESTCOZ_TESTS:[{slug:schoolSlug,questions:Array.fro
 vm.runInNewContext(fs.readFileSync('data/tests/zyz-school-hotfix.js','utf8'),schoolContext);
 const schoolReviewed=new Map(schoolIndices.map(index=>[`${schoolSlug}-soru-${index+1}`,schoolContext.window.TESTCOZ_TESTS[0].questions[index]]));
 for(const [id,q] of schoolReviewed){assert.ok(historicalIds.has(id),`School hotfix missing historical entry: ${id}`);assert.ok(!reviewed.has(id),`Overlapping school editorial repair: ${id}`);assert.equal(q.choices.length,3);}
-const safetySlug='1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1',safetyIndices=[0,2,3,4,6,7,8,9];
+const safetySlug='1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1',safetyIndices=[0,1,2,3,4,5,6,7,8,9];
 const safetyContext={window:{TESTCOZ_TESTS:[{slug:safetySlug,questions:Array.from({length:10},()=>({}))}]}};
 vm.runInNewContext(fs.readFileSync('data/tests/zyz2-grade1-safety.js','utf8'),safetyContext);
 const safetyReviewed=new Map(safetyIndices.map(index=>[`${safetySlug}-soru-${index+1}`,safetyContext.window.TESTCOZ_TESTS[0].questions[index]]));
