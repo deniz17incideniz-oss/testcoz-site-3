@@ -1120,8 +1120,8 @@
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
       "content_sha256": "d1bc25ac5f831e1c7783fa4a826ca222b846aa693bd3beead9fb0dd6cb3066ab",
-      "status": "NEEDS_REVISION",
-      "evidence": "14 Kasım 2026: Fidanın ihtiyacına göre sulama doğru yanıtı korunarak çeldiriciler ve fazla veya az sulamayla ilgili açıklama düzenlendi. Yeni ifadeler bağımsız eğitim incelemesi bekliyor; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: İhtiyaca göre sulama tek uygun seçenek; fazla veya az sulama bitkiyi olumsuz etkileyebilir. Yaşa uygun yardım, görsel yok. Kaynaklar: https://ipm.ucanr.edu/home-and-landscape/water-deficit-and-excess/ ve https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-kolay-test-1-soru-7",
@@ -1185,9 +1185,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
-      "content_sha256": "23baa6f422dde3a25af25b788c8b6d50922a7f5bc5b23dd3fb8bbcfbddd569ad",
-      "status": "NEEDS_REVISION",
-      "evidence": "14 Kasım 2026: Güvenli yürüyüş ve yetişkin koşulları ile doğru yanıt korunarak hava kirliliğine ilişkin çeldiriciler düzenlendi. Yeni ifadeler bağımsız eğitim incelemesi bekliyor; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
+      "content_sha256": "eff021cccb4a247f98f0dcb878553397a7621d8f026769e710ee7c1275ccccfa",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Güvenli yol ve güvenilir yetişkin eşliği açık; daha az araç kullanımı kirliliği azaltmaya katkı sağlayabilir, diğer seçeneklerdeki tamamı ve hiç iddiaları yanlış. Açıklama doğru cevapla uyumlu, görsel yok. Kaynak: https://www.epa.gov/transportation-air-pollution-and-climate-change/what-you-can-do-reduce-pollution-vehicles-and"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",

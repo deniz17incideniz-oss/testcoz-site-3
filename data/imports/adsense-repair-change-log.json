@@ -14111,7 +14111,7 @@
         ]
       },
       "after": {
-        "question": "Evi okula yakın olan bir öğrenci, güvenli bir yürüyüş yolu ve yetişkininin uygun bulduğu koşullar varsa yürümeyi seçiyor. Bu seçim nasıl bir katkı sağlayabilir?",
+        "question": "Evi okula yakın olan bir öğrenci, güvenli bir yürüyüş yolunda güvendiği bir yetişkin eşliğinde okula yürümeyi seçiyor. Bu seçim nasıl bir katkı sağlayabilir?",
         "choices": [
           "Araç kullanımını azaltarak hava kirliliğinin azalmasına katkı sağlayabilir",
           "Bu seçim hava kirliliğinin tamamını tek başına ortadan kaldırır",
