@@ -10,4 +10,5 @@
   grade.addEventListener('change',subjects);subject.addEventListener('change',topics);topic.addEventListener('change',tests);
   form.addEventListener('submit',function(e){e.preventDefault();if(!form.reportValidity())return;const [zorluk,number]=JSON.parse(test.value);const params=new URLSearchParams({sinif:grade.value,ders:subject.value,konu:topic.value,zorluk,test:String(number)});location.href='test.html?'+params.toString();});
   form.hidden=false;
+  form.closest(".quick-section").hidden=false;
 })();
