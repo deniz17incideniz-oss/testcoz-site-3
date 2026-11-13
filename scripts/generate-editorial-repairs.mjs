@@ -11,7 +11,7 @@ const changes=[],patches=[],seen=new Set();
 const baseline=JSON.parse(fs.readFileSync('data/imports/adsense-repair-baseline.json','utf8'));
 // A repair must explicitly migrate or retire the separate school hotfix, not silently override it.
 const schoolHotfixKeys=new Set([2,4,6,9].map(i=>`1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1:${i}`));
-const gradeOneSafetyKeys=new Set([4,6,8,9].map(i=>`1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:${i}`));
+const gradeOneSafetyKeys=new Set([0,2,3,4,6,7,8,9].map(i=>`1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:${i}`));
 const digest=q=>crypto.createHash('sha256').update(JSON.stringify([q.question,q.choices,q.correctAnswer,q.explanation,q.image??null])).digest('hex');
 for(const p of repairs){
  const t=bank.find(t=>t.slug===p.slug); assert.ok(t,p.slug);
