@@ -13328,18 +13328,18 @@
         "question": "Okul bahçesine dikilen genç fidanın büyümesine yardımcı olmak isteyen öğrenciler ne yapabilir?",
         "choices": [
           "Fidanın ihtiyacına göre sulanmasına yardımcı olabilirler",
-          "Dallarını oyun için koparabilirler",
-          "Toprağını dağıtıp köklerini açıkta bırakabilirler"
+          "Toprağın durumuna bakmadan gereğinden fazla sulayabilirler",
+          "Fidan suya ihtiyaç duyduğu hâlde uzun süre sulamayı bırakabilirler"
         ],
         "correctAnswer": 0,
-        "explanation": "Fidanlar büyümek için uygun koşullara ve suya ihtiyaç duyar. Dallarını ve köklerini korumak da bitkiye zarar vermemeye yardımcı olur.",
+        "explanation": "Fidanın su ihtiyacı toprağın ve havanın durumuna göre değişebilir. İhtiyacından fazla veya az sulamak yerine uygun miktarda sulanmasına yardımcı olmak gerekir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-4",
         "options": [
           "Fidanın ihtiyacına göre sulanmasına yardımcı olabilirler",
-          "Dallarını oyun için koparabilirler",
-          "Toprağını dağıtıp köklerini açıkta bırakabilirler"
+          "Toprağın durumuna bakmadan gereğinden fazla sulayabilirler",
+          "Fidan suya ihtiyaç duyduğu hâlde uzun süre sulamayı bırakabilirler"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",
@@ -14114,16 +14114,16 @@
         "question": "Evi okula yakın olan bir öğrenci, güvenli bir yürüyüş yolu ve yetişkininin uygun bulduğu koşullar varsa yürümeyi seçiyor. Bu seçim nasıl bir katkı sağlayabilir?",
         "choices": [
           "Araç kullanımını azaltarak hava kirliliğinin azalmasına katkı sağlayabilir",
-          "Yürümek tüm hava kirliliğini tek başına bitirir",
-          "Yürümek havayı temizlemek için çevredeki araçları hemen durdurur"
+          "Bu seçim hava kirliliğinin tamamını tek başına ortadan kaldırır",
+          "Araç kullanımının azalması, araç egzozundan kaynaklanan kirliliği hiç etkilemez"
         ],
         "correctAnswer": 0,
         "explanation": "Güvenli koşullarda kısa mesafede araç yerine yürümek, araçtan kaynaklanan emisyonların azalmasına katkı sağlayabilir; tek başına bütün kirliliği ortadan kaldırmaz.",
         "id": "3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1-soru-10",
         "options": [
           "Araç kullanımını azaltarak hava kirliliğinin azalmasına katkı sağlayabilir",
-          "Yürümek tüm hava kirliliğini tek başına bitirir",
-          "Yürümek havayı temizlemek için çevredeki araçları hemen durdurur"
+          "Bu seçim hava kirliliğinin tamamını tek başına ortadan kaldırır",
+          "Araç kullanımının azalması, araç egzozundan kaynaklanan kirliliği hiç etkilemez"
         ],
         "difficulty": "orta",
         "skill": "Doğa ve Çevre",
