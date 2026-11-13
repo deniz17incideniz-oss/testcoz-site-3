@@ -35,3 +35,20 @@ test('sınıf ve ders sayfalarında navigasyon açıklamalardan önce gelir', as
  expect(topics.y).toBeLessThan(content.y);
  await expect(page.locator('.topic-list a').first()).toBeVisible();
 });
+
+test('JavaScript kapalıyken sınıf bağlantıları kullanılabilir', async ({browser}) => {
+ const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:375,height:667}});
+ const page=await context.newPage(); await page.goto('http://127.0.0.1:4173/');
+ await expect(page.getByRole('link',{name:/1\. Sınıf/}).first()).toHaveAttribute('href','sinif-1.html');
+ await page.getByRole('link',{name:/1\. Sınıf/}).first().click(); await expect(page).toHaveURL(/sinif-1\.html/);
+ await expect(page.getByRole('link',{name:'Konuları İncele'}).first()).toBeVisible(); await context.close();
+});
+
+test('sınıf değişince önceki ders ve konu temizlenir', async ({page}) => {
+ await page.goto('/'); const f=page.locator('#quick-test');
+ await f.locator('[name=grade]').selectOption('1'); await f.locator('[name=subject]').selectOption('matematik');
+ await f.locator('[name=topic]').selectOption('sayilar-ve-nicelikler');
+ await f.locator('[name=grade]').selectOption('4');
+ await expect(f.locator('[name=subject]')).toHaveValue(''); await expect(f.locator('[name=topic]')).toBeDisabled();
+ await expect(f.locator('[name=test]')).toBeDisabled();
+});
