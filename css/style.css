@@ -1904,3 +1904,45 @@ summary { cursor:pointer; font-weight:600; min-height:44px; padding:8px 0; }
 .test-info-title { min-height: 2.8em; }
 #questionArea { min-height: 420px; }
 .test-purpose-box summary { cursor: pointer; font-weight: 700; }
+
+/* Ana sayfada öğrencinin ilk adımını öne çıkar. */
+.home-welcome { padding: 38px 0 8px; background: #f0f6ff; text-align: center; }
+.home-welcome h1 { margin: 6px 0; color: #172b4d; font-size: clamp(1.7rem, 4vw, 2.7rem); line-height: 1.16; }
+.home-welcome p { margin: 0; color: #40536d; }
+.home-welcome .home-eyebrow { color: #3159a8; font-weight: 700; font-size: .9rem; }
+#siniflar { background: #f0f6ff; padding: 16px 0 38px; }
+#siniflar .section-header { margin-bottom: 16px; }
+#siniflar .section-header h2 { font-size: 1.2rem; margin: 0; }
+#siniflar .class-grid { gap: 16px; }
+#siniflar .class-card { border: 2px solid transparent; border-radius: 22px; text-align: left; background: #fff; box-shadow: 0 8px 24px rgba(31,53,96,.09); }
+#siniflar .class-card[data-class="1"] { background: #e6f8f1; border-color: #b3e7d3; }
+#siniflar .class-card[data-class="2"] { background: #e8f1ff; border-color: #bfd7ff; }
+#siniflar .class-card[data-class="3"] { background: #f2edff; border-color: #dbccff; }
+#siniflar .class-card[data-class="4"] { background: #fff3df; border-color: #f6d7a2; }
+#siniflar .class-card:focus-visible { outline: 3px solid #153f98; outline-offset: 3px; }
+@media (max-width: 600px) {
+ .home-welcome { padding-top: 22px; }
+ #siniflar .class-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+ #siniflar .class-card { padding: 14px; }
+ #siniflar .class-card-emoji { margin-bottom: 4px; }
+ #siniflar .class-card-subtitle { display: none; }
+ #siniflar .class-card-title { font-size: 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) { #siniflar .class-card { transition: none; } }
+
+.quick-section { padding: 28px 0 38px; background: #fff; }
+.quick-section h2 { margin: 0 0 4px; color: #172b4d; }
+.quick-section p { margin: 0 0 16px; color: #40536d; }
+.quick-form:not([hidden]) { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)) auto; align-items: end; gap: 12px; }
+.quick-form label { display: grid; gap: 5px; font-weight: 700; color: #243858; }
+.quick-form select { min-height: 48px; width: 100%; border: 1px solid #9aaac2; border-radius: 10px; background: white; padding: 8px; font: inherit; color: #172b4d; }
+.quick-form select:focus-visible, .quick-form button:focus-visible { outline: 3px solid #153f98; outline-offset: 2px; }
+@media (max-width: 800px) { .quick-form:not([hidden]) { grid-template-columns: repeat(2,minmax(0,1fr)); } .quick-form button { grid-column: 1 / -1; } }
+
+/* Ders ve konular önce, çalışma rehberi hemen ardından gelir. */
+.navigation-heading { margin: 0 0 20px; }
+.static-subject-grid, .topic-list { margin-bottom: 36px; }
+.static-subject-card { border: 1px solid #d5e3f5; border-radius: 20px; background: #f5f9ff; }
+.static-subject-card:nth-child(4n+2) { background: #f1edff; }
+.static-subject-card:nth-child(4n+3) { background: #eaf8f2; }
+.static-subject-card:nth-child(4n+4) { background: #fff3e7; }
