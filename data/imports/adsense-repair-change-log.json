@@ -5018,7 +5018,7 @@
         "question": "Okulda çalışan kişilerden biri hangisidir?",
         "choices": [
           "Mahalledeki manav",
-          "Otobüs şoförü",
+          "Şehirler arası otobüs şoförü",
           "Okul müdürü"
         ],
         "correctAnswer": 2,
@@ -5028,7 +5028,7 @@
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
         "options": [
           "Mahalledeki manav",
-          "Otobüs şoförü",
+          "Şehirler arası otobüs şoförü",
           "Okul müdürü"
         ],
         "difficulty": "kolay",
