@@ -4,6 +4,7 @@ test('ana sayfada sınıf seçimi mobil ilk ekranda ve bağlantılar erişilebil
   await page.goto('/');
   const cards=page.locator('#siniflar .class-card');
   await expect(cards).toHaveCount(4);
+  await expect(page.getByRole('link', {name: /1\. Sınıf/}).first()).toBeVisible();
   for (let i=0;i<4;i++) {
     await expect(cards.nth(i)).toHaveAttribute('href',`sinif-${i+1}.html`);
     const box=await cards.nth(i).boundingBox();
