@@ -1,5 +1,7 @@
 import {test,expect} from '@playwright/test';
 for(const x of [
+ {grade:3,difficulty:'zor',step:5,question:'Güvendiği bir yetişkinle yürüyen öğrenci',right:'Araçların durumunu fark ederek',reason:'güvenli geçiş beklenmelidir'},
+ {grade:3,difficulty:'zor',step:7,question:'Dizini inciten arkadaşın',right:'ortam güvenliyse arkadaşımın yanında',reason:'Ortam güvenliyse'},
  {grade:2,difficulty:'zor',step:0,question:'kayışının gevşek olduğunu',right:'kayışını uygun sıkılıkta',reason:'kayışı uygun sıkılıkta'},
  {grade:2,difficulty:'zor',step:5,question:'arkadaşının yere düştüğünü',right:'ortam güvenliyse arkadaşının yanında',reason:'Ortam güvenliyse'},
  {grade:2,difficulty:'zor',step:6,question:'Güvendiği bir yetişkinle karşıya geçmeye',right:'güvenli geçişi bekleyip',reason:'Yeşil ışıkta da'},

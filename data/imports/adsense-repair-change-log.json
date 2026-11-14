@@ -12542,7 +12542,7 @@
         ]
       },
       "after": {
-        "question": "Bir öğrenci yaya ışığı yeşil olunca karşıya geçmeden önce yaklaşan araçları da kontrol ediyor. Bu ek kontrol neden yararlıdır?",
+        "question": "Güvendiği bir yetişkinle yürüyen öğrenci, yaya ışığı yeşil olunca karşıya geçmeden önce yaklaşan araçları da kontrol ediyor. Bu ek kontrol neden yararlıdır?",
         "choices": [
           "Işığın rengini otomatik olarak değiştirir.",
           "Yaya geçidini daha kısa yapar.",
@@ -12689,18 +12689,18 @@
         ]
       },
       "after": {
-        "question": "Dizini inciten arkadaşın yerinden kalkmakta zorlandığını söylüyor. Bir yetişkin gelene kadar ne yapabilirsin?",
+        "question": "Dizini inciten arkadaşın yerinden kalkmakta zorlandığını söylüyor. Ne yapabilirsin?",
         "choices": [
           "Kimseye haber vermeden oyun alanından ayrılırım.",
-          "Arkadaşımın yanında kalıp onu zorla hareket ettirmem.",
+          "Bir yetişkine haber verir, ortam güvenliyse arkadaşımın yanında kalıp onu zorla hareket ettirmem.",
           "Kolundan çekerek ayağa kaldırırım."
         ],
         "correctAnswer": 1,
-        "explanation": "Yaralı kişiyi zorla hareket ettirmemek ve bir yetişkinden yardım istemek uygun değerlendirme yapılmasına yardımcı olur.",
+        "explanation": "Bir yetişkine haber vermek uygun yardım alınmasını sağlar. Ortam güvenliyse arkadaşının yanında kalabilir, onu zorla hareket ettirmekten kaçınabilirsin.",
         "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-8",
         "options": [
           "Kimseye haber vermeden oyun alanından ayrılırım.",
-          "Arkadaşımın yanında kalıp onu zorla hareket ettirmem.",
+          "Bir yetişkine haber verir, ortam güvenliyse arkadaşımın yanında kalıp onu zorla hareket ettirmem.",
           "Kolundan çekerek ayağa kaldırırım."
         ],
         "difficulty": "zor",
