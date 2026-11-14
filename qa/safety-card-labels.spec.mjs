@@ -16,3 +16,17 @@ for(const {grade,difficulty} of [{grade:2,difficulty:'kolay'},{grade:2,difficult
  if(grade===3)await expect(page.locator('.wrong-item').filter({hasText:'Ece bir ilaç bulunca'})).toContainText('Bulduğun ilaçlara dokunmadan');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });
+
+
+test('reviewed comparison cards avoid misleading A/B labels',async({request})=>{
+ const examples=[
+  ['1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2','Mert:','Ada:'],
+  ['1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2','Ece:','Bora:'],
+  ['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2','Ece:','Ali:'],
+  ['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-2','Ece:','Mert:'],
+  ['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2','Ela:','Can:'],
+  ['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2','Deniz:','Bora:'],
+  ['3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2','Efe:','Duru:']
+ ];
+ for(const [id,first,second] of examples){const response=await request.get('/images/tests/'+id+'.svg');expect(response.ok()).toBeTruthy();const svg=await response.text();expect(svg).toContain(first);expect(svg).toContain(second);expect(svg).not.toMatch(/class="value">[AB]<\/text>/);}
+});

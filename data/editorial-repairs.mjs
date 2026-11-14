@@ -428,23 +428,23 @@ Object.assign(visualEvidence,{
  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:9':['İki öğrencinin diş fırçası kullanımı',{first:'Zeynep: kendi diş fırçasını kullanıyor',second:'Arda: arkadaşının fırçasını kullanıyor'}]
 });
 Object.assign(visualEvidence,{
- '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Kaygan zemindeki iki öğrenci',{first:'Ela: uzak durup yetişkine haber veriyor',second:'Can: suyun üzerinden koşuyor'}],
- '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Servisteki iki öğrenci',{first:'Efe: emniyet kemerini takıyor',second:'Duru: kemerini çıkarmış'}]
+ '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Kaygan zemindeki iki öğrenci',{first:'Ela: uzak durup yetişkine haber veriyor',second:'Can: suyun üzerinden koşuyor'},'plainCards'],
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1:1':['Servisteki iki öğrenci',{first:'Efe: emniyet kemerini takıyor',second:'Duru: kemerini çıkarmış'},'plainCards']
 });
 Object.assign(visualEvidence,{
- '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Mert: çöpünü bankta bırakıyor'}],
- '2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Kütüphanedeki iki öğrenci',{first:'Deniz: kitabı özenle kullanıyor',second:'Bora: sayfaları yırtıyor'}]
+ '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Mert: çöpünü bankta bırakıyor'},'plainCards'],
+ '2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Kütüphanedeki iki öğrenci',{first:'Deniz: kitabı özenle kullanıyor',second:'Bora: sayfaları yırtıyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['Bisiklet kullanan iki öğrenci',{first:'Ela: başına uygun kaskı takıp kayışını bağlıyor',second:'Can: kaskını takmıyor'},'plainCards'],
- '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Ali: çöpünü yere bırakıyor'}]
+ '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Ali: çöpünü yere bırakıyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
  '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['Servisteki iki öğrenci',{first:'Ayşe: emniyet kemerini takıyor',second:'Eren: kemerini takmıyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
- '1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:1':['Koridordaki iki öğrenci',{first:'Mert: yavaş yürüyor',second:'Ada: koşuyor'}],
- '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['İki öğrencinin davranışı',{first:'Ece: yemekten önce ellerini yıkıyor',second:'Bora: ellerini yıkamadan yemek yiyor'}]
+ '1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:1':['Koridordaki iki öğrenci',{first:'Mert: yavaş yürüyor',second:'Ada: koşuyor'},'plainCards'],
+ '1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['İki öğrencinin davranışı',{first:'Ece: yemekten önce ellerini yıkıyor',second:'Bora: ellerini yıkamadan yemek yiyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
  '2-sinif-ingilizce-classroom-life-zor-test-2:1':['Classroom colours',{first:'Pencil: red',second:'Book: blue'}],

@@ -489,7 +489,7 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
-      "content_sha256": "ef4182f0b424691a6f9b11d1b299b255f0e4f971641ee78e031d4cc32ca7522a",
+      "content_sha256": "c479f307f0652cc43ff130c47bc54ac24ecfd2106fcbcd80798e97741be66acf",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },
@@ -543,63 +543,63 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-1",
-      "content_sha256": "40d05694b454efeb8e100d7f0de554d1887eb2c72e77a2921b7d0eef6b761518",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "5d98a9db94110823ee9e6beb7e8203c55c60de23ac88ba377556869d316658fa",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yaya geçidi ve yetişkin eşliği güvenli bağlam sağlar; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2",
-      "content_sha256": "0ed29b3a1b8fead04c4ce0efed12f63d472071540d156b399fdf58544ea36f40",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "ff6e32d670a6d06351b6ba9e15aa885089b94a238b7c7bcbb12a78adbcf0d5fd",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sabunla el yıkama tek uygun davranış; harfsiz görsel ve alt metin Ece/Bora bilgisiyle tutarlı. Görsel ve alternatif metin gözle kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-3",
       "content_sha256": "7fa5950399d658bd06266481253eadeab4493b7639a48ed86f5b6b1770f235ee",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Rahatsız eden durumda uzaklaşıp güvenilen yetişkine anlatma tek uygun; kişisel sınır ve yardım isteme mesajı açık. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-4",
-      "content_sha256": "382a7ced309c79bfb45d0930c77804952f87c1744291de5c12abcd2c15065c19",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "01a4a0def3f91ab14471b9681ad63313ad4f454315dc523a9ef3e7e1039f1f14",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Gitmeyip güvenilen yetişkine anlatma tek uygun; ailene ifadesi ve güvenli yere yönelme açıklaması açık. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-5",
       "content_sha256": "af36012605ef7435c3d9fce91fec48aa49579326a8e60ce9361cb2bbdf71e616",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sabah ve gece düzenli fırçalama uygun; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-6",
       "content_sha256": "e29c45ea2ee543c322176bc08a8c9152689efe8342b1f03a95e51408d2e0fa30",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kırık prize dokunmadan yetişkine haber vermek tek uygun; açıklama uzak durmayı ekliyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
       "content_sha256": "ddda1adf4330be1e49ea348a187c8382dea7009158dff4d2fc689f819c488849",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Farklı besin ve sebzelere yer vermek uygun; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-8",
       "content_sha256": "b596969958ff9051f648397e72185d0c2727b0e8b770b2b143aff106f77f6419",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yaralanmayı güvenilir yetişkine bildirmek tek uygun; çocuğa yaraya toprak sürme önerilmiyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-9",
       "content_sha256": "ca638946c267aef346a0e39b27f905479c18723ff65168db70994882f71fef84",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Çöp kutusu uygun seçim; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-10",
       "content_sha256": "8484a5aa3d9688d2ea427964d6294b965c39dd3e2e33c56a90aeb8d8715a22bd",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kaygan alandan uzak durup yetişkine haber verme güvenli; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
@@ -789,7 +789,7 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
-      "content_sha256": "d2e9abfcb422cd62d462399581e584000809a1a2ed214cdcc8beb685386e65bc",
+      "content_sha256": "bd25b3d876d6468fc9360849a15284729ca4411580811124ce084101e0da2292",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },
@@ -849,7 +849,7 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-2",
-      "content_sha256": "54b76c652075c9ce8297e878a73c1417e6c25b66034ce966187249c7ac7ee170",
+      "content_sha256": "1933e97eb78572521a7bb137e97d61c36df92bbe0aa298ff026f1614dbbdc278",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },
@@ -909,7 +909,7 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
-      "content_sha256": "a04ac6d7028bf744be1a5e4369708ef652db3a69387820b7cd61a34f80196787",
+      "content_sha256": "0fe781572d3ebae4aacfd97c06f9d623fee1789d2cf6a27ca1e469f77b0f46a7",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },
@@ -969,7 +969,7 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2",
-      "content_sha256": "c4797609f74066a5a1e005555f9db93bdad3deb4cf17bf570d5c1a980ad497e2",
+      "content_sha256": "9cfa0f709526750ecf2402526c5b64bca422f0de7217fa0264649d3350266282",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2",
-      "content_sha256": "d5ca1dc6e67302290fb3162f350b3f5957a233a1acc5b4183d12e3c31f765b2b",
+      "content_sha256": "ebb49615bae75e2b29f6c0987939c6a195eadee669557aa0fb6f5b5255803d1c",
       "status": "NOT_REVIEWED",
       "evidence": ""
     },

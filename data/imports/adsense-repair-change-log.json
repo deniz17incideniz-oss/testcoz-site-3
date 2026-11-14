@@ -5674,7 +5674,7 @@
         "explanation": "Koridorda yavaş ve dikkatli yürümek başkalarına çarpma olasılığını azaltır.",
         "image": "images/tests/1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Koridordaki iki öğrenci",
           "data": {
             "first": "Mert: yavaş yürüyor",
@@ -6380,7 +6380,7 @@
         ]
       },
       "after": {
-        "question": "Karşıya geçmek için güvenli bir yer arıyorsun. Hangisini kullanabilirsin?",
+        "question": "Güvendiğin bir yetişkinle karşıya geçmek için güvenli bir yer arıyorsun. Hangisini kullanabilirsin?",
         "choices": [
           "Yaya geçidini",
           "Park etmiş araçların arasını",
@@ -6467,7 +6467,7 @@
         "explanation": "Yemekten önce elleri sabun ve suyla yıkamak ellerdeki mikropların azalmasına yardımcı olur.",
         "image": "images/tests/1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "İki öğrencinin davranışı",
           "data": {
             "first": "Ece: yemekten önce ellerini yıkıyor",
@@ -6603,7 +6603,7 @@
         ]
       },
       "after": {
-        "question": "Tanımadığın bir kişi seni ailesine haber vermeden yanına çağırıyor. Ne yapmalısın?",
+        "question": "Tanımadığın bir kişi seni ailene haber vermeden yanına çağırıyor. Ne yapmalısın?",
         "choices": [
           "Gitmeyip güvendiğim bir yetişkine anlatmalıyım.",
           "Onunla hemen gitmeliyim.",
@@ -9357,7 +9357,7 @@
         "explanation": "Çöpü kutuya atmak, herkesin kullandığı parkın temiz kalmasına yardımcı olur.",
         "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Parktaki iki öğrenci",
           "data": {
             "first": "Ece: çöpünü kutuya atıyor",
@@ -10083,7 +10083,7 @@
         "explanation": "Çöpü kutuya atmak, parkı kullanan herkes için çevrenin temiz kalmasına yardımcı olur.",
         "image": "images/tests/1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Parktaki iki öğrenci",
           "data": {
             "first": "Ece: çöpünü kutuya atıyor",
@@ -10807,7 +10807,7 @@
         "explanation": "Kütüphane kitaplarını özenli kullanmak, başka okuyucuların da kitaplardan yararlanmasını sağlar.",
         "image": "images/tests/2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Kütüphanedeki iki öğrenci",
           "data": {
             "first": "Deniz: kitabı özenle kullanıyor",
@@ -11533,7 +11533,7 @@
         "explanation": "Kaygan alandan uzak durmak ve bir yetişkine haber vermek düşme tehlikesinin azaltılmasına yardımcı olur.",
         "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Kaygan zemindeki iki öğrenci",
           "data": {
             "first": "Ela: uzak durup yetişkine haber veriyor",
@@ -12261,7 +12261,7 @@
         "explanation": "Doğru takılan emniyet kemeri, ani fren veya çarpışmada yaralanma riskini azaltmaya yardımcı olur.",
         "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Servisteki iki öğrenci",
           "data": {
             "first": "Efe: emniyet kemerini takıyor",
