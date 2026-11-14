@@ -18914,7 +18914,7 @@
         ]
       },
       "after": {
-        "question": "Aynı büyüklükteki iki kurdelenin 5/8’i ve 3/8’i kullanılıyor. Hangisinde kullanılan miktar daha fazladır?",
+        "question": "Aynı uzunluktaki iki kurdelenin 5/8’i ve 3/8’i kullanılıyor. Hangisinde kullanılan miktar daha fazladır?",
         "choices": [
           "Eş parça sayıları bilinmediği için karşılaştırılamaz.",
           "5/8’i kullanılan kurdelede",
@@ -18922,7 +18922,7 @@
           "İkisinde de eşittir."
         ],
         "correctAnswer": 1,
-        "explanation": "Kurdeleler aynı büyüklükte ve ikisi de 8 eş parçaya ayrılmıştır. 5 parça, 3 parçadan fazla olduğu için 5/8 daha büyüktür.",
+        "explanation": "Kurdeleler aynı uzunlukta ve ikisi de 8 eş parçaya ayrılmıştır. 5 parça, 3 parçadan fazla olduğu için 5/8 daha büyüktür.",
         "image": null,
         "id": "4-sinif-matematik-kesirler-orta-test-1-soru-2",
         "options": [

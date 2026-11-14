@@ -1594,62 +1594,62 @@
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-1",
       "content_sha256": "e0c01a77d0b87014e4f117d01673ebf4b1c5d8b0b4afd3ba2b8e4522d3850fee",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 3/4 = 9/12; pay ve payda 3 ile çarpılır. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-2",
-      "content_sha256": "1bd1b3c868c26bd8ce0f495b0b54a21f89f1d8a85e456aba535c571a7f9e2fbe",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "27976a09609ea2ce78f388e99d41b752c1f81f50cb2f6a6066339c0a516811cf",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Eş uzunlukta 5/8, 3/8’den büyüktür; 5 > 3. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-3",
       "content_sha256": "10efe4b8a78f6213c04ff4bc2274cf5b74eb35d31ff6ad12f59360a47fb189c5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 24 ÷ 8 × 3 = 9 sayfa. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-4",
       "content_sha256": "ccea0af1f6aae80723a9f69702ec73ad28c1cb77fd3997301b70efa2e2a857e1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Başlangıçtaki 12 eş bardaktan 5 kalır; 5/12. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-5",
       "content_sha256": "39cff48baf7d1119b3a0e4da64e6d3ef5c7da9814cf819409ec03248cf4acd33",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 1/2 = 4/8 ve 4/8 > 3/8; kâğıtlar eş büyüklüktedir. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-6",
       "content_sha256": "7230193da72cf6369a5d53658780399f8dd4e6e7b8c80141fc1e72a2fbb882b2",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 18 − (18 × 2/3) = 6 boncuk. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-7",
       "content_sha256": "4f85615f2b27174f44e8ccb16c0e884c48029e0572bcff1d39f6ef33fa326862",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 5/4 = 1 bütün 1/4. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-8",
       "content_sha256": "0d9a1c752ffbd80eb4f97291e21bc9732b50b2bc033dfde54239eebc75b6ba80",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 20 × 1/4 = 5 öğrenci katılmaz. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-9",
       "content_sha256": "81edf9a99a778273b433b7d9f42b4d6026f7595f1be6b2f67e6e463abf1ff2d3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Bir parçanın uzunluğu 6 m ise bütün 5 × 6 = 30 m. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "4-sinif-matematik-kesirler-orta-test-1-soru-10",
       "content_sha256": "a5e2bcb28bc6a4eaa3f5840aa4aa71592f5410213b4b82f9cf7dddd1f30a1edd",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 2/3 = 4/6; eş büyüklükteki bütünler verilmiştir. Seçenekler ve açıklama işlemle tutarlı, tek doğru var; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299"
     },
     {
       "id": "T2-G3-INGI-SCHOOL-01",
