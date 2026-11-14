@@ -440,7 +440,7 @@ Object.assign(visualEvidence,{
  '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Ali: çöpünü yere bırakıyor'}]
 });
 Object.assign(visualEvidence,{
- '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['Servisteki iki öğrenci',{first:'Ayşe: emniyet kemerini takıyor',second:'Eren: kemerini takmıyor'}]
+ '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1:1':['Servisteki iki öğrenci',{first:'Ayşe: emniyet kemerini takıyor',second:'Eren: kemerini takmıyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
  '1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1:1':['Koridordaki iki öğrenci',{first:'Mert: yavaş yürüyor',second:'Ada: koşuyor'}],

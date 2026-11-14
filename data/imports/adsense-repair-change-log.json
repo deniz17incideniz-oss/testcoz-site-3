@@ -7907,7 +7907,7 @@
         "explanation": "Emniyet kemerini doğru takmak ani fren veya çarpışmada yaralanma riskini azaltmaya yardımcı olur.",
         "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Servisteki iki öğrenci",
           "data": {
             "first": "Ayşe: emniyet kemerini takıyor",

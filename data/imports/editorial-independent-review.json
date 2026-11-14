@@ -664,62 +664,62 @@
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-1",
       "content_sha256": "866355512000d0f89db6a9541f2a5f0ee3433ab6e3dfdb05eb4d0c047d9ae6b0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yıkanmış elma uygun; bozuk yiyecek ve oyun hamuru seçenekleri kolay düzeyde bile çok belirgin. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-2",
-      "content_sha256": "154d4f7b89c4487d8be13638adc51d80f66ba2beeb102f9d9125303f80a4ad34",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "7274834cfc532782a57db628997472288421099ce2ca109452cf2faa0090ddf0",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Ayşe kemer takıyor, Eren takmıyor; harfsiz görsel ve alt metin soru ile tutarlı. Ayşe tek uygun seçenek. Görsel ve alternatif metin gözle kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-3",
       "content_sha256": "d834d0c047fceba488c9588bfb8868a35b6bff67d92672eb770532c261c2d85a",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sabun ve su kir ve mikropları azaltır; boyama ve yemeği soğutma seçenekleri kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-4",
       "content_sha256": "fbfc5905542efd22fa9af5cccfb41cc289e7caec32d053410c85506633923660",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Keskin bıçağa dokunmadan yetişkine haber vermek güvenli; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-5",
       "content_sha256": "cdcfb608a6e425f220a2242b72857a3e57970ce637c6bb3c65988107e3eb2f58",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Düzenli diş fırçalama tek uygun davranış; ortak fırça kullanma kişisel hijyen bakımından uygun değil. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-6",
       "content_sha256": "5ca794c47d36ce7fc51e540774be0cf4f36fd66a142887184422ec3b4a766887",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Tanımadığın kişiyle gitmeyip güvenilir yetişkine haber vermek güvenli ve tek uygun cevap. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-7",
       "content_sha256": "fc2d9a9141db8d4b2f8a50bb9f166118d32143b261a6027e8740846d838432d7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Açık kabloya dokunmadan yetişkine haber vermek güvenli; kabloya su dökme seçeneği çok belirgin. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-8",
       "content_sha256": "500a7800607f1ce9995030c61131250b0b06b6a11e13fe8a6cf0a0e92d791a07",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Durup arkadaşına alan bırakmak çarpışmayı önlemeye yardımcı olur; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-9",
       "content_sha256": "9d76a2cb5ed9eede3ef38fcf697230c086da3de569c14ef9b6512ce2fbec6e53",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Öğünlerde farklı besinlere yer vermek dengeli beslenmeye yardımcı olur; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-10",
       "content_sha256": "d61a38ae2dc5d2f529ff0adb2569246abc7fa8b25c9e73f2d4816b2e6fffc685",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yetişkinle geçmeden trafiği kontrol etmek güvenli; diğer seçenekler kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
