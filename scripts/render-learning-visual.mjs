@@ -4,8 +4,8 @@ export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
- if(type==='cards'||type==='plainCards') {
-  const labels={correct:'A',wrong:'B',first:'A',second:'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
+ if(['cards','plainCards','numberedCards'].includes(type)) {
+  const labels={correct:'A',wrong:'B',first:type==='numberedCards'?'1':'A',second:type==='numberedCards'?'2':'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
   const lines=Object.entries(data).filter(([,v])=>['string','number'].includes(typeof v));
   let y=96,art='';
   for(const [key,value] of lines) {

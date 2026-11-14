@@ -3315,63 +3315,63 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-1",
-      "content_sha256": "61bef742622c5fb5ac372d09c78e7bb6f6e51690b7205aa33e29f625d0bf4a7d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "880bad77fb39d7a12075381829524bd0f53911908192ec952809bd962fd9018e",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Filizin uzaması gözlemle uyumlu büyüme kanıtıdır; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-2",
       "content_sha256": "75635f35fd92be26e95f4b2eb31a9e0c1aeaecdc43bd09bf088a1af4a8a0d48b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Tek başına hareket canlılığı göstermez; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3",
-      "content_sha256": "2a3d08322db76e114360c9243f06bd0003d768f6fed1053fd8a90d63aefcb5b3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "e1cca9bea11c49cf72b3ae9e169a3ab2f074e22c94e2cc80f49c22a1291386da",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Islanmak canlılık kanıtı değildir, filizlenme gelişmedir; 1 ve 2 numaralı kartlar kök, SVG ve alternatif metinle eşleşiyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-4",
       "content_sha256": "8cf85e48e5707f62063d14c96cffb9b392c10da3109394ed5f5bbbc1e15d01dd",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Balık ve serçe yaşamlarını sürdürmek için beslenir; diğer seçenekler iki hayvan için ortak değildir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-5",
       "content_sha256": "368767511bbd5107da999b2b40e7e2f8db2e688beb23c36adba02ce2ccd42a1c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Büyüme ve yeni yaprak canlılığa kanıttır; S1 ile beceri tekrarı ve kolay çeldiriciler gözden geçirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-6",
-      "content_sha256": "a573143aac784d9da00b2d3deb4c2c26ce04aee5d84ee19a7d5631b0819eca35",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "4fa6f1f5436c2c82601b65382af9fc0bd9d6ad607d31d035a1800b68bc5fd7b8",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 1. kart hayvanları, 2. kart bitkileri gösterir; kök, SVG, numaralı açıklama ve alternatif metin eşleşiyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-7",
       "content_sha256": "a233804621bbfa78c4fabb25a30e089c4ca5dbe11af97e724640b72a7cad3760",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Su dışında uygun ışık gibi ihtiyaçlar önemlidir; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-8",
-      "content_sha256": "a98e0ac9633a71259752bcd36cef14af45e3d5f4c0a447481d4b3be910ddae4a",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "e55e490b38eff1cba1cf71f6dd02cd3aa00bdf48545cf19a67914eff66fa25af",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kedi büyüyüp yetişkin kedi olur; sistematik sınıflandırma terimi kaldırıldı, diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-9",
-      "content_sha256": "d2353cb5cf2ae49eca9d7eeaeb0d2435c989508f06e02546dda8f674ef900728",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "9a8969d136a9199cef95ef6f80dcf330368101c371c69a06883087a347e99d80",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Fasulye 6 − 3 = 3 cm uzamıştır; oyuncakta boy değişmedi. Harfsiz kart ve alternatif metin verilerle uyumlu. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-10",
-      "content_sha256": "964359402c06a759d76dba6a7300c7130d939a149053d78bc0951c385f4fae6d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "2c297119a175c93b163ef53fcc80aa18a0eb56ceb9d64a74939a16e257095b29",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Papatya bitki, kuş hayvan ve mantar ayrı canlı grubudur; harfsiz kart uyumlu ancak çeldiriciler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",

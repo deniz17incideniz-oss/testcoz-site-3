@@ -61,9 +61,10 @@
   }
 
   function evidenceCaption(question) {
-    if (!['cards','plainCards'].includes(question.visual?.type)) return '';
+    if (!['cards','plainCards','numberedCards'].includes(question.visual?.type)) return '';
     const values = Object.values(question.visual.data || {}).filter(value => typeof value === 'string' || typeof value === 'number');
-    return '<div class="evidence-caption"><strong>Görseldeki bilgiler</strong><ul>' + values.map(value => '<li>' + utils.escapeHtml(String(value)) + '</li>').join('') + '</ul></div>';
+    const tag = question.visual.type === 'numberedCards' ? 'ol' : 'ul';
+    return '<div class="evidence-caption"><strong>Görseldeki bilgiler</strong><' + tag + '>' + values.map(value => '<li>' + utils.escapeHtml(String(value)) + '</li>').join('') + '</' + tag + '></div>';
   }
 
   function renderQuestion(focusQuestion = true) {

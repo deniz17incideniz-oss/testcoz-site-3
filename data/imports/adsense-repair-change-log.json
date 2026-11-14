@@ -39818,17 +39818,17 @@
       "after": {
         "question": "Bir fasulye filizi haftalar içinde uzuyor; yanındaki plastik çiçek aynı kalıyor. Hangisi filizin canlı olduğuna ilişkin bir kanıttır?",
         "choices": [
-          "Zaman içinde büyüyüp yeni yaprak oluşturması",
+          "Zaman içinde büyüyüp uzaması",
           "Yeşil renkte görünmesi",
           "Saksıda durması"
         ],
         "correctAnswer": 0,
-        "explanation": "Büyüme ve gelişme canlılık özellikleridir. Plastik çiçek de yeşil olabilir ve saksıda durabilir; renk ve yer tek başına canlılığı göstermez.",
+        "explanation": "Filizin zaman içinde uzaması büyümeye örnektir. Plastik çiçek de yeşil olabilir ve saksıda durabilir; renk ve yer tek başına canlılığı göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-1",
         "options": [
-          "Zaman içinde büyüyüp yeni yaprak oluşturması",
+          "Zaman içinde büyüyüp uzaması",
           "Yeşil renkte görünmesi",
           "Saksıda durması"
         ],
@@ -39962,7 +39962,7 @@
         ]
       },
       "after": {
-        "question": "Gözlem kartları: A: “Tohum su alıp filizlendi.” B: “Taş suyla ıslandı, filizlenmedi.” Hangisi bu karşılaştırmayı doğru açıklar?",
+        "question": "Gözlem kartları: 1. kart: “Tohum su alıp filizlendi.” 2. kart: “Taş suyla ıslandı, filizlenmedi.” Hangisi bu karşılaştırmayı doğru açıklar?",
         "choices": [
           "Suya değen her şey canlı olur.",
           "Taş da ıslandığı için büyüyen bir bitkidir.",
@@ -39972,7 +39972,7 @@
         "explanation": "Her iki nesne suyla temas edebilir. Tohumdan filiz oluşması gelişmedir; taşın yüzeyinin ıslanması onun canlı olduğunu göstermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Su ile temas",
           "data": {
             "first": "Tohum: su aldı, filizlendi",
@@ -39980,7 +39980,7 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3",
-        "imageAlt": "Tohum: su aldı, filizlendi. Taş: ıslandı, filizlenmedi",
+        "imageAlt": "1. kart: Tohum: su aldı, filizlendi. 2. kart: Taş: ıslandı, filizlenmedi",
         "options": [
           "Suya değen her şey canlı olur.",
           "Taş da ıslandığı için büyüyen bir bitkidir.",
@@ -40185,17 +40185,17 @@
         ]
       },
       "after": {
-        "question": "Sınıflama kartları: A: kedi, kelebek, serçe. B: gül, çam, fasulye. A ile B arasındaki temel ayrım hangisidir?",
+        "question": "Sınıflama kartları: 1. kart: kedi, kelebek, serçe. 2. kart: gül, çam, fasulye. Bu kartlar arasındaki temel ayrım hangisidir?",
         "choices": [
-          "A canlılar, B cansızlardır.",
-          "A uçabilenler, B yürüyenlerdir.",
-          "A hayvanlar, B bitkilerdir."
+          "1. karttakiler canlı, 2. karttakiler cansızdır.",
+          "1. karttakiler uçan, 2. karttakiler yürüyen canlılardır.",
+          "1. karttakiler hayvan, 2. karttakiler bitkidir."
         ],
         "correctAnswer": 2,
-        "explanation": "İki gruptakiler de canlıdır. A grubunda hayvanlar, B grubunda bitkiler vardır; kedi uçmadığı için A grubuna “uçabilenler” denemez.",
+        "explanation": "İki karttakiler de canlıdır. 1. kartta hayvanlar, 2. kartta bitkiler vardır; kedi uçmadığı için 1. karttakilerin hepsine “uçan canlılar” denemez.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Canlı grupları",
           "data": {
             "first": "Kedi, kelebek, serçe",
@@ -40203,11 +40203,11 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-6",
-        "imageAlt": "Kedi, kelebek, serçe. Gül, çam, fasulye",
+        "imageAlt": "1. kart: Kedi, kelebek, serçe. 2. kart: Gül, çam, fasulye",
         "options": [
-          "A canlılar, B cansızlardır.",
-          "A uçabilenler, B yürüyenlerdir.",
-          "A hayvanlar, B bitkilerdir."
+          "1. karttakiler canlı, 2. karttakiler cansızdır.",
+          "1. karttakiler uçan, 2. karttakiler yürüyen canlılardır.",
+          "1. karttakiler hayvan, 2. karttakiler bitkidir."
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",
@@ -40331,20 +40331,20 @@
         ]
       },
       "after": {
-        "question": "Küçük bir kedi büyüyünce yetişkin kedi oluyor. Bu örnek hangi iki durumu birlikte gösterir?",
+        "question": "Küçük bir kedi büyüyünce yetişkin kedi oluyor. Hangi ifade bu durumu doğru açıklar?",
         "choices": [
           "Kedi büyüyünce bitkiye dönüşür.",
-          "Canlı büyür, ama başka bir hayvan türüne dönüşmez.",
+          "Kedi büyür ve yetişkin bir kedi olur.",
           "Büyüyen her canlı aynı boyda olur."
         ],
         "correctAnswer": 1,
-        "explanation": "Büyüme kedinin boyut ve gelişiminde değişikliktir; türünün değişmesi değildir. Canlıların ulaştığı büyüklükler de birbirinden farklı olabilir.",
+        "explanation": "Kedi büyüyüp gelişerek yetişkin bir kedi olur; bitkiye dönüşmez. Canlıların ulaştığı büyüklükler de birbirinden farklı olabilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-8",
         "options": [
           "Kedi büyüyünce bitkiye dönüşür.",
-          "Canlı büyür, ama başka bir hayvan türüne dönüşmez.",
+          "Kedi büyür ve yetişkin bir kedi olur.",
           "Büyüyen her canlı aynı boyda olur."
         ],
         "difficulty": "zor",
@@ -40418,7 +40418,7 @@
         "explanation": "Fasulye 6 − 3 = 3 cm uzamıştır. Oyuncakta ölçülen boy değişmemiştir; yalnız 5 cm ölçüsünden bütün nesneler için canlılık sınıflaması yapılamaz.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "İki haftanın kaydı",
           "data": {
             "first": "Fasulye: 3 cm → 6 cm",
@@ -40504,7 +40504,7 @@
         "explanation": "Bu üçü de canlıdır ama aynı grupta değildir. Mantarlar bitkilerden ayrı bir gruptur; kuş hayvandır. Canlı olmak ile bitki olmak aynı anlamı taşımaz.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Doğa defteri",
           "data": {
             "first": "Mantar, papatya, kuş",
