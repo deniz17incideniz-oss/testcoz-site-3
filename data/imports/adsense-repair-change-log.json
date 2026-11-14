@@ -11447,17 +11447,17 @@
       "after": {
         "question": "Bisiklet sürmeden önce Bora kaskının kayışının gevşek olduğunu fark etti. Sürüşe başlamadan ne yapması daha güvenlidir?",
         "choices": [
-          "Kaskı başına uygun ayarlayıp kayışı bağlamak",
+          "Kaskı başına uygun ayarlayıp kayışını uygun sıkılıkta bağlamak",
           "Kaskı çıkartıp gidonu tutmak",
           "Gevşek kaskla kısa bir tur atmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Başa uygun yerleştirilmiş ve kayışı bağlanmış kask, düşme durumunda başı korumaya yardımcı olur.",
+        "explanation": "Başa uygun yerleştirilmiş ve kayışı uygun sıkılıkta bağlanmış kask, düşme durumunda başı korumaya yardımcı olur.",
         "image": null,
         "visual": null,
         "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-1",
         "options": [
-          "Kaskı başına uygun ayarlayıp kayışı bağlamak",
+          "Kaskı başına uygun ayarlayıp kayışını uygun sıkılıkta bağlamak",
           "Kaskı çıkartıp gidonu tutmak",
           "Gevşek kaskla kısa bir tur atmak"
         ],
@@ -11604,7 +11604,7 @@
         "choices": [
           "Kutudaki miktarın yarısını içmelidir.",
           "İlacı arkadaşına verip önce onun denemesini istemelidir.",
-          "İlacı kullanmadan güvendiği bir yetişkine haber vermelidir."
+          "İlaca dokunmadan güvendiği bir yetişkine haber vermelidir."
         ],
         "correctAnswer": 2,
         "explanation": "Yanlış ilaç veya doz sağlığa zarar verebilir. Çocuklar ilaç kullanmadan önce yetişkin ve sağlık uzmanı desteği almalıdır.",
@@ -11614,7 +11614,7 @@
         "options": [
           "Kutudaki miktarın yarısını içmelidir.",
           "İlacı arkadaşına verip önce onun denemesini istemelidir.",
-          "İlacı kullanmadan güvendiği bir yetişkine haber vermelidir."
+          "İlaca dokunmadan güvendiği bir yetişkine haber vermelidir."
         ],
         "difficulty": "zor",
         "skill": "Sağlığım ve Güvenliğim",
@@ -11818,17 +11818,17 @@
         "choices": [
           "Arkadaşını zorla ayağa kaldırabilir.",
           "Durumu saklayıp oyuna dönebilir.",
-          "Bir yetişkine hemen haber verip arkadaşının yanında kalabilir."
+          "Bir yetişkine hemen haber verebilir; ortam güvenliyse arkadaşının yanında kalabilir."
         ],
         "correctAnswer": 2,
-        "explanation": "Bir yetişkine haber vermek, yaralanmanın değerlendirilmesini sağlar. Yaralı arkadaşını zorla hareket ettirmemelisin.",
+        "explanation": "Bir yetişkine haber vermek, yaralanmanın değerlendirilmesini sağlar. Ortam güvenliyse arkadaşının yanında kalabilir ve onu zorla hareket ettirmemelidir.",
         "image": null,
         "visual": null,
         "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-6",
         "options": [
           "Arkadaşını zorla ayağa kaldırabilir.",
           "Durumu saklayıp oyuna dönebilir.",
-          "Bir yetişkine hemen haber verip arkadaşının yanında kalabilir."
+          "Bir yetişkine hemen haber verebilir; ortam güvenliyse arkadaşının yanında kalabilir."
         ],
         "difficulty": "zor",
         "skill": "Sağlığım ve Güvenliğim",
@@ -11883,7 +11883,7 @@
         ]
       },
       "after": {
-        "question": "Yaya ışığı yeşile döndü. Karşıya geçmeye hazırlanan çocuk, bir aracın geçide doğru yaklaştığını görüyor. Ne yapmalıdır?",
+        "question": "Yaya ışığı yeşile döndü. Güvendiği bir yetişkinle karşıya geçmeye hazırlanan çocuk, bir aracın geçide doğru yaklaştığını görüyor. Ne yapmalıdır?",
         "choices": [
           "Yola çıkmadan güvenli geçişi bekleyip trafiği kontrol etmelidir.",
           "Yeşil yandığı için araca bakmadan koşmalıdır.",

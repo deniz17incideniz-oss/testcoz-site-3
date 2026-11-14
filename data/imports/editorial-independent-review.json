@@ -963,63 +963,63 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-1",
-      "content_sha256": "99e79295b098783fa76084e73b796b1f061fcc411faf9d9dbc11cfc62067c1bc",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "63c462bccc5c7b2b2c0e25488c78f6d6ddabf273d94be4567cbfb32f6f38567e",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kaskı başa uygun yerleştirip kayışı uygun sıkılıkta bağlamak tek uygun seçimdir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-2",
       "content_sha256": "9cfa0f709526750ecf2402526c5b64bca422f0de7217fa0264649d3350266282",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kaygan yerden uzak durup yetişkine haber veren Ela tek uygun cevaptır; harfsiz kart ve alternatif metin tutarlı. Görsel ve alternatif metin incelendi. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-3",
-      "content_sha256": "6fb6793d13aa2dae8e880aafb39fb1e9b93368b9a16eafc26330b1b6d468dea6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "c53c5d624e6badd683a7391f200ec12cdb70e3f3d9e8b4df4681bc679d2e50cb",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Bulduğu ilaca dokunmadan güvenilir yetişkine haber vermek tek uygun cevaptır. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-4",
       "content_sha256": "953589cbf1791e6704c71b864b50bf44d6004b7362ac4e6fa8d01c2f8c72c5f6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Açık adres veya yakın nokta yardım ekibinin konumu bulmasına yardımcıdır; diğer iki seçenek çok kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-5",
       "content_sha256": "a5361273bd9fe0621a490cab421f0c4e5be1b6fb25e6d5b7a5a1b0118422bbbe",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yıkanmış meyve ve peynirli sandviç, yalnızca şekerli bisküviye kıyasla öğüne çeşitlilik katar. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-6",
-      "content_sha256": "320e511813e66e705950835211343e74a812f1a92d1bf924283bdd143ac52286",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "8f36d96319942ade93e194280318ef66794fd361fa19af0868e7028145808046",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yetişkine haber verip yalnız ortam güvenliyse arkadaşının yanında kalmak uygundur; zorla hareket ettirme önerilmiyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-7",
-      "content_sha256": "579f08a6efcd9b23eb25b4214fe2627ebf935d928dbc984fee4f488e7606fcbf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "b9ee8f307af75ff764b5fe95e056a25902290d154dd9c2ecd26adeb8abd6ca2d",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yetişkin eşliğinde araç yaklaşırken yola çıkmadan güvenli geçiş beklenir; ışığın yeşil olması tek başına yeterli değildir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-8",
       "content_sha256": "7095c2655901716ccdd7aa9ab211a6cea549bb76e94fc6f9922de32c257bb9e7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Servis durana kadar kemer takılı biçimde yerinde oturmak tek uygun seçenektir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-9",
       "content_sha256": "bd2728b14fe80f8efed5f3db54de57630796694a9fb020588268a0c276bd05e3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kırık elektrik kablosundan ve sudan uzak durup yetişkine haber vermek tek uygun seçenektir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-10",
       "content_sha256": "fafa72ca85e9eddc2aa913c0c1bd24ac5145c1682edf364febd24dd6b98c8221",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Öksürükte mendil ve el yıkama mikropların yayılmasını azaltır; diğer seçenekler çok kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-1",
