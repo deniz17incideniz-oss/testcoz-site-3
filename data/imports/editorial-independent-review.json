@@ -3616,62 +3616,62 @@
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-1",
       "content_sha256": "e3c7319481409125ff62a9cc46eec7b213c20632c3318319ff54cd5e1446c218",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı ışık ve su altında farklı topraklarda yetişen iki fide, bu fidelerde toprak etkisini araştırmaya bilgi sağlar; evrensel sonuç çıkarılmaz. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-2",
       "content_sha256": "d0c2b7df953e212fba3899cdc321f2aec712068ce0013b05953af24fa8a2630e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Bitkinin ihtiyacına uygun sulama ve drenaj önemlidir; fazla su köklerin hava almasını zorlaştırabilir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-3",
-      "content_sha256": "9d2d36756a81592c97a26d172a137fc54a0483646ed3d8a8f128ac498972a212",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "422acb09ca04f8eae2b568d08a49093738671b43a4cbf75ec54f5417f58b1b6d",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eş miktar toprak ve su, eş süreyle karşılaştırılır; numaralı kart ve alt metin soru ile tutarlı. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-4",
       "content_sha256": "8a8356773bcd239a0bc2490c6618d2573d917d899fa9ce5c1b088e23e1d2503a",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Uygun bitki örtüsü taşınmayı azaltmaya yardımcı olabilir; zor düzey için diğer seçenekler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-5",
       "content_sha256": "d1c732fd18f40a9773a6ede7cec955d984d8fcddcf8a463aebb019d8499489ef",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ekim ve sulama kayıtları gelişimi izlemeye yarar; zor düzey için diğer seçenekler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-6",
-      "content_sha256": "a8fa0fe9ffb39bb5c64bde80e1a0a2e1909acf3f9bd8376730114d12972e45f1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "49db1e5cfd688a12943b9b888abfb6f6249bffe2207fd4ba3fc9c8727d86601a",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Küflü ürün yenmeden yetişkine gösterilir, sağlam ürün yıkanır; numaralı kart ve alt metin tutarlı. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-7",
       "content_sha256": "bebe208efadce44f36e3f502dd1c5b8640977df9cabdbf61843849938d9641d3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Atıkları uygun kutulara ayırmak toprağı korur; zor düzey için çeldiriciler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-8",
       "content_sha256": "16b81c2450974848def0174e2a07606f3b591f2321e370d11dd03871062f424e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Solucan gözlemi toprağın bazı canlılara yaşam alanı olduğunu gösterir; zor düzey için çeldiriciler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-9",
-      "content_sha256": "798980ae6fd236fb09fdf4a700012c63c1083b7e82fc6d4da77b5f47d8c0cec4",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "24fe3382871e98912cbec4f1887afe906725c1816a0583f8e111853b6aa5403e",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Sulamada bitki ihtiyacı ve toprak nemi birlikte değerlendirilir; harfsiz kart ve alt metin kayıtlarla tutarlı. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-10",
-      "content_sha256": "b222684f4cbbc622a296ce1d66bf957db889dea382b02adc39546b811dd4948e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "2a6773ba5cea2f25ddf561039b2c07ef52626b0991f7200a558379cad267fb28",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Uygun ürünleri dönüşümlü ekmek verimi korumaya yardımcı olabilir; zor düzey için çeldiriciler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-1",

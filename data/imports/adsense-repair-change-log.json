@@ -43737,9 +43737,9 @@
         ]
       },
       "after": {
-        "question": "Toprak kartları: A: iri taneli, suyu hızlı geçiriyor. B: daha çok su tutuyor. Hangi işlem bu farkı karşılaştırmaya uygundur?",
+        "question": "Toprak kartları: 1. kartta iri taneli ve suyu hızlı geçiren, 2. kartta daha çok su tutan toprak var. Hangi işlem bu farkı karşılaştırmaya uygundur?",
         "choices": [
-          "A’ya az, B’ye çok su verip yalnız kap rengine bakmak",
+          "1. toprağa az, 2. toprağa çok su verip yalnız kap rengine bakmak",
           "Toprak miktarlarını farklı tutup sonuçları eşit saymak",
           "Eş miktar toprağa eş miktar su verip aynı sürede geçen suyu ölçmek"
         ],
@@ -43747,7 +43747,7 @@
         "explanation": "Toprak ve su miktarı ile süre eşit tutulunca geçen su miktarı karşılaştırılabilir. Başlangıç miktarları değişirse farkı yalnız toprağa bağlamak zorlaşır.",
         "image": "images/tests/3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Toprak ve su",
           "data": {
             "first": "İri taneli: su hızlı geçiyor",
@@ -43755,9 +43755,9 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-3",
-        "imageAlt": "İri taneli: su hızlı geçiyor. Diğer toprak: daha çok su tutuyor",
+        "imageAlt": "1. kart: İri taneli: su hızlı geçiyor. 2. kart: Diğer toprak: daha çok su tutuyor",
         "options": [
-          "A’ya az, B’ye çok su verip yalnız kap rengine bakmak",
+          "1. toprağa az, 2. toprağa çok su verip yalnız kap rengine bakmak",
           "Toprak miktarlarını farklı tutup sonuçları eşit saymak",
           "Eş miktar toprağa eş miktar su verip aynı sürede geçen suyu ölçmek"
         ],
@@ -43960,7 +43960,7 @@
         ]
       },
       "after": {
-        "question": "Ürün kartları: A: üzerinde küf görülen domates. B: sağlam, yıkanması gereken domates. Çocuk için uygun seçim hangisidir?",
+        "question": "Ürün kartları: 1. kartta üzerinde küf görülen, 2. kartta sağlam ve yıkanması gereken domates var. Çocuk için uygun seçim hangisidir?",
         "choices": [
           "İkisini de incelemeden yemek",
           "Küfü yalnız rengine göre süs sanmak",
@@ -43970,7 +43970,7 @@
         "explanation": "Ürünün görünümü güvenli kullanım açısından değerlendirilmelidir. Küflü ürünü çocuk tüketmemeli ve yetişkine göstermelidir; sağlam ürün de yemeden önce uygun biçimde temizlenir.",
         "image": "images/tests/3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Hasat edilen ürünler",
           "data": {
             "first": "Domates: üzerinde küf görülüyor",
@@ -43978,7 +43978,7 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-6",
-        "imageAlt": "Domates: üzerinde küf görülüyor. Domates: sağlam, yıkanacak",
+        "imageAlt": "1. kart: Domates: üzerinde küf görülüyor. 2. kart: Domates: sağlam, yıkanacak",
         "options": [
           "İkisini de incelemeden yemek",
           "Küfü yalnız rengine göre süs sanmak",
@@ -44193,7 +44193,7 @@
         "explanation": "Toprak nemi bakım için gözlenebilir bir bilgidir. Sulama ihtiyaca göre yapılır; sürekli su eklemek veya tek kuruluk gözleminde bitkiyi atmak uygun sonuç değildir.",
         "image": "images/tests/3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Nem kaydı",
           "data": {
             "first": "Pazartesi ve salı: nemli",
@@ -44279,7 +44279,7 @@
         "explanation": "Uygun ekim nöbeti toprağın verimini korumaya yardımcı olabilir. Bu uygulama bakım ve sulama ihtiyacını ortadan kaldırmaz; amaç bütün canlıları yok etmek değildir.",
         "image": "images/tests/3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Ekim planı",
           "data": {
             "first": "Aynı alanda art arda tek ürün",
