@@ -45,8 +45,8 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 1 | Matematik | Konum ve Eş Nesneler | 1 | 1 | 2 | 40 | 13 |
 | 1 | Matematik | Geometrik Şekiller | 1 | 1 | 2 | 40 | 13 |
 | 1 | Matematik | Veriye Dayalı Araştırma | 1 | 1 | 2 | 40 | 15 |
-| 1 | Hayat Bilgisi | Ben ve Okulum | 1 | 1 | 2 | 40 | 5 |
-| 1 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 6 |
+| 1 | Hayat Bilgisi | Ben ve Okulum | 1 | 1 | 2 | 40 | 3 |
+| 1 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 1 |
 | 1 | Hayat Bilgisi | Ailem ve Toplum | 1 | 1 | 2 | 40 | 12 |
 | 1 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 6 |
 | 1 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
@@ -101,7 +101,7 @@ Kaynak: data/catalog.js ve normalize edilmiş native banka. Resmî müfredat ona
 | 3 | Hayat Bilgisi | Sağlığım ve Güvenliğim | 1 | 1 | 2 | 40 | 8 |
 | 3 | Hayat Bilgisi | Ailem ve Toplum | 1 | 1 | 2 | 40 | 12 |
 | 3 | Hayat Bilgisi | Yaşadığım Yer ve Ülkem | 1 | 1 | 2 | 40 | 13 |
-| 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 12 |
+| 3 | Hayat Bilgisi | Doğa ve Çevre | 1 | 1 | 2 | 40 | 8 |
 | 3 | Hayat Bilgisi | Bilim, Teknoloji ve Sanat | 1 | 1 | 2 | 40 | 12 |
 | 3 | Fen Bilimleri | Bilimsel Keşif Yolculuğu | 1 | 1 | 2 | 40 | 11 |
 | 3 | Fen Bilimleri | Canlılar Dünyasına Yolculuk | 1 | 1 | 2 | 40 | 11 |

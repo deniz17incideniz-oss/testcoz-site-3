@@ -14,7 +14,7 @@ for(const t of tests)for(const [index,q] of t.questions.entries()){
  const location={id:q.id,slug:t.slug,grade:t.classLevel,subject:t.subject,topic:t.topic,question:index+1};
  if(t.classLevel===1&&q.question.length>180)mark(location,'yaşa uygunluk','Birinci sınıf için 180 karakterden uzun kök');
  if(q.explanation.length<35)mark(location,'açıklama yetersiz','35 karakterden kısa çözüm');
- if(q.visual?.type==='cards')mark(location,'görsel/metin manuel inceleme','Metin kartının öğretici değeri editörce kontrol edilmeli');
+ if(['cards','plainCards','numberedCards'].includes(q.visual?.type))mark(location,'görsel/metin manuel inceleme','Metin kartının öğretici değeri editörce kontrol edilmeli');
  if(q.choices.some(c=>/konu dışı|rastgele tahmin|konuyla ilgisiz|yanlış uygulama/i.test(c)))mark(location,'zayıf çeldirici','Jenerik veya konu dışı seçenek');
  if(q.image&&(!q.imageAlt||!fs.existsSync(q.image)))mark(location,'görsel eksikliği',!q.imageAlt?'Alt metin eksik':'Görsel dosyası eksik');
  if(t.difficulty==='zor'&&body(q).length<55&&q.explanation.length<60)mark(location,'zorluk ayrımı','Zor etiketi için kısa kök ve kısa çözüm');
