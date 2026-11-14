@@ -3375,63 +3375,63 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
-      "content_sha256": "99ec8d13e1a9938e15b51632c8a6eb459be2d194922d74141863a72d939c4909",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "d746d42a8a8de9f4c12372f09bb34df22eec3d824a64f3eb35aa141e5557c891",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yağmur suyuyla taşınma olasılık olarak ifade edildi; toprak taşınması odaklı soru tema kapsamı açısından gözden geçirilmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-2",
       "content_sha256": "8e9fa7c4f5460cc877920a993ccb288bf9e77af52ee6aba96affa4894f517179",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı renk tüm özellikleri belirlemez; taşların sertlik ve yüzeyi karşılaştırılabilir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3",
-      "content_sha256": "46ef585dbe3f17a762c5f49f1869d0de6fd0a18a78795f80ea0d4d4a2f7880e0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "4631db999c809239f1019cda620ed21f678613665f3110245e0bc6f383061fc7",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eğim ve bitki örtüsü birlikte değiştiğinden etki tek nedene bağlanamaz; numaralı kartlar tutarlı, toprak odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-4",
       "content_sha256": "eb1c0c571dc4d551b84a3bead15f98ac06d9cdeea33fa656eb30ecd4e0947b0b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taş parçalanınca madde yok olmaz; zor düzey için çeldiriciler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-5",
       "content_sha256": "a5c93b9e9a96ee93b4afbbcadca33e0d78466b25ae3ab0414a2463c97e468523",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taşların yuvarlaklığı gözlemdir; suyla aşınma açıklaması ek kanıt ister. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-6",
-      "content_sha256": "52b26b4e4717b138a4945b9a91cca9abd047e82d2729f7f61cb1f40fe9d1f4e5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "cf83f2828d30fce0d2c15e1016d3f839ca1f9c9ab3e675abdb9b881062516296",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yüksek/eğimli alan dağlık, geniş/düz alan ova olabilir; numaralı kartlar tutarlı fakat yeryüzü şekilleri tema odağı açısından incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-7",
       "content_sha256": "38d7db79454258836caf6d1e28be2e1de0336b49a1d5fd95f89de2b3218e1714",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taş ve yaprak parçaları toprağın tek bileşenli olmadığını gösterir; toprak yapısı odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-8",
       "content_sha256": "efb42ea54a4961c9fffce200879550d96c34a51d77c08232fb8d474818bc6ba9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Uygun bitki örtüsü toprak taşınmasını azaltmaya yardımcı olabilir; konu odağı ve çeldiriciler gözden geçirilmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
-      "content_sha256": "9e387bea20369aeaa6d49b216febb1f48fc747d21c2ac5a7edf390d274913aec",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "25abbaed53bc7c14cb8c1bf2e961a411609239fab01f8706175286f57ae9815d",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Birikintileri aynı yöntemle ölçmek karşılaştırılabilir veri sağlar; numaralı kartlar tutarlı, toprak odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-10",
-      "content_sha256": "9ffa968f7cd695eff13bbe3260bd594c13201d2b666966f3b1b014723c85965c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "6d8bec9175f7b4524e97a731b8b966151803afd38decf94490dd2e9d54156461",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenle belirlenen patika riski azaltabilir; harfsiz kart tutarlı, genel gezi güvenliğinin tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",

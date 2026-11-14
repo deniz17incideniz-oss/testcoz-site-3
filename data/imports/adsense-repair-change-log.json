@@ -40573,17 +40573,17 @@
       "after": {
         "question": "Yağmurdan sonra yamaçtaki toprağın bir kısmı aşağıdaki yolda birikiyor. Bu değişimi hangi açıklama karşılar?",
         "choices": [
-          "Akan su toprağı bir yerden başka yere taşımıştır.",
+          "Toprak yağmur suyuyla yamaçtan yola taşınmış olabilir.",
           "Toprak yağmurda tamamen yok olmuştur.",
           "Yoldaki toprak hiçbir yerden gelmeden oluşmuştur."
         ],
         "correctAnswer": 0,
-        "explanation": "Yamaçta azalan toprağın aşağıda birikmesi taşınmayı gösterir. Toprak yok olmak yerine suyun etkisiyle yer değiştirmiştir.",
+        "explanation": "Yağmurdan sonra toprağın aşağıda birikmesi suyla taşınmış olabileceğini düşündürür. Yalnız bu gözlemle geçmişteki bütün etkenler kesin olarak belirlenemez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
         "options": [
-          "Akan su toprağı bir yerden başka yere taşımıştır.",
+          "Toprak yağmur suyuyla yamaçtan yola taşınmış olabilir.",
           "Toprak yağmurda tamamen yok olmuştur.",
           "Yoldaki toprak hiçbir yerden gelmeden oluşmuştur."
         ],
@@ -40717,7 +40717,7 @@
         ]
       },
       "after": {
-        "question": "Arazi kartları: A: dik ve çıplak yamaç. B: daha az eğimli, bitki örtülü yamaç. Aynı yağmurdan sonra A’dan daha çok toprak taşınıyor. Ne söylenebilir?",
+        "question": "Arazi kartları: 1. kartta dik ve çıplak, 2. kartta daha az eğimli ve bitki örtülü yamaç var. Aynı yağmurdan sonra 1. yamaçtan daha çok toprak taşınıyor. Ne söylenebilir?",
         "choices": [
           "Yalnız bitki türünün etkisi kesin ölçülmüştür.",
           "Yağmurun toprağı taşıyamadığı kanıtlanmıştır.",
@@ -40727,7 +40727,7 @@
         "explanation": "Hem eğim hem örtü değişmiştir. Sonuç farkı gözlenir ancak hangi etkenin ne kadar katkı yaptığını ayırmak için tek koşulun değiştiği karşılaştırmalar gerekir.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "İki yamaç",
           "data": {
             "first": "Dik, çıplak: çok toprak taşındı",
@@ -40735,7 +40735,7 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3",
-        "imageAlt": "Dik, çıplak: çok toprak taşındı. Az eğimli, bitkili: az toprak taşındı",
+        "imageAlt": "1. kart: Dik, çıplak: çok toprak taşındı. 2. kart: Az eğimli, bitkili: az toprak taşındı",
         "options": [
           "Yalnız bitki türünün etkisi kesin ölçülmüştür.",
           "Yağmurun toprağı taşıyamadığı kanıtlanmıştır.",
@@ -40940,17 +40940,17 @@
         ]
       },
       "after": {
-        "question": "Yeryüzü kartları: A: çevresine göre yüksek, eğimli alan. B: geniş, düz alan. Hangisi uygun eşleştirmedir?",
+        "question": "Yeryüzü kartları: 1. kartta çevresine göre yüksek ve eğimli alan, 2. kartta geniş ve düz alan var. Hangisi uygun eşleştirmedir?",
         "choices": [
-          "A ova, B dağlık alan olmalıdır.",
+          "1. alan ova, 2. alan dağlık olmalıdır.",
           "İkisi de yalnız deniz tabanıdır.",
-          "A dağlık alan, B ova olabilir."
+          "1. alan dağlık, 2. alan ova olabilir."
         ],
         "correctAnswer": 2,
         "explanation": "Yükseklik ve eğim dağlık alanı, geniş düz yüzey ova örneğini destekler. Kartlarda deniz altında olduklarını gösteren bir bilgi yoktur.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Yeryüzü biçimleri",
           "data": {
             "first": "Çevresine göre yüksek ve eğimli",
@@ -40958,11 +40958,11 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-6",
-        "imageAlt": "Çevresine göre yüksek ve eğimli. Geniş ve düz",
+        "imageAlt": "1. kart: Çevresine göre yüksek ve eğimli. 2. kart: Geniş ve düz",
         "options": [
-          "A ova, B dağlık alan olmalıdır.",
+          "1. alan ova, 2. alan dağlık olmalıdır.",
           "İkisi de yalnız deniz tabanıdır.",
-          "A dağlık alan, B ova olabilir."
+          "1. alan dağlık, 2. alan ova olabilir."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -41163,7 +41163,7 @@
         ]
       },
       "after": {
-        "question": "Süzülen su kayıtları: A tepsisinin altındaki kapta az toprak, B tepsisinin altında çok toprak birikti. Tepsilere eşit su döküldü. Hangi ölçüm karşılaştırmayı sayısallaştırır?",
+        "question": "Süzülen su kayıtları: 1. tepsinin altındaki kapta az, 2. tepsinin altındaki kapta çok toprak birikti. Tepsilere eşit su döküldü. Hangi ölçüm karşılaştırmayı sayısallaştırır?",
         "choices": [
           "Kapların renklerini saymak",
           "Tepsileri hazırlayanların yaşlarını toplamak",
@@ -41173,15 +41173,15 @@
         "explanation": "Araştırılan sonuç taşınan toprak miktarıdır. Aynı yöntemle miktarı ölçmek “az” ve “çok” gözlemini karşılaştırılabilir veriye dönüştürür.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Yağmur modeli",
           "data": {
-            "first": "A kabı: az toprak birikti",
-            "second": "B kabı: çok toprak birikti"
+            "first": "Az toprak birikti",
+            "second": "Çok toprak birikti"
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
-        "imageAlt": "A kabı: az toprak birikti. B kabı: çok toprak birikti",
+        "imageAlt": "1. kart: Az toprak birikti. 2. kart: Çok toprak birikti",
         "options": [
           "Kapların renklerini saymak",
           "Tepsileri hazırlayanların yaşlarını toplamak",
@@ -41259,7 +41259,7 @@
         "explanation": "Gözlem yaparken zeminin güvenliği de önemlidir. Belirlenmiş yol riski azaltır; bu, çevrede hiç taş olmadığı veya taşları kırmak gerektiği anlamına gelmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Gezi yolları",
           "data": {
             "first": "Gevşek taşlı dik yamaç",
