@@ -4,6 +4,8 @@ test('earth science cards have distinct labels and evidence-based explanations',
  await page.goto(`/tests/${slug}.html`);await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
  for(let n=1;n<=10;n++){
   const area=page.locator('#questionArea');if(n===1)await expect(area).toContainText('taşınmış olabilir');
+  if(n===7)await expect(area).toContainText('Mermer yapıların kaplamasında');
+  if(n===8)await expect(area).toContainText('Bazı canlı kalıntıları uygun koşullarda');
   if([3,6,9,10].includes(n)){
    const img=area.locator('img');await expect(img).toHaveCount(1);const src=await img.getAttribute('src'),response=await request.get('/'+src.replace(/^\//,''));expect(response.ok()).toBeTruthy();const svg=await response.text();expect(svg).not.toMatch(/class="value">[AB]<\/text>/);
    if(n!==10){await expect(area.locator('.evidence-caption ol')).toHaveCount(1);await expect(img).toHaveAttribute('alt',/1\. kart:.*2\. kart:/);expect(svg).toContain('class="value">1</text>');expect(svg).toContain('class="value">2</text>');}

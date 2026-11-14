@@ -41017,21 +41017,21 @@
         ]
       },
       "after": {
-        "question": "Toprak incelemesinde küçük taşlar, kuru yaprak parçaları ve nem görülüyor. Hangi sonuç uygundur?",
+        "question": "Mermer yapıların kaplamasında, kömür ise bazı yerlerde yakıt olarak kullanılır. Bu örneklerden hangi sonuç çıkarılabilir?",
         "choices": [
-          "Toprak yalnız tek tür parçadan oluşmaz.",
-          "Toprak yalnız kuru taştır.",
-          "Yaprak bulunan yerde toprak olamaz."
+          "Farklı kayaçların farklı kullanım alanları olabilir.",
+          "Bütün kayaçlar yalnızca yakıt olarak kullanılır.",
+          "Mermer ile kömürün kullanım alanları mutlaka aynıdır."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlenen taş ve yaprak parçaları farklı bileşenlerdir; nem de su bulunduğunu gösterir. Bu nedenle toprağı yalnız kuru taş olarak tanımlamak eksik kalır.",
+        "explanation": "Mermerin kaplamada, kömürün yakıt olarak kullanılması bazı kayaçların farklı amaçlarla değerlendirilebildiğini gösterir; bütün kayaçların kullanım alanı aynı değildir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-7",
         "options": [
-          "Toprak yalnız tek tür parçadan oluşmaz.",
-          "Toprak yalnız kuru taştır.",
-          "Yaprak bulunan yerde toprak olamaz."
+          "Farklı kayaçların farklı kullanım alanları olabilir.",
+          "Bütün kayaçlar yalnızca yakıt olarak kullanılır.",
+          "Mermer ile kömürün kullanım alanları mutlaka aynıdır."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -41086,21 +41086,21 @@
         ]
       },
       "after": {
-        "question": "Rüzgârlı günde kuru ve çıplak topraktan toz kalkıyor. Toprağı korumaya hangi işlem yardımcı olur?",
+        "question": "Bir müzedeki panoda fosil oluşumu anlatılıyor. Hangi açıklama fosilleşmeye uygun bir örnektir?",
         "choices": [
-          "Toprağı daha çok ufalayıp rüzgâra bırakmak",
-          "Uygun bitki örtüsünü korumak",
-          "Bütün bitkileri söküp toprağı açık bırakmak"
+          "Bugün üretilen plastik oyuncak hemen fosile dönüşür.",
+          "Bazı canlı kalıntıları uygun koşullarda tortular altında uzun sürede fosilleşebilir.",
+          "Her canlı bir gün içinde mutlaka fosilleşir."
         ],
         "correctAnswer": 1,
-        "explanation": "Bitki örtüsü toprağın taşınmasını azaltmaya yardımcı olur. Toprağı çıplak ve gevşek bırakmak ise rüzgârın parçaları taşımasını kolaylaştırabilir.",
+        "explanation": "Bazı canlı kalıntıları uygun koşullarda tortular altında korunup uzun sürede fosilleşebilir; bütün canlıların fosilleşmesi gerekmez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-8",
         "options": [
-          "Toprağı daha çok ufalayıp rüzgâra bırakmak",
-          "Uygun bitki örtüsünü korumak",
-          "Bütün bitkileri söküp toprağı açık bırakmak"
+          "Bugün üretilen plastik oyuncak hemen fosile dönüşür.",
+          "Bazı canlı kalıntıları uygun koşullarda tortular altında uzun sürede fosilleşebilir.",
+          "Her canlı bir gün içinde mutlaka fosilleşir."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",

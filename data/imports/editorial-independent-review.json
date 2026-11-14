@@ -3411,15 +3411,15 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-7",
-      "content_sha256": "38d7db79454258836caf6d1e28be2e1de0336b49a1d5fd95f89de2b3218e1714",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taş ve yaprak parçaları toprağın tek bileşenli olmadığını gösterir; toprak yapısı odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "d945c624f66f847a89584e9d5faeae7859a97feacbe77378c1de0d5dde01a9d0",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Mermerin kaplamada ve kömürün yakıt olarak kullanılması bazı kayaçların farklı kullanım alanları olabileceğini gösterir. Açık ikinci doğru yok, açıklama uyumlu ve görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-8",
-      "content_sha256": "efb42ea54a4961c9fffce200879550d96c34a51d77c08232fb8d474818bc6ba9",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Uygun bitki örtüsü toprak taşınmasını azaltmaya yardımcı olabilir; konu odağı ve çeldiriciler gözden geçirilmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "294719d73edf7bca6c1cb8152c15d978f55f0a5d61627e975d4feccfc9b7921c",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Bazı canlı kalıntıları uygun koşullarda tortular altında uzun sürede fosilleşebilir; her canlı için kesin sonuç değildir. Açık ikinci doğru yok, açıklama uyumlu ve görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
