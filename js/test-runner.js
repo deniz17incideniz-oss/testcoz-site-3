@@ -61,7 +61,7 @@
   }
 
   function evidenceCaption(question) {
-    if (question.visual?.type !== 'cards') return '';
+    if (!['cards','plainCards'].includes(question.visual?.type)) return '';
     const values = Object.values(question.visual.data || {}).filter(value => typeof value === 'string' || typeof value === 'number');
     return '<div class="evidence-caption"><strong>Görseldeki bilgiler</strong><ul>' + values.map(value => '<li>' + utils.escapeHtml(String(value)) + '</li>').join('') + '</ul></div>';
   }
