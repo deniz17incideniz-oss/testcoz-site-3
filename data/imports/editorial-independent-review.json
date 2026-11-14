@@ -3436,62 +3436,62 @@
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",
       "content_sha256": "8d6da795eedd8e0094db729fa8df4a2760f0b8617aff8d94dd84417e6b548d41",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Elek tane büyüklüğü farkından yararlanır; diğer seçenekler zor düzeyde kolay eleniyor. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-2",
       "content_sha256": "86a60d69e4cc56a5fadb706771a04c6299bc4e0fb854d1c18604ebe85d1bb51f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Mıknatıs demir ataşları çeker, pirinç tanelerini çekmez; tek uygun ayırma yöntemi budur. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-3",
-      "content_sha256": "f28ca071269dbedc2f2b332ee01f86d67be76c86a54d194e0fec8107d6aa154e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "7cc300741a8af4f410647fc79927476bc7a2b18ac120a1c8283b67028bc53939",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Süzme kum tanelerini tutabilir, çözünmüş tuzu aynı yöntemle ayırmaz; numaralı kap kartları ve alt metin tutarlı. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-4",
       "content_sha256": "26e0acd1461106b2908526fbf904c24b1de560448fb7e26865aeec53b66fd6a6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Buzun erimesi katıdan sıvıya geçiştir; diğer seçenekler zor düzeyde kolay eleniyor. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-5",
       "content_sha256": "79d2c6bb2159280a166c378f88e37384be2f8a0109a0e351197999152fe6f374",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sıkma sonucu biçim değiştirme gözlenmiştir; renk veya kütle eşitliği çıkarılamaz. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-6",
-      "content_sha256": "b4a33dd90b910535083c535ca6f364f531b06bd738617d90295b93eb12c8138d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "29c25cea932feaec87865fd832f5c69c9d16d18893088d4285d86f16a40f87e4",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: İçi aydınlatılan kutunun içindekileri görmek için saydam levha uygundur; numaralı kart ve alternatif metin eşleşiyor. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-7",
       "content_sha256": "dcae090771330dbec917b078db92e88864e8d7d289f7b909b82c38b27acaf6fd",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sıvı su bulunduğu kabın biçimini alır; dökülme yoksa miktar korunur. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-8",
-      "content_sha256": "4a6e0626187bdc8689ed97aa95a1503c04df899d9606e4f08313055399d14854",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "b87643599cfc374b43249de814d8f6dc8357763ab76eda798c26fd6d36c190a0",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Öğretmen gözetiminde masadaki temiz suyu emen kâğıt havlu gerekçeli seçimdir. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-9",
-      "content_sha256": "3faddb66745076e64c63d0d44ad6037d4945b73bf8d04307f61817dfc7fda1f8",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "02cefd69038d705d26e78405c4b318c62794d66d94374b91cec0f7b21da10f65",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Mıknatıs yalnız ataşları alır; verilen elek kumu geçirip çakılı tutar. Kumun bu karışımda mıknatısla çekilmediği belirtilmiştir; harfsiz kart uyumlu. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-10",
-      "content_sha256": "f3ecf4eb9e601312fa8d5ee50dcf97d827b7ea8e14a6c9fa6f54d2d10ee97abe",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "d6c4f228bac804ba527287a8c7880af24e39aadbd56858ac174ccd54454fddb7",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Bilinmeyen sıvılar tadılmadan öğretmenin belirlediği güvenli gözlemler yapılır; harfsiz kart uyumlu. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-1",

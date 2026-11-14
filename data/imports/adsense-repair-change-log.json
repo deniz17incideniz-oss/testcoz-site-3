@@ -41472,17 +41472,17 @@
         ]
       },
       "after": {
-        "question": "Kap kayıtları: A: su ve kum; B: su ve çözünmüş tuz. Süzgeç kâğıdı A’daki kumu tutuyor. B için hangi beklenti uygundur?",
+        "question": "Kap kayıtları: 1. kapta su ve kum, 2. kapta su ve çözünmüş tuz var. Süzgeç kâğıdı 1. kaptaki kumu tutuyor. 2. kap için hangi beklenti uygundur?",
         "choices": [
           "Tuzun tamamı iri çakıl gibi kâğıtta kalır.",
-          "B’de tuz görünmediği için hiç tuz yoktur.",
+          "2. kapta tuz görünmediği için hiç tuz yoktur.",
           "Çözünmüş tuz suyla geçebilir; aynı süzme işlemi tuzu ayırmaz."
         ],
         "correctAnswer": 2,
         "explanation": "Çözünmüş tuz, kum gibi gözle görülen katı taneler hâlinde değildir. Süzme kumu tutabilir ama çözünmüş tuzu sudan bu yolla ayıramayız.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Karışım kapları",
           "data": {
             "first": "Su ve kum",
@@ -41490,10 +41490,10 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-3",
-        "imageAlt": "Su ve kum. Su ve çözünmüş tuz",
+        "imageAlt": "1. kart: Su ve kum. 2. kart: Su ve çözünmüş tuz",
         "options": [
           "Tuzun tamamı iri çakıl gibi kâğıtta kalır.",
-          "B’de tuz görünmediği için hiç tuz yoktur.",
+          "2. kapta tuz görünmediği için hiç tuz yoktur.",
           "Çözünmüş tuz suyla geçebilir; aynı süzme işlemi tuzu ayırmaz."
         ],
         "difficulty": "zor",
@@ -41695,17 +41695,17 @@
         ]
       },
       "after": {
-        "question": "Malzeme kartları: A: ışığı geçiren saydam levha. B: ışığı geçirmeyen karton. İçini açmadan görmek istediğimiz kutuda hangi pencere seçilir?",
+        "question": "Malzeme kartları: 1. kartta ışığı geçiren saydam levha, 2. kartta ışığı geçirmeyen karton var. İçi aydınlatılan bir kutunun içindekileri kutuyu açmadan görmek için hangi pencere seçilir?",
         "choices": [
-          "B; ışığı engellemesi içeriyi görmeyi sağlar.",
+          "2. karttaki karton; ışığı engellemesi içeriyi görmeyi sağlar.",
           "İkisi de aynı ölçüde içini gösterir.",
-          "A; içerden gelen ışığın gözümüze ulaşmasını sağlar."
+          "1. karttaki saydam levha; içeriden gelen ışığın gözümüze ulaşmasını sağlar."
         ],
         "correctAnswer": 2,
-        "explanation": "Saydam malzeme ışığı geçirerek içerdeki nesnelerin görülmesine yardımcı olur. Karton ışığı engellediği için bu amaçla pencere olarak uygun değildir.",
+        "explanation": "Saydam levha kutunun aydınlatılan içinden gelen ışığı geçirerek nesnelerin görülmesine yardımcı olur. Karton ışığı engellediği için bu amaçla uygun değildir.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Pencere malzemeleri",
           "data": {
             "first": "Saydam levha: ışığı geçiriyor",
@@ -41713,11 +41713,11 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-6",
-        "imageAlt": "Saydam levha: ışığı geçiriyor. Karton: ışığı geçirmiyor",
+        "imageAlt": "1. kart: Saydam levha: ışığı geçiriyor. 2. kart: Karton: ışığı geçirmiyor",
         "options": [
-          "B; ışığı engellemesi içeriyi görmeyi sağlar.",
+          "2. karttaki karton; ışığı engellemesi içeriyi görmeyi sağlar.",
           "İkisi de aynı ölçüde içini gösterir.",
-          "A; içerden gelen ışığın gözümüze ulaşmasını sağlar."
+          "1. karttaki saydam levha; içeriden gelen ışığın gözümüze ulaşmasını sağlar."
         ],
         "difficulty": "zor",
         "skill": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
@@ -41841,7 +41841,7 @@
         ]
       },
       "after": {
-        "question": "Yere dökülen suyu toplamak için kâğıt havlu ve plastik poşet deneniyor. Havlu suyu içine çekiyor. Hangi seçim gerekçelidir?",
+        "question": "Öğretmen gözetiminde masaya dökülen temiz suyu almak için kâğıt havlu ve plastik poşet deneniyor. Havlu suyu içine çekiyor. Hangi seçim gerekçelidir?",
         "choices": [
           "İkisinin rengi aynıysa ikisi de eşit emer",
           "Su emebildiği için kâğıt havlu",
@@ -41918,25 +41918,25 @@
         ]
       },
       "after": {
-        "question": "Ayırma sırası: karışımda kum, iri çakıl ve demir ataş var. Önce mıknatıs ataşları alıyor. Geri kalanı ayırmak için ne yapılır?",
+        "question": "Ayırma sırası: karışımda iri çakıl, demir ataş ve mıknatısın çekmediği kum var. Mıknatıs yalnızca ataşları alıyor. Kumu geçirip çakılı tutan bir elek de var. Geri kalan nasıl ayrılır?",
         "choices": [
           "Mıknatısın kumu da çekmesi beklenir.",
           "Kum ile çakıl daha hızlı karıştırılır.",
           "Uygun delikli elekle kum ve çakıl ayrılır."
         ],
         "correctAnswer": 2,
-        "explanation": "Ataşlar çıktıktan sonra kum ve çakıl kalır. Bunların tane büyüklüğü farkından elek ile yararlanılır; kumun mıknatısla çekilmesi beklenmez.",
+        "explanation": "Ataşlar çıktıktan sonra kum ve çakıl kalır. Verilen elek kumu geçirip iri çakılı tutar; bu karışımdaki kumun mıknatısla çekilmediği de belirtilmiştir.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Ayırma planı",
           "data": {
-            "first": "Kum, iri çakıl, demir ataş",
-            "second": "Mıknatısla ataşlar alındı"
+            "first": "İri çakıl, demir ataş ve mıknatısın çekmediği kum",
+            "second": "Mıknatısla yalnızca ataşlar alındı"
           }
         },
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-9",
-        "imageAlt": "Kum, iri çakıl, demir ataş. Mıknatısla ataşlar alındı",
+        "imageAlt": "İri çakıl, demir ataş ve mıknatısın çekmediği kum. Mıknatısla yalnızca ataşlar alındı",
         "options": [
           "Mıknatısın kumu da çekmesi beklenir.",
           "Kum ile çakıl daha hızlı karıştırılır.",
@@ -42014,7 +42014,7 @@
         "explanation": "Bilinmeyen maddeler tadılarak incelenmez. Renksiz görünmesi de içilebilir olduğunu göstermez; yetişkinin belirlediği güvenli yöntem kullanılmalıdır.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Güvenli inceleme",
           "data": {
             "first": "İki bilinmeyen sıvı",
