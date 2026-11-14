@@ -22,3 +22,13 @@
     delete question.imageAlt;
   }
 })();
+
+// A specific, age-appropriate hygiene scenario replaces an ambiguous generic safety sequence.
+(function(){
+  const slug='1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1';
+  const test=(window.TESTCOZ_TESTS||[]).find(t=>t.slug===slug);if(!test)return;
+  const question=test.questions[1];if(!question)throw new Error('Missing first-grade medium safety question');
+  const choices=['İkisinin de ellerini yıkamaması','Elif’in ellerini yıkaması','Can’ın ellerini peçeteyle silmesi','Elif’in ellerini yıkamaması'];
+  Object.assign(question,{question:'Elif ellerini sabunla ovuşturup suyla duruluyor. Can ise yalnızca peçeteyle siliyor. Hangi davranış el temizliğine daha çok yardımcı olur?',choices,options:choices.slice(),correctAnswer:1,explanation:'Ellerini sabun ve suyla yıkamak, ellerdeki kirin ve mikropların azalmasına yardımcı olur.',subSkill:'El temizliği',questionType:'cikarim',image:null,visual:null,hasVisual:false});
+  delete question.imageAlt;
+})();
