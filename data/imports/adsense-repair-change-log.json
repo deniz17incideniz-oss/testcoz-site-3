@@ -39657,13 +39657,13 @@
         "choices": [
           "Gün boyunca sürekli ısınmıştır.",
           "Akşam sıcaklığı sabahkinden düşüktür.",
-          "Öğleye kadar ısınmış, sonra biraz soğumuştur."
+          "Öğle sıcaklığı sabahtan yüksek, akşam sıcaklığı öğlenden düşüktür."
         ],
         "correctAnswer": 2,
-        "explanation": "18’den 22’ye artış, 22’den 20’ye azalış vardır. Akşam 20 °C, sabah 18 °C’den yüksektir; bu nedenle diğer iki yorum kayıtlarla uyuşmaz.",
+        "explanation": "Öğle sıcaklığı 22 °C ile sabahki 18 °C’den yüksektir; akşam 20 °C ise öğlenki 22 °C’den düşüktür. Ölçüm saatleri arasındaki değişimin ayrıntısı bilinmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Su sıcaklığı",
           "data": {
             "first": "Sabah: 18 °C; öğle: 22 °C",
@@ -39675,7 +39675,7 @@
         "options": [
           "Gün boyunca sürekli ısınmıştır.",
           "Akşam sıcaklığı sabahkinden düşüktür.",
-          "Öğleye kadar ısınmış, sonra biraz soğumuştur."
+          "Öğle sıcaklığı sabahtan yüksek, akşam sıcaklığı öğlenden düşüktür."
         ],
         "difficulty": "zor",
         "skill": "Bilimsel Keşif Yolculuğu",
@@ -43438,7 +43438,7 @@
         "explanation": "Verilen kayıtta ihtiyaç ödev sırasında vardır. Oda boşaldıktan sonraki iki saat gereksiz kullanım olarak belirlenebilir; ihtiyaç varken kullanılan süreyle karıştırılmamalıdır.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Lambanın açık kaldığı süre",
           "data": {
             "first": "Ödev: 1 saat",
@@ -44725,15 +44725,15 @@
         "explanation": "Canlıların ihtiyaçlarının bazıları ortak olsa da karşılanma biçimleri farklı olabilir. Uygun koşullara ihtiyaç duymak aynı yuvayı veya aynı beslenme biçimini gerektirmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Yaşam ihtiyaçları",
           "data": {
-            "first": "Serçe: su, besin, yuva",
+            "first": "Serçe: su, besin, güvenli yuva yeri",
             "second": "Bitki: ışık, su, uygun ortam"
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-6",
-        "imageAlt": "Serçe: su, besin, yuva. Bitki: ışık, su, uygun ortam",
+        "imageAlt": "Serçe: su, besin, güvenli yuva yeri. Bitki: ışık, su, uygun ortam",
         "options": [
           "İkisi de aynı yuvada yaşamalıdır.",
           "Bitki ve serçe aynı besini aynı biçimde alır.",

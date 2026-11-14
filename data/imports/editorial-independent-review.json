@@ -3303,9 +3303,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-9",
-      "content_sha256": "45d25bed7803cc354057dff1178502a56394c6e371c4ecb3f9fea8f46e5dcf6b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "42bad323934540b5bae22c0cd31449c30b826b1915fce1521a0012c1dfca3072",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 22 > 18 ve 20 < 22; ölçüm aralarındaki seyir çıkarılmadan C seçeneği ve açıklama doğrulandı. Harfsiz görsel, alternatif metin ve soru verileri uyumlu; sayısal karşılaştırmalar ayrı kontrol edildi."
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-10",
@@ -3603,9 +3603,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-9",
-      "content_sha256": "08471dcfc4f25e38e04cb1e1b6baf6b46049accdfb1ae3944f2e28307bb91040",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "02fa7f41879dc31c2b8fa5a957b621ba19a6a24bfd44d99f0080c2d34ec859f3",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Boş odada açık kalan 2 saat gereksiz kullanımdır; C tek uygun seçenek. Harfsiz görsel, alternatif metin ve soru verileri uyumlu; sayısal karşılaştırmalar ayrı kontrol edildi."
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-10",
@@ -3705,9 +3705,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-6",
-      "content_sha256": "5bd7d023e84f0da018e1f733fb03f96a84de6a910c0d51da63cfc8ae83b79f2e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "62b480226e81d216eca2f69403ce3b548b856ee6288ffa5ea8b0ff60237660cc",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Serçe ve bitki yaşamak için uygun koşullara ihtiyaç duyar; C tek uygun seçenektir. Harfsiz görsel, alternatif metin ve soru verileri uyumlu; sayısal karşılaştırmalar ayrı kontrol edildi."
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-7",

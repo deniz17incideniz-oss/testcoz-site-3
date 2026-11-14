@@ -515,7 +515,7 @@ for(const [topic,rows] of Object.entries(scienceRepairs)) {
   }
  }
  for(const [n,index] of [2,5,8,9].entries()) {
-  const [title,first,second]=scienceVisuals[topic][n];
-  visualEvidence[`3-sinif-fen-bilimleri-${topic}-zor-test-1:${index}`]=[title,{first,second}];
+  const [title,first,second,cardType]=scienceVisuals[topic][n];
+  visualEvidence[`3-sinif-fen-bilimleri-${topic}-zor-test-1:${index}`]=[title,{first,second},cardType];
  }
 }
