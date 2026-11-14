@@ -1294,62 +1294,62 @@
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-1",
       "content_sha256": "e429e8b3528adfdce2d356d007d68ea8c6db787de291cc4b89b32ec0451def80",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 3 m = 300 cm; 300 − 125 − 90 = 85 cm. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-2",
       "content_sha256": "5403cbb16b13d2f6e82d4cfe3d196c50bb1d5d0a79fc23c20d779782ad89b155",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 1 km 250 m = 1250 m; 1250 − 980 = 270 m. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-3",
       "content_sha256": "1cd174cbeccce300ed2f5d59981f864c879af9815807a5b105ca61fc6da7eee8",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 240 cm ÷ 4 = 60 cm = 600 mm. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-4",
       "content_sha256": "3e3d56bde1dad633f1b6ef8405cdc7241592abab79b0f9e16096e5e000c08a8f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: İki gidiş dönüş dört tek yön eder: 4 × 750 = 3000 m. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-5",
       "content_sha256": "36a4e6f033752b5e28a44c911060a31f62535618b78456f285f2b464a25164cf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 2 m = 200 cm; 200 ÷ 40 = 5 eş parça; matematik modelinde kesme kaybı verilmemiştir. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-6",
       "content_sha256": "d4b4ce2b6cc332178736f9e847c2f96509ba9081cc7c1c90e46be8a550fa9165",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 20 × 9 = 180 mm = 18 cm; uç uca yerleştirme verilmiştir. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-7",
       "content_sha256": "b310788de9776e1a82d26be5ea4c6b6f4b4615956dbf65519295fbd8a740495c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 1 m 35 cm = 135 cm; 135 + 38 = 173 cm. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-8",
       "content_sha256": "f2fde9371f0fce4610d769b7725090f0f38043a3fd868058c4845f5af2d74a1f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Bir çevre 2 × (85 + 45) = 260 cm; iki sıra 520 cm = 5 m 20 cm; bağ payı içermeyen matematik modeli. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-9",
       "content_sha256": "1188ce3999ce39f20cf693a793db9f6699edf5ab71b1c9e90534512e1687a21e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 450 − 320 = 130 km = 130000 m. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-orta-test-1-soru-10",
       "content_sha256": "38f035e4506b258626e516a53391500a48ff3f53382a5fbe9fe4ccbf8e0bcba0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: 6 m = 600 cm; 600 − 8 × 15 = 480 cm. Seçenekler arasında tek doğru var, açıklama işlemle tutarlı; görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299 ve https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301"
     },
     {
       "id": "4-sinif-matematik-carpma-orta-test-1-soru-1",
