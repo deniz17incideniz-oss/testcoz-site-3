@@ -3375,9 +3375,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
-      "content_sha256": "d746d42a8a8de9f4c12372f09bb34df22eec3d824a64f3eb35aa141e5557c891",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yağmur suyuyla taşınma olasılık olarak ifade edildi; toprak taşınması odaklı soru tema kapsamı açısından gözden geçirilmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "48fa837ad5c88f55c2dc671045675032f891df855a657e36b6f440e237d21e27",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Verilen granitte kuvars ve feldispat bulunması bir kayacın birden fazla mineral içerebildiğini gösterir; tüm kayaçlar hakkında genelleme yapılmaz. Tek doğru cevap vardır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-2",
@@ -3387,9 +3387,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3",
-      "content_sha256": "4631db999c809239f1019cda620ed21f678613665f3110245e0bc6f383061fc7",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eğim ve bitki örtüsü birlikte değiştiğinden etki tek nedene bağlanamaz; numaralı kartlar tutarlı, toprak odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "ca264bec6803399319016dbbe936b1f420f6a86120bee0c48269e5362a14ece1",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 1. örnekte bitki fosili bulunur; 2. örneğin incelenen bölümünde fosil görülmemiştir. İki örnekten bütün kayaçlar için sonuç çıkarılmaz; numaralı kart ve alt metin uyumlu. Tek doğru cevap vardır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-4",

@@ -40571,21 +40571,21 @@
         ]
       },
       "after": {
-        "question": "Yağmurdan sonra yamaçtaki toprağın bir kısmı aşağıdaki yolda birikiyor. Bu değişimi hangi açıklama karşılar?",
+        "question": "Öğretmenin gösterdiği bir granit örneğinde kuvars ve feldispat mineralleri bulunuyor. Bu bilgi hangi sonucu destekler?",
         "choices": [
-          "Toprak yağmur suyuyla yamaçtan yola taşınmış olabilir.",
-          "Toprak yağmurda tamamen yok olmuştur.",
-          "Yoldaki toprak hiçbir yerden gelmeden oluşmuştur."
+          "Bir kayaç birden fazla mineral içerebilir.",
+          "Bütün kayaçlar mutlaka aynı mineralleri içerir.",
+          "Bu granit örneğinde yalnızca bir mineral vardır."
         ],
         "correctAnswer": 0,
-        "explanation": "Yağmurdan sonra toprağın aşağıda birikmesi suyla taşınmış olabileceğini düşündürür. Yalnız bu gözlemle geçmişteki bütün etkenler kesin olarak belirlenemez.",
+        "explanation": "Granit bir kayaçtır. Örnekte iki ayrı mineral bulunduğu için bazı kayaçların birden fazla mineral içerebildiği görülür; tek örnek bütün kayaçların aynı olduğunu kanıtlamaz.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
         "options": [
-          "Toprak yağmur suyuyla yamaçtan yola taşınmış olabilir.",
-          "Toprak yağmurda tamamen yok olmuştur.",
-          "Yoldaki toprak hiçbir yerden gelmeden oluşmuştur."
+          "Bir kayaç birden fazla mineral içerebilir.",
+          "Bütün kayaçlar mutlaka aynı mineralleri içerir.",
+          "Bu granit örneğinde yalnızca bir mineral vardır."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -40717,29 +40717,29 @@
         ]
       },
       "after": {
-        "question": "Arazi kartları: 1. kartta dik ve çıplak, 2. kartta daha az eğimli ve bitki örtülü yamaç var. Aynı yağmurdan sonra 1. yamaçtan daha çok toprak taşınıyor. Ne söylenebilir?",
+        "question": "Öğretmenin araştırma kartlarında, 1. kayaç örneğinde yaprak fosili bulunduğu; 2. örneğin incelenen bölümünde fosil görülmediği yazıyor. Kayıtlardan ne çıkarılabilir?",
         "choices": [
-          "Yalnız bitki türünün etkisi kesin ölçülmüştür.",
-          "Yağmurun toprağı taşıyamadığı kanıtlanmıştır.",
-          "Eğim ve bitki örtüsü birlikte farklı olduğundan etkiyi yalnız birine bağlayamayız."
+          "1. örnekte fosil bulunması her kayaçta fosil olduğunu kanıtlar.",
+          "2. örnekte fosil görülmemesi hiçbir kayaçta fosil olmadığını kanıtlar.",
+          "1. örnekte geçmişte yaşamış bir bitkiye ait fosil vardır; 2. örneğin incelenen bölümünde fosil görülmemiştir."
         ],
         "correctAnswer": 2,
-        "explanation": "Hem eğim hem örtü değişmiştir. Sonuç farkı gözlenir ancak hangi etkenin ne kadar katkı yaptığını ayırmak için tek koşulun değiştiği karşılaştırmalar gerekir.",
+        "explanation": "Fosiller geçmiş canlılara ait korunmuş kalıntı veya izlerdir. Bir örnekte görülenler, bütün kayaçlar için kesin sonuç vermeye yetmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3.svg",
         "visual": {
           "type": "numberedCards",
-          "title": "İki yamaç",
+          "title": "Araştırma kayıtları",
           "data": {
-            "first": "Dik, çıplak: çok toprak taşındı",
-            "second": "Az eğimli, bitkili: az toprak taşındı"
+            "first": "Yaprak fosili bulundu",
+            "second": "İncelenen bölümde fosil görülmedi"
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3",
-        "imageAlt": "1. kart: Dik, çıplak: çok toprak taşındı. 2. kart: Az eğimli, bitkili: az toprak taşındı",
+        "imageAlt": "1. kart: Yaprak fosili bulundu. 2. kart: İncelenen bölümde fosil görülmedi",
         "options": [
-          "Yalnız bitki türünün etkisi kesin ölçülmüştür.",
-          "Yağmurun toprağı taşıyamadığı kanıtlanmıştır.",
-          "Eğim ve bitki örtüsü birlikte farklı olduğundan etkiyi yalnız birine bağlayamayız."
+          "1. örnekte fosil bulunması her kayaçta fosil olduğunu kanıtlar.",
+          "2. örnekte fosil görülmemesi hiçbir kayaçta fosil olmadığını kanıtlar.",
+          "1. örnekte geçmişte yaşamış bir bitkiye ait fosil vardır; 2. örneğin incelenen bölümünde fosil görülmemiştir."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
