@@ -13,4 +13,6 @@ Durum: HAZIR DEĞİL. Google onayı garanti edilemez; kullanıcının izni olmad
 
 - Üretimdeki #13 kişisel testte klavye odağını, ekran okuyucuya ilerleme bilgisini, çift tıklamayla soru atlamayı ve sonuç kaydı bildirimini iyileştirdi. Canlı sayfada örnek veriler ve kontrollü 500 yanıtıyla akış doğrulandı; gerçek hesap ve Google Sheets kaydı bu değişiklik için yeniden sınanmadı.
 
+- Üretimdeki #14, birinci sınıf orta sağlık testindeki genel tehlike sırası sorusunu somut el temizliği sorusuyla değiştirdi. Canlı sayfada yeni soru ve dört seçenek doğrulandı; yanıltıcı kart görseli kaldırıldı.
+
 Sonraki iş: yüksek riskli ve tekrar eden soru/görsel adaylarını konu bazında doğrulamak, yayınlanmış içerik değerini artırmak, fiilî AEA/İngiltere/İsviçre rıza akışını ve çocuklara yönelik reklam davranışını ölçmek, AdSense hesabı/ads.txt tutarsızlığını panelde takip etmek. Başvuru izni ancak bu kontrollerden sonra ayrıca istenir.
