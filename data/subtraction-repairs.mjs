@@ -2,7 +2,7 @@
 export const subtractionEasy = [
  ['3 764 − 1 352 işleminin sonucu kaçtır?', '2 412', '2 512', '2 422', '2 312', 'Basamakları hizalayarak çıkarırız: 4 − 2 = 2, 6 − 5 = 1, 7 − 3 = 4 ve 3 − 1 = 2. Sonuç 2 412.'],
  ['2 403 − 581 işleminin sonucu kaçtır?', '1 822', '1 922', '1 832', '1 828', '2 403’ten önce 500 çıkarınca 1 903 kalır. 81 daha çıkarınca 1 822 bulunur.'],
- ['Bir kitaplıkta 1 250 kitap vardı. 320 kitap ödünç verildi. Kitaplıkta kaç kitap kaldı?', '930', '970', '1 030', '1 570', 'Ödünç verilen kitaplar azalır: 1 250 − 300 = 950, 950 − 20 = 930 kitap kalır.'],
+ ['Bir kitaplıkta 1 250 kitap vardı. 320 kitap ödünç verildi. Kitaplıkta kaç kitap kaldı?', '930', '970', '1 030', '1 570', 'Ödünç verilen kitaplar kitaplıktan ayrılır: 1 250 − 300 = 950, 950 − 20 = 930 kitap kalır.'],
  ['5 000 sayısından 1 000 çıkarılırsa kaç kalır?', '4 000', '4 900', '5 100', '6 000', '5 binlikten 1 binlik çıkarılırsa 4 binlik, yani 4 000 kalır.'],
  ['Bir çıkarma işleminde eksilen 2 850, çıkan 700’dür. Fark kaçtır?', '2 150', '2 250', '2 780', '3 550', 'Eksilenden çıkan çıkarılır: 2 850 − 700 = 2 150.'],
  ['Bir okulda 875 öğrenciden 425’i geziye katıldı. Geziye katılmayan kaç öğrenci vardır?', '450', '350', '550', '1 300', 'Toplamdan katılanları çıkarırız: 875 − 425 = 450 öğrenci katılmamıştır.'],
