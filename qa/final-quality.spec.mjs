@@ -10,7 +10,7 @@ for(const grade of [1,2,3,4])test(`grade ${grade} hard test, back navigation and
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const bank=tests.find(t=>t.classLevel===grade&&t.subject==='matematik'&&t.difficulty==='zor'&&(grade!==4||t.topic==='geometrik-cisimler'));
  await page.goto('/'+bank.pageUrl);await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
- await page.locator('[data-choice="1"]').click();await page.locator('#nextQuestion').click();await page.locator('#previousQuestion').click();await expect(page.locator('[data-choice="1"]')).toHaveAttribute('aria-pressed','true');
+ await page.locator('[data-choice="1"]').click();await page.locator('#nextQuestion').click();await page.locator('#previousQuestion').click();await expect(page.locator('[data-choice="1"]')).toHaveAttribute('aria-checked','true');
  for(let i=0;i<10;i++)await page.locator('#skipQuestion').click();
  await expect(page.locator('.result-score')).toHaveText('%0');await expect(page.locator('.wrong-item')).toHaveCount(10);
  await expect(page.getByRole('link',{name:'Bir Üst Seviyeyi Dene'})).toHaveCount(0);
@@ -48,7 +48,7 @@ test('result edge cases calculate score and review only unresolved questions',as
    const correct=await page.evaluate(()=>window.TESTCOZ_TESTS.find(t=>t.classLevel===4&&t.subject==='matematik'&&t.topic==='dogal-sayilar'&&t.difficulty==='zor').questions.map(q=>q.correctAnswer));
    for(let i=0;i<10;i++){
     if(scenario.modes[i]==='blank')await page.locator('#skipQuestion').click();
-    else {const choice=scenario.modes[i]==='correct'?correct[i]:(correct[i]+1)%4;await page.locator(`[data-choice="${choice}"]`).click();await page.locator('#nextQuestion').click();}
+    else {const count=await page.locator('[data-choice]').count();const choice=scenario.modes[i]==='correct'?correct[i]:(correct[i]+1)%count;await page.locator(`[data-choice="${choice}"]`).click();await page.locator('#nextQuestion').click();}
    }
    await expect(page.locator('.result-score')).toHaveText(scenario.score);
    await expect(page.locator('.result-stat-val')).toHaveText(scenario.stats);

@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Okul çantamızı hazırlarken hangi kurala uymamız daha doğrudur?",
+      "choices": [
+        "Ders programına göre hazırlamalıyız.",
+        "Sadece en sevdiğimiz kitapları koymalıyız.",
+        "Çantayı olabildiğince ağır doldurmalıyız."
+      ],
+      "correctAnswer": "Ders programına göre hazırlamalıyız.",
+      "explanation": "Okul çantasını ders programına göre hazırlamak, ertesi gün okulda ihtiyacımız olan araç gereçleri eksiksiz yanımızda bulundurmamızı sağlar.",
+      "subSkill": "Sorumluluk bilinci",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda teneffüs zili çaldığında aşağıdakilerden hangisini yapmak en güvenlidir?",
+      "choices": [
+        "Hızla koşarak bahçeye çıkmak.",
+        "Sınıf kurallarına uygun şekilde dışarı çıkmak.",
+        "Sınıfta tek başına oyun oynamak."
+      ],
+      "correctAnswer": "Sınıf kurallarına uygun şekilde dışarı çıkmak.",
+      "explanation": "Teneffüslerde koşmak düşmelere ve yaralanmalara neden olabilir. Kurallara uygun hareket etmek, hem kendi sağlığımızı hem de arkadaşlarımızın güvenliğini korur.",
+      "subSkill": "Okul kuralları",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki kişilerden hangisi okulumuzda görevli olan kişilerden biridir?",
+      "choices": [
+        "Okul müdürü.",
+        "Komşumuz Ayşe teyze.",
+        "Market sahibi."
+      ],
+      "correctAnswer": "Okul müdürü.",
+      "explanation": "Okul müdürü, okulumuzun düzenini sağlayan ve yöneten, okulumuzda görevli olan en temel yetkili kişidir. Komşular ve esnaflar okulun dışındaki kişilerdir.",
+      "subSkill": "Okul çalışanlarını tanıma",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulumuzun bölümleri ile ilgili hangisi doğrudur?",
+      "choices": [
+        "Kütüphane kitap okumak için ayrılmış bir bölümdür.",
+        "Tuvaletler oyun oynamak için kullanılır.",
+        "Bahçe sadece ders çalışmak için kullanılır."
+      ],
+      "correctAnswer": "Kütüphane kitap okumak için ayrılmış bir bölümdür.",
+      "explanation": "Okulumuzdaki bölümler belirli amaçlara hizmet eder. Kütüphaneler sessizce kitap okumak ve araştırma yapmak için tasarlanmış özel alanlardır.",
+      "subSkill": "Okul mekanlarını tanıma",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda bir arkadaşımız yere düştüğünde ona nasıl davranmalıyız?",
+      "choices": [
+        "Onunla alay etmeliyiz.",
+        "Hemen yanına gidip yardım etmeliyiz.",
+        "Görmezden gelip oyunumuza devam etmeliyiz."
+      ],
+      "correctAnswer": "Hemen yanına gidip yardım etmeliyiz.",
+      "explanation": "Okul bir topluluk alanıdır. Arkadaşlarımız zor duruma düştüğünde onlara yardım etmek, yardımlaşma ve dayanışma değerlerini güçlendirir.",
+      "subSkill": "Arkadaşlık ilişkileri",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi okuldaki ortak kullanım alanlarından biridir?",
+      "choices": [
+        "Kendi evimizin mutfağı.",
+        "Okul kantini.",
+        "Annemizin odası."
+      ],
+      "correctAnswer": "Okul kantini.",
+      "explanation": "Okul kantini, tüm öğrencilerin ve öğretmenlerin yararlandığı, okul binası içinde bulunan ortak kullanım alanlarından biridir. Evdeki alanlar kişiseldir.",
+      "subSkill": "Okul mekanlarını tanıma",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul eşyalarımızı korumak için aşağıdakilerden hangisini yapmalıyız?",
+      "choices": [
+        "Sıraların üzerine resim çizmeliyiz.",
+        "Eşyalarımızı temiz ve düzenli kullanmalıyız.",
+        "Kitaplarımızı yırtıp atmalıyız."
+      ],
+      "correctAnswer": "Eşyalarımızı temiz ve düzenli kullanmalıyız.",
+      "explanation": "Okul eşyaları hepimizin ortak malıdır. Onları temiz ve düzenli kullanmak, okul kaynaklarını korumak adına vatandaşlık bilincinin temel bir parçasıdır.",
+      "subSkill": "Okul kaynaklarını koruma",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda öğretmenimize bir şey sormak istediğimizde ne yapmalıyız?",
+      "choices": [
+        "Sözünü kesip hemen konuşmalıyız.",
+        "Parmağımızı kaldırıp sıra beklemeliyiz.",
+        "Bağırarak yerimizden seslenmeliyiz."
+      ],
+      "correctAnswer": "Parmağımızı kaldırıp sıra beklemeliyiz.",
+      "explanation": "Sınıf içi iletişim kurallarından en önemlisi söz hakkı almaktır. Parmağımızı kaldırmak, konuşma sırasına saygı duyduğumuzu ve düzeni bozmadığımızı gösterir.",
+      "subSkill": "İletişim becerileri",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Öğretmenimiz ders anlatırken nasıl davranmalıyız?",
+      "choices": [
+        "Dersin bitmesini bekleyip uyumalıyız.",
+        "Sessizce öğretmenimizi dinlemeliyiz.",
+        "Arkadaşımızla fısıldaşarak konuşmalıyız."
+      ],
+      "correctAnswer": "Sessizce öğretmenimizi dinlemeliyiz.",
+      "explanation": "Ders sırasında öğretmenimizi dinlemek, öğrenme sürecinin verimli geçmesi için çok önemlidir. Sessiz kalmak, diğer arkadaşlarımızın da dinlemesine yardımcı olur.",
+      "subSkill": "Derse katılım",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda arkadaşımızla bir oyuncak paylaşma konusunda anlaşmazlık yaşarsak ne yapmalıyız?",
+      "choices": [
+        "Kavga edip oyuncağı zorla almalıyız.",
+        "Öğretmenimizden yardım isteyerek çözüm bulmalıyız.",
+        "Oyuncağı kırıp kimsenin oynamamasını sağlamalıyız."
+      ],
+      "correctAnswer": "Öğretmenimizden yardım isteyerek çözüm bulmalıyız.",
+      "explanation": "Anlaşmazlık yaşadığımızda şiddete başvurmak yerine bir büyüğümüzden, yani öğretmenimizden çözüm önerisi almak en doğru ve medeni yöntemdir.",
+      "subSkill": "Problem çözme",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "ben-ve-okulum",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-04T16:03:14.245Z"
+}

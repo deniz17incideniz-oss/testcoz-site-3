@@ -51,6 +51,7 @@ export async function diagnoseSheetsRead() {
     const rows = (await values.json()).values || [];
     const expected = ["Kayıt Tarihi", "Öğrenci Adı", "Sınıf", "Günlük Soru Hedefi", "İletişim Numarası", "E-posta", "Şifre Hash", "KVKK Onayı", "Kayıt Kaynağı", "Kullanıcı Durumu"];
     report.registerRead = "PASS";
+    report.sessionVersionColumn = rows[0]?.[10] === 'Oturum Sürümü' ? 'READY' : rows.some(row => row[10]) ? 'CONFLICT' : 'EMPTY_AVAILABLE';
     report.registerHeaders = !rows.length ? "EMPTY" : expected.every((title, index) => rows[0][index] === title) ? "MATCH" : "MISMATCH";
   } catch (error) {
     report.error = error instanceof SheetsServiceError ? error.code : "DIAGNOSTIC_FAILED";

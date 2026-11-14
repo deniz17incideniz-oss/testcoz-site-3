@@ -7,7 +7,7 @@ test('first grade hygiene question has one clear answer without misleading card 
  await page.locator('#skipQuestion').click();
  const area=page.locator('#questionArea');
  await expect(area).toContainText('Elif ellerini sabunla');
- await expect(area.locator('[data-choice]')).toHaveCount(4);
+ await expect(area.locator('[data-choice]')).toHaveCount(3);
  await expect(area.locator('img')).toHaveCount(0);
  await area.locator('[data-choice]').filter({hasText:'Can’ın ellerini peçeteyle silmesi'}).click();
  await page.locator('#nextQuestion').click();

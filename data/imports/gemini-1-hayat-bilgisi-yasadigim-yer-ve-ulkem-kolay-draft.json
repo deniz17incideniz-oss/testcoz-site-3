@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Yaşadığımız yerin adını ve açık adresimizi bilmemizin en önemli sebebi nedir?",
+      "choices": [
+        "Sadece arkadaşlara söylemek için",
+        "Kaybolduğumuzda yardım istemek için",
+        "Okula daha hızlı gitmek için"
+      ],
+      "correctAnswer": "Kaybolduğumuzda yardım istemek için",
+      "explanation": "Açık adresimizi bilmek, kendimizi güvende hissetmemizi sağlar ve herhangi bir kaybolma durumunda ailemize veya güvenlik güçlerine kolayca ulaşmamıza yardımcı olur.",
+      "subSkill": "Güvenlik bilinci",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi yaşadığımız yerin çevresini temiz tutmak için yapmamız gereken bir davranıştır?",
+      "choices": [
+        "Çöpleri yere atmak",
+        "Çöpleri çöp kutusuna atmak",
+        "Sokak hayvanlarını korkutmak"
+      ],
+      "correctAnswer": "Çöpleri çöpleri çöp kutusuna atmak",
+      "explanation": "Yaşadığımız çevreyi temiz tutmak hem bizim hem de diğer canlıların sağlığı için çok önemlidir. Çöplerimizi her zaman uygun olan çöp kutularına atmalıyız.",
+      "subSkill": "Çevre bilinci",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ülkemizin adını aşağıdakilerden hangisidir?",
+      "choices": [
+        "Ankara",
+        "Türkiye",
+        "İstanbul"
+      ],
+      "correctAnswer": "Türkiye",
+      "explanation": "Ülkemiz, üzerinde yaşadığımız toprakların ve milletimizin adıdır. Türkiye, bizim vatanımızdır ve adını bilmek vatandaşlık görevimizin bir parçasıdır.",
+      "subSkill": "Vatan sevgisi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulumuzun bulunduğu çevrede yer alan kamu kurumlarından hangisi sağlığımızla ilgilenir?",
+      "choices": [
+        "Sağlık Ocağı",
+        "Kırtasiye",
+        "Oyuncakçı"
+      ],
+      "correctAnswer": "Sağlık Ocağı",
+      "explanation": "Sağlık ocağı, hastalandığımızda gittiğimiz veya aşılarımızı olduğumuz bir kamu kurumudur. Kırtasiye okul malzemeleri, oyuncakçı ise eğlence ürünleri satar.",
+      "subSkill": "Çevre okuryazarlığı",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ülkemizin başkenti aşağıdakilerden hangisidir?",
+      "choices": [
+        "İzmir",
+        "Bursa",
+        "Ankara"
+      ],
+      "correctAnswer": "Ankara",
+      "explanation": "Türkiye Cumhuriyeti'nin yönetim merkezi, yani başkenti Ankara'dır. Ankara, ülkemizin kalbidir ve devlet işlerinin yürütüldüğü merkezdir.",
+      "subSkill": "Ülke bilgisi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Sokakta yürürken bir yardım çantasını veya bir cüzdanı yerde bulursak ne yapmalıyız?",
+      "choices": [
+        "Hemen alıp kendimize almalıyız",
+        "Bir büyüğümüze veya polise bildirmeliyiz",
+        "Kimseye söylemeden orada bırakmalıyız"
+      ],
+      "correctAnswer": "Bir büyüğümüze veya polise bildirmeliyiz",
+      "explanation": "Bulduğumuz kayıp eşyalar başkasına aittir. Bu eşyaların sahibine ulaşabilmesi için bir yetişkinden yardım istemek veya polise haber vermek en dürüst davranıştır.",
+      "subSkill": "Sorumluluk ve vatandaşlık",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi yaşadığımız mahallede bulunan ortak kullanım alanlarından biridir?",
+      "choices": [
+        "Park",
+        "Kendi odamız",
+        "Annemizin mutfağı"
+      ],
+      "correctAnswer": "Park",
+      "explanation": "Park, mahalledeki tüm insanların yararlandığı bir ortak kullanım alanıdır. Evimizin içindeki odalarımız ve mutfağımız ise özel alanlarımızdır.",
+      "subSkill": "Ortak kullanım alanları",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ülkemizin bayrağının rengi nedir?",
+      "choices": [
+        "Mavi ve beyaz",
+        "Kırmızı ve beyaz",
+        "Sarı ve yeşil"
+      ],
+      "correctAnswer": "Kırmızı ve beyaz",
+      "explanation": "Türk bayrağı, ülkemizin bağımsızlığını temsil eder ve renkleri kırmızı zemin üzerine beyaz ay ve yıldızdan oluşur. Bu bizim ulusal değerimizdir.",
+      "subSkill": "Milli değerler",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "Kırmızı zemin üzerinde beyaz bir ay ve yıldızın olduğu Türk bayrağı görseli.",
+      "imageAlt": "Türk bayrağı"
+    },
+    {
+      "question": "Mahallemizde yapılan bir şenlikte yeni tanıştığımız birine kendimizi tanıtırken hangisini söylememeliyiz?",
+      "choices": [
+        "Adımızı ve soyadımızı",
+        "Okuduğumuz okulun adını",
+        "Evimizin kapı numarasını"
+      ],
+      "correctAnswer": "Evimizin kapı numarasını",
+      "explanation": "Tanımadığımız kişilere açık adresimizi veya evimizin kapı numarasını vermek tehlikelidir. Sadece isim gibi temel bilgileri paylaşmak yeterlidir.",
+      "subSkill": "Güvenlik ve mahremiyet",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Hangisi bir ülkenin yönetildiği yeri temsil eden resmi bir kurumdur?",
+      "choices": [
+        "Türkiye Büyük Millet Meclisi",
+        "Manav",
+        "Kütüphane"
+      ],
+      "correctAnswer": "Türkiye Büyük Millet Meclisi",
+      "explanation": "Türkiye Büyük Millet Meclisi (TBMM), ülkemizin yasalarının yapıldığı ve millet iradesinin temsil edildiği en önemli yönetim kurumudur.",
+      "subSkill": "Ülke yönetimi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_NOT_VALIDATED",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "yasadigim-yer-ve-ulkem",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-05T12:44:31.823Z"
+}

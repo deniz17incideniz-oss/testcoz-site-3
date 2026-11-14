@@ -2,7 +2,7 @@ name: Quality checks
 on:
   pull_request:
   push:
-    branches: [main, codex/final-quality-pass]
+    branches: [main, 'codex/**']
 permissions:
   contents: read
 jobs:
@@ -14,11 +14,14 @@ jobs:
         with:
           node-version: 22
       - run: npm run audit:release-content
+      - run: npm run audit:editorial-gate
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: release-content-evidence
-          path: outputs/release-content.json
+          path: |
+            outputs/release-content.json
+            outputs/semantic-risks.json
   quality:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -33,6 +36,8 @@ jobs:
       - run: git diff --exit-code
       - run: npm test
       - run: npm run audit:questions
+      - run: npm run audit:deep-quality
+      - run: node scripts/audit-content-similarity.mjs
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
       - uses: actions/upload-artifact@v4
@@ -42,3 +47,12 @@ jobs:
           path: |
             outputs/
             test-results/
+  session-revocation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run audit:session-revocation
