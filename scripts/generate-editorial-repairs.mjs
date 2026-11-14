@@ -33,7 +33,7 @@ for(const p of repairs){
  const remove=[];
  if(q.image&&!p.fields){
   const evidence=visualEvidence[key];
-  if(evidence){fields.visual={type:'cards',title:evidence[0],data:evidence[1]};fields.imageAlt=Object.values(evidence[1]).join('. ');}
+  if(evidence){fields.visual={type:evidence[2]||'cards',title:evidence[0],data:evidence[1]};fields.imageAlt=Object.values(evidence[1]).join('. ');}
   else {assert.equal(t.testNumber,1,`Test 2 visual requires an authored replacement: ${key}`);remove.push('image','imageAlt','visual');fields.hasVisual=false;}
  }
  const before=structuredClone(q);Object.assign(q,fields);for(const name of remove)delete q[name];

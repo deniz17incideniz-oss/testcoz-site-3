@@ -729,9 +729,9 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
-      "content_sha256": "14111e451be3c9ea1653fdb3c1c4fd0eb992b4d24ddbd03432145ef53227d97f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "9442eb0b6b2456c19975fd1d4a07c7b79ade5aa286eb08fe0da4e1a82099603a",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Başa uygun kask ve bağlı kayış soru, harfsiz görsel ve alt metinde tutarlı; Ela tek uygun cevaptır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
@@ -1191,9 +1191,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
-      "content_sha256": "64b7961aabdf117697555c50b922efd5fcc0a6d4ee462a88d689b4d5ec735a06",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "759b45153c5ac66d881317524e3a22f70b20561b56861319ea918e9097aa012b",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Her iki kaskın uygunluğu verilmiş; kayışı bağlayan İpek tek uygun cevaptır. Harfsiz görsel ve alt metin davranışlarla tutarlı. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
@@ -1203,9 +1203,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
-      "content_sha256": "de5d0ae40255d453cb1b3df26799de5f1fb3591b2f93907bbd9f9526739de238",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "7341f4dd228b8c3d6a4492704e5d858413beeb10b669b40f94e3cd175622bff3",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Bulunan ilaca dokunmadan yetişkine bildirmek güvenli ve tek uygun cevaptır; harfsiz görsel ve alt metin iki davranışı doğru aktarır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",

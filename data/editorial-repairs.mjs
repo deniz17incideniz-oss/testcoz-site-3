@@ -71,9 +71,9 @@ for(const [index,row,subSkill] of [
 ]) repairs.push({slug:'3-sinif-hayat-bilgisi-doga-ve-cevre-orta-test-1',index,row,reason:'reviewed_grade_three_environment_test',metadata:{subSkill,questionType:'cikarim'}});
 // Individually reviewed P0/P1 repairs in grade 3 medium; untouched records keep their original choices.
 for(const [index,row,subSkill,questionType] of [
- [1,['Bisiklete binmeden önce İpek kaskının kayışını bağlıyor; Can ise kayışı açık bırakıyor. Hangisi kaskı daha güvenli kullanır?', 'İpek', 'Can', 'İkisi de', 'Kaskın başa uygun oturması ve kayışının bağlanması düşme durumunda başı korumaya yardımcı olur.'],'Kask kullanımı','gorsel-okuma'],
+ [1,['İpek ve Can başlarına uygun kask takıyor. Bisiklete binmeden önce İpek kayışını bağlıyor; Can ise açık bırakıyor. Hangisi kaskı daha güvenli kullanır?', 'İpek', 'Can', 'İkisi de', 'Kaskın başa uygun oturması ve kayışının bağlanması düşme durumunda başı korumaya yardımcı olur.'],'Kask kullanımı','gorsel-okuma'],
  [4,['Hangi durumda 112 Acil Çağrı Merkezi aranmalıdır?', 'Binada görülen yangın için acil yardım gerektiğinde', 'Bir oyunun kuralları merak edildiğinde', 'Okul çantasındaki kalem bulunamadığında', '112, yangın gibi acil durumlarda yardım istemek için kullanılır; gereksiz çağrılar yardım ulaşmasını geciktirebilir.'],'Acil yardım','cikarim'],
- [7,['Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise ilacı izinsiz kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?', 'Ece’nin yetişkine haber vermesi', 'Arda’nın ilacı izinsiz kullanması', 'İkisinin de ilacı denemesi', 'İlaçlar yanlış kullanıldığında zarar verebilir. Çocuklar ilaç kullanmadan önce yetişkin ve sağlık uzmanı desteği almalıdır.'],'İlaç güvenliği','gorsel-okuma'],
+ [7,['Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise bulduğu ilacı kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?', 'Ece’nin yetişkine haber vermesi', 'Arda’nın bulduğu ilacı kullanması', 'İkisinin de ilacı denemesi', 'İlaçlar yanlış kullanıldığında zarar verebilir. Bulduğun ilaçlara dokunmadan bir yetişkine haber vermelisin.'],'İlaç güvenliği','gorsel-okuma'],
  [3,['Okulda koridordaki kırık camı gören bir öğrenci ne yapmalıdır?', 'Camdan uzak durup bir yetişkine haber vermelidir.', 'Camları çıplak elle toplamalıdır.', 'Camın üstünden koşmalıdır.', 'Kırık cam kesebilir. Öğrencinin camdan uzak durup bir yetişkine haber vermesi yardım alınmasını sağlar.'],'Kesici maddelerden korunma','cikarim'],
  [5,['Bir yaya, geçitte yeşil ışığı bekledikten sonra çevresindeki araçları da kontrol ediyor. Bu davranışın amacı nedir?', 'Karşıya güvenli geçişe yardımcı olmak', 'Dengeli besin alımını sağlamak', 'Dişleri temizlemek', 'Yaya ışığı ve araç kontrolü karşıya geçerken trafik durumunu değerlendirmeye yardımcı olur.'],'Yaya güvenliği','cikarim'],
  [8,['Dengeli beslenmek isteyen Ece, çantasında yalnızca bisküvi olduğunu fark ediyor. Çeşitliliği artırmak için hangisini ekleyebilir?', 'Meyve ve peynirli sandviç', 'Yalnızca ikinci bir paket bisküvi', 'Yalnızca şekerli içecek', 'Meyve ve peynirli sandviç eklemek, yalnızca bisküvi içeren öğüne farklı besinler katar.'],'Dengeli beslenme','cikarim'],
@@ -421,8 +421,8 @@ const shortRepairs = [
 ];
 for(const [topic,index,row] of shortRepairs)repairs.push({slug:`2-sinif-ingilizce-${topic}-zor-test-2`,index,row,reason:'off_topic_translation_template'});
 Object.assign(visualEvidence,{
- '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['İki öğrencinin kask kullanımı',{first:'İpek: kaskının kayışını bağlıyor',second:'Can: kask kayışını açık bırakıyor'}],
- '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:7':['İlaç kutusu bulan iki öğrenci',{first:'Ece: bir yetişkine haber veriyor',second:'Arda: ilacı izinsiz kullanıyor'}]
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['İki öğrencinin kask kullanımı',{first:'İpek: kaskının kayışını bağlıyor',second:'Can: kask kayışını açık bırakıyor'},'plainCards'],
+ '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:7':['İlaç kutusu bulan iki öğrenci',{first:'Ece: bir yetişkine haber veriyor',second:'Arda: bulduğu ilacı kullanıyor'},'plainCards']
 });
 Object.assign(visualEvidence,{
  '3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:9':['İki öğrencinin diş fırçası kullanımı',{first:'Zeynep: kendi diş fırçasını kullanıyor',second:'Arda: arkadaşının fırçasını kullanıyor'}]
@@ -436,7 +436,7 @@ Object.assign(visualEvidence,{
  '2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Kütüphanedeki iki öğrenci',{first:'Deniz: kitabı özenle kullanıyor',second:'Bora: sayfaları yırtıyor'}]
 });
 Object.assign(visualEvidence,{
- '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['Bisiklet kullanan iki öğrenci',{first:'Ela: kaskını takıp kayışını bağlıyor',second:'Can: kaskını takmıyor'}],
+ '2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1:1':['Bisiklet kullanan iki öğrenci',{first:'Ela: başına uygun kaskı takıp kayışını bağlıyor',second:'Can: kaskını takmıyor'},'plainCards'],
  '1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1:1':['Parktaki iki öğrenci',{first:'Ece: çöpünü kutuya atıyor',second:'Ali: çöpünü yere bırakıyor'}]
 });
 Object.assign(visualEvidence,{

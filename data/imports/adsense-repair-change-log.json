@@ -8623,7 +8623,7 @@
         ]
       },
       "after": {
-        "question": "Ela bisiklet sürerken kaskını takıp kayışını bağlıyor. Can kaskını takmıyor. Hangi davranış başı korumaya yardımcı olur?",
+        "question": "Ela bisiklet sürerken başına uygun kaskını takıp kayışını bağlıyor. Can kaskını takmıyor. Hangi davranış başı korumaya yardımcı olur?",
         "choices": [
           "İkisinin de kasksız sürmesi",
           "Ela’nın kaskını uygun takması",
@@ -8633,15 +8633,15 @@
         "explanation": "Başa uygun takılmış ve kayışı bağlanmış kask, düşme durumunda baş yaralanması riskini azaltmaya yardımcı olur.",
         "image": "images/tests/2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Bisiklet kullanan iki öğrenci",
           "data": {
-            "first": "Ela: kaskını takıp kayışını bağlıyor",
+            "first": "Ela: başına uygun kaskı takıp kayışını bağlıyor",
             "second": "Can: kaskını takmıyor"
           }
         },
         "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
-        "imageAlt": "Ela: kaskını takıp kayışını bağlıyor. Can: kaskını takmıyor",
+        "imageAlt": "Ela: başına uygun kaskı takıp kayışını bağlıyor. Can: kaskını takmıyor",
         "options": [
           "İkisinin de kasksız sürmesi",
           "Ela’nın kaskını uygun takması",
@@ -14177,7 +14177,7 @@
         ]
       },
       "after": {
-        "question": "Bisiklete binmeden önce İpek kaskının kayışını bağlıyor; Can ise kayışı açık bırakıyor. Hangisi kaskı daha güvenli kullanır?",
+        "question": "İpek ve Can başlarına uygun kask takıyor. Bisiklete binmeden önce İpek kayışını bağlıyor; Can ise açık bırakıyor. Hangisi kaskı daha güvenli kullanır?",
         "choices": [
           "İkisi de",
           "İpek",
@@ -14187,7 +14187,7 @@
         "explanation": "Kaskın başa uygun oturması ve kayışının bağlanması düşme durumunda başı korumaya yardımcı olur.",
         "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "İki öğrencinin kask kullanımı",
           "data": {
             "first": "İpek: kaskının kayışını bağlıyor",
@@ -14337,29 +14337,29 @@
         ]
       },
       "after": {
-        "question": "Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise ilacı izinsiz kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?",
+        "question": "Ece bir ilaç bulunca yetişkine haber veriyor. Arda ise bulduğu ilacı kullanıyor. Hangi davranış ilaçların yanlış kullanımını önlemeye yardımcı olur?",
         "choices": [
           "İkisinin de ilacı denemesi",
           "Ece’nin yetişkine haber vermesi",
-          "Arda’nın ilacı izinsiz kullanması"
+          "Arda’nın bulduğu ilacı kullanması"
         ],
         "correctAnswer": 1,
-        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Çocuklar ilaç kullanmadan önce yetişkin ve sağlık uzmanı desteği almalıdır.",
+        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Bulduğun ilaçlara dokunmadan bir yetişkine haber vermelisin.",
         "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "İlaç kutusu bulan iki öğrenci",
           "data": {
             "first": "Ece: bir yetişkine haber veriyor",
-            "second": "Arda: ilacı izinsiz kullanıyor"
+            "second": "Arda: bulduğu ilacı kullanıyor"
           }
         },
         "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
-        "imageAlt": "Ece: bir yetişkine haber veriyor. Arda: ilacı izinsiz kullanıyor",
+        "imageAlt": "Ece: bir yetişkine haber veriyor. Arda: bulduğu ilacı kullanıyor",
         "options": [
           "İkisinin de ilacı denemesi",
           "Ece’nin yetişkine haber vermesi",
-          "Arda’nın ilacı izinsiz kullanması"
+          "Arda’nın bulduğu ilacı kullanması"
         ],
         "difficulty": "orta",
         "skill": "Sağlığım ve Güvenliğim",

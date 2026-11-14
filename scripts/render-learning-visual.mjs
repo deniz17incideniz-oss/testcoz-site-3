@@ -4,15 +4,15 @@ export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
- if(type==='cards') {
+ if(type==='cards'||type==='plainCards') {
   const labels={correct:'A',wrong:'B',first:'A',second:'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
   const lines=Object.entries(data).filter(([,v])=>['string','number'].includes(typeof v));
   let y=96,art='';
   for(const [key,value] of lines) {
    const words=String(value).split(/\s+/),wrapped=[''];for(const word of words){if((wrapped.at(-1)+' '+word).length>46)wrapped.push(word);else wrapped[wrapped.length-1]+=(wrapped.at(-1)?' ':'')+word;}
-   const height=wrapped.length*30+44;art+=rect(45,y,630,height,'#f1f5f9');
-   art+=`<text x="65" y="${y+27}" class="value">${esc(labels[key]||'Bilgi')}</text>`;
-   art+=wrapped.map((line,i)=>`<text x="65" y="${y+57+i*30}" style="font:22px Arial;fill:#1f2937">${esc(line)}</text>`).join('');y+=height+14;
+   const plain=type==='plainCards',height=wrapped.length*30+(plain?30:44);art+=rect(45,y,630,height,'#f1f5f9');
+   if(!plain)art+=`<text x="65" y="${y+27}" class="value">${esc(labels[key]||'Bilgi')}</text>`;
+   art+=wrapped.map((line,i)=>`<text x="65" y="${y+(plain?37:57)+i*30}" style="font:22px Arial;fill:#1f2937">${esc(line)}</text>`).join('');y+=height+14;
   }
   return {art,height:Math.max(300,y+28)};
  }
