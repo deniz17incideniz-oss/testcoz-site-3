@@ -3496,62 +3496,62 @@
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-1",
       "content_sha256": "7ac45b4489efadd07eae1b4a5d28e13ae88be969adea36cbedfa5875ebda95b8",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: İtme duran arabayı hareket ettirebilir; elle tutma hareketli arabayı durdurabilir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-2",
-      "content_sha256": "c14c3c9076f96ee76040e33adc2f9e07abaa555050b12380cd73600efd0994df",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "c64fc444573a6d72286d26a8740a2a4ace4c66c9d4f9c423cdfd1633f7b5397c",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Top kuzeyden doğuya yönelmiştir; ne kadar hızlı gittiğinin değişip değişmediği verilen bilgilerden çıkarılamaz. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-3",
-      "content_sha256": "a7aaecf05016201b45a3448a006ee46203552ea9d91acefb4a3ce4695c3aca68",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "8c82c852e8b0920862beeb023fa681b21c4b7659012ebda23728871c2d6e51b4",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eşit sürede B 6, A 4 eş karo gider; B o aralıkta daha hızlıdır. Sayısal karşılaştırmanın 3. sınıf kazanım düzeyi ayrıca değerlendirilmeli. Harfsiz görsel ve alternatif metin kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-4",
       "content_sha256": "0b76405284d9ab3e36b0922b708dac556e4055880107c216e6f089389e60a773",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Salıncak sallanma, sabit eksen çevresindeki tekerlek dönme hareketi yapar. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-5",
       "content_sha256": "0639471565e0d14dc28da661e562925bea67c84e77296fde016547754f1ecfc1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı araba ve rampa koşullarında farklı zemin sonucu etkilemiş olabilir; bütün arabalara genellenmez. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-6",
-      "content_sha256": "d3ae5c3b7dad6b58142391eecd6bd457dc558316ab1e95616812b3ed8cad28c6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "f3925578d11015a8324f5639abbc70fffdb7b3ae4878ba21b1b1add0cd3508a2",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: A hızlanıp yavaşlamadan dönerken yön değiştirir; B düz yolda yavaşlar. Harfsiz karttaki araç adları ve alt metin uyumlu. Harfsiz görsel ve alternatif metin kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-7",
       "content_sha256": "c186d2ba774ca5b30063cb6b9618d5b0bf50a121a08b50864d2d37db49396011",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Çekmece kendine doğru çekilerek açılır, dış yüzünden itilerek kapatılır. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-8",
       "content_sha256": "36160c0613fe6bfb6f8b7cf6f26fb81fcdb4f96214357b81c57515abdd750d07",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kuvvet süngerin biçimini veya topun hareketini değiştirebilir. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-9",
-      "content_sha256": "838c5be1dd1c15af3891a3aac34fbc455bac96ded35c1d51a0d5aa8ee8a7322c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "194faacacf88ba4f8aa52f2a7092848159be498e3261355a37cf5483edee19d0",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eşit aralıklarda A 2’den 4’e, B 5’ten 3’e karo gider; sayısal karşılaştırmanın kazanım düzeyi ayrıca değerlendirilmeli. Harfsiz görsel ve alternatif metin kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-10",
-      "content_sha256": "6c307af77b59d3b8146b54d726d16eed60423efa6dcff7898012f2904631307d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "398e6da2aad9e899b7d6a2d7678fc8c404893753a140efc0b342c3debfc042d9",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Top çarpışma sonrası geri döndüğünde yön değişir; ne kadar hızlı gittiğinin aynı olduğu verilen bilgilerden çıkmaz. Harfsiz görsel ve alternatif metin kontrol edildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-1",

@@ -42150,21 +42150,21 @@
         ]
       },
       "after": {
-        "question": "Kuzeye giden bir topa yandan vuruluyor ve top doğuya yöneliyor. Topun aldığı yolun süreleri ölçülmüyor. Hangi sonuç kesin olarak söylenebilir?",
+        "question": "Kuzeye giden bir topa yandan vuruluyor ve top doğuya yöneliyor. Topun aldığı yol ve hareket süresi ölçülmüyor. Hangi sonuç kesin olarak söylenebilir?",
         "choices": [
-          "Topun hızı kesinlikle aynı kalmıştır.",
+          "Topun ne kadar hızlı gittiği kesinlikle değişmemiştir.",
           "Topun hareket yönü değişmiştir.",
-          "Topun hızı kesinlikle artmıştır."
+          "Top kesinlikle daha hızlı gitmeye başlamıştır."
         ],
         "correctAnswer": 1,
-        "explanation": "Kuzeyden doğuya yönelmesi hareket yönünün değiştiğini gösterir. Süre ve yol ölçülmediği için hızın artıp artmadığı ya da aynı kalıp kalmadığı söylenemez.",
+        "explanation": "Topun kuzeyden doğuya yönelmesi, hareket yönünün değiştiğini gösterir. Verilen bilgiler topun ne kadar hızlı gittiğinin değişip değişmediğini göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-2",
         "options": [
-          "Topun hızı kesinlikle aynı kalmıştır.",
+          "Topun ne kadar hızlı gittiği kesinlikle değişmemiştir.",
           "Topun hareket yönü değişmiştir.",
-          "Topun hızı kesinlikle artmıştır."
+          "Top kesinlikle daha hızlı gitmeye başlamıştır."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
@@ -42237,7 +42237,7 @@
         "explanation": "Eşit sürelerde alınan yollar karşılaştırılır. B altı, A dört eş karo geçtiğinden B daha hızlıdır; süre eşitliği tek başına hız eşitliği değildir.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Eşit süreli yollar",
           "data": {
             "first": "A: 2 saniyede 4 karo",
@@ -42450,29 +42450,29 @@
         ]
       },
       "after": {
-        "question": "İki otobüs hareket kartında A virajı dönerken aynı hızla gidiyor, B ise düz yolda yavaşlıyor. Hangi eşleştirme doğrudur?",
+        "question": "A otobüsü hızlanıp yavaşlamadan virajı dönüyor, B otobüsü ise düz yolda yavaşlıyor. Hangi eşleştirme doğrudur?",
         "choices": [
-          "A’nın hızı, B’nin yönü değişir.",
-          "İkisinin de yalnız yönü değişir.",
-          "A’nın yönü, B’nin hızı değişir."
+          "A hızlanır, B yön değiştirir.",
+          "İkisi de yalnız yön değiştirir.",
+          "A yön değiştirir, B yavaşlar."
         ],
         "correctAnswer": 2,
-        "explanation": "A virajı döndüğü için yön değiştirir; kartta hızı aynı kalır. B düz yolda yavaşladığı için hızı değişir, yönünün değiştiği söylenmez.",
+        "explanation": "A virajı döndüğü için yön değiştirir; hızlanıp yavaşlamadığı belirtilmiştir. B ise düz yolda yavaşlar.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Otobüs hareketleri",
           "data": {
-            "first": "A: virajda aynı hız",
+            "first": "A: hızlanıp yavaşlamadan virajı dönüyor",
             "second": "B: düz yolda yavaşlıyor"
           }
         },
         "id": "3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-6",
-        "imageAlt": "A: virajda aynı hız. B: düz yolda yavaşlıyor",
+        "imageAlt": "A: hızlanıp yavaşlamadan virajı dönüyor. B: düz yolda yavaşlıyor",
         "options": [
-          "A’nın hızı, B’nin yönü değişir.",
-          "İkisinin de yalnız yönü değişir.",
-          "A’nın yönü, B’nin hızı değişir."
+          "A hızlanır, B yön değiştirir.",
+          "İkisi de yalnız yön değiştirir.",
+          "A yön değiştirir, B yavaşlar."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
@@ -42680,10 +42680,10 @@
           "A’nın aldığı yol artmış, B’nin aldığı yol azalmıştır."
         ],
         "correctAnswer": 2,
-        "explanation": "A’nın yolu 2 karodan 4 karoya çıkar; B’nin yolu 5 karodan 3 karoya iner. Kayıtlar her aralıktaki toplam yolu gösterir; hareketin her anındaki hızı göstermez.",
+        "explanation": "A’nın yolu 2 karodan 4 karoya çıkar; B’nin yolu 5 karodan 3 karoya iner. Kayıtlar her aralıktaki toplam yolu gösterir; her andaki hareketi göstermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Eşit zaman aralıkları",
           "data": {
             "first": "A: önce 2, sonra 4 karo",
@@ -42763,13 +42763,13 @@
         "choices": [
           "Çarpışmadan sonra topun hareket yönü değişmiştir.",
           "Top bütün yol boyunca aynı yönde gitmiştir.",
-          "Topun çarpışma öncesi ve sonrası hızı kesinlikle eşittir."
+          "Topun çarpmadan önce ve sonra ne kadar hızlı gittiği kesinlikle aynıdır."
         ],
         "correctAnswer": 0,
-        "explanation": "Duvara doğru gitmek ile geri dönmek zıt yönleri gösterir. Yalnız yön bilgisi verildiği için çarpışma öncesi ve sonrası hızların eşit olduğu çıkarılamaz.",
+        "explanation": "Duvara doğru gitmek ile geri dönmek farklı yönlerdir. Verilen bilgi, topun çarpmadan önce ve sonra ne kadar hızlı gittiğinin aynı olup olmadığını göstermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-hareketi-kesfediyorum-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Topun yolu",
           "data": {
             "first": "Duvara doğru hareket",
@@ -42781,7 +42781,7 @@
         "options": [
           "Çarpışmadan sonra topun hareket yönü değişmiştir.",
           "Top bütün yol boyunca aynı yönde gitmiştir.",
-          "Topun çarpışma öncesi ve sonrası hızı kesinlikle eşittir."
+          "Topun çarpmadan önce ve sonra ne kadar hızlı gittiği kesinlikle aynıdır."
         ],
         "difficulty": "zor",
         "skill": "Hareketi Keşfediyorum",
