@@ -5015,20 +5015,20 @@
         ]
       },
       "after": {
-        "question": "Okulda çalışan kişilerden biri hangisidir?",
+        "question": "Okulun yönetiminden kim sorumludur?",
         "choices": [
-          "Mahalledeki manav",
-          "Şehirler arası otobüs şoförü",
+          "Servis şoförü",
+          "Kantin çalışanı",
           "Okul müdürü"
         ],
         "correctAnswer": 2,
-        "explanation": "Okul müdürü okulda görev yapar ve okulun yönetiminden sorumludur.",
+        "explanation": "Okul müdürü okulun yönetiminden sorumludur.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
         "options": [
-          "Mahalledeki manav",
-          "Şehirler arası otobüs şoförü",
+          "Servis şoförü",
+          "Kantin çalışanı",
           "Okul müdürü"
         ],
         "difficulty": "kolay",
@@ -5084,21 +5084,21 @@
         ]
       },
       "after": {
-        "question": "Okul kütüphanesi ne için kullanılabilir?",
+        "question": "Okulda kitapları alıp okuduktan sonra geri getirebileceğimiz bölüm hangisidir?",
         "choices": [
-          "Kitap okumak için",
-          "Top oynamak için",
-          "Yemek pişirmek için"
+          "Kütüphane",
+          "Spor salonu",
+          "Yemekhane"
         ],
         "correctAnswer": 0,
-        "explanation": "Kütüphanede kitaplara ulaşabilir ve kitap okuyabilirsin.",
+        "explanation": "Kitabı kütüphaneden alıp okuduktan sonra geri getirebiliriz.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
         "options": [
-          "Kitap okumak için",
-          "Top oynamak için",
-          "Yemek pişirmek için"
+          "Kütüphane",
+          "Spor salonu",
+          "Yemekhane"
         ],
         "difficulty": "kolay",
         "skill": "Ben ve Okulum",
@@ -5228,21 +5228,21 @@
         ]
       },
       "after": {
-        "question": "Hangisi okuldaki ortak kullanım alanıdır?",
+        "question": "Okul bahçesi nasıl bir alandır?",
         "choices": [
-          "Evdeki mutfak",
-          "Evdeki yatak odası",
-          "Okul bahçesi"
+          "Sadece bir öğrencinin kullandığı alan",
+          "Yalnızca öğretmenin kullandığı alan",
+          "Okuldaki kişilerin ortak kullandığı alan"
         ],
         "correctAnswer": 2,
-        "explanation": "Okul bahçesini okuldaki kişiler ortak kullanabilir. Evdeki odalar okul alanı değildir.",
+        "explanation": "Okul bahçesini okuldaki kişiler birlikte kullanabilir.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
         "options": [
-          "Evdeki mutfak",
-          "Evdeki yatak odası",
-          "Okul bahçesi"
+          "Sadece bir öğrencinin kullandığı alan",
+          "Yalnızca öğretmenin kullandığı alan",
+          "Okuldaki kişilerin ortak kullandığı alan"
         ],
         "difficulty": "kolay",
         "skill": "Ben ve Okulum",
@@ -5297,10 +5297,10 @@
         ]
       },
       "after": {
-        "question": "Sınıftaki ortak kitapları nasıl kullanmalıyız?",
+        "question": "Ortak kitapların sınıfta bir rafı var. Kitapları nasıl kullanmalıyız?",
         "choices": [
           "Özenle kullanıp yerine koymalıyız.",
-          "Sayfalarını yırtmalıyız.",
+          "Okuyup masanın üzerinde bırakmalıyız.",
           "Başkaları bulamasın diye kitapları gizlemeliyiz."
         ],
         "correctAnswer": 0,
@@ -5310,7 +5310,7 @@
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
         "options": [
           "Özenle kullanıp yerine koymalıyız.",
-          "Sayfalarını yırtmalıyız.",
+          "Okuyup masanın üzerinde bırakmalıyız.",
           "Başkaları bulamasın diye kitapları gizlemeliyiz."
         ],
         "difficulty": "kolay",
@@ -5522,16 +5522,16 @@
         "question": "Arkadaşınla aynı oyuncağı istiyorsunuz. Birlikte ne yapabilirsiniz?",
         "choices": [
           "Sırayla oynamayı konuşabiliriz.",
-          "Oyuncağı zorla alabiliriz.",
-          "Oyuncağı saklayabiliriz."
+          "İkimizden biri oyuncağı hep kendisine ayırabilir.",
+          "Arkadaşımız bulamasın diye oyuncağı gizleyebiliriz."
         ],
         "correctAnswer": 0,
         "explanation": "Sırayla oynamayı konuşmak iki arkadaşın da oyuncağı kullanabilmesi için bir çözümdür.",
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
         "options": [
           "Sırayla oynamayı konuşabiliriz.",
-          "Oyuncağı zorla alabiliriz.",
-          "Oyuncağı saklayabiliriz."
+          "İkimizden biri oyuncağı hep kendisine ayırabilir.",
+          "Arkadaşımız bulamasın diye oyuncağı gizleyebiliriz."
         ],
         "difficulty": "kolay",
         "skill": "Ben ve Okulum",
