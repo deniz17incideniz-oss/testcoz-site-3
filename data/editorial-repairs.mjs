@@ -350,7 +350,7 @@ test(1,'turkce','mustafa-kemalden-ataturke','zor',2,[
  ['“Bayramda şiir okudum. Arkadaşlarım beni alkışladı.” Bu metin için uygun başlık hangisidir?','Bayram Şiirim','Kayıp Kalemim','Orman Gezisi','Metnin olayı bayramda şiir okumaktır. Başlık ana olayı anlatmalı; kalem kaybı veya gezi metinde yoktur.'],
  ['“Öğretmen, Atatürk’ün çocuklara verdiği değeri anlattı. Ece dikkatle dinledi.” Dinleyen kimdir?','Ece','Atatürk','Öğretmen','Ece dikkatle dinledi cümlesinde dinleme işini Ece yapıyor. Öğretmen ise anlatan kişidir.'],
  ['“Önce bayrağı çizdim. Sonra kırmızıya boyadım.” Boyamadan önce yapılan iş hangisidir?','Çizmek','Silmek','Kesmek','Önce bayrağı çizdim ifadesi ilk işi belirtir. Sonra sözcüğü boyamanın çizimden sonra yapıldığını gösterir.'],
- ['“Anıtkabir gezisinden sonra gördüklerimi aileme anlattım.” Çocuk ne zaman anlatmıştır?','Geziden sonra','Geziden önce','Geziye gitmeden','Gezisinden sonra sözcükleri anlatmanın zamanını verir. Önce veya gitmeden denirse sıra değişir.'],
+ ['“Anıtkabir gezisinden sonra gördüklerimi aileme anlattım.” Çocuk ne zaman anlatmıştır?','Geziden sonra','Geziden önce','Gezi sırasında','Gezisinden sonra sözcükleri anlatmanın zamanını verir. Geziden önce veya gezi sırasında denirse zaman değişir.'],
  ['“Bayram gelince çok sevindim.” Bu cümlede hangi duygu vardır?','Sevinç','Korku','Öfke','Sevindim sözcüğü mutluluk ve sevinç bildirir. Korku veya öfke anlatan bir sözcük kullanılmamış.']
  ],'turkish_theme_alignment_and_age_appropriate_reading');
 

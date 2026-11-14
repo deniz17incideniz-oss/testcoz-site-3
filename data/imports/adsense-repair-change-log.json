@@ -27354,18 +27354,18 @@
         "question": "“Anıtkabir gezisinden sonra gördüklerimi aileme anlattım.” Çocuk ne zaman anlatmıştır?",
         "choices": [
           "Geziden önce",
-          "Geziye gitmeden",
+          "Gezi sırasında",
           "Geziden sonra"
         ],
         "correctAnswer": 2,
-        "explanation": "Gezisinden sonra sözcükleri anlatmanın zamanını verir. Önce veya gitmeden denirse sıra değişir.",
+        "explanation": "Gezisinden sonra sözcükleri anlatmanın zamanını verir. Geziden önce veya gezi sırasında denirse zaman değişir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_1_sinif_turkce_konu2_cumle_anlam_9",
         "sourceType": "EXISTING_V4B",
         "options": [
           "Geziden önce",
-          "Geziye gitmeden",
+          "Gezi sırasında",
           "Geziden sonra"
         ],
         "difficulty": "zor",
