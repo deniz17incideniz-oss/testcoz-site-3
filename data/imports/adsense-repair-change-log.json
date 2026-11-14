@@ -7191,17 +7191,7 @@
         ],
         "correctAnswer": 1,
         "explanation": "Ellerini sabun ve suyla yıkamak, ellerdeki kirin ve mikropların azalmasına yardımcı olur.",
-        "image": "images/tests/1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2.svg",
-        "visual": {
-          "type": "cards",
-          "title": "El temizliği",
-          "data": {
-            "first": "Elif: sabun ve su kullanıyor",
-            "second": "Can: peçeteyle siliyor"
-          }
-        },
         "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
-        "imageAlt": "Elif: sabun ve su kullanıyor. Can: peçeteyle siliyor",
         "options": [
           "İkisinin de ellerini yıkamaması",
           "Elif’in ellerini yıkaması",
@@ -7213,7 +7203,7 @@
         "questionType": "gorsel-okuma",
         "cognitiveLevel": "uygulama",
         "estimatedTimeSeconds": 85,
-        "hasVisual": true,
+        "hasVisual": false,
         "tags": [
           "hayat-bilgisi",
           "sagligim-ve-guvenligim",
@@ -7546,17 +7536,17 @@
         "choices": [
           "Bir yetişkine haber verip onun yardımını istemelidir.",
           "Dolaptan istediği ilacı almalıdır.",
-          "Arkadaşının ilacını izinsiz içmelidir."
+          "Arkadaşına verilen ilacı içmelidir."
         ],
         "correctAnswer": 0,
-        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Çocuk, yetişkinden yardım istemeli ve önerilen şekilde ilaç kullanmalıdır.",
+        "explanation": "İlaçlar yanlış kullanıldığında zarar verebilir. Çocuk bir yetişkinden yardım istemelidir. Doktor ilaç önerirse yetişkinin yardımıyla kullanılmalıdır.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
         "options": [
           "Bir yetişkine haber verip onun yardımını istemelidir.",
           "Dolaptan istediği ilacı almalıdır.",
-          "Arkadaşının ilacını izinsiz içmelidir."
+          "Arkadaşına verilen ilacı içmelidir."
         ],
         "difficulty": "orta",
         "skill": "Sağlığım ve Güvenliğim",

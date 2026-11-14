@@ -604,62 +604,62 @@
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
       "content_sha256": "a3183d3057f5e610ebbab535333a59644184da3b32f8e8dbeba630ba8f6e76e9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Öğretmene haber vermek tek uygun seçenek; alay ve oyuna devam orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
-      "content_sha256": "2341c1983e5ea6befe2c7682d5183b1fdf294acd1306fcb22e5289ee5ec5ecf9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "b5a282c2db3157d7c16b49464058513ab382e7f1cadea464f3a0749bc5cd6a2a",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sabun ve suyla yıkama tek uygun seçenek; yanıltıcı kart harfleri kaldırıldı ve gerekli bilgiler soru metninde. El yıkama: https://www.cdc.gov/clean-hands/faq/ Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
       "content_sha256": "859ff01415625a5cdb97077d4669431e94c80fe6a17e730da1e18b974ceddf3f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kırmızı yaya ışığında güvenli yerde bekleme uygun; diğer seçenekler orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
       "content_sha256": "16b46ade10d0d6c466747ab619e225f06f77a9db3c0a0f09d76409e656da057c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sıcak tencereye dokunmadan yetişkine haber vermek tek uygun seçenek; kendi başına çekme yanık riski taşır. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
       "content_sha256": "89cd92a8d11442d2489595ddecd09e04b27d1590189b8608e7d8b87a1a54d280",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Mendil veya dirsek içine öksürmek uygun; diğer seçenekler orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
       "content_sha256": "b714d80593f636eceb5ced2f275d151dc4014ef387de9fc0a6f682c4a123eca5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Adresi paylaşmadan güvenilir yetişkine danışma güvenli ve tek uygun seçenek; kişisel bilgi korunuyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
-      "content_sha256": "1c4c1c97a9076f7d5d7fb0a36f8e85aeadffe74b14bbc98f51d614c216afc389",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "b61166dcd3591c556c3c4049ca27fbea56c500299470c58f1853d27950841fc0",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Yetişkinden yardım isteme tek uygun cevaptır; kendiliğinden veya başkasına verilen ilacı almak yanlıştır. Açıklama kullanımı doktor önerisi ve yetişkin yardımına bağlar; görsel yok. Kaynak: https://sinopism.saglik.gov.tr/TR-361625/cocuklarda-ilac-kullanirken-nelere-dikkat-etmelisiniz.html"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
       "content_sha256": "87100fd6756aef6ec8b3a39898482340edd5d77311a165d1a95464b1e4aeafc1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Serviste kemeri takılı tutma uygun; diğer seçenekler orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
       "content_sha256": "a103260296ccaefebf615a190aabcfed13b11d786b3e323d45529373bc6d1700",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kırık camdan uzaklaşıp yetişkine haber verme uygun; diğer seçenekler orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
       "content_sha256": "01c019ceb0f6e9fc24d9cf809f8fe22ea195a313211ebd9dd927cf2739261a4b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Sabah ve gece diş fırçalama uygun; diğer seçenekler orta düzeyde kolay eleniyor. Görsel yok. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-1",
