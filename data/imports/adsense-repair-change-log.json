@@ -11087,7 +11087,7 @@
         ]
       },
       "after": {
-        "question": "Yaşadığın yerde yangın gibi acil bir durumda yardım istemek için hangi numara aranır?",
+        "question": "Türkiye’de yangın gibi acil bir durumda yardım istemek için hangi numara aranır?",
         "choices": [
           "101",
           "125",
@@ -11378,7 +11378,7 @@
         ]
       },
       "after": {
-        "question": "Yaşadığımız ülkenin bayrağında hangi şekiller vardır?",
+        "question": "Türk bayrağında hangi şekiller vardır?",
         "choices": [
           "Ay ve yıldız",
           "Güneş ve bulut",
@@ -39818,19 +39818,19 @@
       "after": {
         "question": "Bir fasulye filizi haftalar içinde uzuyor; yanındaki plastik çiçek aynı kalıyor. Hangisi filizin canlı olduğuna ilişkin bir kanıttır?",
         "choices": [
-          "Zaman içinde büyüyüp uzaması",
-          "Yeşil renkte görünmesi",
-          "Saksıda durması"
+          "Filizin zaman içinde büyüyüp uzaması",
+          "Filizin saksıda bulunması",
+          "Filize bir bardak su verilmesi"
         ],
         "correctAnswer": 0,
-        "explanation": "Filizin zaman içinde uzaması büyümeye örnektir. Plastik çiçek de yeşil olabilir ve saksıda durabilir; renk ve yer tek başına canlılığı göstermez.",
+        "explanation": "Filizin zaman içinde uzaması büyümeye ilişkin bir gözlemdir. Bir nesnenin saksıda durması veya ona su verilmesi ise tek başına onun canlı olduğunu göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-1",
         "options": [
-          "Zaman içinde büyüyüp uzaması",
-          "Yeşil renkte görünmesi",
-          "Saksıda durması"
+          "Filizin zaman içinde büyüyüp uzaması",
+          "Filizin saksıda bulunması",
+          "Filize bir bardak su verilmesi"
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",
@@ -40110,19 +40110,19 @@
       "after": {
         "question": "Bir çocuk “Bitkiler yürümüyor, bu yüzden canlı değildir.” diyor. Hangi gözlem bu düşünceyi düzeltir?",
         "choices": [
-          "Toprağın kahverengi olması",
-          "Bitkinin büyümesi ve yeni yapraklar çıkarması",
-          "Saksının pencere yanında durması"
+          "Bitkinin toprağa dikili olması",
+          "Bitkinin zamanla büyümesi ve yeni yapraklar çıkarması",
+          "Bitkinin yeşil renkli görünmesi"
         ],
         "correctAnswer": 1,
-        "explanation": "Canlılık yalnız yürümekle belirlenmez. Bitkinin büyüme ve gelişmesi canlı olduğuna kanıttır; saksının yeri veya toprağın rengi bitkinin canlılığını açıklamaz.",
+        "explanation": "Bitkinin büyüyüp yeni yapraklar oluşturması canlılık özelliğine ilişkin gözlemdir. Yeşil görünmek veya toprağa dikili olmak tek başına canlılığı göstermez; yapay bir bitki de böyle görünebilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-5",
         "options": [
-          "Toprağın kahverengi olması",
-          "Bitkinin büyümesi ve yeni yapraklar çıkarması",
-          "Saksının pencere yanında durması"
+          "Bitkinin toprağa dikili olması",
+          "Bitkinin zamanla büyümesi ve yeni yapraklar çıkarması",
+          "Bitkinin yeşil renkli görünmesi"
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",
@@ -40262,21 +40262,21 @@
         ]
       },
       "after": {
-        "question": "Bir fideye düzenli su veriliyor ama uzun süre ışık almıyor ve zayıflıyor. “Su verilen her bitki her yerde iyi büyür.” sözü neden yetersizdir?",
+        "question": "Aynı tür iki fideye eşit miktarda su veriliyor ve diğer bakım koşulları aynı tutuluyor. Fidelerden biri uygun ışıkta gelişirken diğeri uzun süre ışık almadan zayıflıyor. Bu gözlem hangi düşünceyi destekler?",
         "choices": [
-          "Bitkinin su dışında uygun ışık gibi ihtiyaçları da vardır.",
-          "Su bitkiler için hiçbir zaman gerekli değildir.",
-          "Bitkinin gelişmesi yalnız saksının biçimine bağlıdır."
+          "Su dışında uygun ışık da bitkinin gelişimini etkileyebilir.",
+          "Su alan her fide ışık olmasa da aynı biçimde gelişir.",
+          "İki fideye verilen su miktarı farklı olduğu için sonuç değişmiştir."
         ],
         "correctAnswer": 0,
-        "explanation": "Su tek ihtiyaç değildir. Uygun ışık ve diğer yaşam koşulları da önemlidir; bir ihtiyacın karşılanması bütün koşulların uygun olduğunu göstermez.",
+        "explanation": "İki fideye aynı miktarda su verilmiştir. Farklı ışık koşullarında farklı gelişmeleri, ışığın da bitkinin gelişimini etkileyebileceğini düşündürür; başka gözlemlerle sonuç desteklenebilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-7",
         "options": [
-          "Bitkinin su dışında uygun ışık gibi ihtiyaçları da vardır.",
-          "Su bitkiler için hiçbir zaman gerekli değildir.",
-          "Bitkinin gelişmesi yalnız saksının biçimine bağlıdır."
+          "Su dışında uygun ışık da bitkinin gelişimini etkileyebilir.",
+          "Su alan her fide ışık olmasa da aynı biçimde gelişir.",
+          "İki fideye verilen su miktarı farklı olduğu için sonuç değişmiştir."
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",

@@ -904,62 +904,62 @@
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
       "content_sha256": "6fd2d7a03e4c526cc795a2ee39c3ef7dfd09e54b1ef4bf690012210411a3c6db",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Parkın ortak kullanımı doğru; ikinci sınıf alanının tarihî yerler, yerel yönetim ve millî günler çıktılarıyla doğrudan bağlantı güçlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
       "content_sha256": "0fe781572d3ebae4aacfd97c06f9d623fee1789d2cf6a27ca1e469f77b0f46a7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kitabı özenli kullanma doğru ve harfsiz görsel uyumlu; ünite çıktılarıyla doğrudan bağlantı ayrıca değerlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
       "content_sha256": "110ab8711ed9b6f298ed782184a956284cfa229547ea9d2f1e0e6d8a2ee17cf3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Krokinin konum gösterimi doğru; bu sınıfın ilgili alanında açık kazanım bulunamadığından sınıf ve tema uygunluğu öğretmence incelenmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
       "content_sha256": "488da42613658ff1b36a37c23b3e7a622c7fc865507d88049c1c7965eeae0beb",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: TBMM Ankara’dadır; ulusal meclisin konumu bu alanın yerel yönetim birimlerini tanıma çıktısını doğrudan ölçmez. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
       "content_sha256": "dbd152c9d1a02dbdc9b4dcc78dce7ddce0defb85d6700f00ee89f78b5ada3be5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kitap ödünç almak için kütüphane uygundur; alanın belirli kazanımlarıyla bağlantısı ve ikinci soruyla bağlam tekrarı gözden geçirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
-      "content_sha256": "5aec2842060d4171d0877882888186ad5473b2b6ff3666ea1c5a1b82607c6602",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "4620c4bf2593bd2e1494067e90e7fd3153ffb9b3004e4b66aa7c90beaa6bfa37",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Türkiye’de yangın dâhil acil yardım numarası 112’dir; ülke açıkça verilmiş ve açıklama cevapla uyumludur. Resmî kaynak: https://112.gov.tr/ Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
       "content_sha256": "6722b337d33c019bb844cd704e99135499d8865b47612d7c53cab8c64706394c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Tarihî yapıya zarar vermeden gezmek onu korumaya yardımcı olur ve ünitenin tarihî mekânları koruma kapsamıyla ilişkilidir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
       "content_sha256": "cb98c23413441b4a38c99217f5c1859fa9fd4b3bf7debab48cddd1a8aeac8457",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yön levhası yerin yönünü gösterebilir; ünitenin özel çıktılarına doğrudan bağlantı ayrıca değerlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
       "content_sha256": "96d78f1b310664ccf9ede1bcf7a742557e74fbbcf588dc3db6c4d64644bcfeeb",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ortak bankı temiz tutmayı söylemek uygun davranıştır; ünitenin özel çıktılarına doğrudan bağlantı ayrıca değerlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
-      "content_sha256": "6a31840b1e9232b2bcdfcd551e3fe2341e06906884723f6e87b46c4c86a18440",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "43c811f4b438bf13e6a89ac1cb115a90fc4ea322c266651156257911ae56c1ab",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Türk bayrağında beyaz ay ve yıldız bulunur; ülke varsayımı kaldırılmıştır. Bu soru birinci sınıf millî sembol kazanımının tekrarı niteliğindedir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-zor-test-1-soru-1",
@@ -3315,9 +3315,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-1",
-      "content_sha256": "880bad77fb39d7a12075381829524bd0f53911908192ec952809bd962fd9018e",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Filizin uzaması gözlemle uyumlu büyüme kanıtıdır; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "349dd9190b95fa0f34b88e452dbc32ecdf608b0e06a0b1e1e8961982661dacee",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Filizin uzaması büyüme gözlemidir; saksıda bulunmak veya su verilmesi tek başına canlılık göstermez. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-2",
@@ -3339,9 +3339,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-5",
-      "content_sha256": "368767511bbd5107da999b2b40e7e2f8db2e688beb23c36adba02ce2ccd42a1c",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Büyüme ve yeni yaprak canlılığa kanıttır; S1 ile beceri tekrarı ve kolay çeldiriciler gözden geçirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "8d5b7b6589b19eaeb9b7a950968171302061394fd271991365e0a61980327a17",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Bitkinin büyümesi ve yeni yaprak çıkarması canlılıkla ilgili gözlemdir; yeşil görünme ve toprağa dikilme yapay nesnelerde de görülebilir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-6",
@@ -3351,9 +3351,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-7",
-      "content_sha256": "a233804621bbfa78c4fabb25a30e089c4ca5dbe11af97e724640b72a7cad3760",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Su dışında uygun ışık gibi ihtiyaçlar önemlidir; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "bfde3286b6c99f9fd40a7c0fc91253bde12a74fa7992721c775a0270f97a49aa",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı su ve diğer bakım koşullarındaki iki fide gözlemi ışığın gelişimi etkileyebileceğini düşündürür; açıklama kesin evrensel neden iddia etmez. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-8",

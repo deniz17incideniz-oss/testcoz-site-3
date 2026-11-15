@@ -17,9 +17,9 @@ export const placeEasyTwo=[
  ['Okulun çevresindeki yerleri basitçe çizerek göstermek için hangisi kullanılabilir?', 'Kroki', 'Şiir', 'Şarkı', 'Kroki, bir yerin ve çevresindeki önemli noktaların basit bir gösterimidir.'],
  ['Türkiye Büyük Millet Meclisi hangi şehirdedir?', 'Ankara', 'Bursa', 'Antalya', 'Türkiye Büyük Millet Meclisi, Türkiye Cumhuriyeti’nin başkenti Ankara’da bulunur.'],
  ['Bir öğrenci kitap ödünç almak istiyor. Hangi yere başvurabilir?', 'Kütüphaneye', 'İtfaiye istasyonuna', 'Otobüs durağına', 'Kütüphanelerde kitaplara ulaşılabilir ve kurallarına uygun olarak kitap ödünç alınabilir.'],
- ['Yaşadığın yerde yangın gibi acil bir durumda yardım istemek için hangi numara aranır?', '112', '101', '125', '112 Türkiye’de acil yardım çağrıları için kullanılır; acil olmayan durumlarda gereksiz yere aranmamalıdır.'],
+ ['Türkiye’de yangın gibi acil bir durumda yardım istemek için hangi numara aranır?', '112', '101', '125', '112 Türkiye’de acil yardım çağrıları için kullanılır; acil olmayan durumlarda gereksiz yere aranmamalıdır.'],
  ['Tarihî bir yapıyı gezerken hangisi yapıyı korumaya yardımcı olur?', 'Duvarlarına zarar vermemek', 'Duvarlarına resim çizmek', 'Parçalarını koparmak', 'Tarihî yapılara zarar vermemek, onların gelecekte de görülebilmesine yardımcı olur.'],
  ['Yoldaki bir yön levhası neye yardımcı olabilir?', 'Bir yerin hangi yönde olduğunu bulmaya', 'Bir oyunun puanını hesaplamaya', 'Yemeğin tadını öğrenmeye', 'Yön levhaları, üzerlerinde yazan yerlerin hangi yönde olduğunu gösterebilir.'],
  ['Bir arkadaşın ortak kullanılan park bankına yazı yazıyor. Ne söyleyebilirsin?', 'Bankı temiz tutmamız gerektiğini söyleyebilirim.', 'Bankın her yerine yazmasını isteyebilirim.', 'Ben de banka zarar verebilirim.', 'Ortak kullanılan eşyalara özen göstermek, başkalarının da onları kullanabilmesini sağlar.'],
- ['Yaşadığımız ülkenin bayrağında hangi şekiller vardır?', 'Ay ve yıldız', 'Güneş ve bulut', 'Kare ve üçgen', 'Türk bayrağında kırmızı zemin üzerinde beyaz ay ve yıldız yer alır.']
+ ['Türk bayrağında hangi şekiller vardır?', 'Ay ve yıldız', 'Güneş ve bulut', 'Kare ve üçgen', 'Türk bayrağında kırmızı zemin üzerinde beyaz ay ve yıldız yer alır.']
 ];
