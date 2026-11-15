@@ -37083,7 +37083,7 @@
           "İkisi de başlığı yazar, resimleri kimse hazırlamaz."
         ],
         "correctAnswer": 0,
-        "explanation": "İş bölümü hem yapılacak işleri tamamlamalı hem öğrencilerin katkısını değerlendirmelidir. İlk plan iki ayrı işi karşılar; diğerlerinde görev veya katılım eksik kalır.",
+        "explanation": "İş bölümü hem yapılacak işleri tamamlamalı hem öğrencilerin katkısını değerlendirmelidir. Selin’in başlığı yazması ve Can’ın resimleri çizmesi iki işi de karşılar; diğer planlarda görev veya katılım eksik kalır.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
@@ -37154,7 +37154,7 @@
         ]
       },
       "after": {
-        "question": "Okul duyurusunda kütüphanenin salı ve perşembe günleri açık olduğu yazıyor. Ece çarşamba kitap almak istiyor. Duyuruya uygun plan hangisidir?",
+        "question": "Okul duyurusunda kütüphanenin yalnızca salı ve perşembe günleri açık olduğu yazıyor. Ece çarşamba kitap almak istiyor. Duyuruya uygun plan hangisidir?",
         "choices": [
           "Kütüphanenin bütün hafta kapalı olduğunu söylemek.",
           "Kitabını perşembe almak için plan yapmak.",
@@ -37434,7 +37434,7 @@
         ]
       },
       "after": {
-        "question": "Duyuru panosundaki eski bir afiş etkinliği pazartesi, tarihli yeni duyuru ise cuma gösteriyor. Yanlış gün gitmemek için ne yapılmalıdır?",
+        "question": "Duyuru panosundaki aynı etkinlik için eski afiş pazartesiyi, tarihli yeni duyuru ise cumayı gösteriyor. Yanlış gün gitmemek için ne yapılmalıdır?",
         "choices": [
           "Daha renkli olan afişteki günü seçmek.",
           "İki günün ortası olduğu için çarşamba gitmek.",
