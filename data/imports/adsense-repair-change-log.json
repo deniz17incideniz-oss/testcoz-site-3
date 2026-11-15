@@ -5741,11 +5741,11 @@
         ]
       },
       "after": {
-        "question": "Okulda kendini iyi hissetmiyorsun. Kimden yardım isteyebilirsin?",
+        "question": "Okulda kendini iyi hissetmiyorsun. Yardım almak için ne yapmalısın?",
         "choices": [
-          "Hiç kimseden",
-          "Yalnızca bahçedeki oyuncaklardan",
-          "Öğretmeninden"
+          "Nasıl hissettiğimi kimseye söylemeden beklemeliyim.",
+          "Sadece başka bir oyuna geçmeliyim.",
+          "Öğretmenime nasıl hissettiğimi söylemeliyim."
         ],
         "correctAnswer": 2,
         "explanation": "Öğretmenine nasıl hissettiğini söylemek, ihtiyacın olan yardıma ulaşmanı sağlar.",
@@ -5753,9 +5753,9 @@
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
         "options": [
-          "Hiç kimseden",
-          "Yalnızca bahçedeki oyuncaklardan",
-          "Öğretmeninden"
+          "Nasıl hissettiğimi kimseye söylemeden beklemeliyim.",
+          "Sadece başka bir oyuna geçmeliyim.",
+          "Öğretmenime nasıl hissettiğimi söylemeliyim."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -5810,21 +5810,21 @@
         ]
       },
       "after": {
-        "question": "Kitap okumak isteyen bir öğrenci okulda hangi bölüme gidebilir?",
+        "question": "Okulda kitaplara ulaşmak ve okumak isteyen bir öğrencinin hangi bölüme gitmesi daha uygundur?",
         "choices": [
           "Kütüphaneye",
-          "Tuvalete",
-          "Merdivene"
+          "Spor salonuna",
+          "Yemekhaneye"
         ],
         "correctAnswer": 0,
-        "explanation": "Kütüphanede kitaplara ulaşılabilir ve okuma yapılabilir.",
+        "explanation": "Kütüphanede kitaplara ulaşabilir ve kitap okuyabilirsin.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
         "options": [
           "Kütüphaneye",
-          "Tuvalete",
-          "Merdivene"
+          "Spor salonuna",
+          "Yemekhaneye"
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -5887,19 +5887,19 @@
         ]
       },
       "after": {
-        "question": "Arkadaşın kalemini düşürdü ve senden yardım istedi. Ne yapabilirsin?",
+        "question": "Arkadaşın kalemini düşürdü ve senden yardım istedi. Ona yardım etmek için ne yapabilirsin?",
         "choices": [
-          "Kalemin üstüne basabilirim.",
+          "Kalemi kendim kullanmak üzere alabilirim.",
           "Kalemi alıp ona verebilirim.",
-          "Kalemi çantama saklayabilirim."
+          "Kalemi yerde bırakıp başka işle ilgilenebilirim."
         ],
         "correctAnswer": 1,
         "explanation": "Arkadaşına kalemini uzatmak, onun istediği yardımı nazikçe karşılamaktır.",
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
         "options": [
-          "Kalemin üstüne basabilirim.",
+          "Kalemi kendim kullanmak üzere alabilirim.",
           "Kalemi alıp ona verebilirim.",
-          "Kalemi çantama saklayabilirim."
+          "Kalemi yerde bırakıp başka işle ilgilenebilirim."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -44349,18 +44349,18 @@
         "question": "Gölette kurbağalar, su bitkileri ve böcekler birlikte gözleniyor. Hangi sonuç doğrudan bu kayda dayanır?",
         "choices": [
           "Aynı yaşam alanında farklı canlılar bulunabilir.",
-          "Gölette yalnız tek canlı türü vardır.",
-          "Bütün dünya canlıları bu gölette yaşar."
+          "Gölette yaşayan bütün canlıların bu kayıtta sayıldığı kesindir.",
+          "Kurbağalar yalnızca bu gölette yaşayabilir."
         ],
         "correctAnswer": 0,
-        "explanation": "Kayıtta birden çok canlı grubu sayılmıştır. Bu, aynı ortamın farklı canlılara ev sahipliği yapabildiğini gösterir; bütün canlıların orada yaşadığını göstermez.",
+        "explanation": "Kurbağa, su bitkisi ve böceklerin birlikte gözlenmesi farklı canlıların aynı ortamda bulunabildiğini gösterir. Tek kayıt, göletteki bütün canlıların sayıldığını veya kurbağaların başka yerde yaşamadığını göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-1",
         "options": [
           "Aynı yaşam alanında farklı canlılar bulunabilir.",
-          "Gölette yalnız tek canlı türü vardır.",
-          "Bütün dünya canlıları bu gölette yaşar."
+          "Gölette yaşayan bütün canlıların bu kayıtta sayıldığı kesindir.",
+          "Kurbağalar yalnızca bu gölette yaşayabilir."
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",
@@ -44415,21 +44415,21 @@
         ]
       },
       "after": {
-        "question": "Bir kuşun yuva yaptığı ağaç kesiliyor. Kuşun hangi ihtiyacı doğrudan etkilenmiştir?",
+        "question": "Bir kuşun yuva yaptığı ağaç kesiliyor. Çevredeki su ve yiyecek kaynakları değişmiyor. Kuşun hangi ihtiyacı doğrudan etkilenmiştir?",
         "choices": [
-          "Günün süresini değiştirme",
+          "Su bulma",
           "Barınma ve yavrularını koruyacağı yer",
-          "Tüylerinin rengini seçme"
+          "Yiyecek bulma"
         ],
         "correctAnswer": 1,
-        "explanation": "Yuva barınma ve yavruların korunması için kullanılır. Ağacın kesilmesi bu yeri ortadan kaldırır; tüy rengi veya gün uzunluğu burada değişen ihtiyaç değildir.",
+        "explanation": "Yuva barınma ve yavruların korunması için kullanılır. Ağacın kesilmesi yuvayı ortadan kaldırır; soruda su ve yiyecek kaynaklarının değişmediği belirtilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-2",
         "options": [
-          "Günün süresini değiştirme",
+          "Su bulma",
           "Barınma ve yavrularını koruyacağı yer",
-          "Tüylerinin rengini seçme"
+          "Yiyecek bulma"
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",
@@ -45027,26 +45027,26 @@
         "question": "Bir okul, bahçede yerel bitkiler yetiştirip çöp toplamayı planlıyor. Başarıyı değerlendirmek için hangisi daha anlamlıdır?",
         "choices": [
           "Bitkilerin gelişimini ve bahçedeki canlı gözlemlerini zaman içinde kaydetmek",
-          "Yalnız afişin kaç renk olduğunu saymak",
-          "Bir gün hiç böcek görülmeyince çalışmayı kesin başarısız saymak"
+          "Yalnız ilk gün bitki sayısını sayıp değişimi değerlendirmek",
+          "Tek bir gün gözlem yapıp bütün canlıların arttığına karar vermek"
         ],
         "correctAnswer": 0,
-        "explanation": "Amaç yaşam alanını desteklemektir. Bitki gelişimi ve düzenli canlı gözlemleri bu amaçla ilgilidir; afiş rengi veya tek günlük yokluk gözlemi tek başına yeterli ölçüt değildir.",
+        "explanation": "Başarıyı değerlendirmek için bitkilerin gelişimini ve canlıları zaman içinde izlemek yararlıdır. Tek gün veya yalnız başlangıç sayısı, değişimi güvenle göstermeye yetmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Okul bahçesi planı",
           "data": {
             "first": "Yerel bitkiler yetiştirme",
-            "second": "Çöpleri toplama ve canlıları gözleme"
+            "second": "Bahçedeki çöpleri toplama"
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-10",
-        "imageAlt": "Yerel bitkiler yetiştirme. Çöpleri toplama ve canlıları gözleme",
+        "imageAlt": "Yerel bitkiler yetiştirme. Bahçedeki çöpleri toplama",
         "options": [
           "Bitkilerin gelişimini ve bahçedeki canlı gözlemlerini zaman içinde kaydetmek",
-          "Yalnız afişin kaç renk olduğunu saymak",
-          "Bir gün hiç böcek görülmeyince çalışmayı kesin başarısız saymak"
+          "Yalnız ilk gün bitki sayısını sayıp değişimi değerlendirmek",
+          "Tek bir gün gözlem yapıp bütün canlıların arttığına karar vermek"
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",

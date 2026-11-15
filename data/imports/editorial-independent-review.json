@@ -495,21 +495,21 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
-      "content_sha256": "91bba98f83f7616a0f4ef76781976f9a40ad9c682a7c97fc36787cb2978bc5cf",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenden yardım istemek doğru; oyuncaklardan yardım seçeneği orta düzey için çok belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
+      "content_sha256": "f411c6acdf625988b4be1c439cf5290629cfac893fc46a713134ce29bf2cf914",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kendini iyi hissetmediğinde öğretmene söylemek yardım istemeyi sağlar; beklemek veya yalnız oyun değiştirmek yardım isteme değildir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
-      "content_sha256": "0aa0feff01de9c7eddbaf013397dbc2aab5ee9cfdff36a28d51129b2575e3600",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kütüphane doğru; tuvalet ve merdiven seçenekleri orta düzey için kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
+      "content_sha256": "3f582c46011e761928b6bd8e0287f9f82826c8996beee7b1ea38c3badfcae565",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kütüphane, kitaplara ulaşmak ve okumak için spor salonu veya yemekhaneden daha uygun bölümdür; soru dili ve açıklama uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
-      "content_sha256": "446aafab2e578d451ba0d215838af7918aa7e0e90b0f0371da50cf27eb97c2f9",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: İstenen yardıma karşılık kalemi vermek doğru; kalemi gizleme ve üstüne basma seçenekleri çok belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
+      "content_sha256": "0e05d5465c50f6748cf5dd64a6dbb2a75087f50b4f1c1a66c053275f070a10ea",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yardım istenen kalemi sahibine vermek verilen durumda tek uygun yanıttır; kendine almak veya yerde bırakmak istenen yardımı karşılamaz. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
@@ -3675,15 +3675,15 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-1",
-      "content_sha256": "1ecf277c794c467eeef69edcbc1ea8c2d6df490c8e305a4672b22e529c1d341f",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı gölette farklı canlılar gözlendiği sonucu doğru; tek tür ve tüm dünya canlıları seçenekleri zor düzeyde çok belirgin. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
+      "content_sha256": "269149062ca664af80e66ee1be6b33d05ad800f2218f17f733612ea9659ba7b6",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Birlikte gözlenen farklı canlılar aynı ortamda farklı canlıların bulunabildiğini gösterir; kayıtta sayılmamış canlılar veya diğer göletler hakkında kesin sonuç çıkarılamaz. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-2",
-      "content_sha256": "25eeaccf9a81793261ff8cf85a95080c3a6eb68d53ae59b68cc24aa22786e447",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kesilen yuva ağacı kuşun barınmasını etkiler; tüy rengi ve gün süresi seçenekleri zor düzeyde konu dışı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
+      "content_sha256": "96966dc1352c7f89ad0914f282d82af88c52afec540e39c78fb5846e926061a3",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yuva ağacının kesildiği ve su ile yiyeceğin değişmediği verilen koşulda doğrudan etkilenen ihtiyaç barınmadır; açıklama uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3",
@@ -3729,9 +3729,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-10",
-      "content_sha256": "44ece26bbd9f0566a7436a1d6ee11f3edba9be0a78164e23025ff7efca019334",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Zaman içindeki bitki gelişimi ve canlı gözlemleri anlamlıdır; afiş rengi ve tek gün üzerinden kesin sonuç çeldiricileri çok belirgin, görsel de cevaba ipucu veriyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
+      "content_sha256": "eb4ddf3b89d7d0bec13ea6f39b6db1d295e3d2fa164582be81bda377ece11511",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Zaman içindeki bitki gelişimi ve canlı gözlemleri değerlendirme sağlar; tek gün veya yalnız başlangıç sayısı değişimi göstermez. Harfsiz görsel planı anlatır ve cevabı doğrudan vermez. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",

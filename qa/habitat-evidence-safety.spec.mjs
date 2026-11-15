@@ -4,6 +4,9 @@ test('habitat evidence and safe observation match the question',async({page,requ
  await page.goto('/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1.html');await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
  for(let n=1;n<=10;n++){
   const area=page.locator('#questionArea');
+  if(n===1){await expect(area).toContainText('Gölette yaşayan bütün canlıların bu kayıtta sayıldığı kesindir.');}
+  if(n===2){await expect(area).toContainText('Çevredeki su ve yiyecek kaynakları değişmiyor');await expect(area).toContainText('Yiyecek bulma');await expect(area).toContainText('Su bulma');}
+  if(n===10){await expect(area).toContainText('Yalnız ilk gün bitki sayısını');await expect(area).toContainText('Tek bir gün gözlem yapıp');await expect(area.locator('img')).toHaveAttribute('alt',/Bahçedeki çöpleri toplama/);}
   if([3,9,10].includes(n)){
    const img=area.locator('img');const src=await img.getAttribute('src');const svg=await (await request.get('/'+src.replace(/^\//,''))).text();expect(svg).not.toMatch(/class="value">[AB]<\/text>/);
    if(n===3){await expect(area.locator('.evidence-caption ol')).toHaveCount(1);await expect(img).toHaveAttribute('alt',/1\. kart:.*2\. kart:/);expect(svg).toContain('class="value">1</text>');expect(svg).toContain('class="value">2</text>');await expect(area).toContainText('koşulları bu balığın yaşamına uygun');}
