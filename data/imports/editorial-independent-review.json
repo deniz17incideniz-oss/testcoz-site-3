@@ -484,62 +484,62 @@
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
       "content_sha256": "8c47bd782795c62c175656c8e0fdf00e553dc06e8ab2951f6ff0a88cffcafcd9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yardım etme doğru; alay ve hiç ilgilenmeme çeldiricileri orta düzey için fazla kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
       "content_sha256": "c479f307f0652cc43ff130c47bc54ac24ecfd2106fcbcd80798e97741be66acf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yavaş yürüyen Mert çarpışma riskini azaltır; harfsiz görsel ve alternatif metin kökle uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-3",
       "content_sha256": "91bba98f83f7616a0f4ef76781976f9a40ad9c682a7c97fc36787cb2978bc5cf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenden yardım istemek doğru; oyuncaklardan yardım seçeneği orta düzey için çok belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-4",
       "content_sha256": "0aa0feff01de9c7eddbaf013397dbc2aab5ee9cfdff36a28d51129b2575e3600",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kütüphane doğru; tuvalet ve merdiven seçenekleri orta düzey için kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-5",
       "content_sha256": "446aafab2e578d451ba0d215838af7918aa7e0e90b0f0371da50cf27eb97c2f9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: İstenen yardıma karşılık kalemi vermek doğru; kalemi gizleme ve üstüne basma seçenekleri çok belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-6",
-      "content_sha256": "c3b7b952d875d3a82c37afe63aa073d37aa6dab9bf0da0d425ad1fbef16d578d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "4294cc5be4c4911cd7f8c3f8a39b1cd660fc8b046bc03741323db70e082b81fd",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kapaklı ortak boyaların kapaklarını kapatıp yerlerine koyma seçeneği ve açıklama uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
-      "content_sha256": "23edac38ad45f2910b7643fa035e9c7865b09f3e4099578cc87cc87b4cc2833c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "f92eb8fa0f4f87c26af3c9158582cb8b100f5f3e84f61734a7dbf819cf144680",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Derse hazırlanmak doğru; saklama ifadesindeki belirsizlik giderildi, ancak çeldiricilerin orta düzey için ölçücülüğü ayrıca geliştirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
       "content_sha256": "28c55e8f4d30a8c8219e600d790eeb0675e17934bfe08a02e59b5c93cede75f2",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Konuşanı dinleyip söz istemek verilen durum ve seçenekler içinde uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-9",
       "content_sha256": "4b4dd5cac2ddc9541a9f98869f75c9ea0886888a3beb5a1c5b2ee1bab36315f9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Arkadaşların farklı şeyler sevebileceği sonucu verilen durumla uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-10",
       "content_sha256": "829b3ec044da846c6ed584caef98214bb994f18e36c22cf3f40989ee0c44bc3b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Sırayla okumayı konuşmak iki öğrencinin isteğini birlikte gözetir; verilen seçeneklerde uygun çözümdür. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-sagligim-ve-guvenligim-kolay-test-1-soru-1",
@@ -3556,50 +3556,50 @@
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-1",
       "content_sha256": "432bb08179922d6c960d1624751d64d511dc02b79e6b6631a2623286207a847c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Eski pilin yetersiz kalmış olabileceği gözleme uygundur; diğer iki seçenek zor düzey için aşırı uç ve ayırt edicilik bakımından gözden geçirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-2",
       "content_sha256": "a50d1334e1a00ca02caf2d15d429780919d9028efe57ab39c3f421af6f408291",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Farklı enerji kaynakları doğru yanıtı destekler; diğer seçenekler zor düzey için çok kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-3",
-      "content_sha256": "663be8df9693f9e974331ff3647137d682107dfd3f327489bd5ddb1f7ea917e6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "9db2eb0dc3d38186e7bff781838ccde33bd3af1f39801e931e5bdef50b2cc268",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yeterli gün ışığı alan boş odadaki 1. lamba doğru; numaralı görsel ve alt metin tutarlı. Diğer seçenekler zor düzey için daha makul hâle getirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-4",
       "content_sha256": "7dfd190134e24b8ee54fc02e528d48565a786ec1d729e1988d07c940e273e2b6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Açık tele dokunmadan uzaklaşmak ve yetişkine haber vermek güvenli, verilen seçenekler içinde tek uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-5",
       "content_sha256": "fb7be188f0aa0ef1db061d42c588de22c1d0aafe907633a22dff96d897ef0d69",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Vantilatörün hareket, lambanın ışık sağladığı doğru; diğer seçenekler zor düzey için aşırı kolaydır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-6",
-      "content_sha256": "7d1a1b55aa34ec674bde79e3bc940f6a2de09e744e4a117829cdac211bad9ba5",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "07729ee355f2a95f22f63639485542ce2792e2a98c6bad49de1292ed9c775223",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Pilli saat ve şehir elektriğine bağlı buzdolabı ile numaralı kartlar uyumlu; özellikle enerji kaynağı yok seçeneği zor düzey için çok kolaydır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-7",
       "content_sha256": "d457e3d9cbbd361e4a28ed67887d7e84101d6d97102d1ef8c9e694068e07406c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Oyuncaktaki pil yönlerini yetişkinle birlikte işaretlere göre kontrol etmek güvenli ve verilen seçenekler içinde tek uygun ilk adımdır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-8",
       "content_sha256": "ee8c9831e62a0bce42d931ba69a484d5c10db86d24ef2eebeecbfe82d0e345a1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Atık pili uygun toplama noktasına yönlendirmek doğrudur; kendiliğinden yenilenme ve yiyeceklerle saklama seçenekleri zor düzey için belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-9",
@@ -3609,9 +3609,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-10",
-      "content_sha256": "69a6f832eda75ccd33ef6225dcc2cadb351ed4bd685c903ad320eac2f2edba7d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "a4c7afd48f683925835dd2d125f4f060c8a8de202688537725c4a80dedd6e2ee",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ek cihaz bağlamadan yetişkine haber verme tek güvenli seçenektir; çok sayıda bağlantının oluşturabileceği risk koşullu anlatılmış ve harfsiz görsel durumla uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339"
     },
     {
       "id": "3-sinif-fen-bilimleri-topragi-taniyorum-tarimi-kesfediyorum-zor-test-1-soru-1",

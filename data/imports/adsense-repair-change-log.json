@@ -5954,11 +5954,11 @@
         ]
       },
       "after": {
-        "question": "Sınıftaki ortak boyaları kullandıktan sonra ne yapmalısın?",
+        "question": "Sınıftaki kapaklı ortak boyaları kullandıktan sonra ne yapmalısın?",
         "choices": [
           "Kapaklarını açık bırakmalıyım.",
           "Kimsenin bulamayacağı yere saklamalıyım.",
-          "Yerlerine koymalıyım."
+          "Kapaklarını kapatıp yerlerine koymalıyım."
         ],
         "correctAnswer": 2,
         "explanation": "Ortak boyaları kapatıp yerine koymak, diğer öğrencilerin de kullanmasını kolaylaştırır.",
@@ -5968,7 +5968,7 @@
         "options": [
           "Kapaklarını açık bırakmalıyım.",
           "Kimsenin bulamayacağı yere saklamalıyım.",
-          "Yerlerine koymalıyım."
+          "Kapaklarını kapatıp yerlerine koymalıyım."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -6027,7 +6027,7 @@
         "choices": [
           "Sınıfa gidip araçlarımı hazırlayabilirim.",
           "Koridorda koşmaya devam edebilirim.",
-          "Ders araçlarımı saklayabilirim."
+          "Ders araçlarımı çantamda bırakıp hazırlanmayı erteleyebilirim."
         ],
         "correctAnswer": 0,
         "explanation": "Ders başlayınca sınıfa gidip gerekli araçları hazırlamak derse katılmana yardımcı olur.",
@@ -6037,7 +6037,7 @@
         "options": [
           "Sınıfa gidip araçlarımı hazırlayabilirim.",
           "Koridorda koşmaya devam edebilirim.",
-          "Ders araçlarımı saklayabilirim."
+          "Ders araçlarımı çantamda bırakıp hazırlanmayı erteleyebilirim."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -42982,29 +42982,29 @@
         ]
       },
       "after": {
-        "question": "Kullanım kartları: A: gündüz boş odada açık lamba. B: karanlıkta ders çalışan çocuğun lambası. Tasarruf için ilk hangi lamba kapatılmalıdır?",
+        "question": "Kullanım kartları: 1. kartta gün ışığıyla yeterince aydınlanan boş odada açık lamba, 2. kartta karanlıkta ders çalışan çocuğun lambası var. Tasarruf için ilk hangi lamba kapatılmalıdır?",
         "choices": [
-          "B; çalışırken ışık hiç gerekmez.",
+          "2. karttaki lamba; çalışırken ışık hiç gerekmez.",
           "İkisi de açık bırakılmalıdır.",
-          "A; o anda aydınlatmaya ihtiyaç yoktur."
+          "1. karttaki lamba; o anda aydınlatmaya ihtiyaç yoktur."
         ],
         "correctAnswer": 2,
-        "explanation": "A’da hem oda boş hem gündüz ışığı vardır; kullanım ihtiyacı verilmemiştir. B’de aydınlatma ders çalışmaya yardımcı olur. Tasarruf gereksiz kullanımı azaltmaktır.",
+        "explanation": "1. kartta oda boş ve gün ışığı yeterlidir; 2. kartta aydınlatma ders çalışmaya yardımcı olur. Tasarruf gereksiz kullanımı azaltmaktır.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Lamba kullanımı",
           "data": {
-            "first": "Gündüz, boş odada açık",
+            "first": "Gün ışığı yeterli, oda boş, lamba açık",
             "second": "Karanlıkta, ödev sırasında açık"
           }
         },
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-3",
-        "imageAlt": "Gündüz, boş odada açık. Karanlıkta, ödev sırasında açık",
+        "imageAlt": "1. kart: Gün ışığı yeterli, oda boş, lamba açık. 2. kart: Karanlıkta, ödev sırasında açık",
         "options": [
-          "B; çalışırken ışık hiç gerekmez.",
+          "2. karttaki lamba; çalışırken ışık hiç gerekmez.",
           "İkisi de açık bırakılmalıdır.",
-          "A; o anda aydınlatmaya ihtiyaç yoktur."
+          "1. karttaki lamba; o anda aydınlatmaya ihtiyaç yoktur."
         ],
         "difficulty": "zor",
         "skill": "Yaşamımızı Kolaylaştıran Elektrik",
@@ -43205,29 +43205,29 @@
         ]
       },
       "after": {
-        "question": "Enerji kaynağı kartları: A: pilli duvar saati. B: prize takılı buzdolabı. Kaynaklar nasıl eşleştirilir?",
+        "question": "Enerji kaynağı kartları: 1. kartta pilli duvar saati, 2. kartta şehir elektriğine bağlı prize takılı buzdolabı var. Kaynaklar nasıl eşleştirilir?",
         "choices": [
-          "A şehir elektriği, B pil kullanır.",
+          "1. araç şehir elektriği, 2. araç pil kullanır.",
           "İkisi de hiçbir enerji kaynağı kullanmaz.",
-          "A pil, B şehir elektriği kullanır."
+          "1. araç pil, 2. araç şehir elektriği kullanır."
         ],
         "correctAnswer": 2,
-        "explanation": "Kartlarda saatin pilli, buzdolabının prize bağlı olduğu belirtilir. Kaynak, aracın büyüklüğüne bakarak değil verilen bağlantı bilgisine göre belirlenir.",
+        "explanation": "Kartlarda saatin pilli, buzdolabının şehir elektriğine bağlı prize takılı olduğu belirtilir. Kaynak, aracın büyüklüğüne göre değil verilen bağlantı bilgisine göre belirlenir.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Araçların bağlantıları",
           "data": {
             "first": "Duvar saati: pilli",
-            "second": "Buzdolabı: prize bağlı"
+            "second": "Buzdolabı: şehir elektriğine bağlı prizde"
           }
         },
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-6",
-        "imageAlt": "Duvar saati: pilli. Buzdolabı: prize bağlı",
+        "imageAlt": "1. kart: Duvar saati: pilli. 2. kart: Buzdolabı: şehir elektriğine bağlı prizde",
         "options": [
-          "A şehir elektriği, B pil kullanır.",
+          "1. araç şehir elektriği, 2. araç pil kullanır.",
           "İkisi de hiçbir enerji kaynağı kullanmaz.",
-          "A pil, B şehir elektriği kullanır."
+          "1. araç pil, 2. araç şehir elektriği kullanır."
         ],
         "difficulty": "zor",
         "skill": "Yaşamımızı Kolaylaştıran Elektrik",
@@ -43514,7 +43514,7 @@
         ]
       },
       "after": {
-        "question": "Bir uzatma kablosuna çok sayıda cihaz bağlandığını gören çocuk ne yapmalıdır?",
+        "question": "Bir uzatma kablosuna çok sayıda cihaz bağlı olduğunu ve bir cihaz daha bağlanmak istendiğini gören çocuk ne yapmalıdır?",
         "choices": [
           "Yeni cihaz eklemeden bir yetişkine haber vermelidir.",
           "Yer kaldıkça cihaz eklemelidir.",
@@ -43524,7 +43524,7 @@
         "explanation": "Çok sayıda cihazın birlikte bağlanması aşırı yüklenme riski oluşturabilir. Çocuk bağlantıyı değiştirmeye çalışmadan yetişkine bildirmeli; kabloyu saklamak riski çözmez.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Uzatma kablosu",
           "data": {
             "first": "Çok sayıda cihaz bağlı",
