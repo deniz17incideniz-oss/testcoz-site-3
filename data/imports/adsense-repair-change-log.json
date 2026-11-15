@@ -5586,21 +5586,21 @@
         ]
       },
       "after": {
-        "question": "Yeni bir öğrenci sınıfını bulamıyor. Sınıfın yerini biliyorsan ne yapabilirsin?",
+        "question": "Yeni bir öğrenci sınıfını bulamıyor. Sınıfın yerini biliyorsan ona yardım etmek için ne yapabilirsin?",
         "choices": [
-          "Sınıfı ona nazikçe gösterebilirim.",
-          "Onunla alay edebilirim.",
-          "Sorunu görmezden gelebilirim."
+          "Sınıfın yerini ona gösterebilirim.",
+          "Başka bir sınıfı onun sınıfıymış gibi gösterebilirim.",
+          "Yerini bilsem de sınıfı söylemeden bekleyebilirim."
         ],
         "correctAnswer": 0,
-        "explanation": "Yolunu bulamayan arkadaşına sınıfın yerini göstermek yardım etmenin bir yoludur.",
+        "explanation": "Sınıfın yerini biliyorsan arkadaşına göstermek, aradığı sınıfı bulmasına yardımcı olur.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
         "options": [
-          "Sınıfı ona nazikçe gösterebilirim.",
-          "Onunla alay edebilirim.",
-          "Sorunu görmezden gelebilirim."
+          "Sınıfın yerini ona gösterebilirim.",
+          "Başka bir sınıfı onun sınıfıymış gibi gösterebilirim.",
+          "Yerini bilsem de sınıfı söylemeden bekleyebilirim."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -6023,21 +6023,21 @@
         ]
       },
       "after": {
-        "question": "Ders zili çalınca derse hazırlanmak için ne yapabilirsin?",
+        "question": "Ders zili çaldı. Öğretmen derste defter kullanılacağını söyledi. Derse hazırlanmak için ne yapabilirsin?",
         "choices": [
-          "Sınıfa gidip araçlarımı hazırlayabilirim.",
-          "Koridorda koşmaya devam edebilirim.",
-          "Ders araçlarımı çantamda bırakıp hazırlanmayı erteleyebilirim."
+          "Sınıfa gidip defterimi hazırlayabilirim.",
+          "Koridorda koşarak oyuna devam edebilirim.",
+          "Gerekli defteri çantamda bırakıp oyuna devam edebilirim."
         ],
         "correctAnswer": 0,
-        "explanation": "Ders başlayınca sınıfa gidip gerekli araçları hazırlamak derse katılmana yardımcı olur.",
+        "explanation": "Sınıfa gidip gerekli defteri hazırlamak derse katılmana yardımcı olur. Koridorda koşmak güvenli değildir.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
         "options": [
-          "Sınıfa gidip araçlarımı hazırlayabilirim.",
-          "Koridorda koşmaya devam edebilirim.",
-          "Ders araçlarımı çantamda bırakıp hazırlanmayı erteleyebilirim."
+          "Sınıfa gidip defterimi hazırlayabilirim.",
+          "Koridorda koşarak oyuna devam edebilirim.",
+          "Gerekli defteri çantamda bırakıp oyuna devam edebilirim."
         ],
         "difficulty": "orta",
         "skill": "Ben ve Okulum",
@@ -39885,21 +39885,21 @@
         ]
       },
       "after": {
-        "question": "Oyuncak köpek pille yürür; gerçek köpek beslenir ve büyür. Yalnız yürümeye bakarak ikisine de canlı demek neden yanlıştır?",
+        "question": "Pilli bir oyuncak köpek yürür. Gerçek bir köpek ise beslenir ve zamanla büyür. Yalnız yürümelerine bakarak ikisine de canlı demek neden yanlıştır?",
         "choices": [
-          "Canlılar hiç hareket etmez.",
-          "Hareket eden her şey canlı değildir; diğer canlılık özellikleri de incelenmelidir.",
-          "Pille çalışan her araç büyüyebilir."
+          "Oyuncağın pille yürümesi onun beslendiğini gösterdiği için",
+          "Hareket eden her şey canlı değildir; başka canlılık özellikleri de incelenmelidir.",
+          "Yürüyen her varlık canlı sayılabileceği için"
         ],
         "correctAnswer": 1,
-        "explanation": "Oyuncağın hareketi mekanizmasına bağlıdır. Gerçek köpekte beslenme ve büyüme gibi canlılık özellikleri bulunur; tek bir hareket gözlemi yeterli değildir.",
+        "explanation": "Oyuncağın hareketi pil ve düzeneğinden kaynaklanır. Gerçek köpekte beslenme ve büyüme gibi canlılık özellikleri de gözlenir; yalnız hareket etmek canlılığı belirlemek için yeterli değildir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-2",
         "options": [
-          "Canlılar hiç hareket etmez.",
-          "Hareket eden her şey canlı değildir; diğer canlılık özellikleri de incelenmelidir.",
-          "Pille çalışan her araç büyüyebilir."
+          "Oyuncağın pille yürümesi onun beslendiğini gösterdiği için",
+          "Hareket eden her şey canlı değildir; başka canlılık özellikleri de incelenmelidir.",
+          "Yürüyen her varlık canlı sayılabileceği için"
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",
@@ -40331,21 +40331,21 @@
         ]
       },
       "after": {
-        "question": "Küçük bir kedi büyüyünce yetişkin kedi oluyor. Hangi ifade bu durumu doğru açıklar?",
+        "question": "Bir kedi yavrusunun boyu aynı yöntemle martta 20 cm, haziranda 25 cm ölçülüyor. Bu ölçümlerden hangi sonuç çıkarılabilir?",
         "choices": [
-          "Kedi büyüyünce bitkiye dönüşür.",
-          "Kedi büyür ve yetişkin bir kedi olur.",
-          "Büyüyen her canlı aynı boyda olur."
+          "Yavrunun yetişkinliğe ulaştığı kesinleşmiştir.",
+          "Yavrunun ölçülen boyu zamanla artmıştır.",
+          "Yavrunun boyu her ay tam 5 cm artmıştır."
         ],
         "correctAnswer": 1,
-        "explanation": "Kedi büyüyüp gelişerek yetişkin bir kedi olur; bitkiye dönüşmez. Canlıların ulaştığı büyüklükler de birbirinden farklı olabilir.",
+        "explanation": "25 cm, 20 cm’den 5 cm fazladır; bu iki ölçüm boy artışını gösterir. Yalnız bu bilgiler her aydaki artışı veya yavrunun yetişkinliğe ulaştığını göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-8",
         "options": [
-          "Kedi büyüyünce bitkiye dönüşür.",
-          "Kedi büyür ve yetişkin bir kedi olur.",
-          "Büyüyen her canlı aynı boyda olur."
+          "Yavrunun yetişkinliğe ulaştığı kesinleşmiştir.",
+          "Yavrunun ölçülen boyu zamanla artmıştır.",
+          "Yavrunun boyu her ay tam 5 cm artmıştır."
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",
@@ -40497,11 +40497,11 @@
         "question": "Bir doğa defterinde mantar, papatya ve kuş var. Öğrenci üçünü “bitki” diye etiketliyor. Hangi düzeltme gerekir?",
         "choices": [
           "Papatya bitki, kuş hayvandır; mantarlar ayrı bir canlı grubudur.",
-          "Üçü de yer kapladığı için bitkidir.",
-          "Mantar ve kuş cansız, yalnız papatya canlıdır."
+          "Mantar ve papatya bitki, kuş hayvandır.",
+          "Mantar ve kuş hayvan, papatya bitkidir."
         ],
         "correctAnswer": 0,
-        "explanation": "Bu üçü de canlıdır ama aynı grupta değildir. Mantarlar bitkilerden ayrı bir gruptur; kuş hayvandır. Canlı olmak ile bitki olmak aynı anlamı taşımaz.",
+        "explanation": "Papatya bitkidir; kuş hayvandır. Mantarlar ne bitki ne de hayvandır, ayrı bir canlı grubudur.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
@@ -40515,8 +40515,8 @@
         "imageAlt": "Mantar, papatya, kuş. Öğrencinin etiketi: hepsi bitki",
         "options": [
           "Papatya bitki, kuş hayvandır; mantarlar ayrı bir canlı grubudur.",
-          "Üçü de yer kapladığı için bitkidir.",
-          "Mantar ve kuş cansız, yalnız papatya canlıdır."
+          "Mantar ve papatya bitki, kuş hayvandır.",
+          "Mantar ve kuş hayvan, papatya bitkidir."
         ],
         "difficulty": "zor",
         "skill": "Canlılar Dünyasına Yolculuk",

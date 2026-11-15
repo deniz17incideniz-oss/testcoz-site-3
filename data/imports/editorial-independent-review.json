@@ -483,9 +483,9 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",
-      "content_sha256": "8c47bd782795c62c175656c8e0fdf00e553dc06e8ab2951f6ff0a88cffcafcd9",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yardım etme doğru; alay ve hiç ilgilenmeme çeldiricileri orta düzey için fazla kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
+      "content_sha256": "6f6c5b26e968ba0b2b56f4eeea480cb9c0755677eace13556e15a2ce1d6e8ffa",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Sınıfın yerini bilen öğrencinin arayan arkadaşına yeri göstermesi yardımdır; yanlış sınıfı göstermek ve bilgiyi paylaşmadan beklemek bu amaca uymaz. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-2",
@@ -519,9 +519,9 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-7",
-      "content_sha256": "f92eb8fa0f4f87c26af3c9158582cb8b100f5f3e84f61734a7dbf819cf144680",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Derse hazırlanmak doğru; saklama ifadesindeki belirsizlik giderildi, ancak çeldiricilerin orta düzey için ölçücülüğü ayrıca geliştirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
+      "content_sha256": "cd9f43ce2dd9583fb30c30ad5545dea6b01d181f28f6bab856c2d366a9853eb0",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ders için istenen defteri hazırlamak tek uygun seçenek; açıklama ayrıca koridorda koşmanın güvenli olmadığını belirtiyor. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-8",
@@ -3321,9 +3321,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-2",
-      "content_sha256": "75635f35fd92be26e95f4b2eb31a9e0c1aeaecdc43bd09bf088a1af4a8a0d48b",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Tek başına hareket canlılığı göstermez; diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "99f50f024fca39ab7f6aaa4b3507241c53b2911b01e8918103fd5605cd6c97de",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Pille yürüyen oyuncak ile beslenen ve büyüyen köpek karşılaştırıldığında tek hareket gözlemi canlılık için yeterli değildir; açıklama ve seçenekler uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-3",
@@ -3357,9 +3357,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-8",
-      "content_sha256": "e55e490b38eff1cba1cf71f6dd02cd3aa00bdf48545cf19a67914eff66fa25af",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Kedi büyüyüp yetişkin kedi olur; sistematik sınıflandırma terimi kaldırıldı, diğer seçenekler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "c57bf39532455d0253361b81ef191ad206783a2f220703f55eb716c2d3bf9f35",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı yöntemle 20 ve 25 cm ölçümü boyun arttığını gösterir; aylık 5 cm artış veya yetişkinliğe erişme bu iki kayıttan çıkarılamaz. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-9",
@@ -3369,9 +3369,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-10",
-      "content_sha256": "2c297119a175c93b163ef53fcc80aa18a0eb56ceb9d64a74939a16e257095b29",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Papatya bitki, kuş hayvan ve mantar ayrı canlı grubudur; harfsiz kart uyumlu ancak çeldiriciler zor düzeyde kolay eleniyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
+      "content_sha256": "5320b5aeabdae79065e948b485a30ef595ab7f2a44402b0ccbd6abc5608c4510",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Papatya bitki, kuş hayvan ve mantar ayrı canlı grubudur; harfsiz görsel ve alternatif metin üç canlıyı ve hatalı etiketi doğru yansıtır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
