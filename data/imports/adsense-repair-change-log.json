@@ -9995,7 +9995,7 @@
         ]
       },
       "after": {
-        "question": "Eve giderken yolu bulmaya çalışan Zeynep, okulun yanındaki sabit binayı fark ediyor. Bu bina ona nasıl yardımcı olabilir?",
+        "question": "Zeynep, güvendiği bir yetişkinle eve giderken okulun yanındaki belirgin binayı fark ediyor. Bu bina ona nasıl yardımcı olabilir?",
         "choices": [
           "Yolunu bulurken bir işaret noktası olabilir.",
           "Okulun yerini her gün değiştirir.",
@@ -10223,7 +10223,7 @@
         "choices": [
           "Kitabı özenle kullanıp zamanında geri vermeliyim.",
           "Kitabın sayfalarını yırtmalıyım.",
-          "Kitabı kimseye haber vermeden saklamalıyım."
+          "Başkaları bulamasın diye kitabı gizlemeliyim."
         ],
         "correctAnswer": 0,
         "explanation": "Kitabı koruyup geri vermek, diğer okuyucuların da kitaptan yararlanmasını sağlar.",
@@ -10233,7 +10233,7 @@
         "options": [
           "Kitabı özenle kullanıp zamanında geri vermeliyim.",
           "Kitabın sayfalarını yırtmalıyım.",
-          "Kitabı kimseye haber vermeden saklamalıyım."
+          "Başkaları bulamasın diye kitabı gizlemeliyim."
         ],
         "difficulty": "orta",
         "skill": "Yaşadığım Yer ve Ülkem",
@@ -44492,29 +44492,29 @@
         ]
       },
       "after": {
-        "question": "Ortam kartları: A: su bitkili gölet. B: kuru, taşlı alan. Suda yaşayan balık için hangi eşleştirme uygundur?",
+        "question": "Ortam kartları: 1. kartta koşulları bu balığın yaşamına uygun, su bitkili gölet; 2. kartta kuru, taşlı alan var. Balık için hangi eşleştirme uygundur?",
         "choices": [
-          "B; kuru taşlar balığın su ihtiyacını karşılar.",
+          "2. kart; kuru taşlar balığın su ihtiyacını karşılar.",
           "İkisi de balık için aynı ortamdır.",
-          "A; yaşamını sürdürebileceği su ortamı vardır."
+          "1. kart; balığın ihtiyaçlarına uygun su ortamı vardır."
         ],
         "correctAnswer": 2,
-        "explanation": "Balık için uygun su ortamı gereklidir. Gölet ile kuru taşlık alan bu bakımdan eşdeğer değildir; seçim yalnız alanın genişliğine göre yapılamaz.",
+        "explanation": "Balığın yaşaması için yalnızca su bulunması yeterli değildir; suyun koşulları da balığın ihtiyaçlarına uygun olmalıdır. Bu soruda göletin koşullarının uygun olduğu verilmiştir.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "İki ortam",
           "data": {
-            "first": "Su bitkileri bulunan gölet",
+            "first": "Koşulları balığa uygun, su bitkili gölet",
             "second": "Kuru ve taşlı alan"
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3",
-        "imageAlt": "Su bitkileri bulunan gölet. Kuru ve taşlı alan",
+        "imageAlt": "1. kart: Koşulları balığa uygun, su bitkili gölet. 2. kart: Kuru ve taşlı alan",
         "options": [
-          "B; kuru taşlar balığın su ihtiyacını karşılar.",
+          "2. kart; kuru taşlar balığın su ihtiyacını karşılar.",
           "İkisi de balık için aynı ortamdır.",
-          "A; yaşamını sürdürebileceği su ortamı vardır."
+          "1. kart; balığın ihtiyaçlarına uygun su ortamı vardır."
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",
@@ -44792,19 +44792,19 @@
         ]
       },
       "after": {
-        "question": "Doğa gezisinde bir taşın altında küçük canlılar görülüyor. İncelemeden sonra en uygun davranış hangisidir?",
+        "question": "Doğa gezisinde bir taşın altında küçük canlılar fark ediliyor. Çocuk için en uygun davranış hangisidir?",
         "choices": [
-          "Canlılara zarar vermeden taşı eski konumuna dikkatle bırakmak",
+          "Canlılara ve taşa dokunmadan yetişkine haber vermek",
           "Canlıları gereksiz yere sınıfa götürmek",
           "Yaşam alanını bozmak için taşları dağıtmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Taş altı bazı canlıların barınma ortamıdır. Gözlem sonrası ortamı korumak onların yaşamını sürdürmesine yardımcı olur; gereksiz taşıma ve dağıtma zarar verebilir.",
+        "explanation": "Taş altı bazı canlıların yaşam alanıdır. Çocuk canlılara ve taşa dokunmadan bir yetişkine haber verir; canlıları taşımak veya alanı dağıtmak onlara zarar verebilir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-7",
         "options": [
-          "Canlılara zarar vermeden taşı eski konumuna dikkatle bırakmak",
+          "Canlılara ve taşa dokunmadan yetişkine haber vermek",
           "Canlıları gereksiz yere sınıfa götürmek",
           "Yaşam alanını bozmak için taşları dağıtmak"
         ],
@@ -44948,7 +44948,7 @@
         "explanation": "Listelerde hem bitkiler hem hayvanlar bulunur. Ortam koşulları farklıdır; göletteki balık gibi canlılar için su önemlidir.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Gözlem listeleri",
           "data": {
             "first": "Orman: çam, sincap, serçe",
@@ -45034,7 +45034,7 @@
         "explanation": "Amaç yaşam alanını desteklemektir. Bitki gelişimi ve düzenli canlı gözlemleri bu amaçla ilgilidir; afiş rengi veya tek günlük yokluk gözlemi tek başına yeterli ölçüt değildir.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Okul bahçesi planı",
           "data": {
             "first": "Yerel bitkiler yetiştirme",

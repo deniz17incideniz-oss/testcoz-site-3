@@ -843,63 +843,63 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-1",
-      "content_sha256": "790cef63542eb53e9ebd6f35c1cda196de2087b8e705ec44828f119a4ec63b32",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "d4284b30ec58e99b9f14a7630729f5a87ffb3e03eac6843296f8b92609755371",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yetişkin eşliği netleştirildi ve belirgin bina işaret noktası olabilir; diğer seçenekler orta düzeyde çok belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-2",
       "content_sha256": "1933e97eb78572521a7bb137e97d61c36df92bbe0aa298ff026f1614dbbdc278",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ece’nin çöpü kutuya atması ortak alanı korur; harfsiz görsel ve alternatif metin verilen davranışlarla uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-3",
       "content_sha256": "d7fcf12648d3fc199f8bd04715cebe3ba4f42ceff19e5960a40caff90fbf9804",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yolu bilmediğini söyleyip ziyaretçiyi görevliye yönlendirmek tek uygun verilen davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-4",
-      "content_sha256": "0a9abeee2ec0016b9d45078522eb5ce9a459aa2c091ab62a1d10e3d7c88bfac3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "43113800bca254f63f2fb5258de2a569e865b49bb0616d2d2836f5cbfb213a7a",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kitabı özenle kullanıp zamanında geri vermek doğru; gizleme anlamı netleştirildi fakat yanlış seçenekler orta düzeyde belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-5",
       "content_sha256": "75f62b3e4a7b132e044349853a53193db9aa4be4fdd7539046f2e5b46c16af7f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kırık salıncaktan uzaklaşıp güvenilir yetişkine haber vermek verilen seçeneklerde güvenli davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-6",
       "content_sha256": "5559e05d908d20cec56f75dd6ba17484583b87911d738b96e5a310e8866c1481",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Türk bayrağı kırmızı zemin üzerinde beyaz ay ve yıldız olarak doğru tanımlanmıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-7",
       "content_sha256": "b397b51b835e96d3506832322db81bfa3efbbe8e6795225cf4ea66961d6066d3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Tarihî yapıya zarar vermeden gezmek korumaya yardımcı olur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-8",
       "content_sha256": "e471b25e038460dcbbe3d8e9debc95cbbf30cde607f8e7b812723600157ebebd",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Krokinin yerlerin konumunu göstermesi doğru; ancak ilgili birinci sınıf ünitesinde kavram açıkça listelenmediğinden kapsam ve seviye öğretmence değerlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-9",
       "content_sha256": "d0f7f6b1709d721457eafe7ff206e61ad77c763aebceafd7912ba87ea7d8d672",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Adresi paylaşmadan önce güvendiği yetişkine danışmak verilen seçeneklerde uygun güvenli adımdır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-10",
       "content_sha256": "c95908bae6eb5156c31704b10f211af31ec3dbdbeb023cc66605ac484edfc5a7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Çiçeklere zarar vermeden bakmak ortak alanı korur; diğer seçenekler orta düzey için belirgindir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
@@ -3676,32 +3676,32 @@
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-1",
       "content_sha256": "1ecf277c794c467eeef69edcbc1ea8c2d6df490c8e305a4672b22e529c1d341f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı gölette farklı canlılar gözlendiği sonucu doğru; tek tür ve tüm dünya canlıları seçenekleri zor düzeyde çok belirgin. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-2",
       "content_sha256": "25eeaccf9a81793261ff8cf85a95080c3a6eb68d53ae59b68cc24aa22786e447",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kesilen yuva ağacı kuşun barınmasını etkiler; tüy rengi ve gün süresi seçenekleri zor düzeyde konu dışı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3",
-      "content_sha256": "07955c03e300da76a506b3187b4506f3be34438bd9255787c9e36071ee922aaf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "ddb7e24a41601ab099309175bd85638ae21e5c4dd5f84947c17bef86f10ceb57",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Bu balığa uygun gölet koşulu, 1/2 numaralı görsel ve alternatif metin uyumlu; kuru alan seçeneği zor düzey için çok kolay elenir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-4",
       "content_sha256": "e2f7fb6c22e9bb05012425d68c582a6352cd3c28d8f1d46e79f8973615670aca",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kuşları görmemek ölümün kanıtı değildir; diğer iki genelleyici seçenek zor düzeyde çok belirgin. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-5",
       "content_sha256": "b1f8110ea838adbcd948349242d4168fcd5688b71de687f5ef9b2c096bc066e2",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Gölet kirliliği yaşam ortamını etkileyebilir; gölette canlı yok ve çöp yalnız rengi etkiler seçenekleri zor düzey için kolay. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-6",
@@ -3711,27 +3711,27 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-7",
-      "content_sha256": "cba4c169800321ccebcdfe015783aeba1120c1a342330d93c2360b71724be373",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "b74c291b59878c336067ee8b215b12a89452281ec6e6b08bcd11b00fc066c6d4",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Çocuğun canlılara ve taşa dokunmadan yetişkine haber vermesi güvenli ve verilen seçenekler içinde uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-8",
       "content_sha256": "0457f8eb639e8e10f978ef09691dcfd7dd17ff5a7c83abc1f50ac91ac2c99fed",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Barınma alanı değişiminin canlıların yerini etkileyebilmesi olasıdır; diğer şıklar zor düzey için çok uçtur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-9",
-      "content_sha256": "65bef7758fdce36d3386046c5958feb54371ad8b15d56ce61e508e2cf058a43c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "d6aaed8724983416b09f2c9144ed6f4472453630d8feee6042139e06bdb022c5",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Farklı ortamların farklı canlılara yaşam alanı sağlayabilmesi listelerle ve harfsiz görselle uyumlu; çeldiriciler zor düzey için kolay. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-10",
-      "content_sha256": "1865cdc037ec48a3663871d27de27d23db79cb95184b099eedbed4fe99a0db3e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "44ece26bbd9f0566a7436a1d6ee11f3edba9be0a78164e23025ff7efca019334",
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Zaman içindeki bitki gelişimi ve canlı gözlemleri anlamlıdır; afiş rengi ve tek gün üzerinden kesin sonuç çeldiricileri çok belirgin, görsel de cevaba ipucu veriyor. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344"
     },
     {
       "id": "1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
