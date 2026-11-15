@@ -18,7 +18,7 @@ test('movement evidence card and reasoning remain consistent on a narrow screen'
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width:320,height:850});
  await page.goto('/test.html?sinif=3&ders=fen-bilimleri&konu=hareketi-kesfediyorum&zorluk=zor&test=1');
  for(let i=0;i<5;i++)await page.locator('#skipQuestion').click();
- await expect(page.locator('#questionArea')).toContainText('A: virajda aynı hız');
+ await expect(page.locator('#questionArea')).toContainText('A: hızlanıp yavaşlamadan virajı dönüyor');
  await expect(page.locator('#questionArea')).toContainText('B: düz yolda yavaşlıyor');
  await expect(page.locator('#questionArea img')).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
@@ -26,9 +26,9 @@ test('movement evidence card and reasoning remain consistent on a narrow screen'
  await expect(page.locator('#questionArea')).toContainText('Kaydedilen yollara göre hangisi doğrudur?');
  await page.locator('#skipQuestion').click();await page.locator('#skipQuestion').click();
  await page.getByRole('link',{name:'Yanlışlarını Öğren',exact:true}).click();
- await expect(page.locator('#wrongReview')).toContainText('A’nın yönü, B’nin hızı değişir.');
+ await expect(page.locator('#wrongReview')).toContainText('A yön değiştirir, B yavaşlar.');
  await expect(page.locator('#wrongReview')).toContainText('A virajı döndüğü için yön değiştirir');
- await expect(page.locator('#wrongReview')).toContainText('Kayıtlar her aralıktaki toplam yolu gösterir; hareketin her anındaki hızı göstermez.');
+ await expect(page.locator('#wrongReview')).toContainText('Kayıtlar her aralıktaki toplam yolu gösterir; her andaki hareketi göstermez.');
 });
 for(const width of [320,375,768,1440])test(`school lesson and quiz accessible at ${width}`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width,height:900});
