@@ -2014,62 +2014,62 @@
     {
       "id": "T2-G3-FEN -BILIMS-01",
       "content_sha256": "3cb149758e93a79402c7edee13472db163c6082154ef612e88d27aa6fdffbadb",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 6 − 4 = 2 cm; aradaki zamanlara ilişkin ek sonuç verilmez. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-02",
       "content_sha256": "d3b25b685405f0f3e862907d335759230656780232a8e53575b581181f7114ff",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Hem ışık hem su değiştiğinden sonuç yalnız suya bağlanamaz. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-03",
       "content_sha256": "4e9e9f18f18244c428b5ccee3abd2cbdbbe761c7511c67d4813da401a7ff2d04",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Ses duyma gözlem, kutuda taş olduğu düşüncesi tahmindir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-04",
       "content_sha256": "085369f3a260f1193c29bb8263ec985d97482bcfa5d8a7fe80b223b926a29896",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 5, 3 ve 2’den büyük olduğundan ikinci gün en fazla ölçülmüştür; diğer seçenekler zor düzeyde kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-05",
-      "content_sha256": "838704ab84a497245e37a0c6e425661cd58295775b6aa08ac6d4928fb598a1ad",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "ca8155b6118929e1574dc61de33d09c3a05d5ae00a5788ecbdc77288bbf47dd1",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenin güvenli olduğunu belirlediği yaprağın rengi görmeyle, yüzeyi dokunmayla incelenir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-06",
       "content_sha256": "7e40c7582c5fb3331322bcc8c573a30087248f77cb15c206386b1d560239c693",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Deney öncesi “bence” ifadesi tahmindir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-07",
       "content_sha256": "c86b0844b2f79c1f5e5106d2362a16af2366d2b3f6b9e307bbd0aa2b3082fcc7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Karış kişiye göre değişirken santimetre standart birimdir; doğrudan kıyas için ortak birim gerekir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-08",
-      "content_sha256": "3eb1442547488cfb6a714eee4f85f1b9cabf8f2a57f28c053a53d76f689e331c",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "2f7cc292c685fe08d21379ef54be9d8b173dd2652e398775f5e4bfad6d9126a2",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: “En sevdiğin meyve hangisidir?” yönlendirmeyen sorudur; açıklama doğru seçeneği adıyla belirtir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-09",
       "content_sha256": "30a10441b08df26bfe8e80b7cc460dc4b251b608ccc952ebc5304f45aacf9fff",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Tarihler gözlemleri günlere göre karşılaştırmayı sağlar; diğer seçenekler zor düzeyde kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "T2-G3-FEN -BILIMS-10",
       "content_sha256": "58f762717e598baa6e5235b4aa303c40b9c3b25f0e4e4cefa437d8c9f7357bac",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Araç ve adımlar karşılaştırılıp ölçüm tekrarlanır; sonucu seçmek veya silmek uygun değildir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-ingilizce-family-life-kolay-test-1-soru-1",
@@ -3256,50 +3256,50 @@
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-1",
       "content_sha256": "2bb6b9e3cf5b87e830840af64234f5bf431eee07bc96bef63bd24e4d6c2409d0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 8 dakika, 14 dakikadan kısadır; sonuç bu denemeyle sınırlıdır. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-2",
       "content_sha256": "526c8cd94a27d1917ebd0b2ed83937dbbb8acb1b6fc54be7bf0a129168508908",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Su etkisi için ışık ve toprak gibi koşullar sabit tutulur. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-3",
-      "content_sha256": "975ee1d1eeb6ca68c35e6047e4746ca0f35ca74609ca8ef2ba8e82b3737cf036",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "f6a4c0f783c664028ed1d9cba6fdbc7fe0671130831294fc304d3009f9a359bb",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 7 − 4 = 3 cm; numaralı kartta iki ölçüm ve çıkarım kök/alt metinle eşleşir. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-4",
       "content_sha256": "fe0206a0a5b85dc38d4d50ff7f0acec810d0bba1cac62b4b6695df006297cd18",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Cetvelin sıfır ve ölçüm yöntemi kontrol edilir; diğer seçenekler zor düzeyde kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-5",
       "content_sha256": "8c808723d82b64df541116459b7fd55026f4adee2806d6c0cabc8f9177e76096",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: 41 ve 39 cm sonuçları her seferinde tam 40 cm iddiasını çürütür. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-6",
-      "content_sha256": "45f006e6f1b20dccd98a46f54e297b4ef173afd69be7d759eb257f1d1a773b3a",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "ab368712f1b292dcc9f2d36130951001f6cbdab0e8226aaabfa03db8f72c4970",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: İki denemede model ve pencerenin açık/kapalı durumu değişmiştir; numaralı kart ve alt metin tutarlıdır. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-7",
       "content_sha256": "8bd8082e3fe320e839c444ea1d750b188db9d8d7367d34a0b4f11265528c3517",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Demir ataş çekilirken alüminyum folyonun çekilmemesi her metalin çekildiği iddiasını desteklemez. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-8",
       "content_sha256": "4b7ef191029a1d5289a1141e3f2329a45e3a9ea964196fc8a349219e350de3b1",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yağmurlu sayım anında az kuş görülmesi kuşların yok olduğunu kanıtlamaz. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-9",
@@ -3309,9 +3309,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-10",
-      "content_sha256": "a93137e3e65b01f7a4ee0fd7c83122a84f655431a870e1d6b986887efe1e0d19",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "85772792fd596636d27fde9d0c63a3e13795ba8610e680dea8a9a774965c7586",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Tahmin ile ölçüm arasındaki fark açıklanır, kanıt değiştirilmez; harfsiz görsel ve alt metin uyumludur. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327"
     },
     {
       "id": "3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1-soru-1",

@@ -24151,7 +24151,7 @@
       },
       "after": {
         "id": "T2-G3-FEN -BILIMS-05",
-        "question": "Bir çocuk yaprağın rengini ve yüzeyinin pürüzünü karşılaştıracak. Hangi yöntem bu iki özelliğe uygundur?",
+        "question": "Bir çocuk öğretmenin güvenli olduğunu belirlediği bir yaprağın rengini ve yüzeyinin pürüzünü karşılaştıracak. Hangi yöntem bu iki özelliğe uygundur?",
         "choices": [
           "Yalnız yaprağın uzunluğunu ölçmek.",
           "Renge bakmak, güvenli yaprağın yüzeyine dokunmak.",
@@ -24371,7 +24371,7 @@
           "Elma çok güzel, sen de elmayı seçersin değil mi?"
         ],
         "correctAnswer": 1,
-        "explanation": "İlk soru belirli bir cevabı övmeden veya başkalarının seçimini dayatmadan sorar. Diğerleri çocuğu belirli bir meyveye yönlendirir.",
+        "explanation": "“En sevdiğin meyve hangisidir?” sorusu bir cevabı övmeden veya başkalarının seçimini dayatmadan sorar. Diğer sorular çocuğu belirli bir meyveye yönlendirir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_3_sinif_fen_konu1_bes_duyu_8",
@@ -39207,29 +39207,29 @@
         ]
       },
       "after": {
-        "question": "Kayıt kartları: A: “Filizin boyu pazartesi 4 cm, cuma 7 cm.” B: “Filiz bu hafta 3 cm uzamış.” B kartı nasıl oluşturulmuştur?",
+        "question": "Kayıt kartları: 1. kart: “Filizin boyu pazartesi 4 cm, cuma 7 cm.” 2. kart: “Filiz bu hafta 3 cm uzamış.” 2. kart nasıl oluşturulmuştur?",
         "choices": [
           "Yalnız saksının rengine bakılarak",
           "Filiz ölçülmeden tahmin edilerek",
-          "A kartındaki ölçümler karşılaştırılarak"
+          "1. karttaki ölçümler karşılaştırılarak"
         ],
         "correctAnswer": 2,
-        "explanation": "7 − 4 = 3 cm farkı, iki tarihteki ölçümlerin karşılaştırılmasından gelir. B ifadesi ölçümlere dayanır; saksının rengi bu hesabı vermez.",
+        "explanation": "7 − 4 = 3 cm farkı, iki tarihteki ölçümlerin karşılaştırılmasından gelir. 2. karttaki ifade ölçümlere dayanır; saksının rengi bu hesabı vermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Filiz ölçümleri",
           "data": {
-            "first": "Pazartesi: 4 cm",
-            "second": "Cuma: 7 cm"
+            "first": "Pazartesi 4 cm, cuma 7 cm",
+            "second": "Filiz bu hafta 3 cm uzamış"
           }
         },
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-3",
-        "imageAlt": "Pazartesi: 4 cm. Cuma: 7 cm",
+        "imageAlt": "1. kart: Pazartesi 4 cm, cuma 7 cm. 2. kart: Filiz bu hafta 3 cm uzamış",
         "options": [
           "Yalnız saksının rengine bakılarak",
           "Filiz ölçülmeden tahmin edilerek",
-          "A kartındaki ölçümler karşılaştırılarak"
+          "1. karttaki ölçümler karşılaştırılarak"
         ],
         "difficulty": "zor",
         "skill": "Bilimsel Keşif Yolculuğu",
@@ -39430,17 +39430,17 @@
         ]
       },
       "after": {
-        "question": "Deneme notları: A: “Kâğıt uçak, açık pencerede 3 m uçtu.” B: “Başka model, kapalı pencerede 2 m uçtu.” Hangi sorun model karşılaştırmasını zorlaştırır?",
+        "question": "Deneme notları: 1. deneme: “Kâğıt uçak, açık pencerede 3 m uçtu.” 2. deneme: “Başka model, kapalı pencerede 2 m uçtu.” Hangi sorun model karşılaştırmasını zorlaştırır?",
         "choices": [
           "İki uzaklık da metreyle ölçülmüştür.",
           "Uçaklar kâğıttan yapılmıştır.",
-          "Hem model hem hava koşulu değişmiştir."
+          "Hem uçak modeli hem pencerenin açık ya da kapalı olması değişmiştir."
         ],
         "correctAnswer": 2,
         "explanation": "Uçuş farkını yalnız modele bağlayamayız; pencerenin durumu da değişmiştir. Modelleri aynı ortamda birkaç kez denemek daha uygun bir karşılaştırma sağlar.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-6.svg",
         "visual": {
-          "type": "cards",
+          "type": "numberedCards",
           "title": "Uçak denemeleri",
           "data": {
             "first": "Model 1: açık pencere, 3 m",
@@ -39448,11 +39448,11 @@
           }
         },
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-6",
-        "imageAlt": "Model 1: açık pencere, 3 m. Model 2: kapalı pencere, 2 m",
+        "imageAlt": "1. kart: Model 1: açık pencere, 3 m. 2. kart: Model 2: kapalı pencere, 2 m",
         "options": [
           "İki uzaklık da metreyle ölçülmüştür.",
           "Uçaklar kâğıttan yapılmıştır.",
-          "Hem model hem hava koşulu değişmiştir."
+          "Hem uçak modeli hem pencerenin açık ya da kapalı olması değişmiştir."
         ],
         "difficulty": "zor",
         "skill": "Bilimsel Keşif Yolculuğu",
@@ -39749,7 +39749,7 @@
         "explanation": "Tahmin beklediğimiz, ölçüm ise kaydettiğimiz sonuçtur. Farkı açıklamak yeni bir deneme düşünmemizi sağlar; kaydı değiştirmek kanıtı kaybettirir.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "Araştırma adımları",
           "data": {
             "first": "Soru → tahmin",
