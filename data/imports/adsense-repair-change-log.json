@@ -10720,21 +10720,21 @@
         ]
       },
       "after": {
-        "question": "Mahallendeki insanların ortak kullanabildiği yer hangisidir?",
+        "question": "Belediyenin görevleri hakkında bilgi edinmek isteyen Deniz, güvendiği bir yetişkinin yardımıyla hangi kaynağa başvurabilir?",
         "choices": [
-          "Park",
-          "Evindeki yatak odası",
-          "Evinin mutfağı"
+          "Belediyenin resmî internet sayfasına",
+          "Kaynağı belli olmayan bir söylentiye",
+          "Hiç araştırmadan kendi tahminine"
         ],
         "correctAnswer": 0,
-        "explanation": "Park, mahallede yaşayan birçok kişinin yararlanabildiği ortak bir alandır.",
+        "explanation": "Belediyenin resmî internet sayfası, görevleri hakkında bilgi edinmek için uygun bir kaynaktır. Kaynağı belli olmayan söylentiler ve tahminler doğrulanmış bilgi değildir.",
         "image": null,
         "visual": null,
         "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
         "options": [
-          "Park",
-          "Evindeki yatak odası",
-          "Evinin mutfağı"
+          "Belediyenin resmî internet sayfasına",
+          "Kaynağı belli olmayan bir söylentiye",
+          "Hiç araştırmadan kendi tahminine"
         ],
         "difficulty": "kolay",
         "skill": "Yaşadığım Yer ve Ülkem",
@@ -11020,19 +11020,19 @@
         ]
       },
       "after": {
-        "question": "Bir öğrenci kitap ödünç almak istiyor. Hangi yere başvurabilir?",
+        "question": "Mustafa Kemal, çocukken Şemsi Efendi Mektebinde öğrenim gördü. Bu bilgi Atatürk’ün hayatının hangi dönemiyle ilgilidir?",
         "choices": [
-          "Otobüs durağına",
-          "Kütüphaneye",
-          "İtfaiye istasyonuna"
+          "Askerlik görevi yaptığı yıllar",
+          "Öğrencilik yılları",
+          "Cumhurbaşkanlığı yılları"
         ],
         "correctAnswer": 1,
-        "explanation": "Kütüphanelerde kitaplara ulaşılabilir ve kurallarına uygun olarak kitap ödünç alınabilir.",
+        "explanation": "Şemsi Efendi Mektebi, Mustafa Kemal’in çocukluk ve öğrencilik yıllarında gittiği okullardandır.",
         "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
         "options": [
-          "Otobüs durağına",
-          "Kütüphaneye",
-          "İtfaiye istasyonuna"
+          "Askerlik görevi yaptığı yıllar",
+          "Öğrencilik yılları",
+          "Cumhurbaşkanlığı yılları"
         ],
         "difficulty": "kolay",
         "skill": "Yaşadığım Yer ve Ülkem",
@@ -40797,18 +40797,18 @@
         "question": "Bir taş parçası zamanla daha küçük parçalara ayrılıyor. Küçük parçalar hakkında hangisi doğrudur?",
         "choices": [
           "Taşın parçalanmasıyla oluşmuşlardır; taş maddesi yok olmamıştır.",
-          "Hepsi canlı tohumlara dönüşmüştür.",
-          "Parçalanma taşın hiç yer kaplamamasını sağlar."
+          "Küçük parçalar mutlaka ilk taşla aynı büyüklüktedir.",
+          "Taş parçalandığı için oluşan parçaların artık yer kaplaması gerekmez."
         ],
         "correctAnswer": 0,
-        "explanation": "Parçalanma büyüklüğü değiştirir. Oluşan küçük parçalar hâlâ madde içerir ve yer kaplar; parçalanmak yok olmak değildir.",
+        "explanation": "Küçük parçalar taşın parçalanmasıyla oluşur; madde olmaya ve yer kaplamaya devam eder. Parçaların büyüklüğü ilk taşın büyüklüğüyle aynı olmak zorunda değildir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-4",
         "options": [
           "Taşın parçalanmasıyla oluşmuşlardır; taş maddesi yok olmamıştır.",
-          "Hepsi canlı tohumlara dönüşmüştür.",
-          "Parçalanma taşın hiç yer kaplamamasını sağlar."
+          "Küçük parçalar mutlaka ilk taşla aynı büyüklüktedir.",
+          "Taş parçalandığı için oluşan parçaların artık yer kaplaması gerekmez."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -40943,11 +40943,11 @@
         "question": "Yeryüzü kartları: 1. kartta çevresine göre yüksek ve eğimli alan, 2. kartta geniş ve düz alan var. Hangisi uygun eşleştirmedir?",
         "choices": [
           "1. alan ova, 2. alan dağlık olmalıdır.",
-          "İkisi de yalnız deniz tabanıdır.",
+          "İki alanın eğimi mutlaka aynıdır.",
           "1. alan dağlık, 2. alan ova olabilir."
         ],
         "correctAnswer": 2,
-        "explanation": "Yükseklik ve eğim dağlık alanı, geniş düz yüzey ova örneğini destekler. Kartlarda deniz altında olduklarını gösteren bir bilgi yoktur.",
+        "explanation": "Yüksek ve eğimli alan dağlık, geniş ve düz alan ova örneği olabilir. Kartlar farklı eğim özellikleri verdiğinden bunların mutlaka aynı olduğu söylenemez.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-6.svg",
         "visual": {
           "type": "numberedCards",
@@ -40961,7 +40961,7 @@
         "imageAlt": "1. kart: Çevresine göre yüksek ve eğimli. 2. kart: Geniş ve düz",
         "options": [
           "1. alan ova, 2. alan dağlık olmalıdır.",
-          "İkisi de yalnız deniz tabanıdır.",
+          "İki alanın eğimi mutlaka aynıdır.",
           "1. alan dağlık, 2. alan ova olabilir."
         ],
         "difficulty": "zor",
@@ -41165,12 +41165,12 @@
       "after": {
         "question": "Süzülen su kayıtları: 1. tepsinin altındaki kapta az, 2. tepsinin altındaki kapta çok toprak birikti. Tepsilere eşit su döküldü. Hangi ölçüm karşılaştırmayı sayısallaştırır?",
         "choices": [
-          "Kapların renklerini saymak",
-          "Tepsileri hazırlayanların yaşlarını toplamak",
-          "Her kaptaki biriken toprağın miktarını aynı yöntemle ölçmek"
+          "Her kapta biriken toprağın rengini karşılaştırmak",
+          "Tepsilere dökülen eşit su miktarını yeniden ölçmek",
+          "Her kapta biriken toprağın miktarını aynı koşullarda, aynı yöntemle ölçmek"
         ],
         "correctAnswer": 2,
-        "explanation": "Araştırılan sonuç taşınan toprak miktarıdır. Aynı yöntemle miktarı ölçmek “az” ve “çok” gözlemini karşılaştırılabilir veriye dönüştürür.",
+        "explanation": "Araştırılan sonuç taşınan toprak miktarıdır. Aynı koşul ve yöntemle her kaptaki toprağın miktarını ölçmek “az” ve “çok” gözlemlerini karşılaştırılabilir sayılara dönüştürür. Suyun eşit miktarı ise deney koşuludur.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9.svg",
         "visual": {
           "type": "numberedCards",
@@ -41183,9 +41183,9 @@
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
         "imageAlt": "1. kart: Az toprak birikti. 2. kart: Çok toprak birikti",
         "options": [
-          "Kapların renklerini saymak",
-          "Tepsileri hazırlayanların yaşlarını toplamak",
-          "Her kaptaki biriken toprağın miktarını aynı yöntemle ölçmek"
+          "Her kapta biriken toprağın rengini karşılaştırmak",
+          "Tepsilere dökülen eşit su miktarını yeniden ölçmek",
+          "Her kapta biriken toprağın miktarını aynı koşullarda, aynı yöntemle ölçmek"
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -41249,29 +41249,29 @@
         ]
       },
       "after": {
-        "question": "Gezi planında çocuklar gevşek taşlı dik yamaca çıkmak yerine öğretmenle belirlenmiş patikada yürüyor. Bu kararın gerekçesi nedir?",
+        "question": "Gezi planında çocuklar gevşek taşlı dik yamaca çıkmak yerine öğretmenlerinin güvenli olduğunu değerlendirdiği patikada yürüyor. Bu kararın gerekçesi nedir?",
         "choices": [
           "Taş kayması ve düşme riskini azaltarak gözlem yapmak",
-          "Patikada hiçbir taş bulunamayacağını kanıtlamak",
-          "Doğayı incelemek için taşları mutlaka kırmak"
+          "Patikadaki taşların hepsinin aynı tür olduğunu kanıtlamak",
+          "Patikada hiçbir tehlikenin bulunmadığını kesin olarak bilmek"
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem yaparken zeminin güvenliği de önemlidir. Belirlenmiş yol riski azaltır; bu, çevrede hiç taş olmadığı veya taşları kırmak gerektiği anlamına gelmez.",
+        "explanation": "Zemini değerlendirilmiş bir yol seçmek kayma ve düşme riskini azaltabilir; bu, yolun tehlikesiz olduğunu kesinleştirmez veya taşların türünü göstermez.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Gezi yolları",
           "data": {
             "first": "Gevşek taşlı dik yamaç",
-            "second": "Öğretmenle belirlenen patika"
+            "second": "Öğretmenin güvenli bulduğu patika"
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-10",
-        "imageAlt": "Gevşek taşlı dik yamaç. Öğretmenle belirlenen patika",
+        "imageAlt": "Gevşek taşlı dik yamaç. Öğretmenin güvenli bulduğu patika",
         "options": [
           "Taş kayması ve düşme riskini azaltarak gözlem yapmak",
-          "Patikada hiçbir taş bulunamayacağını kanıtlamak",
-          "Doğayı incelemek için taşları mutlaka kırmak"
+          "Patikadaki taşların hepsinin aynı tür olduğunu kanıtlamak",
+          "Patikada hiçbir tehlikenin bulunmadığını kesin olarak bilmek"
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",

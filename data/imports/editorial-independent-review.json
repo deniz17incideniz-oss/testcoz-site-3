@@ -903,9 +903,9 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
-      "content_sha256": "6fd2d7a03e4c526cc795a2ee39c3ef7dfd09e54b1ef4bf690012210411a3c6db",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Parkın ortak kullanımı doğru; ikinci sınıf alanının tarihî yerler, yerel yönetim ve millî günler çıktılarıyla doğrudan bağlantı güçlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
+      "content_sha256": "9eb0133f444c54b6384e38c01b8190a8cf4289dc2f29bb8f8ab8080c71468773",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Belediyenin resmî sayfası görevleri araştırmak için verilen seçeneklerde uygun kaynaktır; yetişkin desteği belirtilmiştir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
@@ -927,9 +927,9 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
-      "content_sha256": "dbd152c9d1a02dbdc9b4dcc78dce7ddce0defb85d6700f00ee89f78b5ada3be5",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Kitap ödünç almak için kütüphane uygundur; alanın belirli kazanımlarıyla bağlantısı ve ikinci soruyla bağlam tekrarı gözden geçirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
+      "content_sha256": "1c2e6319d369a4b93c775d25f430c113e137e574bedeeab7eb6e36b19f6b2b91",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Şemsi Efendi Mektebinde öğrenim görme Atatürk’ün öğrencilik yıllarına ilişkindir. Tarih kaynağı: https://samsunkoyokullari.meb.gov.tr/ataturk/Hayati/CocuklukYillari Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245"
     },
     {
       "id": "2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
@@ -3393,9 +3393,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-4",
-      "content_sha256": "eb1c0c571dc4d551b84a3bead15f98ac06d9cdeea33fa656eb30ecd4e0947b0b",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taş parçalanınca madde yok olmaz; zor düzey için çeldiriciler kolay eleniyor. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "cc78963d10d75117b3cde2ec50e9f5fa2b210e06906dc000a5870b58f6047428",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Taş parçaları madde ve yer kaplamaya devam eder; ilk taşla aynı büyüklükte olmaları gerekmez. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-5",
@@ -3405,9 +3405,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-6",
-      "content_sha256": "cf83f2828d30fce0d2c15e1016d3f839ca1f9c9ab3e675abdb9b881062516296",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yüksek/eğimli alan dağlık, geniş/düz alan ova olabilir; numaralı kartlar tutarlı fakat yeryüzü şekilleri tema odağı açısından incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "7bf245475bf23953ab71cd8b4d5edd98c93fb6f3b2088539c848f222155c64d5",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Yüksek ve eğimli alan dağlık, geniş ve düz alan ova olabilir; numaralı görsel uyumludur ve kesin sınıflama iddia edilmez. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-7",
@@ -3423,15 +3423,15 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
-      "content_sha256": "25abbaed53bc7c14cb8c1bf2e961a411609239fab01f8706175286f57ae9815d",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Birikintileri aynı yöntemle ölçmek karşılaştırılabilir veri sağlar; numaralı kartlar tutarlı, toprak odağının tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "1c8d27815277c19ecc41e9c2f31c3cf4505ef6a9f1ab8ae5ce318a96308809cf",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Aynı koşul ve yöntemle biriken toprak miktarını ölçmek karşılaştırmayı sayısallaştırır; numaralı kart verileriyle uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-10",
-      "content_sha256": "6d8bec9175f7b4524e97a731b8b966151803afd38decf94490dd2e9d54156461",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenle belirlenen patika riski azaltabilir; harfsiz kart tutarlı, genel gezi güvenliğinin tema kapsamı incelenmeli. Açık ikinci doğru saptanmadı. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454 ve https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342"
+      "content_sha256": "f199fba2a3d8fc1beabefe9aaa2e356f21b82c9b99a157d76573796e3f58f677",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Öğretmenin güvenli değerlendirdiği patikayı seçmek kayma riskini azaltabilir; açıklama sıfır risk iddia etmez ve harfsiz görselle uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",
