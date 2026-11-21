@@ -56,6 +56,14 @@
   Object.keys(topics).forEach(function(topic){ const t=topics[topic]; difficulties.forEach(function(difficulty){
     const slug="3-sinif-fen-bilimleri-"+topic+"-"+difficulty+"-test-1";
     const questions=builders[difficulty](t).map(function(question,index){ question.id=index+1; question.question="3. sınıf Fen "+difficulty+" — "+t.name+": "+question.question; if(question.visual){question.image="images/tests/"+slug+"-soru-"+(index+1)+".svg";question.imageAlt=question.visual.title;} return question; });
+    if(topic==='canlilarin-yasam-alanlarina-yolculuk' && difficulty==='zor') {
+      Object.assign(questions[0], {
+        question:'Bir öğrenci bir gölette su bitkileri, kurbağalar ve böcekler gözlemliyor. Bu gözleme dayanarak hangi sonuca ulaşabilir?',
+        choices:['Aynı yaşam alanında farklı canlılar bulunabilir.','Bütün kurbağalar bu gölette yaşar.','Göletteki bütün bitkiler aynı türdendir.','Göletteki canlılar yaşam alanlarını terk etmiştir.'],
+        correctAnswer:0,
+        explanation:'Gözlemde su bitkileri, kurbağalar ve böcekler aynı gölette görülmüştür. Bu, aynı yaşam alanında farklı canlıların bulunabileceğini gösterir.'
+      });
+    }
     tests.push({classLevel:3,subject:"fen-bilimleri",subjectName:"Fen Bilimleri",topic:topic,topicName:t.name,difficulty:difficulty,testNumber:1,slug:slug,pageUrl:"tests/"+slug+".html",questions:questions});
   }); });
   window.TESTCOZ_TESTS=(window.TESTCOZ_TESTS||[]).concat(tests);
