@@ -39027,28 +39027,28 @@
       "test": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Bilimsel Keşif Yolculuğu: Bir öğrenci “Güneşte kalan buz daha hızlı eridi.” verisini elde ediyor. En güçlü çıkarım hangisidir?",
+        "question": "Bir öğrenci aynı büyüklükteki iki buz parçasından birini güneşe, diğerini gölgeye koyuyor. Bu denemede güneşteki buz daha önce eriyor. Hangi sonuç gözleme dayanır?",
         "choices": [
-          "Yeni ölçümün önceki ölçümlere yakın çıkması",
-          "Tahminler her zaman kesin sonuçtur.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu denemede güneşteki buz gölgedekinden önce erimiştir.",
+          "Her buz parçası her yerde aynı sürede erir.",
+          "Buzlar bu denemede hiç erimemiştir.",
+          "Bütün maddeler güneşte mutlaka aynı anda erir."
         ],
         "correctAnswer": 0,
-        "explanation": "Çıkarım doğrudan gözlem verisiyle desteklenir.",
+        "explanation": "Bu denemede iki buz parçasının erime sırası gözlenmiştir. Tek bir deneme bütün buzlar veya bütün maddeler için kesin sonuç vermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-1",
         "options": [
-          "Yeni ölçümün önceki ölçümlere yakın çıkması",
-          "Tahminler her zaman kesin sonuçtur.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu denemede güneşteki buz gölgedekinden önce erimiştir.",
+          "Her buz parçası her yerde aynı sürede erir.",
+          "Buzlar bu denemede hiç erimemiştir.",
+          "Bütün maddeler güneşte mutlaka aynı anda erir."
         ],
         "difficulty": "zor",
         "skill": "Bilimsel Keşif Yolculuğu",
         "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
-        "questionType": "karsilastirma",
+        "questionType": "siralama",
         "cognitiveLevel": "problem-cozme",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -39056,7 +39056,7 @@
           "fen-bilimleri",
           "bilimsel-kesif-yolculugu",
           "bilimsel-kesif-yolculugu",
-          "karsilastirma",
+          "siralama",
           "problem-cozme"
         ]
       },
@@ -40537,23 +40537,23 @@
       "test": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Yer Bilimciler İş Başında: Bir öğrenci “Bazı kayaçlarda farklı renklerde mineraller görüldü.” verisini elde ediyor. En güçlü çıkarım hangisidir?",
+        "question": "Öğretmenin gösterdiği bir kayaç örneğinde iki farklı mineral bulunuyor. Bu bilgi hangi sonucu destekler?",
         "choices": [
-          "Farklı kayaçların farklı sertlik göstermesi",
-          "Dünya'nın bütün kayaçları aynı özelliktedir.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu kayaç örneği birden fazla mineral içerir.",
+          "Bütün kayaçların sertliği aynıdır.",
+          "Örnekte hiç mineral bulunmaz.",
+          "Bütün kayaçlar yalnızca bir mineral içerir."
         ],
         "correctAnswer": 0,
-        "explanation": "Çıkarım doğrudan gözlem verisiyle desteklenir.",
+        "explanation": "Örnekte iki farklı mineral bulunduğu için bu kayaç örneğinin birden fazla mineral içerdiği söylenebilir. Bilgi, bütün kayaçların sertliğini göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-1",
         "options": [
-          "Farklı kayaçların farklı sertlik göstermesi",
-          "Dünya'nın bütün kayaçları aynı özelliktedir.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu kayaç örneği birden fazla mineral içerir.",
+          "Bütün kayaçların sertliği aynıdır.",
+          "Örnekte hiç mineral bulunmaz.",
+          "Bütün kayaçlar yalnızca bir mineral içerir."
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -41292,23 +41292,23 @@
       "test": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Maddeyi Tanıyalım, Karıştırıp Ayıralım: Bir öğrenci “Mıknatıs, kum içindeki demir parçalarını çekti.” verisini elde ediyor. En güçlü çıkarım hangisidir?",
+        "question": "Bir öğrenci mıknatısın kum içindeki demir parçalarını çektiğini gözlemliyor. Bu gözleme dayanarak ne söyleyebilir?",
         "choices": [
-          "Elekte iri tanelerin üstte kalması",
+          "Bu denemede mıknatıs demir parçalarını çekmiştir.",
           "Her karışım yalnız mıknatısla ayrılır.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu denemede kum elekle ayrılmıştır.",
+          "Mıknatıs bütün maddeleri mutlaka çeker."
         ],
         "correctAnswer": 0,
-        "explanation": "Çıkarım doğrudan gözlem verisiyle desteklenir.",
+        "explanation": "Gözlem, bu denemede mıknatısın demir parçalarını çektiğini gösterir. Elek kullanımına dair bilgi verilmediği için elek sonucu ya da bütün maddeler hakkında kesin sonuç çıkarılamaz.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",
         "options": [
-          "Elekte iri tanelerin üstte kalması",
+          "Bu denemede mıknatıs demir parçalarını çekmiştir.",
           "Her karışım yalnız mıknatısla ayrılır.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Bu denemede kum elekle ayrılmıştır.",
+          "Mıknatıs bütün maddeleri mutlaka çeker."
         ],
         "difficulty": "zor",
         "skill": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
@@ -42802,23 +42802,23 @@
       "test": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Yaşamımızı Kolaylaştıran Elektrik: Bir öğrenci “Anahtar kapatılınca lambanın ışığı söndü.” verisini elde ediyor. En güçlü çıkarım hangisidir?",
+        "question": "Bir çocuk oda lambasının düğmesini kapatınca ışığın söndüğünü görüyor. Bu gözlem düğmenin hangi işlevini gösterir?",
         "choices": [
-          "Pil doğru bağlandığında ampulün yanması",
-          "Elektrikli araçlar suyun yanında güvenle kullanılabilir.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Lambanın ışık verme durumunu kontrol etme",
+          "Odanın büyüklüğünü değiştirme",
+          "Lambanın rengini boyama",
+          "Pil takıldığında bütün araçları çalıştırma"
         ],
         "correctAnswer": 0,
-        "explanation": "Çıkarım doğrudan gözlem verisiyle desteklenir.",
+        "explanation": "Düğme kapatıldığında lambanın ışık verme durumu değişmiştir. Odanın boyutu, lambanın rengi veya başka araçların çalışması bu gözlemde incelenmemiştir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-1",
         "options": [
-          "Pil doğru bağlandığında ampulün yanması",
-          "Elektrikli araçlar suyun yanında güvenle kullanılabilir.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Lambanın ışık verme durumunu kontrol etme",
+          "Odanın büyüklüğünü değiştirme",
+          "Lambanın rengini boyama",
+          "Pil takıldığında bütün araçları çalıştırma"
         ],
         "difficulty": "zor",
         "skill": "Yaşamımızı Kolaylaştıran Elektrik",
@@ -44312,28 +44312,28 @@
       "test": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Canlıların Yaşam Alanlarına Yolculuk: Bir öğrenci “Gölette su bitkileri, kurbağalar ve böcekler birlikte görüldü.” verisini elde ediyor. En güçlü çıkarım hangisidir?",
+        "question": "Bir öğrenci bir gölette su bitkileri, kurbağalar ve böcekler gözlemliyor. Bu gözleme dayanarak hangi sonuca ulaşabilir?",
         "choices": [
-          "Yaşam alanı bozulan canlıların başka yere yönelmesi",
-          "Bütün canlılar aynı yaşam alanında yaşar.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Aynı yaşam alanında farklı canlılar bulunabilir.",
+          "Bütün kurbağalar bu gölette yaşar.",
+          "Göletteki bütün bitkiler aynı türdendir.",
+          "Göletteki canlılar yaşam alanlarını terk etmiştir."
         ],
         "correctAnswer": 0,
-        "explanation": "Çıkarım doğrudan gözlem verisiyle desteklenir.",
+        "explanation": "Gözlemde su bitkileri, kurbağalar ve böcekler aynı gölette görülmüştür. Bu, aynı yaşam alanında farklı canlıların bulunabileceğini gösterir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-1",
         "options": [
-          "Yaşam alanı bozulan canlıların başka yere yönelmesi",
-          "Bütün canlılar aynı yaşam alanında yaşar.",
-          "Tek gözlem bütün durumları kanıtlar.",
-          "Veri önemsizdir."
+          "Aynı yaşam alanında farklı canlılar bulunabilir.",
+          "Bütün kurbağalar bu gölette yaşar.",
+          "Göletteki bütün bitkiler aynı türdendir.",
+          "Göletteki canlılar yaşam alanlarını terk etmiştir."
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",
         "subSkill": "Dikkatli okuma ve seçenek karşılaştırma",
-        "questionType": "karsilastirma",
+        "questionType": "cikarim",
         "cognitiveLevel": "problem-cozme",
         "estimatedTimeSeconds": 110,
         "hasVisual": false,
@@ -44341,7 +44341,7 @@
           "fen-bilimleri",
           "canlilarin-yasam-alanlarina-yolculuk",
           "canlilarin-yasam-alanlarina-yolculuk",
-          "karsilastirma",
+          "cikarim",
           "problem-cozme"
         ]
       },

@@ -52,10 +52,46 @@
     q("Veri tablosu “"+t.prediction+"” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",["Yeni gözlemle örüntüyü sınamak","Verileri silmek","Sonucu ters yazmak","Ölçümü bırakmak"],"Yeni gözlemle örüntüyü sınamak","Bilimsel örüntü yeni gözlemlerle sınanır.",visual("Veriden örüntüye",{veri:t.observation,oruntu:t.prediction})),
     q(t.name+" konusunda en kapsamlı sonuç hangisidir?",[t.focus+" hakkında gözlem, karşılaştırma ve kanıt kullanmak doğru bilgiye ulaştırır.",t.falseFact,"Tek tahmin her soruyu çözer.","Güvenlik kuralları gereksizdir."],t.focus+" hakkında gözlem, karşılaştırma ve kanıt kullanmak doğru bilgiye ulaştırır.","Bilimsel süreç gözlem, karşılaştırma ve kanıtı birlikte kullanır.",visual("Bilimsel sonuç",{konu:t.focus,kanit:t.observation,yarar:t.benefit}))
   ]; }
+  // Individually corrected observation questions; IDs and other questions stay unchanged.
+  const observationRepairs = {
+    'bilimsel-kesif-yolculugu': {
+      question:'Bir öğrenci aynı büyüklükteki iki buz parçasından birini güneşe, diğerini gölgeye koyuyor. Bu denemede güneşteki buz daha önce eriyor. Hangi sonuç gözleme dayanır?',
+      choices:['Bu denemede güneşteki buz gölgedekinden önce erimiştir.','Her buz parçası her yerde aynı sürede erir.','Buzlar bu denemede hiç erimemiştir.','Bütün maddeler güneşte mutlaka aynı anda erir.'],
+      correctAnswer:0,
+      explanation:'Bu denemede iki buz parçasının erime sırası gözlenmiştir. Tek bir deneme bütün buzlar veya bütün maddeler için kesin sonuç vermez.'
+    },
+    'yer-bilimciler-is-basinda': {
+      question:'Öğretmenin gösterdiği bir kayaç örneğinde iki farklı mineral bulunuyor. Bu bilgi hangi sonucu destekler?',
+      choices:['Bu kayaç örneği birden fazla mineral içerir.','Bütün kayaçların sertliği aynıdır.','Örnekte hiç mineral bulunmaz.','Bütün kayaçlar yalnızca bir mineral içerir.'],
+      correctAnswer:0,
+      explanation:'Örnekte iki farklı mineral bulunduğu için bu kayaç örneğinin birden fazla mineral içerdiği söylenebilir. Bilgi, bütün kayaçların sertliğini göstermez.'
+    },
+    'maddeyi-taniyalim-karistirip-ayiralim': {
+      question:'Bir öğrenci mıknatısın kum içindeki demir parçalarını çektiğini gözlemliyor. Bu gözleme dayanarak ne söyleyebilir?',
+      choices:['Bu denemede mıknatıs demir parçalarını çekmiştir.','Her karışım yalnız mıknatısla ayrılır.','Bu denemede kum elekle ayrılmıştır.','Mıknatıs bütün maddeleri mutlaka çeker.'],
+      correctAnswer:0,
+      explanation:'Gözlem, bu denemede mıknatısın demir parçalarını çektiğini gösterir. Elek kullanımına dair bilgi verilmediği için elek sonucu ya da bütün maddeler hakkında kesin sonuç çıkarılamaz.'
+    },
+    'yasamimizi-kolaylastiran-elektrik': {
+      question:'Bir çocuk oda lambasının düğmesini kapatınca ışığın söndüğünü görüyor. Bu gözlem düğmenin hangi işlevini gösterir?',
+      choices:['Lambanın ışık verme durumunu kontrol etme','Odanın büyüklüğünü değiştirme','Lambanın rengini boyama','Pil takıldığında bütün araçları çalıştırma'],
+      correctAnswer:0,
+      explanation:'Düğme kapatıldığında lambanın ışık verme durumu değişmiştir. Odanın boyutu, lambanın rengi veya başka araçların çalışması bu gözlemde incelenmemiştir.'
+    }
+  };
   const builders={kolay:easy,orta:medium,zor:hard}, tests=[];
   Object.keys(topics).forEach(function(topic){ const t=topics[topic]; difficulties.forEach(function(difficulty){
     const slug="3-sinif-fen-bilimleri-"+topic+"-"+difficulty+"-test-1";
     const questions=builders[difficulty](t).map(function(question,index){ question.id=index+1; question.question="3. sınıf Fen "+difficulty+" — "+t.name+": "+question.question; if(question.visual){question.image="images/tests/"+slug+"-soru-"+(index+1)+".svg";question.imageAlt=question.visual.title;} return question; });
+    if(difficulty==='zor' && observationRepairs[topic]) Object.assign(questions[0], observationRepairs[topic]);
+    if(topic==='canlilarin-yasam-alanlarina-yolculuk' && difficulty==='zor') {
+      Object.assign(questions[0], {
+        question:'Bir öğrenci bir gölette su bitkileri, kurbağalar ve böcekler gözlemliyor. Bu gözleme dayanarak hangi sonuca ulaşabilir?',
+        choices:['Aynı yaşam alanında farklı canlılar bulunabilir.','Bütün kurbağalar bu gölette yaşar.','Göletteki bütün bitkiler aynı türdendir.','Göletteki canlılar yaşam alanlarını terk etmiştir.'],
+        correctAnswer:0,
+        explanation:'Gözlemde su bitkileri, kurbağalar ve böcekler aynı gölette görülmüştür. Bu, aynı yaşam alanında farklı canlıların bulunabileceğini gösterir.'
+      });
+    }
     tests.push({classLevel:3,subject:"fen-bilimleri",subjectName:"Fen Bilimleri",topic:topic,topicName:t.name,difficulty:difficulty,testNumber:1,slug:slug,pageUrl:"tests/"+slug+".html",questions:questions});
   }); });
   window.TESTCOZ_TESTS=(window.TESTCOZ_TESTS||[]).concat(tests);
