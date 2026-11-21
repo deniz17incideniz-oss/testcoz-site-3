@@ -3148,62 +3148,62 @@
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-1",
       "content_sha256": "ec1e6d1a770e29f2593d4b00cecdbefa9b02a4f2a2aaffcc69d4f9984fece00e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Deniz eksik sunumu üstlenirse herkes katkı verir ve üç iş tamamlanır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2",
-      "content_sha256": "5632254bbf4d4013d8a8ecd8fa23d3108cdf944544b2b0dba8bbcb51463ee39e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "76a4564a839ef7d2c6b34a44924fa9328f66ba77c10b91229a11ed0e73c45819",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Temiz, sayfaları tam ve ilkokula uygun kitap üç açık koşulu birlikte sağlar; eksik sayfalı seçenek dışlanır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-3",
-      "content_sha256": "c2c296af55bb2391440b56ce51e658df50cbfb5bdc2394b09b5b219de36c0fc4",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "21f9122541f23c3f891a55bb7eaa512413eecc43a015550f95fc5c0b81c9301d",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Oylama sonrası seçilen oyuna katılma gözlemi ortak karara uyma sonucunu destekler; herkesin fikrinin aynı olduğunu göstermez. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-4",
       "content_sha256": "b92ef4a9f6f9aa0be5fffc89b46167e92d1643ddb614d9c4749b1a2edfd69f21",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Eski kitabı teslim edip sonra yenisini almak verilen kuralı ve ihtiyacı birlikte karşılar. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-5",
       "content_sha256": "9acc6342eec97c76cd75ec8fe5ec14cedc244a5a47503cb17c13478f662691b4",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Büyük yazıyı okunaklı renkli zeminle deneyip uzaktan kontrol etmek iki öneriyi ve okunurluğu değerlendirir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-6",
       "content_sha256": "5228128887e33d79d95ab95246642bd195c7df15c3e12a93a2a295d869f81e5b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Farklı önerileri değiştirmeden ve temsilcinin kendi önerisiyle iletmek verilen duruma uygundur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-7",
       "content_sha256": "a33740ace68afce2a162c7c7e91bc886a8da643efd907d69a66b28be430eea59",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: 60 eksi 40 eşittir 20; ölçümde azalma ile uygulama arasında kesin neden iddia edilmez. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-8",
       "content_sha256": "5428b94991b008421ddf5ebd72c90ed71a4d8c13591bbba2eb078eca718656b2",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Görev günlerini ayırıp öğretmene haber vermek verilen çizelge koşulunu sağlar. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-9",
       "content_sha256": "ea9cb1130fa1443dfc858410d162bb8afb4603c616d6dcb38d8049c7899215d9",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Sınırları yetişkin yardımıyla belirginleştirmek verilen soruna yönelik çözümdür. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-10",
       "content_sha256": "e00d8421ddda7ce591d7bf51296460f629f948da43e29342a51d56f2bec2e204",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Notları hazırlayan arkadaşın emeğini belirtmek uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-orta-test-1-soru-1",

@@ -37869,14 +37869,14 @@
         ]
       },
       "after": {
-        "question": "Bir grup kitap toplama kampanyası yapıyor. Okul, kitapların temiz ve ilkokul öğrencilerine uygun olmasını istiyor. Hangi kitap bu iki koşulu sağlar?",
+        "question": "Bir grup kitap toplama kampanyası yapıyor. Okul, kitapların temiz, sayfalarının tam ve ilkokul öğrencilerine uygun olmasını istiyor. Hangi kitap bu üç koşulu sağlar?",
         "choices": [
           "Temiz olan, yetişkinlere yönelik ileri matematik kitabı.",
           "Temiz, sayfaları tam ve ilkokula uygun bir öykü kitabı.",
           "Sayfaları eksik olan, ilkokula uygun bir öykü kitabı."
         ],
         "correctAnswer": 1,
-        "explanation": "Yalnız temiz olmak veya yalnız yaşa uygun olmak yetmez. Sayfaları tam, temiz ve ilkokul düzeyinde olan öykü kitabı birlikte verilen koşulları karşılar.",
+        "explanation": "Temiz, sayfaları tam ve ilkokul düzeyine uygun öykü kitabı verilen üç koşulu birlikte karşılar. Eksik sayfalı veya yetişkinlere yönelik kitap üç koşulu sağlamaz.",
         "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-2",
         "options": [
           "Temiz olan, yetişkinlere yönelik ileri matematik kitabı.",
@@ -37943,7 +37943,7 @@
           "Öğrenciler tercihlerini belirtip ortak karara uymuştur."
         ],
         "correctAnswer": 2,
-        "explanation": "Farklı oyunları isteyenler bulunduğu açıkça söyleniyor. Oylamaya katılıp sonuca uymaları ortak kararı kabul ettiklerini gösterir; herkesin fikrinin aynılaştığını göstermez.",
+        "explanation": "Farklı oyunları isteyenler bulunduğu açıkça söyleniyor. Öğrenciler oylamaya katılıp seçilen oyuna katılmıştır; bu, herkesin fikrinin aynılaştığını göstermez.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1-soru-3",
