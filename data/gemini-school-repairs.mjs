@@ -1,0 +1,26 @@
+// Gemini draft, individually reviewed and rewritten for grade one. Correct answer first.
+export const schoolEasy=[
+ ['Yarınki dersler için hangi kitapları çantana koyacağını öğrenmek istiyorsun. Neye bakabilirsin?', 'Ders programına', 'Hava durumuna', 'Televizyon saatine', 'Ders programı, ertesi gün gerekli olan kitap ve araçları seçmene yardım eder.'],
+ ['Teneffüste koridorda nasıl hareket etmek daha güvenlidir?', 'Sakin yürümek', 'Hızla koşmak', 'Arkadaşlarını itmek', 'Koridorda sakin yürümek çarpışma ve düşme olasılığını azaltır.'],
+ ['Okulun yönetiminden kim sorumludur?', 'Okul müdürü', 'Servis şoförü', 'Kantin çalışanı', 'Okul müdürü okulun yönetiminden sorumludur.'],
+ ['Okulda kitapları alıp okuduktan sonra geri getirebileceğimiz bölüm hangisidir?', 'Kütüphane', 'Spor salonu', 'Yemekhane', 'Kitabı kütüphaneden alıp okuduktan sonra geri getirebiliriz.'],
+ ['Arkadaşın okulda düştü ve canının acıdığını söylüyor. Ne yapabilirsin?', 'Bir öğretmene haber vermek', 'Onunla alay etmek', 'Kimseye söylemeden uzaklaşmak', 'Bir öğretmene haber vermek, arkadaşının ihtiyaç duyduğu yardıma ulaşmasını sağlar.'],
+ ['Okul bahçesi nasıl bir alandır?', 'Okuldaki kişilerin ortak kullandığı alan', 'Sadece bir öğrencinin kullandığı alan', 'Yalnızca öğretmenin kullandığı alan', 'Okul bahçesini okuldaki kişiler birlikte kullanabilir.'],
+ ['Ortak kitapların sınıfta bir rafı var. Kitapları nasıl kullanmalıyız?', 'Özenle kullanıp yerine koymalıyız.', 'Okuyup masanın üzerinde bırakmalıyız.', 'Başkaları bulamasın diye kitapları gizlemeliyiz.', 'Kitapları özenle kullanıp yerine koyarsak başkaları da onlardan yararlanabilir.'],
+ ['Öğretmenine soru sormak istiyorsun. Ne yapabilirsin?', 'Parmağını kaldırıp söz isteyebilirsin.', 'Arkadaşının sözünü kesebilirsin.', 'Herkesten yüksek sesle konuşabilirsin.', 'Parmak kaldırıp sıra beklemek herkesin konuşanı duymasına yardımcı olur.'],
+ ['Ders sırasında arkadaşın bir şey anlatırken ne yapmalısın?', 'Onu dinlemelisin.', 'Sözünü kesmelisin.', 'Başka bir arkadaşınla konuşmalısın.', 'Konuşan arkadaşını dinlemek, onun anlatmasına ve herkesin anlamasına yardımcı olur.'],
+ ['Arkadaşınla aynı oyuncağı istiyorsunuz. Birlikte ne yapabilirsiniz?', 'Sırayla oynamayı konuşabiliriz.', 'İkimizden biri oyuncağı hep kendisine ayırabilir.', 'Arkadaşımız bulamasın diye oyuncağı gizleyebiliriz.', 'Sırayla oynamayı konuşmak iki arkadaşın da oyuncağı kullanabilmesi için bir çözümdür.']
+];
+
+export const schoolMedium=[
+ ['Yeni bir öğrenci sınıfını bulamıyor. Sınıfın yerini biliyorsan ona yardım etmek için ne yapabilirsin?', 'Sınıfın yerini ona gösterebilirim.', 'Başka bir sınıfı onun sınıfıymış gibi gösterebilirim.', 'Yerini bilsem de sınıfı söylemeden bekleyebilirim.', 'Sınıfın yerini biliyorsan arkadaşına göstermek, aradığı sınıfı bulmasına yardımcı olur.'],
+ ['Mert koridorda yavaş yürüyor, Ada ise koşuyor. Hangisinin davranışı çarpışma riskini azaltır?', 'Mert’in yavaş yürümesi', 'Ada’nın koşması', 'İkisinin de koşması', 'Koridorda yavaş ve dikkatli yürümek başkalarına çarpma olasılığını azaltır.'],
+ ['Okulda kendini iyi hissetmiyorsun. Yardım almak için ne yapmalısın?', 'Öğretmenime nasıl hissettiğimi söylemeliyim.', 'Nasıl hissettiğimi kimseye söylemeden beklemeliyim.', 'Sadece başka bir oyuna geçmeliyim.', 'Öğretmenine nasıl hissettiğini söylemek, ihtiyacın olan yardıma ulaşmanı sağlar.'],
+ ['Okulda kitaplara ulaşmak ve okumak isteyen bir öğrencinin hangi bölüme gitmesi daha uygundur?', 'Kütüphaneye', 'Spor salonuna', 'Yemekhaneye', 'Kütüphanede kitaplara ulaşabilir ve kitap okuyabilirsin.'],
+ ['Arkadaşın kalemini düşürdü ve senden yardım istedi. Ona yardım etmek için ne yapabilirsin?', 'Kalemi alıp ona verebilirim.', 'Kalemi yerde bırakıp başka işle ilgilenebilirim.', 'Kalemi kendim kullanmak üzere alabilirim.', 'Arkadaşına kalemini uzatmak, onun istediği yardımı nazikçe karşılamaktır.'],
+ ['Sınıftaki kapaklı ortak boyaları kullandıktan sonra ne yapmalısın?', 'Kapaklarını kapatıp yerlerine koymalıyım.', 'Kapaklarını açık bırakmalıyım.', 'Kimsenin bulamayacağı yere saklamalıyım.', 'Ortak boyaları kapatıp yerine koymak, diğer öğrencilerin de kullanmasını kolaylaştırır.'],
+ ['Ders zili çaldı. Öğretmen derste defter kullanılacağını söyledi. Derse hazırlanmak için ne yapabilirsin?', 'Sınıfa gidip defterimi hazırlayabilirim.', 'Koridorda koşarak oyuna devam edebilirim.', 'Gerekli defteri çantamda bırakıp oyuna devam edebilirim.', 'Sınıfa gidip gerekli defteri hazırlamak derse katılmana yardımcı olur. Koridorda koşmak güvenli değildir.'],
+ ['Sınıfta bir arkadaşın konuşurken sen de bir şey söylemek istiyorsun. Ne yapabilirsin?', 'Onu dinleyip söz isteyebilirim.', 'Sözünü kesebilirim.', 'Daha yüksek sesle konuşabilirim.', 'Arkadaşını dinleyip söz istemek, ikinizin de düşüncesini anlatmasına yardımcı olur.'],
+ ['Bir arkadaşın resim yapmayı, sen top oynamayı seviyorsun. Bu durumda hangisi doğrudur?', 'Farklı şeyleri sevebiliriz.', 'Herkes aynı oyunu sevmelidir.', 'Arkadaş olamayız.', 'Arkadaşların farklı ilgileri olabilir. Farklı etkinlikleri sevmek arkadaş olmaya engel değildir.'],
+ ['Sen ve arkadaşın aynı kitabı okumak istiyorsunuz. Nasıl anlaşabilirsiniz?', 'Sırayla okumayı konuşabiliriz.', 'Kitabı birbirimizden çekebiliriz.', 'Kitabı gizleyebiliriz.', 'Sırayla okumak için konuşmak iki arkadaşın da kitaptan yararlanmasını sağlayabilir.']
+];

@@ -80,4 +80,11 @@ Ek denetimler: `npm run audit:questions` konu/seviye kapsamı ve tekrar adaylar�
 
 `npm run import:zor-test2` converts the preserved final source into `data/tests/zor-test2-final.js`. The checked-in change log records only proven duplicate/answer corrections. Source and visual provenance: `data/imports/README.md`.
 
-Run `npm run generate`, then the regular checks. The additional validator requires 130 topics, 1300 questions, 35 SVGs, 10 questions per test, 3 options in grades 1–3 and 4 in grade 4. Existing Test 1 data is preserved. The legacy grade 4 Life Skills pages retain the existing noindex policy.
+Run `npm run generate`, then the regular checks. The additional validator requires 130 topics, 1300 questions, 35 SVGs, 10 questions per test, 3 options in grades 1–3 and 4 in grade 4. Existing Test 1 data is preserved. Grade 4 Life Skills routes are linked and included in the sitemap; they are retained as legacy catalog content, not as a claim about current official curriculum.
+
+
+## Ekim 2026 içerik onarımı ve açık yayın kapıları
+
+`data/editorial-repairs.mjs` ve `data/learning-lessons.mjs` kaynak içeriktir. Üretim sırasında önce/sonra kayıtları ve test çalışma zamanı paketleri oluşturulur. `data/imports/adsense-repair-baseline.json` eski soru metni değiştiğinde düzeltmeyi sessizce yanlış soruya uygulamayı engeller. Test 1 düzeltmeleri yalnız ilgili sınıf/ders paketinde, Test 2 düzeltmeleri ilgili Test 2 paketinde yüklenir.
+
+`npm run audit:semantic` 5.200 kayıtta sınırlı desenleri tarar; sıfır bulgu akademik onay değildir. `npm run audit:session-revocation` çıkış öncesi çerezin yeniden kullanımını denetler ve sunucu tarafında iptal uygulanana kadar başarısızdır. Yayın kontrolünün diğer açıkları `docs/ADSENSE-EDITORIAL-STATUS.md` içindedir.

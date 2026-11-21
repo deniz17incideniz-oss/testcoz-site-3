@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Aşağıdaki yiyeceklerden hangisi sağlıklı bir ara öğün seçeneğidir?",
+      "choices": [
+        "Cips",
+        "Taze elma",
+        "Şekerli gazoz"
+      ],
+      "correctAnswer": "Taze elma",
+      "explanation": "Meyveler doğal şeker ve vitamin içerir, bu yüzden cips ve gazoz gibi işlenmiş gıdalara göre vücudumuz için çok daha sağlıklıdır.",
+      "subSkill": "Sağlıklı beslenme tercihi",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul servisinde güvenliğimizi sağlamak için aşağıdakilerden hangisini yapmalıyız?",
+      "choices": [
+        "Pencereden dışarı bakmak",
+        "Emniyet kemerini takmak",
+        "Şoförle sürekli konuşmak"
+      ],
+      "correctAnswer": "Emniyet kemerini takmak",
+      "explanation": "Emniyet kemeri ani fren veya kaza durumlarında bizi koltuğumuzda sabit tutarak yaralanmamızı önleyen en önemli güvenlik önlemidir.",
+      "subSkill": "Ulaşım güvenliği",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yemekten önce ellerimizi yıkamamızın en önemli sebebi nedir?",
+      "choices": [
+        "Ellerimizin güzel kokması için",
+        "Mikroplardan arınmak için",
+        "Suyu tasarruflu kullanmak için"
+      ],
+      "correctAnswer": "Mikroplardan arınmak için",
+      "explanation": "Gün içerisinde ellerimizle pek çok yere dokunuruz. Yemekten önce yıkamak, ellerimizdeki görünmez mikropların vücudumuza girmesini engeller.",
+      "subSkill": "Kişisel hijyen",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Evde kesici ve delici aletlerle (bıçak, makas gibi) karşılaştığımızda nasıl davranmalıyız?",
+      "choices": [
+        "Onlarla oyun oynamalıyız",
+        "Sadece büyüklerin gözetiminde kullanmalıyız",
+        "İstediğimiz zaman tek başımıza almalıyız"
+      ],
+      "correctAnswer": "Sadece büyüklerin gözetiminde kullanmalıyız",
+      "explanation": "Kesici ve delici aletler ciddi yaralanmalara neden olabilir. Bu yüzden bu tür araçları sadece yetişkinlerin yardımı ve gözetimi ile kullanmalıyız.",
+      "subSkill": "Ev güvenliği",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Hangi durum kişisel temizlik kurallarına uygun bir davranıştır?",
+      "choices": [
+        "Dişlerimi günde iki kez fırçalamak",
+        "Banyo yapmayı sevmemek",
+        "Tırnaklarımı uzatıp kirli bırakmak"
+      ],
+      "correctAnswer": "Dişlerimi günde iki kez fırçalamak",
+      "explanation": "Diş fırçalamak ağız ve diş sağlığını korumak için gereklidir. Hijyen, sadece temiz görünmek değil, vücudumuzu hastalıklardan korumak için de şarttır.",
+      "subSkill": "Kişisel bakım",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Sokakta tanımadığımız biri bize bir oyuncak teklif ettiğinde ne yapmalıyız?",
+      "choices": [
+        "Teşekkür edip oyuncağı almalıyız",
+        "Oyuncağı alıp teşekkür etmeliyiz",
+        "Oyuncağı reddedip hemen uzaklaşmalıyız"
+      ],
+      "correctAnswer": "Oyuncağı reddedip hemen uzaklaşmalıyız",
+      "explanation": "Tanımadığımız kişilerden hediye veya yiyecek kabul etmemeliyiz. Güvenliğimizi korumak için bu kişilerden uzak durmalı ve ailemize haber vermeliyiz.",
+      "subSkill": "Sosyal güvenlik",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki araçlardan hangisi evde güvenli oyun oynamak için uygundur?",
+      "choices": [
+        "Mutfaktaki keskin bıçak",
+        "Prize takılı oyuncak araba",
+        "Yumuşak dolgulu peluş oyuncak"
+      ],
+      "correctAnswer": "Yumuşak dolgulu peluş oyuncak",
+      "explanation": "Mutfak aletleri ve elektrik prizleri tehlikelidir. Peluş oyuncaklar güvenli yapıda oldukları için evde oynamak için en uygun seçenektir.",
+      "subSkill": "Güvenli oyun alanları",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul bahçesinde koşarken önümüze bir arkadaşımız çıktığında ne yapmalıyız?",
+      "choices": [
+        "Ona çarpıp koşmaya devam etmeliyiz",
+        "Hemen durup ona yol vermeliyiz",
+        "Onu kenara itip geçmeliyiz"
+      ],
+      "correctAnswer": "Hemen durup ona yol vermeliyiz",
+      "explanation": "Okul bahçesinde birbirimize çarpmamak ve yaralanmamak için dikkatli hareket etmeli, arkadaşlarımıza karşı saygılı ve dikkatli davranmalıyız.",
+      "subSkill": "Okul içi güvenlik",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Vücudumuzun hastalıklara karşı dirençli olması için hangisini yapmalıyız?",
+      "choices": [
+        "Sadece gece geç saatte uyumalıyız",
+        "Dengeli ve düzenli beslenmeliyiz",
+        "Sadece şekerli gıdalarla beslenmeliyiz"
+      ],
+      "correctAnswer": "Dengeli ve düzenli beslenmeliyiz",
+      "explanation": "Dengeli beslenme, vücudumuzun ihtiyaç duyduğu vitamin ve mineralleri almasını sağlar. Bu sayede bağışıklık sistemimiz güçlenir ve daha az hastalanırız.",
+      "subSkill": "Sağlıklı yaşam",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yaya geçidinde karşıdan karşıya geçerken ilk ne yapmalıyız?",
+      "choices": [
+        "Koşarak karşıya geçmeliyiz",
+        "Önce sola, sonra sağa, sonra tekrar sola bakmalıyız",
+        "Sadece sağ tarafa bakıp geçmeliyiz"
+      ],
+      "correctAnswer": "Önce sola, sonra sağa, sonra tekrar sola bakmalıyız",
+      "explanation": "Trafikte güvenli geçiş yapabilmek için her zaman önce sola, sonra sağa ve tekrar sola bakarak araç gelmediğinden emin olduktan sonra yolu geçmeliyiz.",
+      "subSkill": "Trafik güvenliği",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "Bir yaya geçidinde duran çocuk",
+      "imageAlt": "Yaya geçidinde bekleyen ve yolu kontrol eden bir öğrenci resmi."
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 2,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-05T11:02:46.300Z"
+}

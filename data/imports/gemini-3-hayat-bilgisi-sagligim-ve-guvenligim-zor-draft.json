@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Can, okul çıkışında servisini beklerken tanımadığı birinin ona şeker ikram ettiğini fark etti. Can, \"Teşekkür ederim ama annem veya babam olmadan kimseden yiyecek almamam gerektiğini biliyorum.\" dedi. Can'ın bu davranışı hakkında ne söylenebilir?",
+      "choices": [
+        "Sadece kibar olduğu için doğru bir tutum sergilemiştir.",
+        "Kişisel güvenliğini korumak için önceden belirlenmiş bir güvenlik kuralını uygulamıştır.",
+        "Tanımadığı kişilere karşı her zaman kaba davranması gerektiğini kanıtlamıştır."
+      ],
+      "correctAnswer": "Kişisel güvenliğini korumak için önceden belirlenmiş bir güvenlik kuralını uygulamıştır.",
+      "explanation": "Can, yabancılarla iletişimde sınırlarını koruyarak hem nezaketini bozmamış hem de kişisel güvenliğini sağlayan temel güvenlik kuralına uygun hareket etmiştir.",
+      "subSkill": "Güvenlik kurallarını uygulama",
+      "questionType": "Çıkarım",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Dengeli beslenme çantasını hazırlayan bir öğrencinin, sadece karbonhidrat içeren gıdalar yerine protein, vitamin ve karbonhidrat içeren bir liste yapmasının temel amacı nedir?",
+      "choices": [
+        "Beslenme çantasının daha renkli ve dikkat çekici görünmesini sağlamak.",
+        "Vücudun büyüme ve enerji ihtiyacını farklı besin kaynaklarıyla tam olarak karşılamak.",
+        "Arkadaşlarıyla besinlerini paylaşırken daha çok çeşit sunabilmek."
+      ],
+      "correctAnswer": "Vücudun büyüme ve enerji ihtiyacını farklı besin kaynaklarıyla tam olarak karşılamak.",
+      "explanation": "Dengeli beslenme, vücudun ihtiyaç duyduğu tüm besin öğelerini (protein, karbonhidrat, vitamin) düzenli almaktır; bu da sağlığın korunması için en temel adımdır.",
+      "subSkill": "Sağlıklı beslenme kararı",
+      "questionType": "Neden-sonuç",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir acil durum anında \"Güvenli yere geçme\", \"Sakin kalma\" ve \"Yardım isteme\" adımları gerçekleşecektir. En etkili ve güvenli sıra hangisidir?",
+      "choices": [
+        "Sakin kalmak, güvenli bir yere geçmek, yardım istemek.",
+        "Yardım istemek, güvenli bir yere geçmek, sakin kalmak.",
+        "Güvenli bir yere geçmek, sakin kalmak, yardım istemek."
+      ],
+      "correctAnswer": "Sakin kalmak, güvenli bir yere geçmek, yardım istemek.",
+      "explanation": "Panik yapmak doğru karar vermeyi engeller. Önce sakinleşip tehlikeden uzaklaşmalı, güvenli alana geçtikten sonra yetkili birinden yardım istemeliyiz.",
+      "subSkill": "Acil durum yönetimi",
+      "questionType": "Sıralama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Efe, oyun oynarken dizini hafifçe çarptı. Efe'nin yapması gereken en sorumlu davranış hangisidir?",
+      "choices": [
+        "Yarasını kendi başına bir ilaçla sarmaya çalışmak.",
+        "Durumu hemen bir öğretmene veya sorumlu bir yetişkine haber vermek.",
+        "Hiçbir şey yokmuş gibi davranıp acısını gizleyerek oyuna devam etmek."
+      ],
+      "correctAnswer": "Durumu hemen bir öğretmene veya sorumlu bir yetişkine haber vermek.",
+      "explanation": "Okul ortamında yaşanan kazalarda en doğru adım, durumu bir yetişkine bildirmektir. Kendi kendine ilaç kullanmak veya durumu gizlemek riski artırabilir.",
+      "subSkill": "Güvenlik sorumluluğu",
+      "questionType": "Karar verme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki durumlardan hangisi hem \"sağlıklı\" hem de \"sorumlu\" bir davranışı tam olarak yansıtmaktadır?",
+      "choices": [
+        "Sıcak havalarda susayınca sadece şekerli içecekler tüketmek.",
+        "Trafikte yaya geçidini kullanmak ve kask takarak bisiklet sürmek.",
+        "Sınıf içinde koşarak teneffüse çıkmaya çalışmak."
+      ],
+      "correctAnswer": "Trafikte yaya geçidini kullanmak ve kask takarak bisiklet sürmek.",
+      "explanation": "Kişisel güvenliği trafik kuralları ve koruyucu ekipmanlarla sağlamak, hem sağlığı korumaya yönelik hem de bireyin sorumluluğunu bilen bir davranıştır.",
+      "subSkill": "Bütünleşik güvenlik",
+      "questionType": "Karşılaştırma",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "112 Acil Çağrı Merkezi'ni arayan bir çocuğun, telefonu açan kişiye ilk söylemesi gereken bilgi hangisi olmalıdır?",
+      "choices": [
+        "Olayın ne kadar süredir devam ettiği ve kimlerin orada olduğu.",
+        "Adı, soyadı ve bulunduğu yerin açık adresi.",
+        "Yanında bulunan arkadaşının kaç yaşında olduğu."
+      ],
+      "correctAnswer": "Adı, soyadı ve bulunduğu yerin açık adresi.",
+      "explanation": "Acil durum ekiplerinin yardım ulaştırabilmesi için en önemli bilgi, yardım isteyen kişinin kimliği ve bulunduğu konumun net adresidir.",
+      "subSkill": "Acil durum iletişimi",
+      "questionType": "Bilgi uygulama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir öğrenci, \"Beslenme çantamda taze meyve olması sağlığım için yararlıdır; ancak okul servisine binerken emniyet kemerini takmak da en az bunun kadar önemlidir.\" demiştir. Bu cümlede vurgulanan nedir?",
+      "choices": [
+        "Beslenmenin güvenlikten daha önemsiz olduğu.",
+        "Sağlıklı yaşamın hem beslenme hem de güvenlik kurallarını içerdiği.",
+        "Okul servisinin beslenmeden daha tehlikeli olduğu."
+      ],
+      "correctAnswer": "Sağlıklı yaşamın hem beslenme hem de güvenlik kurallarını içerdiği.",
+      "explanation": "Sağlıklı ve güvenli bir yaşam, sadece beslenme ile değil, aynı zamanda günlük hayatın her anında kurallara uyarak bütüncül olarak sağlanır.",
+      "subSkill": "Bütünleşik sağlık bilinci",
+      "questionType": "Analiz",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bisiklet kullanırken kaskın kayışının gevşek olması durumunda Bora'nın \"yola çıkmadan önce bağı düzeltmesi\" süreci nasıl tamamlanır?",
+      "choices": [
+        "Kaskı çıkartıp yanına alarak sürmeye devam eder.",
+        "Kaskı çeneye tam oturacak şekilde ayarlar ve kilitler.",
+        "Kaskı sadece görüntü için kafasının üzerine takar."
+      ],
+      "correctAnswer": "Kaskı çeneye tam oturacak şekilde ayarlar ve kilitler.",
+      "explanation": "Kask, olası bir düşme durumunda başı korumalıdır. Eğer kayışlar gevşekse kask kafadan çıkar veya görevini yapamaz; bu yüzden tam sıkılıkta ayarlanmalıdır.",
+      "subSkill": "Güvenlik önlemi alma",
+      "questionType": "Uygulama",
+      "imageBrief": "Görselde kaskı çenesinden gevşek olan bir çocuk ve yanında kaskın nasıl doğru bağlanacağını gösteren bir sembol bulunmaktadır.",
+      "imageAlt": "Bisiklet kaskının çene altındaki kayışının uygun uzunlukta ve sıkılıkta ayarlanmış halini gösteren görsel."
+    },
+    {
+      "question": "Bir ilacın yetişkine sormadan kullanılması neden kesinlikle yasaktır?",
+      "choices": [
+        "İlaçların tadı genellikle çocukların hoşuna gitmediği için.",
+        "Yanlış ilaç veya doz kullanımı ciddi sağlık sorunlarına yol açabileceği için.",
+        "İlaç kutuları genellikle zor açıldığı için."
+      ],
+      "correctAnswer": "Yanlış ilaç veya doz kullanımı ciddi sağlık sorunlarına yol açabileceği için.",
+      "explanation": "İlaçlar doğru kişi tarafından, doğru dozda ve doğru zamanda kullanılmalıdır. Rastgele kullanım zehirlenme veya alerjik reaksiyon gibi ciddi tehlikeler doğurur.",
+      "subSkill": "Güvenlik sorumluluğu",
+      "questionType": "Çıkarım",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul bahçesinde veya dışarıda oynarken bir tehlike fark ettiğinde öğrencinin \"sakin kalması\" neden ilk adımdır?",
+      "choices": [
+        "Sakinlik, etrafındaki insanların onunla oynamasını sağlar.",
+        "Sakin kalmak, durumu net bir şekilde gözlemleyip en doğru kararı vermeyi kolaylaştırır.",
+        "Sakin kalmak, arkadaşlarına tehlikenin olmadığını göstermek içindir."
+      ],
+      "correctAnswer": "Sakin kalmak, durumu net bir şekilde gözlemleyip en doğru kararı vermeyi kolaylaştırır.",
+      "explanation": "Panik durumu, doğru karar vermeyi zorlaştırır. Sakin kalmak, öğrencinin etrafını analiz edip yardım çağrısı yapması veya uzaklaşması için gereken süreyi kazandırır.",
+      "subSkill": "Acil durum mantığı",
+      "questionType": "Neden-sonuç",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 3,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "zor",
+  "createdAt": "2026-11-05T13:07:37.769Z"
+}

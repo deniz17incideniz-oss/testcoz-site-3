@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Bora, okul bahçesinde bisikletine binmeden önce kaskının bağının gevşek olduğunu fark etti. Durumu değerlendiren Bora, yola çıkmadan önce kaskını uygun biçimde sıkılaştırdı. Bora'nın bu davranışı için hangisi kesinlikle söylenebilir?",
+      "choices": [
+        "Bora, sadece kaskının rengini değiştirmek istemiştir.",
+        "Bora, güvenliğine önem vermiş ve riskli bir durumu önlemiştir.",
+        "Bora, bisiklet sürmekten vazgeçerek okul binasına dönmüştür."
+      ],
+      "correctAnswer": "Bora, güvenliğine önem vermiş ve riskli bir durumu önlemiştir.",
+      "explanation": "Kaskın gevşek olması bir güvenlik açığıdır. Bora'nın bunu fark edip düzeltmesi, kendi sağlığını korumaya yönelik bilinçli ve sorumlu bir davranıştır.",
+      "subSkill": "Güvenlik analizi",
+      "questionType": "Çıkarım",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Merve, evde tanımadığı bir kutu ilaç buldu. İlacın üzerinde renkli şeker resimleri olduğunu gördü. Merve'nin bu durumda izlemesi gereken en doğru ve güvenli yol hangisidir?",
+      "choices": [
+        "Şeker sandığı için kutudaki ilaçlardan birkaç tane yemek.",
+        "İlacı merak edip arkadaşlarına göstermek için dışarı çıkarmak.",
+        "İlaçlara kesinlikle dokunmayıp hemen bir yetişkine haber vermek."
+      ],
+      "correctAnswer": "İlaçlara kesinlikle dokunmayıp hemen bir yetişkine haber vermek.",
+      "explanation": "İlaçlar şeker veya yiyecek değildir; yanlış kullanıldığında zehirlenmelere yol açabilir. Bu yüzden tanınmayan ilaçlara dokunmamak ve uzman bir yetişkinden yardım istemek en güvenli yoldur.",
+      "subSkill": "Risk yönetimi",
+      "questionType": "Uygulama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Acil bir tehlike durumunda yapılması gerekenler karışık olarak verilmiştir: 1. Uygun kişiden veya kurumdan yardım istemek, 2. Tehlikeyi fark edip sakin kalmak, 3. Güvenli bir yere geçmek. Doğru sıralama hangisidir?",
+      "choices": [
+        "2 - 3 - 1",
+        "1 - 2 - 3",
+        "3 - 1 - 2"
+      ],
+      "correctAnswer": "2 - 3 - 1",
+      "explanation": "Acil bir durumda önce tehlikeyi fark edip panik yapmadan sakinleşmeli, ardından uzaklaşıp güvenli bir yere geçmeli ve en son yetkili kişilerden yardım istemeliyiz.",
+      "subSkill": "Sıralama ve planlama",
+      "questionType": "Sıralama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir öğrencinin 'beslenme çantasına farklı besin gruplarından yiyecekler koyması' ile 'trafikte yaya geçidini kullanması' durumlarını karşılaştırırsak hangisi söylenebilir?",
+      "choices": [
+        "Her iki davranış da hem sağlığımızı hem de güvenliğimizi korumaya yöneliktir.",
+        "Beslenme çantası sadece oyun içindir, trafik kuralları ise tamamen zorunludur.",
+        "Sadece beslenme çantası sağlığımızla ilgilidir, trafik kuralları güvenliğimizle ilgili değildir."
+      ],
+      "correctAnswer": "Her iki davranış da hem sağlığımızı hem de güvenliğimizi korumaya yöneliktir.",
+      "explanation": "Dengeli beslenme uzun vadeli sağlığımızı korurken, trafik kurallarına uymak kısa vadeli güvenliğimizi sağlar. Her ikisi de sağlıklı ve güvenli bir yaşam sürmenin temel bileşenleridir.",
+      "subSkill": "Karşılaştırma",
+      "questionType": "Analiz",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bora, okul kantininde alışveriş yaparken sıra bekliyor. Bora'nın hem güvenli hem de sorumlu davrandığını gösteren davranış hangisidir?",
+      "choices": [
+        "Sırayı bozmadan bekleyip parasını vererek alışverişini yapmak.",
+        "Önündekileri iterek en öne geçmeye çalışmak.",
+        "Ürünleri alıp parayı ödemeden hızla kantinden çıkmak."
+      ],
+      "correctAnswer": "Sırayı bozmadan bekleyip parasını vererek alışverişini yapmak.",
+      "explanation": "Toplumsal kurallara uymak hem başkalarının güvenliğini sağlar hem de bireyin sorumluluk bilincini gösterir. Sıra beklemek düzeni ve güvenliği sağlar.",
+      "subSkill": "Sorumluluk bilinci",
+      "questionType": "Davranışsal değerlendirme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bora, \"Bisiklet yoluna çıkmadan önce kaskını taktı\" diye başladı ve \"gün boyunca güvenli bir şekilde hareket etti\" diye bitirdi. Bu iki durum arasındaki en mantıklı ara adım hangisidir?",
+      "choices": [
+        "Bisikletin lastiklerinin havasını kontrol etmek ve frenleri denemek.",
+        "Kaskını çıkarıp bisikletin selesinin altına gizlemek.",
+        "Sadece arkadaşının ne yaptığına odaklanıp yolu takip etmemek."
+      ],
+      "correctAnswer": "Bisikletin lastiklerinin havasını kontrol etmek ve frenleri denemek.",
+      "explanation": "Güvenli bir sürüş için sadece kask yeterli değildir; bisikletin mekanik kontrolünün yapılması, kask kullanımıyla birlikte bütüncül bir güvenlik önlemi oluşturur.",
+      "subSkill": "Süreç analizi",
+      "questionType": "Tamamlama",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki ifadelerden hangisi sağlığımızı korumak için yapılması gereken en önemli sorumluluklardan biridir?",
+      "choices": [
+        "Okul çıkışında tanımadığımız kişilerin verdiği yiyecekleri kabul etmek.",
+        "Ellerimizi yemeklerden önce ve sonra mutlaka sabunla yıkamak.",
+        "Vücudumuzun ihtiyacı olan besinleri almayıp sadece sevdiğimiz şekerleri tüketmek."
+      ],
+      "correctAnswer": "Ellerimizi yemeklerden önce ve sonra mutlaka sabunla yıkamak.",
+      "explanation": "Hijyen kurallarına uymak, mikropların vücudumuza girmesini engelleyen en temel ve etkili sağlık sorumluluğudur. Diğer seçenekler sağlığı tehdit eder.",
+      "subSkill": "Sağlık koruma",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Trafikte 'yaya geçidi ve trafik ışıklarını kullanmak' kuralı neden bir sağlık ve güvenlik gerekliliğidir?",
+      "choices": [
+        "Çünkü bu kurallar sadece yayaların daha hızlı yürümesini sağlar.",
+        "Çünkü bu kurallar kazaları önleyerek bedenimizi yaralanmalardan korur.",
+        "Çünkü trafik kuralları sadece sürücüler için düzenlenmiştir, yayalar uymayabilir."
+      ],
+      "correctAnswer": "Çünkü bu kurallar kazaları önleyerek bedenimizi yaralanmalardan korur.",
+      "explanation": "Trafik kuralları, hem sürücülerin hem de yayaların hayatını korumak için tasarlanmıştır. Bu kurallara uymak, fiziksel bütünlüğümüzün korunması için yaşamsal önem taşır.",
+      "subSkill": "Neden-sonuç ilişkisi",
+      "questionType": "Muhakeme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Acil durum bilgi kartında hangi bilgilerin bulunması, bir çocuğun güvenliği için en büyük katkıyı sağlar?",
+      "choices": [
+        "En sevdiği oyuncağın ismi ve oyun arkadaşının adresi.",
+        "Ailenin telefon numarası, kan grubu ve ev adresi.",
+        "Okulda en sevdiği dersin adı ve öğretmeninin boyu."
+      ],
+      "correctAnswer": "Ailenin telefon numarası, kan grubu ve ev adresi.",
+      "explanation": "Acil bir durumda yardım edebilecek kişilerin aileye ulaşabilmesi ve çocuğun temel sağlık bilgilerini (kan grubu gibi) bilmesi hayat kurtarıcı bir önlemdir.",
+      "subSkill": "Bilgi yönetimi",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "“Beslenme çantasına farklı besin gruplarından yiyecekler koymak yararlıdır; ancak trafikte yaya geçidini kullanmak kuralı da unutulmamalıdır.” cümlesi neyi vurgular?",
+      "choices": [
+        "Sağlık ve güvenlik kurallarının birbirinden bağımsız olduğunu.",
+        "Sadece beslenmeye odaklanmanın tüm güvenlik sorunlarını çözeceğini.",
+        "Sağlıklı ve güvenli yaşamak için pek çok farklı kuralı bir arada uygulamamız gerektiğini."
+      ],
+      "correctAnswer": "Sağlıklı ve güvenli yaşamak için pek çok farklı kuralı bir arada uygulamamız gerektiğini.",
+      "explanation": "İyi bir yaşam tarzı sadece beslenmeden ibaret değildir; güvenlik, hijyen ve trafik kuralları gibi birçok alanı bir bütün olarak hayatımıza dahil etmeliyiz.",
+      "subSkill": "Bütünsel düşünme",
+      "questionType": "Yorumlama",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 2,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "zor",
+  "createdAt": "2026-11-05T13:07:37.444Z"
+}

@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Yaşadığımız yerin adresi hakkında verilen bilgilerden hangisi doğrudur?",
+      "choices": [
+        "Adresimizde sadece mahalle ismi yeterlidir.",
+        "Adresimizi ve ailemizin telefon numarasını ezbere bilmeliyiz.",
+        "Adresimizi yabancı herkese kolayca söyleyebiliriz."
+      ],
+      "correctAnswer": "Adresimizi ve ailemizin telefon numarasını ezbere bilmeliyiz.",
+      "explanation": "Kendi güvenliğimiz için evimizin adresini ve aile büyüklerimizin iletişim bilgilerini mutlaka ezberimizde tutmalı, ancak bu bilgileri tanımadığımız kişilerle paylaşmamalıyız.",
+      "subSkill": "Kişisel Bilgiler ve Güvenlik",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi yaşadığımız çevrenin temiz tutulmasına yardımcı olan bir davranıştır?",
+      "choices": [
+        "Çöpleri çöp kutusuna atmak.",
+        "Çöpleri sokağa rastgele bırakmak.",
+        "Parktaki çiçekleri koparmak."
+      ],
+      "correctAnswer": "Çöpleri çöp kutusuna atmak.",
+      "explanation": "Yaşadığımız yerin temiz ve sağlıklı kalması için çöplerimizi her zaman çöp kutularına atmalı, çevremizdeki bitkilere ve ortak kullanım alanlarına zarar vermemeliyiz.",
+      "subSkill": "Çevre Bilinci",
+      "questionType": "Davranış",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ülkemizin başkenti aşağıdakilerden hangisidir?",
+      "choices": [
+        "İstanbul",
+        "Ankara",
+        "İzmir"
+      ],
+      "correctAnswer": "Ankara",
+      "explanation": "Türkiye Cumhuriyeti'nin başkenti Ankara'dır. Ülkemizin yönetim merkezi burada bulunur ve Türkiye Büyük Millet Meclisi de Ankara'da yer alır.",
+      "subSkill": "Ülke Bilgisi",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okul yolunda yürürken aşağıdakilerden hangisini yapmak güvenlidir?",
+      "choices": [
+        "Yaya geçidini kullanmak.",
+        "Taşıt yolunun ortasından yürümek.",
+        "Koşarak yola atlamak."
+      ],
+      "correctAnswer": "Yaya geçidini kullanmak.",
+      "explanation": "Trafikte güvenliğimiz için her zaman kaldırımda yürümeli ve karşıdan karşıya geçerken mutlaka yaya geçitlerini, alt veya üst geçitleri tercih etmeliyiz.",
+      "subSkill": "Trafik Güvenliği",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Türkiye'nin yönetim şekli aşağıdakilerden hangisidir?",
+      "choices": [
+        "Cumhuriyet",
+        "Krallık",
+        "İmparatorluk"
+      ],
+      "correctAnswer": "Cumhuriyet",
+      "explanation": "Türkiye, 29 Ekim 1923 tarihinde ilan edilen Cumhuriyet ile yönetilmektedir. Cumhuriyet yönetiminde halk, seçme ve seçilme hakkına sahiptir.",
+      "subSkill": "Ülke Bilgisi",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Yaşadığımız yerin yakınında bulunan aşağıdaki kurumlardan hangisi sağlığımızla ilgilenir?",
+      "choices": [
+        "Eczane",
+        "Okul",
+        "Belediye"
+      ],
+      "correctAnswer": "Eczane",
+      "explanation": "Eczaneler, doktorun yazdığı ilaçları temin ettiğimiz ve sağlıkla ilgili danışmanlık aldığımız kurumlardır. Okul eğitim, belediye ise yerel yönetim hizmetleri sunar.",
+      "subSkill": "Yerel Kurumlar",
+      "questionType": "Eşleştirme",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Atatürk'ün milli mücadeleyi başlatmak için Samsun'a çıktığı tarih hangisidir?",
+      "choices": [
+        "29 Ekim 1923",
+        "19 Mayıs 1919",
+        "23 Nisan 1920"
+      ],
+      "correctAnswer": "19 Mayıs 1919",
+      "explanation": "Mustafa Kemal Atatürk, 19 Mayıs 1919 tarihinde Samsun'a çıkarak Kurtuluş Savaşı'nı başlatmıştır. Bu gün, gençlerimize bayram olarak armağan edilmiştir.",
+      "subSkill": "Tarihi Bilinç",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki görsellerden hangisi ülkemizin bağımsızlık sembollerinden biridir?",
+      "choices": [
+        "Bayrağımız",
+        "Okul çantası",
+        "Meyve tabağı"
+      ],
+      "correctAnswer": "Bayrağımız",
+      "explanation": "Türk bayrağı, ülkemizin bağımsızlığını simgeleyen en önemli değerimizdir. Ay ve yıldızdan oluşan al bayrağımız, milletimizin özgürlüğünün bir temsilidir.",
+      "subSkill": "Ülke Sembolleri",
+      "questionType": "Görsel Yorumlama",
+      "imageBrief": "Dalgalanan bir Türk bayrağı resmi",
+      "imageAlt": "Dalgalanan Türk bayrağı görseli bağımsızlık sembolünü temsil eder."
+    },
+    {
+      "question": "Mahallemizde veya köyümüzde yardıma ihtiyacı olan yaşlı bir komşumuza nasıl davranmalıyız?",
+      "choices": [
+        "Ona kaba davranmalıyız.",
+        "Onu görmezden gelmeliyiz.",
+        "Ona nazik davranıp yardım etmeliyiz."
+      ],
+      "correctAnswer": "Ona nazik davranıp yardım etmeliyiz.",
+      "explanation": "Sosyal yardımlaşma ve nezaket kuralları gereği, komşularımıza ve özellikle yaşlı bireylere karşı her zaman saygılı, anlayışlı ve yardımcı olmamız gerekir.",
+      "subSkill": "Toplumsal Değerler",
+      "questionType": "Davranış",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bayramlarda ve özel günlerde insanlar birbirine nasıl davranmalıdır?",
+      "choices": [
+        "Daha soğuk ve mesafeli.",
+        "Saygılı ve güler yüzlü.",
+        "Sadece hediye beklentisiyle."
+      ],
+      "correctAnswer": "Saygılı ve güler yüzlü.",
+      "explanation": "Bayramlar birlik ve beraberlik günleridir. Bu günlerde büyüklerimizi ziyaret etmeli, küçükleri sevindirmeli ve çevremizdeki insanlara karşı her zaman güler yüzlü olmalıyız.",
+      "subSkill": "Sosyal İlişkiler",
+      "questionType": "Bilgi",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 2,
+  "subject": "hayat-bilgisi",
+  "topic": "yasadigim-yer-ve-ulkem",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-05T12:57:23.232Z"
+}

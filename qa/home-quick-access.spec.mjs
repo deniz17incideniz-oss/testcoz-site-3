@@ -33,7 +33,7 @@ test('sınıf ve ders sayfalarında navigasyon açıklamalardan önce gelir', as
  const topics=await page.locator('.topic-list').boundingBox();
  const content=await page.locator('.subject-content').boundingBox();
  expect(topics.y).toBeLessThan(content.y);
- await expect(page.locator('.topic-list a').first()).toBeVisible();
+ await expect(page.locator('.topic-list .difficulty-link').first()).toBeVisible();
 });
 
 test('JavaScript kapalıyken sınıf bağlantıları kullanılabilir', async ({browser}) => {
