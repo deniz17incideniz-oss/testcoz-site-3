@@ -14262,14 +14262,14 @@
         ]
       },
       "after": {
-        "question": "Hangi durumda 112 Acil Çağrı Merkezi aranmalıdır?",
+        "question": "Türkiye’de hangi durumda 112 Acil Çağrı Merkezi aranmalıdır?",
         "choices": [
           "Okul çantasındaki kalem bulunamadığında",
           "Binada görülen yangın için acil yardım gerektiğinde",
           "Bir oyunun kuralları merak edildiğinde"
         ],
         "correctAnswer": 1,
-        "explanation": "112, yangın gibi acil durumlarda yardım istemek için kullanılır; gereksiz çağrılar yardım ulaşmasını geciktirebilir.",
+        "explanation": "Türkiye’de 112, yangın gibi acil durumlarda yardım istemek için kullanılır; gereksiz çağrılar yardım ulaşmasını geciktirebilir.",
         "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
         "options": [
           "Okul çantasındaki kalem bulunamadığında",
@@ -14485,18 +14485,18 @@
       "after": {
         "question": "Bir yaya, geçitte yeşil ışığı bekledikten sonra çevresindeki araçları da kontrol ediyor. Bu davranışın amacı nedir?",
         "choices": [
-          "Dengeli besin alımını sağlamak",
-          "Dişleri temizlemek",
+          "Yeşil ışık yanınca araçları kontrol etmenin gereksiz olduğunu göstermek",
+          "Araçlara bakmanın trafik ışıklarına uyma gereğini ortadan kaldırdığını göstermek",
           "Karşıya güvenli geçişe yardımcı olmak"
         ],
         "correctAnswer": 2,
-        "explanation": "Yaya ışığı ve araç kontrolü karşıya geçerken trafik durumunu değerlendirmeye yardımcı olur.",
+        "explanation": "Yaya ışığına uymak ve araçların durumunu kontrol etmek güvenli geçişe yardımcı olur. Yeşil ışık araçları kontrol etmeyi, araçlara bakmak da trafik ışığına uymayı gereksiz kılmaz.",
         "image": null,
         "visual": null,
         "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
         "options": [
-          "Dengeli besin alımını sağlamak",
-          "Dişleri temizlemek",
+          "Yeşil ışık yanınca araçları kontrol etmenin gereksiz olduğunu göstermek",
+          "Araçlara bakmanın trafik ışıklarına uyma gereğini ortadan kaldırdığını göstermek",
           "Karşıya güvenli geçişe yardımcı olmak"
         ],
         "difficulty": "orta",
@@ -14639,7 +14639,7 @@
         "explanation": "Diş fırçası kişisel bir eşyadır. Kendi fırçasını kullanmak ağız hijyenine özen göstermeye yardımcı olur.",
         "image": "images/tests/3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
+          "type": "plainCards",
           "title": "İki öğrencinin diş fırçası kullanımı",
           "data": {
             "first": "Zeynep: kendi diş fırçasını kullanıyor",
