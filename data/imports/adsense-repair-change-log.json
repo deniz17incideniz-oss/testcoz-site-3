@@ -8545,25 +8545,25 @@
         ]
       },
       "after": {
-        "question": "Bisiklet sürmeye hazırlanıyorsun. Kaskının kayışı gevşek. Ne yapmalısın?",
+        "question": "Bir oyun uygulamasında tanımadığın biri ev adresini yazmanı istiyor. Ne yapmalısın?",
         "choices": [
-          "Sürmeden önce kayışı uygun biçimde ayarlamalıyım.",
-          "Kaskı çıkarıp hızla sürmeliyim.",
-          "Gevşek kayışı görmezden gelmeliyim."
+          "Adresimi paylaşmadan güvendiğim bir yetişkine haber vermeliyim.",
+          "Adresimi herkesin görebileceği yere yazmalıyım.",
+          "Karşılık olarak onun adresini de istemeliyim."
         ],
         "correctAnswer": 0,
-        "explanation": "Kaskın başa uygun oturması ve kayışının bağlanması, düşme durumunda başın korunmasına yardımcı olur.",
+        "explanation": "Ev adresi kişisel bilgidir. Tanımadığın biri istediğinde adresini paylaşma ve güvendiğin bir yetişkine haber ver.",
         "image": null,
         "visual": null,
         "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
         "options": [
-          "Sürmeden önce kayışı uygun biçimde ayarlamalıyım.",
-          "Kaskı çıkarıp hızla sürmeliyim.",
-          "Gevşek kayışı görmezden gelmeliyim."
+          "Adresimi paylaşmadan güvendiğim bir yetişkine haber vermeliyim.",
+          "Adresimi herkesin görebileceği yere yazmalıyım.",
+          "Karşılık olarak onun adresini de istemeliyim."
         ],
         "difficulty": "orta",
         "skill": "Sağlığım ve Güvenliğim",
-        "subSkill": "Bisiklet güvenliği",
+        "subSkill": "Çevrim içi kişisel güvenlik",
         "questionType": "cikarim",
         "cognitiveLevel": "uygulama",
         "estimatedTimeSeconds": 85,
@@ -8913,25 +8913,25 @@
         ]
       },
       "after": {
-        "question": "Yaya geçidini kullanmak ve trafik ışıklarına uymak neden önemlidir?",
+        "question": "Yaya geçidi işareti, yolda hangi yer hakkında bilgi verir?",
         "choices": [
-          "Besinlerin dengeli alınmasını sağlar.",
-          "Dişlerin temizlenmesine yardımcı olur.",
-          "Karşıya geçerken güvenliği artırmaya yardımcı olur."
+          "Araçların park edeceği yer",
+          "Hastanenin bulunduğu yer",
+          "Yayaların karşıya geçmesi için ayrılmış yer"
         ],
         "correctAnswer": 2,
-        "explanation": "Yaya geçidi ve ışıklar trafikte geçişi düzenlemeye yardımcı olur. Geçerken araçların durumuna da dikkat edilir.",
+        "explanation": "Yaya geçidi işareti, yayaların karşıya geçmesi için ayrılan yeri gösterir. Geçmeden önce ışıklara ve araçların durumuna da dikkat edilmelidir.",
         "image": null,
         "visual": null,
         "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
         "options": [
-          "Besinlerin dengeli alınmasını sağlar.",
-          "Dişlerin temizlenmesine yardımcı olur.",
-          "Karşıya geçerken güvenliği artırmaya yardımcı olur."
+          "Araçların park edeceği yer",
+          "Hastanenin bulunduğu yer",
+          "Yayaların karşıya geçmesi için ayrılmış yer"
         ],
         "difficulty": "orta",
         "skill": "Sağlığım ve Güvenliğim",
-        "subSkill": "Yaya güvenliği",
+        "subSkill": "Yaya geçidi levhası",
         "questionType": "cikarim",
         "cognitiveLevel": "uygulama",
         "estimatedTimeSeconds": 85,
@@ -8982,7 +8982,7 @@
         ]
       },
       "after": {
-        "question": "Yangın gibi acil bir durumda yardım çağırmak için hangi numara aranır?",
+        "question": "Türkiye’de yangın gibi acil bir durumda yardım çağırmak için hangi numara aranır?",
         "choices": [
           "112",
           "118",
@@ -41329,18 +41329,18 @@
         "question": "Kum ile iri çakıl karışımını ayıran çocuk eleğin altında kum, üstünde çakıl görüyor. Elek hangi özellik farkından yararlanmıştır?",
         "choices": [
           "Tanelerin büyüklüğünden",
-          "Tanelerin aynı kapta bulunmasından",
-          "Karışımın hazırlanma saatinden"
+          "Tanelerin mıknatıs tarafından çekilmesinden",
+          "Tanelerin renklerinden"
         ],
         "correctAnswer": 0,
-        "explanation": "Küçük kum taneleri deliklerden geçer, iri çakıllar kalır. Ayırmayı sağlayan özellik tane büyüklüğüdür; aynı kapta bulunmaları ayırma ölçütü değildir.",
+        "explanation": "Küçük kum taneleri eleğin deliklerinden geçer, iri çakıllar üstte kalır. Elek, tanelerin deliklere göre büyüklüğünden yararlanır; bu işlemde mıknatıs veya renk kullanılmaz.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",
         "options": [
           "Tanelerin büyüklüğünden",
-          "Tanelerin aynı kapta bulunmasından",
-          "Karışımın hazırlanma saatinden"
+          "Tanelerin mıknatıs tarafından çekilmesinden",
+          "Tanelerin renklerinden"
         ],
         "difficulty": "zor",
         "skill": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
@@ -41552,18 +41552,18 @@
         "question": "Bir kaptaki buz eriyip su oluyor. Aynı madde için hangi değişim gerçekleşmiştir?",
         "choices": [
           "Katı hâlden sıvı hâle geçmiştir.",
-          "Madde tamamen yok olmuştur.",
-          "Su başka bir taş türüne dönüşmüştür."
+          "Sıvı hâlden gaz hâline geçmiştir.",
+          "Katı hâlden gaz hâline geçmiştir."
         ],
         "correctAnswer": 0,
-        "explanation": "Buz suyun katı hâlidir. Erimeyle sıvı su oluşur; madde yok olmaz. Bu değişim taş oluşması veya kaybolma değildir.",
+        "explanation": "Buz suyun katı hâlidir. Eriyince sıvı su oluşur; bu olayda katı hâlden sıvı hâle geçiş gözlenir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-4",
         "options": [
           "Katı hâlden sıvı hâle geçmiştir.",
-          "Madde tamamen yok olmuştur.",
-          "Su başka bir taş türüne dönüşmüştür."
+          "Sıvı hâlden gaz hâline geçmiştir.",
+          "Katı hâlden gaz hâline geçmiştir."
         ],
         "difficulty": "zor",
         "skill": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",

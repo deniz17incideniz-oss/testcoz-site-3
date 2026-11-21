@@ -4,7 +4,7 @@ for(const x of [
  {topic:'yasamimizi-kolaylastiran-elektrik',step:8,caption:'Boş oda: 2 saat',wrong:'Ödev sırasındaki 1 saat',reason:'2 saat'},
  {topic:'canlilarin-yasam-alanlarina-yolculuk',step:5,caption:'güvenli yuva yeri',wrong:'İkisi de aynı yuvada',reason:'uygun koşullara'},
  {topic:'canlilar-dunyasina-yolculuk',step:8,caption:'Fasulye: 3 cm',wrong:'Boyu 5 cm olan her şey cansızdır',reason:'6 − 3 = 3 cm'},
- {topic:'canlilar-dunyasina-yolculuk',step:9,caption:'Öğrencinin etiketi',wrong:'Üçü de yer kapladığı için bitkidir',reason:'Mantarlar bitkilerden ayrı bir gruptur'}
+ {topic:'canlilar-dunyasina-yolculuk',step:9,caption:'Öğrencinin etiketi',wrong:'Mantar ve papatya bitki, kuş hayvandır.',reason:'Mantarlar ne bitki ne de hayvandır'}
 ])test(`science comparison card ${x.topic} question ${x.step+1}`,async({page,request})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width:320,height:850});
  const slug=`3-sinif-fen-bilimleri-${x.topic}-zor-test-1`;
@@ -24,9 +24,14 @@ for(const x of [
 test('living things questions stay within the evidence and grade language',async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width:320,height:850});
  await page.goto('/tests/3-sinif-fen-bilimleri-canlilar-dunyasina-yolculuk-zor-test-1.html');await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
- await expect(page.locator('#questionArea')).toContainText('Zaman içinde büyüyüp uzaması');
- for(let i=0;i<7;i++)await page.locator('#skipQuestion').click();
- const area=page.locator('#questionArea');await expect(area).toContainText('Kedi büyür ve yetişkin bir kedi olur');await expect(area).not.toContainText('tür');
+ await expect(page.locator('#questionArea')).toContainText('Filizin zaman içinde büyüyüp uzaması');
+ await page.locator('#questionArea [data-choice]').filter({hasText:'Filize bir bardak su verilmesi'}).click();await page.locator('#nextQuestion').click();
+ for(let i=0;i<6;i++)await page.locator('#skipQuestion').click();
+ const area=page.locator('#questionArea');await expect(area).toContainText('martta 20 cm, haziranda 25 cm');await expect(area).toContainText('Yavrunun ölçülen boyu zamanla artmıştır');await expect(area).not.toContainText('tür');
+ await area.locator('[data-choice]').filter({hasText:'Yavrunun yetişkinliğe ulaştığı kesinleşmiştir'}).click();await page.locator('#nextQuestion').click();
+ for(let i=0;i<2;i++)await page.locator('#skipQuestion').click();
+ await expect(page.locator('.wrong-item').filter({hasText:'Filize bir bardak su verilmesi'})).toContainText('ona su verilmesi ise tek başına onun canlı olduğunu göstermez');
+ await expect(page.locator('.wrong-item').filter({hasText:'Yavrunun yetişkinliğe ulaştığı kesinleşmiştir'})).toContainText('bu iki ölçüm boy artışını gösterir');
 });
 
 

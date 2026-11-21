@@ -96,7 +96,7 @@ for(const [slug,skills] of [
  repair.metadata={subSkill,questionType:index===1?'gorsel-okuma':'cikarim'};
 }
 for(const [slug,skills] of [
- ['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1',['Bisiklet güvenliği','Kask kullanımı','Yaralanmada yardım','El temizliği','Evde güvenlik','Yaya güvenliği','Acil yardım','Elektrik güvenliği','Düzenli uyku','İlaç güvenliği']],
+ ['2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1',['Çevrim içi kişisel güvenlik','Kask kullanımı','Yaralanmada yardım','El temizliği','Evde güvenlik','Yaya geçidi levhası','Acil yardım','Elektrik güvenliği','Düzenli uyku','İlaç güvenliği']],
  ['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1',['Ülkemizi tanıma','Çevre temizliği','Ortak alanlar','Başkentimizi tanıma','Krokiyi tanıma','Bayrağımızı tanıma','Kayıp eşya','Ortak eşyalara özen','Kişisel bilgi güvenliği','Sağlık hizmetleri']]
 ]) for(const [index,subSkill] of skills.entries()) {
  const repair=repairs.find(p=>p.slug===slug&&p.index===index);

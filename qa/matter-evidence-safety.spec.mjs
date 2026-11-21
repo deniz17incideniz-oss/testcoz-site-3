@@ -4,6 +4,8 @@ test('matter questions preserve evidence, safety and numbered cards',async({page
  const slug='3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1';await page.goto(`/tests/${slug}.html`);await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
  for(let n=1;n<=10;n++){
   const area=page.locator('#questionArea');
+  if(n===1){await expect(area).toContainText('Tanelerin mıknatıs tarafından çekilmesinden');await expect(area).toContainText('Tanelerin renklerinden');}
+  if(n===4){await expect(area).toContainText('Katı hâlden sıvı hâle geçmiştir.');await expect(area).toContainText('Sıvı hâlden gaz hâline geçmiştir.');await expect(area).toContainText('Katı hâlden gaz hâline geçmiştir.');}
   if([3,6,9,10].includes(n)){
    const img=area.locator('img');await expect(img).toHaveCount(1);const src=await img.getAttribute('src'),svg=await (await request.get('/'+src.replace(/^\//,''))).text();
    expect(svg).not.toMatch(/class="value">[AB]<\/text>/);

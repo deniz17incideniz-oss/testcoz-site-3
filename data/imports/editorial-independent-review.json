@@ -723,9 +723,9 @@
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-1",
-      "content_sha256": "3d04e59366f0572986d70aae1e63ae2cd3eaa6c9c9de64f895c9011c0a844d44",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "05981c8da4be355458b2ab52d498626e360d10f23ff2a2c53adb8f8fab480f11",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Tanımadığı kişinin adres talebinde adresi paylaşmayıp güvenilir yetişkine haber vermek tek uygun seçenek; alt beceri çevrim içi güvenlik olarak güncellendi. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-2",
@@ -736,50 +736,50 @@
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-3",
       "content_sha256": "40af308d730bc97d232654c4af52d4a45bfefb55b8ce07260fdc2e4e1c25fbb2",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yaralanmada öğretmene veya görevliye haber vermek doğru; alay etme ve yarayı gizleme çeldiricileri orta düzey için fazla belirgin. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
       "content_sha256": "04e98b39f0d0adc24e3b4985c2219d97adf0df235a0a6193c34fa719b2732e7d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Elleri yıkamak kir ve mikropların azalmasına yardımcı olur; açıklama bütünüyle arınma garantisi vermiyor. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
       "content_sha256": "e21112353eed6f69d831c1bab288596acc12ee3b393141060334c999d817992f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Tehlike işaretli temizlik maddesinden uzak durup yetişkine haber vermek güvenli davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
-      "content_sha256": "050d570daf1c4ac84ede29ec38f8a5cea948aaa51f8c9d21d2ee299e0a66fa9f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "4430dd22b4c2e17d2511f125c60c9f7210fc1fc9457a7846b121147499bedbcb",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yaya geçidi levhası yayaların karşıya geçmesi için ayrılan yeri gösterir; alt beceri ve açıklama uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-7",
-      "content_sha256": "8c755c65ac078d621d5f67fd33403d1d8b3c082ffb1b6f5c1ffa5ba76b643fa6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "dfcbff810a494c0b6c36e35a087fc73f049a1dad5784689ceeca7474ba1d3b72",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Türkiye’de yangın dâhil acil yardım için 112 aranır; ülke soru kökünde açıkça belirtilmiştir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
       "content_sha256": "2b814c12c82e8622e2d37e9fd2dc00d2e5ee976c25fa1c4b849ea8d45046b76d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yıpranmış kabloya dokunmadan yetişkine haber vermek verilen seçeneklerde uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
       "content_sha256": "b19fac48ad0333edda516b781f6234cadc8025293aed86ef84cb048cb6223f17",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yeterli uyku dinlenme ve gelişimi destekler; bütün hastalıkları kesin önlediği iddia edilmez. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "2-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
       "content_sha256": "4438ddc57043fdd5448a4508b1b67982a8615c2b5dc763c3b92290eb6b3827dc",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Adı olmayan ilacı kullanmadan yetişkine haber vermek verilen seçeneklerde uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
@@ -3435,9 +3435,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-1",
-      "content_sha256": "8d6da795eedd8e0094db729fa8df4a2760f0b8617aff8d94dd84417e6b548d41",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Elek tane büyüklüğü farkından yararlanır; diğer seçenekler zor düzeyde kolay eleniyor. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
+      "content_sha256": "c128f4c5cddb3e07cd69439b996690453812bfaa1a2c3ed0fcd88d8cc062c32d",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Elekte kumun geçmesi ve çakılın kalması tane büyüklüğüne dayanır; mıknatıs ve renk seçenekleri gözlenen ayırma yöntemine uymaz. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-2",
@@ -3453,9 +3453,9 @@
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-4",
-      "content_sha256": "26e0acd1461106b2908526fbf904c24b1de560448fb7e26865aeec53b66fd6a6",
-      "status": "NEEDS_REVISION",
-      "evidence": "Bağımsız Codex ikinci incelemesi, 14 Kasım 2026: Buzun erimesi katıdan sıvıya geçiştir; diğer seçenekler zor düzeyde kolay eleniyor. Tek doğru cevap ve açıklama gözden geçirildi. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
+      "content_sha256": "8e249a2d9744459198088b9b3d5eecd517b04cc1f68176ae46cffa53d948f92e",
+      "status": "VERIFIED",
+      "evidence": "Düzeltme sonrası bağımsız Codex ikinci incelemesi, 15 Kasım 2026: Buzun suya dönüşmesi katı hâlden sıvı hâle geçiştir; iki gaz hâli seçeneği gözlenen değişim değildir. Konu kapsamı: https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334"
     },
     {
       "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-5",
