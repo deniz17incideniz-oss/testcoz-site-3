@@ -12,7 +12,7 @@ export const safetyMediumTwo=[
  ['Üzerinde adı yazılı olmayan bir ilaç buldun. Ne yapmalısın?', 'İlacı kullanmadan bir yetişkine haber vermeliyim.', 'Ne olduğunu anlamak için ilacı içmeliyim.', 'İlacı arkadaşıma vermeliyim.', 'İlaçlar yanlış kullanıldığında zarar verebilir. Bulduğun ilacı kullanmadan bir yetişkine haber ver.']
 ];
 export const placeEasyOne=[
- ['Yaşadığımız ülkenin adı hangisidir?', 'Türkiye', 'Ankara', 'İzmir', 'Türkiye ülkemizin adıdır. Ankara ve İzmir ise Türkiye’de bulunan şehirlerdir.'],
+ ['Ankara ve İzmir hangi ülkedeki şehirlerdir?', 'Türkiye', 'Ankara', 'İzmir', 'Ankara ve İzmir Türkiye’de bulunan şehirlerdir.'],
  ['Ece çöpünü parkta kutuya atıyor. Ali ise yere bırakıyor. Hangisi parkın temiz kalmasına yardımcı olur?', 'Ece’nin çöpünü kutuya atması', 'Ali’nin çöpünü yere bırakması', 'İkisinin de çöpü yere atması', 'Çöpü kutuya atmak, herkesin kullandığı parkın temiz kalmasına yardımcı olur.'],
  ['Aşağıdakilerden hangisi mahallede ortak kullanılan bir alandır?', 'Park', 'Evdeki yatak odası', 'Evdeki mutfak', 'Mahalle parkı birçok kişinin birlikte yararlanabildiği ortak bir alandır.'],
  ['Türkiye’nin başkenti hangisidir?', 'Ankara', 'Antalya', 'İzmir', 'Ankara, Türkiye Cumhuriyeti’nin başkentidir ve ülke yönetiminin merkezidir.'],
@@ -20,6 +20,6 @@ export const placeEasyOne=[
  ['Türk bayrağının üzerinde hangi şekiller vardır?', 'Ay ve yıldız', 'Güneş ve bulut', 'Üçgen ve kare', 'Türk bayrağında kırmızı zemin üzerinde beyaz ay ve yıldız bulunur.'],
  ['Yerde başkasına ait olabilecek bir cüzdan gördün. Ne yapabilirsin?', 'Güvendiğim bir yetişkine haber verebilirim.', 'Cüzdanı gizlice kendime alabilirim.', 'İçindekileri arkadaşlarıma dağıtabilirim.', 'Güvendiğin bir yetişkine haber vermek, kayıp eşyanın sahibine ulaştırılmasına yardımcı olabilir.'],
  ['Parktaki banklar herkesin kullanımı içindir. Bu banklara nasıl davranmalıyız?', 'Onları temiz ve sağlam tutmalıyız.', 'Üzerlerine yazılar yazmalıyız.', 'Onlara zarar vermeliyiz.', 'Ortak bankları temiz ve sağlam kullanmak, başkalarının da onlardan yararlanmasını sağlar.'],
- ['Tanımadığın biri ev adresini soruyor. Ne yapabilirsin?', 'Paylaşmadan önce güvendiğim bir yetişkine danışabilirim.', 'Adresimi hemen söylemeliyim.', 'Aileme haber vermeden onunla gitmeliyim.', 'Ev adresi kişisel bilgidir. Paylaşmadan önce güvendiğin bir yetişkine danışabilirsin.'],
+ ['Tanımadığın biri ev adresini soruyor. Ne yapabilirsin?', 'Adresimi paylaşmayıp güvendiğim bir yetişkine haber verebilirim.', 'Adresimi hemen söylemeliyim.', 'Aileme haber vermeden onunla gitmeliyim.', 'Ev adresi kişisel bilgidir. Tanımadığın biri istediğinde adresini paylaşma ve güvendiğin bir yetişkine haber ver.'],
  ['Hasta olduğunda sağlık hizmeti almak için hangi yere gidilebilir?', 'Sağlık merkezine', 'Kırtasiyeye', 'Oyuncakçıya', 'Sağlık merkezi, sağlık hizmeti almak için başvurulabilecek yerlerden biridir.']
 ];

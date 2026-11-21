@@ -783,63 +783,63 @@
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
-      "content_sha256": "2327916badb659a7669958ba2aae37cb658f3db340637a4a42c9ca554ccc8a76",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "92aae20acdc5dc339cb0c8340c756272b61c7d66609b5e49e800529b718e5bc4",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Ankara ve İzmir Türkiye’deki şehirlerdir; soru öğrencinin yaşadığı ülkeyi varsaymaz. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-2",
       "content_sha256": "bd25b3d876d6468fc9360849a15284729ca4411580811124ce084101e0da2292",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Çöpü kutuya atan Ece parkın temizliğine yardımcı olur; harfsiz görsel ve alt metin durumla uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-3",
       "content_sha256": "5b2e8b19547be0a478a45cba93ec6e51bcd99d10984063800b21c40d146dc731",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Park ortak alandır; ev içi mekânlarla karşılaştırma çok belirgindir ve tema kazanımları açısından geliştirilebilir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-4",
       "content_sha256": "1b0e2bb730a7a6733ba6b79fdcd5886c625ded583ba14e287df1491a45bdb19b",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Ankara Türkiye’nin başkentidir; açıklama ve seçenekler uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-5",
       "content_sha256": "05e01feddf6f32bcf2a8da33073871519ecccdcbc999a4700ca9a47e1b3f8aa0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kroki gösterimi doğru ancak ilgili birinci sınıf alanında açık kazanım bulunmadığından sınıf ve tema uygunluğu değerlendirilmeli. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-6",
       "content_sha256": "f68eae612f6cdd6a18863f429b76e1aae2d9804d89f001d1fdeee509f8a04ca7",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Türk bayrağında beyaz ay ve yıldız bulunur; cevap ve açıklama uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-7",
       "content_sha256": "894f19c8ea22369d20d4f73def5bda35ff72ed56dc8a586c8a1261d78d3f0d1f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kayıp cüzdanı güvendiği yetişkine bildirmek verilen seçeneklerde uygun davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-8",
       "content_sha256": "83c73f24f61fad7fcbfd7d73b4eee5b249ac247e5faa61f6aaaa7b57fb25e2e3",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Ortak bankları temiz ve sağlam tutmak doğrudur; diğer seçenekler çok belirgindir ve tema kazanımı bağlantısı zayıftır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
-      "content_sha256": "b7fd08290facb8d33258b0372c220c60ef68cce7c71ef849e0e5020a1f7d659e",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "c169db5dbd202b3640b85322b41e6a22f796b7d8b1393f4b4e62786ac4d667f7",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Tanımadığı kişiye adresini paylaşmama ve güvenilir yetişkine haber verme güvenli davranıştır; açıklama bu sınırı açık belirtir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-10",
       "content_sha256": "140e5b820609c91be885e1e187433c3b5db82f770e7700d934b36dd99367c436",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "NEEDS_REVISION",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Sağlık merkezi sağlık hizmeti sunar; bu sorunun ülke, bayrak, Atatürk ve bayram temasıyla doğrudan ilişkisi değerlendirilmelidir. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117"
     },
     {
       "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1-soru-1",

@@ -9270,14 +9270,14 @@
         ]
       },
       "after": {
-        "question": "Yaşadığımız ülkenin adı hangisidir?",
+        "question": "Ankara ve İzmir hangi ülkedeki şehirlerdir?",
         "choices": [
           "Türkiye",
           "Ankara",
           "İzmir"
         ],
         "correctAnswer": 0,
-        "explanation": "Türkiye ülkemizin adıdır. Ankara ve İzmir ise Türkiye’de bulunan şehirlerdir.",
+        "explanation": "Ankara ve İzmir Türkiye’de bulunan şehirlerdir.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-1",
@@ -9854,17 +9854,17 @@
         "choices": [
           "Adresimi hemen söylemeliyim.",
           "Aileme haber vermeden onunla gitmeliyim.",
-          "Paylaşmadan önce güvendiğim bir yetişkine danışabilirim."
+          "Adresimi paylaşmayıp güvendiğim bir yetişkine haber verebilirim."
         ],
         "correctAnswer": 2,
-        "explanation": "Ev adresi kişisel bilgidir. Paylaşmadan önce güvendiğin bir yetişkine danışabilirsin.",
+        "explanation": "Ev adresi kişisel bilgidir. Tanımadığın biri istediğinde adresini paylaşma ve güvendiğin bir yetişkine haber ver.",
         "image": null,
         "visual": null,
         "id": "1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1-soru-9",
         "options": [
           "Adresimi hemen söylemeliyim.",
           "Aileme haber vermeden onunla gitmeliyim.",
-          "Paylaşmadan önce güvendiğim bir yetişkine danışabilirim."
+          "Adresimi paylaşmayıp güvendiğim bir yetişkine haber verebilirim."
         ],
         "difficulty": "kolay",
         "skill": "Yaşadığım Yer ve Ülkem",
