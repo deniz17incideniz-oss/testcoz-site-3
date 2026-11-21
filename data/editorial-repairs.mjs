@@ -306,14 +306,14 @@ test(3,'fen-bilimleri','bilimsel-kesif-yolculugu','zor',2,[
 
 test(3,'ingilizce','family-life','kolay',1,[
  ['“This is my mother.” cümlesinde tanıtılan aile üyesi kimdir?','Anne','Baba','Kız kardeş','Büyükbaba','Mother anne demektir. Father baba, sister kız kardeş, grandfather büyükbabadır. This is ile bir kişi tanıtılır.'],
- ['“My brother is Can.” cümlesinde Can’ın akrabalığı nedir?','Erkek kardeş','Kız kardeş','Anne','Büyükanne','Brother erkek kardeş demektir. Kişi Can’ın kendi erkek kardeşi olduğunu söylüyor. Sister kız kardeş için kullanılır.'],
+ ['“My brother is Can.” cümlesini söyleyen kişiye göre Can kimdir?','Erkek kardeş','Kız kardeş','Anne','Büyükanne','Brother erkek kardeş demektir. Cümleyi söyleyen kişi, erkek kardeşinin Can olduğunu söylüyor. Sister kız kardeş için kullanılır.'],
  ['Aile notu: “Mum: Ayla. Dad: Cem.” Cem için hangi İngilizce sözcük kullanılır?','Dad','Mum','Sister','Grandmother','Notta Cem’in yanında Dad yazıyor. Dad baba, Mum anne demektir; bu iki sözcük aile içinde sık kullanılır.'],
  ['“She is my sister.” cümlesinin Türkçesi hangisidir?','O benim kız kardeşim.','O benim erkek kardeşim.','O benim annem.','O benim büyükannem.','Sister kız kardeş demektir. She kadın veya kız için kullanılan o zamiridir; my ise benim anlamındadır.'],
  ['“Grandmother” ve “grandfather” sözcükleri hangi çifti anlatır?','Büyükanne ve büyükbaba','Anne ve baba','Kız kardeş ve erkek kardeş','Teyze ve amca','Grandmother büyükanne, grandfather büyükbabadır. Mother ve father sözcüklerinin başındaki grand-, önceki kuşağı belirtir.'],
  ['“I help my father.” cümlesinde çocuk kime yardım eder?','Babasına','Annesine','Kız kardeşine','Büyükannesine','Help yardım etmek, my father babam demektir. Cümle babaya yardım etmeyi anlatır; diğer aile üyelerini söylemez.'],
  ['Hangi eşleştirmede aile üyesinin anlamı doğru verilmiştir?','Sister — kız kardeş','Mother — erkek kardeş','Father — büyükanne','Brother — anne','Sister kız kardeştir. Diğer eşleştirmelerde mother anne, father baba ve brother erkek kardeş olmalıydı.'],
- ['“Who is he?” sorusuna aile üyesini tanıtan cevap hangisidir?','He is my father.','He is happy.','He is at home.','He is ten.','Who kim sorusudur. He is my father kişinin babamız olduğunu belirtir; diğerleri duygu, yer ve yaş bildirir.'],
- ['“My aunt visits us.” cümlesindeki aunt hangi aile üyesi olabilir?','Teyze','Dede','Erkek kardeş','Baba','Aunt teyze veya hala anlamındadır. Visits us bizi ziyaret eder demektir. Seçeneklerde aunt ile eşleşen kişi teyzedir.'],
+ ['“Who is he?” sorusuna aile üyesini tanıtan cevap hangisidir?','He is my father.','He is happy.','He is at home.','He is ten.','Who kim sorusudur. He is my father, “O benim babamdır.” demektir; diğerleri duygu, yer ve yaş bildirir.'],
+ ['“My aunt visits us.” cümlesindeki aunt hangi aile üyesi olabilir?','Teyze','Dede','Erkek kardeş','Baba','Aunt, teyze veya hala için kullanılabilir. Visits us bizi ziyaret eder demektir. Seçeneklerde aunt ile eşleşen kişi teyzedir.'],
  ['“My family” ifadesi aşağıdakilerden hangisini anlatır?','Ailem','Sınıfım','Bahçem','Kitabım','Family aile demektir. My family benim ailem anlamına gelir; class sınıf, garden bahçe, book kitaptır.']
  ],'family_test1_distractors_language_and_explanations');
 test(3,'ingilizce','family-life','orta',1,[

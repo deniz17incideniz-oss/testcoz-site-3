@@ -24655,7 +24655,7 @@
         ]
       },
       "after": {
-        "question": "“My brother is Can.” cümlesinde Can’ın akrabalığı nedir?",
+        "question": "“My brother is Can.” cümlesini söyleyen kişiye göre Can kimdir?",
         "choices": [
           "Büyükanne",
           "Erkek kardeş",
@@ -24663,7 +24663,7 @@
           "Anne"
         ],
         "correctAnswer": 1,
-        "explanation": "Brother erkek kardeş demektir. Kişi Can’ın kendi erkek kardeşi olduğunu söylüyor. Sister kız kardeş için kullanılır.",
+        "explanation": "Brother erkek kardeş demektir. Cümleyi söyleyen kişi, erkek kardeşinin Can olduğunu söylüyor. Sister kız kardeş için kullanılır.",
         "id": "3-sinif-ingilizce-family-life-kolay-test-1-soru-2",
         "options": [
           "Büyükanne",
@@ -25101,7 +25101,7 @@
           "He is my father."
         ],
         "correctAnswer": 3,
-        "explanation": "Who kim sorusudur. He is my father kişinin babamız olduğunu belirtir; diğerleri duygu, yer ve yaş bildirir.",
+        "explanation": "Who kim sorusudur. He is my father, “O benim babamdır.” demektir; diğerleri duygu, yer ve yaş bildirir.",
         "id": "3-sinif-ingilizce-family-life-kolay-test-1-soru-8",
         "options": [
           "He is happy.",
@@ -25170,7 +25170,7 @@
           "Baba"
         ],
         "correctAnswer": 0,
-        "explanation": "Aunt teyze veya hala anlamındadır. Visits us bizi ziyaret eder demektir. Seçeneklerde aunt ile eşleşen kişi teyzedir.",
+        "explanation": "Aunt, teyze veya hala için kullanılabilir. Visits us bizi ziyaret eder demektir. Seçeneklerde aunt ile eşleşen kişi teyzedir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-ingilizce-family-life-kolay-test-1-soru-9",
