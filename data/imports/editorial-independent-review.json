@@ -3028,62 +3028,62 @@
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-1",
       "content_sha256": "a11d53b60fcd88b0a4ef6c601b7e08b94bc4b159589601ee1e43a61f07519443",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yeni öğrenciye davet sunulur ve katılma kararı ona bırakılır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-2",
       "content_sha256": "ccd00341ffdcba77ad56fcb8fa75790aea616a5b9619342844d338883b12ac18",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Ortak kitaplık kitabını belirlenen yere düzenli koymak uygundur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-3",
       "content_sha256": "79fe5819b92d47fd5948ab7393e7bdc66333f3fdd0402b9950025a26cdee8b26",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Konuşan kişiyi gözeterek söz isteyip beklemek uygundur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-4",
       "content_sha256": "47d825df2ffc460735076b9f920109e72f08e7b843c9ccf5d068b52ce1b5d7ed",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Üzerinde ad yazan bulunan kalemliği nerede bulduğunu söyleyerek öğretmene vermek uygundur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-5",
       "content_sha256": "f6b29b8e1a9f6cb5171c060454081f0f1faf4b959b748ca25c36734c254463bf",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kütüphanede başkalarını rahatsız etmeyen ses düzeyi uygundur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-6",
       "content_sha256": "fbf91bf0b41eac0cce0f9b54296870388905f23dab20e2aaeb391d1fb9a05dc0",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: İki öğrencinin farklı ilgi alanları olabileceği verilen bilgilerden çıkar. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-7",
       "content_sha256": "9517eaaa4e972d386a1b15023ce38b91c2cb9388ed3d029345c28d996df18cb6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Sorumlu öğrenci sulamadan önce bitkinin ihtiyacını kontrol eder. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-8",
       "content_sha256": "bf14ea5cd312868c0f7a120dedcce059001b7818505eb260384db2a3477ca713",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kullanılmayan musluğu kapatmak suyun korunmasına yardımcı olur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-9",
       "content_sha256": "d86c10931ba50c8fd139fef8937c91faec25d67000c35018fb0e69f7692a3522",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Eğitim alma hakkı doğru yanıttır; açıklama hakkı dinleme koşuluna bağlamaz. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1-soru-10",
       "content_sha256": "5cc30067d5dae1edfe64330535ca368971f87d0eb187d7deecfb15ab49a4684d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Sınıf başkanı seçiminde öğrenci kendi tercih ettiği adayın adını yazar. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310"
     },
     {
       "id": "3-sinif-hayat-bilgisi-ben-ve-okulum-orta-test-1-soru-1",

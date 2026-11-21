@@ -89,7 +89,7 @@ for(const [slug,skills] of [
 }
 for(const [slug,skills] of [
  ['1-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-orta-test-1',['Çevrede yön bulma','Ortak alanları koruma','Yardımlaşma','Kütüphane kitaplarına özen','Park güvenliği','Bayrağımızı tanıma','Tarihî yapıları koruma','Krokiyi tanıma','Kişisel bilgi güvenliği','Parktaki bitkileri koruma']],
- ['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1',['Ortak alanlar','Ortak eşyalara özen','Krokiyi tanıma','Meclisin bulunduğu şehri tanıma','Kütüphaneyi tanıma','Acil yardım','Tarihî yapıları koruma','Yön levhaları','Ortak alanlara özen','Bayrağımızı tanıma']]
+ ['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1',['Belediye hakkında güvenilir bilgi','Ortak eşyalara özen','Krokiyi tanıma','Meclisin bulunduğu şehri tanıma','Atatürk’ün öğrencilik yılları','Acil yardım','Tarihî yapıları koruma','Yön levhaları','Ortak alanlara özen','Bayrağımızı tanıma']]
 ]) for(const [index,subSkill] of skills.entries()) {
  const repair=repairs.find(p=>p.slug===slug&&p.index===index);
  if(!repair)throw new Error(`Missing community repair ${slug}/${index}`);
@@ -501,6 +501,11 @@ repairs.push({slug:'2-sinif-hayat-bilgisi-bilim-teknoloji-ve-sanat-zor-test-2',i
 
 import {schoolRepairs} from './school-repairs.mjs';
 for (const [difficulty, rows] of Object.entries(schoolRepairs)) test(3,'hayat-bilgisi','ben-ve-okulum',difficulty,1,rows,'Repeated cross-grade behavior templates replaced with distinct school scenarios, evidence-based explanations and three choices.');
+for (const [index,subSkill] of ['Arkadaşını oyuna davet etme','Ortak kitabı yerine koyma','Söz isteme ve dinleme','Bulunan eşyayı teslim etme','Kütüphanede başkalarını gözetme','Farklı ilgi alanlarına saygı','Sınıf görevini yerine getirme','Okulda suyu özenli kullanma','Eğitim alma hakkı','Seçimde kendi tercihini kullanma'].entries()) {
+ const repair=repairs.find(p=>p.slug==='3-sinif-hayat-bilgisi-ben-ve-okulum-kolay-test-1'&&p.index===index);
+ if(!repair)throw new Error(`Missing school repair ${index}`);
+ repair.metadata={subSkill,questionType:'cikarim'};
+}
 
 import {scienceRepairs,scienceVisuals,scienceInferenceRepairs} from './science-repairs.mjs';
 for(const [topic,row] of Object.entries(scienceInferenceRepairs))repairs.push({slug:`3-sinif-fen-bilimleri-${topic}-orta-test-1`,index:0,row,reason:'The keyed prediction did not follow from the observation; replace with an evidence-bounded conclusion.'});
