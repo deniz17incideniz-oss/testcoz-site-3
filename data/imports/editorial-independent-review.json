@@ -1197,9 +1197,9 @@
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-5",
-      "content_sha256": "3898b453d91c74133a6e3ca070cc88e42a2d678e934e41590b7cfa0b2fdc686d",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "71cf1bc24fd5358a8a4d967b3991aa6feb8d01a68a65db560cd97ab5450cb38f",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Türkiye’de yangın dâhil acil yardım için 112 aranır; ülke kökte ve açıklamada açıktır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-8",
@@ -1210,26 +1210,26 @@
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-4",
       "content_sha256": "bb0d755cfa96e6fdb8484ec2e2be2059196d75761d25d8d06f4579d67c11df57",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kırık camdan uzak durup bir yetişkine haber vermek verilen seçeneklerde güvenli davranıştır. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-6",
-      "content_sha256": "15b936a2f4040d9897519eae189707033d106ab550cedc716d2ff47c83cd17bc",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "2c54bdae0ffcae1d76f2161badd3d71175060b319383b862b011d5dc7f4a3cbb",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Yeşil yaya ışığına uyma ve araçları kontrol etme birlikte güvenli geçişe yardımcı olur; açıklama bunlardan birini gereksiz saymaz. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-9",
       "content_sha256": "9d8572de08ba6da90b8748afe3e2d137ec9f27d19fe4a67b5af8a48aab76bda6",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Meyve ve peynirli sandviç eklemek yalnız bisküvi içeren öğüne besin çeşitliliği katar. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311"
     },
     {
       "id": "3-sinif-hayat-bilgisi-sagligim-ve-guvenligim-orta-test-1-soru-10",
-      "content_sha256": "90b9e5f721d73d161de1b5a75d133e3650f03974be61ce31cda055259b3a01ce",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "8a468211e5c4eb8cb68d1d58c648003cf629b14460945cb856f889e090243f7d",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 21 Kasım 2026: Kendi diş fırçasını kullanma doğru; öğrenci adları ve davranışları harfsiz görsel ve alternatif metinle uyumludur. Konu kapsamı: https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311"
     },
     {
       "id": "4-sinif-matematik-uzunluk-olcme-kolay-test-1-soru-1",
