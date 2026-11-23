@@ -26134,7 +26134,7 @@
           "He is my father."
         ],
         "correctAnswer": 1,
-        "explanation": "Aunt teyze veya hala, son erkek evlat demektir. Teyze veya halanın oğlu cousin yani kuzen olur; yaşı bu ilişkiyi değiştirmez.",
+        "explanation": "Aunt, teyze veya hala için de kullanılabilir; son oğul demektir. Metindeki kişinin teyzesinin veya halasının oğlu Can, kuzenidir.",
         "id": "3-sinif-ingilizce-family-life-zor-test-1-soru-2",
         "options": [
           "He is my grandfather.",
@@ -26195,7 +26195,7 @@
         ]
       },
       "after": {
-        "question": "“Mum reads after dinner. Dad reads before dinner.” Hangisi yemek yedikten sonra okur?",
+        "question": "“Mum reads after dinner. Dad reads before dinner.” Verilen bilgiye göre yemekten sonra okuduğu söylenen kimdir?",
         "choices": [
           "Both parents",
           "Neither parent",
@@ -26353,7 +26353,7 @@
           "Sister and grandfather"
         ],
         "correctAnswer": 0,
-        "explanation": "My mum annem, my uncle dayım demektir. Metinde büyükannenin iki çocuğu bu kişiler olarak sayılıyor; kuzen onun torunu olabilir.",
+        "explanation": "My mum annem, my uncle ise amcam veya dayım gibi bir erkek akrabam anlamına gelebilir. Metinde büyükannenin çocukları bu iki kişi olarak veriliyor.",
         "id": "3-sinif-ingilizce-family-life-zor-test-1-soru-5",
         "options": [
           "Mother and uncle",
