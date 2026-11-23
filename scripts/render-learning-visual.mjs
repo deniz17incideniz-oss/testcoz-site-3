@@ -4,6 +4,22 @@ export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
+ if(type==='schoolReadingScene') {
+  const art=`<rect x="25" y="90" width="430" height="190" rx="18" fill="#EFF6FF"/>
+  <path d="M38 152 L146 99 L254 152 Z" fill="#3B82F6" stroke="#1E40AF" stroke-width="4"/>
+  <rect x="48" y="151" width="196" height="112" rx="5" fill="#FEF3C7" stroke="#92400E" stroke-width="3"/>
+  <rect x="119" y="208" width="54" height="55" rx="3" fill="#BFDBFE" stroke="#1E40AF" stroke-width="3"/>
+  <rect x="67" y="181" width="35" height="26" rx="2" fill="#DBEAFE" stroke="#1E40AF" stroke-width="3"/>
+  <rect x="191" y="181" width="35" height="26" rx="2" fill="#DBEAFE" stroke="#1E40AF" stroke-width="3"/>
+  <circle cx="349" cy="153" r="21" fill="#F5C8A8" stroke="#78350F" stroke-width="2"/>
+  <path d="M328 151 Q330 123 349 129 Q368 125 371 151 Q358 141 349 140 Q340 140 328 151" fill="#78350F"/>
+  <path d="M316 255 L323 192 Q349 176 375 192 L382 255 Z" fill="#A7F3D0" stroke="#047857" stroke-width="3"/>
+  <path d="M290 202 Q315 197 345 207 L345 250 Q316 240 290 246 Z" fill="#FFFFFF" stroke="#1E40AF" stroke-width="3"/>
+  <path d="M345 207 Q375 197 402 202 L402 246 Q374 240 345 250 Z" fill="#FFFFFF" stroke="#1E40AF" stroke-width="3"/>
+  <path d="M303 211 L332 216 M303 221 L332 226 M358 216 L389 211 M358 226 L389 221" stroke="#93C5FD" stroke-width="3"/>
+  <path d="M35 265 H445" stroke="#15803D" stroke-width="4" stroke-linecap="round"/>`;
+  return {art,width:480,height:300};
+ }
  if(type==='observationRecords'||type==='observationInterpretation') {
   const values=[data.first,data.second];let y=96,art='';
   values.forEach((value,index)=>{
