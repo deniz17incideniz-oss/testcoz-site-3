@@ -39611,31 +39611,31 @@
       "test": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Bilimsel Keşif Yolculuğu: Veri tablosu “Yeni ölçümün önceki ölçümlere yakın çıkması” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",
+        "question": "Eşit büyüklükteki buzlarla yapılan iki denemede güneşteki ve gölgedeki buzun erimesi karşılaştırılıyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?",
         "choices": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Bilimsel örüntü yeni gözlemlerle sınanır.",
+        "explanation": "İki denemede de güneşteki buzun önce eridiği kaydedilmiştir. Benzer koşullarda yeni denemeler yapıp sonuçları karşılaştırmak bu gözlemleri değerlendirmeye yardımcı olur.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
-          "title": "Veriden örüntüye",
+          "type": "observationRecords",
+          "title": "Gözlem kayıtları",
           "data": {
-            "veri": "Güneşte kalan buz daha hızlı eridi.",
-            "oruntu": "Yeni ölçümün önceki ölçümlere yakın çıkması"
+            "first": "1. deneme: Güneşteki buz önce eridi.",
+            "second": "2. deneme: Güneşteki buz önce eridi."
           }
         },
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-9",
-        "imageAlt": "Veriden örüntüye",
+        "imageAlt": "Gözlem kayıtları. 1. deneme: Güneşteki buz önce eridi. 2. deneme: Güneşteki buz önce eridi.",
         "options": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "difficulty": "zor",
         "skill": "Bilimsel Keşif Yolculuğu",
@@ -41121,31 +41121,31 @@
       "test": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Yer Bilimciler İş Başında: Veri tablosu “Farklı kayaçların farklı sertlik göstermesi” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",
+        "question": "İki kayaç aynı cisimle, aynı kuvvet uygulanarak çizilmeye çalışılıyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?",
         "choices": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Bilimsel örüntü yeni gözlemlerle sınanır.",
+        "explanation": "Bu denemede birinci kayaç çizilmiş, ikinci kayaç çizilmemiştir. Aynı yöntemle yeni gözlemler yapıp kayıtları karşılaştırmak bulguları değerlendirmeye yardımcı olur.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
-          "title": "Veriden örüntüye",
+          "type": "observationRecords",
+          "title": "Gözlem kayıtları",
           "data": {
-            "veri": "Bazı kayaçlarda farklı renklerde mineraller görüldü.",
-            "oruntu": "Farklı kayaçların farklı sertlik göstermesi"
+            "first": "1. kayaç: çizildi.",
+            "second": "2. kayaç: çizilmedi."
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-9",
-        "imageAlt": "Veriden örüntüye",
+        "imageAlt": "Gözlem kayıtları. 1. kayaç: çizildi. 2. kayaç: çizilmedi.",
         "options": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "difficulty": "zor",
         "skill": "Yer Bilimciler İş Başında",
@@ -41876,31 +41876,31 @@
       "test": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Maddeyi Tanıyalım, Karıştırıp Ayıralım: Veri tablosu “Elekte iri tanelerin üstte kalması” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",
+        "question": "Kum ve iri çakıl karışımı iki kez eleniyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?",
         "choices": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Bilimsel örüntü yeni gözlemlerle sınanır.",
+        "explanation": "Her iki elemede de iri çakıl üstte, kum altta kalmıştır. Benzer koşullarda yeni eleme sonuçlarını karşılaştırmak bu gözlemleri değerlendirmeye yardımcı olur.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
-          "title": "Veriden örüntüye",
+          "type": "observationRecords",
+          "title": "Gözlem kayıtları",
           "data": {
-            "veri": "Mıknatıs, kum içindeki demir parçalarını çekti.",
-            "oruntu": "Elekte iri tanelerin üstte kalması"
+            "first": "1. eleme: çakıl üstte, kum altta.",
+            "second": "2. eleme: çakıl üstte, kum altta."
           }
         },
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-9",
-        "imageAlt": "Veriden örüntüye",
+        "imageAlt": "Gözlem kayıtları. 1. eleme: çakıl üstte, kum altta. 2. eleme: çakıl üstte, kum altta.",
         "options": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "difficulty": "zor",
         "skill": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
@@ -43386,31 +43386,31 @@
       "test": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Yaşamımızı Kolaylaştıran Elektrik: Veri tablosu “Pil doğru bağlandığında ampulün yanması” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",
+        "question": "İki lambanın düğmesi kapatıldığında ne olduğu kaydediliyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?",
         "choices": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Bilimsel örüntü yeni gözlemlerle sınanır.",
+        "explanation": "Her iki lambanın düğmesi kapatılınca ışığının söndüğü kaydedilmiştir. Güvenli gözlemleri tekrar edip kayıtları karşılaştırmak bu sonuçları değerlendirmeye yardımcı olur.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
-          "title": "Veriden örüntüye",
+          "type": "observationRecords",
+          "title": "Gözlem kayıtları",
           "data": {
-            "veri": "Anahtar kapatılınca lambanın ışığı söndü.",
-            "oruntu": "Pil doğru bağlandığında ampulün yanması"
+            "first": "Oda lambası: düğme kapanınca söndü.",
+            "second": "Masa lambası: düğme kapanınca söndü."
           }
         },
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-9",
-        "imageAlt": "Veriden örüntüye",
+        "imageAlt": "Gözlem kayıtları. Oda lambası: düğme kapanınca söndü. Masa lambası: düğme kapanınca söndü.",
         "options": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "difficulty": "zor",
         "skill": "Yaşamımızı Kolaylaştıran Elektrik",
@@ -44896,31 +44896,31 @@
       "test": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1",
       "reason": "Replace generic or unsupported science inference with topic-specific evidence, plausible alternatives and an explained answer.",
       "before": {
-        "question": "3. sınıf Fen zor — Canlıların Yaşam Alanlarına Yolculuk: Veri tablosu “Yaşam alanı bozulan canlıların başka yere yönelmesi” örüntüsünü gösteriyor. Sonraki adım ne olmalıdır?",
+        "question": "Bir alandaki iki gözlem kaydı görselde verilmiştir. Bu kayıtları daha iyi değerlendirmek için sonraki adım ne olabilir?",
         "choices": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Canlıları rahatsız etmeden yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "correctAnswer": 0,
-        "explanation": "Bilimsel örüntü yeni gözlemlerle sınanır.",
+        "explanation": "Kayıtlar, sonraki gözlemde aynı yerde yuva görülmediğini bildirir; kuşların nereye gittiğini göstermez. Canlıları rahatsız etmeden yeniden gözlem yapıp kayıtları karşılaştırabiliriz.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-9.svg",
         "visual": {
-          "type": "cards",
-          "title": "Veriden örüntüye",
+          "type": "observationRecords",
+          "title": "Gözlem kayıtları",
           "data": {
-            "veri": "Gölette su bitkileri, kurbağalar ve böcekler birlikte görüldü.",
-            "oruntu": "Yaşam alanı bozulan canlıların başka yere yönelmesi"
+            "first": "Önce: çalıda iki kuş yuvası görüldü.",
+            "second": "Sonra: çalı kaldırılmış, aynı yerde yuva görülmedi."
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-9",
-        "imageAlt": "Veriden örüntüye",
+        "imageAlt": "Gözlem kayıtları. Önce: çalıda iki kuş yuvası görüldü. Sonra: çalı kaldırılmış, aynı yerde yuva görülmedi.",
         "options": [
-          "Yeni gözlemle örüntüyü sınamak",
-          "Verileri silmek",
-          "Sonucu ters yazmak",
-          "Ölçümü bırakmak"
+          "Canlıları rahatsız etmeden yeni gözlemler yapıp kayıtlarla karşılaştırmak",
+          "Kayıtları silmek",
+          "Sonuçları ters yazmak",
+          "Gözlem yapmayı bırakmak"
         ],
         "difficulty": "zor",
         "skill": "Canlıların Yaşam Alanlarına Yolculuk",

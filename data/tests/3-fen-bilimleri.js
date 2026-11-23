@@ -79,11 +79,52 @@
       explanation:'Düğme kapatıldığında lambanın ışık verme durumu değişmiştir. Odanın boyutu, lambanın rengi veya başka araçların çalışması bu gözlemde incelenmemiştir.'
     }
   };
+  // Evidence records replace misleading pairings in five question-nine visuals.
+  const evidenceRecords = {
+    'bilimsel-kesif-yolculugu': {
+      first:'1. deneme: Güneşteki buz önce eridi.', second:'2. deneme: Güneşteki buz önce eridi.',
+      question:'Eşit büyüklükteki buzlarla yapılan iki denemede güneşteki ve gölgedeki buzun erimesi karşılaştırılıyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?',
+      explanation:'İki denemede de güneşteki buzun önce eridiği kaydedilmiştir. Benzer koşullarda yeni denemeler yapıp sonuçları karşılaştırmak bu gözlemleri değerlendirmeye yardımcı olur.'
+    },
+    'yer-bilimciler-is-basinda': {
+      first:'1. kayaç: çizildi.', second:'2. kayaç: çizilmedi.',
+      question:'İki kayaç aynı cisimle, aynı kuvvet uygulanarak çizilmeye çalışılıyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?',
+      explanation:'Bu denemede birinci kayaç çizilmiş, ikinci kayaç çizilmemiştir. Aynı yöntemle yeni gözlemler yapıp kayıtları karşılaştırmak bulguları değerlendirmeye yardımcı olur.'
+    },
+    'maddeyi-taniyalim-karistirip-ayiralim': {
+      first:'1. eleme: çakıl üstte, kum altta.', second:'2. eleme: çakıl üstte, kum altta.',
+      question:'Kum ve iri çakıl karışımı iki kez eleniyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?',
+      explanation:'Her iki elemede de iri çakıl üstte, kum altta kalmıştır. Benzer koşullarda yeni eleme sonuçlarını karşılaştırmak bu gözlemleri değerlendirmeye yardımcı olur.'
+    },
+    'yasamimizi-kolaylastiran-elektrik': {
+      first:'Oda lambası: düğme kapanınca söndü.', second:'Masa lambası: düğme kapanınca söndü.',
+      question:'İki lambanın düğmesi kapatıldığında ne olduğu kaydediliyor. Kayıtları değerlendirmek için sonraki adım ne olabilir?',
+      explanation:'Her iki lambanın düğmesi kapatılınca ışığının söndüğü kaydedilmiştir. Güvenli gözlemleri tekrar edip kayıtları karşılaştırmak bu sonuçları değerlendirmeye yardımcı olur.'
+    },
+    'canlilarin-yasam-alanlarina-yolculuk': {
+      first:'Önce: çalıda iki kuş yuvası görüldü.', second:'Sonra: çalı kaldırılmış, aynı yerde yuva görülmedi.',
+      question:'Bir alandaki iki gözlem kaydı görselde verilmiştir. Bu kayıtları daha iyi değerlendirmek için sonraki adım ne olabilir?',
+      explanation:'Kayıtlar, sonraki gözlemde aynı yerde yuva görülmediğini bildirir; kuşların nereye gittiğini göstermez. Canlıları rahatsız etmeden yeniden gözlem yapıp kayıtları karşılaştırabiliriz.'
+    }
+  };
   const builders={kolay:easy,orta:medium,zor:hard}, tests=[];
   Object.keys(topics).forEach(function(topic){ const t=topics[topic]; difficulties.forEach(function(difficulty){
     const slug="3-sinif-fen-bilimleri-"+topic+"-"+difficulty+"-test-1";
     const questions=builders[difficulty](t).map(function(question,index){ question.id=index+1; question.question="3. sınıf Fen "+difficulty+" — "+t.name+": "+question.question; if(question.visual){question.image="images/tests/"+slug+"-soru-"+(index+1)+".svg";question.imageAlt=question.visual.title;} return question; });
     if(difficulty==='zor' && observationRepairs[topic]) Object.assign(questions[0], observationRepairs[topic]);
+    if(difficulty==='zor' && evidenceRecords[topic]) {
+      const record=evidenceRecords[topic];
+      const correct=topic==='canlilarin-yasam-alanlarina-yolculuk'
+        ? 'Canlıları rahatsız etmeden yeni gözlemler yapıp kayıtlarla karşılaştırmak'
+        : 'Benzer koşullarda yeni gözlemler yapıp kayıtlarla karşılaştırmak';
+      Object.assign(questions[8], {
+        question:record.question,
+        choices:[correct,'Kayıtları silmek','Sonuçları ters yazmak','Gözlem yapmayı bırakmak'],
+        correctAnswer:0,explanation:record.explanation,
+        visual:{type:'observationRecords',title:'Gözlem kayıtları',data:{first:record.first,second:record.second}},
+        imageAlt:'Gözlem kayıtları. '+record.first+' '+record.second
+      });
+    }
     if(topic==='canlilarin-yasam-alanlarina-yolculuk' && difficulty==='zor') {
       Object.assign(questions[0], {
         question:'Bir öğrenci bir gölette su bitkileri, kurbağalar ve böcekler gözlemliyor. Bu gözleme dayanarak hangi sonuca ulaşabilir?',
