@@ -500,6 +500,14 @@ for(const grade of [2,3])for(const [baseTopic,e]of Object.entries(explanationEvi
   if(grade===2&&topic==='life-in-the-city-and-the-world'&&index===8){fields.choices=['Alex finds the museum on the city map.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
   if(grade===3&&topic==='school-life'&&index===7)fields.imageAlt='Konuşma kartında “Where is the library?” sorusu ve “It is next to the classroom.” cevabı yazıyor.';
   if(grade===3&&topic==='school-life'&&index===8){fields.choices=['Emma reads a book in the library.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===3&&topic==='classroom-life'&&index===7)fields.imageAlt='Konuşma kartında “What is this?” sorusu ve “It is a ruler.” cevabı yazıyor.';
+  if(grade===3&&topic==='personal-life'&&index===7)fields.imageAlt='Konuşma kartında “How old are you?” sorusu ve “I am eight years old.” cevabı yazıyor.';
+  if(grade===3&&topic==='homes-houses-and-the-neighbourhood'&&index===7)fields.imageAlt='Konuşma kartında “Where is the cat?” sorusu ve “It is under the table.” cevabı yazıyor.';
+  if(grade===3&&topic==='life-in-the-city-and-the-world'&&index===7)fields.imageAlt='Konuşma kartında “Where do you live?” sorusu ve “I live in Türkiye.” cevabı yazıyor.';
+  if(grade===3&&topic==='classroom-life'&&index===8){fields.choices=['Tom puts his notebook on the desk.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===3&&topic==='personal-life'&&index===8){fields.choices=['Mia washes her hands before lunch.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===3&&topic==='homes-houses-and-the-neighbourhood'&&index===8){fields.choices=['Lily sees a bakery next to her house.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===3&&topic==='life-in-the-city-and-the-world'&&index===8){fields.choices=['Alex finds the museum on the city map.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
   repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-kolay-test-1`,index,fields,reason:'question_specific_language_evidence'});
  }
  for(const [difficulty,index,row]of [['orta',9,readingRepairs[baseTopic][0]],['zor',2,readingRepairs[baseTopic][1]]])repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-${difficulty}-test-1`,index,row:[`${grade}. sınıf İngilizce ${difficulty} — ${row[0]}`,...row.slice(1)],reason:'replace_unsupported_main_idea_with_text_evidence'});

@@ -5,8 +5,12 @@ for(const item of [
  {slug:'family-life',alt:/Who is she\?.*She is my sister\./,answer:'Jack helps his father set the table.',wrong:'She sleeps all day.',review:'babasına sofrayı kurarken yardım eder'},
  {slug:'homes-houses-and-neighbourhoods',alt:/Where is the cat\?.*It is under the table\./,answer:'Lily sees a bakery next to her house.',wrong:'She sleeps all day.',review:'evinin yanında bir fırın görür'},
  {slug:'life-in-the-city-and-the-world',alt:/Where do you live\?.*I live in Türkiye\./,answer:'Alex finds the museum on the city map.',wrong:'She sleeps all day.',review:'şehir haritasında müzeyi bulur'},
- {grade:3,slug:'school-life',alt:/Where is the library\?.*It is next to the classroom\./,answer:'Emma reads a book in the library.',wrong:'She sleeps all day.',review:'Emma’nın yaptığı iş okumaktır'}
-])test(`accessible dialogue and complete answer ${item.slug}`,async({page})=>{
+ {grade:3,slug:'school-life',alt:/Where is the library\?.*It is next to the classroom\./,answer:'Emma reads a book in the library.',wrong:'She sleeps all day.',review:'Emma’nın yaptığı iş okumaktır'},
+ {grade:3,slug:'classroom-life',alt:/What is this\?.*It is a ruler\./,answer:'Tom puts his notebook on the desk.',wrong:'She sleeps all day.',review:'defterini sıranın üstüne koyar'},
+ {grade:3,slug:'personal-life',alt:/How old are you\?.*I am eight years old\./,answer:'Mia washes her hands before lunch.',wrong:'She sleeps all day.',review:'öğle yemeğinden önce ellerini yıkar'},
+ {grade:3,slug:'homes-houses-and-the-neighbourhood',alt:/Where is the cat\?.*It is under the table\./,answer:'Lily sees a bakery next to her house.',wrong:'She sleeps all day.',review:'evinin yanında bir fırın görür'},
+ {grade:3,slug:'life-in-the-city-and-the-world',alt:/Where do you live\?.*I live in Türkiye\./,answer:'Alex finds the museum on the city map.',wrong:'She sleeps all day.',review:'şehir haritasında müzeyi bulur'}
+])test(`accessible dialogue and complete answer ${item.grade??2}/${item.slug}`,async({page})=>{
  await page.route('https://**/*',r=>r.abort());await page.setViewportSize({width:320,height:850});
  await page.goto(`/tests/${item.grade??2}-sinif-ingilizce-${item.slug}-kolay-test-1.html`);await page.getByRole('link',{name:'Teste Başla',exact:true}).click();
  for(let n=1;n<=10;n++){
