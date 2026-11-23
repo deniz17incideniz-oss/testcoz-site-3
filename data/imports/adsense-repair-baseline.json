@@ -2494,5 +2494,45 @@
   "2-sinif-ingilizce-school-life-kolay-test-1:9": {
     "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-10",
     "sha256": "ddfa35e799397e04ca3bbae0be6c9863f85b76197c63321ad302c3a391e3cf96"
+  },
+  "2-sinif-ingilizce-classroom-life-kolay-test-1:9": {
+    "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+    "sha256": "c03e655c10a4536e7bee8b88b7d49fdaa5fbb967d371c52be1071e936cab2d2b"
+  },
+  "2-sinif-ingilizce-personal-life-kolay-test-1:9": {
+    "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+    "sha256": "d70db4762cbb946ba188cbcbe66545fd3c8c5916755ccc4026ac95bd8f4b02f1"
+  },
+  "2-sinif-ingilizce-family-life-kolay-test-1:9": {
+    "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-10",
+    "sha256": "ee81012fb2374542476b66699922c672791a1d9ca1d06a1e0a778bced2be8f0f"
+  },
+  "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1:9": {
+    "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10",
+    "sha256": "c0b30b097e3a5fd4ca6c366ae117bf8993b1ea6489813d71ca41d1360fd979f0"
+  },
+  "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1:9": {
+    "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+    "sha256": "0fc7018d0bc635308b06853050526cb00e7da126f4d26aba5495dac959c9d3f5"
+  },
+  "3-sinif-ingilizce-school-life-kolay-test-1:9": {
+    "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+    "sha256": "74a10714600e2b0bfdc1fb8dc2c280f9c03a96f24423f875280eb6e8b8387ccb"
+  },
+  "3-sinif-ingilizce-classroom-life-kolay-test-1:9": {
+    "id": "3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+    "sha256": "01895b4c0231cc906f49fa74c5d5d6f5735185b33e46281fa00d94f1bed00caa"
+  },
+  "3-sinif-ingilizce-personal-life-kolay-test-1:9": {
+    "id": "3-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+    "sha256": "dc1de42096388b7eaf227872994dbd7b4fe36a8ad4bb75fccbe58d57b73351b5"
+  },
+  "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1:9": {
+    "id": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10",
+    "sha256": "a8ef940b15ec4c0998117140363d36859ccd5e60322522ab03bbb004f7873b32"
+  },
+  "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1:9": {
+    "id": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+    "sha256": "c9f0c9d9b4a02d5ae04457f5f9e866a0e5abe3e382ef5320e49efe2caa94dea9"
   }
 }

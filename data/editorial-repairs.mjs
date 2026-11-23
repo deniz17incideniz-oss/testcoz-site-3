@@ -521,6 +521,24 @@ repairs.push({slug:'2-sinif-ingilizce-school-life-kolay-test-1',index:9,fields:{
  imageAlt:'Kısa metin: Emma is at school. She reads a book in the library.'
 },reason:'restore_missing_reading_passage'});
 
+// Supply a real passage and an accessible visual for each previously empty title question.
+const readingPassages=[
+ ['2-sinif-ingilizce-classroom-life-kolay-test-1','Tom is in the classroom.','He takes out a pencil before class.','Tom dersten önce sınıfta kalemini çıkarıyor. Ready for the Lesson, derse hazır olmak anlamına gelir ve metne uygundur.'],
+ ['2-sinif-ingilizce-personal-life-kolay-test-1','Mia washes her hands.','She brushes her teeth every morning.','Mia elini yıkıyor ve her sabah dişlerini fırçalıyor. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.'],
+ ['2-sinif-ingilizce-family-life-kolay-test-1','Jack plays with his family.','They play and smile together.','Jack ailesiyle oynuyor ve birlikte gülümsüyorlar. My Happy Family, mutlu ailem anlamıyla metne uygundur.'],
+ ['2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1','Lily is at home.','She sees trees on her street.','Lily evdedir ve sokağındaki ağaçları görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.'],
+ ['2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1','Alex is in the city.','Alex sees a bus and a park.','Alex şehirde bir otobüs ve park görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.'],
+ ['3-sinif-ingilizce-school-life-kolay-test-1','Emma goes to school.','She meets her classmates in the playground.','Emma okula gider ve oyun alanında sınıf arkadaşlarıyla buluşur. A Day at School, okulda bir gün anlamıyla metne uygundur.'],
+ ['3-sinif-ingilizce-classroom-life-kolay-test-1','Tom puts his books on the desk.','He is ready for the lesson.','Tom kitaplarını sıraya koyar ve derse hazırdır. Ready for the Lesson, derse hazır olmak anlamıyla metne uygundur.'],
+ ['3-sinif-ingilizce-personal-life-kolay-test-1','Mia eats fruit at breakfast.','She brushes her teeth before bed.','Mia kahvaltıda meyve yer, yatmadan önce dişlerini fırçalar. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.'],
+ ['3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1','Lily opens the window at home.','She sees a park across the street.','Lily evde pencereyi açar ve sokağın karşısında bir park görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.'],
+ ['3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1','Alex visits a park.','Alex sees buses on city streets.','Alex parkı ziyaret eder ve şehir sokaklarında otobüsler görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.']
+];
+for(const [slug,first,second,explanation] of readingPassages)repairs.push({slug,index:9,fields:{
+ question:`Kısa metin: “${first} ${second}” Bu metne en uygun İngilizce başlık hangisidir?`,explanation,
+ visual:{type:'plainCards',title:'Kısa metin',data:{first,second}},imageAlt:`Kısa metin: ${first} ${second}`
+},reason:'restore_missing_reading_passage'});
+
 const scienceRows=[
  ['bilimsel-kesif-yolculugu',['Bir filizin büyümesini karşılaştırmak isteyen çocuk hangi kaydı tutmalıdır?','Her gün aynı yöntemle ölçülen boy ve tarih','Yalnız saksının rengi','Yalnız tohumun satın alındığı yer','Her gün farklı cetvelle tahmin edilen boy','Boy ve tarih büyümenin zaman içindeki değişimini gösterir. Aynı yöntemle ölçmek sonuçları karşılaştırmayı kolaylaştırır.']],
  ['canlilar-dunyasina-yolculuk',['Bir bitki ve bir kedinin ortak canlılık özelliği hangisidir?','Büyüme ve gelişme','Yürüyerek yer değiştirme','Aynı tür besinleri yeme','Aynı büyüklüğe ulaşma','Hem bitki hem kedi büyür ve gelişir. Bitki yürümez; canlıların beslenme biçimi ve ulaştığı büyüklük aynı olmak zorunda değildir.']],

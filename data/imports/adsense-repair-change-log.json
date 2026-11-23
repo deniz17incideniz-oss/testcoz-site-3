@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 624,
+  "count": 634,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -35719,6 +35719,896 @@
           "ingilizce",
           "school-life",
           "school-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-classroom-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "Classroom Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Ready for the Lesson” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "Ready for the Lesson",
+            "hero": "Tom"
+          }
+        },
+        "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Classroom Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "classroom-life",
+          "classroom-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Tom is in the classroom. He takes out a pencil before class.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tom dersten önce sınıfta kalemini çıkarıyor. Ready for the Lesson, derse hazır olmak anlamına gelir ve metne uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Tom is in the classroom.",
+            "second": "He takes out a pencil before class."
+          }
+        },
+        "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Tom is in the classroom. He takes out a pencil before class.",
+        "options": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Classroom Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "classroom-life",
+          "classroom-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-personal-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "Personal Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“My Healthy Day” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "My Healthy Day",
+            "hero": "Mia"
+          }
+        },
+        "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Personal Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "personal-life",
+          "personal-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Mia washes her hands. She brushes her teeth every morning.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mia elini yıkıyor ve her sabah dişlerini fırçalıyor. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Mia washes her hands.",
+            "second": "She brushes her teeth every morning."
+          }
+        },
+        "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Mia washes her hands. She brushes her teeth every morning.",
+        "options": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Personal Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "personal-life",
+          "personal-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-family-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "Family Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Happy Family",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“My Happy Family” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-family-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "My Happy Family",
+            "hero": "Jack"
+          }
+        },
+        "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "My Happy Family",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Family Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "family-life",
+          "family-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Jack plays with his family. They play and smile together.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Happy Family",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Jack ailesiyle oynuyor ve birlikte gülümsüyorlar. My Happy Family, mutlu ailem anlamıyla metne uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-family-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Jack plays with his family.",
+            "second": "They play and smile together."
+          }
+        },
+        "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Jack plays with his family. They play and smile together.",
+        "options": [
+          "My Happy Family",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Family Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "family-life",
+          "family-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "Homes, Houses and Neighbourhoods metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“My Home and Street” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "My Home and Street",
+            "hero": "Lily"
+          }
+        },
+        "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Homes, Houses and Neighbourhoods",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "homes-houses-and-neighbourhoods",
+          "homes-houses-and-neighbourhoods",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Lily is at home. She sees trees on her street.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lily evdedir ve sokağındaki ağaçları görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Lily is at home.",
+            "second": "She sees trees on her street."
+          }
+        },
+        "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Lily is at home. She sees trees on her street.",
+        "options": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Homes, Houses and Neighbourhoods",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "homes-houses-and-neighbourhoods",
+          "homes-houses-and-neighbourhoods",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "Life in the City and the World metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Around My City” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "Around My City",
+            "hero": "Alex"
+          }
+        },
+        "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Life in the City and the World",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "life-in-the-city-and-the-world",
+          "life-in-the-city-and-the-world",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Alex is in the city. Alex sees a bus and a park.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Alex şehirde bir otobüs ve park görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Alex is in the city.",
+            "second": "Alex sees a bus and a park."
+          }
+        },
+        "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Alex is in the city. Alex sees a bus and a park.",
+        "options": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Life in the City and the World",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "life-in-the-city-and-the-world",
+          "life-in-the-city-and-the-world",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+      "test": "3-sinif-ingilizce-school-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "3. sınıf İngilizce kolay — School Life: School Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“A Day at School” metnin konusuna uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-school-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "A Day at School",
+            "hero": "Emma"
+          }
+        },
+        "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "School Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "school-life",
+          "school-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Emma goes to school. She meets her classmates in the playground.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Emma okula gider ve oyun alanında sınıf arkadaşlarıyla buluşur. A Day at School, okulda bir gün anlamıyla metne uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-school-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Emma goes to school.",
+            "second": "She meets her classmates in the playground."
+          }
+        },
+        "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Emma goes to school. She meets her classmates in the playground.",
+        "options": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "School Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "school-life",
+          "school-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+      "test": "3-sinif-ingilizce-classroom-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "3. sınıf İngilizce kolay — Classroom Life: Classroom Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Ready for the Lesson” metnin konusuna uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "Ready for the Lesson",
+            "hero": "Tom"
+          }
+        },
+        "id": "3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Classroom Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "classroom-life",
+          "classroom-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Tom puts his books on the desk. He is ready for the lesson.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tom kitaplarını sıraya koyar ve derse hazırdır. Ready for the Lesson, derse hazır olmak anlamıyla metne uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Tom puts his books on the desk.",
+            "second": "He is ready for the lesson."
+          }
+        },
+        "id": "3-sinif-ingilizce-classroom-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Tom puts his books on the desk. He is ready for the lesson.",
+        "options": [
+          "Ready for the Lesson",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Classroom Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "classroom-life",
+          "classroom-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+      "test": "3-sinif-ingilizce-personal-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "3. sınıf İngilizce kolay — Personal Life: Personal Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“My Healthy Day” metnin konusuna uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "My Healthy Day",
+            "hero": "Mia"
+          }
+        },
+        "id": "3-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Personal Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "personal-life",
+          "personal-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Mia eats fruit at breakfast. She brushes her teeth before bed.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mia kahvaltıda meyve yer, yatmadan önce dişlerini fırçalar. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Mia eats fruit at breakfast.",
+            "second": "She brushes her teeth before bed."
+          }
+        },
+        "id": "3-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Mia eats fruit at breakfast. She brushes her teeth before bed.",
+        "options": [
+          "My Healthy Day",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Personal Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "personal-life",
+          "personal-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10",
+      "test": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "3. sınıf İngilizce kolay — Homes, Houses and the Neighbourhood: Homes, Houses and the Neighbourhood metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“My Home and Street” metnin konusuna uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "My Home and Street",
+            "hero": "Lily"
+          }
+        },
+        "id": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Homes, Houses and the Neighbourhood",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "homes-houses-and-the-neighbourhood",
+          "homes-houses-and-the-neighbourhood",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Lily opens the window at home. She sees a park across the street.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lily evde pencereyi açar ve sokağın karşısında bir park görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Lily opens the window at home.",
+            "second": "She sees a park across the street."
+          }
+        },
+        "id": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Lily opens the window at home. She sees a park across the street.",
+        "options": [
+          "My Home and Street",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Homes, Houses and the Neighbourhood",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "homes-houses-and-the-neighbourhood",
+          "homes-houses-and-the-neighbourhood",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      }
+    },
+    {
+      "id": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+      "test": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "3. sınıf İngilizce kolay — Life in the City and the World: Life in the City and the World metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“Around My City” metnin konusuna uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "Around My City",
+            "hero": "Alex"
+          }
+        },
+        "id": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Life in the City and the World",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "life-in-the-city-and-the-world",
+          "life-in-the-city-and-the-world",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Alex visits a park. Alex sees buses on city streets.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Alex parkı ziyaret eder ve şehir sokaklarında otobüsler görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.",
+        "image": "images/tests/3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Alex visits a park.",
+            "second": "Alex sees buses on city streets."
+          }
+        },
+        "id": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Alex visits a park. Alex sees buses on city streets.",
+        "options": [
+          "Around My City",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "Life in the City and the World",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "life-in-the-city-and-the-world",
+          "life-in-the-city-and-the-world",
           "gorsel-okuma",
           "yorumlama"
         ]
