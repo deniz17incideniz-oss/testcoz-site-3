@@ -79,6 +79,34 @@
       explanation:'Düğme kapatıldığında lambanın ışık verme durumu değişmiştir. Odanın boyutu, lambanın rengi veya başka araçların çalışması bu gözlemde incelenmemiştir.'
     }
   };
+  // Each interpretation is grounded in the observation shown beside it.
+  const observationInterpretations = {
+    'bilimsel-kesif-yolculugu': {
+      observation:'Güneşteki buz gölgedekinden önce eridi.',
+      interpretation:'Güneş, bu denemede erimeyi hızlandırmış olabilir.',
+      explanation:'Buzun hangi ortamda önce eridiği gözlemdir. Güneşin erimeyi hızlandırmış olabileceği düşüncesi, bu gözleme dayanan bir yorumdur.'
+    },
+    'yer-bilimciler-is-basinda': {
+      observation:'Bir kayaçta farklı renkli taneler görüldü.',
+      interpretation:'Taneler farklı mineraller olabilir.',
+      explanation:'Kayaçta farklı renkli taneler görülmesi gözlemdir. Bunların farklı mineraller olabileceği yorumu ek incelemeyle araştırılabilir.'
+    },
+    'maddeyi-taniyalim-karistirip-ayiralim': {
+      observation:'Mıknatıs demir parçalarını çekti.',
+      interpretation:'Demir mıknatısa çekilebilen maddelere örnek olabilir.',
+      explanation:'Mıknatısın demir parçalarını çekmesi gözlemdir. Demirin mıknatısa çekilebilen maddelere örnek olabileceği düşüncesi bu gözleme dayanan yorumdur.'
+    },
+    'yasamimizi-kolaylastiran-elektrik': {
+      observation:'Düğme kapatılınca lamba söndü.',
+      interpretation:'Düğme lambanın ışığını kontrol ediyor olabilir.',
+      explanation:'Düğme kapatılınca lambanın sönmesi gözlemdir. Düğmenin lambanın ışığını kontrol ediyor olabileceği düşüncesi gözleme dayanan yorumdur.'
+    },
+    'canlilarin-yasam-alanlarina-yolculuk': {
+      observation:'Gölette kurbağa, böcek ve su bitkisi görüldü.',
+      interpretation:'Gölet farklı canlılara yaşam alanı sağlıyor olabilir.',
+      explanation:'Gölette farklı canlıların görülmesi gözlemdir. Göletin farklı canlılara yaşam alanı sağlıyor olabileceği düşüncesi gözleme dayanan yorumdur.'
+    }
+  };
   // Evidence records replace misleading pairings in five question-nine visuals.
   const evidenceRecords = {
     'bilimsel-kesif-yolculugu': {
@@ -112,6 +140,14 @@
     const slug="3-sinif-fen-bilimleri-"+topic+"-"+difficulty+"-test-1";
     const questions=builders[difficulty](t).map(function(question,index){ question.id=index+1; question.question="3. sınıf Fen "+difficulty+" — "+t.name+": "+question.question; if(question.visual){question.image="images/tests/"+slug+"-soru-"+(index+1)+".svg";question.imageAlt=question.visual.title;} return question; });
     if(difficulty==='zor' && observationRepairs[topic]) Object.assign(questions[0], observationRepairs[topic]);
+    if(difficulty==='zor' && observationInterpretations[topic]) {
+      const item=observationInterpretations[topic];
+      Object.assign(questions[2], {
+        explanation:item.explanation,
+        visual:{type:'observationInterpretation',title:'Gözlem ve yorum',data:{first:item.observation,second:item.interpretation}},
+        imageAlt:'Gözlem: '+item.observation+' Yorum: '+item.interpretation
+      });
+    }
     if(difficulty==='zor' && evidenceRecords[topic]) {
       const record=evidenceRecords[topic];
       const correct=topic==='canlilarin-yasam-alanlarina-yolculuk'
