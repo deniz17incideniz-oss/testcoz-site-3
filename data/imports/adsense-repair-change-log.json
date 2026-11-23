@@ -39173,18 +39173,18 @@
           "Gözlem her zaman kişisel görüştür."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem veri sağlar; yorum bu veriden anlam çıkarır.",
+        "explanation": "Buzun hangi ortamda önce eridiği gözlemdir. Güneşin erimeyi hızlandırmış olabileceği düşüncesi, bu gözleme dayanan bir yorumdur.",
         "image": "images/tests/3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "observationInterpretation",
           "title": "Gözlem ve yorum",
           "data": {
-            "gozlem": "Güneşte kalan buz daha hızlı eridi.",
-            "yorum": "Yeni ölçümün önceki ölçümlere yakın çıkması"
+            "first": "Güneşteki buz gölgedekinden önce eridi.",
+            "second": "Güneş, bu denemede erimeyi hızlandırmış olabilir."
           }
         },
         "id": "3-sinif-fen-bilimleri-bilimsel-kesif-yolculugu-zor-test-1-soru-3",
-        "imageAlt": "Gözlem ve yorum",
+        "imageAlt": "Gözlem: Güneşteki buz gölgedekinden önce eridi. Yorum: Güneş, bu denemede erimeyi hızlandırmış olabilir.",
         "options": [
           "Gözlem duyularla elde edilir, yorum veriye anlam verir.",
           "İkisi de kanıtsız tahmindir.",
@@ -40683,18 +40683,18 @@
           "Gözlem her zaman kişisel görüştür."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem veri sağlar; yorum bu veriden anlam çıkarır.",
+        "explanation": "Kayaçta farklı renkli taneler görülmesi gözlemdir. Bunların farklı mineraller olabileceği yorumu ek incelemeyle araştırılabilir.",
         "image": "images/tests/3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "observationInterpretation",
           "title": "Gözlem ve yorum",
           "data": {
-            "gozlem": "Bazı kayaçlarda farklı renklerde mineraller görüldü.",
-            "yorum": "Farklı kayaçların farklı sertlik göstermesi"
+            "first": "Bir kayaçta farklı renkli taneler görüldü.",
+            "second": "Taneler farklı mineraller olabilir."
           }
         },
         "id": "3-sinif-fen-bilimleri-yer-bilimciler-is-basinda-zor-test-1-soru-3",
-        "imageAlt": "Gözlem ve yorum",
+        "imageAlt": "Gözlem: Bir kayaçta farklı renkli taneler görüldü. Yorum: Taneler farklı mineraller olabilir.",
         "options": [
           "Gözlem duyularla elde edilir, yorum veriye anlam verir.",
           "İkisi de kanıtsız tahmindir.",
@@ -41438,18 +41438,18 @@
           "Gözlem her zaman kişisel görüştür."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem veri sağlar; yorum bu veriden anlam çıkarır.",
+        "explanation": "Mıknatısın demir parçalarını çekmesi gözlemdir. Demirin mıknatısa çekilebilen maddelere örnek olabileceği düşüncesi bu gözleme dayanan yorumdur.",
         "image": "images/tests/3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "observationInterpretation",
           "title": "Gözlem ve yorum",
           "data": {
-            "gozlem": "Mıknatıs, kum içindeki demir parçalarını çekti.",
-            "yorum": "Elekte iri tanelerin üstte kalması"
+            "first": "Mıknatıs demir parçalarını çekti.",
+            "second": "Demir mıknatısa çekilebilen maddelere örnek olabilir."
           }
         },
         "id": "3-sinif-fen-bilimleri-maddeyi-taniyalim-karistirip-ayiralim-zor-test-1-soru-3",
-        "imageAlt": "Gözlem ve yorum",
+        "imageAlt": "Gözlem: Mıknatıs demir parçalarını çekti. Yorum: Demir mıknatısa çekilebilen maddelere örnek olabilir.",
         "options": [
           "Gözlem duyularla elde edilir, yorum veriye anlam verir.",
           "İkisi de kanıtsız tahmindir.",
@@ -42948,18 +42948,18 @@
           "Gözlem her zaman kişisel görüştür."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem veri sağlar; yorum bu veriden anlam çıkarır.",
+        "explanation": "Düğme kapatılınca lambanın sönmesi gözlemdir. Düğmenin lambanın ışığını kontrol ediyor olabileceği düşüncesi gözleme dayanan yorumdur.",
         "image": "images/tests/3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "observationInterpretation",
           "title": "Gözlem ve yorum",
           "data": {
-            "gozlem": "Anahtar kapatılınca lambanın ışığı söndü.",
-            "yorum": "Pil doğru bağlandığında ampulün yanması"
+            "first": "Düğme kapatılınca lamba söndü.",
+            "second": "Düğme lambanın ışığını kontrol ediyor olabilir."
           }
         },
         "id": "3-sinif-fen-bilimleri-yasamimizi-kolaylastiran-elektrik-zor-test-1-soru-3",
-        "imageAlt": "Gözlem ve yorum",
+        "imageAlt": "Gözlem: Düğme kapatılınca lamba söndü. Yorum: Düğme lambanın ışığını kontrol ediyor olabilir.",
         "options": [
           "Gözlem duyularla elde edilir, yorum veriye anlam verir.",
           "İkisi de kanıtsız tahmindir.",
@@ -44458,18 +44458,18 @@
           "Gözlem her zaman kişisel görüştür."
         ],
         "correctAnswer": 0,
-        "explanation": "Gözlem veri sağlar; yorum bu veriden anlam çıkarır.",
+        "explanation": "Gölette farklı canlıların görülmesi gözlemdir. Göletin farklı canlılara yaşam alanı sağlıyor olabileceği düşüncesi gözleme dayanan yorumdur.",
         "image": "images/tests/3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3.svg",
         "visual": {
-          "type": "cards",
+          "type": "observationInterpretation",
           "title": "Gözlem ve yorum",
           "data": {
-            "gozlem": "Gölette su bitkileri, kurbağalar ve böcekler birlikte görüldü.",
-            "yorum": "Yaşam alanı bozulan canlıların başka yere yönelmesi"
+            "first": "Gölette kurbağa, böcek ve su bitkisi görüldü.",
+            "second": "Gölet farklı canlılara yaşam alanı sağlıyor olabilir."
           }
         },
         "id": "3-sinif-fen-bilimleri-canlilarin-yasam-alanlarina-yolculuk-zor-test-1-soru-3",
-        "imageAlt": "Gözlem ve yorum",
+        "imageAlt": "Gözlem: Gölette kurbağa, böcek ve su bitkisi görüldü. Yorum: Gölet farklı canlılara yaşam alanı sağlıyor olabilir.",
         "options": [
           "Gözlem duyularla elde edilir, yorum veriye anlam verir.",
           "İkisi de kanıtsız tahmindir.",
