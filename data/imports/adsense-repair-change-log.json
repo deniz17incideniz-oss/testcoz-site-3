@@ -1,6 +1,6 @@
 {
   "scope": "Authored repairs; no whole-bank editorial certification",
-  "count": 623,
+  "count": 624,
   "changes": [
     {
       "id": "4-sinif-matematik-dogal-sayilar-kolay-test-1-soru-1",
@@ -35632,6 +35632,95 @@
           "ingilizce",
           "life-in-the-city-and-the-world",
           "editorial-2026-10"
+        ]
+      }
+    },
+    {
+      "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+      "test": "2-sinif-ingilizce-school-life-kolay-test-1",
+      "reason": "restore_missing_reading_passage",
+      "before": {
+        "question": "School Life metni için en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "“A Day at School” metnin konusuna uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-school-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "cards",
+          "title": "Title",
+          "data": {
+            "title": "A Day at School",
+            "hero": "Emma"
+          }
+        },
+        "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+        "imageAlt": "Title",
+        "options": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "School Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "school-life",
+          "school-life",
+          "gorsel-okuma",
+          "yorumlama"
+        ]
+      },
+      "after": {
+        "question": "Kısa metin: “Emma is at school. She reads a book in the library.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "choices": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Emma okulda ve kütüphanede kitap okuyor. A Day at School, okulda bir gün anlamına gelir ve verilen iki cümleye uygundur.",
+        "image": "images/tests/2-sinif-ingilizce-school-life-kolay-test-1-soru-10.svg",
+        "visual": {
+          "type": "plainCards",
+          "title": "Kısa metin",
+          "data": {
+            "first": "Emma is at school.",
+            "second": "She reads a book in the library."
+          }
+        },
+        "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-10",
+        "imageAlt": "Kısa metin: Emma is at school. She reads a book in the library.",
+        "options": [
+          "A Day at School",
+          "A Rainy Night",
+          "The Lost Key",
+          "A Big Ocean"
+        ],
+        "difficulty": "kolay",
+        "skill": "School Life",
+        "subSkill": "Görsel destekli yorumlama",
+        "questionType": "gorsel-okuma",
+        "cognitiveLevel": "yorumlama",
+        "estimatedTimeSeconds": 65,
+        "hasVisual": true,
+        "tags": [
+          "ingilizce",
+          "school-life",
+          "school-life",
+          "gorsel-okuma",
+          "yorumlama"
         ]
       }
     },

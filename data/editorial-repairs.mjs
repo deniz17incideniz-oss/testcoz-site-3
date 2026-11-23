@@ -513,6 +513,14 @@ for(const grade of [2,3])for(const [baseTopic,e]of Object.entries(explanationEvi
  for(const [difficulty,index,row]of [['orta',9,readingRepairs[baseTopic][0]],['zor',2,readingRepairs[baseTopic][1]]])repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-${difficulty}-test-1`,index,row:[`${grade}. sınıf İngilizce ${difficulty} — ${row[0]}`,...row.slice(1)],reason:'replace_unsupported_main_idea_with_text_evidence'});
 }
 
+// Restore a missing reading passage without changing the original four choices or answer position.
+repairs.push({slug:'2-sinif-ingilizce-school-life-kolay-test-1',index:9,fields:{
+ question:'Kısa metin: “Emma is at school. She reads a book in the library.” Bu metne en uygun İngilizce başlık hangisidir?',
+ explanation:'Emma okulda ve kütüphanede kitap okuyor. A Day at School, okulda bir gün anlamına gelir ve verilen iki cümleye uygundur.',
+ visual:{type:'plainCards',title:'Kısa metin',data:{first:'Emma is at school.',second:'She reads a book in the library.'}},
+ imageAlt:'Kısa metin: Emma is at school. She reads a book in the library.'
+},reason:'restore_missing_reading_passage'});
+
 const scienceRows=[
  ['bilimsel-kesif-yolculugu',['Bir filizin büyümesini karşılaştırmak isteyen çocuk hangi kaydı tutmalıdır?','Her gün aynı yöntemle ölçülen boy ve tarih','Yalnız saksının rengi','Yalnız tohumun satın alındığı yer','Her gün farklı cetvelle tahmin edilen boy','Boy ve tarih büyümenin zaman içindeki değişimini gösterir. Aynı yöntemle ölçmek sonuçları karşılaştırmayı kolaylaştırır.']],
  ['canlilar-dunyasina-yolculuk',['Bir bitki ve bir kedinin ortak canlılık özelliği hangisidir?','Büyüme ve gelişme','Yürüyerek yer değiştirme','Aynı tür besinleri yeme','Aynı büyüklüğe ulaşma','Hem bitki hem kedi büyür ve gelişir. Bitki yürümez; canlıların beslenme biçimi ve ulaştığı büyüklük aynı olmak zorunda değildir.']],
