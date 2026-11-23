@@ -51,6 +51,7 @@ function renderSvg(question) {
   let art = "";
   const special = renderLearningVisual(type, data, esc, shape);
   const height = special?.height || 300;
+  const visualWidth = special?.width || 720;
 
   if (special) { art = special.art; } else if (["chart", "bars"].includes(type) && data.items) {
     const max = Math.max(...data.items.map((item) => item.value), 1);
@@ -106,7 +107,7 @@ function renderSvg(question) {
     art = lines.map((line, index) => `<rect x="${80 + (index % 3) * 195}" y="${105 + Math.floor(index / 3) * 80}" width="170" height="58" rx="14" fill="${colors[index % colors.length]}18" stroke="${colors[index % colors.length]}" stroke-width="3"/><text x="${165 + (index % 3) * 195}" y="${140 + Math.floor(index / 3) * 80}" text-anchor="middle" class="label">${esc(line)}</text>`).join("");
   }
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 ${height}" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">${esc(question.question)}</desc><style>.title{font:700 24px Arial,sans-serif;fill:#1E3A8A}.label{font:600 15px Arial,sans-serif;fill:#334155}.small{font:500 14px Arial,sans-serif;fill:#475569}.value{font:700 17px Arial,sans-serif;fill:#1E293B}.coin{font:700 18px Arial,sans-serif;fill:#92400E}.equation{font:700 36px Arial,sans-serif;fill:#1E3A8A}</style><rect width="720" height="${height}" rx="24" fill="#F8FAFC"/><rect x="18" y="18" width="684" height="${height-36}" rx="20" fill="#fff" stroke="#DBEAFE" stroke-width="3"/><text x="360" y="65" text-anchor="middle" class="title">${esc(title)}</text>${art}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${visualWidth} ${height}" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">${esc(question.question)}</desc><style>.title{font:700 24px Arial,sans-serif;fill:#1E3A8A}.label{font:600 15px Arial,sans-serif;fill:#334155}.small{font:500 14px Arial,sans-serif;fill:#475569}.value{font:700 17px Arial,sans-serif;fill:#1E293B}.coin{font:700 18px Arial,sans-serif;fill:#92400E}.equation{font:700 36px Arial,sans-serif;fill:#1E3A8A}</style><rect width="${visualWidth}" height="${height}" rx="24" fill="#F8FAFC"/><rect x="18" y="18" width="${visualWidth-36}" height="${height-36}" rx="20" fill="#fff" stroke="#DBEAFE" stroke-width="3"/><text x="${visualWidth/2}" y="65" text-anchor="middle" class="title">${esc(title)}</text>${art}</svg>`;
 }
 
 function pageHtml(test) {
