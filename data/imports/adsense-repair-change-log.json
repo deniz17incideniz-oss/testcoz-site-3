@@ -33111,7 +33111,7 @@
           }
         },
         "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “Where do you live?” sorusu ve “I live in Türkiye.” cevabı yazıyor.",
         "options": [
           "Where do you live? — I live in Türkiye.",
           "Hello! — Goodbye!",
@@ -33175,7 +33175,7 @@
       "after": {
         "question": "Kısa metin: “Alex finds the museum on the city map.” Metinde Alex ne yapıyor?",
         "choices": [
-          "finds the museum on the city map.",
+          "Alex finds the museum on the city map.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -33186,7 +33186,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-9",
         "options": [
-          "finds the museum on the city map.",
+          "Alex finds the museum on the city map.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -33567,7 +33567,7 @@
           }
         },
         "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “Where is the library?” sorusu ve “It is next to the classroom.” cevabı yazıyor.",
         "options": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
@@ -33631,7 +33631,7 @@
       "after": {
         "question": "3. sınıf İngilizce kolay — School Life: Kısa metin: “Emma reads a book in the library.” Metinde Emma ne yapıyor?",
         "choices": [
-          "reads a book in the library.",
+          "Emma reads a book in the library.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -33642,7 +33642,7 @@
         "visual": null,
         "id": "3-sinif-ingilizce-school-life-kolay-test-1-soru-9",
         "options": [
-          "reads a book in the library.",
+          "Emma reads a book in the library.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
