@@ -30831,7 +30831,7 @@
           }
         },
         "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “Where is the library?” sorusu ve “It is next to the classroom.” cevabı yazıyor.",
         "options": [
           "Where is the library? — It is next to the classroom.",
           "Hello! — Goodbye!",
@@ -30895,7 +30895,7 @@
       "after": {
         "question": "Kısa metin: “Emma reads a book in the library.” Metinde Emma ne yapıyor?",
         "choices": [
-          "reads a book in the library.",
+          "She reads a book in the library.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -30906,7 +30906,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-9",
         "options": [
-          "reads a book in the library.",
+          "She reads a book in the library.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."

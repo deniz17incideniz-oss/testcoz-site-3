@@ -20,11 +20,12 @@ const allowedReviews=new Map([
 ]);
 const reviewed=new Map(editorial.changes.filter(change=>allowedReviews.has(change.reason)).map(change=>[change.id,change]));
 // Individually reviewed four-choice change: preserves option count and answer position.
-const reviewedFourChoiceIds=new Set(['3-sinif-ingilizce-family-life-orta-test-1-soru-3']);
+const reviewedFourChoiceExpected=new Map([['3-sinif-ingilizce-family-life-orta-test-1-soru-3',{reason:'family_test1_distractors_language_and_explanations',correctAnswer:2}],['2-sinif-ingilizce-school-life-kolay-test-1-soru-9',{reason:'question_specific_language_evidence',correctAnswer:0}]]);
+const reviewedFourChoiceIds=new Set(reviewedFourChoiceExpected.keys());
 const reviewedFourChoice=new Map(editorial.changes.filter(change=>reviewedFourChoiceIds.has(change.id)).map(change=>[change.id,change]));
 assert.equal(reviewedFourChoice.size,reviewedFourChoiceIds.size,'Missing reviewed four-choice record');
 const historicalIds=new Set(log.changes.map(entry=>entry.id));
-for(const [id,change] of reviewedFourChoice){assert.ok(historicalIds.has(id),`Missing historical choice record: ${id}`);assert.equal(change.reason,'family_test1_distractors_language_and_explanations');assert.equal(change.after.choices.length,4);assert.equal(change.after.correctAnswer,2);}
+for(const [id,change] of reviewedFourChoice){assert.ok(historicalIds.has(id),`Missing historical choice record: ${id}`);assert.equal(change.reason,reviewedFourChoiceExpected.get(id).reason);assert.equal(change.after.choices.length,4);assert.equal(change.after.correctAnswer,reviewedFourChoiceExpected.get(id).correctAnswer);}
 const schoolSlug='1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1';
 const schoolIndices=[2,4,6,9];
 const schoolContext={window:{TESTCOZ_TESTS:[{slug:schoolSlug,questions:Array.from({length:10},()=>({}))}]}};
@@ -58,7 +59,8 @@ for(const entry of log.changes){
  } else if(reviewedFourChoice.has(entry.id)) {
   const repair=reviewedFourChoice.get(entry.id);
   assert.equal(entry.before.choices.length,4,`Historical choice count changed: ${entry.id}`);
-  assert.equal(entry.before.correctAnswer,2,`Historical answer position changed: ${entry.id}`);
+  assert.equal(entry.before.correctAnswer,reviewedFourChoiceExpected.get(entry.id).correctAnswer,`Historical answer position changed: ${entry.id}`);
+  if(entry.id==='2-sinif-ingilizce-school-life-kolay-test-1-soru-9'){assert.deepEqual(repair.after.choices.slice(1),entry.before.choices.slice(1),`Unrelated choices changed: ${entry.id}`);assert.equal(repair.after.choices[0],'She reads a book in the library.');}
   assert.deepEqual(Array.from(q.choices),repair.after.choices,`Reviewed four-choice answers mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,repair.after.correctAnswer,`Reviewed four-choice index mismatch: ${entry.id}`);
  } else if(schoolReviewed.has(entry.id)) {
