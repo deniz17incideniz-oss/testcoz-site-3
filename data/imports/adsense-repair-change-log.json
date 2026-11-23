@@ -32034,7 +32034,7 @@
           "Thank you."
         ],
         "correctAnswer": 0,
-        "explanation": "Who is she, o kim sorusudur. She is my sister onun kız kardeş olduğunu bildirir; selamlaşma veya bir renk söylemek kişiyi tanıtmaz.",
+        "explanation": "Who is she, o kim sorusudur. She is my sister, O benim kız kardeşimdir demektir; selamlaşma veya renk söylemek kişiyi tanıtmaz.",
         "image": null,
         "visual": null,
         "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-3",
@@ -32188,7 +32188,7 @@
           "How are you? — It is blue."
         ],
         "correctAnswer": 0,
-        "explanation": "Who is she, o kim sorusudur. She is my sister onun kız kardeş olduğunu bildirir; selamlaşma veya bir renk söylemek kişiyi tanıtmaz.",
+        "explanation": "Görselde Who is she sorusuna She is my sister cevabı veriliyor. Cevap O benim kız kardeşimdir demektir; diğer çiftler görselde gösterilmiyor.",
         "image": "images/tests/2-sinif-ingilizce-family-life-kolay-test-1-soru-8.svg",
         "visual": {
           "type": "cards",
@@ -32199,7 +32199,7 @@
           }
         },
         "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “Who is she?” sorusu ve “She is my sister.” cevabı yazıyor.",
         "options": [
           "Who is she? — She is my sister.",
           "Hello! — Goodbye!",
@@ -32263,7 +32263,7 @@
       "after": {
         "question": "Kısa metin: “Jack helps his father set the table.” Metinde Jack ne yapıyor?",
         "choices": [
-          "helps his father set the table.",
+          "Jack helps his father set the table.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -32274,7 +32274,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-9",
         "options": [
-          "helps his father set the table.",
+          "Jack helps his father set the table.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -32655,7 +32655,7 @@
           }
         },
         "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “Where is the cat?” sorusu ve “It is under the table.” cevabı yazıyor.",
         "options": [
           "Where is the cat? — It is under the table.",
           "Hello! — Goodbye!",
@@ -32719,7 +32719,7 @@
       "after": {
         "question": "Kısa metin: “Lily sees a bakery next to her house.” Metinde Lily ne yapıyor?",
         "choices": [
-          "sees a bakery next to her house.",
+          "Lily sees a bakery next to her house.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -32730,7 +32730,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-9",
         "options": [
-          "sees a bakery next to her house.",
+          "Lily sees a bakery next to her house.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
