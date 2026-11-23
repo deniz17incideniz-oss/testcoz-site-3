@@ -19,7 +19,12 @@ const allowedReviews=new Map([
  ['reviewed_gemini_grade_two_community_questions',new Set(['2-sinif-hayat-bilgisi-yasadigim-yer-ve-ulkem-kolay-test-1'])]
 ]);
 const reviewed=new Map(editorial.changes.filter(change=>allowedReviews.has(change.reason)).map(change=>[change.id,change]));
+// Individually reviewed four-choice change: preserves option count and answer position.
+const reviewedFourChoiceIds=new Set(['3-sinif-ingilizce-family-life-orta-test-1-soru-3']);
+const reviewedFourChoice=new Map(editorial.changes.filter(change=>reviewedFourChoiceIds.has(change.id)).map(change=>[change.id,change]));
+assert.equal(reviewedFourChoice.size,reviewedFourChoiceIds.size,'Missing reviewed four-choice record');
 const historicalIds=new Set(log.changes.map(entry=>entry.id));
+for(const [id,change] of reviewedFourChoice){assert.ok(historicalIds.has(id),`Missing historical choice record: ${id}`);assert.equal(change.reason,'family_test1_distractors_language_and_explanations');assert.equal(change.after.choices.length,4);assert.equal(change.after.correctAnswer,2);}
 const schoolSlug='1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1';
 const schoolIndices=[2,4,6,9];
 const schoolContext={window:{TESTCOZ_TESTS:[{slug:schoolSlug,questions:Array.from({length:10},()=>({}))}]}};
@@ -50,6 +55,12 @@ for(const entry of log.changes){
   assert.equal(review.before.correctAnswer,entry.before.correctAnswer,`Reviewed source answer mismatch: ${entry.id}`);
   assert.deepEqual(Array.from(q.choices),review.after.choices,`Reviewed choices mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,review.after.correctAnswer,`Reviewed answer mismatch: ${entry.id}`);
+ } else if(reviewedFourChoice.has(entry.id)) {
+  const repair=reviewedFourChoice.get(entry.id);
+  assert.equal(entry.before.choices.length,4,`Historical choice count changed: ${entry.id}`);
+  assert.equal(entry.before.correctAnswer,2,`Historical answer position changed: ${entry.id}`);
+  assert.deepEqual(Array.from(q.choices),repair.after.choices,`Reviewed four-choice answers mismatch: ${entry.id}`);
+  assert.equal(q.correctAnswer,repair.after.correctAnswer,`Reviewed four-choice index mismatch: ${entry.id}`);
  } else if(schoolReviewed.has(entry.id)) {
   const patch=schoolReviewed.get(entry.id);
   assert.deepEqual(Array.from(q.choices),Array.from(patch.choices),`School hotfix choices mismatch: ${entry.id}`);
@@ -63,4 +74,4 @@ for(const entry of log.changes){
   assert.equal(q.correctAnswer,entry.before.correctAnswer,`Changed answer index: ${entry.id}`);
  }
 }
-console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size-safetyReviewed.size} unchanged, ${reviewed.size+schoolReviewed.size+safetyReviewed.size} individually reviewed replacements.`);
+console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size-safetyReviewed.size-reviewedFourChoice.size} unchanged, ${reviewed.size+schoolReviewed.size+safetyReviewed.size+reviewedFourChoice.size} individually reviewed replacements.`);

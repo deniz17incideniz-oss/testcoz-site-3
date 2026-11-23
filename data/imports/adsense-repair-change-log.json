@@ -25459,23 +25459,23 @@
         ]
       },
       "after": {
-        "question": "“My parents” ifadesindeki parents hangi iki kişiyi birlikte anlatır?",
+        "question": "“My parents” ifadesinin Türkçesi hangisidir?",
         "choices": [
-          "Aunt and uncle",
-          "Grandmother and grandfather",
-          "Mother and father",
-          "Sister and brother"
+          "Teyzem ve amcam",
+          "Büyükannem ve büyükbabam",
+          "Ebeveynlerim",
+          "Kız ve erkek kardeşlerim"
         ],
         "correctAnswer": 2,
-        "explanation": "Parents anne ve babayı birlikte adlandırır. Kardeşler veya büyük ebeveynler için aynı sözcük kullanılmaz.",
+        "explanation": "Parents ebeveynler, my parents ise ebeveynlerim demektir.",
         "image": null,
         "visual": null,
         "id": "3-sinif-ingilizce-family-life-orta-test-1-soru-3",
         "options": [
-          "Aunt and uncle",
-          "Grandmother and grandfather",
-          "Mother and father",
-          "Sister and brother"
+          "Teyzem ve amcam",
+          "Büyükannem ve büyükbabam",
+          "Ebeveynlerim",
+          "Kız ve erkek kardeşlerim"
         ],
         "difficulty": "orta",
         "skill": "Family Life",
