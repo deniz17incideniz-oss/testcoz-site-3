@@ -4,6 +4,16 @@ export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
+ if(type==='observationRecords') {
+  const values=[data.first,data.second];let y=96,art='';
+  values.forEach((value,index)=>{
+   const lines=[''];for(const word of String(value).split(/\s+/)){if((lines.at(-1)+' '+word).length>24)lines.push(word);else lines[lines.length-1]+=(lines.at(-1)?' ':'')+word;}
+   const h=60+lines.length*39;art+=rect(25,y,430,h,'#f1f5f9');
+   art+=`<text x="45" y="${y+27}" style="font:700 21px Arial;fill:#1e293b">${index+1}. kayıt</text>`;
+   art+=lines.map((line,i)=>`<text x="45" y="${y+64+i*39}" style="font:28px Arial;fill:#1f2937">${esc(line)}</text>`).join('');y+=h+14;
+  });
+  return {art,width:480,height:Math.max(300,y+28)};
+ }
  if(type==='cards') {
   const labels={correct:'A',wrong:'B',first:'A',second:'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
   const lines=Object.entries(data).filter(([,v])=>['string','number'].includes(typeof v));
