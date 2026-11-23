@@ -486,6 +486,11 @@ for(const grade of [2,3])for(const [baseTopic,e]of Object.entries(explanationEvi
   const fields={explanation};
   if(grade===2&&topic==='school-life'&&index===7)fields.imageAlt='Konuşma kartında “Where is the library?” sorusu ve “It is next to the classroom.” cevabı yazıyor.';
   if(grade===2&&topic==='school-life'&&index===8){fields.choices=['She reads a book in the library.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===2&&topic==='classroom-life'&&[2,7].includes(index))fields.explanation='What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; selamlama, renk veya teşekkür sözleri nesnenin adını vermez.';
+  if(grade===2&&topic==='classroom-life'&&index===7){fields.imageAlt='Konuşma kartında “What is this?” sorusu ve “It is a ruler.” cevabı yazıyor.';fields.explanation='Görselde What is this sorusuna It is a ruler cevabı veriliyor. Bu, bir cetvel olduğunu söyler; diğer çiftler görselde gösterilmiyor.';}
+  if(grade===2&&topic==='personal-life'&&index===7)fields.imageAlt='Konuşma kartında “How old are you?” sorusu ve “I am eight years old.” cevabı yazıyor.';
+  if(grade===2&&topic==='classroom-life'&&index===8){fields.choices=['Tom puts his notebook on the desk.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  if(grade===2&&topic==='personal-life'&&index===8){fields.choices=['Mia washes her hands before lunch.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
   repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-kolay-test-1`,index,fields,reason:'question_specific_language_evidence'});
  }
  for(const [difficulty,index,row]of [['orta',9,readingRepairs[baseTopic][0]],['zor',2,readingRepairs[baseTopic][1]]])repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-${difficulty}-test-1`,index,row:[`${grade}. sınıf İngilizce ${difficulty} — ${row[0]}`,...row.slice(1)],reason:'replace_unsupported_main_idea_with_text_evidence'});

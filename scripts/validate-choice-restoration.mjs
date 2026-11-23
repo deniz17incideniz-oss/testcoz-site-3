@@ -20,7 +20,7 @@ const allowedReviews=new Map([
 ]);
 const reviewed=new Map(editorial.changes.filter(change=>allowedReviews.has(change.reason)).map(change=>[change.id,change]));
 // Individually reviewed four-choice change: preserves option count and answer position.
-const reviewedFourChoiceExpected=new Map([['3-sinif-ingilizce-family-life-orta-test-1-soru-3',{reason:'family_test1_distractors_language_and_explanations',correctAnswer:2}],['2-sinif-ingilizce-school-life-kolay-test-1-soru-9',{reason:'question_specific_language_evidence',correctAnswer:0}]]);
+const reviewedFourChoiceExpected=new Map([['3-sinif-ingilizce-family-life-orta-test-1-soru-3',{reason:'family_test1_distractors_language_and_explanations',correctAnswer:2}],['2-sinif-ingilizce-school-life-kolay-test-1-soru-9',{reason:'question_specific_language_evidence',correctAnswer:0}],['2-sinif-ingilizce-classroom-life-kolay-test-1-soru-9',{reason:'question_specific_language_evidence',correctAnswer:0}],['2-sinif-ingilizce-personal-life-kolay-test-1-soru-9',{reason:'question_specific_language_evidence',correctAnswer:0}]]);
 const reviewedFourChoiceIds=new Set(reviewedFourChoiceExpected.keys());
 const reviewedFourChoice=new Map(editorial.changes.filter(change=>reviewedFourChoiceIds.has(change.id)).map(change=>[change.id,change]));
 assert.equal(reviewedFourChoice.size,reviewedFourChoiceIds.size,'Missing reviewed four-choice record');
@@ -60,7 +60,8 @@ for(const entry of log.changes){
   const repair=reviewedFourChoice.get(entry.id);
   assert.equal(entry.before.choices.length,4,`Historical choice count changed: ${entry.id}`);
   assert.equal(entry.before.correctAnswer,reviewedFourChoiceExpected.get(entry.id).correctAnswer,`Historical answer position changed: ${entry.id}`);
-  if(entry.id==='2-sinif-ingilizce-school-life-kolay-test-1-soru-9'){assert.deepEqual(repair.after.choices.slice(1),entry.before.choices.slice(1),`Unrelated choices changed: ${entry.id}`);assert.equal(repair.after.choices[0],'She reads a book in the library.');}
+  const subjectCorrections=new Map([['2-sinif-ingilizce-school-life-kolay-test-1-soru-9','She reads a book in the library.'],['2-sinif-ingilizce-classroom-life-kolay-test-1-soru-9','Tom puts his notebook on the desk.'],['2-sinif-ingilizce-personal-life-kolay-test-1-soru-9','Mia washes her hands before lunch.']]);
+  if(subjectCorrections.has(entry.id)){assert.deepEqual(repair.after.choices.slice(1),entry.before.choices.slice(1),`Unrelated choices changed: ${entry.id}`);assert.equal(repair.after.choices[0],subjectCorrections.get(entry.id));}
   assert.deepEqual(Array.from(q.choices),repair.after.choices,`Reviewed four-choice answers mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,repair.after.correctAnswer,`Reviewed four-choice index mismatch: ${entry.id}`);
  } else if(schoolReviewed.has(entry.id)) {

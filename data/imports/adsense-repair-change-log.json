@@ -31122,7 +31122,7 @@
           "Thank you."
         ],
         "correctAnswer": 0,
-        "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
+        "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; selamlama, renk veya teşekkür sözleri nesnenin adını vermez.",
         "image": null,
         "visual": null,
         "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-3",
@@ -31276,7 +31276,7 @@
           "How are you? — It is blue."
         ],
         "correctAnswer": 0,
-        "explanation": "What is this, bu nedir demektir. It is a ruler bir cetvel olduğunu söyler; kişinin nasıl olduğu veya selamlaşma sözleri nesnenin adını vermez.",
+        "explanation": "Görselde What is this sorusuna It is a ruler cevabı veriliyor. Bu, bir cetvel olduğunu söyler; diğer çiftler görselde gösterilmiyor.",
         "image": "images/tests/2-sinif-ingilizce-classroom-life-kolay-test-1-soru-8.svg",
         "visual": {
           "type": "cards",
@@ -31287,7 +31287,7 @@
           }
         },
         "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “What is this?” sorusu ve “It is a ruler.” cevabı yazıyor.",
         "options": [
           "What is this? — It is a ruler.",
           "Hello! — Goodbye!",
@@ -31351,7 +31351,7 @@
       "after": {
         "question": "Kısa metin: “Tom puts his notebook on the desk.” Metinde Tom ne yapıyor?",
         "choices": [
-          "puts his notebook on the desk.",
+          "Tom puts his notebook on the desk.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -31362,7 +31362,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-classroom-life-kolay-test-1-soru-9",
         "options": [
-          "puts his notebook on the desk.",
+          "Tom puts his notebook on the desk.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -31743,7 +31743,7 @@
           }
         },
         "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-8",
-        "imageAlt": "Dialogue",
+        "imageAlt": "Konuşma kartında “How old are you?” sorusu ve “I am eight years old.” cevabı yazıyor.",
         "options": [
           "How old are you? — I am eight years old.",
           "Hello! — Goodbye!",
@@ -31807,7 +31807,7 @@
       "after": {
         "question": "Kısa metin: “Mia washes her hands before lunch.” Metinde Mia ne yapıyor?",
         "choices": [
-          "washes her hands before lunch.",
+          "Mia washes her hands before lunch.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
@@ -31818,7 +31818,7 @@
         "visual": null,
         "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-9",
         "options": [
-          "washes her hands before lunch.",
+          "Mia washes her hands before lunch.",
           "She sleeps all day.",
           "She loses her bag.",
           "She goes home."
