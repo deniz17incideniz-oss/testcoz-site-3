@@ -482,7 +482,12 @@ const readingRepairs={
 for(const grade of [2,3])for(const [baseTopic,e]of Object.entries(explanationEvidence)){
  if(grade===3&&baseTopic==='family-life')continue; // already fully repaired above
  const topic=grade===3&&baseTopic==='homes-houses-and-neighbourhoods'?'homes-houses-and-the-neighbourhood':baseTopic;
- for(const [index,explanation]of [[2,e[0]],[6,e[1]],[7,e[0]],[8,e[2]]])repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-kolay-test-1`,index,fields:{explanation},reason:'question_specific_language_evidence'});
+ for(const [index,explanation]of [[2,e[0]],[6,e[1]],[7,e[0]],[8,e[2]]]){
+  const fields={explanation};
+  if(grade===2&&topic==='school-life'&&index===7)fields.imageAlt='Konuşma kartında “Where is the library?” sorusu ve “It is next to the classroom.” cevabı yazıyor.';
+  if(grade===2&&topic==='school-life'&&index===8){fields.choices=['She reads a book in the library.','She sleeps all day.','She loses her bag.','She goes home.'];fields.options=[...fields.choices];fields.correctAnswer=0;}
+  repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-kolay-test-1`,index,fields,reason:'question_specific_language_evidence'});
+ }
  for(const [difficulty,index,row]of [['orta',9,readingRepairs[baseTopic][0]],['zor',2,readingRepairs[baseTopic][1]]])repairs.push({slug:`${grade}-sinif-ingilizce-${topic}-${difficulty}-test-1`,index,row:[`${grade}. sınıf İngilizce ${difficulty} — ${row[0]}`,...row.slice(1)],reason:'replace_unsupported_main_idea_with_text_evidence'});
 }
 

@@ -2578,26 +2578,26 @@
     {
       "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-3",
       "content_sha256": "93a776f557df6ae2c895360463a8857717992384f25e0e780522b50ed4eff733",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 23 Kasım 2026: Where is the library sorusu bir yer sorar; It is next to the classroom uygun cevap olarak verilmiştir. Görsel eşleştirme sorusunda cevap görselde verilidir; bu bağımsız dil üretimi olarak sunulmaz."
     },
     {
       "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-7",
       "content_sha256": "94ecd464fa021423ed184256f1785b9b4f33f3b8e26bd7ab610db9f7c16eee56",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 23 Kasım 2026: School sözcüğü okul anlamındadır; verilen diğer eşleştirmeler doğru değildir. Görsel eşleştirme sorusunda cevap görselde verilidir; bu bağımsız dil üretimi olarak sunulmaz."
     },
     {
       "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-8",
-      "content_sha256": "08c0306c1d96bcb602fde423d55bd9995e03ea1d3e1e7570c4dedd1e4b578d4f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "0737da846d2ec5cd3de8d2710387e02c7c603e14936282c2c7207cb5e5c95b21",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 23 Kasım 2026: Görseldeki library soru ve classroom cevabı verilen çiftle eşleşir; her iki metin alternatif açıklamaya da aktarılmıştır. Görsel eşleştirme sorusunda cevap görselde verilidir; bu bağımsız dil üretimi olarak sunulmaz."
     },
     {
       "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-9",
-      "content_sha256": "596b6afaf4ff065a2e2caf97e6eed5444210f75c25095b2ca01a04e170ac037f",
-      "status": "NOT_REVIEWED",
-      "evidence": ""
+      "content_sha256": "51cc0e95874a2d5732e5a1cf4e3e91a48817f4dcecc17de862c330fe18e38083",
+      "status": "VERIFIED",
+      "evidence": "Bağımsız Codex ikinci incelemesi, 23 Kasım 2026: Emma kitap okur ve kütüphanededir; She öznesi tamamlanmış İngilizce seçeneği dilbilgisel olarak açıklar. Görsel eşleştirme sorusunda cevap görselde verilidir; bu bağımsız dil üretimi olarak sunulmaz."
     },
     {
       "id": "2-sinif-ingilizce-school-life-orta-test-1-soru-10",
