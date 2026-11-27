@@ -147,5 +147,31 @@
     else if(topic==="geometrik-cisimler"){out.push(geometry[difficulty][i-1]);}
   }return out;}
   Object.keys(mathNames).forEach(topic=>levels.forEach(d=>add("matematik","Matematik",topic,mathNames[topic],d,math(topic,d))));
+  // İki soruda noktalama kuralını ve değerlendirilecek cümleyi açıkça belirt.
+  // TDK: https://tdk.gov.tr/icerik/yazim-kurallari/noktalama-isaretleri-aciklamalar/
+  const punctuationEasy = tests.find(test => test.slug === "4-sinif-turkce-noktalama-isaretleri-kolay-test-1");
+  Object.assign(punctuationEasy.questions[6], {
+    question: "Aşağıdaki bilgi ve örnek eşleştirmelerinden hangisi doğrudur?",
+    choices: [
+      "Soru cümlesinin sonuna nokta konur. — Bugün bize gelir misin.",
+      "Bildirme cümlesinin sonuna soru işareti konur. — Yarın kütüphaneye gideceğiz?",
+      "Soru cümlesinin sonuna virgül konur. — Hangi kitabı seçtin,",
+      "Soru cümlesinin sonuna soru işareti konur. — Bugün bize gelir misin?"
+    ],
+    correctAnswer: 3,
+    explanation: "‘Bugün bize gelir misin?’ soru bildiren bir cümledir. Soru bildiren cümlelerin sonuna soru işareti konur."
+  });
+  const punctuationMedium = tests.find(test => test.slug === "4-sinif-turkce-noktalama-isaretleri-orta-test-1");
+  Object.assign(punctuationMedium.questions[7], {
+    question: "I. Yarın bizimle gelir misin?\nII. Eyvah, otobüsü kaçırdık!\nBu cümlelerin sonundaki noktalama işaretleri için hangisi doğrudur?",
+    choices: [
+      "I. cümledeki yanlış, II. cümledeki doğrudur.",
+      "I. cümledeki doğru, II. cümledeki yanlıştır.",
+      "İki cümledeki işaret de yanlıştır.",
+      "İki cümledeki işaret de doğrudur."
+    ],
+    correctAnswer: 3,
+    explanation: "I. cümle soru bildirdiği için soru işareti, II. cümle üzüntü bildirdiği için ünlem işaretiyle bitmiştir. İkisi de doğrudur."
+  });
   window.TESTCOZ_TESTS=(window.TESTCOZ_TESTS||[]).concat(tests);
 })();
