@@ -2,6 +2,19 @@ import { renderFinalVisual } from "./render-final-visual.mjs";
 // Explicit renderers for source-defined diagrams; never infer answer labels.
 export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
+ if(type==='pairedPictograph') {
+  let art = `<text x="180" y="105" text-anchor="middle" style="font:600 21px Arial;fill:#334155">Her kare ${esc(data.unit)} kitabı gösterir.</text>`;
+  data.groups.forEach((group,groupIndex)=>{
+   const left=24, top=125+groupIndex*190;
+   art+=`<rect x="${left}" y="${top}" width="312" height="175" rx="18" fill="${groupIndex ? '#f0fdfa' : '#eff6ff'}" stroke="${groupIndex ? '#0f766e' : '#2563eb'}" stroke-width="2"/><text x="180" y="${top+32}" text-anchor="middle" style="font:700 24px Arial;fill:#1e293b">${esc(group.label)}</text>`;
+   group.items.forEach((item,row)=>{
+    const y=top+67+row*42;
+    art+=`<text x="${left+14}" y="${y+7}" style="font:600 22px Arial;fill:#334155">${esc(item.label)}</text>`;
+    for(let i=0;i<item.count;i++) art+=`<rect x="${left+105+i*38}" y="${y-13}" width="25" height="25" rx="4" fill="${groupIndex ? '#0f766e' : '#2563eb'}"/>`;
+   });
+  });
+  return {art,width:360,height:515};
+ }
  const text=(x,y,value)=>`<text x="${x}" y="${y}" text-anchor="middle" class="value">${esc(value)}</text>`;
  const rect=(x,y,w,h,fill='#DBEAFE')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="5" fill="${fill}" stroke="#2563eb" stroke-width="2"/>`;
  if(type==='schoolReadingScene') {
