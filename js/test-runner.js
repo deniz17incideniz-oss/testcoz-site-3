@@ -18,6 +18,12 @@
   let currentIndex = 0;
   let answers = test ? new Array(test.questions.length).fill(null) : [];
 
+  // Some authored questions use paired ** markers for emphasis. Escape the
+  // content first so that markup in question data can never become HTML.
+  function formatQuestionText(value) {
+    return utils.escapeHtml(value).replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>');
+  }
+
   function labelDifficulty() {
     return difficulty.charAt(0).toLocaleUpperCase("tr-TR") + difficulty.slice(1);
   }
@@ -77,11 +83,11 @@
       const selectedClass = selected === index ? " is-selected" : "";
       const tabIndex = selected === index || (selected === null && index === 0) ? 0 : -1;
       return '<button type="button" role="radio" class="option-btn' + selectedClass + '" data-choice="' + index + '" aria-checked="' + (selected === index) + '" tabindex="' + tabIndex + '">' +
-        '<span class="option-letter">' + letters[index] + '</span><span>' + utils.escapeHtml(choice) + '</span></button>';
+        '<span class="option-letter">' + letters[index] + '</span><span>' + formatQuestionText(choice) + '</span></button>';
     }).join("");
 
     document.getElementById("questionArea").innerHTML = '<div class="question-card">' + image + evidenceCaption(question) +
-      '<p class="question-text" id="currentQuestionText" tabindex="-1">' + utils.escapeHtml(question.question) + '</p><div class="options-grid" role="radiogroup" aria-labelledby="currentQuestionText">' + choices + '</div>' +
+      '<p class="question-text" id="currentQuestionText" tabindex="-1">' + formatQuestionText(question.question) + '</p><div class="options-grid" role="radiogroup" aria-labelledby="currentQuestionText">' + choices + '</div>' +
       '<a class="report-question" href="mailto:iletisim@testcoz.pro?subject=' + encodeURIComponent('Soruda hata bildirimi') + '&amp;body=' + encodeURIComponent('Sınıf: '+classLevel+'\nDers: '+subject.name+'\nKonu: '+topic.name+'\nZorluk: '+difficulty+'\nTest: '+testNumber+'\nSoru: '+(currentIndex+1)+'\nSoru kimliği: '+question.id+'\nHata açıklaması: ') + '">Soruda hata mı var?</a>' +
       '<div class="test-nav"><button type="button" class="btn btn-outline btn-sm" id="previousQuestion"' + (currentIndex === 0 ? " disabled" : "") + '>← Önceki</button>' +
       '<button type="button" class="btn btn-ghost btn-sm" id="skipQuestion">Geç</button>' +
@@ -195,11 +201,11 @@
       ? '<section class="wrong-review" id="wrongReview" tabindex="-1"><h2>Yanlışlarını Öğren</h2>' + reviewIndexes.map(function (index) {
         const question = test.questions[index];
         const isEmpty = answers[index] === null;
-        return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + utils.escapeHtml(question.question) + '</h3>' +
+        return '<article class="wrong-item"><div class="wrong-item-number">' + (index + 1) + '. Soru</div><h3>' + formatQuestionText(question.question) + '</h3>' +
           (question.image ? '<img class="question-image" src="' + utils.escapeHtml(question.image) + '" alt="' + utils.escapeHtml(question.imageAlt || 'Soru görseli') + '" width="720" height="' + (window.TESTCOZ_IMAGE_DIMENSIONS?.[question.image]?.[1] || 320) + '" loading="lazy" decoding="async">' : '') +
-          evidenceCaption(question) + '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : utils.escapeHtml(question.choices[answers[index]])) + '</dd></div>' +
-          '<div><dt>Doğru cevap</dt><dd class="val-correct">' + utils.escapeHtml(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
-          '<p><strong>Çözüm:</strong> ' + utils.escapeHtml(question.explanation) + '</p></article>';
+          evidenceCaption(question) + '<dl><div><dt>Senin cevabın</dt><dd class="' + (isEmpty ? "val-empty" : "val-wrong") + '">' + (isEmpty ? "Bu soruyu boş bıraktın." : formatQuestionText(question.choices[answers[index]])) + '</dd></div>' +
+          '<div><dt>Doğru cevap</dt><dd class="val-correct">' + formatQuestionText(question.choices[question.correctAnswer]) + '</dd></div></dl>' +
+          '<p><strong>Çözüm:</strong> ' + formatQuestionText(question.explanation) + '</p></article>';
       }).join("") + '</section>'
       : '<div class="all-correct">🎉 Harika! İncelenecek yanlış veya boş soru bulunmuyor.</div>';
 

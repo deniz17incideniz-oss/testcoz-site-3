@@ -35640,7 +35640,7 @@
       "test": "2-sinif-ingilizce-school-life-kolay-test-1",
       "reason": "restore_missing_reading_passage",
       "before": {
-        "question": "School Life metni için en uygun İngilizce başlık hangisidir?",
+        "question": "Metni oku: “This is Emma. She is at school. She reads a book.” Bu metin için en uygun İngilizce başlık hangisidir?",
         "choices": [
           "A Day at School",
           "A Rainy Night",
@@ -35648,18 +35648,15 @@
           "A Big Ocean"
         ],
         "correctAnswer": 0,
-        "explanation": "“A Day at School” metnin konusuna uygundur.",
+        "explanation": "Metinde Emma’nın okulda kitap okuduğu anlatılır. “A Day at School” okulda geçen bir gün için uygun bir başlıktır.",
         "image": "images/tests/2-sinif-ingilizce-school-life-kolay-test-1-soru-10.svg",
         "visual": {
-          "type": "cards",
-          "title": "Title",
-          "data": {
-            "title": "A Day at School",
-            "hero": "Emma"
-          }
+          "type": "schoolReadingScene",
+          "title": "Emma",
+          "data": {}
         },
         "id": "2-sinif-ingilizce-school-life-kolay-test-1-soru-10",
-        "imageAlt": "Title",
+        "imageAlt": "Okul binasının yanında kitap okuyan bir çocuk.",
         "options": [
           "A Day at School",
           "A Rainy Night",
