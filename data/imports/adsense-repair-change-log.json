@@ -35857,31 +35857,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Mia washes her hands. She brushes her teeth every morning.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “I am seven. I have got long hair.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "My Healthy Day",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Age and Hair",
+          "My School Bag",
+          "Food and Drinks",
+          "My Family"
         ],
         "correctAnswer": 0,
-        "explanation": "Mia elini yıkıyor ve her sabah dişlerini fırçalıyor. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.",
+        "explanation": "Kişi yedi yaşında olduğunu ve uzun saçları olduğunu söylüyor. My Age and Hair, yaşım ve saçlarım demektir.",
         "image": "images/tests/2-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Mia washes her hands.",
-            "second": "She brushes her teeth every morning."
+            "first": "I am seven.",
+            "second": "I have got long hair."
           }
         },
         "id": "2-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Mia washes her hands. She brushes her teeth every morning.",
+        "imageAlt": "Kısa metin: I am seven. I have got long hair.",
         "options": [
-          "My Healthy Day",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Age and Hair",
+          "My School Bag",
+          "Food and Drinks",
+          "My Family"
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -35946,31 +35946,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Jack plays with his family. They play and smile together.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “This is my mother. My mother is tall.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "My Happy Family",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Mother",
+          "My Brother",
+          "My Classroom",
+          "My Dinner"
         ],
         "correctAnswer": 0,
-        "explanation": "Jack ailesiyle oynuyor ve birlikte gülümsüyorlar. My Happy Family, mutlu ailem anlamıyla metne uygundur.",
+        "explanation": "Kişi annesini tanıtıyor ve onun uzun boylu olduğunu söylüyor. My Mother, annem demektir.",
         "image": "images/tests/2-sinif-ingilizce-family-life-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Jack plays with his family.",
-            "second": "They play and smile together."
+            "first": "This is my mother.",
+            "second": "My mother is tall."
           }
         },
         "id": "2-sinif-ingilizce-family-life-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Jack plays with his family. They play and smile together.",
+        "imageAlt": "Kısa metin: This is my mother. My mother is tall.",
         "options": [
-          "My Happy Family",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Mother",
+          "My Brother",
+          "My Classroom",
+          "My Dinner"
         ],
         "difficulty": "kolay",
         "skill": "Family Life",
@@ -36035,31 +36035,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Lily is at home. She sees trees on her street.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “This is my room. My cat is on the sofa.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "My Home and Street",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Room and My Cat",
+          "At the School Library",
+          "My New Bike",
+          "A Day at the Zoo"
         ],
         "correctAnswer": 0,
-        "explanation": "Lily evdedir ve sokağındaki ağaçları görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.",
+        "explanation": "Kişi odasını ve koltuğun üzerindeki kedisini anlatıyor. My Room and My Cat, odam ve kedim demektir.",
         "image": "images/tests/2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Lily is at home.",
-            "second": "She sees trees on her street."
+            "first": "This is my room.",
+            "second": "My cat is on the sofa."
           }
         },
         "id": "2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Lily is at home. She sees trees on her street.",
+        "imageAlt": "Kısa metin: This is my room. My cat is on the sofa.",
         "options": [
-          "My Home and Street",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "My Room and My Cat",
+          "At the School Library",
+          "My New Bike",
+          "A Day at the Zoo"
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and Neighbourhoods",
@@ -36124,31 +36124,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Alex is in the city. Alex sees a bus and a park.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “I have got some apples. I have got some milk.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "Around My City",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Food and Drinks",
+          "My New Hat",
+          "My School",
+          "A Pet Cat"
         ],
         "correctAnswer": 0,
-        "explanation": "Alex şehirde bir otobüs ve park görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.",
+        "explanation": "Kişi elmaları ve sütü olduğunu söylüyor. Food and Drinks, yiyecekler ve içecekler demektir.",
         "image": "images/tests/2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Alex is in the city.",
-            "second": "Alex sees a bus and a park."
+            "first": "I have got some apples.",
+            "second": "I have got some milk."
           }
         },
         "id": "2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Alex is in the city. Alex sees a bus and a park.",
+        "imageAlt": "Kısa metin: I have got some apples. I have got some milk.",
         "options": [
-          "Around My City",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Food and Drinks",
+          "My New Hat",
+          "My School",
+          "A Pet Cat"
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",
@@ -36391,31 +36391,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Mia eats fruit at breakfast. She brushes her teeth before bed.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “It is cold. I have got a coat.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "My Healthy Day",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Cold Weather and My Coat",
+          "A Hot Day",
+          "My New Desk",
+          "My Brother’s Birthday"
         ],
         "correctAnswer": 0,
-        "explanation": "Mia kahvaltıda meyve yer, yatmadan önce dişlerini fırçalar. My Healthy Day, sağlıklı günüm anlamıyla metne uygundur.",
+        "explanation": "Kişi havanın soğuk olduğunu ve bir montu olduğunu söylüyor. Cold Weather and My Coat, soğuk hava ve montum demektir.",
         "image": "images/tests/3-sinif-ingilizce-personal-life-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Mia eats fruit at breakfast.",
-            "second": "She brushes her teeth before bed."
+            "first": "It is cold.",
+            "second": "I have got a coat."
           }
         },
         "id": "3-sinif-ingilizce-personal-life-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Mia eats fruit at breakfast. She brushes her teeth before bed.",
+        "imageAlt": "Kısa metin: It is cold. I have got a coat.",
         "options": [
-          "My Healthy Day",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Cold Weather and My Coat",
+          "A Hot Day",
+          "My New Desk",
+          "My Brother’s Birthday"
         ],
         "difficulty": "kolay",
         "skill": "Personal Life",
@@ -36480,31 +36480,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Lily opens the window at home. She sees a park across the street.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “This is our farm. There are two cows on our farm.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "My Home and Street",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Our Farm and Cows",
+          "My City Bus",
+          "At the Beach",
+          "My Classroom Books"
         ],
         "correctAnswer": 0,
-        "explanation": "Lily evde pencereyi açar ve sokağın karşısında bir park görür. My Home and Street, evim ve sokağım anlamıyla metne uygundur.",
+        "explanation": "Çiftlik ve çiftlikteki iki inek anlatılıyor. Our Farm and Cows, çiftliğimiz ve inekler demektir.",
         "image": "images/tests/3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Lily opens the window at home.",
-            "second": "She sees a park across the street."
+            "first": "This is our farm.",
+            "second": "There are two cows on our farm."
           }
         },
         "id": "3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Lily opens the window at home. She sees a park across the street.",
+        "imageAlt": "Kısa metin: This is our farm. There are two cows on our farm.",
         "options": [
-          "My Home and Street",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "Our Farm and Cows",
+          "My City Bus",
+          "At the Beach",
+          "My Classroom Books"
         ],
         "difficulty": "kolay",
         "skill": "Homes, Houses and the Neighbourhood",
@@ -36569,31 +36569,31 @@
         ]
       },
       "after": {
-        "question": "Kısa metin: “Alex visits a park. Alex sees buses on city streets.” Bu metne en uygun İngilizce başlık hangisidir?",
+        "question": "Kısa metin: “I am at a café. I want some soup.” Bu metne en uygun İngilizce başlık hangisidir?",
         "choices": [
-          "Around My City",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "At a Café",
+          "My School Library",
+          "My New Shoes",
+          "On the Farm"
         ],
         "correctAnswer": 0,
-        "explanation": "Alex parkı ziyaret eder ve şehir sokaklarında otobüsler görür. Around My City, şehrimdeki yerler anlamıyla metne uygundur.",
+        "explanation": "Kişi kafededir ve çorba istemektedir. At a Café, kafede demektir.",
         "image": "images/tests/3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10.svg",
         "visual": {
           "type": "plainCards",
           "title": "Kısa metin",
           "data": {
-            "first": "Alex visits a park.",
-            "second": "Alex sees buses on city streets."
+            "first": "I am at a café.",
+            "second": "I want some soup."
           }
         },
         "id": "3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10",
-        "imageAlt": "Kısa metin: Alex visits a park. Alex sees buses on city streets.",
+        "imageAlt": "Kısa metin: I am at a café. I want some soup.",
         "options": [
-          "Around My City",
-          "A Rainy Night",
-          "The Lost Key",
-          "A Big Ocean"
+          "At a Café",
+          "My School Library",
+          "My New Shoes",
+          "On the Farm"
         ],
         "difficulty": "kolay",
         "skill": "Life in the City and the World",

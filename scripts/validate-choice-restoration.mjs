@@ -24,7 +24,20 @@ const reviewedFourChoiceExpected=new Map([['3-sinif-ingilizce-family-life-orta-t
 const reviewedFourChoiceIds=new Set(reviewedFourChoiceExpected.keys());
 const reviewedFourChoice=new Map(editorial.changes.filter(change=>reviewedFourChoiceIds.has(change.id)).map(change=>[change.id,change]));
 assert.equal(reviewedFourChoice.size,reviewedFourChoiceIds.size,'Missing reviewed four-choice record');
+// Seven individually authored, four-option reading questions; exact old/new arrays are required.
+const reviewedPassageTitlesExpected=new Map([
+ ['2-sinif-ingilizce-personal-life-kolay-test-1-soru-10',{before:['My Healthy Day','A Rainy Night','The Lost Key','A Big Ocean'],after:['My Age and Hair','My School Bag','Food and Drinks','My Family']}],
+ ['2-sinif-ingilizce-family-life-kolay-test-1-soru-10',{before:['My Happy Family','A Rainy Night','The Lost Key','A Big Ocean'],after:['My Mother','My Brother','My Classroom','My Dinner']}],
+ ['2-sinif-ingilizce-homes-houses-and-neighbourhoods-kolay-test-1-soru-10',{before:['My Home and Street','A Rainy Night','The Lost Key','A Big Ocean'],after:['My Room and My Cat','At the School Library','My New Bike','A Day at the Zoo']}],
+ ['2-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10',{before:['Around My City','A Rainy Night','The Lost Key','A Big Ocean'],after:['Food and Drinks','My New Hat','My School','A Pet Cat']}],
+ ['3-sinif-ingilizce-personal-life-kolay-test-1-soru-10',{before:['My Healthy Day','A Rainy Night','The Lost Key','A Big Ocean'],after:['Cold Weather and My Coat','A Hot Day','My New Desk','My Brother’s Birthday']}],
+ ['3-sinif-ingilizce-homes-houses-and-the-neighbourhood-kolay-test-1-soru-10',{before:['My Home and Street','A Rainy Night','The Lost Key','A Big Ocean'],after:['Our Farm and Cows','My City Bus','At the Beach','My Classroom Books']}],
+ ['3-sinif-ingilizce-life-in-the-city-and-the-world-kolay-test-1-soru-10',{before:['Around My City','A Rainy Night','The Lost Key','A Big Ocean'],after:['At a Café','My School Library','My New Shoes','On the Farm']}]
+]);
+const reviewedPassageTitles=new Map(editorial.changes.filter(change=>reviewedPassageTitlesExpected.has(change.id)).map(change=>[change.id,change]));
+assert.equal(reviewedPassageTitles.size,reviewedPassageTitlesExpected.size,'Missing reviewed passage title record');
 const historicalIds=new Set(log.changes.map(entry=>entry.id));
+for(const [id,change] of reviewedPassageTitles){assert.ok(historicalIds.has(id),`Missing historical passage: ${id}`);assert.ok(!reviewed.has(id)&&!reviewedFourChoice.has(id),`Overlapping review: ${id}`);assert.equal(change.reason,'restore_missing_reading_passage');assert.deepEqual(change.after.choices,reviewedPassageTitlesExpected.get(id).after);assert.equal(change.after.correctAnswer,0);}
 for(const [id,change] of reviewedFourChoice){assert.ok(historicalIds.has(id),`Missing historical choice record: ${id}`);assert.equal(change.reason,reviewedFourChoiceExpected.get(id).reason);assert.equal(change.after.choices.length,4);assert.equal(change.after.correctAnswer,reviewedFourChoiceExpected.get(id).correctAnswer);}
 const schoolSlug='1-sinif-hayat-bilgisi-ben-ve-okulum-zor-test-1';
 const schoolIndices=[2,4,6,9];
@@ -64,6 +77,13 @@ for(const entry of log.changes){
   if(subjectCorrections.has(entry.id)){assert.deepEqual(repair.after.choices.slice(1),entry.before.choices.slice(1),`Unrelated choices changed: ${entry.id}`);assert.equal(repair.after.choices[0],subjectCorrections.get(entry.id));}
   assert.deepEqual(Array.from(q.choices),repair.after.choices,`Reviewed four-choice answers mismatch: ${entry.id}`);
   assert.equal(q.correctAnswer,repair.after.correctAnswer,`Reviewed four-choice index mismatch: ${entry.id}`);
+ } else if(reviewedPassageTitles.has(entry.id)) {
+  const repair=reviewedPassageTitles.get(entry.id),expected=reviewedPassageTitlesExpected.get(entry.id);
+  assert.deepEqual(entry.before.choices,expected.before,`Historical passage choices differ: ${entry.id}`);
+  assert.equal(entry.before.correctAnswer,0,`Historical passage answer position differs: ${entry.id}`);
+  assert.deepEqual(Array.from(q.choices),expected.after,`Reviewed passage choices differ: ${entry.id}`);
+  assert.deepEqual(repair.after.choices,expected.after,`Passage log choices differ: ${entry.id}`);
+  assert.equal(q.correctAnswer,0,`Reviewed passage answer position differs: ${entry.id}`);
  } else if(schoolReviewed.has(entry.id)) {
   const patch=schoolReviewed.get(entry.id);
   assert.deepEqual(Array.from(q.choices),Array.from(patch.choices),`School hotfix choices mismatch: ${entry.id}`);
@@ -77,4 +97,4 @@ for(const entry of log.changes){
   assert.equal(q.correctAnswer,entry.before.correctAnswer,`Changed answer index: ${entry.id}`);
  }
 }
-console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size-safetyReviewed.size-reviewedFourChoice.size} unchanged, ${reviewed.size+schoolReviewed.size+safetyReviewed.size+reviewedFourChoice.size} individually reviewed replacements.`);
+console.log(`Choice history verified: ${log.count-reviewed.size-schoolReviewed.size-safetyReviewed.size-reviewedFourChoice.size-reviewedPassageTitles.size} unchanged, ${reviewed.size+schoolReviewed.size+safetyReviewed.size+reviewedFourChoice.size+reviewedPassageTitles.size} individually reviewed replacements.`);
