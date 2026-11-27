@@ -19,6 +19,7 @@ import {repairMath1} from '../data/imports/zor-test2-math1.mjs';
 import {repairSocial4} from '../data/imports/zor-test2-social4.mjs';
 import {repairScience3Topics} from '../data/imports/zor-test2-science3-topics.mjs';
 import {repairScience4Topics} from '../data/imports/zor-test2-science4-topics.mjs';
+import {repairPunctuation4} from '../data/imports/zor-test2-punctuation4.mjs';
 const raw=fs.readFileSync('data/imports/zor-test2-final.md','utf8').replace(/\r/g,'');
 const records=raw.split(/^final_id: /m).slice(1).map(part=>{
  const chunk=part.split(/^---$/m)[0],r={final_id:chunk.split('\n')[0].trim()};
@@ -73,6 +74,7 @@ repairMath1([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairSocial4([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairScience3Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
 repairScience4Topics([...bank.values()],ctx.window.TESTCOZ_CATALOG,changes);
+repairPunctuation4([...bank.values()],changes);
 let templateCount=0;
 for(const t of bank.values()) {
  const rows=templateRepairs[t.slug];if(!rows)continue;
