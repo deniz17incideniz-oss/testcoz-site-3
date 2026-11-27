@@ -36,4 +36,10 @@ test('Madlen data question has a consistent accessible chart and correct review'
   await expect(review).toContainText('I, II ve III');
   await expect(review).toContainText('40');
   await expect(review).toContainText('44');
+  await page.goto('/test.html?sinif=4&ders=matematik&konu=veri&zorluk=zor&test=1');
+  for (let i = 0; i < 8; i++) await page.locator('#skipQuestion').click();
+  await page.locator('[data-choice="3"]').click(); await page.locator('#nextQuestion').click();
+  await page.locator('#skipQuestion').click();
+  await expect(page.locator('.result-stat-val')).toHaveText(['1','0','9']);
+  await expect(page.locator('.wrong-item').filter({ hasText: 'ödünç aldığı kitap türleri' })).toHaveCount(0);
 });
