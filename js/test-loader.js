@@ -1,7 +1,7 @@
 (function () {
   const params=new URLSearchParams(location.search),grade=params.get('sinif'),subject=params.get('ders');
   const allowed={1:['matematik','turkce','hayat-bilgisi','ingilizce'],2:['matematik','turkce','hayat-bilgisi','ingilizce'],3:['matematik','turkce','hayat-bilgisi','fen-bilimleri','ingilizce'],4:['matematik','turkce','hayat-bilgisi','fen-bilimleri','sosyal-bilgiler','ingilizce']};
-  const files=allowed[grade]?.includes(subject)?(grade==='4'?['data/tests/4-tum-dersler.js',...(subject==='matematik'?['data/tests/4-matematik-zaman-olcme.js','data/tests/4-z-gemini-vetted.js']:[])]:['data/tests/'+grade+'-'+subject+'.js']):[];
+  const files=allowed[grade]?.includes(subject)?(grade==='4'?['data/tests/4-tum-dersler.js',...(subject==='matematik'?['data/tests/4-matematik-zaman-olcme.js','data/tests/4-z-gemini-vetted.js','data/tests/4-z-madlen-verified.js']:[])]:['data/tests/'+grade+'-'+subject+'.js']):[];
   if(allowed[grade]?.includes(subject)) files.push('data/runtime/zor-test2-'+grade+'-'+subject+'.js');
   if ((grade==='2'||grade==='3') && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zy-safety-hotfix.js');
   if (grade==='1' && subject==='hayat-bilgisi' && (params.get('test')||'1')==='1') files.push('data/tests/zyz-school-hotfix.js');
