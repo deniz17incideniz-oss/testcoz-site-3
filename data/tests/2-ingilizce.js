@@ -66,6 +66,14 @@
   Object.keys(themes).forEach(topic=>levels.forEach(difficulty=>{
     const t=themes[topic],slug="2-sinif-ingilizce-"+topic+"-"+difficulty+"-test-1";
     const questions=makers[difficulty](t).map((x,i)=>{x.id=i+1;if(x.visual){x.image="images/tests/"+slug+"-soru-"+(i+1)+".svg";x.imageAlt=x.visual.title;}return x;});
+    if(topic==='school-life' && difficulty==='kolay') {
+      Object.assign(questions[9], {
+        question:'Metni oku: “This is Emma. She is at school. She reads a book.” Bu metin için en uygun İngilizce başlık hangisidir?',
+        explanation:'Metinde Emma’nın okulda kitap okuduğu anlatılır. “A Day at School” okulda geçen bir gün için uygun bir başlıktır.',
+        visual:{type:'schoolReadingScene',title:'Emma',data:{}},
+        imageAlt:'Okul binasının yanında kitap okuyan bir çocuk.'
+      });
+    }
     tests.push({classLevel:2,subject:"ingilizce",subjectName:"İngilizce",topic,topicName:t.name,difficulty,testNumber:1,slug,pageUrl:"tests/"+slug+".html",questions});
   }));
   window.TESTCOZ_TESTS=(window.TESTCOZ_TESTS||[]).concat(tests);
