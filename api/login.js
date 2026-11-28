@@ -47,7 +47,7 @@ export default async function handler(req, res) {
     if (!user || String(user[9] || "").toLocaleLowerCase("tr-TR") !== "aktif") return reply(res, 401, "E-posta veya şifre hatalı.");
     console.info("password compare started");
     if (!(await verifyPassword(password, user[6]))) return reply(res, 401, "E-posta veya şifre hatalı.");
-    res.setHeader("Set-Cookie", sessionCookie(signSession(email, secret)));
+    res.setHeader("Set-Cookie", sessionCookie(signSession(email, secret, String(user[10] || ""))));
     return reply(res, 200, "Giriş başarılı. Öğrenci paneline yönlendiriliyorsunuz.");
   } catch (error) {
     console.error("login api error:", error?.code || error?.name || "UNKNOWN");

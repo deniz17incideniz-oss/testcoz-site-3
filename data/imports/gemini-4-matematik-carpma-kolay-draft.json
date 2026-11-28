@@ -1,0 +1,161 @@
+{
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "carpma",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-03T17:42:09.884Z",
+  "questions": [
+    {
+      "question": "Bir kırtasiyeci her birinde 12 kalem bulunan 5 paket kalem satmıştır. Toplam kaç kalem satmıştır?",
+      "choices": [
+        "50",
+        "60",
+        "65",
+        "70"
+      ],
+      "correctAnswer": "60",
+      "explanation": "Bu problemi çözmek için 12 ile 5'i çarpmalıyız. 12 x 5 = 60 işlemini yaparak toplam kalem sayısına ulaşırız.",
+      "subSkill": "Gerçekçi eş grup problemi",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "45 x 10 işleminin kısa yoldan sonucu kaçtır?",
+      "choices": [
+        "45",
+        "405",
+        "450",
+        "4500"
+      ],
+      "correctAnswer": "450",
+      "explanation": "Bir sayıyı 10 ile kısa yoldan çarpmak için sayının sağına bir tane sıfır ekleriz. 45 sayısının yanına bir sıfır eklediğimizde 450 eder.",
+      "subSkill": "Kısa yoldan 10 ve 100 ile çarpma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Çarpma işleminde çarpanların yer değiştirmesi çarpımı nasıl etkiler?",
+      "choices": [
+        "Çarpım büyür.",
+        "Çarpım küçülür.",
+        "Çarpım değişmez.",
+        "Çarpım iki katına çıkar."
+      ],
+      "correctAnswer": "Çarpım değişmez.",
+      "explanation": "Çarpma işleminde değişme özelliği vardır. Yani çarpanların yeri değişse bile sonuç her zaman aynı kalır. Örneğin 3x4 ile 4x3 aynıdır.",
+      "subSkill": "Çarpmanın değişme özelliği",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "24 x 3 işlemini zihinden yapmak için 24 sayısını 20 ve 4 şeklinde ayırırsak sonuç kaç olur?",
+      "choices": [
+        "60 ve 12 toplamı 72",
+        "40 ve 12 toplamı 52",
+        "60 ve 8 toplamı 68",
+        "20 ve 12 toplamı 32"
+      ],
+      "correctAnswer": "60 ve 12 toplamı 72",
+      "explanation": "24 sayısını 20+4 şeklinde ayırırız. 20x3=60 ve 4x3=12 eder. İkisini topladığımızda 60+12=72 sonucuna ulaşırız.",
+      "subSkill": "Basamaklara ayırma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir çiftlikteki 100 tavuğun her birinin 2 ayağı olduğuna göre, toplam kaç tavuk ayağı vardır?",
+      "choices": [
+        "100",
+        "120",
+        "200",
+        "220"
+      ],
+      "correctAnswer": "200",
+      "explanation": "100 tane tavuk ve her birinde 2 ayak olduğu için 100 ile 2'yi çarparız. Kısa yoldan 100 ile çarparken iki sıfır ekleriz, sonuç 200 olur.",
+      "subSkill": "Kısa yoldan 10 ve 100 ile çarpma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir sepette 15 elma bulunan 4 sepet vardır. Toplam elma sayısını bulmak için hangi işlem yapılmalıdır?",
+      "choices": [
+        "15 + 4",
+        "15 - 4",
+        "15 x 4",
+        "15 / 4"
+      ],
+      "correctAnswer": "15 x 4",
+      "explanation": "Eş gruplar halinde verilen nesnelerin toplamını bulmak için çarpma işlemi kullanılır. 15 ile 4'ü çarparak toplam elma sayısını buluruz.",
+      "subSkill": "Gerçekçi eş grup problemi",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "14 x ? = 56 işleminde verilmeyen çarpan kaçtır?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "explanation": "Verilmeyen çarpanı bulmak için çarpımı bilinen çarpana böleriz. 56 sayısını 14'e böldüğümüzde 4 sonucunu elde ederiz.",
+      "subSkill": "İşlemde eksik çarpan",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir sinema salonunda 25 sıra ve her sırada 6 koltuk vardır. Toplam kaç koltuk olduğunu tahmin etmek için hangi yuvarlama daha uygundur?",
+      "choices": [
+        "20 x 6 = 120",
+        "30 x 6 = 180",
+        "25 x 5 = 125",
+        "25 x 10 = 250"
+      ],
+      "correctAnswer": "30 x 6 = 180",
+      "explanation": "Tahmin yaparken sayıları genellikle onluklara yuvarlarız. 25'i 30'a yuvarlayarak 30x6=180 işlemini yapmak kolay bir tahmin yöntemi sağlar.",
+      "subSkill": "Sonucu uygun yolla tahmin veya kontrol etme",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir kütüphanede her rafta 30 kitap bulunan 10 raf vardır. Toplam kaç kitap vardır?",
+      "choices": [
+        "30",
+        "100",
+        "300",
+        "310"
+      ],
+      "correctAnswer": "300",
+      "explanation": "30 ile 10'u çarpmamız gerekir. Kısa yoldan 10 ile çarparken 30'un yanına bir sıfır daha ekleriz ve sonuç 300 çıkar.",
+      "subSkill": "Kısa yoldan 10 ve 100 ile çarpma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "42 x 2 işlemini basamaklara ayırma yöntemiyle yaparsak hangi toplama işlemine ulaşırız?",
+      "choices": [
+        "40+2",
+        "80+4",
+        "40+4",
+        "8+2"
+      ],
+      "correctAnswer": "80+4",
+      "explanation": "42 sayısını 40 ve 2 olarak ayırıp 2 ile çarparız. 40x2=80 ve 2x2=4 olur. Bu iki sonucu topladığımızda 80+4 toplamını elde ederiz.",
+      "subSkill": "Basamaklara ayırma",
+      "questionType": "multiple-choice",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ]
+}

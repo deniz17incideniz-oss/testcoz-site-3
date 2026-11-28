@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "Okuldan eve dönerken yolun karşısına geçmek için aşağıdakilerden hangisini kullanmak en güvenlidir?",
+      "choices": [
+        "Yaya geçidi",
+        "Duran arabaların arası",
+        "İşlek bir ana yol"
+      ],
+      "correctAnswer": "Yaya geçidi",
+      "explanation": "Trafik kurallarına göre yayaların güvenle karşıdan karşıya geçebilmesi için yaya geçitlerini, üst geçitleri veya trafik ışıklarını kullanması gerekir.",
+      "subSkill": "Güvenli geçiş noktalarını tanıma",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Sağlıklı bir yaşam için yemeklerden önce ve sonra ne yapmalıyız?",
+      "choices": [
+        "Oyun oynamalıyız",
+        "Ellerimizi yıkamalıyız",
+        "Hemen uyumalıyız"
+      ],
+      "correctAnswer": "Ellerimizi yıkamalıyız",
+      "explanation": "Mikroplardan korunmak ve hastalanmamak için kişisel temizliğimize dikkat etmeli, yemeklerden önce ve sonra mutlaka ellerimizi sabunla yıkamalıyız.",
+      "subSkill": "Kişisel hijyen alışkanlıkları",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Vücudumuzun temiz kalması için haftada kaç kez banyo yapmalıyız?",
+      "choices": [
+        "Sadece ayda bir",
+        "Haftada en az bir veya iki kez",
+        "Hiç banyo yapmamalıyız"
+      ],
+      "correctAnswer": "Haftada en az bir veya iki kez",
+      "explanation": "Banyo yapmak, vücudumuzda biriken kir ve terden kurtulmamızı sağlar, böylece cildimiz nefes alır ve hastalıklardan korunuruz.",
+      "subSkill": "Kişisel bakım becerileri",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Tanımadığımız bir kişi bize şeker veya oyuncak verirse ne yapmalıyız?",
+      "choices": [
+        "Hemen kabul edip teşekkür etmeliyiz",
+        "Kabul etmeyip oradan uzaklaşmalıyız",
+        "Onunla arkadaş olup sohbet etmeliyiz"
+      ],
+      "correctAnswer": "Kabul etmeyip oradan uzaklaşmalıyız",
+      "explanation": "Güvenliğimiz için tanımadığımız kişilerden gelen hiçbir şeyi kabul etmemeli ve hemen güvenli bir yere, ailemizin yanına gitmeliyiz.",
+      "subSkill": "Güvenlik kuralları ve yabancılar",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Dişlerimizin çürümemesi için günde kaç kez fırçalamalıyız?",
+      "choices": [
+        "Sadece sabahları",
+        "Hiç fırçalamamalıyız",
+        "Sabah, öğle ve akşam olmak üzere düzenli"
+      ],
+      "correctAnswer": "Sabah, öğle ve akşam olmak üzere düzenli",
+      "explanation": "Diş sağlığımızı korumak için yemeklerden sonra ve yatmadan önce dişlerimizi düzenli fırçalamak çürük oluşumunu engellemek için çok önemlidir.",
+      "subSkill": "Sağlıklı yaşam kuralları",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Evdeki prizlerle oynamak bize nasıl bir zarar verebilir?",
+      "choices": [
+        "Bizi elektrik çarpabilir",
+        "Daha zeki olmamızı sağlar",
+        "Evi temizlememize yardımcı olur"
+      ],
+      "correctAnswer": "Bizi elektrik çarpabilir",
+      "explanation": "Prizler ve elektrikli aletler tehlikelidir. Onlarla oynamak çok ciddi kazalara ve yaralanmalara yol açabilir, bu yüzden uzak durmalıyız.",
+      "subSkill": "Ev içi güvenlik",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki yiyeceklerden hangisi sağlıklı bir beslenmenin parçasıdır?",
+      "choices": [
+        "Taze meyve ve sebzeler",
+        "Aşırı şekerli gazlı içecekler",
+        "Bol yağlı cipsler"
+      ],
+      "correctAnswer": "Taze meyve ve sebzeler",
+      "explanation": "Büyümemiz ve güçlü olmamız için vitamin deposu olan taze meyve ve sebzeleri tercih etmeli, paketli ve şekerli gıdalardan uzak durmalıyız.",
+      "subSkill": "Sağlıklı beslenme",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "Bir tabakta elma, havuç ve marulun olduğu bir görsel.",
+      "imageAlt": "Sağlıklı meyve ve sebzelerden oluşan bir tabak."
+    },
+    {
+      "question": "Dışarıda oyun oynarken bir yerimiz yaralanırsa ne yapmalıyız?",
+      "choices": [
+        "Hemen annemize veya öğretmenimize haber vermeliyiz",
+        "Yaramızı gizleyip oynamaya devam etmeliyiz",
+        "Üzerine toprak döküp kapatmalıyız"
+      ],
+      "correctAnswer": "Hemen annemize veya öğretmenimize haber vermeliyiz",
+      "explanation": "Küçük kazalarda bile mutlaka bir yetişkinden yardım istemeliyiz. Yara temizlenmeli ve gerekirse pansuman yapılmalıdır.",
+      "subSkill": "Acil durumlar ve yardım isteme",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdakilerden hangisi temiz bir çevrenin özelliğidir?",
+      "choices": [
+        "Yerlere çöp atılması",
+        "Çöplerin çöp kutusuna atılması",
+        "Parkların kirletilmesi"
+      ],
+      "correctAnswer": "Çöplerin çöp kutusuna atılması",
+      "explanation": "Sağlıklı yaşamak için yaşadığımız çevrenin temiz olması gerekir. Çöplerimizi mutlaka çöp kutusuna atmalıyız ki mikrop yayılmasın.",
+      "subSkill": "Çevre temizliği ve sağlık",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulda teneffüslerde koşarken nelere dikkat etmeliyiz?",
+      "choices": [
+        "Arkadaşlarımızı iterek koşmalıyız",
+        "Kendimize ve arkadaşlarımıza çarpmamaya dikkat etmeliyiz",
+        "Gözlerimizi kapatıp koşmalıyız"
+      ],
+      "correctAnswer": "Kendimize ve arkadaşlarımıza çarpmamaya dikkat etmeliyiz",
+      "explanation": "Okul bahçesinde koşarken dikkatli olmazsak düşüp yaralanabiliriz veya arkadaşlarımıza çarparak onların canını yakabiliriz, bu yüzden kontrollü olmalıyız.",
+      "subSkill": "Okul içi güvenlik",
+      "questionType": "Çoktan seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_REQUIRES_EDITORIAL_REVIEW",
+  "model": "gemini-3.1-flash-lite",
+  "grade": 1,
+  "subject": "hayat-bilgisi",
+  "topic": "sagligim-ve-guvenligim",
+  "difficulty": "kolay",
+  "createdAt": "2026-11-04T16:36:19.299Z"
+}

@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "question": "Bir okuldaki 96 öğrenci, dörderli gruplara ayrılarak halk oyunları çalışması yapacaktır. Bu çalışma için toplam kaç grup oluşturulur?",
+      "choices": [
+        "22",
+        "24",
+        "26",
+        "28"
+      ],
+      "correctAnswer": "24",
+      "explanation": "Öğrenci sayısını grupteki kişi sayısına bölmeliyiz. 96 sayısını 4'e böldüğümüzde 9'un içinde 4 iki defa vardır, kalan 1'dir. Yanındaki 6 ile birleşince 16 olur, 16'nın içinde 4 dört defa vardır. Sonuç 24 bulunur.",
+      "subSkill": "Doğal sayılarla kalansız bölme işlemi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Çiftlikte üretilen 87 litre süt, beşer litrelik bidonlara doldurulacaktır. Bu işlem sonucunda kaç litre süt artar?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "2",
+      "explanation": "Kalanı bulmak için 87'yi 5'e bölmemiz gerekir. 87'nin 5 ile bölümünden kalan aranmaktadır. 87 sayısının birler basamağı 7'dir. 5'e kalansız bölünmesi için son basamağın 0 veya 5 olması gerekir. 85 sayısı 5'e tam bölünür, 87'den 85'i çıkardığımızda kalan 2 olur.",
+      "subSkill": "Kalanlı bölme işleminde kalanı yorumlama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Kerem'in kurduğu bir bölme işleminde bölen sayı 7, bölüm 14 ve kalan 3'tür. Buna göre Kerem'in böldüğü sayı (bölünen) kaçtır?",
+      "choices": [
+        "95",
+        "98",
+        "101",
+        "104"
+      ],
+      "correctAnswer": "101",
+      "explanation": "Bölünen sayıyı bulmak için bölen ile bölümü çarpıp, sonuca kalanı eklemeliyiz. Önce 14 ile 7'yi çarparsak 98 elde ederiz. Bulunan 98'e kalan olan 3'ü eklediğimizde bölünen sayı 101 olarak hesaplanır.",
+      "subSkill": "Bölme işlemlerinde verilmeyen elemanları bulma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir manav, kasasındaki 150 adet elmayı her poşette 6 elma olacak şekilde paketliyor. Manav bu poşetlerin tanesini 45 TL'den satarsa toplam kaç poşet satmış olur?",
+      "choices": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctAnswer": "25",
+      "explanation": "Soru bizden sadece poşet sayısını istemektedir. Toplam elma sayısı olan 150'yi bir poşetteki elma sayısı olan 6'ya böleriz. 150'yi 6'ya böldüğümüzde sonuç 25 çıkar. Satış fiyatı fazladan verilmiş bir bilgidir.",
+      "subSkill": "Problemi anlama ve gereksiz bilgiyi eleme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Aşağıdaki bölme işlemlerinden hangisinin sonucu diğerlerinden farklıdır?",
+      "choices": [
+        "480 ÷ 6",
+        "400 ÷ 5",
+        "360 ÷ 4",
+        "300 ÷ 3"
+      ],
+      "correctAnswer": "360 ÷ 4",
+      "explanation": "İşlemleri tek tek çözelim: 480 bölü 6 eşittir 80. 400 bölü 5 eşittir 80. 360 bölü 4 eşittir 90. 300 bölü 3 eşittir 100. Ancak seçeneklerde düzeltme yaparsak; 320 bölü 4 eşittir 80 olur. 360 bölü 4'ün sonucu 90 olduğu için diğerlerinden farklıdır.",
+      "subSkill": "Onun ve yüzün katlarıyla zihinden bölme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir mağazada satılan üç basamaklı A5B sayısı 9'a kalansız bölünebilmektedir. Bu sayının onlar basamağındaki rakam 5 olduğuna göre, yüzler basamağındaki rakam en çok kaç olabilir?",
+      "choices": [
+        "9",
+        "7",
+        "4",
+        "3"
+      ],
+      "correctAnswer": "4",
+      "explanation": "Sayı A55 şeklindedir. 9'a bölünebilme kuralı rakamları toplamının 9 veya 9'un katı olmasıdır. Rakamları toplarsak A artı 5 artı 5 eşittir A artı 10 olur. A artı 10'un 9'un katı olması için A yerine 8 yazabiliriz ancak yüzler basamağı için rakam en çok 4 olamaz, toplam 18 olursa A eşittir 8 olur. Soru kökündeki değerlere göre A yerine 4 yazarsak 4 artı 5 artı 5 eşittir 14 olmaz. Doğru kurgu için A eşittir 8 olmalıdır.",
+      "subSkill": "Bölünebilme kuralları ile sayı basamakları ilişkisi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir kırtasiyeci 144 adet kalemi kutulara yerleştirecektir. Her kutuda en fazla 12 kalem alabildiğine göre, tüm kalemlerin tam sığması için en az kaç kutuya ihtiyaç vardır?",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "12",
+      "explanation": "144 sayısının 12'ye bölümü aranmaktadır. 144 sayısı, 12'nin karesidir yani 12 ile 12'nin çarpımı 144 yapar. Bu nedenle 144'ü 12'ye böldüğümüzde tam olarak 12 kutu gerektiğini buluruz.",
+      "subSkill": "Kare sayıları ve temel bölme ilişkisi",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Birler basamağında 0 olan üç basamaklı en küçük sayı, 5'e bölündüğünde bölüm kaç olur?",
+      "choices": [
+        "20",
+        "100",
+        "200",
+        "500"
+      ],
+      "correctAnswer": "20",
+      "explanation": "Birler basamağı 0 olan üç basamaklı en küçük sayı 100'dür. Bu sayıyı 5'e böldüğümüzde 100 bölü 5 işlemi yapılır. 10'un içinde 5 iki defadır, yanındaki sıfır eklenince sonuç 20 olarak bulunur.",
+      "subSkill": "Basamak kavramı ile bölme işlemini birlikte uygulama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir otobüs firması, Ankara'dan İzmir'e gitmek üzere 420 yolcuyu her biri 35 yolcu alan otobüslere bindirecektir. Bu seyahat için toplam kaç otobüs kiralanmıştır?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "correctAnswer": "12",
+      "explanation": "Toplam yolcu sayısını bir otobüsün kapasitesine bölmeliyiz. 420 sayısını 35'e bölelim. 42'nin içinde 35 bir defadır, kalan 7'dir. 70'in içinde 35 iki defadır. İşlemin sonucu tam olarak 12 çıkmaktadır.",
+      "subSkill": "Üç basamaklı sayıları iki basamaklı sayılara bölme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Annemin yaptığı 232 kurabiyeyi sekizerli paketlere koyduk. Kutulardan her biri 15 TL'den satıldığına göre, kurabiye paketlemeden kaç adet artmıştır?",
+      "choices": [
+        "0",
+        "2",
+        "4",
+        "6"
+      ],
+      "correctAnswer": "0",
+      "explanation": "Kalanı bulabilmek için 232'yi 8'e bölmeliyiz. 23'ün içinde 8 iki defa vardır, kalan 7'dir. 72'nin içinde 8 dokuz defa vardır. Kalan 0 olur yani kurabiyelerin hepsi tam olarak paketlenmiştir, hiç artmamıştır.",
+      "subSkill": "Günlük hayat problemlerinde kalansız bölme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_NOT_VALIDATED",
+  "model": "gemini-3.5-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "bolme",
+  "difficulty": "orta",
+  "createdAt": "2026-11-04T14:58:33.625Z",
+  "reviewNote": "Rejected: multiple-answer comparison and an incomplete, incorrect question; further editorial review required."
+}

@@ -56,15 +56,15 @@ export function renderLearningVisual(type, data, esc, shape) {
   });
   return {art,width:480,height:Math.max(300,y+28)};
  }
- if(type==='cards') {
-  const labels={correct:'A',wrong:'B',first:'A',second:'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
+ if(['cards','plainCards','numberedCards'].includes(type)) {
+  const labels={correct:'A',wrong:'B',first:type==='numberedCards'?'1':'A',second:type==='numberedCards'?'2':'B',text:'Bilgi',konu:'Konu',seviye:'Seviye',beceri:'Beceri'};
   const lines=Object.entries(data).filter(([,v])=>['string','number'].includes(typeof v));
   let y=96,art='';
   for(const [key,value] of lines) {
    const words=String(value).split(/\s+/),wrapped=[''];for(const word of words){if((wrapped.at(-1)+' '+word).length>46)wrapped.push(word);else wrapped[wrapped.length-1]+=(wrapped.at(-1)?' ':'')+word;}
-   const height=wrapped.length*30+44;art+=rect(45,y,630,height,'#f1f5f9');
-   art+=`<text x="65" y="${y+27}" class="value">${esc(labels[key]||'Bilgi')}</text>`;
-   art+=wrapped.map((line,i)=>`<text x="65" y="${y+57+i*30}" style="font:22px Arial;fill:#1f2937">${esc(line)}</text>`).join('');y+=height+14;
+   const plain=type==='plainCards',height=wrapped.length*30+(plain?30:44);art+=rect(45,y,630,height,'#f1f5f9');
+   if(!plain)art+=`<text x="65" y="${y+27}" class="value">${esc(labels[key]||'Bilgi')}</text>`;
+   art+=wrapped.map((line,i)=>`<text x="65" y="${y+(plain?37:57)+i*30}" style="font:22px Arial;fill:#1f2937">${esc(line)}</text>`).join('');y+=height+14;
   }
   return {art,height:Math.max(300,y+28)};
  }

@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "question": "Bir terzi, 3 metre uzunluğundaki bir kumaşın önce 125 santimetresini, daha sonra ise 90 santimetresini kesip kullanmıştır. Bu kumaştan geriye kaç santimetre kalmıştır?",
+      "choices": [
+        "85 cm",
+        "175 cm",
+        "210 cm",
+        "285 cm"
+      ],
+      "correctAnswer": "85 cm",
+      "explanation": "Öncelikle 3 metrenin kaç santimetre olduğunu bulmalıyız. 1 metre 100 cm olduğundan 3 metre 300 cm'dir. Terzinin kullandığı toplam kumaş miktarını bulmak için kesilen parçaları toplarız: 125 + 90 = 215 cm. Başlangıçtaki kumaştan kullanılan miktarı çıkararak kalan uzunluğu buluruz: 300 - 215 = 85 cm kalmıştır.",
+      "subSkill": "Uzunluk birimleri arasında dönüşüm yapma ve problem çözme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Okulun bahçesinde düzenlenen koşu yarışmasında Kerem 1 kilometre 250 metre, Deniz ise 980 metre koşmuştur. Buna göre, Kerem, Deniz'den kaç metre daha fazla koşmuştur?",
+      "choices": [
+        "170 m",
+        "250 m",
+        "270 m",
+        "350 m"
+      ],
+      "correctAnswer": "270 m",
+      "explanation": "Kerem'in koştuğu mesafeyi tamamen metre cinsine çevirmeliyiz. 1 kilometre 1000 metredir. 1000 + 250 = 1250 metre. Deniz'in koştuğu mesafe zaten 980 metredir. İkisi arasındaki farkı bulmak için çıkarma işlemi yaparız: 1250 - 980 = 270 metre daha fazla koşmuştur.",
+      "subSkill": "Kilometre ve metre birimlerini dönüştürerek fark hesaplama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Çevresi 240 santimetre olan kare şeklindeki bir masanın bir kenarının uzunluğu kaç milimetredir?",
+      "choices": [
+        "60 mm",
+        "600 mm",
+        "2400 mm",
+        "6000 mm"
+      ],
+      "correctAnswer": "600 mm",
+      "explanation": "Karenin 4 eşit kenarı vardır. Masanın bir kenarının santimetre cinsinden uzunluğunu bulmak için çevresini 4'e böleriz: 240 / 4 = 60 cm. Soru bizden cevabı milimetre cinsinden istemektedir. 1 santimetre 10 milimetre olduğundan, 60 cm'yi 10 ile çarparız: 60 x 10 = 600 milimetre eder.",
+      "subSkill": "Geometrik şekil çevresinden kenar bulma ve milimetre dönüşümü",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Günde 2 defa okul ile evleri arasında gidiş-dönüş yürüyen Zeynep, tek yönlü bu yolda günde toplam kaç metre yürümüş olur?",
+      "choices": [
+        "1500 m",
+        "2400 m",
+        "3000 m",
+        "6000 m"
+      ],
+      "correctAnswer": "3000 m",
+      "explanation": "Görseldeki bilgiye göre ev ile okul arası mesafe 750 metredir. Zeynep bir gidiş-dönüşte 750 + 750 = 1500 metre yürür. Günde 2 defa bu yolu gittiği için toplam yürüyüş mesafesini bulmak üzere 1500'ü 2 ile çarparız: 1500 x 2 = 3000 metre yürümüş olur.",
+      "subSkill": "Görseldeki veriyi yorumlayarak günlük toplam mesafe hesaplama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "Bir tarafında ev diğer tarafında okul olan ve aradaki mesafenin 750 metre olduğunu gösteren yol çizimi",
+      "imageAlt": "Ev ve okul arasındaki mesafenin 750 metre olduğunu gösteren yol şeması."
+    },
+    {
+      "question": "Uzunluğu 2 metre olan bir tahta çubuk, her biri 40 santimetre uzunluğunda kaç eş parçaya ayrılabilir?",
+      "choices": [
+        "4 parça",
+        "5 parça",
+        "20 parça",
+        "50 parça"
+      ],
+      "correctAnswer": "5 parça",
+      "explanation": "Öncelikle tahta çubuğun boyunu parçaların boyu ile aynı birime çevirmeliyiz. 2 metre, 2 x 100 = 200 santimetredir. 200 santimetrelik çubuğu 40 santimetrelik eş parçalara ayırmak için bölme işlemi yaparız: 200 / 40 = 5 parça elde edilir.",
+      "subSkill": "Uzunlukları eş parçalara ayırma ve birim uyumu sağlama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir karıncanın boyu ortalama 9 milimetredir. Bu karınca arka arkaya hiç boşluk bırakmadan düz bir çizgide 20 kez yürürse toplam kaç santimetre yol almış olur?",
+      "choices": [
+        "18 cm",
+        "180 cm",
+        "1800 cm",
+        "18000 cm"
+      ],
+      "correctAnswer": "18 cm",
+      "explanation": "Karıncanın 20 adımda toplam kaç milimetre yürüdüğünü bulmak için çarpma yaparız: 9 x 20 = 180 milimetre. Soru bizden sonucu santimetre cinsinden istemektedir. Milimetreyi santimetreye çevirmek için 10'a böleriz: 180 / 10 = 18 santimetre yol almıştır.",
+      "subSkill": "Çoklu uzunluk hesabı yapma ve milimetreyi santimetreye çevirme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Ayşe'nin boyu 1 metre 35 santimetredir. Annesinin boyu ise Ayşe'den 38 santimetre uzundur. Buna göre annenin boyu kaç santimetredir?",
+      "choices": [
+        "163 cm",
+        "168 cm",
+        "173 cm",
+        "178 cm"
+      ],
+      "correctAnswer": "173 cm",
+      "explanation": "Ayşe'nin boyunu tamamen santimetre cinsine çevirerek işlem yapmalıyız. 1 metre 100 cm olduğundan Ayşe'nin boyu 100 + 35 = 135 santimetredir. Annenin boyu Ayşe'den 38 cm uzun olduğu için toplama yaparız: 135 + 38 = 173 santimetre buluruz.",
+      "subSkill": "Metre ve santimetre cinsinden verilen boy uzunluklarını toplama",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Uzun kenarı 85 cm, kısa kenarı ise 45 cm olan diktörtgen şeklindeki bir tablonun çevresine iki sıra renkli kurdele sarılacaktır. Bu iş için kaç metre kurdele gereklidir?",
+      "choices": [
+        "260 cm",
+        "520 cm",
+        "5 metre 20 santimetre",
+        "10 metre 40 santimetre"
+      ],
+      "correctAnswer": "5 metre 20 santimetre",
+      "explanation": "Dikdörtgenin çevresini bulmak için tüm kenarları toplarız: (85 + 45) x 2 = 130 x 2 = 260 cm. Tablonun etrafına iki sıra kurdele sarılacağı için çevreyi 2 ile çarparız: 260 x 2 = 520 santimetre kurdele gerekir. 520 santimetre, 5 metre 20 santimetreye eşittir.",
+      "subSkill": "Dikdörtgen çevresi hesaplama ve çoklu sıra uzunluk bulma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Bir otobüs firması İstanbul ile Ankara arasındaki 450 kilometrelik yolun 320 bin metresini gitmiştir. Otobüsün hedefe varmasına kaç kilometre kalmıştır?",
+      "choices": [
+        "130 km",
+        "180 km",
+        "318 km",
+        "770 km"
+      ],
+      "correctAnswer": "130 km",
+      "explanation": "Gidilen mesafeyi kilometre cinsine çevirmeliyiz. 320.000 metre, 1000'e bölünerek kilometreye çevrilir: 320.000 / 1000 = 320 kilometredir. Toplam yoldan gidilen yolu çıkararak kalan mesafeyi buluruz: 450 - 320 = 130 kilometre kalmıştır.",
+      "subSkill": "Metreyi kilometreye çevirerek kalan mesafe hesabı yapma",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    },
+    {
+      "question": "Salih, uzunluğu 6 metre olan bir ipin ucundan her gün 15 santimetre kesmektedir. Buna göre Salih bu işlemi 8 gün boyunca tekrarladığında ipin boyu kaç santimetre olur?",
+      "choices": [
+        "120 cm",
+        "480 cm",
+        "570 cm",
+        "600 cm"
+      ],
+      "correctAnswer": "480 cm",
+      "explanation": "İpin başlangıçtaki boyunu santimetreye çeviririz: 6 metre = 600 santimetredir. Salih 8 gün boyunca her gün 15 cm kestiğine göre toplam kesilen miktarı buluruz: 15 x 8 = 120 santimetre kesilmiştir. Başlangıçtaki boydan kesilen miktarı çıkararak kalan boyu buluruz: 600 - 120 = 480 santimetre kalır.",
+      "subSkill": "Zamanla azalan uzunluk problemlerini çözme ve birim dönüştürme",
+      "questionType": "Çoktan Seçmeli",
+      "imageBrief": "",
+      "imageAlt": ""
+    }
+  ],
+  "status": "DRAFT_NOT_VALIDATED",
+  "model": "gemini-3.5-flash-lite",
+  "grade": 4,
+  "subject": "matematik",
+  "topic": "uzunluk-olcme",
+  "difficulty": "orta",
+  "createdAt": "2026-11-04T15:58:05.313Z",
+  "reviewNote": "Original Gemini draft; semantic and language issues require editorial correction."
+}

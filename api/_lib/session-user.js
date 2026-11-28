@@ -1,3 +1,4 @@
+import {sessionVersionMatches} from './session-version.js';
 import { findUser, getRows } from "./sheets.js";
 import { cookieValue, verifySession } from "./security.js";
 
@@ -14,7 +15,7 @@ export async function requireSessionUser(req, res) {
   }
   const { rows } = await getRows();
   const row = findUser(rows, String(data.sub).toLowerCase());
-  if (!row || String(row[9] || "").toLocaleLowerCase("tr-TR") !== "aktif") {
+  if (!row || !sessionVersionMatches(data, row) || String(row[9] || "").toLocaleLowerCase("tr-TR") !== "aktif") {
     res.status(401).json({ success: false, message: "Oturum bulunamadı." });
     return null;
   }

@@ -46,7 +46,7 @@ function inspect(test, question) {
     if (!fs.existsSync(question.image)) definitive.push("Görsel dosyası eksik");
     if (!question.imageAlt?.trim()) definitive.push("Görsel alt metni eksik");
     if (question.imageAlt && correct && question.imageAlt.toLocaleLowerCase("tr-TR").includes(String(correct).toLocaleLowerCase("tr-TR"))) {
-      definitive.push("Alt metin doğru cevabı açıklıyor");
+      review.push("Alt metin cevap sözcüğünü içeriyor; görsel kanıtın erişilebilir karşılığı mı, anahtar sızıntısı mı incelenmeli");
     }
   }
 
@@ -152,11 +152,11 @@ const falseRows = falsePositives.length
   : "| — | — | Yok |";
 const visualRows = visualSample.map((item) => `| ${item.grade} | ${item.subjectName} | ${item.difficulty} | ${item.id} | ${item.status} | ${item.byteSize} |`).join("\n");
 
-fs.writeFileSync("docs/PEDAGOGICAL-SAMPLE-REVIEW.md", `# Pedagojik örnekleme — 20 Eylül 2026
+fs.writeFileSync("docs/PEDAGOGICAL-SAMPLE-REVIEW.md", `# Otomatik pedagojik örnekleme
 
 ## Yöntem
 
-Seed: \`${SEED}\`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. ${combinations.length} birleşimde toplam ${sampled.length} soru incelendi. Örnekleme; cevap indeksini ve seçenek tekilliğini, yaşa göre kök uzunluğunu, zorluk işaretlerini, belirgin jenerik çeldiricileri, çözümün öğretici adımını ve görsel dosya/alt metin bütünlüğünü kontrol eder. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
+Seed: \`${SEED}\`. Her sınıf × ders × zorluk birleşiminden beş soru, soru kimliğinin kararlı hash sırasına göre seçildi. ${combinations.length} birleşimde toplam ${sampled.length} soru incelendi. Örnekleme; cevap indeksi ve seçenek tekilliği, kök ve açıklama uzunluğu gibi sezgisel işaretler, belirgin jenerik çeldiriciler ve görsel dosya/alt metin varlığına bakar. Açıklamanın gerçekten öğretip öğretmediğini, cevabın anlamsal doğruluğunu veya görsel uyumunu otomatik olarak belirlemez. Otomasyon akademik veya resmî müfredat onayı değildir; sonuçlar kaynak soruyla birlikte editoryal olarak yorumlanmalıdır.
 
 ## Dağılım
 
@@ -182,7 +182,7 @@ ${falseRows}
 
 ## Görsel örneklem
 
-Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'lerde sabit piksel ölçüsü yerine \`viewBox\` kullanımı, dosya boyutu, alt metin ve cevap sızıntısı kontrol edildi. Mobil kesilme ve erişilebilirlik ayrıca Playwright 320–1440 px ile axe A/AA turunda doğrulandı. 4. sınıf bankasında görsel soru bulunmadığı için pedagojik gerekliliği olmayan dekoratif SVG üretilmedi.
+Görsel içeren her sınıf/ders grubundan iki soru seçildi. Responsive SVG'lerde sabit piksel ölçüsü yerine \`viewBox\` kullanımı, dosya boyutu, alt metin ve cevap sızıntısı kontrol edildi. Mobil kesilme ve erişilebilirlik ayrıca Playwright 320–1440 px ile axe A/AA turunda doğrulandı. Bu örnekleme görselin bütün öğretim değerini veya canlı arayüzü doğrulamaz.
 
 | Sınıf | Ders | Zorluk | Soru | Sonuç | Bayt |
 |---:|---|---|---|---|---:|
@@ -190,7 +190,7 @@ ${visualRows}
 
 ## Karar
 
-${realProblems.length ? "**FAIL:** Kesin örneklem problemleri düzeltilmeden production gate geçmez." : "**PASS:** Deterministik örneklemde kesin yapısal, cevap, dosya veya belirgin çeldirici hatası bulunmadı."} WARNING satırları gerçek hata olarak sayılmaz; bağlamı ve öğretim hedefi nedeniyle editoryal takip önerisidir. 3.720 sorunun tamamının öğretmen onayı aldığı iddia edilmez.
+${realProblems.length ? "**FAIL:** Kesin örneklem problemleri düzeltilmeden production gate geçmez." : "**PASS:** Deterministik örneklemde geçersiz cevap indeksi, eksik dosya veya belirgin jenerik çeldirici bulunmadı."} WARNING satırları gerçek hata olarak sayılmaz; bağlamı ve öğretim hedefi nedeniyle editoryal takip önerisidir. ${tests.flatMap(t=>t.questions).length} sorunun tamamının öğretmen onayı aldığı iddia edilmez.
 `);
 
 console.log(JSON.stringify({ sampledQuestions: sampled.length, combinations: combinations.length, byGrade: report.byGrade, bySubject: report.bySubject, byDifficulty: report.byDifficulty, statusCounts, realProblems: realProblems.length, reviewSuggestions: reviewSuggestions.length, falsePositives: falsePositives.length, visualSample: visualSample.length, visualFailures: visualSample.filter((item) => item.status === "FAIL").length }));
