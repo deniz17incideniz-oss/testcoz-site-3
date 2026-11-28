@@ -2,6 +2,18 @@ import { renderFinalVisual } from "./render-final-visual.mjs";
 // Explicit renderers for source-defined diagrams; never infer answer labels.
 export function renderLearningVisual(type, data, esc, shape) {
  if(type==='finalDiagram') return renderFinalVisual(data,esc);
+ if(type==='readingGoalPictograph') {
+  let art=`<text x="180" y="102" text-anchor="middle" style="font:600 19px Arial;fill:#334155">Her kitap resmi</text><text x="180" y="125" text-anchor="middle" style="font:600 19px Arial;fill:#334155">${esc(data.unit)} kitabı gösterir.</text>`;
+  data.groups.forEach((group,row)=>{
+   const y=145+row*65, color=row ? '#0f766e' : '#2563eb';
+   art+=`<rect x="24" y="${y}" width="312" height="55" rx="12" fill="${row ? '#f0fdfa' : '#eff6ff'}" stroke="${color}" stroke-width="2"/><text x="45" y="${y+35}" style="font:700 19px Arial;fill:#1e293b">${esc(group.label)}</text>`;
+   for(let i=0;i<group.count;i++){
+    const x=91+i*30;
+    art+=`<g class="book-icon"><rect x="${x}" y="${y+13}" width="22" height="29" rx="2" fill="${color}"/><path d="M${x+5} ${y+14}v27 M${x+9} ${y+19}h9 M${x+9} ${y+24}h9" fill="none" stroke="#fff" stroke-width="1.5"/></g>`;
+   }
+  });
+  return {art,width:360,height:300};
+ }
  if(type==='pairedPictograph') {
   let art = `<text x="180" y="105" text-anchor="middle" style="font:600 21px Arial;fill:#334155">Her kare ${esc(data.unit)} kitabı gösterir.</text>`;
   data.groups.forEach((group,groupIndex)=>{

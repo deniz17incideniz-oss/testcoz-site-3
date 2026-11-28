@@ -12,4 +12,15 @@
     imageAlt: 'Her kare 4 kitabı gösterir. 4-A: masal 5 kare, bilim 3 kare, şiir 2 kare. 4-B: masal 3 kare, bilim 5 kare, şiir 3 kare.',
     questionType: 'gorsel-okuma', subSkill: 'Şekil grafiğini yorumlama'
   });
+  // Okuma ve bağış hedefi aynı şey olmadığından senaryoyu okuma hedefi olarak netleştir.
+  const readingQuestion = test.questions[9];
+  const readingChoices = ['3', '4', '6', '2'];
+  Object.assign(readingQuestion, {
+    question: '4-A ve 4-B sınıfları birlikte 100 kitap okuma hedefi belirledi. Grafik, bu sınıfların şimdiye kadar okuduğu kitap sayılarını gösteriyor. 4-B sınıfındaki 22 öğrenci, hedefe ulaşmak için kalan kitapların her birini yalnız bir öğrenci okuyacak şekilde eşit paylaşıyor. Buna göre her öğrenci kaç kitap okuyacaktır?',
+    choices: readingChoices, options: readingChoices.slice(), correctAnswer: 3,
+    explanation: 'Her kitap resmi 4 kitabı gösterir. Şimdiye kadar 4-A 6 × 4 = 24, 4-B 8 × 4 = 32 kitap okumuştur. Birlikte 24 + 32 = 56 kitap okuduklarından hedefe 100 − 56 = 44 kitap kalır. 44 kitap 22 öğrenciye eşit paylaştırılırsa her öğrenci 44 ÷ 22 = 2 kitap okur.',
+    visual: {type:'readingGoalPictograph', title:'Okunan kitaplar', data:{unit:4,groups:[{label:'4-A',count:6},{label:'4-B',count:8}]}},
+    imageAlt: 'Her kitap resmi 4 kitabı gösterir. 4-A için 6 kitap resmi, 4-B için 8 kitap resmi vardır.',
+    questionType: 'gorsel-okuma', subSkill: 'Şekil grafiğini yorumlama ve problem çözme'
+  });
 })();
