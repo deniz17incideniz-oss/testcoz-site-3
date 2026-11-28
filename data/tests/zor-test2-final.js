@@ -15163,15 +15163,15 @@
     "questions": [
       {
         "id": "T2-G4-TÜRK-NOKTAL-01",
-        "question": "Metin: \"Eski zamanlarda, küçük bir köyde yaşayan Ali, her sabah güneş doğmadan kalkar, koyunlarını otlatmak için yeşil tepelere çıkarırdı. Bir gün, sürüsünü otlatırken çalılıkların arasında yaralı bir kartal buldu. Kartalı alıp evine götürdü, günlerce ona baktı. Kartal iyileştiğinde ise onu gökyüzüne geri bıraktı.\"\nBu hikayenin **zaman** ve **mekan (yer)** unsurları hangi seçenekte doğru verilmiştir?",
+        "question": "“Pazardan elma( ) armut ve muz aldık( )” cümlesinde boşluklara sırasıyla hangi işaretler getirilmelidir?",
         "choices": [
-          "Zaman: Gece / Mekan: Şehir",
-          "Zaman: Öğle vakti / Mekan: Orman",
-          "Zaman: Eski zamanlar / Mekan: Küçük bir köy",
-          "Zaman: Kış mevsimi / Mekan: Dağ evi"
+          ", ve .",
+          ", ve ?",
+          ". ve .",
+          ": ve ."
         ],
-        "correctAnswer": 2,
-        "explanation": "Metin ‘eski zamanlarda’ ve ‘küçük bir köyde’ sözleriyle açılır. Bunlar hikâyenin zamanı ve yerini doğrudan bildirir.",
+        "correctAnswer": 0,
+        "explanation": "Sıralanan eş görevli sözcüklerden elma ve armudun arasına virgül; tamamlanmış bildirme cümlesinin sonuna nokta gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_1",
@@ -15179,15 +15179,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-02",
-        "question": "Bir metnin ana fikri, yazarın okuyucuya vermek istediği asıl mesajdır.\nMetin: \"İnsanlar genellikle başarılı olanların sadece şanslı olduklarını düşünürler. Oysa o başarının ardında uykusuz geceler, bitmek bilmeyen denemeler ve asla pes etmeme kararlılığı yatar. Bir buzdağının sadece suyun üzerindeki kısmını görürüz, altındaki devasa kütleyi fark etmeyiz.\"\nBu metnin **ana fikri** nedir?",
+        "question": "Hangi cümlede virgül, seslenilen kişileri belirtmek için kullanılmıştır?",
         "choices": [
-          "Başarılı olmak için her zaman şansa ihtiyaç vardır.",
-          "İnsanlar uykusuz kalmadan başarılı olamazlar.",
-          "Buzdağları gemiler için çok tehlikelidir.",
-          "Görünen başarıların arkasında büyük bir emek ve azim vardır."
+          "Kırmızı, sarı ve mavi renkleri seçti.",
+          "Çocuklar, kitaplarınızı açın.",
+          "Elma, armut ve erik aldım.",
+          "Masada kalem, defter ve silgi var."
         ],
-        "correctAnswer": 3,
-        "explanation": "Metnin geneli değerlendirildiğinde yazarın okuyucuya vermek istediği asıl mesaj 'Görünen başarıların arkasında büyük bir emek ve azim vardır.' yargısıdır.",
+        "correctAnswer": 1,
+        "explanation": "“Çocuklar” sözü dinleyenlere seslenir; seslenme sözünden sonra virgül kullanılır. Diğer cümlelerde virgül, sıralanan sözcükleri ayırır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_2",
@@ -15195,15 +15195,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-03",
-        "question": "Metin: \"Kış mevsimi gelince ormandaki telaş sona erer. Ayılar inlerine çekilir, sincaplar son cevizlerini depolar, göçmen kuşlar ise çoktan sıcak ülkelere gitmiştir. Orman, beyaz ve sessiz bir yorganın altına girip baharı beklemeye başlar.\"\nBu metne en uygun **başlık** aşağıdakilerden hangisidir?",
+        "question": "Aşağıdaki cümlelerin hangisinin sonuna soru işareti getirilmelidir?",
         "choices": [
-          "Sincapların Beslenmesi",
-          "Göçmen Kuşların Yolculuğu",
-          "Ormanda Kış Uykusu ve Sessizlik",
-          "Baharın Gelişi"
+          "Kütüphanenin saat kaçta açılacağını sordum",
+          "Kütüphanenin saat kaçta açılacağını öğrenmeliyiz",
+          "Kütüphanenin saat kaçta açıldığını biliyor musun",
+          "Kütüphanenin saat kaçta açıldığını merak ettim"
         ],
         "correctAnswer": 2,
-        "explanation": "Metnin konusunu ve içeriğini en iyi kapsayan başlık 'Ormanda Kış Uykusu ve Sessizlik' olmalıdır.",
+        "explanation": "“Biliyor musun” doğrudan soru sorar; soru işaretiyle tamamlanır. Diğer cümleler soru sözcükleri içerse de bir durumu bildirir ve noktayla tamamlanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_3",
@@ -15211,15 +15211,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-04",
-        "question": "Aşağıdaki cümlelerin hangisinde \"sebep-sonuç\" (neden-sonuç) ilişkisi **yoktur**?",
+        "question": "“Çantamda üç eşya var( ) defter, kalem ve silgi( ) Bunlardan birini alır mısın( )” metnindeki boşluklara sırasıyla hangi işaretler getirilmelidir?",
         "choices": [
-          "Kar yağdığı için yollar kapandı.",
-          "Sınava iyi hazırlandığından yüksek not aldı.",
-          "Düzenli beslenmediği için sık sık hasta oluyor.",
-          "Kitap okumak için kütüphaneye gitti."
+          ".  .  ?",
+          ":  ?  .",
+          ",  .  ?",
+          ":  .  ?"
         ],
         "correctAnswer": 3,
-        "explanation": "\"Kitap okumak için\" ifadesi amaç-sonuç bildirir.",
+        "explanation": "Üç eşyanın sıralanmasından önce iki nokta, tamamlanan listenin sonuna nokta, soru cümlesinin sonuna soru işareti gelir.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_4",
@@ -15227,15 +15227,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-05",
-        "question": "\"Baharın müjdecisi olan leylekler, gökyüzünde birer beyaz inci gibi süzülürken tarlalardaki çiftçiler başlarını kaldırıp onlara umutla bakardı. Çünkü leyleklerin gelişi, toprağın canlanması ve bereketin habercisiydi.\"\nBu metinde leylekler aşağıdakilerden hangisine **benzetilmiştir**?",
+        "question": "Hangi cümlede iki özel ada gelen ekler kesme işaretiyle doğru ayrılmıştır?",
         "choices": [
-          "Çiftçiye",
-          "Beyaz inciye",
-          "Bahara",
-          "Toprağa"
+          "Ece’ye İzmir’i anlattım.",
+          "Eceye İzmir’i anlattım.",
+          "Ece’ye İzmiri anlattım.",
+          "Eceye İzmiri anlattım."
         ],
-        "correctAnswer": 1,
-        "explanation": "‘Birer beyaz inci gibi’ sözündeki gibi benzetmeyi gösterir. Leylekler renk ve görünüş bakımından beyaz inciye benzetilmiştir.",
+        "correctAnswer": 0,
+        "explanation": "Ece ve İzmir özel adlarına gelen “ye” ve “i” ekleri ayrı ayrı kesme işaretiyle ayrılır; işaretten sonra boşluk bırakılmaz.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_5",
@@ -15243,39 +15243,43 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-06",
-        "question": "Bir hikaye haritasında (unsurlarında) aşağıdakilerden hangisi **bulunmaz**?",
+        "question": "Gün, ay ve yılı gösteren sayıların arasına nokta konulacaktır. Görseldeki 23 Nisan 2026 tarihi ve onu izleyen 24 Nisan 2026 tarihi hangi seçenekte bu kurala uygun yazılmıştır?",
         "choices": [
-          "Kahramanlar (Şahıs Kadrosu)",
-          "Olay Örgüsü",
-          "Zaman",
-          "Kafiye (Uyak) Düzeni"
+          "23.04,2026 – 24.04.2026",
+          "23.04.2026 – 24.04.2026",
+          "23.04.2026 – 24/04.2026",
+          "23/04.2026 – 24.04.2026"
         ],
-        "correctAnswer": 3,
-        "explanation": "Kafiye düzeni şiirlere aittir, hikayelere değil.",
+        "correctAnswer": 1,
+        "explanation": "Gün, ay ve yılı gösteren sayıların iki tarih için de noktayla ayrılması istenmiştir: 23.04.2026 ve 24.04.2026.",
         "image": "images/tests/4-sinif-turkce-noktalama-isaretleri-zor-test-2-soru-6.svg",
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_6",
         "sourceType": "EXISTING_V4B",
         "visual": {
-          "type": "finalDiagram",
-          "title": "Hikâye üzerinde düşünelim",
+          "type": "dateComponents",
+          "title": "Tarihin bölümleri",
           "data": {
-            "kind": "story"
+            "steps": [
+              "Gün: 23",
+              "Ay: 04",
+              "Yıl: 2026"
+            ]
           }
         },
-        "imageAlt": "Hikâye üzerinde düşünelim"
+        "imageAlt": "Gün: 23; ay: 04; yıl: 2026."
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-07",
-        "question": "Metin: \"Bilge kaplumbağa, yavaş ama emin adımlarla hedefine ilerlerken, tavşan ağacın gölgesinde uyuyakalmıştı. Uyandığında kaplumbağanın yarışı bitirdiğini görüp büyük bir utanç yaşadı. O günden sonra kimseyi küçümsememesi gerektiğini öğrendi.\"\nBu metindeki **ana kahramanlar** kimlerdir?",
+        "question": "“Eyvah( ) Otobüsü kaçırdık( )” cümlelerinde ilk boşluğa duygu belirten işaret, ikinci boşluğa bildirme cümlesini bitiren işaret getirilecektir. Sıra hangisidir?",
         "choices": [
-          "Bilge Kaplumbağa ve Tavşan",
-          "Ağaç ve Gölgeler",
-          "Orman ve Yarış Yolu",
-          "Hakem ve Seyirciler"
+          "! ve ?",
+          ". ve .",
+          "! ve .",
+          ", ve ."
         ],
-        "correctAnswer": 0,
-        "explanation": "Yarışın gelişimini ve sonucu kaplumbağa ile tavşanın davranışları belirler. Ağaç ve gölge olayın arka planıdır.",
+        "correctAnswer": 2,
+        "explanation": "“Eyvah” üzüntü bildirir ve ardından ünlem kullanılabilir. İkinci cümle bildirme cümlesi olarak noktayla tamamlanır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_7",
@@ -15283,15 +15287,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-08",
-        "question": "\"Aslan, fareye gülerek bakmış. 'Senin gibi küçücük bir canlı bana nasıl yardım edebilir ki?' demiş. Ancak aylar sonra aslan avcıların ağına düştüğünde, o küçücük fare gelip ipleri kemirmiş ve aslanı kurtarmış.\"\nBu masaldan çıkarılması gereken **en önemli ders (ana fikir)** nedir?",
+        "question": "Hangi cümlede nokta, bir sayının sıra bildirdiğini göstermek için kullanılmıştır?",
         "choices": [
-          "Aslanlar dikkatsiz hayvanlardır.",
-          "Farelerin dişleri çok keskindir.",
-          "Kimse dış görünüşüne veya küçüklüğüne bakılarak küçümsenmemelidir.",
-          "Avcılardan her zaman uzak durulmalıdır."
+          "Toplantı 12.05.2026 tarihinde yapılacak.",
+          "Dr. Selin sınıfa geldi.",
+          "Bugün erken kalktım.",
+          "Yarışta 3. oldum."
         ],
-        "correctAnswer": 2,
-        "explanation": "Metnin geneli değerlendirildiğinde yazarın okuyucuya vermek istediği asıl mesaj 'Kimse dış görünüşüne veya küçüklüğüne bakılarak küçümsenmemelidir.' yargısıdır.",
+        "correctAnswer": 3,
+        "explanation": "“3.” yazılışı “üçüncü” diye okunur; nokta sayıdan sonra sıra bildirmek için kullanılmıştır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_8",
@@ -15299,15 +15303,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-09",
-        "question": "(I) Telefon ekranlarına bakmaktan çevremizdeki güzellikleri göremiyoruz. (II) Ağaçların çiçek açtığını, gökyüzünün rengini fark etmiyoruz. (III) Sosyal medya, insanların birbiriyle daha hızlı iletişim kurmasını sağlar. (IV) Oysa başımızı kaldırıp doğaya baksak, hayatın sanal dünyadan ibaret olmadığını anlayacağız.\nBu paragrafta anlam bütünlüğünü bozan (farklı bir konudan bahseden) cümle hangisidir?",
+        "question": "İlk cümlede konuşanın sözünü tamamlamadığı, ikinci cümlede ise yanıt beklediği hangi yazımla gösterilmiştir?",
         "choices": [
-          "III",
-          "II",
-          "I",
-          "IV"
+          "Sana bir şey söyleyecektim... Beni dinler misin?",
+          "Sana bir şey söyleyecektim... Beni dinler misin.",
+          "Sana bir şey söyleyecektim. Beni dinler misin?",
+          "Sana bir şey söyleyecektim, Beni dinler misin?"
         ],
         "correctAnswer": 0,
-        "explanation": "Diğer cümleler teknolojinin bizi doğadan koparmasını eleştirirken, III. cümle teknolojinin faydasından bahsetmektedir.",
+        "explanation": "Tamamlanmamış sözün sonunda üç nokta, yanıt bekleyen soru cümlesinin sonunda soru işareti kullanılır.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_9",
@@ -15315,15 +15319,15 @@
       },
       {
         "id": "T2-G4-TÜRK-NOKTAL-10",
-        "question": "Metin: \"Deniz, o sabah çok heyecanlıydı. Aylardır hazırlandığı piyano resitali bugün yapılacaktı. Parmakları hafifçe titriyordu ama tuşlara dokunduğu an tüm korkusu uçup gitti.\"\nBu metindeki olayın yaşandığı **zaman dilimi** ve kahramanın hissettiği **duygu** hangisidir?",
+        "question": "Aşağıdaki cümlelerden hangisinde özel ada gelen ek ve cümlenin sonundaki işaret doğru kullanılmıştır?",
         "choices": [
-          "Akşam - Korku",
-          "O sabah - Heyecan",
-          "Dün gece - Üzüntü",
-          "Öğle vakti - Öfke"
+          "Ece İzmir’e yarın gidecek:",
+          "Ece İzmir’e yarın gidecek.",
+          "Ece İzmire yarın gidecek.",
+          "Ece İzmir’e yarın gidecek?"
         ],
         "correctAnswer": 1,
-        "explanation": "Bu metindeki olayın yaşandığı **zaman dilimi** ve kahramanın hissettiği **duygu** 'O sabah - Heyecan' olarak bilinir.",
+        "explanation": "İzmir özel adına gelen “e” eki kesmeyle ayrılır; soru olmayan tamamlanmış bildirme cümlesi noktayla biter.",
         "image": null,
         "source": "zor-test2-final",
         "sourceId": "Q_4_sinif_turkce_konu4_okudugunu_anlama_10",
