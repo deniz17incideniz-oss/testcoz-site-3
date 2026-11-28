@@ -1,5 +1,6 @@
 import {test, expect} from '@playwright/test';
 import path from 'node:path';
+import os from 'node:os';
 import {tests} from '../scripts/load-bank.mjs';
 
 const slug='4-sinif-matematik-veri-zor-test-1';
@@ -42,7 +43,7 @@ for(const width of [320,375]) test(`Reading target pictograph and scoring at ${w
     expect(rows[row].at(-1).x+rows[row].at(-1).w).toBeLessThan(336);
   }
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();
-  if(width===320) await page.screenshot({path:path.join(process.env.TEMP,'testcoz-reading-target-320.png'),fullPage:true});
+  if(width===320) await page.screenshot({path:path.join(os.tmpdir(),'testcoz-reading-target-320.png'),fullPage:true});
   await page.locator('[data-choice="0"]').click();await page.locator('#nextQuestion').click();
   await expect(page.locator('.result-stat-val')).toHaveText(['0','1','9']);
   const review=page.locator('.wrong-item').last();
