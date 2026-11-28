@@ -3,13 +3,14 @@ import { test, expect } from '@playwright/test';
 const testUrl = '/test.html?sinif=4&ders=turkce&konu=noktalama-isaretleri&zorluk=zor&test=2';
 
 test('authored emphasis is readable while solving and reviewing a test', async ({ page }) => {
-  await page.goto(testUrl);
+  await page.goto('/test.html?sinif=1&ders=turkce&konu=guzel-davranislarimiz&zorluk=zor&test=2');
+  for (let i = 0; i < 3; i++) await page.locator('#skipQuestion').click();
   const question = page.locator('.question-text');
-  await expect(question.locator('strong')).toHaveText(['zaman', 'mekan (yer)']);
+  await expect(question.locator('strong')).toHaveText(['yanlıştır']);
   await expect(question).not.toContainText('**');
-  for (let i = 0; i < 10; i++) await page.locator('#skipQuestion').click();
-  const first = page.locator('.wrong-item').first();
-  await expect(first.locator('h3 strong')).toHaveText(['zaman', 'mekan (yer)']);
+  for (let i = 0; i < 7; i++) await page.locator('#skipQuestion').click();
+  const first = page.locator('.wrong-item').nth(3);
+  await expect(first.locator('h3 strong')).toHaveText(['yanlıştır']);
   await expect(first.locator('h3')).not.toContainText('**');
 });
 
